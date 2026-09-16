@@ -1,0 +1,34 @@
+# ============ TIBIA NEVIA PIPELINE — KONFIGURACJA ============
+# To jest jedyne miejsce, w ktorym zmieniasz zakres/czestotliwosc/zrodla.
+# Wszystkie skrypty czytaja ten plik (CLI nadpisuje config, patrz README).
+# Po zmianie zacommituj i zpushuj — Actions wezmie nowy config w kolejnym runie.
+
+world: Nevia  # serwer opcjonalnie PvP, staly
+
+# ---- HUNTY (hunt-analyser.com, publiczne sesje) ----
+hunts:
+  # Brackety levelowe. Kazdy dokleja wyniki do hunts.csv z danego dnia.
+  # vocations: [] = wszystkie; party: Solo / Duo / x3 / x4 / x5 / x6+
+  brackets:
+    - { min: 50,  max: 100, vocations: [Druid], party: [Solo], pages: 3 }
+    - { min: 100, max: 200, vocations: [Druid], party: [Solo], pages: 3 }
+    - { min: 200, max: 300, vocations: [Druid], party: [Solo], pages: 3 }
+  # Duo na niskich lvlach prawie nie istnieje w publicznych danych (zweryfikowane:
+  # duo 100-130 = 0, duo 80-150 = 1/strone), wiec duo ZAWSZE idzie z szerszego
+  # zakresu i bez filtra voc — sklad ED+EK filtrujesz potem po kolumnie party_comp.
+  duo: { min: 50, max: 300, vocations: [], party: [Duo], pages: 3 }
+
+# ---- CENY (api.tibiamarket.top) ----
+market:
+  top_n_history: 150  # dla ilu najbardziej handlowanych itemow sciagac historie 30d
+  history_days: 30    # "ten miesiac" — zwieksz do 90 dla dluzszej historii
+
+# ---- RANKINGI (build_gold.py) ----
+gold:
+  recent_days: 90            # odciecie starych huntow (np. sprzed nerfa golda 07.09.2026)
+  brackets: ["50-100", "100-200", "200-300"]  # pliki ranking_exp_<bracket>.csv itd.
+
+# ---- CZESTOTLIWOSC ----
+# Zmienia sie NIE tutaj tylko w .github/workflows/daily.yml, linia: cron: "0 5 * * *"
+# (GitHub Actions nie czyta crona z pliku — przyklad: "0 5,17 * * *" = 2x dziennie,
+#  "0 5 * * 1" = tylko w poniedzialki. Format: minuta godzina dzien-miesiaca miesiac dzien-tygodnia, UTC.)

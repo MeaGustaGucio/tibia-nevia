@@ -4,9 +4,12 @@ import json
 import pathlib
 import urllib.request
 
+from common import ROOT, load_config
+
+cfg = load_config()
 BASE = "https://api.tibiadata.com/v4"
-WORLD = "Nevia"
-OUT = pathlib.Path(__file__).resolve().parents[1] / "data" / "raw" / dt.date.today().isoformat()
+WORLD = cfg.get("world", "Nevia")
+OUT = ROOT / "data" / "raw" / dt.date.today().isoformat()
 OUT.mkdir(parents=True, exist_ok=True)
 
 ENDPOINTS = {

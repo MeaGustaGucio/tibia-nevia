@@ -18,13 +18,17 @@ import datetime as dt
 import glob
 import json
 import pathlib
+import shutil
 
-ROOT = pathlib.Path(__file__).resolve().parents[1]
+from common import ROOT, load_config
+
 GOLD = ROOT / "data" / "gold"
 GOLD.mkdir(parents=True, exist_ok=True)
+PAGES_DATA = ROOT / "docs" / "data"  # kopia dla GitHub Pages (docs/ = root strony)
+PAGES_DATA.mkdir(parents=True, exist_ok=True)
 
 COLS = ["id", "spawn", "hunt_date", "duration", "party_size", "party_comp",
-        "min_lvl", "max_lvl", "xp_h", "raw_xp_h", "balance_h", "has_creature_stats", "url"]
+        "min_lvl", "max_lvl", "avg_lvl", "xp_h", "raw_xp_h", "balance_h", "has_creature_stats", "url"]
 
 
 def parse_hunt_date(s: str):
@@ -53,7 +57,7 @@ def load_hunts(recent_days: int):
             stale += 1
     print(f"hunts total={len(ded)} fresh(<={recent_days}d)={len(fresh)} stale={stale}")
     for r in fresh:
-        for k in ("xp_h", "raw_xp_h", "balance_h", "party_size", "min_lvl", "max_lvl"):
+        for k in ("xp_h", "raw_xp_h", "balance_h", "party_size", "min_lvl", "max_lvl", "avg_lvl"):
             try:
                 r[k] = int(r.get(k) or 0)
             except ValueError:
@@ -81,18 +85,22 @@ def write(name: str, rows: list[dict]):
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--recent-days", type=int, default=90)
-    ap.add_argument("--brackets", default="50-100,100-200,200-300")
+    ap.add_argument("--config", default=None)
+    ap.add_argument("--recent-days", type=int, default=None)
+    ap.add_argument("--brackets", default=None, help="comma separated, np. '50-100,100-200'")
     a = ap.parse_args()
+    cfg = load_config(pathlib.Path(a.config) if a.config else None)
+    recent_days = a.recent_days if a.recent_days is not None else cfg["gold"]["recent_days"]
+    brackets = (a.brackets.split(",") if a.brackets else cfg["gold"]["brackets"])
 
-    hunts = load_hunts(a.recent_days)
+    hunts = load_hunts(recent_days)
     manual = load_manual_prices()
 
     write("ranking_exp", sorted(hunts, key=lambda r: r["xp_h"], reverse=True)[:50])
     write("ranking_profit", sorted(hunts, key=lambda r: r["balance_h"], reverse=True)[:50])
-    for b in a.brackets.split(","):
+    for b in brackets:
         lo, hi = (int(x) for x in b.strip().split("-"))
-        part = [r for r in hunts if r["min_lvl"] and lo <= (r["min_lvl"] + r["max_lvl"]) // 2 <= hi]
+        part = [r for r in hunts if r["avg_lvl"] and lo <= r["avg_lvl"] <= hi]
         tag = f"{lo}_{hi}"
         write(f"ranking_exp_{tag}", sorted(part, key=lambda r: r["xp_h"], reverse=True)[:50])
         write(f"ranking_profit_{tag}", sorted(part, key=lambda r: r["balance_h"], reverse=True)[:50])
@@ -100,7 +108,13 @@ def main() -> None:
 
     (GOLD / "build_info.json").write_text(
         json.dumps({"date": dt.date.today().isoformat(), "hunts": len(hunts),
-                    "recent_days": a.recent_days, "manual_prices": manual}, indent=1), encoding="utf-8")
+                    "recent_days": recent_days, "manual_prices": manual}, indent=1), encoding="utf-8")
+
+    # Kopia rankingow do docs/data/ — GitHub Pages serwuje caly folder docs/,
+    # wiec dashboard (docs/index.html) czyta te CSV bez zadnego backendu.
+    for p in list(GOLD.glob("ranking_*.csv")) + [GOLD / "build_info.json"]:
+        shutil.copy(p, PAGES_DATA / p.name)
+    print(f"copied {len(list(PAGES_DATA.glob('*')))} files -> {PAGES_DATA}")
     try:
         import openpyxl
 

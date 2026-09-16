@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Nevia — gdzie expić? EXP/h i profit/h</title>
+<style>
+  :root { --bg:#14110d; --panel:#1e1a14; --ink:#f0e6d2; --mut:#a89878; --acc:#e0a030; --good:#7bc47f; --bad:#e06c6c; }
+  * { box-sizing:border-box; }
+  body { font-family:system-ui,sans-serif; background:var(--bg); color:var(--ink); margin:0; padding:0 12px 40px; }
+  header { max-width:1100px; margin:0 auto; padding:20px 4px 8px; }
+  h1 { font-size:1.4rem; margin:0 0 4px; }
+  p.sub { color:var(--mut); margin:4px 0 12px; font-size:.9rem; }
+  .controls { max-width:1100px; margin:0 auto; display:flex; flex-wrap:wrap; gap:10px; align-items:end;
+    background:var(--panel); padding:12px; border-radius:10px; }
+  .controls label { display:flex; flex-direction:column; gap:4px; font-size:.8rem; color:var(--mut); }
+  select, input[type=text] { background:#2a241b; color:var(--ink); border:1px solid #4a4030; border-radius:6px; padding:6px 8px; }
+  .seg { display:flex; border:1px solid #4a4030; border-radius:6px; overflow:hidden; }
+  .seg button { background:#2a241b; color:var(--mut); border:0; padding:6px 12px; cursor:pointer; }
+  .seg button.on { background:var(--acc); color:#14110d; font-weight:700; }
+  main { max-width:1100px; margin:14px auto 0; display:grid; grid-template-columns:1fr; gap:14px; }
+  @media(min-width:900px){ main{ grid-template-columns:1.15fr .85fr; } }
+  .card { background:var(--panel); border-radius:10px; padding:12px; overflow:auto; }
+  table { width:100%; border-collapse:collapse; font-size:.82rem; }
+  th, td { text-align:left; padding:6px 8px; border-bottom:1px solid #332c20; white-space:nowrap; }
+  th { color:var(--mut); font-weight:600; position:sticky; top:0; background:var(--panel); }
+  td.num, th.num { text-align:right; font-variant-numeric:tabular-nums; }
+  tr:hover td { background:#262014; }
+  .pos { color:var(--good); } .neg { color:var(--bad); }
+  a { color:var(--acc); }
+  #meta { font-size:.8rem; color:var(--mut); }
+  .bar-row { display:grid; grid-template-columns:170px 1fr 90px; gap:8px; align-items:center; font-size:.78rem; margin:5px 0; }
+  .bar-track { background:#2a241b; border-radius:4px; height:14px; }
+  .bar-fill { background:var(--acc); height:14px; border-radius:4px; min-width:2px; }
+  footer { max-width:1100px; margin:18px auto 0; color:var(--mut); font-size:.78rem; }
+</style>
+</head>
+<body>
+<header>
+  <h1>⚔️ Nevia — gdzie expić?</h1>
+  <p class="sub">Rankingi spawnów z publicznych huntów (hunt-analyser.com), osobno <b>EXP/h</b> i <b>profit/h</b>.
+  Ceny loota: Nevia (tibiamarket.top) + ręczne ceny z gry. <span id="meta">ładowanie…</span></p>
+</header>
+<div class="controls">
+  <label>Bracket
+    <select id="bracket">
+      <option value="50_100">50–100</option>
+      <option value="100_200" selected>100–200</option>
+      <option value="200_300">200–300</option>
+    </select>
+  </label>
+  <label>Tryb
+    <span class="seg">
+      <button id="mExp" class="on">EXP/h</button><button id="mProfit">Profit/h</button>
+    </span>
+  </label>
+  <label>Party
+    <select id="party">
+      <option value="all">solo + duo</option>
+      <option value="1">solo</option>
+      <option value="2">duo/team</option>
+    </select>
+  </label>
+  <label>Szukaj spawna
+    <input type="text" id="q" placeholder="np. asura, hero, lizard" />
+  </label>
+</div>
+<main>
+  <div class="card"><table id="tbl"><thead><tr>
+    <th>#</th><th>Spawn</th><th>Party</th><th class="num">EXP/h</th><th class="num">Profit/h</th><th>Data</th><th>Link</th>
+  </tr></thead><tbody></tbody></table></div>
+  <div class="card"><h3 id="chartTitle" style="margin:4px 0 10px;font-size:1rem">Top 15</h3><div id="chart"></div></div>
+</main>
+<footer>
+  Źródła: hunt-analyser.com (publiczne sesje) • api.tibiamarket.top (ceny Nevia) • api.tibiadata.com (killstats/highscores).
+  Profit/h = Balance/h z hunta (proxy; pelna re-wycena po cenach Nevii w etapie 2).
+  Po nerfie golda 07.09.2026 stare hunty są odcinane (recent_days w config.yaml).
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

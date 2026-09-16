@@ -1,80 +1,91 @@
-# Tibia Nevia pipeline (114 ED + EK duo) — $0: GitHub Actions + Pages + R2
+# Tibia Nevia pipeline (ED + EK duo, zakres 50-300) — $0: GitHub Actions + Pages
 
-## Zweryfikowane źródła (16.09.2026, live curlami z tego komputera)
+## Zrodla (zweryfikowane 16.09.2026 live curlami z tego komputera)
 
-| Dane | Źródło | Status |
+| Dane | Zrodlo | Status |
 |---|---|---|
-| World Nevia (online, gracze) | `api.tibiadata.com/v4/world/Nevia` | ✅ 200, JSON bez klucza |
-| Kill statistics Nevia (co się bije, day/week) | `api.tibiadata.com/v4/killstatistics/Nevia` | ✅ 200 |
-| Highscores exp Nevia | `api.tibiadata.com/v4/highscores/Nevia/experience/all/1` | ✅ 200 |
-| Publiczne hunty + filtry lvl/voc/party | `hunt-analyser.com/hunt_sessions?...` | ✅ 200, HTML server-rendered, parsowalne (potwierdzony detal `/hunt_sessions/57018`: `Falcon Castle`, `XP/h 6 168 886`, `Balance/h 1 779 810`, skład `ED 536 + EK 444` — czyli **duo stats istnieją**) |
-| Ceny Nevia dzienne + miesięczne | `api.tibiamarket.top/market_values?server=Nevia`, `/item_history?server=Nevia&item_id=..&days=30`, `/item_metadata`, `/world_data` | ✅ 200. Nevia `last_update 2026-09-14` (2 dni temu) |
-| `tibiaprices.com` | ❌ MARTWE — `404 {"message":"Application not found"}`. Indeks Google nieaktualny. Nie używać. |
+| World Nevia (online, gracze) | `api.tibiadata.com/v4/world/Nevia` | OK 200, JSON bez klucza |
+| Kill statistics Nevia (co sie bije, day/week) | `api.tibiadata.com/v4/killstatistics/Nevia` | OK 200 |
+| Highscores exp Nevia | `api.tibiadata.com/v4/highscores/Nevia/experience/all/1` | OK 200 |
+| Publiczne hunty + filtry lvl/voc/party | `hunt-analyser.com/hunt_sessions?...` | OK 200, HTML parsowalne; detal `/hunt_sessions/57018`: Falcon Castle, XP/h 6 168 886, sklad ED 536 + EK 444 (duo stats istnieja) |
+| Ceny Nevia dzienne + miesieczne | `api.tibiamarket.top/market_values?server=Nevia`, `/item_history`, `/item_metadata`, `/world_data` | OK 200; Nevia last_update 2026-09-14 |
+| `tibiaprices.com` | MARTWE — `404 Application not found`. Nie uzywac. |
 
-Szczegół: patrz `docs/VERIFY.md`. Szybki test: uruchom `verify_apis.ps1` (Windows) lub `verify_apis.sh` (Linux/macOS/CI).
+Szczegol: `docs/VERIFY.md`. Szybki test: `verify_apis.ps1` (Windows) lub `verify_apis.sh`.
 
 ## Struktura
 
 ```
 tibia-nevia-pipeline/
-  verify_apis.ps1 / .sh     # curle do samodzielnej weryfikacji (Ty też możesz odpalić)
+  config.yaml               # JEDYNE miejsce konfiguracji: brackety lvl, voc, pages, recent_days, top_n, historia
+  verify_apis.ps1 / .sh     # curle do samodzielnej weryfikacji
   scripts/
-    fetch_tibiadata.py      # bronze: world + killstats + highscores Nevia -> data/raw/<data>/
-    fetch_market.py         # bronze: Nevia market_values + item_history + metadata
-    fetch_hunts.py          # bronze/silver: hunt-analyser lista 100-130 ED solo + ED+EK duo + detale -> hunts.csv/members.csv
-    build_gold.py           # gold: rankingi EXP/h i profit/h + export CSV/XLSX (docs/dashboard)
+    common.py               # ladowanie config.yaml
+    fetch_tibiadata.py      # bronze: world + killstatistics + highscores Nevia -> data/raw/<data>/
+    fetch_market.py         # bronze: WSZYSTKIE itemy Nevii (market_values) + historia 30d dla top-N + metadata
+    fetch_hunts.py          # bronze/silver: brackety z configu + duo z poszerzonego zakresu -> hunts.csv/members.csv
+    build_gold.py           # gold: rankingi EXP/h i profit/h (overall + per bracket) + kopia do docs/data/
   data/
-    manual/rope-belt-nevia.csv  # Twoje live ceny z gry = ground truth (seed)
-    raw/<YYYY-MM-DD>/           # zrzuty z Actions (commitowane do repo)
-    gold/                       # ranking_exp.csv, ranking_profit.csv, dashboard.xlsx
-  docs/VERIFY.md            # pełny raport weryfikacji
-  .github/workflows/daily.yml   # cron 05:00 UTC: fetch -> build -> commit (+ opcjonalny upload R2)
+    manual/*.csv            # Twoje live ceny z gry = ground truth, nadpisuja tracker (wzor: rope-belt-nevia.csv)
+    raw/<YYYY-MM-DD>/       # zrzuty z Actions (commitowane do repo)
+    gold/                   # ranking_exp[_<bracket>].csv, ranking_profit[_<bracket>].csv, dashboard.xlsx
+  docs/                     # FRONTEND (GitHub Pages serwuje ten folder)
+    index.html + app.js     # dashboard: bracket / EXP-profit toggle / solo-duo / szukaj + wykres top 15
+    data/                   # kopia rankingow (uzupelniana przez build_gold.py)
+    VERIFY.md               # pelny raport weryfikacji zrodel
+  serve-dashboard.ps1       # lokalny podglad dashboardu: odpal i otworz http://localhost:8080/
+  .github/workflows/daily.yml   # cron 05:00 UTC: fetch -> build -> commit
 ```
 
-## Profit/h — metodologia (Twoje pytanie o 10x drogi vs 1000x tani)
+## Profit/h — metodologia (10x drogi vs 1000x tani przedmiot)
 
 `profit/h Nevia = sum(drop_count/h * nevia_price) - supplies/h`.
-`Balance` z hunta NIE wystarcza (policzone po cenach z czasu/innego świata), więc:
+`Balance` z hunta NIE wystarcza (policzone po cenach z czasu/innego swiata), wiec:
 
-1. `fetch_hunts.py` bierze z detalu: `spawn, XP/h, Raw XP/h, Balance/h, duration, party (ED x + EK y)`.
-2. `fetch_market.py` bierze ceny Nevii: do szybkiej sprzedaży użyj `buy_offer` (Twój Rope Belt: 4526), do cierpliwej `month_average_sell`. Tracker daje oba + `day_*` i `month_*`.
-3. `build_gold.py` joinuje i przewartościowuje. Etap 2 (pełny rozkład `hunt_loot(item, count)`) wymaga doparsowania zakładek `Members Details` w detalu hunta — zostawione jako następny krok, bo lista+summary już dają ranking EXP/h i orientacyjny profit/h.
+1. `fetch_hunts.py` bierze z detalu: `spawn, XP/h, Raw XP/h, Balance/h, duration, party (ED x + EK y)` + flage `has_creature_stats` (rozbicie loota uzupelnia tylko czesc graczy).
+2. `fetch_market.py` bierze ceny Nevii: szybka sprzedaz = `buy_offer` (Twoj Rope Belt: 4526), cierpliwa = `month_average_sell` (+ `day_*`, `month_*`).
+3. `build_gold.py` daje rankingi; pelna re-wycena `drop/h x cena Nevii` (etap 2) wlaczy sie na podzbiorze z `has_creature_stats=1`.
 
-## Uruchomienie lokalne / CI (zakres 50-300, rozszerzalny)
+## Uruchomienie lokalne / CI — wszystko z config.yaml
 
 ```powershell
-# 1. weryfikacja (Ty też tak możesz):
-powershell -ExecutionPolicy Bypass -File verify_apis.ps1
-# 2. ETL — kazdy bracket dokleja (--append) do hunts.csv z danego dnia:
 pip install -r requirements.txt
-python scripts/fetch_tibiadata.py
-python scripts/fetch_market.py                       # WSZYSTKIE itemy Nevii (paginacja), TOP_N_HISTORY (default 60, env) z historia 30d
-python scripts/fetch_hunts.py --level-min 50 --level-max 100 --vocations Druid --member-counts Solo --pages 3
-python scripts/fetch_hunts.py --level-min 100 --level-max 200 --vocations Druid --member-counts Solo --pages 3 --append
-python scripts/fetch_hunts.py --level-min 200 --level-max 300 --vocations Druid --member-counts Solo --pages 3 --append
-python scripts/fetch_hunts.py --level-min 50 --level-max 300 --vocations "" --member-counts Duo --pages 3 --append
-python scripts/build_gold.py --recent-days 90        # ranking_exp[_50_100...].csv + ranking_profit*.csv + dashboard.xlsx
+powershell -ExecutionPolicy Bypass -File verify_apis.ps1  # szybki test zrodel
+python scripts/fetch_tibiadata.py   # world/killstats/highscores Nevia
+python scripts/fetch_market.py      # wszystkie itemy + historia (top_n z configu)
+python scripts/fetch_hunts.py       # brackety + duo z configu
+python scripts/build_gold.py        # rankingi + dashboard.xlsx + kopia do docs/data/
+powershell -ExecutionPolicy Bypass -File serve-dashboard.ps1  # podglad: http://localhost:8080/
 ```
 
-Jak rozszerzyć: dopisz bracket (`--level-min 300 --level-max 500 --append`), zwieksz `--pages`,
-ustaw `TOP_N_HISTORY=300` dla historii cen wiekszosci loota, zmien `--recent-days 30` po patchach.
-`--vocations ""` = wszystkie voc, `--member-counts "Solo,Duo"` = oba naraz.
+Jak zwezic/rozszerzyc: edytuj `config.yaml` (brackety, `pages`, `recent_days`, `top_n_history`,
+`history_days`) albo nadpisz jednorazowo z CLI, np.
+`python scripts/fetch_hunts.py --level-min 300 --level-max 500 --pages 2`.
+Czestotliwosc: tylko w `.github/workflows/daily.yml`, linia `cron: "0 5 * * *"`.
 
-## Gdzie to stoi online?
+## Gdzie to stoi online? + GitHub auth
 
-Domyslnie NIGDZIE — pipeline zyje w tym folderze. Zeby byl online + sam sie odpalal codziennie:
-1. `gh auth login` (jednorazowo, Twoje konto GitHub),
-2. `git init` jest juz zrobiony w tym folderze — wykonaj ponizsze, a Actions ruszy samo:
+Domyslnie NIGDZIE — pipeline zyje w tym folderze (git lokalny juz jest).
+**Nie podawaj mi zadnych loginow/hasel/tokenow.** Bezpieczna sciezka (3 komendy u Ciebie):
 
 ```powershell
 cd tibia-nevia-pipeline
-gh repo create tibia-nevia --public --source=. --push
-# od tej pory: Actions (zakladka Actions na github.com) robi cron 05:00 UTC,
-# dane ladują w data/raw/<data>/, rankingi w data/gold/, a dashboard.xlsx sciagasz z repo.
-# Podglad online bez sciagania: GitHub Pages (Settings -> Pages -> Deploy from branch, /docs)
-# lub Streamlit Community Cloud podpięty pod data/gold/*.csv — oba za $0.
+gh auth login                                        # logowanie na TWOIM koncie, w Twoim terminalu
+gh repo create tibia-nevia --public --source=. --push   # public = za darmo Actions + Pages
 ```
+
+Dlaczego public a nie private: na darmowym koncie GitHub **Pages dziala tylko z publicznym repo**
+(private wymaga platnego planu), a w tych danych nie ma nic wrazliwego (publiczne statystyki
+gry + publiczne ceny marketu). Prywatne repo tez zadziala z Actions, ale wtedy dashboard
+ogladalbys lokalnie przez `serve-dashboard.ps1`.
+
+Po pushu, zeby wizualizacje byly pod `https://TWOJ-NICK.github.io/tibia-nevia/`:
+repo na github.com → Settings → Pages → Deploy from branch → branch `master`, folder `/docs`.
+Darmowej *wlasnej* domeny (typu .tk/.ml) juz nie ma — padly lata temu; realne $0 to subdomeny
+`github.io / pages.dev / streamlit.app`. Wlasna domena to ~50 zl/rok, podepniesz ja pozniej
+jednym wpisem DNS w Pages.
 
 ## Koszt: $0
 
-Publiczne repo GitHub = nielimitowane minuty Actions. R2 (10 GB free, zero egress) opcjonalne jako druga kopia zrzutów — secrets `R2_*` nie są wymagane do startu.
+Publiczne repo GitHub = nielimitowane minuty Actions (daily run to ~5 min). R2 (10 GB free,
+zero egress) opcjonalne jako druga kopia zrzutow — secrety `R2_*` nie sa wymagane do startu.

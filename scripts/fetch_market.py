@@ -9,12 +9,17 @@ import pathlib
 import urllib.parse
 import urllib.request
 
+from common import ROOT, load_config
+
+cfg = load_config()
 API = "https://api.tibiamarket.top"
-SERVER = "Nevia"
-OUT = pathlib.Path(__file__).resolve().parents[1] / "data" / "raw" / dt.date.today().isoformat()
+SERVER = cfg.get("world", "Nevia")
+OUT = ROOT / "data" / "raw" / dt.date.today().isoformat()
 OUT.mkdir(parents=True, exist_ok=True)
 import os
-TOP_N_HISTORY = int(os.environ.get("TOP_N_HISTORY", "60"))  # podwyzsz np. do 300 gdy chcesz historie dla wiekszosci loota
+MKT = cfg.get("market", {})
+TOP_N_HISTORY = int(os.environ.get("TOP_N_HISTORY", MKT.get("top_n_history", 150)))
+HISTORY_DAYS = int(os.environ.get("HISTORY_DAYS", MKT.get("history_days", 30)))
 PAGE_LIMIT = 500
 
 
@@ -47,7 +52,7 @@ top_ids = [r["id"] for r in ranked[:TOP_N_HISTORY] if r.get("id")]
 hist = {}
 for i, item_id in enumerate(top_ids):
     try:
-        hist[str(item_id)] = get("/item_history", {"server": SERVER, "item_id": item_id, "days": 30})
+        hist[str(item_id)] = get("/item_history", {"server": SERVER, "item_id": item_id, "days": HISTORY_DAYS})
     except Exception as e:  # jeden item nie moze wywalic calego batcha
         print(f"history failed id={item_id}: {e}")
     if i % 10 == 0:
