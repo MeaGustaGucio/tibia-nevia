@@ -38,9 +38,8 @@
     <th>Cena z dnia</th><th class="num">Wasze śr./h</th><th class="num">Wartość/h (fair)</th><th>Potwory</th></tr></thead><tbody></tbody></table></div>
   <div class="card"><h3 style="margin:4px 0 10px">Sesje community na tym spawnie</h3>
     <table id="tbl2"><thead><tr><th>Data</th><th>Party</th><th class="num">EXP/h</th><th class="num">Profit/h</th><th>Link</th></tr></thead><tbody></tbody></table></div>
-  <div class="card"><h3 style="margin:4px 0 10px">Wasze zalogowane sesje (tu pojawią się county 9 vs 11)</h3>
-    <table id="tbl3"><thead><tr><th>Data</th><th class="num">Minuty</th><th>Item</th><th class="num">Sztuki</th><th class="num">Szt/h</th><th>Notka</th></tr></thead><tbody></tbody></table>
-    <p class="sub">Dodaj przez <a href="log.html">log.html</a> (spawn uzupełni się sam).</p></div>
+  <div class="card"><h3 style="margin:4px 0 10px">Wasze zalogowane sesje (tu pojawią się county 9 vs 11)</h3>    <table id="tbl3"><thead><tr><th>Data</th><th class="num">Minuty</th><th>Item</th><th class="num">Sztuki</th><th class="num">Szt/h</th><th>Notka</th></tr></thead><tbody></tbody></table>
+        <p class="sub" id="loglink">Dodaj przez <a href="log.html">log.html</a>.</p></div>
 </main>
 <script>
 const $ = id => document.getElementById(id);
@@ -69,6 +68,7 @@ async function getCSV(path) {
 }
 (async function () {
   $("title").textContent = spawn || "Spawn";
+  $("loglink").innerHTML = `Zaloguj hunt tutaj: <a href="log.html?spawn=${encodeURIComponent(spawn)}">log.html → ${spawn}</a> (itemy uzupełnią się same).`;
   const [ranks, sitems, sess] = await Promise.all([
     getCSV("data/ranking_exp.csv"), getCSV("data/spawn_items.csv"), getCSV("data/session_loot.csv")
   ]);

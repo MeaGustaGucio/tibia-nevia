@@ -18,6 +18,16 @@ hunts:
   # duo 100-130 = 0, duo 80-150 = 1/strone), wiec duo ZAWSZE idzie z szerszego
   # zakresu i bez filtra voc — sklad ED+EK filtrujesz potem po kolumnie party_comp.
   duo: { min: 50, max: 300, vocations: [], party: [Duo], pages: 3 }
+  # Celowane spawny (Twoje expowiska) — search po nazwie, niezaleznie od bracketu:
+  spawn_targets:
+    - { search: quara, pages: 3 }
+    - { search: werehyena, pages: 3 }
+    - { search: werelion, pages: 3 }
+    - { search: tiger, pages: 3 }
+    - { search: spectre, pages: 3 }
+    - { search: cults, pages: 3 }
+    - { search: lizard, pages: 2 }
+    - { search: vampire, pages: 2 }
 
 # ---- CENY (api.tibiamarket.top) ----
 market:
@@ -27,9 +37,17 @@ market:
 
 # ---- DRABINKA OFERT (market_board: pelny rozklad cen + sztuki) ----
 orderbook:
-  watchlist: ["rope belt"]  # zawsze sciagane (Twoje itemy), nazwy jak na Wiki/market
+  watchlist: ["rope belt", "vampire teeth"]  # zawsze sciagane (Twoje itemy)
   max_items: 300            # limit drabinek/dzien: watchlista + loot z faktycznych killi
   # items = watchlista + unia loot_list potworow z hunt_kills (PAYLOAD: ~300 x 5 KB/dzien)
+
+# ---- WYCENA (price_stats: instant / fair / shelf(polka) / patient / upside) ----
+pricing:
+  trim_top_pct: 5      # obciecie top X% jednostek buy-side (scianki/bait) dla fair
+  exclude_anonymous: false  # true = odrzuc oferty "Anonymous" (DO USTALENIA: co jest "na czerwono")
+  max_sell_cap: null   # globalny cap sell (null = brak); per-item override nizej
+  items:               # reguly per item (klucz = nazwa mala litera):
+    vampire teeth: { max_sell_cap: 4000 }  # Twoja zasada: powyzej 4k odrzucamy
 
 # ---- LOGI SESJI (Wasze dokladne county: data/manual/sessions/*.csv) ----
 sessions:

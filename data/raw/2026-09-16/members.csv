@@ -1,198 +1,415 @@
-hunt_id,slot,name,voc,level
-24692,1,Ed Reiss,ED,95
-2884,1,Sipping Henn,RP,90
-29463,1,Rezo Senpai,EM,53
-29500,1,Rezo Senpai,EM,64
-29576,1,Rezo Senpai,EM,74
-29641,1,Rezo Senpai,EM,79
-29651,1,Rezo Senpai,EM,81
-29679,1,Rezo Senpai,EM,88
-29732,1,Rezo Senpai,EM,92
-29859,1,Rezo Senpai,EM,96
-30000,1,Rezo Senpai,EM,98
-36270,1,Xiolones,ED,63
-36271,1,Xiolones,ED,63
-52560,1,Silversparrow,EM,82
-52572,1,Silversparrow,EM,82
-52667,1,Silversparrow,EM,84
-52773,1,Silversparrow,EM,88
-52823,1,Silversparrow,EM,90
-53124,1,Silversparrow,EM,94
-7709,1,Sir Magolords,MS,52
-7885,1,Sir Magolords,MS,54
-7991,1,Sir Magolords,MS,61
-8019,1,Sir Magolords,MS,62
-8063,1,Sir Magolords,MS,65
-8186,1,Sir Magolords,MS,67
-8259,1,Sir Magolords,MS,69
-1109,1,Gosal,EK,127
-2394,1,Gosal,EK,162
-24526,1,Arkainne,RP,101
-24985,1,Arkainne,RP,105
-27200,1,Arkainne,RP,141
-28023,1,Tril Roon,MS,173
-28097,1,Arkainne,RP,170
-28098,1,Arkainne,RP,171
-28101,1,Tril Roon,MS,178
-28952,1,Richard Druid,ED,171
-28973,1,Lucadejalast Czkoteck,MS,116
-29013,1,Arkainne,RP,180
-29965,1,Tranquillino Calmitto,EM,176
-30044,1,Rezo Senpai,EM,102
-30149,1,Tranquillino Calmitto,EM,183
-30150,1,Tranquillino Calmitto,EM,183
-30153,1,Tranquillino Calmitto,EM,183
-30155,1,Tranquillino Calmitto,EM,183
-30160,1,Tranquillino Calmitto,EM,183
-31418,1,Lucadejalast Czkoteck,MS,118
-31920,1,Lucadejalast Czkoteck,MS,115
-33445,1,Kandydant,EM,182
-35841,1,Euclides Picfum,EM,136
-37083,1,Skra Firadixo,ED,167
-37085,1,Skra Firadixo,ED,168
-37180,1,Skra Firadixo,ED,168
-37608,1,Skra Firadixo,ED,172
-38346,1,Cazuza Monk,EM,188
-38793,1,Ronan Monge Sombrio,EM,186
-38812,1,Ronan Monge Sombrio,EM,188
-38835,1,Ronan Monge Sombrio,EM,189
-38836,1,Ronan Monge Sombrio,EM,189
-38955,1,Ronan Monge Sombrio,EM,193
-39300,1,Monkusvic,EM,101
-39992,1,Itz Cuproza,RP,165
-40531,1,Frodo Rodolfo,ED,153
-40912,1,Monkusvic,EM,158
-41129,1,Klaifiso,ED,117
-43891,1,Gralha Vermelha,MS,195
-47748,1,Ostraktrium,EK,147
-49116,1,Pimentao com calabresa,ED,180
-49117,1,Pimentao com calabresa,ED,180
-50575,1,Tecurastu,ED,173
-51512,1,Sana Vid,ED,121
-52059,1,Senn Brieria,RP,169
-52356,1,Senn Brieria,RP,169
-55180,1,Raven Kerth,EM,176
-55979,1,Raven Kerth,EM,181
-8446,1,Pirangueirom,EK,127
-9088,1,Vladimir Nosferatu,ED,165
-31664,1,Rama Frecha Fogo,RP,286
-31680,1,Tranquillino Calmitto,EM,269
-31796,1,Nukik,RP,208
-32006,1,Tranquillino Calmitto,EM,276
-32008,1,Tranquillino Calmitto,EM,276
-32806,1,Tino Mas San,RP,279
-33345,1,Mana Express,ED,218
-33624,1,Akrus Eters,EM,218
-34426,1,Nukik,RP,292
-34810,1,Nukik,RP,300
-35573,1,Bino Lew,RP,297
-35575,1,Bino Lew,RP,297
-36523,1,Verigo,RP,221
-37610,1,Axes of Venebra,EK,225
-39090,1,Alberich Ironfist,EM,275
-39208,1,Arkfain Yena,RP,237
-40956,1,Baiano Loro,RP,228
-42569,1,Jane Birkin,RP,207
-42613,1,Jane Birkin,RP,208
-42631,1,Jane Birkin,RP,208
-42658,1,Jane Birkin,RP,208
-43559,1,Detektyw Monkers,EM,201
-43565,1,Galadino,RP,214
-43679,1,Galadino,RP,218
-43708,1,Galadino,RP,221
-43805,1,Galadino,RP,223
-43806,1,Galadino,RP,223
-44274,1,Galadino,RP,243
-44304,1,Aaron Wynter,ED,287
-44526,1,Galadino,RP,256
-44735,1,Galadino,RP,267
-44744,1,Galadino,RP,270
-44827,1,Galadino,RP,273
-44971,1,Aegidavex Darok,EK,240
-45096,1,Aegidavex Darok,EK,245
-45119,1,Aegidavex Darok,EK,245
-45415,1,Aegidavex Darok,EK,252
-45417,1,Aegidavex Darok,EK,253
-45419,1,Aegidavex Darok,EK,253
-45449,1,Lord Tankalot,EK,201
-48842,1,Dhuy Sio,ED,232
-48885,1,Dhuy Sio,ED,233
-48969,1,Invocador Cruel,ED,216
-49093,1,Invocador Cruel,ED,217
-50312,1,Torvyn,EK,247
-50318,1,Torvyn,EK,247
-50358,1,Torvyn,EK,253
-50364,1,Torvyn,EK,253
-50574,1,Muti Paladin,RP,273
-50582,1,Muti Paladin,RP,277
-50905,1,Torvyn,EK,258
-51253,1,Torvyn,EK,260
-51793,1,Nanesi,MS,290
-52064,1,Kenddora,ED,242
-52082,1,Torvyn,EK,262
-52736,1,Torvyn,EK,267
-53077,1,Khamigah,RP,223
-53078,1,Torvyn,EK,270
-53187,1,Sauron Emo,EK,265
-53326,1,Torvyn,EK,270
-53327,1,Torvyn,EK,270
-53352,1,Torvyn,EK,271
-53399,1,Elder Nobeki,ED,229
-53434,1,Torvyn,EK,273
-53639,1,Sauron Emo,EK,270
-53711,1,Torvyn,EK,276
-53745,1,Torvyn,EK,279
-15712,1,Guerreiro de Xango,EK,211
-15712,2,Bombita Belica Uno,ED,234
-27422,1,Lorehald Night Magic,ED,145
-27422,2,Arkainne,RP,148
-28760,1,Sile Exale,EM,70
-28760,2,Krol Arogancji,EK,92
-28862,1,Sile Exale,EM,79
-28862,2,Krol Arogancji,EK,98
-29403,1,Bonk Lee,EM,178
-29403,2,Alaju acvar,MS,135
-29650,1,Rezo Senpai,EM,81
-29650,2,Latexity,EK,68
-29958,1,Tranquillino Calmitto,EM,174
-29958,2,Nightbritish,EK,176
-30098,1,Tranquillino Calmitto,EM,179
-30098,2,Nightbritish,EK,185
-30100,1,Tranquillino Calmitto,EM,179
-30100,2,Nightbritish,EK,185
-30102,1,Tranquillino Calmitto,EM,179
-30102,2,Nightbritish,EK,185
-30187,1,Tranquillino Calmitto,EM,188
-30187,2,Nightbritish,EK,191
-30238,1,Tranquillino Calmitto,EM,194
-30238,2,Nightbritish,EK,197
-30341,1,Speak the Truth,EK,272
-30341,2,Craziee,RP,238
-30509,1,Tranquillino Calmitto,EM,213
-30509,2,Babii Bloom,EK,234
-30584,1,Tranquillino Calmitto,EM,218
-30584,2,Nightbritish,EK,212
-30601,1,Tranquillino Calmitto,EM,221
-30601,2,Babii Bloom,EK,236
-30631,1,Tranquillino Calmitto,EM,223
-30631,2,Nightbritish,EK,217
-37309,1,Axes of Venebra,EK,220
-37309,2,Tio siodinho,EM,161
-40102,1,Sumw,EK,225
-40102,2,Skra Firadixo,ED,227
-40339,1,Kattox,RP,55
-40339,2,Mega Panther,MS,56
-41127,1,Aley Gwen,EK,253
-41127,2,Squirrobby,EM,274
-46448,1,Alzaher,ED,296
-46448,2,Koot Spirit,EK,231
-46748,1,Frostituto,ED,165
-46748,2,Wuukas,EM,167
-4921,1,Cigaro Druid,ED,206
-4921,2,Khaia Galawyn,EK,208
-4922,1,Cigaro Druid,ED,206
-4922,2,Khaia Galawyn,EK,208
-51574,1,Herus Cael,EK,298
-51574,2,Rinoa Heatilly,ED,198
-51722,1,Herus Cael,EK,300
-51722,2,Rinoa Heatilly,ED,199
+hunt_id,slot,name,voc,voc_name,level
+24692,1,Ed Reiss,ED,Elder Druid,95
+2884,1,Sipping Henn,RP,Royal Paladin,90
+29463,1,Rezo Senpai,EM,Exalted Monk,53
+29500,1,Rezo Senpai,EM,Exalted Monk,64
+29576,1,Rezo Senpai,EM,Exalted Monk,74
+29641,1,Rezo Senpai,EM,Exalted Monk,79
+29651,1,Rezo Senpai,EM,Exalted Monk,81
+29679,1,Rezo Senpai,EM,Exalted Monk,88
+29732,1,Rezo Senpai,EM,Exalted Monk,92
+29859,1,Rezo Senpai,EM,Exalted Monk,96
+30000,1,Rezo Senpai,EM,Exalted Monk,98
+36270,1,Xiolones,ED,Elder Druid,63
+36271,1,Xiolones,ED,Elder Druid,63
+52560,1,Silversparrow,EM,Exalted Monk,82
+52572,1,Silversparrow,EM,Exalted Monk,82
+52667,1,Silversparrow,EM,Exalted Monk,84
+52773,1,Silversparrow,EM,Exalted Monk,88
+52823,1,Silversparrow,EM,Exalted Monk,90
+53124,1,Silversparrow,EM,Exalted Monk,94
+7709,1,Sir Magolords,MS,Master Sorcerer,52
+7885,1,Sir Magolords,MS,Master Sorcerer,54
+7991,1,Sir Magolords,MS,Master Sorcerer,61
+8019,1,Sir Magolords,MS,Master Sorcerer,62
+8063,1,Sir Magolords,MS,Master Sorcerer,65
+8186,1,Sir Magolords,MS,Master Sorcerer,67
+8259,1,Sir Magolords,MS,Master Sorcerer,69
+1109,1,Gosal,EK,Elite Knight,127
+2394,1,Gosal,EK,Elite Knight,162
+24526,1,Arkainne,RP,Royal Paladin,101
+24985,1,Arkainne,RP,Royal Paladin,105
+27200,1,Arkainne,RP,Royal Paladin,141
+28023,1,Tril Roon,MS,Master Sorcerer,173
+28097,1,Arkainne,RP,Royal Paladin,170
+28098,1,Arkainne,RP,Royal Paladin,171
+28101,1,Tril Roon,MS,Master Sorcerer,178
+28952,1,Richard Druid,ED,Elder Druid,171
+28973,1,Lucadejalast Czkoteck,MS,Master Sorcerer,116
+29013,1,Arkainne,RP,Royal Paladin,180
+29965,1,Tranquillino Calmitto,EM,Exalted Monk,176
+30044,1,Rezo Senpai,EM,Exalted Monk,102
+30149,1,Tranquillino Calmitto,EM,Exalted Monk,183
+30150,1,Tranquillino Calmitto,EM,Exalted Monk,183
+30153,1,Tranquillino Calmitto,EM,Exalted Monk,183
+30155,1,Tranquillino Calmitto,EM,Exalted Monk,183
+30160,1,Tranquillino Calmitto,EM,Exalted Monk,183
+31418,1,Lucadejalast Czkoteck,MS,Master Sorcerer,118
+31920,1,Lucadejalast Czkoteck,MS,Master Sorcerer,115
+33445,1,Kandydant,EM,Exalted Monk,182
+35841,1,Euclides Picfum,EM,Exalted Monk,136
+37083,1,Skra Firadixo,ED,Elder Druid,167
+37085,1,Skra Firadixo,ED,Elder Druid,168
+37180,1,Skra Firadixo,ED,Elder Druid,168
+37608,1,Skra Firadixo,ED,Elder Druid,172
+38346,1,Cazuza Monk,EM,Exalted Monk,188
+38793,1,Ronan Monge Sombrio,EM,Exalted Monk,186
+38812,1,Ronan Monge Sombrio,EM,Exalted Monk,188
+38835,1,Ronan Monge Sombrio,EM,Exalted Monk,189
+38836,1,Ronan Monge Sombrio,EM,Exalted Monk,189
+38955,1,Ronan Monge Sombrio,EM,Exalted Monk,193
+39300,1,Monkusvic,EM,Exalted Monk,101
+39992,1,Itz Cuproza,RP,Royal Paladin,165
+40531,1,Frodo Rodolfo,ED,Elder Druid,153
+40912,1,Monkusvic,EM,Exalted Monk,158
+41129,1,Klaifiso,ED,Elder Druid,117
+43891,1,Gralha Vermelha,MS,Master Sorcerer,195
+47748,1,Ostraktrium,EK,Elite Knight,147
+49116,1,Pimentao com calabresa,ED,Elder Druid,180
+49117,1,Pimentao com calabresa,ED,Elder Druid,180
+50575,1,Tecurastu,ED,Elder Druid,173
+51512,1,Sana Vid,ED,Elder Druid,121
+52059,1,Senn Brieria,RP,Royal Paladin,169
+52356,1,Senn Brieria,RP,Royal Paladin,169
+55180,1,Raven Kerth,EM,Exalted Monk,176
+55979,1,Raven Kerth,EM,Exalted Monk,181
+8446,1,Pirangueirom,EK,Elite Knight,127
+9088,1,Vladimir Nosferatu,ED,Elder Druid,165
+31664,1,Rama Frecha Fogo,RP,Royal Paladin,286
+31680,1,Tranquillino Calmitto,EM,Exalted Monk,269
+31796,1,Nukik,RP,Royal Paladin,208
+32006,1,Tranquillino Calmitto,EM,Exalted Monk,276
+32008,1,Tranquillino Calmitto,EM,Exalted Monk,276
+32806,1,Tino Mas San,RP,Royal Paladin,279
+33345,1,Mana Express,ED,Elder Druid,218
+33624,1,Akrus Eters,EM,Exalted Monk,218
+34426,1,Nukik,RP,Royal Paladin,292
+34810,1,Nukik,RP,Royal Paladin,300
+35573,1,Bino Lew,RP,Royal Paladin,297
+35575,1,Bino Lew,RP,Royal Paladin,297
+36523,1,Verigo,RP,Royal Paladin,221
+37610,1,Axes of Venebra,EK,Elite Knight,225
+39090,1,Alberich Ironfist,EM,Exalted Monk,275
+39208,1,Arkfain Yena,RP,Royal Paladin,237
+40956,1,Baiano Loro,RP,Royal Paladin,228
+42569,1,Jane Birkin,RP,Royal Paladin,207
+42613,1,Jane Birkin,RP,Royal Paladin,208
+42631,1,Jane Birkin,RP,Royal Paladin,208
+42658,1,Jane Birkin,RP,Royal Paladin,208
+43559,1,Detektyw Monkers,EM,Exalted Monk,201
+43565,1,Galadino,RP,Royal Paladin,214
+43679,1,Galadino,RP,Royal Paladin,218
+43708,1,Galadino,RP,Royal Paladin,221
+43805,1,Galadino,RP,Royal Paladin,223
+43806,1,Galadino,RP,Royal Paladin,223
+44274,1,Galadino,RP,Royal Paladin,243
+44304,1,Aaron Wynter,ED,Elder Druid,287
+44526,1,Galadino,RP,Royal Paladin,256
+44735,1,Galadino,RP,Royal Paladin,267
+44744,1,Galadino,RP,Royal Paladin,270
+44827,1,Galadino,RP,Royal Paladin,273
+44971,1,Aegidavex Darok,EK,Elite Knight,240
+45096,1,Aegidavex Darok,EK,Elite Knight,245
+45119,1,Aegidavex Darok,EK,Elite Knight,245
+45415,1,Aegidavex Darok,EK,Elite Knight,252
+45417,1,Aegidavex Darok,EK,Elite Knight,253
+45419,1,Aegidavex Darok,EK,Elite Knight,253
+45449,1,Lord Tankalot,EK,Elite Knight,201
+48842,1,Dhuy Sio,ED,Elder Druid,232
+48885,1,Dhuy Sio,ED,Elder Druid,233
+48969,1,Invocador Cruel,ED,Elder Druid,216
+49093,1,Invocador Cruel,ED,Elder Druid,217
+50312,1,Torvyn,EK,Elite Knight,247
+50318,1,Torvyn,EK,Elite Knight,247
+50358,1,Torvyn,EK,Elite Knight,253
+50364,1,Torvyn,EK,Elite Knight,253
+50574,1,Muti Paladin,RP,Royal Paladin,273
+50582,1,Muti Paladin,RP,Royal Paladin,277
+50905,1,Torvyn,EK,Elite Knight,258
+51253,1,Torvyn,EK,Elite Knight,260
+51793,1,Nanesi,MS,Master Sorcerer,290
+52064,1,Kenddora,ED,Elder Druid,242
+52082,1,Torvyn,EK,Elite Knight,262
+52736,1,Torvyn,EK,Elite Knight,267
+53077,1,Khamigah,RP,Royal Paladin,223
+53078,1,Torvyn,EK,Elite Knight,270
+53187,1,Sauron Emo,EK,Elite Knight,265
+53326,1,Torvyn,EK,Elite Knight,270
+53327,1,Torvyn,EK,Elite Knight,270
+53352,1,Torvyn,EK,Elite Knight,271
+53399,1,Elder Nobeki,ED,Elder Druid,229
+53434,1,Torvyn,EK,Elite Knight,273
+53639,1,Sauron Emo,EK,Elite Knight,270
+53711,1,Torvyn,EK,Elite Knight,276
+53745,1,Torvyn,EK,Elite Knight,279
+15712,1,Guerreiro de Xango,EK,Elite Knight,211
+15712,2,Bombita Belica Uno,ED,Elder Druid,234
+27422,1,Lorehald Night Magic,ED,Elder Druid,145
+27422,2,Arkainne,RP,Royal Paladin,148
+28760,1,Sile Exale,EM,Exalted Monk,70
+28760,2,Krol Arogancji,EK,Elite Knight,92
+28862,1,Sile Exale,EM,Exalted Monk,79
+28862,2,Krol Arogancji,EK,Elite Knight,98
+29403,1,Bonk Lee,EM,Exalted Monk,178
+29403,2,Alaju acvar,MS,Master Sorcerer,135
+29650,1,Rezo Senpai,EM,Exalted Monk,81
+29650,2,Latexity,EK,Elite Knight,68
+29958,1,Tranquillino Calmitto,EM,Exalted Monk,174
+29958,2,Nightbritish,EK,Elite Knight,176
+30098,1,Tranquillino Calmitto,EM,Exalted Monk,179
+30098,2,Nightbritish,EK,Elite Knight,185
+30100,1,Tranquillino Calmitto,EM,Exalted Monk,179
+30100,2,Nightbritish,EK,Elite Knight,185
+30102,1,Tranquillino Calmitto,EM,Exalted Monk,179
+30102,2,Nightbritish,EK,Elite Knight,185
+30187,1,Tranquillino Calmitto,EM,Exalted Monk,188
+30187,2,Nightbritish,EK,Elite Knight,191
+30238,1,Tranquillino Calmitto,EM,Exalted Monk,194
+30238,2,Nightbritish,EK,Elite Knight,197
+30341,1,Speak the Truth,EK,Elite Knight,272
+30341,2,Craziee,RP,Royal Paladin,238
+30509,1,Tranquillino Calmitto,EM,Exalted Monk,213
+30509,2,Babii Bloom,EK,Elite Knight,234
+30584,1,Tranquillino Calmitto,EM,Exalted Monk,218
+30584,2,Nightbritish,EK,Elite Knight,212
+30601,1,Tranquillino Calmitto,EM,Exalted Monk,221
+30601,2,Babii Bloom,EK,Elite Knight,236
+30631,1,Tranquillino Calmitto,EM,Exalted Monk,223
+30631,2,Nightbritish,EK,Elite Knight,217
+37309,1,Axes of Venebra,EK,Elite Knight,220
+37309,2,Tio siodinho,EM,Exalted Monk,161
+40102,1,Sumw,EK,Elite Knight,225
+40102,2,Skra Firadixo,ED,Elder Druid,227
+40339,1,Kattox,RP,Royal Paladin,55
+40339,2,Mega Panther,MS,Master Sorcerer,56
+41127,1,Aley Gwen,EK,Elite Knight,253
+41127,2,Squirrobby,EM,Exalted Monk,274
+46448,1,Alzaher,ED,Elder Druid,296
+46448,2,Koot Spirit,EK,Elite Knight,231
+46748,1,Frostituto,ED,Elder Druid,165
+46748,2,Wuukas,EM,Exalted Monk,167
+4921,1,Cigaro Druid,ED,Elder Druid,206
+4921,2,Khaia Galawyn,EK,Elite Knight,208
+4922,1,Cigaro Druid,ED,Elder Druid,206
+4922,2,Khaia Galawyn,EK,Elite Knight,208
+51574,1,Herus Cael,EK,Elite Knight,298
+51574,2,Rinoa Heatilly,ED,Elder Druid,198
+51722,1,Herus Cael,EK,Elite Knight,300
+51722,2,Rinoa Heatilly,ED,Elder Druid,199
+28101,1,Tril Roon,MS,Master Sorcerer,178
+45762,1,New Niel,ED,Elder Druid,357
+45875,1,Gosil,ED,Elder Druid,1358
+45875,2,Galba,EM,Exalted Monk,1177
+4611,1,Captain Draja,RP,Royal Paladin,1252
+4611,2,Katzwinckel,ED,Elder Druid,1419
+47999,1,Hardstyle Jogaliso,MS,Master Sorcerer,1200
+4839,1,Katzwinckel,ED,Elder Druid,1418
+4839,2,Captain Draja,RP,Royal Paladin,1256
+50905,1,Torvyn,EK,Elite Knight,258
+52823,1,Silversparrow,EM,Exalted Monk,90
+53434,1,Torvyn,EK,Elite Knight,273
+55738,1,Swedo Of Lua,MS,Master Sorcerer,901
+56517,1,Melin Slowmotion,MS,Master Sorcerer,1086
+56645,1,Melin Slowmotion,MS,Master Sorcerer,1086
+56657,1,Melin Slowmotion,MS,Master Sorcerer,1086
+56670,1,Tryark,MS,Master Sorcerer,957
+56710,1,Tryark,MS,Master Sorcerer,958
+56743,1,Swedo Of Lua,MS,Master Sorcerer,908
+56841,1,Swedo Of Lua,MS,Master Sorcerer,909
+56931,1,Swedo Of Lua,MS,Master Sorcerer,910
+57028,1,Swedo Of Lua,MS,Master Sorcerer,912
+8488,1,Warenxxlegend,ED,Elder Druid,1182
+1295,1,Shubak,ED,Elder Druid,479
+1295,2,Patow Pantaneiro,RP,Royal Paladin,485
+29965,1,Tranquillino Calmitto,EM,Exalted Monk,176
+30149,1,Tranquillino Calmitto,EM,Exalted Monk,183
+32806,1,Tino Mas San,RP,Royal Paladin,279
+33345,1,Mana Express,ED,Elder Druid,218
+37817,1,Luz Impiedosa,MS,Master Sorcerer,371
+39992,1,Itz Cuproza,RP,Royal Paladin,165
+43530,1,Rey Binotus,MS,Master Sorcerer,387
+43559,1,Detektyw Monkers,EM,Exalted Monk,201
+43565,1,Galadino,RP,Royal Paladin,214
+43574,1,Rey Binotus,MS,Master Sorcerer,387
+43679,1,Galadino,RP,Royal Paladin,218
+43708,1,Galadino,RP,Royal Paladin,221
+43805,1,Galadino,RP,Royal Paladin,223
+43806,1,Galadino,RP,Royal Paladin,223
+44274,1,Galadino,RP,Royal Paladin,243
+44526,1,Galadino,RP,Royal Paladin,256
+44735,1,Galadino,RP,Royal Paladin,267
+44744,1,Galadino,RP,Royal Paladin,270
+44827,1,Galadino,RP,Royal Paladin,273
+45096,1,Aegidavex Darok,EK,Elite Knight,245
+45119,1,Aegidavex Darok,EK,Elite Knight,245
+51793,1,Nanesi,MS,Master Sorcerer,290
+11823,1,Pexe Executivo Travaguerra,ED,Elder Druid,305
+11823,2,Vona,RP,Royal Paladin,291
+12503,1,Shadow Of Terro,EK,Elite Knight,595
+15520,1,Pedrinho Quase Alfabetisado,RP,Royal Paladin,402
+33109,1,Fae Nya,RP,Royal Paladin,412
+33170,1,Undead Drago Beer,EK,Elite Knight,359
+33509,1,Undead Drago Beer,EK,Elite Knight,369
+33617,1,Undead Drago Beer,EK,Elite Knight,372
+33636,1,Undead Drago Beer,EK,Elite Knight,372
+33988,1,Fae Nya,RP,Royal Paladin,424
+33989,1,Fae Nya,RP,Royal Paladin,424
+34585,1,Undead Drago Beer,EK,Elite Knight,408
+34658,1,Undead Drago Beer,EK,Elite Knight,410
+35893,1,Nufrevi,RP,Royal Paladin,489
+35937,1,Undead Drago Beer,EK,Elite Knight,447
+35970,1,Nufrevi,RP,Royal Paladin,491
+36103,1,Castlez,EK,Elite Knight,399
+36546,1,Wulfgar,EK,Elite Knight,480
+36594,1,Wulfgar,EK,Elite Knight,480
+38528,1,Fae Nya,RP,Royal Paladin,466
+38529,1,Fae Nya,RP,Royal Paladin,466
+40686,1,Fae Nya,RP,Royal Paladin,503
+40876,1,Fae Nya,RP,Royal Paladin,507
+40878,1,Fae Nya,RP,Royal Paladin,507
+41821,1,Fae Nya,RP,Royal Paladin,527
+44388,1,Elite Kidler,EK,Elite Knight,360
+46417,1,Fae Nya,RP,Royal Paladin,603
+46816,1,Nathural,ED,Elder Druid,270
+46816,2,Zin the Dark Lamb,MS,Master Sorcerer,295
+46816,3,Don Lordas Knight,EK,Elite Knight,306
+46817,1,Nathural,ED,Elder Druid,270
+46817,2,Zin the Dark Lamb,MS,Master Sorcerer,295
+46817,3,Don Lordas Knight,EK,Elite Knight,306
+48337,1,Fae Nya,RP,Royal Paladin,634
+49850,1,Elor Shissere,RP,Royal Paladin,334
+49922,1,Zopijo,ED,Elder Druid,545
+51711,1,Lhaumas,MS,Master Sorcerer,494
+54319,1,Fae Nya,RP,Royal Paladin,683
+6290,1,Noisy Dream,ED,Elder Druid,438
+6290,2,Tankek,EK,Elite Knight,326
+27309,1,Nevass Soldo,RP,Royal Paladin,856
+31446,1,Itz Elvenoss,EK,Elite Knight,718
+34112,1,Fae Nya,RP,Royal Paladin,425
+34128,1,Fae Nya,RP,Royal Paladin,425
+34207,1,Fae Nya,RP,Royal Paladin,426
+34283,1,Fae Nya,RP,Royal Paladin,426
+36047,1,Fae Nya,RP,Royal Paladin,439
+37087,1,Fae Nya,RP,Royal Paladin,448
+37667,1,Fae Nya,RP,Royal Paladin,455
+37717,1,Fae Nya,RP,Royal Paladin,456
+37740,1,Fae Nya,RP,Royal Paladin,456
+37749,1,Fae Nya,RP,Royal Paladin,456
+385,1,Sekcyyyjny,MS,Master Sorcerer,616
+385,2,Busy Hands,RP,Royal Paladin,541
+38803,1,Fae Nya,RP,Royal Paladin,470
+38815,1,Fae Nya,RP,Royal Paladin,470
+39100,1,Fae Nya,RP,Royal Paladin,473
+39145,1,Fae Nya,RP,Royal Paladin,474
+39442,1,Fae Nya,RP,Royal Paladin,480
+39560,1,Fae Nya,RP,Royal Paladin,482
+40528,1,Fae Nya,RP,Royal Paladin,501
+41079,1,Escanor Palmstrike,EM,Exalted Monk,465
+42996,1,Fae Nya,RP,Royal Paladin,545
+43539,1,Fae Nya,RP,Royal Paladin,556
+43942,1,Fae Nya,RP,Royal Paladin,563
+45290,1,Knockinon Heavens Door,ED,Elder Druid,477
+45290,2,Evaya Mitrago,RP,Royal Paladin,417
+45418,1,Fae Nya,RP,Royal Paladin,587
+45624,1,Fae Nya,RP,Royal Paladin,589
+46909,1,Beergamota,EM,Exalted Monk,350
+47094,1,Luke Lejnamur,EM,Exalted Monk,318
+47643,1,Fae Nya,RP,Royal Paladin,621
+48495,1,Nufrevi,RP,Royal Paladin,557
+4882,1,Trickz Da Tank,EK,Elite Knight,541
+52653,1,Lhaumas,MS,Master Sorcerer,508
+52720,1,Fae Nya,RP,Royal Paladin,674
+6292,1,Noisy Dream,ED,Elder Druid,439
+6292,2,Tankek,EK,Elite Knight,328
+9146,1,Alex en Fortera,EK,Elite Knight,588
+30650,1,Blu Yei,EK,Elite Knight,488
+30699,1,Blu Yei,EK,Elite Knight,490
+30729,1,Blu Yei,EK,Elite Knight,493
+30754,1,Blu Yei,EK,Elite Knight,495
+30821,1,Blu Yei,EK,Elite Knight,496
+30829,1,Blu Yei,EK,Elite Knight,498
+31478,1,Blu Yei,EK,Elite Knight,501
+31581,1,Blu Yei,EK,Elite Knight,503
+31728,1,Blu Yei,EK,Elite Knight,505
+31729,1,Blu Yei,EK,Elite Knight,506
+31917,1,Blu Yei,EK,Elite Knight,509
+31986,1,Blu Yei,EK,Elite Knight,513
+32119,1,Blu Yei,EK,Elite Knight,514
+33141,1,Blu Yei,EK,Elite Knight,527
+33346,1,Blu Yei,EK,Elite Knight,528
+33524,1,Blu Yei,EK,Elite Knight,528
+33637,1,Blu Yei,EK,Elite Knight,529
+33640,1,Blu Yei,EK,Elite Knight,529
+33851,1,Blu Yei,EK,Elite Knight,531
+34236,1,Blu Yei,EK,Elite Knight,534
+34308,1,Blu Yei,EK,Elite Knight,536
+34346,1,Blu Yei,EK,Elite Knight,539
+34410,1,Blu Yei,EK,Elite Knight,544
+34682,1,Blu Yei,EK,Elite Knight,545
+34893,1,Fae Nya,RP,Royal Paladin,432
+36992,1,Tryark,MS,Master Sorcerer,630
+37719,1,Capybara Curadora,ED,Elder Druid,315
+37719,2,Eaton Loyoust,EK,Elite Knight,368
+38498,1,Blu Yei,EK,Elite Knight,549
+38628,1,Blu Yei,EK,Elite Knight,550
+38726,1,Blu Yei,EK,Elite Knight,551
+38802,1,Blu Yei,EK,Elite Knight,552
+40102,1,Sumw,EK,Elite Knight,225
+40102,2,Skra Firadixo,ED,Elder Druid,227
+41046,1,Ser Incognito,EK,Elite Knight,434
+43487,1,Druida Biel,ED,Elder Druid,196
+43487,2,Rommin,EM,Exalted Monk,178
+43487,3,Chiles en Vinagre,EK,Elite Knight,178
+43629,1,Druida Biel,ED,Elder Druid,203
+43629,2,Rommin,EM,Exalted Monk,185
+43629,3,Chiles en Vinagre,EK,Elite Knight,187
+43747,1,Druida Biel,ED,Elder Druid,213
+43747,2,Rommin,EM,Exalted Monk,194
+43747,3,Lamr Nari Drakkarina,MS,Master Sorcerer,271
+43747,4,Chiles en Vinagre,EK,Elite Knight,199
+43825,1,Druida Biel,ED,Elder Druid,216
+43825,2,Rommin,EM,Exalted Monk,197
+43825,3,Chiles en Vinagre,EK,Elite Knight,203
+43825,4,Erripe Marombeiro,RP,Royal Paladin,184
+44366,1,Arvayis,ED,Elder Druid,326
+47140,1,Fae Nya,RP,Royal Paladin,617
+48262,1,Futakuchi Mana,ED,Elder Druid,200
+48262,2,Gandalf Rzulty,MS,Master Sorcerer,171
+48262,3,Zlezamiary,EK,Elite Knight,205
+48828,1,Fae Nya,RP,Royal Paladin,641
+49530,1,Nufrevi,RP,Royal Paladin,562
+50335,1,Fae Nya,RP,Royal Paladin,656
+50336,1,Fae Nya,RP,Royal Paladin,657
+50735,1,Nufrevi,RP,Royal Paladin,567
+50796,1,Fae Nya,RP,Royal Paladin,661
+51201,1,Fae Nya,RP,Royal Paladin,665
+51391,1,Fae Nya,RP,Royal Paladin,665
+52068,1,Fae Nya,RP,Royal Paladin,672
+53031,1,Fae Nya,RP,Royal Paladin,676
+53132,1,Bran co,MS,Master Sorcerer,327
+53617,1,Nufrevi,RP,Royal Paladin,575
+1109,1,Gosal,EK,Elite Knight,127
+24692,1,Ed Reiss,ED,Elder Druid,95
+27989,1,Rabbit Man,EK,Elite Knight,270
+28760,1,Sile Exale,EM,Exalted Monk,70
+28760,2,Krol Arogancji,EK,Elite Knight,92
+28862,1,Sile Exale,EM,Exalted Monk,79
+28862,2,Krol Arogancji,EK,Elite Knight,98
+36498,1,Beat The Ghost,EK,Elite Knight,406
+44399,1,Knockinon Heavens Door,ED,Elder Druid,446
+7709,1,Sir Magolords,MS,Master Sorcerer,52
+7885,1,Sir Magolords,MS,Master Sorcerer,54
+7991,1,Sir Magolords,MS,Master Sorcerer,61
+8019,1,Sir Magolords,MS,Master Sorcerer,62
+8063,1,Sir Magolords,MS,Master Sorcerer,65
+8446,1,Pirangueirom,EK,Elite Knight,127
+40531,1,Frodo Rodolfo,ED,Elder Druid,153
+41129,1,Klaifiso,ED,Elder Druid,117
+53032,1,Lizard Racoon,MS,Master Sorcerer,913
+53032,2,Itz Edu,ED,Elder Druid,866
+53032,3,Monksino,EM,Exalted Monk,766
+53032,4,Itz Jordnn,EK,Elite Knight,839
+31796,1,Nukik,RP,Royal Paladin,208
+34294,1,Nahvi,ED,Elder Druid,645
+52059,1,Senn Brieria,RP,Royal Paladin,169
+52560,1,Silversparrow,EM,Exalted Monk,82

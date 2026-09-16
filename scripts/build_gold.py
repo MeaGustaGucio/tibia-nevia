@@ -27,7 +27,7 @@ GOLD.mkdir(parents=True, exist_ok=True)
 PAGES_DATA = ROOT / "docs" / "data"  # kopia dla GitHub Pages (docs/ = root strony)
 PAGES_DATA.mkdir(parents=True, exist_ok=True)
 
-COLS = ["id", "spawn", "hunt_date", "duration", "party_size", "party_comp",
+COLS = ["id", "spawn", "hunt_date", "duration", "minutes", "party_size", "party_comp",
         "min_lvl", "max_lvl", "avg_lvl", "xp_h", "raw_xp_h", "balance_h", "has_creature_stats", "url"]
 
 
@@ -82,26 +82,46 @@ def latest(pattern: str):
     return files[-1] if files else None
 
 
-PRICE_COLS = ["item_id", "item", "instant", "fair", "patient", "upside",
-              "depth_units", "n_sell", "n_buy", "captured_at"]
+PRICE_COLS = ["item_id", "item", "instant", "fair", "shelf", "shelf_units", "patient",
+              "upside", "depth_units", "n_sell", "n_buy", "captured_at"]
 
 
-def price_stats(boards: dict) -> list[dict]:
-    """Uczciwa cena z drabinki: instant (top buy), fair (VWAP buy po obcieciu top 5%
-    jednostek), patient (min sell), upside ((p25 sell - fair)/fair)."""
+def price_stats(boards: dict, rules: dict, item_names: dict) -> list[dict]:
+    """Uczciwa cena z drabinki (reguly globalne + per-item z config pricing):
+    instant (top buy), fair (VWAP buy po obcieciu top trim% jednostek),
+    shelf/polka (poziom sell z max jednostek, VWAP ±1% wokol niego),
+    patient (min sell), upside ((p25 sell - fair)/fair).
+    Filtry: max_sell_cap (np. vampire teeth 4000), exclude_anonymous."""
+    trim = float(rules.get("trim_top_pct", 5)) / 100.0
+    excl_anon = bool(rules.get("exclude_anonymous", False))
+    cap_global = rules.get("max_sell_cap")
+    per_item = rules.get("items", {}) or {}
     out = []
     for iid, b in boards.items():
-        sells = sorted(((o.get("price", 0), o.get("amount", 0)) for o in b.get("sellers", []) if o.get("price", 0) > 0))
-        buys = sorted(((o.get("price", 0), o.get("amount", 0)) for o in b.get("buyers", []) if o.get("price", 0) > 0), reverse=True)
+        name = (item_names.get(str(iid), "") or "").lower()
+        ir = per_item.get(name, {}) or {}
+        cap = ir.get("max_sell_cap", cap_global)
+        excl = ir.get("exclude_anonymous", excl_anon)
+
+        def keep(o, side):
+            if o.get("price", 0) <= 0:
+                return False
+            if excl and str(o.get("name", "")).lower() == "anonymous":
+                return False
+            if side == "sell" and cap and o["price"] > cap:
+                return False
+            return True
+
+        sells = sorted(((o["price"], o.get("amount", 0)) for o in b.get("sellers", []) if keep(o, "sell")))
+        buys = sorted(((o["price"], o.get("amount", 0)) for o in b.get("buyers", []) if keep(o, "buy")), reverse=True)
         if not sells and not buys:
             continue
         instant = buys[0][0] if buys else ""
         patient = sells[0][0] if sells else ""
-        # fair: buy-side VWAP po obcieciu top 5% jednostek (scianki/bait)
         fair = ""
         if buys:
             total = sum(u for _, u in buys)
-            cut = total * 0.05
+            cut = total * trim
             rest = []
             for price, units in buys:
                 if cut >= units:
@@ -109,10 +129,19 @@ def price_stats(boards: dict) -> list[dict]:
                     continue
                 rest.append((price, units - cut))
                 cut = 0
-            # jesli obcielismy wszystko (1 oferta), wez ja w calosci
             rest = rest or buys
             fair = int(sum(p * u for p, u in rest) / sum(u for _, u in rest))
-        # p25 sell (25% jednostek sell-side od dolu)
+        # polka: poziom sell z najwieksza liczba jednostek (+-1% wokol niego)
+        shelf, shelf_units = "", ""
+        if sells:
+            levels: dict[int, int] = {}
+            for price, units in sells:
+                levels[price] = levels.get(price, 0) + units
+            shelf = max(levels, key=lambda p: (levels[p], -p))
+            shelf_units = levels[shelf]
+            near = [(p, u) for p, u in sells if abs(p - shelf) <= shelf * 0.01]
+            if near:
+                shelf = int(sum(p * u for p, u in near) / sum(u for _, u in near))
         p25 = ""
         if sells:
             total_s = sum(u for _, u in sells)
@@ -132,7 +161,8 @@ def price_stats(boards: dict) -> list[dict]:
             captured = dt.datetime.fromtimestamp(float(ts)).strftime("%Y-%m-%d %H:%M") if ts else ""
         except (ValueError, TypeError):
             captured = ""
-        out.append({"item_id": iid, "instant": instant, "fair": fair, "patient": patient,
+        out.append({"item_id": iid, "instant": instant, "fair": fair, "shelf": shelf,
+                    "shelf_units": shelf_units, "patient": patient,
                     "upside": upside, "depth_units": depth,
                     "n_sell": len(sells), "n_buy": len(buys), "captured_at": captured,
                     "_sells": sells, "_buys": buys})
@@ -217,6 +247,36 @@ def spawn_items(hunts: list[dict], kills: list[dict], creatures: dict,
     return out
 
 
+KILLS_H_COLS = ["hunt_id", "spawn", "hunt_date", "minutes", "creature", "killed",
+                "kills_per_h", "xp_h", "balance_h", "url"]
+
+
+def kills_enriched(hunts: list[dict], kills: list[dict]) -> list[dict]:
+    """Kille per sesja + kills/h (czas sesji z kolumny minutes). Najwieksza granulacja
+    jaka istnieje publicznie: dokladnie ile potworow padlo w danej sesji i w jakim tempie."""
+    hmap = {h["id"]: h for h in hunts}
+    out = []
+    for k in kills:
+        h = hmap.get(k["hunt_id"])
+        if not h:
+            continue
+        try:
+            mins = int(h.get("minutes") or 0)
+        except ValueError:
+            mins = 0
+        try:
+            killed = int(k.get("killed") or 0)
+        except ValueError:
+            killed = 0
+        out.append({"hunt_id": k["hunt_id"], "spawn": h.get("spawn", ""),
+                    "hunt_date": h.get("hunt_date", ""), "minutes": mins,
+                    "creature": k.get("creature", ""), "killed": killed,
+                    "kills_per_h": round(killed / mins * 60, 1) if mins > 0 else "",
+                    "xp_h": h.get("xp_h", ""), "balance_h": h.get("balance_h", ""),
+                    "url": h.get("url", "")})
+    return out
+
+
 def write_spawns(name: str, rows: list[dict]):
     with open(GOLD / f"{name}.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=SPAWN_COLS)
@@ -261,7 +321,7 @@ def main() -> None:
     id_to_name = {str(m["id"]): m.get("name", "") for m in meta if m.get("id")}
 
     # Uczciwe ceny z drabinki
-    prices = price_stats(boards)
+    prices = price_stats(boards, cfg.get("pricing", {}), id_to_name)
     for p in prices:
         p["item"] = id_to_name.get(str(p["item_id"]), "")
     with open(GOLD / "price_stats.csv", "w", newline="", encoding="utf-8") as f:
@@ -284,6 +344,14 @@ def main() -> None:
         w.writeheader()
         w.writerows(si)
     print(f"spawn_items rows={len(si)}")
+
+    # Kille/h per sesja per potwor — maksymalna publiczna granulacja
+    kh = kills_enriched(list(all_hunts), kills)
+    with open(GOLD / "hunt_kills_h.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=KILLS_H_COLS)
+        w.writeheader()
+        w.writerows(kh)
+    print(f"hunt_kills_h rows={len(kh)}")
 
     # Per-item: drabinka + historia do docs/data (nadpisywane — tylko najnowszy stan)
     hist = {}
@@ -338,7 +406,7 @@ def main() -> None:
     # Kopia rankingow do docs/data/ — GitHub Pages serwuje caly folder docs/,
     # wiec dashboard (docs/index.html) czyta te CSV bez zadnego backendu.
     for p in (list(GOLD.glob("ranking_*.csv")) + list(GOLD.glob("spawn_stats*.csv"))
-              + [GOLD / "price_stats.csv", GOLD / "spawn_items.csv",
+              + [GOLD / "price_stats.csv", GOLD / "spawn_items.csv", GOLD / "hunt_kills_h.csv",
                  GOLD / "session_loot.csv", GOLD / "build_info.json"]):
         if p.exists():
             shutil.copy(p, PAGES_DATA / p.name)
@@ -349,7 +417,8 @@ def main() -> None:
         wb = openpyxl.Workbook()
         first = True
         for p in sorted(list(GOLD.glob("ranking_*.csv")) + list(GOLD.glob("spawn_stats*.csv"))
-                         + [GOLD / "price_stats.csv", GOLD / "spawn_items.csv", GOLD / "session_loot.csv"]):
+                         + [GOLD / "price_stats.csv", GOLD / "spawn_items.csv",
+                            GOLD / "hunt_kills_h.csv", GOLD / "session_loot.csv"]):
             if not p.exists():
                 continue
             ws = wb.active if first else wb.create_sheet(p.stem)

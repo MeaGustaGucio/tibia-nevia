@@ -1023,3 +1023,690 @@ hunt_id,creature,killed
 51722,Arachnophobica,195
 51722,Gazer Spectre,119
 51722,Ripper Spectre,42
+28101,Glooth Blob,137
+28101,Rot Elemental,127
+28101,Blood Beast,106
+28101,Quara Predator Scout,85
+28101,Quara Pincher Scout,77
+28101,Quara Hydromancer Scout,74
+28101,Devourer,72
+28101,Quara Constrictor Scout,67
+28915,Quara Pincher,493
+28915,Quara Predator,421
+28915,Quara Hydromancer,234
+28915,Quara Constrictor,66
+28915,Quara Mantassin,43
+32843,Glooth Blob,281
+32843,Rot Elemental,273
+32843,Blood Beast,216
+32843,Quara Predator Scout,178
+32843,Devourer,158
+32843,Quara Pincher Scout,157
+32843,Quara Hydromancer Scout,142
+32843,Quara Constrictor Scout,136
+32843,Metal Gargoyle,2
+45762,Quara Constrictor,169
+45762,Quara Mantassin,163
+45762,Quara Pincher,93
+45762,Massive Water Elemental,91
+45762,Quara Predator,90
+45762,Quara Hydromancer,73
+45875,Quara Raider,795
+45875,Quara Looter,562
+45875,Quara Plunderer,414
+4611,Quara Raider,678
+4611,Quara Looter,512
+4611,Quara Plunderer,364
+47999,Quara Raider,412
+47999,Quara Looter,313
+47999,Quara Plunderer,219
+4839,Quara Raider,1545
+4839,Quara Looter,1143
+4839,Quara Plunderer,806
+50905,Rot Elemental,209
+50905,Glooth Blob,208
+50905,Blood Beast,155
+50905,Devourer,139
+52823,Quara Mantassin Scout,19
+52823,Quara Mantassin,19
+52823,Quara Pincher Scout,18
+52823,Quara Constrictor,16
+52823,Quara Hydromancer,15
+52823,Quara Predator Scout,14
+52823,Quara Pincher,14
+52823,Quara Constrictor Scout,12
+52823,Quara Predator,6
+52823,Quara Hydromancer Scout,6
+53434,Rot Elemental,373
+53434,Glooth Blob,348
+53434,Devourer,163
+53434,Blood Beast,110
+55738,Quara Raider,941
+55738,Quara Looter,719
+55738,Quara Plunderer,491
+56517,Quara Raider,712
+56517,Quara Looter,567
+56517,Quara Plunderer,370
+56645,Quara Raider,745
+56645,Quara Looter,538
+56645,Quara Plunderer,372
+56657,Quara Raider,712
+56657,Quara Looter,527
+56657,Quara Plunderer,348
+56670,Quara Raider,452
+56670,Quara Looter,300
+56670,Quara Plunderer,232
+56710,Quara Raider,456
+56710,Quara Looter,342
+56710,Quara Plunderer,249
+56743,Quara Raider,807
+56743,Quara Looter,486
+56743,Quara Plunderer,438
+56841,Quara Raider,1324
+56841,Quara Looter,785
+56841,Quara Plunderer,635
+56931,Quara Raider,1238
+56931,Quara Looter,734
+56931,Quara Plunderer,603
+57028,Quara Raider,1106
+57028,Quara Looter,652
+57028,Quara Plunderer,549
+8488,Quara Raider,495
+8488,Quara Looter,386
+8488,Quara Plunderer,256
+1295,Werehyaena,912
+1295,Werehyaena Shaman,365
+1295,Lich,4
+29965,Werehyaena,756
+29965,Werehyaena Shaman,267
+30149,Werehyaena,264
+30149,Werehyaena Shaman,91
+32806,Werehyaena,394
+32806,Werehyaena Shaman,147
+33345,Werehyaena,320
+33345,Werehyaena Shaman,179
+37817,Werehyaena,587
+37817,Werehyaena Shaman,241
+39992,Werehyaena,160
+39992,Werehyaena Shaman,65
+43530,Werehyaena,529
+43530,Werehyaena Shaman,228
+43559,Werehyaena,373
+43559,Werehyaena Shaman,148
+43559,Lich,1
+43565,Werehyaena,878
+43565,Werehyaena Shaman,531
+43574,Werehyaena,446
+43574,Werehyaena Shaman,240
+43574,Hyaena,6
+43679,Werehyaena,414
+43679,Werehyaena Shaman,243
+43708,Werehyaena,459
+43708,Werehyaena Shaman,261
+43805,Werehyaena,495
+43805,Werehyaena Shaman,266
+43806,Werehyaena,467
+43806,Werehyaena Shaman,238
+44274,Werehyaena,625
+44274,Werehyaena Shaman,354
+44526,Werehyaena,848
+44526,Werehyaena Shaman,422
+44735,Werehyaena,2431
+44735,Werehyaena Shaman,935
+44744,Werehyaena,909
+44744,Werehyaena Shaman,340
+44827,Werehyaena,2264
+44827,Werehyaena Shaman,932
+45096,Werehyaena,383
+45096,Werehyaena Shaman,155
+45119,Werehyaena,349
+45119,Werehyaena Shaman,132
+45119,Lich,1
+51793,Werehyaena,393
+51793,Werehyaena Shaman,230
+11823,Werelioness,794
+11823,Werelion,781
+11823,White Lion,327
+11823,Terramite,4
+11823,Scorpion,4
+11823,Larva,4
+11823,Cobra,3
+11823,Yirkas Blue Scales,2
+11823,Utua Stone Sting,2
+11823,Srezz Yellow Eyes,2
+11823,Katex Blood Tongue,2
+11823,Scarab,1
+11823,Bat,1
+12503,Werelioness,602
+12503,Werelion,553
+12503,White Lion,182
+15520,Werelioness,508
+15520,Werelion,465
+15520,White Lion,153
+33109,Werelioness,142
+33109,Werelion,137
+33109,White Lion,53
+33170,Werelioness,625
+33170,Werelion,566
+33170,White Lion,193
+33509,Werelioness,578
+33509,Werelion,485
+33509,White Lion,177
+33617,Werelioness,632
+33617,Werelion,579
+33617,White Lion,203
+33636,Werelioness,483
+33636,Werelion,436
+33636,White Lion,153
+33988,Werelion,145
+33988,Werelioness,122
+33988,White Lion,51
+33989,Werelioness,168
+33989,Werelion,130
+33989,White Lion,50
+34585,Werelioness,669
+34585,Werelion,612
+34585,White Lion,215
+34658,Werelioness,670
+34658,Werelion,617
+34658,White Lion,210
+35893,Werelioness,563
+35893,Werelion,475
+35893,White Lion,179
+35937,Werelioness,708
+35937,Werelion,642
+35937,White Lion,225
+35970,Werelioness,594
+35970,Werelion,515
+35970,White Lion,203
+36103,Werelioness,511
+36103,Werelion,464
+36103,White Lion,152
+36546,Werelioness,632
+36546,Werelion,589
+36546,White Lion,215
+36594,Werelioness,620
+36594,Werelion,601
+36594,White Lion,214
+38528,Werelioness,297
+38528,Werelion,258
+38528,White Lion,98
+38529,Werelioness,586
+38529,Werelion,521
+38529,White Lion,170
+40686,Werelioness,680
+40686,Werelion,594
+40686,White Lion,210
+40876,Werelion,616
+40876,Werelioness,529
+40876,White Lion,364
+40878,Werelioness,625
+40878,Werelion,621
+40878,White Lion,381
+41821,Werelioness,371
+41821,Werelion,341
+41821,White Lion,113
+44388,Werelioness,592
+44388,Werelion,539
+44388,White Lion,196
+46417,Werelioness,379
+46417,Werelion,326
+46417,White Lion,117
+46817,Cunning Werepanther,263
+46817,Weretiger,150
+46817,White Weretiger,71
+46817,Scorpion,6
+46817,White Tiger,4
+46817,Werecrocodile,4
+46817,Werepanther,3
+46817,Crocodile,3
+46817,Cobra,3
+46817,Tiger,2
+46817,Feral Werecrocodile,2
+46817,Killer Caiman,1
+48337,Werelioness,412
+48337,Werelion,405
+48337,White Lion,151
+49850,Werelioness,79
+49850,Werelion,79
+49850,White Lion,9
+49922,Werelioness,376
+49922,Werelion,353
+49922,White Lion,129
+51711,Werelioness,510
+51711,Werelion,462
+51711,White Lion,159
+51711,Yirkas Blue Scales,1
+53750,Werelioness,260
+53750,Werelion,226
+53750,White Lion,72
+54319,Werelioness,438
+54319,Werelion,383
+54319,White Lion,119
+6290,Cunning Werepanther,998
+6290,White Weretiger,604
+6290,Weretiger,518
+6290,White Tiger,11
+6290,Larva,8
+6290,Scorpion,5
+6290,Mummy,5
+6290,Werepanther,3
+6290,Werecrocodile,2
+6290,Feral Werecrocodile,2
+6290,Crocodile,2
+6290,Tiger,1
+6290,Killer Caiman,1
+6290,Cobra,1
+6296,Werelioness,644
+6296,Werelion,598
+6296,White Lion,237
+6296,Yirkas Blue Scales,1
+6296,Utua Stone Sting,1
+6296,Srezz Yellow Eyes,1
+6296,Katex Blood Tongue,1
+27309,Cunning Werepanther,255
+27309,Weretiger,160
+27309,White Weretiger,141
+31446,Cunning Werepanther,365
+31446,Weretiger,208
+31446,White Weretiger,130
+31446,Scorpion,2
+31446,Tiger,1
+34112,Cunning Werepanther,199
+34112,Weretiger,100
+34112,White Weretiger,47
+34128,Cunning Werepanther,79
+34128,Weretiger,46
+34128,White Weretiger,19
+34207,Cunning Werepanther,180
+34207,Weretiger,113
+34207,White Weretiger,50
+34283,Cunning Werepanther,200
+34283,Weretiger,105
+34283,White Weretiger,48
+36047,Cunning Werepanther,181
+36047,Weretiger,100
+36047,White Weretiger,65
+37087,Cunning Werepanther,219
+37087,Weretiger,119
+37087,White Weretiger,62
+37667,Cunning Werepanther,222
+37667,Weretiger,120
+37667,White Weretiger,78
+37717,Cunning Werepanther,205
+37717,Weretiger,123
+37717,White Weretiger,69
+37740,Cunning Werepanther,229
+37740,Weretiger,122
+37740,White Weretiger,77
+37749,Cunning Werepanther,278
+37749,Weretiger,164
+37749,White Weretiger,106
+385,Cunning Werepanther,542
+385,Weretiger,337
+385,White Weretiger,225
+385,White Tiger,4
+385,Werepanther,2
+385,Werecrocodile,1
+385,Tiger,1
+385,Scorpion,1
+385,Killer Caiman,1
+385,Feral Werecrocodile,1
+38803,Cunning Werepanther,408
+38803,Weretiger,250
+38803,White Weretiger,149
+38815,Cunning Werepanther,259
+38815,Weretiger,143
+38815,White Weretiger,96
+39100,Cunning Werepanther,511
+39100,Weretiger,298
+39100,White Weretiger,185
+39145,Cunning Werepanther,225
+39145,Weretiger,131
+39145,White Weretiger,72
+39442,Cunning Werepanther,205
+39442,Weretiger,156
+39442,White Weretiger,91
+39560,Cunning Werepanther,434
+39560,Weretiger,245
+39560,White Weretiger,122
+40528,Cunning Werepanther,576
+40528,Weretiger,345
+40528,White Weretiger,204
+41079,Cunning Werepanther,426
+41079,Weretiger,245
+41079,White Weretiger,222
+41079,White Tiger,7
+41079,Tiger,3
+42996,Cunning Werepanther,410
+42996,Weretiger,249
+42996,White Weretiger,139
+43539,Cunning Werepanther,324
+43539,Weretiger,211
+43539,White Weretiger,177
+43942,Cunning Werepanther,462
+43942,Weretiger,276
+43942,White Weretiger,140
+43957,Cunning Werepanther,258
+43957,Weretiger,161
+43957,White Weretiger,97
+43996,Cunning Werepanther,275
+43996,Weretiger,152
+43996,White Weretiger,102
+45290,Cunning Werepanther,565
+45290,Weretiger,359
+45290,White Weretiger,205
+45418,Cunning Werepanther,534
+45418,Weretiger,300
+45418,White Weretiger,193
+45624,Cunning Werepanther,577
+45624,Weretiger,344
+45624,White Weretiger,198
+46909,Cunning Werepanther,236
+46909,Weretiger,154
+46909,White Weretiger,68
+46909,White Tiger,1
+46909,Scorpion,1
+47094,Cunning Werepanther,380
+47094,Weretiger,193
+47094,White Weretiger,117
+47643,Cunning Werepanther,332
+47643,Weretiger,203
+47643,White Weretiger,108
+48495,Cunning Werepanther,398
+48495,Weretiger,251
+48495,White Weretiger,140
+4882,Cunning Werepanther,703
+4882,Weretiger,393
+4882,White Weretiger,248
+52653,Cunning Werepanther,373
+52653,Weretiger,243
+52653,White Weretiger,136
+52720,Cunning Werepanther,382
+52720,Weretiger,255
+52720,White Weretiger,111
+54788,Cunning Werepanther,480
+54788,Weretiger,296
+54788,White Weretiger,169
+6292,Cunning Werepanther,998
+6292,White Weretiger,604
+6292,Weretiger,518
+6292,White Tiger,11
+6292,Larva,8
+6292,Scorpion,5
+6292,Mummy,5
+6292,Werepanther,3
+6292,Werecrocodile,2
+6292,Feral Werecrocodile,2
+6292,Crocodile,2
+6292,Tiger,1
+6292,Killer Caiman,1
+6292,Cobra,1
+9146,Cunning Werepanther,405
+9146,White Weretiger,263
+9146,Weretiger,202
+9146,Scorpion,3
+9146,Cobra,2
+30650,Burster Spectre,1566
+30699,Burster Spectre,1716
+30699,Efreet,1
+30729,Burster Spectre,1564
+30754,Burster Spectre,741
+30821,Burster Spectre,1427
+30829,Burster Spectre,734
+31478,Burster Spectre,938
+31581,Burster Spectre,775
+31728,Burster Spectre,568
+31729,Burster Spectre,1255
+31917,Burster Spectre,2130
+31986,Burster Spectre,968
+32119,Burster Spectre,1397
+33141,Burster Spectre,479
+33346,Burster Spectre,394
+33524,Burster Spectre,864
+33637,Burster Spectre,380
+33640,Burster Spectre,812
+33851,Burster Spectre,901
+34236,Burster Spectre,1203
+34308,Burster Spectre,1540
+34346,Burster Spectre,1473
+34410,Burster Spectre,814
+34682,Burster Spectre,935
+34893,Gazer Spectre,217
+34893,Thanatursus,14
+36992,Ripper Spectre,468
+36992,Arachnophobica,407
+37719,Ripper Spectre,537
+37719,Arachnophobica,430
+38498,Burster Spectre,810
+38628,Burster Spectre,894
+38726,Burster Spectre,320
+38802,Burster Spectre,225
+40102,Burster Spectre,984
+41046,Spectre,122
+41046,Lost Soul,121
+41046,Betrayed Wraith,78
+41046,Phantasm,64
+41046,Demon,20
+41046,Undead Dragon,8
+41046,Lich,8
+41046,Wild Warrior,7
+41046,Warlock,5
+41046,Braindeath,4
+41046,Stalker,3
+41046,Hunter,3
+41046,Fire Devil,2
+41046,Dragon Hatchling,2
+41046,Dark Magician,1
+41046,Dark Apprentice,1
+43353,Burster Spectre,199
+43487,Gazer Spectre,550
+43487,Thanatursus,73
+43487,Swamp Troll,6
+43629,Gazer Spectre,448
+43629,Thanatursus,65
+43629,Slime,1
+43686,Gazer Spectre,235
+43686,Thanatursus,19
+43747,Ripper Spectre,995
+43747,Arachnophobica,806
+43747,Boar,4
+43747,Wild Warrior,1
+43747,Wasp,1
+43747,Tarantula,1
+43747,Hunter,1
+43825,Ripper Spectre,691
+43825,Arachnophobica,563
+43825,Boar,5
+43825,Wasp,1
+43825,Rabbit,1
+44000,Burster Spectre,223
+44366,Gazer Spectre,642
+44751,Ripper Spectre,477
+44751,Arachnophobica,391
+44753,Ripper Spectre,436
+44753,Arachnophobica,345
+44765,Ripper Spectre,322
+44765,Arachnophobica,268
+47140,Fury,289
+47140,Spectre,196
+47140,Nightmare,159
+48828,Burster Spectre,211
+49530,Gazer Spectre,601
+49530,Thanatursus,59
+50335,Gazer Spectre,333
+50335,Thanatursus,45
+50336,Burster Spectre,391
+50607,Burster Spectre,165
+50735,Ripper Spectre,498
+50735,Arachnophobica,420
+50796,Ripper Spectre,439
+50796,Arachnophobica,367
+51201,Ripper Spectre,338
+51201,Arachnophobica,293
+51391,Ripper Spectre,576
+51391,Arachnophobica,479
+52068,Ripper Spectre,350
+52068,Arachnophobica,285
+53031,Burster Spectre,555
+53132,Ripper Spectre,88
+53132,Arachnophobica,73
+53149,Gazer Spectre,490
+53149,Thanatursus,63
+53617,Burster Spectre,612
+1109,Cult Believer,157
+1109,Vicious Squire,120
+1109,Renegade Knight,93
+1109,Cult Enforcer,62
+1109,Vile Grandmaster,52
+24692,Adept of the Cult,235
+24692,Enlightened of the Cult,137
+24692,Acolyte of the Cult,87
+24692,Novice of the Cult,24
+24692,Serpent Spawn,10
+25222,Cult Believer,94
+25222,Renegade Knight,64
+25222,Vicious Squire,51
+25222,Vile Grandmaster,18
+27989,Minotaur Cult Follower,1459
+27989,Minotaur Cult Prophet,510
+27989,Minotaur Cult Zealot,305
+27989,Pig,14
+27989,Minotaur Guard,2
+27989,Minotaur,1
+28760,Cult Believer,253
+28760,Renegade Knight,131
+28760,Vicious Squire,113
+28760,Vile Grandmaster,46
+28760,Cult Enforcer,15
+28862,Cult Believer,337
+28862,Vicious Squire,215
+28862,Renegade Knight,215
+28862,Vile Grandmaster,98
+28862,Cult Enforcer,89
+28862,Ancient Scarab,14
+28862,Roaring Lion,3
+36498,Minotaur Cult Follower,832
+36498,Minotaur Cult Prophet,321
+36498,Minotaur Cult Zealot,169
+41547,Cult Believer,104
+41547,Vicious Squire,57
+41547,Renegade Knight,49
+41547,Vile Grandmaster,20
+41547,Cult Enforcer,12
+41547,Cult Scholar,5
+44399,Cult Believer,65
+44399,Vicious Squire,45
+44399,Renegade Knight,39
+44399,Cult Enforcer,27
+44399,Vile Grandmaster,18
+53070,Vicious Squire,138
+53070,Cult Believer,123
+53070,Renegade Knight,99
+53070,Cult Enforcer,76
+53070,Vile Grandmaster,67
+7709,Acolyte of the Cult,220
+7709,Adept of the Cult,218
+7709,Novice of the Cult,90
+7709,Enlightened of the Cult,33
+7885,Acolyte of the Cult,431
+7885,Adept of the Cult,351
+7885,Novice of the Cult,215
+7885,Enlightened of the Cult,37
+7991,Acolyte of the Cult,225
+7991,Adept of the Cult,209
+7991,Novice of the Cult,106
+7991,Enlightened of the Cult,28
+8019,Acolyte of the Cult,575
+8019,Adept of the Cult,399
+8019,Novice of the Cult,314
+8019,Enlightened of the Cult,33
+8063,Adept of the Cult,245
+8063,Acolyte of the Cult,238
+8063,Novice of the Cult,77
+8063,Enlightened of the Cult,30
+8446,Cult Believer,142
+8446,Vicious Squire,131
+8446,Renegade Knight,95
+8446,Cult Enforcer,74
+8446,Vile Grandmaster,61
+33424,Lizard Chosen,50
+33424,Ghastly Dragon,22
+33424,Mutated Bat,10
+33424,Lizard Legionnaire,9
+33424,Lizard High Guard,6
+33424,Death Blob,6
+33424,Mutated Tiger,5
+33424,Lizard Dragon Priest,3
+40531,Lizard High Guard,436
+40531,Lizard Legionnaire,164
+40531,Lizard Dragon Priest,63
+40531,Lizard Zaogun,7
+41129,Lizard High Guard,22
+41129,Lizard Legionnaire,20
+41129,Lancer Beetle,1
+41129,Dragon,1
+53845,Crypt Warrior,712
+54788,Cunning Werepanther,480
+54788,Weretiger,296
+54788,White Weretiger,169
+29183,Vampire Bride,45
+29183,Vampire Viscount,42
+29183,Vampire,35
+29183,Snake,10
+29458,Vampire Bride,193
+29458,Vampire Viscount,192
+29458,Vampire,143
+29458,Wyvern,24
+29458,Ghoul,13
+29458,Skeleton Warrior,10
+29458,Wolf,6
+29458,Snake,2
+29458,Bat,2
+29458,Wisp,1
+29458,Fox,1
+29458,Bonebeast,1
+31452,Vampire,129
+31452,Vampire Bride,127
+31452,Vampire Viscount,120
+31452,Demon Skeleton,33
+31452,Ghoul,28
+31452,Skeleton Warrior,24
+31452,Necromancer,22
+31452,Bonebeast,21
+31452,Snake,13
+31796,Vampire Bride,236
+31796,Vampire Viscount,235
+31796,Vampire,167
+32492,Vampire Bride,127
+32492,Vampire Viscount,112
+32492,Vampire,108
+32492,Wyvern,19
+32492,Bonebeast,12
+32492,Necromancer,10
+32492,Ghoul,6
+32492,Demon Skeleton,5
+32492,Skeleton Warrior,4
+32492,Snake,3
+32492,Fox,2
+32492,Wolf,1
+32492,Rabbit,1
+32492,Poacher,1
+34294,Vampire Bride,396
+34294,Vampire Viscount,364
+34294,Vampire,342
+52059,Vampire Bride,423
+52059,Vampire Viscount,360
+52059,Vampire,336
+52059,Snake,9
+52059,Wyvern,2
+52059,Wolf,2
+52059,Wisp,2
+52059,Rabbit,1
+52059,Deer,1
+52560,Vampire,74
+52560,Necromancer,70
+52560,Bonebeast,68
+52560,Demon Skeleton,31
+52560,Vampire Bride,13
+52560,Vampire Viscount,11

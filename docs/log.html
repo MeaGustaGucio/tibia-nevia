@@ -111,12 +111,28 @@ $("imp").onchange = e => {
   rd.readAsText(f);
 };
 $("wipe").onclick = () => { if (confirm("Wyczyścić wszystkie lokalne sesje?")) { save([]); render(); } };
-fetch("data/spawn_stats.csv").then(r => r.text()).then(t => {
+fetch("data/spawn_items.csv").then(r => r.text()).then(t => {
   const lines = t.split("\n").slice(1).filter(Boolean);
-  $("spawns").innerHTML = lines.map(l => {
-    const m = l.match(/^"?(.*?)"?,/); return m ? `<option value="${m[1]}">` : "";
-  }).join("");
+  window._spawnItems = {};
+  for (const l of lines) {
+    // spawn,item,... (spawn moze byc w cudzyslowie)
+    const m = l.match(/^(?:"([^"]+)"|([^,]+)),"?([^",]+)"?,/);
+    if (!m) continue;
+    const sp = m[1] || m[2], it = m[3];
+    (window._spawnItems[sp] = window._spawnItems[sp] || []).push(it);
+  }
+  const spawns = Object.keys(window._spawnItems).sort();
+  $("spawns").innerHTML = spawns.map(s => `<option value="${s}">`).join("");
+  const fromQ = new URLSearchParams(location.search).get("spawn");
+  if (fromQ && window._spawnItems[fromQ]) { $("spawn").value = fromQ; prefill(fromQ); }
 }).catch(() => {});
+function prefill(sp) {
+  const items = (window._spawnItems || {})[sp] || [];
+  if (!items.length) return;
+  $("items").innerHTML = "";
+  items.slice(0, 25).forEach(it => addItemRow(it, ""));
+}
+$("spawn").addEventListener("change", e => prefill(e.target.value));
 render();
 </script>
 </body>
