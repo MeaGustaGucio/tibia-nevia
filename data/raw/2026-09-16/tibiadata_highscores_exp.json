@@ -3,7 +3,7 @@
   "world": "Nevia",
   "category": "experience",
   "vocation": "all",
-  "highscore_age": 26,
+  "highscore_age": 8,
   "highscore_list": [
    {
     "rank": 1,
@@ -51,7 +51,7 @@
     "vocation": "Elder Druid",
     "world": "Nevia",
     "level": 1792,
-    "value": 95678355001
+    "value": 95678355019
    },
    {
     "rank": 7,
@@ -67,7 +67,7 @@
     "vocation": "Elite Knight",
     "world": "Nevia",
     "level": 1751,
-    "value": 89304141836
+    "value": 89306134899
    },
    {
     "rank": 9,
@@ -83,7 +83,7 @@
     "vocation": "Elite Knight",
     "world": "Nevia",
     "level": 1735,
-    "value": 86755200034
+    "value": 86776565247
    },
    {
     "rank": 11,
@@ -91,7 +91,7 @@
     "vocation": "Master Sorcerer",
     "world": "Nevia",
     "level": 1709,
-    "value": 83032089159
+    "value": 83033402445
    },
    {
     "rank": 12,
@@ -107,7 +107,7 @@
     "vocation": "Royal Paladin",
     "world": "Nevia",
     "level": 1706,
-    "value": 82500399629
+    "value": 82559475500
    },
    {
     "rank": 14,
@@ -123,7 +123,7 @@
     "vocation": "Royal Paladin",
     "world": "Nevia",
     "level": 1652,
-    "value": 74879611245
+    "value": 74879995570
    },
    {
     "rank": 16,
@@ -155,7 +155,7 @@
     "vocation": "Elite Knight",
     "world": "Nevia",
     "level": 1601,
-    "value": 68149949169
+    "value": 68155065973
    },
    {
     "rank": 20,
@@ -267,7 +267,7 @@
     "vocation": "Royal Paladin",
     "world": "Nevia",
     "level": 1467,
-    "value": 52495798416
+    "value": 52504389184
    },
    {
     "rank": 34,
@@ -283,7 +283,7 @@
     "vocation": "Royal Paladin",
     "world": "Nevia",
     "level": 1463,
-    "value": 51982280847
+    "value": 51982305990
    },
    {
     "rank": 36,
@@ -291,7 +291,7 @@
     "vocation": "Royal Paladin",
     "world": "Nevia",
     "level": 1459,
-    "value": 51651668634
+    "value": 51651680391
    },
    {
     "rank": 37,
@@ -418,7 +418,7 @@
    "release": "4.10.0",
    "commit": "d53b603c7e235c45268bcf878ef2921b2356cf75"
   },
-  "timestamp": "2026-09-16T11:06:25Z",
+  "timestamp": "2026-09-16T13:48:33Z",
   "tibia_urls": [
    "https://www.tibia.com/community/?subtopic=highscores&world=Nevia&category=6&profession=0&currentpage=1"
   ],
