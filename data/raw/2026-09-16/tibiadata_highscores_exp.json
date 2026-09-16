@@ -3,7 +3,7 @@
   "world": "Nevia",
   "category": "experience",
   "vocation": "all",
-  "highscore_age": 8,
+  "highscore_age": 22,
   "highscore_list": [
    {
     "rank": 1,
@@ -67,7 +67,7 @@
     "vocation": "Elite Knight",
     "world": "Nevia",
     "level": 1751,
-    "value": 89306134899
+    "value": 89307159042
    },
    {
     "rank": 9,
@@ -83,7 +83,7 @@
     "vocation": "Elite Knight",
     "world": "Nevia",
     "level": 1735,
-    "value": 86776565247
+    "value": 86797588997
    },
    {
     "rank": 11,
@@ -91,7 +91,7 @@
     "vocation": "Master Sorcerer",
     "world": "Nevia",
     "level": 1709,
-    "value": 83033402445
+    "value": 83033782953
    },
    {
     "rank": 12,
@@ -179,7 +179,7 @@
     "vocation": "Elder Druid",
     "world": "Nevia",
     "level": 1577,
-    "value": 65152425945
+    "value": 65152489375
    },
    {
     "rank": 23,
@@ -202,8 +202,8 @@
     "name": "Chan Blue",
     "vocation": "Royal Paladin",
     "world": "Nevia",
-    "level": 1541,
-    "value": 60841288385
+    "level": 1542,
+    "value": 60897174459
    },
    {
     "rank": 26,
@@ -251,7 +251,7 @@
     "vocation": "Master Sorcerer",
     "world": "Nevia",
     "level": 1502,
-    "value": 56254528397
+    "value": 56269735212
    },
    {
     "rank": 32,
@@ -259,7 +259,7 @@
     "vocation": "Elder Druid",
     "world": "Nevia",
     "level": 1488,
-    "value": 54756040821
+    "value": 54756112195
    },
    {
     "rank": 33,
@@ -339,7 +339,7 @@
     "vocation": "Elite Knight",
     "world": "Nevia",
     "level": 1421,
-    "value": 47634878713
+    "value": 47635638604
    },
    {
     "rank": 43,
@@ -418,7 +418,7 @@
    "release": "4.10.0",
    "commit": "d53b603c7e235c45268bcf878ef2921b2356cf75"
   },
-  "timestamp": "2026-09-16T13:48:33Z",
+  "timestamp": "2026-09-16T16:02:08Z",
   "tibia_urls": [
    "https://www.tibia.com/community/?subtopic=highscores&world=Nevia&category=6&profession=0&currentpage=1"
   ],
