@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Na co jest popyt? — Nevia</title>
+<style>
+  :root { --bg:#14110d; --panel:#1e1a14; --ink:#f0e6d2; --mut:#a89878; --acc:#e0a030; }
+  body { font-family:system-ui,sans-serif; background:var(--bg); color:var(--ink); margin:0; padding:0 12px 40px; }
+  header, main { max-width:1100px; margin:0 auto; }
+  header { padding:20px 4px 8px; }
+  h1 { font-size:1.3rem; margin:0; }
+  p.sub { color:var(--mut); font-size:.9rem; }
+  a { color:var(--acc); }
+  .card { background:var(--panel); border-radius:10px; padding:12px; margin:14px 0; overflow:auto; }
+  .controls { display:flex; flex-wrap:wrap; gap:10px; align-items:end; }
+  .controls label { display:flex; flex-direction:column; gap:4px; font-size:.8rem; color:var(--mut); }
+  select, input[type=text] { background:#2a241b; color:var(--ink); border:1px solid #4a4030; border-radius:6px; padding:6px 8px; }
+  .seg { display:flex; border:1px solid #4a4030; border-radius:6px; overflow:hidden; }
+  .seg button { background:#2a241b; color:var(--mut); border:0; padding:6px 12px; cursor:pointer; }
+  .seg button.on { background:var(--acc); color:#14110d; font-weight:700; }
+  table { width:100%; border-collapse:collapse; font-size:.82rem; }
+  th, td { text-align:left; padding:6px 8px; border-bottom:1px solid #332c20; }
+  th { color:var(--mut); } td.num, th.num { text-align:right; font-variant-numeric:tabular-nums; }
+  tr:hover td { background:#262014; }
+  .tag { display:inline-block; background:#2a241b; border:1px solid #4a4030; border-radius:4px; padding:1px 6px; margin:1px 2px; font-size:.75rem; }
+</style>
+</head>
+<body>
+<header>
+  <p class="sub"><a href="index.html">← rankingi</a></p>
+  <h1>🔥 Na co jest popyt?</h1>
+  <p class="sub">Itemy, które gracze MUSZĄ kupować: <b>🧪 materiały do imbuementów</b> (25 szt na jedno nałożenie, co 20h schodzą)
+  i <b>📦 delivery tasks</b> (dzienne/tygodniowe dostawy do NPC: Yasir, Rashid, Djinns…).
+  Ceny: fair z drabinki Nevii. Źródła list: TibiaWiki (imbu), TibiaPal + community sheet (delivery).</p>
+</header>
+<main>
+  <div class="card"><div class="controls">
+    <label>Typ <span class="seg"><button id="fAll" class="on">wszystko</button><button id="fImb">🧪 imbu</button><button id="fDel">📦 delivery</button></span></label>
+    <label>Sortuj <span class="seg"><button id="sFair" class="on">fair ↓</button><button id="sName">nazwa</button></span></label>
+    <label>Szukaj <input type="text" id="q" placeholder="np. teeth, belt, fur" /></label>
+  </div></div>
+  <div class="card"><table id="tbl"><thead><tr>
+    <th>#</th><th>Item</th><th class="num">Fair (Nevia)</th><th>🧪 Imbuementy</th><th>📦 Delivery (NPC)</th><th>Cena NPC</th>
+  </tr></thead><tbody></tbody></table></div>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const fmt = n => (Number(n) || 0).toLocaleString("pl-PL");
+const state = { f: "all", s: "fair", q: "", rows: [] };
+function parseCSV(text) {
+  const rows = []; let cur = [""], qq = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (qq) {
+      if (c === '"') { if (text[i+1] === '"') { cur[cur.length-1] += '"'; i++; } else qq = false; }
+      else cur[cur.length-1] += c;
+    } else if (c === '"') qq = true;
+    else if (c === ",") cur.push("");
+    else if (c === "\n" || c === "\r") {
+      if (cur.length > 1 || cur[0] !== "") rows.push(cur); cur = [""];
+      if (c === "\r" && text[i+1] === "\n") i++;
+    } else cur[cur.length-1] += c;
+  }
+  if (cur.length > 1 || cur[0] !== "") rows.push(cur);
+  const head = rows.shift() || [];
+  return rows.map(r => Object.fromEntries(head.map((h, j) => [h, r[j] ?? ""])));
+}
+function tags(s, cls) {
+  return (s || "").split("|").filter(Boolean).map(t => `<span class="tag">${t}</span>`).join("");
+}
+function render() {
+  let rows = state.rows.filter(r => {
+    if (state.f === "imb" && !r.imbuements) return false;
+    if (state.f === "del" && !r.delivery_npcs) return false;
+    if (state.q && !(r.item || "").toLowerCase().includes(state.q)) return false;
+    return true;
+  });
+  rows.sort((a, b) => state.s === "fair" ? (Number(b.fair) || 0) - (Number(a.fair) || 0) : (a.item || "").localeCompare(b.item || ""));
+  document.querySelector("#tbl tbody").innerHTML = rows.map((r, i) =>
+    `<tr><td>${i + 1}</td><td><a href="item.html?name=${encodeURIComponent(r.item)}">${r.item}</a></td>
+     <td class="num">${r.fair ? fmt(r.fair) : "—"}</td><td>${tags(r.imbuements)}</td>
+     <td>${tags(r.delivery_npcs)}${r.delivery_bands ? " " + tags(r.delivery_bands) : ""}</td>
+     <td class="num">${r.npc_price ? fmt(r.npc_price) : "—"}</td></tr>`).join("")
+    || `<tr><td colspan="6">Brak.</td></tr>`;
+}
+fetch("data/item_tags.csv").then(r => r.text()).then(t => {
+  const head = t.split("\n")[0];
+  state.rows = parseCSV(t);
+  render();
+}).catch(() => {});
+$("fAll").onclick = e => { state.f = "all"; setSeg(["fAll", "fImb", "fDel"], "fAll"); render(); };
+$("fImb").onclick = e => { state.f = "imb"; setSeg(["fAll", "fImb", "fDel"], "fImb"); render(); };
+$("fDel").onclick = e => { state.f = "del"; setSeg(["fAll", "fImb", "fDel"], "fDel"); render(); };
+$("sFair").onclick = e => { state.s = "fair"; setSeg(["sFair", "sName"], "sFair"); render(); };
+$("sName").onclick = e => { state.s = "name"; setSeg(["sFair", "sName"], "sName"); render(); };
+$("q").oninput = e => { state.q = e.target.value.toLowerCase(); render(); };
+function setSeg(ids, on) { ids.forEach(i => $(i).classList.toggle("on", i === on)); }
+</script>
+</body>
+</html>

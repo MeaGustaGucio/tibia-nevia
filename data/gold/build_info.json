@@ -6,6 +6,9 @@
  "recent_days_exp": 365,
  "price_items": 246,
  "spawn_items": 1117,
+ "tagged_items": 548,
+ "sessions_le31d": 14,
+ "sessions_le62d": 54,
  "manual_prices": {
   "Rope Belt": 4526
  }

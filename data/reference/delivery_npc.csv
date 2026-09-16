@@ -1,0 +1,965 @@
+item,npc,npc_price,market_band
+Nighthunter Wing,Everything,2000,High
+Sulphur Powder,Everything,1900,High
+Mino Shield,Everything,3000,Low
+Silken Bookmark,Everything,1300,Medium
+Giant Tusk,Everything,6000,Very High
+Brinebrute Claw,Everything,2600,Very High
+Deadly Fangs,Everything,5500,Very High
+Crystal Crossbow,Everything,35000,High
+Terra Hood,Everything,2500,Low
+Undertaker Fangs,Everything,2700,High
+Terra Boots,Everything,2500,Low
+Magma Coat,Everything,11000,Low
+Necromantic Core,Everything,10000,Very High
+Relic Sword,Everything,25000,Low
+Vile Axe,Everything,30000,High
+Chasm Spawn Head,Everything,850,Medium
+Stalking Seeds,Everything,1800,Very High
+Diamond Sceptre,Everything,3000,Low
+Inkwell,Everything,720,High
+Sulphider Shell,Everything,2200,Very High
+Skullcracker Armor,Everything,18000,High
+Crystallized Death,Everything,3000,Very High
+Book Page,Everything,640,Low
+Crystalline Armor,Everything,16000,High
+Gore Horn,Everything,2900,Very High
+Golden Legs,Everything,30000,Very High
+Zaoan Armor,Everything,14000,Low
+Knight Legs,Everything,5000,Low
+Sabretooth Fur,Everything,2500,Very High
+Night Harpy Feathers,Everything,5000,Very High
+Prehemoth Claw,Everything,2300,Very High
+War Axe,Everything,12000,Medium
+Mercenary Sword,Everything,12000,Low
+Zaoan Robe,Everything,12000,Very High
+Mercurial Wing,Everything,2500,Very High
+Toe Nails,Everything,4500,Very High
+Glacier Mask,Everything,2500,Medium
+Glacier Robe,Everything,11000,Low
+Spellweaver's Robe,Everything,12000,Low
+Dark Obsidian Splinter,Everything,4400,Very High
+Silver Moon Coin,Everything,11000,High
+Spellbook of Mind Control,Everything,13000,Low
+Terra Mantle,Everything,11000,Low
+Lightning Robe,Everything,11000,Very High
+Dragon Slayer,Everything,15000,Very High
+Rubber Cap,Everything,11000,Medium
+Wooden Spellbook,Everything,12000,Medium
+Unholy Bone,Everything,480,Medium
+Darklight Core,Everything,4100,Very High
+Golden Sun Coin,Everything,11000,Very High
+Glowing Rune,Everything,350,Low
+Crystal Mace,Everything,12000,Low
+Emerald Tortoise Shell,Everything,2150,Very High
+Darklight Basalt Chunk,Everything,3800,Very High
+Naga Archer Scales,Everything,340,High
+Alloy Legs,Everything,11000,Very High
+Titan Axe,Everything,4000,Low
+Trapped Bad Dream Monster,Everything,900,Medium
+Ice Flower,Everything,370,Medium
+Bonebreaker,Everything,10000,High
+Chaos Mace,Everything,9000,Medium
+Guardian Shield,Everything,2000,Low
+Ornate Crossbow,Everything,12000,Medium
+Metal Bat,Everything,9000,Very High
+Bundle of Cursed Straw,Everything,800,Very High
+Vein of Ore,Everything,330,High
+Cluster of Crystallized Death,Everything,9000,Very High
+Rotten Roots,Everything,3800,Very High
+Cry-Stal,Everything,3200,Very High
+Naga Warrior Scales,Everything,340,Medium
+Essence of A Bad Dream,Everything,360,Medium
+Mantosaurus Jaw,Everything,2800,High
+Badger Boots,Everything,7500,Low
+Stag Parchment,Everything,3000,Very High
+Gorerilla Mane,Everything,2750,Very High
+Buckle,Everything,7000,Very High
+Glorious Axe,Everything,3000,Low
+Glooth Cape,Everything,7000,Very High
+Mino Lance,Everything,7000,High
+Headpecker Beak,Everything,2800,Very High
+Tunnel Tyrant Shell,Everything,700,Medium
+Headpecker Feather,Everything,1300,Very High
+Gorerilla Tail,Everything,2650,Very High
+Fire Axe,Everything,8000,Low
+Deepworm Spike Roots,Everything,650,Medium
+Carnisylvan Finger,Everything,250,High
+Glacier Shoes,Everything,2500,Low
+Ripptor Claw,Everything,2600,Very High
+Darklight Matter,Everything,5500,Very High
+Wood Cape,Everything,5000,Low
+Magma Clump,Everything,570,Medium
+Focus Cape,Everything,6000,Low
+Magma Boots,Everything,2500,Low
+Pair of Hellflayer Horns,Everything,1300,Medium
+Cuirass Plate,Everything,1000,Very High
+Werecrocodile Tongue,Everything,570,Medium
+Angelic Axe,Everything,5000,Medium
+Golden Sickle,Everything,1000,Low
+Cave Devourer Maw,Everything,600,High
+Carnisylvan Bark,Everything,230,Medium
+Prehemoth Horns,Everything,3000,Very High
+Knight Axe,Everything,2000,Low
+Hellhound Slobber,Everything,500,Very High
+Single Human Eye,Everything,1000,Medium
+Zaoan Shoes,Everything,5000,Low
+Weretiger Tooth,Everything,490,High
+Lightning Headband,Everything,2500,Medium
+Tunnel Tyrant Head,Everything,500,High
+Cave Devourer Eyes,Everything,550,High
+Book With A Dragon,Everything,1800,High
+Bulltaur Armor Scrap,Everything,480,High
+Frazzle Tongue,Everything,700,Low
+Fur Armor,Everything,5000,Low
+Streaked Devourer Maw,Everything,400,Very High
+Bloodshot Giant Eye,Everything,1820,High
+Worm Sponge,Everything,4200,Very High
+Strange Substance,Everything,810,Very High
+Wardragon Tooth,Everything,730,High
+Crystalline Spikes,Everything,440,High
+Blood Hood,Everything,1550,Low
+Basalt Crumbs,Everything,3000,Very High
+Lavafungus Ring,Everything,390,Very High
+Decayed Finger Bone,Everything,5100,Very High
+Cave Devourer Legs,Everything,350,High
+Quara Pincers,Everything,410,Low
+Quara Eye,Everything,350,Low
+Slimy Leaf Tentacle,Everything,320,High
+Glooth Injection Tube,Everything,350,Medium
+Crawler's Essence,Everything,3700,Very High
+Dragolisk Eye,Everything,690,High
+Crystal of The Mitmah,Everything,280,Medium
+Lavaworm Spike Roots,Everything,600,Very High
+Crab Man Claws,Everything,550,Very High
+Bloated Maggot,Everything,5200,Very High
+Necromantic Rust,Everything,390,High
+Lump of Earth,Everything,130,Medium
+Cobra Crest,Everything,650,Low
+Spiked Bracers,Everything,1360,Medium
+Deepling Ridge,Everything,360,High
+Paper Plane,Everything,480,Very High
+Pot of Orcish Warpaint,Everything,1150,Low
+Blemished Spawn Abdomen,Everything,550,Very High
+Roots,Everything,1200,Very High
+Blood Amulet,Everything,1230,High
+Piece of Draconian Steel,Everything,3000,High
+Hibiscus Dress,Everything,3000,Very High
+Ripptor Scales,Everything,1200,Very High
+Dragon Tongue,Everything,550,Medium
+Deeptags,Everything,290,Medium
+Lamassu Hoof,Everything,330,High
+Star Ink,Everything,1250,Low
+Chasm Spawn Tail,Everything,120,Medium
+Broodrider Saddle,Everything,2800,High
+Silver Poniard,Everything,2000,Very High
+Brigadeiro,Everything,2640,Very High
+Pirate Coin,Everything,110,Low
+Idol of The Forge,Everything,950,High
+Bowl of Terror Sweat,Everything,500,Low
+Dragolisk Poison Gland,Everything,475,Low
+Magma Monocle,Everything,2500,Low
+Deepworm Jaws,Everything,500,Medium
+Chain Leash,Everything,970,Medium
+Human Teeth,Everything,2000,Very High
+Curious Matter,Everything,430,Medium
+Draken Wristbands,Everything,430,High
+Lightning Boots,Everything,2500,High
+Elven Astral Observer,Everything,90,Medium
+Werefox Tail,Everything,200,Medium
+Fafnar Symbol,Everything,950,High
+Lavafungus Head,Everything,900,Very High
+Ensouled Essence,Everything,820,Low
+Mould Heart,Everything,2100,Very High
+Dead Weight,Everything,450,Low
+Heart Amphora,Everything,930,Low
+Spiked Gorget,Everything,850,High
+Pool of Chitinous Glue,Everything,480,Medium
+Nimmersatt's Seal,Everything,520,Low
+Deepworm Spikes,Everything,800,High
+Odd Organ,Everything,410,Medium
+Molten Dragon Essence,Everything,840,High
+Sineater Wing,Everything,2100,High
+Gorger Antlers,Everything,2250,Very High
+Amber Souvenir,Everything,850,Very High
+Spitter Nose,Everything,340,High
+Scale of Corruption,Everything,680,Medium
+Halberd,Everything,400,Low
+Werebadger Skull,Everything,185,Medium
+Ritual Bone Knife,Everything,820,Low
+Shiny Stone,Everything,500,Medium
+Wardragon Claw,Everything,550,Medium
+Ancient Stone,Everything,200,Medium
+Heavy Trident,Everything,2000,Low
+Pulverized Ore,Everything,400,Medium
+Eye of A Deepling,Everything,150,High
+Eyeless Devourer Legs,Everything,650,Very High
+Eye of Corruption,Everything,390,High
+Dragon Hammer,Everything,2000,Medium
+Cat's Paw,Everything,2000,Low
+Ogre Ear Stud,Everything,180,Medium
+Werebear Fur,Everything,185,High
+Bulltaur Horn,Everything,385,Low
+Lavaworm Spikes,Everything,750,Very High
+Orcish Toothbrush,Everything,750,Low
+Goanna Meat,Everything,190,High
+Ghastly Dragon Head,Everything,700,High
+Bone Rattle,Everything,790,High
+Werewolf Fur,Everything,380,Medium
+Rhindeer Antlers,Everything,680,High
+Diremaw Brainpan,Everything,350,Low
+Harpy Feathers,Everything,730,High
+Streaked Devourer Eyes,Everything,500,Very High
+Werebear Skull,Everything,195,High
+Flotsam,Everything,330,Very High
+Old Girtablilu Carapace,Everything,570,Very High
+Lime Tart,Everything,1870,Very High
+Hydrophytes,Everything,220,High
+Paper Boat,Everything,800,High
+Spark Sphere,Everything,350,Medium
+Scarab Pincers,Everything,280,Medium
+Hemp Rope,Everything,350,Low
+Carnivostrich Feather,Everything,630,High
+Sparkion Tail,Everything,300,Medium
+Broken Draken Mail,Everything,340,High
+Sealing Wax,Everything,620,Medium
+Naga Earring,Everything,380,Low
+Piece of Frozen Night,Everything,680,Low
+Holy Ash,Everything,160,High
+Eye of A Weeper,Everything,650,Very High
+Metal Spats,Everything,2000,Very High
+Telescope Eye,Everything,1600,Very High
+Encrypted Notes,Everything,620,High
+Eyeless Devourer Maw,Everything,420,Very High
+Zaogun Flag,Everything,600,Very High
+Blemished Spawn Head,Everything,800,Very High
+Resin Parasite,Everything,1450,Low
+Wereboar Tusks,Everything,165,Medium
+Golden Lotus Brooch,Everything,270,Low
+Instable Proto Matter,Everything,300,Low
+Werepanther Claw,Everything,280,Low
+Volatile Proto Matter,Everything,300,Low
+Boar Man Hoof,Everything,600,High
+Torn Page,Everything,340,Low
+Crystal Sword,Everything,600,Low
+Glooth Club,Everything,1500,Low
+Sparkion Claw,Everything,290,Low
+Book With An Hourglass,Everything,1450,Low
+Dangerous Proto Matter,Everything,300,Low
+Sparkion Legs,Everything,310,Low
+Ivory Carving,Everything,300,Low
+Bulltaur Hoof,Everything,540,Medium
+Frozen Lightning,Everything,270,Low
+High Guard Flag,Everything,550,High
+Glooth Axe,Everything,1500,Low
+Wereboar Loincloth,Everything,1500,High
+Energy Ball,Everything,300,Low
+Humongous Chunk,Everything,540,High
+Plasmatic Lightning,Everything,270,Low
+Hideous Chunk,Everything,510,High
+Streaked Devourer Legs,Everything,600,Very High
+Colourful Snail Shell,Everything,250,Medium
+Shimmering Beetles,Everything,150,Medium
+Plasma Pearls,Everything,250,Low
+Red Goanna Scale,Everything,270,High
+Glooth Blade,Everything,1500,Low
+Shark Fins,Everything,250,Medium
+Lamassu Horn,Everything,240,Low
+Diremaw Legs,Everything,270,Low
+Metal Jaw,Everything,260,Very High
+Weaver's Wandtip,Everything,250,Low
+Quara Tentacle,Everything,140,Medium
+Werebadger Claws,Everything,160,Medium
+Yapunac Dagger,Everything,240,Medium
+Skull Fetish,Everything,250,Medium
+Basalt Fetish,Everything,210,Very High
+Chasm Spawn Abdomen,Everything,240,Medium
+Staff Piece,Everything,560,High
+Scythe Leg,Everything,450,Low
+Spellsinger's Seal,Everything,280,High
+Resinous Fish Fin,Everything,1250,Very High
+Ratana,Everything,500,Low
+Ancient Belt Buckle,Everything,260,High
+Fox Paw,Everything,100,Medium
+Manticore Tail,Everything,220,Very High
+Thorn,Everything,100,Medium
+Werehyaena Nose,Everything,220,Low
+Bashmu Tongue,Everything,400,Medium
+Liodile Fang,Everything,480,High
+Bone Fibula,Everything,580,Medium
+Plate Legs,Everything,115,Medium
+Cowbell,Everything,210,Low
+Lavaworm Jaws,Everything,1100,Very High
+Mega Dragon Heart,Everything,1100,Very High
+Stonerefiner's Skull,Everything,100,Low
+Half-Digested Stones,Everything,40,Low
+Broken Mitmah Necklace,Everything,210,Medium
+Deepling Claw,Everything,430,High
+Poisoned Fang,Everything,130,Medium
+Broken Slicer,Everything,120,High
+Dream Essence Egg,Everything,205,Low
+Quara Bone,Everything,500,Low
+Blemished Spawn Tail,Everything,1000,Very High
+Afflicted Strider Worms,Everything,500,Very High
+Manticore Ear,Everything,310,Very High
+Kongra's Shoulderpad,Everything,100,Medium
+Sparkion Stings,Everything,280,Low
+Pirat's Tail,Everything,180,Low
+Dark Shield,Everything,400,Medium
+Luminous Orb,Everything,1000,Medium
+Dandelion Seeds,Everything,200,Medium
+Mutated Bat Ear,Everything,420,High
+Two-Headed Turtle Heads,Everything,460,Medium
+Key To The Drowned Library,Everything,330,Medium
+Lion Cloak Patch,Everything,190,High
+Afflicted Strider Head,Everything,900,Very High
+Cookbook,Everything,870,Medium
+Cracked Alabaster Vase,Everything,180,High
+Makara Fin,Everything,350,Medium
+Elder Bonelord Tentacle,Everything,150,High
+Naga Armring,Everything,390,Medium
+Eyeless Devourer Tongue,Everything,900,Very High
+Sphinx Tiara,Everything,360,Medium
+Winged Tail,Everything,800,High
+Basalt Figurine,Everything,160,Medium
+Bashmu Feather,Everything,350,Medium
+Zaogun Shoulderplates,Everything,150,High
+Waspoid Claw,Everything,320,Medium
+Black Shield,Everything,800,Medium
+Blood Tincture In A Vial,Everything,360,High
+Mouldy Powder,Everything,200,High
+Bone Fetish,Everything,150,High
+Compound Eye,Everything,150,Low
+Scroll of Heroic Deeds,Everything,230,Low
+Book of Necromantic Rituals,Everything,180,Medium
+Bone Toothpick,Everything,150,Medium
+Coral Branch,Everything,360,Very High
+Makara Tongue,Everything,320,Medium
+Grappling Hook,Everything,150,Medium
+Stone Wing,Everything,120,Medium
+Cheesy Figurine,Everything,150,Medium
+Lost Basher's Spike,Everything,280,Medium
+Cursed Shoulder Spikes,Everything,320,High
+Bone Shoulderplate,Everything,150,Medium
+Lion Crest,Everything,270,Very High
+Falcon Crest,Everything,650,High
+Strange Helmet,Everything,500,High
+Boggy Dreads,Everything,200,Medium
+Mummified Demon Finger,Everything,800,Medium
+Demon Root,Everything,950,Low
+Glob of Glooth,Everything,125,Low
+Scorpion Charm,Everything,620,High
+Orcish Axe,Everything,350,Low
+Pressed Flower,Everything,570,High
+Execowtioner Mask,Everything,240,Very High
+Wimp Tooth Chain,Everything,120,Medium
+Blue Goanna Scale,Everything,230,Medium
+Double Axe,Everything,260,Medium
+Tail of Corruption,Everything,240,Very High
+Deepling Guard Belt Buckle,Everything,230,High
+Crystal Bone,Everything,250,High
+Fig Leaf,Everything,200,Medium
+Widow's Mandibles,Everything,110,Medium
+Dung Ball,Everything,130,High
+High Guard Shoulderplates,Everything,130,Medium
+Wild Flowers,Everything,120,Medium
+Swarmer Antenna,Everything,130,High
+Girtablilu Warrior Carapace,Everything,520,Very High
+Mammoth Tusk,Everything,100,Medium
+Bashmu Fang,Everything,600,High
+Small Treasure Chest,Everything,500,High
+Broken Throwing Axe,Everything,230,Medium
+Green Bandage,Everything,180,Medium
+Bonecarving Knife,Everything,190,Medium
+Ripper Lance,Everything,500,High
+Taurus Mace,Everything,500,Medium
+Dragon Priest's Wandtip,Everything,175,Very High
+Striped Fur,Everything,50,Low
+Sulphurous Stone,Everything,100,Low
+Bony Tail,Everything,210,Low
+Small Notebook,Everything,480,Low
+Dragon's Tail,Everything,100,Low
+Shamanic Talisman,Everything,200,High
+Mad Froth,Everything,80,High
+Broken Halberd,Everything,100,High
+Deepling Breaktime Snack,Everything,90,High
+Broadsword,Everything,500,High
+Giant Pacifier,Everything,170,Very High
+Scimitar,Everything,150,Medium
+Lancer Beetle Shell,Everything,80,High
+Stampor Talons,Everything,150,High
+Vampire's Cape Chain,Everything,150,High
+Gauze Bandage,Everything,90,Medium
+Small Tropical Fish,Everything,380,Medium
+Orcish Gear,Everything,85,Low
+Ritual Tooth,Everything,135,Medium
+Witch Broom,Everything,60,Medium
+Blood Preservation,Everything,320,Low
+Mutated Rat Tail,Everything,150,High
+Werehyaena Talisman,Everything,350,Medium
+Lost Bracers,Everything,140,High
+Dirty Turban,Everything,120,High
+Mammoth Whopper,Everything,300,High
+Empty Honey Glass,Everything,270,High
+Rotten Piece of Cloth,Everything,30,Medium
+Goanna Claw,Everything,260,Medium
+Spiky Club,Everything,300,Very High
+Spiked Iron Ball,Everything,100,Low
+Venison,Everything,55,High
+Damaged Armor Plates,Everything,280,High
+Terramite Legs,Everything,60,Medium
+Small Flask of Eyedrops,Everything,95,Medium
+Cheese Cutter,Everything,50,Medium
+Mutated Flesh,Everything,50,Low
+Deepling Scales,Everything,80,High
+Half-Eaten Brain,Everything,85,Medium
+Lancet,Everything,90,Very High
+Red Hair Dye,Everything,40,Medium
+Battle Shield,Everything,95,Medium
+Broken Gladiator Shield,Everything,190,Medium
+Dowser,Everything,35,Medium
+Glob of Tar,Everything,30,High
+Earflap,Everything,40,Medium
+Bola,Everything,35,Medium
+Fir Cone,Everything,25,Medium
+Rotten Feather,Everything,120,Medium
+Dark Rosary,Everything,48,Medium
+Glob of Acid Slime,Everything,25,Low
+Colourful Feather,Everything,110,High
+Damselfly Eye,Everything,25,High
+Shaggy Tail,Everything,25,High
+Heavy Machete,Everything,90,Medium
+Horoscope,Everything,40,High
+Swampling Club,Everything,40,Medium
+Girlish Hair Decoration,Everything,30,Low
+Centipede Leg,Everything,28,High
+Tooth File,Everything,60,High
+Piece of Warrior Armor,Everything,50,Medium
+Banana Sash,Everything,55,Medium
+Sandcrawler Shell,Everything,20,Very High
+Bone Club,Everything,5,High
+Knife,Everything,1,Medium
+Combat Knife,Everything,1,Medium
+Piece of Hell Steel,Everything,500,Low
+Hydra Head,Everything,600,Low
+Silencer Resonating Chamber,Everything,600,Low
+Flask of Demonic Blood,Everything,0,Medium
+Crystalline Sword,Everything,0,Very High
+Raw Meat,Everything,0,Medium
+Sliver,Everything,0,Very High
+Exalted Core,Everything,0,Very High
+Demonic Matter,Everything,0,High
+Cave Chimera Head,Everything,1200,Very High
+Cave Chimera Leg,Everything,650,Very High
+Varnished Diremaw Brainpan,Everything,750,Very High
+Varnished Diremaw Legs,Everything,670,Very High
+Tremendous Tyrant Shell,Everything,740,Very High
+Tremendous Tyrant Head,Everything,930,Very High
+Lizard Tail,Everything,95,Medium
+Infernoid Ember,Everything,160,Medium
+Gold Tooth,Everything,120,Medium
+Rotten Vermin Ichor,Everything,4500,Very High
+Blooded Worm,Everything,4700,Very High
+Basalt Core,Everything,5800,Very High
+Rod,Everything,2200,Very High
+Head (Many Faces),Everything,3200,Very High
+Apron,Everything,1300,Very High
+Crown,Everything,2700,Very High
+Head (Brachiodemon),Everything,3500,Very High
+Hand,Everything,1450,Very High
+Jaws,Everything,3900,Very High
+Capricious Heart,Everything,2100,Very High
+Capricious Robe,Everything,1200,Very High
+Infernal Heart,Everything,2100,Very High
+Infernal Robe,Everything,1200,Very High
+Distorted Heart,Everything,2100,Very High
+Distorted Robe,Everything,1200,Very High
+Vibrant Heart,Everything,2100,Very High
+Vibrant Robe,Everything,1200,Very High
+Mould Robe,Everything,1200,Very High
+Lightning Boots,RashidTab,2500,High
+Lightning Headband,RashidTab,2500,Medium
+Lightning Robe,RashidTab,11000,Very High
+Buckle,RashidTab,7000,Very High
+Chaos Mace,RashidTab,9000,Medium
+Crystal Crossbow,RashidTab,35000,High
+Crystal Mace,RashidTab,12000,Low
+Crystal Sword,RashidTab,600,Low
+Crystalline Armor,RashidTab,16000,High
+Dark Shield,RashidTab,400,Medium
+Diamond Sceptre,RashidTab,3000,Low
+Dragon Slayer,RashidTab,15000,Very High
+Glacier Mask,RashidTab,2500,Medium
+Glacier Robe,RashidTab,11000,Low
+Glacier Shoes,RashidTab,2500,Low
+Golden Legs,RashidTab,30000,Very High
+Heavy Machete,RashidTab,90,Medium
+Heavy Trident,RashidTab,2000,Low
+Hibiscus Dress,RashidTab,3000,Very High
+Magma Boots,RashidTab,2500,Low
+Magma Coat,RashidTab,11000,Low
+Magma Monocle,RashidTab,2500,Low
+Mammoth Whopper,RashidTab,300,High
+Mercenary Sword,RashidTab,12000,Low
+Relic Sword,RashidTab,25000,Low
+Skullcracker Armor,RashidTab,18000,High
+Taurus Mace,RashidTab,500,Medium
+Terra Boots,RashidTab,2500,Low
+Terra Hood,RashidTab,2500,Low
+Terra Mantle,RashidTab,11000,Low
+Vile Axe,RashidTab,30000,High
+War Axe,RashidTab,12000,Medium
+Angelic Axe,Djinn,5000,Medium
+Black Shield,Djinn,800,Medium
+Bonebreaker,Djinn,10000,High
+Broadsword,Djinn,500,High
+Dragon Hammer,Djinn,2000,Medium
+Fire Axe,Djinn,8000,Low
+Glorious Axe,Djinn,3000,Low
+Guardian Shield,Djinn,2000,Low
+Knight Axe,Djinn,2000,Low
+Knight Legs,Djinn,5000,Low
+Scimitar,Djinn,150,Medium
+Strange Helmet,Djinn,500,High
+Titan Axe,Djinn,4000,Low
+Afflicted Strider Head,Yasir,900,Very High
+Afflicted Strider Worms,Yasir,500,Very High
+Amber Souvenir,Yasir,850,Very High
+Ancient Belt Buckle,Yasir,260,High
+Banana Sash,Yasir,55,Medium
+Basalt Crumbs,Yasir,3000,Very High
+Basalt Fetish,Yasir,210,Very High
+Basalt Figurine,Yasir,160,Medium
+Bashmu Fang,Yasir,600,High
+Bashmu Feather,Yasir,350,Medium
+Bashmu Tongue,Yasir,400,Medium
+Blemished Spawn Abdomen,Yasir,550,Very High
+Blemished Spawn Head,Yasir,800,Very High
+Blemished Spawn Tail,Yasir,1000,Very High
+Bloated Maggot,Yasir,5200,Very High
+Blood Amulet,Yasir,1230,High
+Blood Hood,Yasir,1550,Low
+Blood Preservation,Yasir,320,Low
+Blood Tincture In A Vial,Yasir,360,High
+Bloodshot Giant Eye,Yasir,1820,High
+Blue Goanna Scale,Yasir,230,Medium
+Boar Man Hoof,Yasir,600,High
+Boggy Dreads,Yasir,200,Medium
+Bola,Yasir,35,Medium
+Bone Fetish,Yasir,150,High
+Bone Fibula,Yasir,580,Medium
+Bone Rattle,Yasir,790,High
+Bone Toothpick,Yasir,150,Medium
+Bonecarving Knife,Yasir,190,Medium
+Bony Tail,Yasir,210,Low
+Book Page,Yasir,640,Low
+Book With A Dragon,Yasir,1800,High
+Book With An Hourglass,Yasir,1450,Low
+Book of Necromantic Rituals,Yasir,180,Medium
+Bowl of Terror Sweat,Yasir,500,Low
+Brigadeiro,Yasir,2640,Very High
+Brinebrute Claw,Yasir,2600,Very High
+Broken Mitmah Necklace,Yasir,210,Medium
+Broken Throwing Axe,Yasir,230,Medium
+Broodrider Saddle,Yasir,2800,High
+Bulltaur Armor Scrap,Yasir,480,High
+Bulltaur Hoof,Yasir,540,Medium
+Bulltaur Horn,Yasir,385,Low
+Bundle of Cursed Straw,Yasir,800,Very High
+Carnisylvan Bark,Yasir,230,Medium
+Carnisylvan Finger,Yasir,250,High
+Carnivostrich Feather,Yasir,630,High
+Cat's Paw,Yasir,2000,Low
+Cave Devourer Eyes,Yasir,550,High
+Cave Devourer Legs,Yasir,350,High
+Cave Devourer Maw,Yasir,600,High
+Centipede Leg,Yasir,28,High
+Chain Leash,Yasir,970,Medium
+Chasm Spawn Abdomen,Yasir,240,Medium
+Chasm Spawn Head,Yasir,850,Medium
+Chasm Spawn Tail,Yasir,120,Medium
+Cheese Cutter,Yasir,50,Medium
+Cheesy Figurine,Yasir,150,Medium
+Cluster of Crystallized Death,Yasir,9000,Very High
+Cobra Crest,Yasir,650,Low
+Colourful Feather,Yasir,110,High
+Colourful Snail Shell,Yasir,250,Medium
+Compound Eye,Yasir,150,Low
+Cookbook,Yasir,870,Medium
+Coral Branch,Yasir,360,Very High
+Cowbell,Yasir,210,Low
+Crab Man Claws,Yasir,550,Very High
+Cracked Alabaster Vase,Yasir,180,High
+Crawler's Essence,Yasir,3700,Very High
+Cry-Stal,Yasir,3200,Very High
+Crystal Bone,Yasir,250,High
+Crystal of The Mitmah,Yasir,280,Medium
+Crystallized Death,Yasir,3000,Very High
+Cuirass Plate,Yasir,1000,Very High
+Curious Matter,Yasir,430,Medium
+Damaged Armor Plates,Yasir,280,High
+Damselfly Eye,Yasir,25,High
+Dandelion Seeds,Yasir,200,Medium
+Dangerous Proto Matter,Yasir,300,Low
+Dark Obsidian Splinter,Yasir,4400,Very High
+Dark Rosary,Yasir,48,Medium
+Darklight Basalt Chunk,Yasir,3800,Very High
+Darklight Core,Yasir,4100,Very High
+Darklight Matter,Yasir,5500,Very High
+Dead Weight,Yasir,450,Low
+Deadly Fangs,Yasir,5500,Very High
+Decayed Finger Bone,Yasir,5100,Very High
+Deepling Breaktime Snack,Yasir,90,High
+Deepling Claw,Yasir,430,High
+Deepling Guard Belt Buckle,Yasir,230,High
+Deepling Ridge,Yasir,360,High
+Deepling Scales,Yasir,80,High
+Deeptags,Yasir,290,Medium
+Deepworm Jaws,Yasir,500,Medium
+Deepworm Spike Roots,Yasir,650,Medium
+Deepworm Spikes,Yasir,800,High
+Demon Root,Yasir,950,Low
+Diremaw Brainpan,Yasir,350,Low
+Diremaw Legs,Yasir,270,Low
+Dirty Turban,Yasir,120,High
+Dowser,Yasir,35,Medium
+Dragolisk Eye,Yasir,690,High
+Dragolisk Poison Gland,Yasir,475,Low
+Dragon Priest's Wandtip,Yasir,175,Very High
+Dragon Tongue,Yasir,550,Medium
+Dragon's Tail,Yasir,100,Low
+Draken Wristbands,Yasir,430,High
+Dream Essence Egg,Yasir,205,Low
+Dung Ball,Yasir,130,High
+Earflap,Yasir,40,Medium
+Elder Bonelord Tentacle,Yasir,150,High
+Elven Astral Observer,Yasir,90,Medium
+Emerald Tortoise Shell,Yasir,2150,Very High
+Empty Honey Glass,Yasir,270,High
+Encrypted Notes,Yasir,620,High
+Energy Ball,Yasir,300,Low
+Ensouled Essence,Yasir,820,Low
+Essence of A Bad Dream,Yasir,360,Medium
+Execowtioner Mask,Yasir,240,Very High
+Eye of A Deepling,Yasir,150,High
+Eye of A Weeper,Yasir,650,Very High
+Eye of Corruption,Yasir,390,High
+Eyeless Devourer Legs,Yasir,650,Very High
+Eyeless Devourer Maw,Yasir,420,Very High
+Eyeless Devourer Tongue,Yasir,900,Very High
+Fafnar Symbol,Yasir,950,High
+Falcon Crest,Yasir,650,High
+Fig Leaf,Yasir,200,Medium
+Fir Cone,Yasir,25,Medium
+Flotsam,Yasir,330,Very High
+Frazzle Tongue,Yasir,700,Low
+Frozen Lightning,Yasir,270,Low
+Gauze Bandage,Yasir,90,Medium
+Ghastly Dragon Head,Yasir,700,High
+Giant Pacifier,Yasir,170,Very High
+Giant Tusk,Yasir,6000,Very High
+Girlish Hair Decoration,Yasir,30,Low
+Girtablilu Warrior Carapace,Yasir,520,Very High
+Glob of Acid Slime,Yasir,25,Low
+Glob of Glooth,Yasir,125,Low
+Glob of Tar,Yasir,30,High
+Glooth Injection Tube,Yasir,350,Medium
+Glowing Rune,Yasir,350,Low
+Goanna Claw,Yasir,260,Medium
+Goanna Meat,Yasir,190,High
+Golden Lotus Brooch,Yasir,270,Low
+Golden Sun Coin,Yasir,11000,Very High
+Gore Horn,Yasir,2900,Very High
+Gorerilla Mane,Yasir,2750,Very High
+Gorerilla Tail,Yasir,2650,Very High
+Gorger Antlers,Yasir,2250,Very High
+Grappling Hook,Yasir,150,Medium
+Green Bandage,Yasir,180,Medium
+Half-Digested Stones,Yasir,40,Low
+Half-Eaten Brain,Yasir,85,Medium
+Harpy Feathers,Yasir,730,High
+Headpecker Beak,Yasir,2800,Very High
+Headpecker Feather,Yasir,1300,Very High
+Heart Amphora,Yasir,930,Low
+Hellhound Slobber,Yasir,500,Very High
+Hemp Rope,Yasir,350,Low
+Hideous Chunk,Yasir,510,High
+Holy Ash,Yasir,160,High
+Horoscope,Yasir,40,High
+Human Teeth,Yasir,2000,Very High
+Humongous Chunk,Yasir,540,High
+Hydra Head,Yasir,600,Low
+Hydrophytes,Yasir,220,High
+Ice Flower,Yasir,370,Medium
+Idol of The Forge,Yasir,950,High
+Inkwell,Yasir,720,High
+Instable Proto Matter,Yasir,300,Low
+Ivory Carving,Yasir,300,Low
+Key To The Drowned Library,Yasir,330,Medium
+Kongra's Shoulderpad,Yasir,100,Medium
+Lamassu Hoof,Yasir,330,High
+Lamassu Horn,Yasir,240,Low
+Lancer Beetle Shell,Yasir,80,High
+Lancet,Yasir,90,Very High
+Lavafungus Head,Yasir,900,Very High
+Lavafungus Ring,Yasir,390,Very High
+Lavaworm Jaws,Yasir,1100,Very High
+Lavaworm Spike Roots,Yasir,600,Very High
+Lavaworm Spikes,Yasir,750,Very High
+Lime Tart,Yasir,1870,Very High
+Liodile Fang,Yasir,480,High
+Lion Cloak Patch,Yasir,190,High
+Lion Crest,Yasir,270,Very High
+Lost Basher's Spike,Yasir,280,Medium
+Lost Bracers,Yasir,140,High
+Luminous Orb,Yasir,1000,Medium
+Lump of Earth,Yasir,130,Medium
+Mad Froth,Yasir,80,High
+Makara Fin,Yasir,350,Medium
+Makara Tongue,Yasir,320,Medium
+Mammoth Tusk,Yasir,100,Medium
+Manticore Ear,Yasir,310,Very High
+Manticore Tail,Yasir,220,Very High
+Mantosaurus Jaw,Yasir,2800,High
+Mega Dragon Heart,Yasir,1100,Very High
+Mercurial Wing,Yasir,2500,Very High
+Metal Jaw,Yasir,260,Very High
+Molten Dragon Essence,Yasir,840,High
+Mould Heart,Yasir,2100,Very High
+Mouldy Powder,Yasir,200,High
+Mummified Demon Finger,Yasir,800,Medium
+Mutated Bat Ear,Yasir,420,High
+Mutated Flesh,Yasir,50,Low
+Mutated Rat Tail,Yasir,150,High
+Naga Archer Scales,Yasir,340,High
+Naga Armring,Yasir,390,Medium
+Naga Earring,Yasir,380,Low
+Naga Warrior Scales,Yasir,340,Medium
+Necromantic Core,Yasir,10000,Very High
+Necromantic Rust,Yasir,390,High
+Night Harpy Feathers,Yasir,5000,Very High
+Nighthunter Wing,Yasir,2000,High
+Nimmersatt's Seal,Yasir,520,Low
+Odd Organ,Yasir,410,Medium
+Ogre Ear Stud,Yasir,180,Medium
+Old Girtablilu Carapace,Yasir,570,Very High
+Orcish Gear,Yasir,85,Low
+Orcish Toothbrush,Yasir,750,Low
+Pair of Hellflayer Horns,Yasir,1300,Medium
+Paper Boat,Yasir,800,High
+Paper Plane,Yasir,480,Very High
+Piece of Frozen Night,Yasir,680,Low
+Piece of Warrior Armor,Yasir,50,Medium
+Pirat's Tail,Yasir,180,Low
+Pirate Coin,Yasir,110,Low
+Plasma Pearls,Yasir,250,Low
+Plasmatic Lightning,Yasir,270,Low
+Poisoned Fang,Yasir,130,Medium
+Pool of Chitinous Glue,Yasir,480,Medium
+Pot of Orcish Warpaint,Yasir,1150,Low
+Prehemoth Claw,Yasir,2300,Very High
+Prehemoth Horns,Yasir,3000,Very High
+Pressed Flower,Yasir,570,High
+Quara Bone,Yasir,500,Low
+Quara Eye,Yasir,350,Low
+Quara Pincers,Yasir,410,Low
+Quara Tentacle,Yasir,140,Medium
+Red Goanna Scale,Yasir,270,High
+Red Hair Dye,Yasir,40,Medium
+Resin Parasite,Yasir,1450,Low
+Resinous Fish Fin,Yasir,1250,Very High
+Rhindeer Antlers,Yasir,680,High
+Ripptor Claw,Yasir,2600,Very High
+Ripptor Scales,Yasir,1200,Very High
+Ritual Bone Knife,Yasir,820,Low
+Ritual Tooth,Yasir,135,Medium
+Roots,Yasir,1200,Very High
+Rotten Feather,Yasir,120,Medium
+Rotten Piece of Cloth,Yasir,30,Medium
+Rotten Roots,Yasir,3800,Very High
+Sabretooth Fur,Yasir,2500,Very High
+Sandcrawler Shell,Yasir,20,Very High
+Scale of Corruption,Yasir,680,Medium
+Scarab Pincers,Yasir,280,Medium
+Scorpion Charm,Yasir,620,High
+Scroll of Heroic Deeds,Yasir,230,Low
+Scythe Leg,Yasir,450,Low
+Sealing Wax,Yasir,620,Medium
+Shaggy Tail,Yasir,25,High
+Shamanic Talisman,Yasir,200,High
+Shark Fins,Yasir,250,Medium
+Shimmering Beetles,Yasir,150,Medium
+Silencer Resonating Chamber,Yasir,600,Low
+Silken Bookmark,Yasir,1300,Medium
+Silver Moon Coin,Yasir,11000,High
+Silver Poniard,Yasir,2000,Very High
+Sineater Wing,Yasir,2100,High
+Single Human Eye,Yasir,1000,Medium
+Skull Fetish,Yasir,250,Medium
+Slimy Leaf Tentacle,Yasir,320,High
+Small Flask of Eyedrops,Yasir,95,Medium
+Small Notebook,Yasir,480,Low
+Small Treasure Chest,Yasir,500,High
+Small Tropical Fish,Yasir,380,Medium
+Spark Sphere,Yasir,350,Medium
+Sparkion Claw,Yasir,290,Low
+Sparkion Legs,Yasir,310,Low
+Sparkion Stings,Yasir,280,Low
+Sparkion Tail,Yasir,300,Medium
+Spellsinger's Seal,Yasir,280,High
+Sphinx Tiara,Yasir,360,Medium
+Spiked Bracers,Yasir,1360,Medium
+Spiked Gorget,Yasir,850,High
+Spitter Nose,Yasir,340,High
+Staff Piece,Yasir,560,High
+Stag Parchment,Yasir,3000,Very High
+Stalking Seeds,Yasir,1800,Very High
+Stampor Talons,Yasir,150,High
+Star Ink,Yasir,1250,Low
+Stone Wing,Yasir,120,Medium
+Stonerefiner's Skull,Yasir,100,Low
+Strange Substance,Yasir,810,Very High
+Streaked Devourer Eyes,Yasir,500,Very High
+Streaked Devourer Legs,Yasir,600,Very High
+Streaked Devourer Maw,Yasir,400,Very High
+Striped Fur,Yasir,50,Low
+Sulphider Shell,Yasir,2200,Very High
+Sulphur Powder,Yasir,1900,High
+Swarmer Antenna,Yasir,130,High
+Tail of Corruption,Yasir,240,Very High
+Telescope Eye,Yasir,1600,Very High
+Terramite Legs,Yasir,60,Medium
+Thorn,Yasir,100,Medium
+Toe Nails,Yasir,4500,Very High
+Tooth File,Yasir,60,High
+Torn Page,Yasir,340,Low
+Trapped Bad Dream Monster,Yasir,900,Medium
+Tunnel Tyrant Head,Yasir,500,High
+Tunnel Tyrant Shell,Yasir,700,Medium
+Two-Headed Turtle Heads,Yasir,460,Medium
+Undertaker Fangs,Yasir,2700,High
+Unholy Bone,Yasir,480,Medium
+Vampire's Cape Chain,Yasir,150,High
+Venison,Yasir,55,High
+Volatile Proto Matter,Yasir,300,Low
+Wardragon Claw,Yasir,550,Medium
+Wardragon Tooth,Yasir,730,High
+Waspoid Claw,Yasir,320,Medium
+Weaver's Wandtip,Yasir,250,Low
+Werecrocodile Tongue,Yasir,570,Medium
+Werehyaena Nose,Yasir,220,Low
+Werehyaena Talisman,Yasir,350,Medium
+Werepanther Claw,Yasir,280,Low
+Weretiger Tooth,Yasir,490,High
+Widow's Mandibles,Yasir,110,Medium
+Wild Flowers,Yasir,120,Medium
+Wimp Tooth Chain,Yasir,120,Medium
+Winged Tail,Yasir,800,High
+Witch Broom,Yasir,60,Medium
+Worm Sponge,Yasir,4200,Very High
+Yapunac Dagger,Yasir,240,Medium
+Fox Paw,Yasir,100,Medium
+Werebadger Claws,Yasir,160,Medium
+Werebadger Skull,Yasir,185,Medium
+Werebear Fur,Yasir,185,High
+Werebear Skull,Yasir,195,High
+Wereboar Tusks,Yasir,165,Medium
+Werefox Tail,Yasir,200,Medium
+Werewolf Fur,Yasir,380,Medium
+Tremendous Tyrant Head,Yasir,930,Very High
+Tremendous Tyrant Shell,Yasir,740,Very High
+Cave Chimera Leg,Yasir,650,Very High
+Cave Chimera Head,Yasir,1200,Very High
+Varnished Diremaw Legs,Yasir,670,Very High
+Varnished Diremaw Brainpan,Yasir,750,Very High
+Lizard Tail,Yasir,95,Medium
+Infernoid Ember,Yasir,160,Medium
+Gold Tooth,Yasir,120,Medium
+Rotten Vermin Ichor,Yasir,4500,Very High
+Blooded Worm,Yasir,4700,Very High
+Basalt Core,Yasir,5800,Very High
+Rod,Yasir,2200,Very High
+Head (Many Faces),Yasir,3200,Very High
+Apron,Yasir,1300,Very High
+Crown,Yasir,2700,Very High
+Head (Brachiodemon),Yasir,3500,Very High
+Hand,Yasir,1450,Very High
+Jaws,Yasir,3900,Very High
+Capricious Heart,Yasir,2100,Very High
+Capricious Robe,Yasir,1200,Very High
+Infernal Heart,Yasir,2100,Very High
+Infernal Robe,Yasir,1200,Very High
+Distorted Heart,Yasir,2100,Very High
+Distorted Robe,Yasir,1200,Very High
+Vibrant Heart,Yasir,2100,Very High
+Vibrant Robe,Yasir,1200,Very High
+Mould Robe,Yasir,1200,Very High
+Ancient Stone,Telas,200,Medium
+Broken Gladiator Shield,Telas,190,Medium
+Crystalline Spikes,Telas,440,High
+Magma Clump,Telas,570,Medium
+Piece of Draconian Steel,Telas,3000,High
+Piece of Hell Steel,Telas,500,Low
+Pulverized Ore,Telas,400,Medium
+Shiny Stone,Telas,500,Medium
+Sulphurous Stone,Telas,100,Low
+Vein of Ore,Telas,330,High
+Badger Boots,Gladys,7500,Low
+Fox Paw,Gladys,100,Medium
+Fur Armor,Gladys,5000,Low
+Werebadger Claws,Gladys,160,Medium
+Werebadger Skull,Gladys,185,Medium
+Werebear Fur,Gladys,185,High
+Werebear Skull,Gladys,195,High
+Wereboar Loincloth,Gladys,1500,High
+Wereboar Tusks,Gladys,165,Medium
+Werefox Tail,Gladys,200,Medium
+Werewolf Fur,Gladys,380,Medium
+Spellbook of Mind Control,Others,13000,Low
+Spellweaver's Robe,Others,12000,Low
+Focus Cape,Others,6000,Low
+Zaoan Robe,Others,12000,Very High
+Ornate Crossbow,Others,12000,Medium
+Wooden Spellbook,Others,12000,Medium
+Wood Cape,Others,5000,Low
+Golden Sickle,Others,1000,Low
+Ratana,Others,500,Low
+Ripper Lance,Others,500,High
+Halberd,Others,400,Low
+Orcish Axe,Others,350,Low
+Spiky Club,Others,300,Very High
+Double Axe,Others,260,Medium
+Plate Legs,Others,115,Medium
+Battle Shield,Others,95,Medium
+Swampling Club,Others,40,Medium
+Bone Club,Others,5,High
+Combat Knife,Others,1,Medium
+Knife,Others,1,Medium
+Crystalline Sword,Others,0,Very High
+Demonic Matter,Others,0,High
+Exalted Core,Others,0,Very High
+Flask of Demonic Blood,Others,0,Medium
+Raw Meat,Others,0,Medium
+Sliver,Others,0,Very High
+Bone Shoulderplate,Esrik,150,Medium
+Broken Draken Mail,Esrik,340,High
+Broken Halberd,Esrik,100,High
+Broken Slicer,Esrik,120,High
+Cursed Shoulder Spikes,Esrik,320,High
+High Guard Shoulderplates,Esrik,130,Medium
+Spiked Iron Ball,Esrik,100,Low
+Zaoan Armor,Esrik,14000,Low
+Zaoan Shoes,Esrik,5000,Low
+Zaogun Shoulderplates,Esrik,150,High
+High Guard Flag,Esrik,550,High
+Zaogun Flag,Esrik,600,Very High
+Alloy Legs,Flint,11000,Very High
+Glooth Axe,Flint,1500,Low
+Glooth Blade,Flint,1500,Low
+Glooth Cape,Flint,7000,Very High
+Glooth Club,Flint,1500,Low
+Metal Bat,Flint,9000,Very High
+Metal Spats,Flint,2000,Very High
+Mino Lance,Flint,7000,High
+Mino Shield,Flint,3000,Low
+Rubber Cap,Flint,11000,Medium

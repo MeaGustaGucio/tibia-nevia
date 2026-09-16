@@ -1,0 +1,139 @@
+item,imbuement,tier,qty
+Fiery Heart,Scorch,Basic,25
+Fiery Heart,Scorch,Intricate,25
+Green Dragon Scale,Scorch,Intricate,5
+Fiery Heart,Scorch,Powerful,25
+Green Dragon Scale,Scorch,Powerful,5
+Demon Horn,Scorch,Powerful,5
+Swamp Grass,Venom,Basic,25
+Swamp Grass,Venom,Intricate,25
+Poisonous Slime,Venom,Intricate,20
+Swamp Grass,Venom,Powerful,25
+Poisonous Slime,Venom,Powerful,20
+Slime Heart,Venom,Powerful,2
+Frosty Heart,Frost,Basic,25
+Frosty Heart,Frost,Intricate,25
+Seacrest Hair,Frost,Intricate,10
+Frosty Heart,Frost,Powerful,25
+Seacrest Hair,Frost,Powerful,10
+Polar Bear Paw,Frost,Powerful,5
+Rorc Feather,Electrify,Basic,25
+Rorc Feather,Electrify,Intricate,25
+Peacock Feather Fan,Electrify,Intricate,5
+Rorc Feather,Electrify,Powerful,25
+Peacock Feather Fan,Electrify,Powerful,5
+Energy Vein,Electrify,Powerful,1
+Pile of Grave Earth,Reap,Basic,25
+Pile of Grave Earth,Reap,Intricate,25
+Demonic Skeletal Hand,Reap,Intricate,20
+Pile of Grave Earth,Reap,Powerful,25
+Demonic Skeletal Hand,Reap,Powerful,20
+Petrified Scream,Reap,Powerful,5
+Vampire Teeth,Vampirism,Basic,25
+Vampire Teeth,Vampirism,Intricate,25
+Bloody Pincers,Vampirism,Intricate,15
+Vampire Teeth,Vampirism,Powerful,25
+Bloody Pincers,Vampirism,Powerful,15
+Piece of Dead Brain,Vampirism,Powerful,5
+Rope Belt,Void,Basic,25
+Rope Belt,Void,Intricate,25
+Silencer Claws,Void,Intricate,25
+Rope Belt,Void,Powerful,25
+Silencer Claws,Void,Powerful,25
+Some Grimeleech Wings,Void,Powerful,5
+Flask of Embalming Fluid,Lich Shroud,Basic,25
+Flask of Embalming Fluid,Lich Shroud,Intricate,25
+Gloom Wolf Fur,Lich Shroud,Intricate,20
+Flask of Embalming Fluid,Lich Shroud,Powerful,25
+Gloom Wolf Fur,Lich Shroud,Powerful,20
+Mystical Hourglass,Lich Shroud,Powerful,5
+Piece of Swampling Wood,Snake Skin,Basic,25
+Piece of Swampling Wood,Snake Skin,Intricate,25
+Snake Skin,Snake Skin,Intricate,20
+Piece of Swampling Wood,Snake Skin,Powerful,25
+Snake Skin,Snake Skin,Powerful,20
+Brimstone Fangs,Snake Skin,Powerful,10
+Green Dragon Leather,Dragon Hide,Basic,20
+Green Dragon Leather,Dragon Hide,Intricate,20
+Blazing Bone,Dragon Hide,Intricate,10
+Green Dragon Leather,Dragon Hide,Powerful,20
+Blazing Bone,Dragon Hide,Powerful,10
+Draken Sulphur,Dragon Hide,Powerful,5
+Winter Wolf Fur,Quara Scale,Basic,25
+Winter Wolf Fur,Quara Scale,Intricate,25
+Thick Fur,Quara Scale,Intricate,15
+Winter Wolf Fur,Quara Scale,Powerful,25
+Thick Fur,Quara Scale,Powerful,15
+Deepling Warts,Quara Scale,Powerful,10
+Wyvern Talisman,Cloud Fabric,Basic,20
+Wyvern Talisman,Cloud Fabric,Intricate,20
+Crawler Head Plating,Cloud Fabric,Intricate,15
+Wyvern Talisman,Cloud Fabric,Powerful,20
+Crawler Head Plating,Cloud Fabric,Powerful,15
+Wyrm Scale,Cloud Fabric,Powerful,10
+Cultish Robe,Demon Presence,Basic,25
+Cultish Robe,Demon Presence,Intricate,25
+Cultish Mask,Demon Presence,Intricate,25
+Cultish Robe,Demon Presence,Powerful,25
+Cultish Mask,Demon Presence,Powerful,25
+Hellspawn Tail,Demon Presence,Powerful,20
+Wereboar Hooves,Vibrancy,Basic,20
+Wereboar Hooves,Vibrancy,Intricate,20
+Crystallized Anger,Vibrancy,Intricate,15
+Wereboar Hooves,Vibrancy,Powerful,20
+Crystallized Anger,Vibrancy,Powerful,15
+Quill,Vibrancy,Powerful,5
+Damselfly Wing,Swiftness,Basic,15
+Damselfly Wing,Swiftness,Intricate,15
+Compass,Swiftness,Intricate,25
+Damselfly Wing,Swiftness,Powerful,15
+Compass,Swiftness,Powerful,25
+Waspoid Wing,Swiftness,Powerful,20
+Fairy Wings,Featherweight,Basic,20
+Fairy Wings,Featherweight,Intricate,20
+Little Bowl of Myrrh,Featherweight,Intricate,10
+Fairy Wings,Featherweight,Powerful,20
+Little Bowl of Myrrh,Featherweight,Powerful,10
+Goosebump Leather,Featherweight,Powerful,5
+Elvish Talisman,Epiphany,Basic,25
+Elvish Talisman,Epiphany,Intricate,25
+Broken Shamanic Staff,Epiphany,Intricate,15
+Elvish Talisman,Epiphany,Powerful,25
+Broken Shamanic Staff,Epiphany,Powerful,15
+Strand of Medusa Hair,Epiphany,Powerful,15
+Tarantula Egg,Punch,Basic,25
+Tarantula Egg,Punch,Intricate,25
+Mantassin Tail,Punch,Intricate,20
+Tarantula Egg,Punch,Powerful,25
+Mantassin Tail,Punch,Powerful,20
+Gold-Brocaded Cloth,Punch,Powerful,15
+Cyclops Toe,Bash,Basic,20
+Cyclops Toe,Bash,Intricate,20
+Ogre Nose Ring,Bash,Intricate,15
+Cyclops Toe,Bash,Powerful,20
+Ogre Nose Ring,Bash,Powerful,15
+Warmaster's Wristguards,Bash,Powerful,10
+Lion's Mane,Slash,Basic,25
+Lion's Mane,Slash,Intricate,25
+Mooh'tah Shell,Slash,Intricate,25
+Lion's Mane,Slash,Powerful,25
+Mooh'tah Shell,Slash,Powerful,25
+War Crystal,Slash,Powerful,5
+Orc Tooth,Chop,Basic,20
+Orc Tooth,Chop,Intricate,20
+Battle Stone,Chop,Intricate,25
+Orc Tooth,Chop,Powerful,20
+Battle Stone,Chop,Powerful,25
+Moohtant Horn,Chop,Powerful,20
+Elven Scouting Glass,Precision,Basic,25
+Elven Scouting Glass,Precision,Intricate,25
+Elven Hoof,Precision,Intricate,20
+Elven Scouting Glass,Precision,Powerful,25
+Elven Hoof,Precision,Powerful,20
+Metal Spike,Precision,Powerful,10
+Piece of Scarab Shell,Blockade,Basic,20
+Piece of Scarab Shell,Blockade,Intricate,20
+Brimstone Shell,Blockade,Intricate,25
+Piece of Scarab Shell,Blockade,Powerful,20
+Brimstone Shell,Blockade,Powerful,25
+Frazzle Skin,Blockade,Powerful,25

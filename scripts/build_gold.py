@@ -277,6 +277,47 @@ def kills_enriched(hunts: list[dict], kills: list[dict]) -> list[dict]:
     return out
 
 
+TAGS_COLS = ["item", "fair", "imbuements", "delivery_npcs", "delivery_bands", "npc_price"]
+
+
+def load_reference_tags() -> tuple[dict, dict]:
+    """Zwraca (imbu, delivery):
+    imbu[item_lower] = {"Powerful Vampirism x25", ...}
+    delivery[item_lower] = {"npcs": set, "bands": set, "npc_price": int|""}"""
+    imbu: dict[str, set] = {}
+    p = ROOT / "data" / "reference" / "imbuing_items.csv"
+    if p.exists():
+        with open(p, encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                if r.get("item"):
+                    imbu.setdefault(r["item"].strip().lower(), set()).add(
+                        f'{r.get("tier", "")} {r.get("imbuement", "")} x{r.get("qty", "")}'.strip())
+    delivery: dict[str, dict] = {}
+    for fn in ("delivery_npc.csv", "delivery_items.csv"):
+        q = ROOT / "data" / "reference" / fn
+        if not q.exists():
+            continue
+        with open(q, encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                name = (r.get("item") or "").strip()
+                if not name:
+                    continue
+                d = delivery.setdefault(name.lower(), {"name": name, "npcs": set(), "bands": set(), "npc_price": ""})
+                npc = (r.get("npc") or "").strip()
+                if npc and npc != "Everything":
+                    d["npcs"].add("Rashid" if npc == "RashidTab" else npc)
+                band = (r.get("market_band") or "").strip()
+                if band:
+                    d["bands"].add(band)
+                try:
+                    pr = int(str(r.get("npc_price", "")).replace(" ", ""))
+                    if pr and (d["npc_price"] == "" or pr > d["npc_price"]):
+                        d["npc_price"] = pr
+                except ValueError:
+                    pass
+    return imbu, delivery
+
+
 def write_spawns(name: str, rows: list[dict]):
     with open(GOLD / f"{name}.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=SPAWN_COLS)
@@ -331,6 +372,25 @@ def main() -> None:
             w.writerow({k: p.get(k, "") for k in PRICE_COLS})
     price_by_name = {str(p["item"]).lower(): p for p in prices if p.get("item")}
     print(f"price_stats items={len(prices)}")
+
+    # Tagi popytu: imbu + delivery, z fair Nevii (podstawa strony demand.html)
+    imbu, delivery = load_reference_tags()
+    tag_rows = []
+    for key in sorted(set(imbu) | set(delivery)):
+        pr = price_by_name.get(key, {}) or {}
+        # display name: z price, inaczej z delivery/imbu klucza
+        disp = pr.get("item") or (delivery.get(key, {}).get("name") or key)
+        d = delivery.get(key, {"npcs": set(), "bands": set(), "npc_price": ""})
+        tag_rows.append({"item": disp, "fair": pr.get("fair", ""),
+                         "imbuements": "|".join(sorted(imbu.get(key, set()))),
+                         "delivery_npcs": "|".join(sorted(d["npcs"])),
+                         "delivery_bands": "|".join(sorted(d["bands"])),
+                         "npc_price": d["npc_price"]})
+    with open(GOLD / "item_tags.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=TAGS_COLS)
+        w.writeheader()
+        w.writerows(tag_rows)
+    print(f"item_tags rows={len(tag_rows)}")
 
     # Kille ze wszystkich zrzutow (do mapy spawn->itemy)
     kills = []
@@ -401,12 +461,16 @@ def main() -> None:
                     "hunts_exp": len(hunts_exp),
                     "recent_days": rd_profit, "recent_days_exp": rd_exp,
                     "price_items": len(prices), "spawn_items": len(si),
+                    "tagged_items": len(tag_rows),
+                    "sessions_le31d": sum(1 for h in hunts_exp if h.get("_days_ago", 9999) <= 31),
+                    "sessions_le62d": sum(1 for h in hunts_exp if h.get("_days_ago", 9999) <= 62),
                     "manual_prices": manual}, indent=1), encoding="utf-8")
 
     # Kopia rankingow do docs/data/ — GitHub Pages serwuje caly folder docs/,
     # wiec dashboard (docs/index.html) czyta te CSV bez zadnego backendu.
     for p in (list(GOLD.glob("ranking_*.csv")) + list(GOLD.glob("spawn_stats*.csv"))
               + [GOLD / "price_stats.csv", GOLD / "spawn_items.csv", GOLD / "hunt_kills_h.csv",
+                 GOLD / "item_tags.csv",
                  GOLD / "session_loot.csv", GOLD / "build_info.json"]):
         if p.exists():
             shutil.copy(p, PAGES_DATA / p.name)
@@ -418,7 +482,8 @@ def main() -> None:
         first = True
         for p in sorted(list(GOLD.glob("ranking_*.csv")) + list(GOLD.glob("spawn_stats*.csv"))
                          + [GOLD / "price_stats.csv", GOLD / "spawn_items.csv",
-                            GOLD / "hunt_kills_h.csv", GOLD / "session_loot.csv"]):
+                            GOLD / "hunt_kills_h.csv", GOLD / "item_tags.csv",
+                            GOLD / "session_loot.csv"]):
             if not p.exists():
                 continue
             ws = wb.active if first else wb.create_sheet(p.stem)

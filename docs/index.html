@@ -57,6 +57,7 @@
 <nav class="tabs">
   <button id="tRank" class="on">Rankingi huntów</button>
   <button id="tSpawn">Spawny (mediana)</button>
+  <button onclick="location.href='demand.html'">🔥 Na co jest popyt?</button>
   <button id="tGuide">Poradnik: jak czytać dane</button>
   <button onclick="location.href='log.html'">📝 Log sesji</button>
 </nav>
@@ -137,6 +138,17 @@
     Warunki: niższy lvl ≥ ⅔ wyższego (114 + 114 ✅; zakres dla 114 to ok. 76–172), max 30 kratek od lidera, aktywność co 2 min.
     Duo 2 voc: potwór 1000 bazowo → 1300 ÷ 2 = <b>650/głowę</b> — czyli szybciej niż solo tylko jeśli we dwóch zabijacie
     <b>ponad 2× szybciej</b> niż sam ED. Knight tankuje, druid leczy (Sio) i dowala AoE — na 114 szukajcie spawna, gdzie EK stoi w boxie, a nie gdzie ED kiteruje solo.</p>
+    <div class="card" style="margin:10px 0"><h3 style="margin:4px 0 8px">Kalkulator duo (share exp)</h3>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:end">
+        <label style="display:flex;flex-direction:column;gap:4px;font-size:.8rem;color:var(--mut)">Twój lvl
+          <input id="duoA" type="number" value="114" style="background:#2a241b;color:var(--ink);border:1px solid #4a4030;border-radius:6px;padding:6px 8px;width:100px" /></label>
+        <label style="display:flex;flex-direction:column;gap:4px;font-size:.8rem;color:var(--mut)">Lvl brata
+          <input id="duoB" type="number" value="114" style="background:#2a241b;color:var(--ink);border:1px solid #4a4030;border-radius:6px;padding:6px 8px;width:100px" /></label>
+        <label style="display:flex;flex-direction:column;gap:4px;font-size:.8rem;color:var(--mut)">Różne voc
+          <select id="duoV" style="background:#2a241b;color:var(--ink);border:1px solid #4a4030;border-radius:6px;padding:6px 8px"><option value="2" selected>2 (ED+EK)</option><option value="1">1 (ta sama)</option><option value="3">3</option><option value="4">4+</option></select></label>
+      </div>
+      <p id="duoOut" style="font-size:.9rem"></p>
+    </div>
 
     <h2>2. Profit/h — o co chodzi?</h2>
     <p>Profit/h = (loot × cena) − supplies (runy, poty, imbu). Trzy ceny dla każdego itemu:</p>

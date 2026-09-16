@@ -31,11 +31,10 @@
 </header>
 <main>
   <div class="card"><div class="kpi" id="kpi"></div></div>
-  <div class="card"><h3 style="margin:4px 0 10px">Co tu pada + po ile chodzi (Nevia)</h3>
-    <p class="sub" style="margin-top:0">Mapa z killi sesji × loot-listy potworów. Śr./h liczy się dopiero z Waszych zalogowanych sesji
+  <div class="card"><h3 style="margin:4px 0 10px">Co tu pada + po ile chodzi (Nevia)</h3>    <p class="sub" style="margin-top:0">Mapa z killi sesji × loot-listy potworów. Śr./h liczy się dopiero z Waszych zalogowanych sesji
     (kolumna „Wasze śr./h” i sekcja sesji poniżej) — reszta to „co pada + aktualna cena”.</p>
     <table id="tbl"><thead><tr><th>Item</th><th class="num">Instant</th><th class="num">Fair</th><th class="num">Patient</th>
-    <th>Cena z dnia</th><th class="num">Wasze śr./h</th><th class="num">Wartość/h (fair)</th><th>Potwory</th></tr></thead><tbody></tbody></table></div>
+    <th>Cena z dnia</th><th>Popyt</th><th class="num">Wasze śr./h</th><th class="num">Wartość/h (fair)</th><th>Potwory</th></tr></thead><tbody></tbody></table></div>
   <div class="card"><h3 style="margin:4px 0 10px">Kille/h per potwór (z sesji community)</h3>
     <p class="sub" style="margin-top:0">Ile sztuk danego potwora pada na godzinę w poszczególnych sesjach — najtwardsza publiczna granulacja.</p>
     <table id="tbl4"><thead><tr><th>Potwór</th><th>Data</th><th class="num">Minuty</th><th class="num">Zabito</th><th class="num">Killi/h</th><th class="num">EXP/h sesji</th><th>Link</th></tr></thead><tbody></tbody></table></div>
@@ -72,9 +71,11 @@ async function getCSV(path) {
 (async function () {
   $("title").textContent = spawn || "Spawn";
   $("loglink").innerHTML = `Zaloguj hunt tutaj: <a href="log.html?spawn=${encodeURIComponent(spawn)}">log.html → ${spawn}</a> (itemy uzupełnią się same).`;
-  const [ranks, sitems, sess, kills] = await Promise.all([
-    getCSV("data/ranking_exp.csv"), getCSV("data/spawn_items.csv"), getCSV("data/session_loot.csv"), getCSV("data/hunt_kills_h.csv")
+  const [ranks, sitems, sess, kills, tags] = await Promise.all([
+    getCSV("data/ranking_exp.csv"), getCSV("data/spawn_items.csv"), getCSV("data/session_loot.csv"), getCSV("data/hunt_kills_h.csv"), getCSV("data/item_tags.csv")
   ]);
+  const tagByName = {};
+  for (const t of tags) tagByName[(t.item || "").toLowerCase()] = t;
   const mine = ranks.filter(r => r.spawn === spawn);
   const xp = mine.map(r => Number(r.xp_h)).sort((a, b) => a - b);
   const med = xp.length ? xp[Math.floor(xp.length / 2)] : 0;
@@ -97,13 +98,15 @@ async function getCSV(path) {
     const a = avgPerH[r.item.toLowerCase()];
     const perH = a ? (a.units / a.mins * 60) : null;
     const val = perH !== null && r.fair ? perH * Number(r.fair) : null;
+    const tg = tagByName[r.item.toLowerCase()];
+    const badge = tg ? ((tg.imbuements ? "🧪" : "") + (tg.delivery_npcs ? "📦" : "") || "—") : "—";
     return `<tr><td><a href="item.html?id=${r.item_id}&name=${encodeURIComponent(r.item)}">${r.item}</a></td>
       <td class="num">${fmt(r.instant)}</td><td class="num">${fmt(r.fair)}</td><td class="num">${fmt(r.patient)}</td>
-      <td>${r.price_date || ""}</td>
+      <td>${r.price_date || ""}</td><td title="${tg ? ("imbu: " + (tg.imbuements || "—") + " | delivery: " + (tg.delivery_npcs || "—")) : ""}">${badge}</td>
       <td class="num">${perH !== null ? perH.toFixed(1) + ` (n=${a.n})` : "—"}</td>
       <td class="num">${val !== null ? fmt(Math.round(val)) : "—"}</td>
       <td>${r.creatures || ""}</td></tr>`;
-  }).join("") || `<tr><td colspan="8">Brak mapy loota dla tego spawna (mało killi w próbce).</td></tr>`;
+  }).join("") || `<tr><td colspan="9">Brak mapy loota dla tego spawna (mało killi w próbce).</td></tr>`;
 
   document.querySelector("#tbl4 tbody").innerHTML = kills.filter(r => r.spawn === spawn)
     .sort((a, b) => Number(b.kills_per_h) - Number(a.kills_per_h)).slice(0, 60).map(r =>

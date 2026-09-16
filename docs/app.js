@@ -31,7 +31,7 @@ async function getCSV(path) {
 async function loadRank() {
   try {
     const info = await (await fetch("data/build_info.json")).json();
-    $("meta").textContent = `zrzut ${info.date} • profit-huntów (≤${info.recent_days}d): ${info.hunts} • exp-huntów (≤${info.recent_days_exp || info.recent_days}d): ${info.hunts_exp ?? info.hunts}`;
+    $("meta").textContent = `zrzut ${info.date} • profit-huntów (≤${info.recent_days}d): ${info.hunts} • exp-huntów (≤${info.recent_days_exp || info.recent_days}d): ${info.hunts_exp ?? info.hunts} • sesji ≤31d: ${info.sessions_le31d ?? "?"} / ≤62d: ${info.sessions_le62d ?? "?"}`;
   } catch { $("meta").textContent = "brak build_info.json — odpal build_gold.py"; }
   const file = state.mode === "exp" ? `ranking_exp_${state.bracket}` : `ranking_profit_${state.bracket}`;
   state.rows = await getCSV(`data/${file}.csv`);
@@ -97,8 +97,7 @@ async function loadKpi() {
 }
 
 /* ---------- Zakładki + kontrolki ---------- */
-function tab(name) {
-  for (const t of ["Rank", "Spawn", "Guide"]) {
+function tab(name) {  for (const t of ["Rank", "Spawn", "Guide"]) {
     $("t" + t).classList.toggle("on", t === name);
     $("v" + t).classList.toggle("on", t === name);
   }
@@ -117,3 +116,17 @@ $("bracket2").onchange = () => loadSpawns();
 $("sExp").onclick = () => { state.spawnSort = "exp"; $("sExp").classList.add("on"); $("sProfit").classList.remove("on"); renderSpawns(); };
 $("sProfit").onclick = () => { state.spawnSort = "profit"; $("sProfit").classList.add("on"); $("sExp").classList.remove("on"); renderSpawns(); };
 loadRank();
+
+/* ---------- Kalkulator duo (guide) ---------- */
+function duoCalc() {
+  if (!$("duoA")) return;
+  const a = Number($("duoA").value) || 0, b = Number($("duoB").value) || 0, v = $("duoV").value;
+  const lo = Math.min(a, b), hi = Math.max(a, b);
+  const ok = hi > 0 && lo >= (2 / 3) * hi;
+  const bonus = { 1: 20, 2: 30, 3: 60, 4: 100 }[v] ?? 30;
+  const perHead = hi > 0 ? (1000 * (1 + bonus / 100) / 2).toFixed(0) : "—";
+  $("duoOut").innerHTML = ok
+    ? `✅ Share działa (niższy ${lo} ≥ ⅔ z ${hi}). Bonus ${bonus}% → z potwora 1000 bazowo każdy dostaje <b>${perHead}</b> (× stamina/prey osobno).`
+    : `❌ Share NIE działa: niższy ${lo} &lt; ⅔ z ${hi} (min. ${Math.ceil((2 / 3) * hi)}). Zrównajcie levele.`;
+}
+if ($("duoA")) { ["duoA", "duoB", "duoV"].forEach(id => $(id).oninput = duoCalc); duoCalc(); }
