@@ -1,27 +1,147 @@
 hunt_id,slot,name,voc,level
 24692,1,Ed Reiss,ED,95
+2884,1,Sipping Henn,RP,90
+29463,1,Rezo Senpai,EM,53
+29500,1,Rezo Senpai,EM,64
+29576,1,Rezo Senpai,EM,74
+29641,1,Rezo Senpai,EM,79
+29651,1,Rezo Senpai,EM,81
+29679,1,Rezo Senpai,EM,88
+29732,1,Rezo Senpai,EM,92
+29859,1,Rezo Senpai,EM,96
+30000,1,Rezo Senpai,EM,98
 36270,1,Xiolones,ED,63
 36271,1,Xiolones,ED,63
+52560,1,Silversparrow,EM,82
+52572,1,Silversparrow,EM,82
+52667,1,Silversparrow,EM,84
+52773,1,Silversparrow,EM,88
+52823,1,Silversparrow,EM,90
+53124,1,Silversparrow,EM,94
+7709,1,Sir Magolords,MS,52
+7885,1,Sir Magolords,MS,54
+7991,1,Sir Magolords,MS,61
+8019,1,Sir Magolords,MS,62
+8063,1,Sir Magolords,MS,65
+8186,1,Sir Magolords,MS,67
+8259,1,Sir Magolords,MS,69
+1109,1,Gosal,EK,127
+2394,1,Gosal,EK,162
+24526,1,Arkainne,RP,101
+24985,1,Arkainne,RP,105
+27200,1,Arkainne,RP,141
+28023,1,Tril Roon,MS,173
+28097,1,Arkainne,RP,170
+28098,1,Arkainne,RP,171
+28101,1,Tril Roon,MS,178
 28952,1,Richard Druid,ED,171
+28973,1,Lucadejalast Czkoteck,MS,116
+29013,1,Arkainne,RP,180
+29965,1,Tranquillino Calmitto,EM,176
+30044,1,Rezo Senpai,EM,102
+30149,1,Tranquillino Calmitto,EM,183
+30150,1,Tranquillino Calmitto,EM,183
+30153,1,Tranquillino Calmitto,EM,183
+30155,1,Tranquillino Calmitto,EM,183
+30160,1,Tranquillino Calmitto,EM,183
+31418,1,Lucadejalast Czkoteck,MS,118
+31920,1,Lucadejalast Czkoteck,MS,115
+33445,1,Kandydant,EM,182
+35841,1,Euclides Picfum,EM,136
 37083,1,Skra Firadixo,ED,167
 37085,1,Skra Firadixo,ED,168
 37180,1,Skra Firadixo,ED,168
 37608,1,Skra Firadixo,ED,172
+38346,1,Cazuza Monk,EM,188
+38793,1,Ronan Monge Sombrio,EM,186
+38812,1,Ronan Monge Sombrio,EM,188
+38835,1,Ronan Monge Sombrio,EM,189
+38836,1,Ronan Monge Sombrio,EM,189
+38955,1,Ronan Monge Sombrio,EM,193
+39300,1,Monkusvic,EM,101
+39992,1,Itz Cuproza,RP,165
 40531,1,Frodo Rodolfo,ED,153
+40912,1,Monkusvic,EM,158
 41129,1,Klaifiso,ED,117
+43891,1,Gralha Vermelha,MS,195
+47748,1,Ostraktrium,EK,147
 49116,1,Pimentao com calabresa,ED,180
 49117,1,Pimentao com calabresa,ED,180
 50575,1,Tecurastu,ED,173
 51512,1,Sana Vid,ED,121
+52059,1,Senn Brieria,RP,169
+52356,1,Senn Brieria,RP,169
+55180,1,Raven Kerth,EM,176
+55979,1,Raven Kerth,EM,181
+8446,1,Pirangueirom,EK,127
 9088,1,Vladimir Nosferatu,ED,165
+31664,1,Rama Frecha Fogo,RP,286
+31680,1,Tranquillino Calmitto,EM,269
+31796,1,Nukik,RP,208
+32006,1,Tranquillino Calmitto,EM,276
+32008,1,Tranquillino Calmitto,EM,276
+32806,1,Tino Mas San,RP,279
 33345,1,Mana Express,ED,218
+33624,1,Akrus Eters,EM,218
+34426,1,Nukik,RP,292
+34810,1,Nukik,RP,300
+35573,1,Bino Lew,RP,297
+35575,1,Bino Lew,RP,297
+36523,1,Verigo,RP,221
+37610,1,Axes of Venebra,EK,225
+39090,1,Alberich Ironfist,EM,275
+39208,1,Arkfain Yena,RP,237
+40956,1,Baiano Loro,RP,228
+42569,1,Jane Birkin,RP,207
+42613,1,Jane Birkin,RP,208
+42631,1,Jane Birkin,RP,208
+42658,1,Jane Birkin,RP,208
+43559,1,Detektyw Monkers,EM,201
+43565,1,Galadino,RP,214
+43679,1,Galadino,RP,218
+43708,1,Galadino,RP,221
+43805,1,Galadino,RP,223
+43806,1,Galadino,RP,223
+44274,1,Galadino,RP,243
 44304,1,Aaron Wynter,ED,287
+44526,1,Galadino,RP,256
+44735,1,Galadino,RP,267
+44744,1,Galadino,RP,270
+44827,1,Galadino,RP,273
+44971,1,Aegidavex Darok,EK,240
+45096,1,Aegidavex Darok,EK,245
+45119,1,Aegidavex Darok,EK,245
+45415,1,Aegidavex Darok,EK,252
+45417,1,Aegidavex Darok,EK,253
+45419,1,Aegidavex Darok,EK,253
+45449,1,Lord Tankalot,EK,201
 48842,1,Dhuy Sio,ED,232
 48885,1,Dhuy Sio,ED,233
 48969,1,Invocador Cruel,ED,216
 49093,1,Invocador Cruel,ED,217
+50312,1,Torvyn,EK,247
+50318,1,Torvyn,EK,247
+50358,1,Torvyn,EK,253
+50364,1,Torvyn,EK,253
+50574,1,Muti Paladin,RP,273
+50582,1,Muti Paladin,RP,277
+50905,1,Torvyn,EK,258
+51253,1,Torvyn,EK,260
+51793,1,Nanesi,MS,290
 52064,1,Kenddora,ED,242
+52082,1,Torvyn,EK,262
+52736,1,Torvyn,EK,267
+53077,1,Khamigah,RP,223
+53078,1,Torvyn,EK,270
+53187,1,Sauron Emo,EK,265
+53326,1,Torvyn,EK,270
+53327,1,Torvyn,EK,270
+53352,1,Torvyn,EK,271
 53399,1,Elder Nobeki,ED,229
+53434,1,Torvyn,EK,273
+53639,1,Sauron Emo,EK,270
+53711,1,Torvyn,EK,276
+53745,1,Torvyn,EK,279
 15712,1,Guerreiro de Xango,EK,211
 15712,2,Bombita Belica Uno,ED,234
 27422,1,Lorehald Night Magic,ED,145

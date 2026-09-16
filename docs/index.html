@@ -11,6 +11,9 @@
   header { max-width:1100px; margin:0 auto; padding:20px 4px 8px; }
   h1 { font-size:1.4rem; margin:0 0 4px; }
   p.sub { color:var(--mut); margin:4px 0 12px; font-size:.9rem; }
+  nav.tabs { max-width:1100px; margin:0 auto 12px; display:flex; gap:8px; }
+  nav.tabs button { background:var(--panel); color:var(--mut); border:1px solid #4a4030; border-radius:8px; padding:8px 16px; cursor:pointer; font-size:.9rem; }
+  nav.tabs button.on { background:var(--acc); color:#14110d; font-weight:700; border-color:var(--acc); }
   .controls { max-width:1100px; margin:0 auto; display:flex; flex-wrap:wrap; gap:10px; align-items:end;
     background:var(--panel); padding:12px; border-radius:10px; }
   .controls label { display:flex; flex-direction:column; gap:4px; font-size:.8rem; color:var(--mut); }
@@ -18,9 +21,10 @@
   .seg { display:flex; border:1px solid #4a4030; border-radius:6px; overflow:hidden; }
   .seg button { background:#2a241b; color:var(--mut); border:0; padding:6px 12px; cursor:pointer; }
   .seg button.on { background:var(--acc); color:#14110d; font-weight:700; }
-  main { max-width:1100px; margin:14px auto 0; display:grid; grid-template-columns:1fr; gap:14px; }
-  @media(min-width:900px){ main{ grid-template-columns:1.15fr .85fr; } }
-  .card { background:var(--panel); border-radius:10px; padding:12px; overflow:auto; }
+  main { max-width:1100px; margin:14px auto 0; }
+  .grid2 { display:grid; grid-template-columns:1fr; gap:14px; }
+  @media(min-width:900px){ .grid2{ grid-template-columns:1.15fr .85fr; } }
+  .card { background:var(--panel); border-radius:10px; padding:12px; overflow:auto; margin-bottom:14px; }
   table { width:100%; border-collapse:collapse; font-size:.82rem; }
   th, td { text-align:left; padding:6px 8px; border-bottom:1px solid #332c20; white-space:nowrap; }
   th { color:var(--mut); font-weight:600; position:sticky; top:0; background:var(--panel); }
@@ -32,7 +36,16 @@
   .bar-row { display:grid; grid-template-columns:170px 1fr 90px; gap:8px; align-items:center; font-size:.78rem; margin:5px 0; }
   .bar-track { background:#2a241b; border-radius:4px; height:14px; }
   .bar-fill { background:var(--acc); height:14px; border-radius:4px; min-width:2px; }
+  .guide h2 { font-size:1.1rem; margin:18px 0 6px; color:var(--acc); }
+  .guide h3 { font-size:.95rem; margin:12px 0 4px; }
+  .guide p, .guide li { font-size:.86rem; line-height:1.55; color:var(--ink); }
+  .guide ul { padding-left:20px; margin:6px 0; }
+  .guide table td, .guide table th { white-space:normal; }
+  .kpi { display:flex; flex-wrap:wrap; gap:10px; margin:10px 0; }
+  .kpi div { background:#2a241b; border-radius:8px; padding:10px 14px; font-size:.82rem; }
+  .kpi b { display:block; font-size:1.05rem; color:var(--acc); }
   footer { max-width:1100px; margin:18px auto 0; color:var(--mut); font-size:.78rem; }
+  .view { display:none; } .view.on { display:block; }
 </style>
 </head>
 <body>
@@ -41,40 +54,128 @@
   <p class="sub">Rankingi spawnów z publicznych huntów (hunt-analyser.com), osobno <b>EXP/h</b> i <b>profit/h</b>.
   Ceny loota: Nevia (tibiamarket.top) + ręczne ceny z gry. <span id="meta">ładowanie…</span></p>
 </header>
-<div class="controls">
-  <label>Bracket
-    <select id="bracket">
-      <option value="50_100">50–100</option>
-      <option value="100_200" selected>100–200</option>
-      <option value="200_300">200–300</option>
-    </select>
-  </label>
-  <label>Tryb
-    <span class="seg">
-      <button id="mExp" class="on">EXP/h</button><button id="mProfit">Profit/h</button>
-    </span>
-  </label>
-  <label>Party
-    <select id="party">
-      <option value="all">solo + duo</option>
-      <option value="1">solo</option>
-      <option value="2">duo/team</option>
-    </select>
-  </label>
-  <label>Szukaj spawna
-    <input type="text" id="q" placeholder="np. asura, hero, lizard" />
-  </label>
+<nav class="tabs">
+  <button id="tRank" class="on">Rankingi huntów</button>
+  <button id="tSpawn">Spawny (mediana)</button>
+  <button id="tGuide">Poradnik: jak czytać dane</button>
+</nav>
+
+<div class="view on" id="vRank">
+  <div class="controls">
+    <label>Bracket
+      <select id="bracket">
+        <option value="50_100">50–100</option>
+        <option value="100_200" selected>100–200</option>
+        <option value="200_300">200–300</option>
+      </select>
+    </label>
+    <label>Tryb
+      <span class="seg"><button id="mExp" class="on">EXP/h</button><button id="mProfit">Profit/h</button></span>
+    </label>
+    <label>Party
+      <select id="party">
+        <option value="all">solo + duo</option>
+        <option value="1">solo</option>
+        <option value="2">duo/team</option>
+      </select>
+    </label>
+    <label>Szukaj spawna <input type="text" id="q" placeholder="np. asura, hero, lizard" /></label>
+  </div>
+  <main><div class="grid2" style="margin-top:14px">
+    <div class="card"><table id="tbl"><thead><tr>
+      <th>#</th><th>Spawn</th><th>Party</th><th class="num">EXP/h</th><th class="num">Profit/h</th><th>Data</th><th>Link</th>
+    </tr></thead><tbody></tbody></table></div>
+    <div class="card"><h3 id="chartTitle" style="margin:4px 0 10px;font-size:1rem">Top 15</h3><div id="chart"></div></div>
+  </div></main>
 </div>
-<main>
-  <div class="card"><table id="tbl"><thead><tr>
-    <th>#</th><th>Spawn</th><th>Party</th><th class="num">EXP/h</th><th class="num">Profit/h</th><th>Data</th><th>Link</th>
-  </tr></thead><tbody></tbody></table></div>
-  <div class="card"><h3 id="chartTitle" style="margin:4px 0 10px;font-size:1rem">Top 15</h3><div id="chart"></div></div>
-</main>
+
+<div class="view" id="vSpawn">
+  <div class="controls">
+    <label>Bracket
+      <select id="bracket2">
+        <option value="">wszystkie</option>
+        <option value="50_100">50–100</option>
+        <option value="100_200" selected>100–200</option>
+        <option value="200_300">200–300</option>
+      </select>
+    </label>
+    <label>Sortuj
+      <span class="seg"><button id="sExp" class="on">mediana EXP/h</button><button id="sProfit">mediana profit/h</button></span>
+    </label>
+  </div>
+  <main><div class="card" style="margin-top:14px">
+    <p class="sub" style="margin-top:0">Mediana z huntów jest uczciwsza niż pojedynczy rekord — jeden fartowny loot nie winduje spawna.
+    n = liczba huntów w próbce (im większa, tym pewniejszy wynik).</p>
+    <table id="tbl2"><thead><tr>
+      <th>#</th><th>Spawn</th><th class="num">n</th><th class="num">mediana EXP/h</th><th class="num">max EXP/h</th>
+      <th class="num">mediana profit/h</th><th class="num">max profit/h</th><th>lvle w próbce</th><th>Przykładowy hunt</th>
+    </tr></thead><tbody></tbody></table>
+  </div></main>
+</div>
+
+<div class="view guide" id="vGuide">
+  <main>
+  <div class="card">
+    <h2>1. EXP/h — o co chodzi?</h2>
+    <p>EXP/h to doświadczenie na godzinę huntowania. Poziom rośnie wykładniczo drożej (tabela exp na tibia.com/library),
+    więc ten sam spawn daje inną <i>wartość</i> na 50 i na 250 lvl. Zawsze filtruj ranking do swojego bracketu.
+    Uwaga: hunt-analyser pokazuje <b>XP/h</b> (z bonusami: stamina, share, prey, eventy) i <b>Raw XP/h</b> (gołe, bez bonusów).
+    Porównując dwa spawny patrz na <b>Raw XP/h</b> — inaczej porównujesz bonusy graczy, nie spawny.</p>
+    <h3>Stamina (zegar premii i kar)</h3>
+    <ul>
+      <li><b>42:00–39:00 (zielona, premium): +50% exp.</b> Regeneruje się 2× wolniej (6 min offline = 1 min).</li>
+      <li><b>39:00–14:00: 100%</b> — tu polujesz najczęściej. Czerwony pasek w tym zakresie to tylko „koniec bonusu", nie kara.</li>
+      <li><b>Poniżej 14:00: 50% exp i BRAK loota</b> (jeśli zadałeś najwięcej dmg). Schodź z hunta, rób runy/questy.</li>
+      <li>Regen: 3 min offline = 1 min staminy + 10 min opóźnienia startu. Full refill zielonej = ~18 h offline.</li>
+    </ul>
+    <h3>Shared exp w party (Twój duet ED + EK)</h3>
+    <p>Wzór na głowę: <b>exp = baza × bonus_voc / liczba_graczy</b> (× Twoje własne bonusy jak stamina).
+    Bonus od różnych voc: 1 voc +20%, <b>2 voc (Wasz ED+EK) +30%</b>, 3 voc +60%, 4 voc +100%.
+    Warunki: niższy lvl ≥ ⅔ wyższego (114 + 114 ✅; zakres dla 114 to ok. 76–172), max 30 kratek od lidera, aktywność co 2 min.
+    Duo 2 voc: potwór 1000 bazowo → 1300 ÷ 2 = <b>650/głowę</b> — czyli szybciej niż solo tylko jeśli we dwóch zabijacie
+    <b>ponad 2× szybciej</b> niż sam ED. Knight tankuje, druid leczy (Sio) i dowala AoE — na 114 szukajcie spawna, gdzie EK stoi w boxie, a nie gdzie ED kiteruje solo.</p>
+
+    <h2>2. Profit/h — o co chodzi?</h2>
+    <p>Profit/h = (loot × cena) − supplies (runy, poty, imbu). Trzy ceny dla każdego itemu:</p>
+    <ul>
+      <li><b>NPC</b> (Rashid, Yasir, djiny…) — stałe, podłoga. Np. Rope Belt: 66 gp u NPC.</li>
+      <li><b>Market buy offer</b> — po tyle kupią OD RAZU (Rope Belt: ~4526). To jest „szybka sprzedaż”.</li>
+      <li><b>Market sell avg</b> — po tyle wystawiasz i czekasz (~6400 góra). Wyższy zysk, zamrożona kasa.</li>
+    </ul>
+    <p>Ranking na tej stronie używa <b>Balance/h z hunta jako proxy</b> (bo pełny rozkład loota raportuje tylko część graczy).
+    Docelowo: re-wycena <b>drop/h × cena Nevii</b> — pipeline już zbiera ceny wszystkich 5047 itemów Nevii z historią 30 dni.</p>
+    <h3>Ukryte koszty: imbuementy i prey</h3>
+    <ul>
+      <li>Imbu (mana/life leech, crit) kosztują grubo w itemach — Odejmij je od profitu; bez imbu wiele spawnów 100+ jest nieosiągalnych.</li>
+      <li>Prey: bonus exp 13–40% albo loot 13–40% (losowanie, rerolle za gold/TC). Prey na exp potrafi przesunąć spawn o tier wyżej.</li>
+      <li>Hazard (Gnomprona): <b>od 07.09.2026 bonus loota z hazard level USUNIĘTY</b> — stare poradniki kłamią. Exp z hazardu bez zmian.</li>
+    </ul>
+
+    <h2>3. Gra się zmienia — co psuje stare poradniki</h2>
+    <ul>
+      <li><b>Nerf golda 07.09.2026:</b> ścięte zyski m.in. Gnomprona, Vexclaw −11%, Hellflayer/Grimeleech −12%, Rotten Blood −7…−17%. Dlatego strona odcina hunty starsze niż <i>recent_days</i> (config).</li>
+      <li><b>Boosted creature dnia:</b> 2× exp, 2× loot, 2× szybszy resp — jeśli Twój spawn jest boostowany, idź tam.</li>
+      <li><b>Double EXP/skill weekendy</b> (~6× w roku): premium ze staminą dostaje 300% w zielonej. Planuj levele pod nie.</li>
+      <li><b>Eventy i nowości:</b> zima 2025 — przebudowane taski (Bounty + Weekly) i 2 questy; lato 2026 — Echo Raids (losowe mini-raidy na spawnie, Echo Wardens z dropem) i Discovery (speed bonus za odkryte mapy); nowa voc <b>Monk</b> (melee + support-heal) miesza w teamhuntach 4–5 voc (bonus share liczony do 4 voc).</li>
+      <li><b>Kill statistics Nevii</b> (tibia.com / TibiaData) pokazują, co <i>naprawdę</i> biją ludzie na Twoim serwerze — konfrontuj z rankingiem.</li>
+    </ul>
+
+    <h2>4. Gotowe analizy dla Ciebie (ED 114 + EK ~114)</h2>
+    <div class="kpi" id="kpi"></div>
+    <ul>
+      <li><b>Solo ED 100–200:</b> w próbce wygrywają powtarzalne spawny typu Hero/Lizard/Were — sortuj zakładkę Spawny po medianie i bierz te z n ≥ 2.</li>
+      <li><b>Duo ED+EK:</b> publicznych huntów duo na 100–130 jest ~0 w sieci — Wasze pierwsze hunty same staną się danymi. Celuj w spawny, gdzie EK tankuje boxa (share +30% robi robotę tylko przy gęstym pullu).</li>
+      <li><b>Profit:</b> poluj na spawny z lootem stackowalnym + imbu-itemami; jedno „Darklight”-style 3 kk/h to zwykle boss-luck, nie norma — patrz mediana, nie max.</li>
+      <li><b>Przed huntem:</b> sprawdź boosted creature dnia i czy macie prey na dany typ; po patchach balansujących odczekaj tydzień z oceną spawna.</li>
+    </ul>
+    <p>Źródła poradnika: tibia.com (manual, newsy, biblioteka), TibiaWiki (Stamina, Party, Prey, Boosted Creature, Hazard/Primal Ordeal), statusy weryfikowane curlami 16.09.2026 — szczegóły w repo <i>docs/VERIFY.md</i>.</p>
+  </div>
+  </main>
+</div>
+
 <footer>
-  Źródła: hunt-analyser.com (publiczne sesje) • api.tibiamarket.top (ceny Nevia) • api.tibiadata.com (killstats/highscores).
-  Profit/h = Balance/h z hunta (proxy; pelna re-wycena po cenach Nevii w etapie 2).
-  Po nerfie golda 07.09.2026 stare hunty są odcinane (recent_days w config.yaml).
+  Źródła danych: hunt-analyser.com (publiczne sesje) • api.tibiamarket.top (ceny Nevia) • api.tibiadata.com (killstats/highscores).
+  ETL: github.com — folder tibia-nevia-pipeline, cron dziennie. Poradnik: stan gry na wrzesień 2026.
 </footer>
 <script src="app.js"></script>
 </body>

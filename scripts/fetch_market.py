@@ -17,55 +17,83 @@ SERVER = cfg.get("world", "Nevia")
 OUT = ROOT / "data" / "raw" / dt.date.today().isoformat()
 OUT.mkdir(parents=True, exist_ok=True)
 import os
+import time
+import urllib.error
 MKT = cfg.get("market", {})
 TOP_N_HISTORY = int(os.environ.get("TOP_N_HISTORY", MKT.get("top_n_history", 150)))
 HISTORY_DAYS = int(os.environ.get("HISTORY_DAYS", MKT.get("history_days", 30)))
-PAGE_LIMIT = 500
+PAGE_LIMIT = 200  # mniejsze strony = mniej 429
+REQ_DELAY = 0.6  # odstep miedzy requestami (API ma rate limit)
 
 
-def get(path: str, params: dict) -> object:
+def get(path: str, params: dict, retries: int = 6) -> object:
     url = f"{API}{path}?{urllib.parse.urlencode(params)}"
-    req = urllib.request.Request(url, headers={"User-Agent": "nevia-pipeline/0.1"})
-    with urllib.request.urlopen(req, timeout=60) as r:
-        return json.loads(r.read().decode())
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": "nevia-pipeline/0.1"})
+            with urllib.request.urlopen(req, timeout=60) as r:
+                time.sleep(REQ_DELAY)
+                return json.loads(r.read().decode())
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < retries - 1:
+                wait = 5 * (attempt + 1)
+                print(f"429, czekam {wait}s (proba {attempt + 1}/{retries}): {path}")
+                time.sleep(wait)
+                continue
+            raise
 
 
 world = get("/world_data", {})
-(OUT / "market_world_data.json").write_text(json.dumps(world, indent=1), encoding="utf-8")
+(OUT / "market_world_data.json").write_text(json.dumps(world), encoding="utf-8")
 
-all_rows: list = []
-skip = 0
-while True:
-    page = get("/market_values", {"server": SERVER, "skip": skip, "limit": PAGE_LIMIT})
-    if not page:
-        break
-    all_rows.extend(page)
-    print(f"market_values skip={skip} rows={len(page)} total={len(all_rows)}")
-    if len(page) < PAGE_LIMIT:
-        break
-    skip += PAGE_LIMIT
-(OUT / "market_values_nevia.json").write_text(json.dumps(all_rows, indent=1), encoding="utf-8")
+vals_path = OUT / "market_values_nevia.json"
+if vals_path.exists() and vals_path.stat().st_size > 100000:
+    all_rows = json.loads(vals_path.read_text(encoding="utf-8"))
+    print(f"market_values: reuse z dysku ({len(all_rows)} rows)")
+else:
+    all_rows: list = []
+    skip = 0
+    while True:
+        page = get("/market_values", {"server": SERVER, "skip": skip, "limit": PAGE_LIMIT})
+        if not page:
+            break
+        all_rows.extend(page)
+        print(f"market_values skip={skip} rows={len(page)} total={len(all_rows)}")
+        if len(page) < PAGE_LIMIT:
+            break
+        skip += PAGE_LIMIT
+    vals_path.write_text(json.dumps(all_rows), encoding="utf-8")
 
-# TOP-N po miesiecznym wolumenie -> historia 30d (to sa kandydaci do re-wyceny loota)
+# TOP-N po miesiecznym wolumenie -> historia (to sa kandydaci do re-wyceny loota).
+# Zapis przyrostowy + resume: przerwany run kontynuuje od miejsca stopu.
 ranked = sorted(all_rows, key=lambda r: (r.get("month_sold", 0) or 0) + (r.get("month_bought", 0) or 0), reverse=True)
 top_ids = [r["id"] for r in ranked[:TOP_N_HISTORY] if r.get("id")]
-hist = {}
-for i, item_id in enumerate(top_ids):
+hist_path = OUT / "market_history_top.json"
+hist = json.loads(hist_path.read_text(encoding="utf-8")) if hist_path.exists() else {}
+todo = [i for i in top_ids if str(i) not in hist]
+print(f"history: done={len(hist)} todo={len(todo)}")
+for i, item_id in enumerate(todo):
     try:
         hist[str(item_id)] = get("/item_history", {"server": SERVER, "item_id": item_id, "days": HISTORY_DAYS})
     except Exception as e:  # jeden item nie moze wywalic calego batcha
         print(f"history failed id={item_id}: {e}")
-    if i % 10 == 0:
-        print(f"history {i + 1}/{len(top_ids)}")
-(OUT / "market_history_top.json").write_text(json.dumps(hist, indent=1), encoding="utf-8")
+    if (i + 1) % 10 == 0:
+        hist_path.write_text(json.dumps(hist), encoding="utf-8")
+        print(f"history {i + 1}/{len(todo)} (flush)")
+hist_path.write_text(json.dumps(hist), encoding="utf-8")
 
 # metadata hurtowo (mapowanie id -> nazwa/kategoria/NPC) — pojedynczo, bo API nie ma batcha
-meta = {}
-for i in range(0, len(top_ids), 1):
-    item_id = top_ids[i]
+meta_path = OUT / "market_metadata_top.json"
+meta = json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.exists() else {}
+todo_m = [i for i in top_ids if str(i) not in meta]
+print(f"metadata: done={len(meta)} todo={len(todo_m)}")
+for i, item_id in enumerate(todo_m):
     try:
         meta[str(item_id)] = get("/item_metadata", {"item_id": item_id})
     except Exception as e:
         print(f"metadata failed id={item_id}: {e}")
-(OUT / "market_metadata_top.json").write_text(json.dumps(meta, indent=1), encoding="utf-8")
+    if (i + 1) % 25 == 0:
+        meta_path.write_text(json.dumps(meta), encoding="utf-8")
+        print(f"metadata {i + 1}/{len(todo_m)} (flush)")
+meta_path.write_text(json.dumps(meta), encoding="utf-8")
 print(f"DONE market Nevia: values={len(all_rows)} history_items={len(hist)}")

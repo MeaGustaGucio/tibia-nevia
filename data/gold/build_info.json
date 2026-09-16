@@ -1,7 +1,9 @@
 {
  "date": "2026-09-16",
- "hunts": 10,
- "recent_days": 90,
+ "hunts": 29,
+ "hunts_exp": 108,
+ "recent_days": 60,
+ "recent_days_exp": 365,
  "manual_prices": {
   "Rope Belt": 4526
  }

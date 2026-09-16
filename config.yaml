@@ -8,11 +8,12 @@ world: Nevia  # serwer opcjonalnie PvP, staly
 # ---- HUNTY (hunt-analyser.com, publiczne sesje) ----
 hunts:
   # Brackety levelowe. Kazdy dokleja wyniki do hunts.csv z danego dnia.
-  # vocations: [] = wszystkie; party: Solo / Duo / x3 / x4 / x5 / x6+
+  # vocations: [] = wszystkie (filtry voc sumuja sie OR; voc i tak laduje w kolumnie
+  # party_comp, a wieksza probka = lepsze mediany). party: Solo / Duo / x3 / x4 / x5 / x6+
   brackets:
-    - { min: 50,  max: 100, vocations: [Druid], party: [Solo], pages: 3 }
-    - { min: 100, max: 200, vocations: [Druid], party: [Solo], pages: 3 }
-    - { min: 200, max: 300, vocations: [Druid], party: [Solo], pages: 3 }
+    - { min: 50,  max: 100, vocations: [], party: [Solo], pages: 5 }
+    - { min: 100, max: 200, vocations: [], party: [Solo], pages: 5 }
+    - { min: 200, max: 300, vocations: [], party: [Solo], pages: 5 }
   # Duo na niskich lvlach prawie nie istnieje w publicznych danych (zweryfikowane:
   # duo 100-130 = 0, duo 80-150 = 1/strone), wiec duo ZAWSZE idzie z szerszego
   # zakresu i bez filtra voc — sklad ED+EK filtrujesz potem po kolumnie party_comp.
@@ -25,7 +26,9 @@ market:
 
 # ---- RANKINGI (build_gold.py) ----
 gold:
-  recent_days: 90            # odciecie starych huntow (np. sprzed nerfa golda 07.09.2026)
+  # DWA odciecia, bo nerf golda 07.09.2026 psuje PROFIT starych huntow, ale nie EXP:
+  recent_days_profit: 60   # profit/h tylko ze swiezych huntow (nerf golda!)
+  recent_days_exp: 365      # exp/h jest stabilne w czasie, wieksza probka = lepsza mediana
   brackets: ["50-100", "100-200", "200-300"]  # pliki ranking_exp_<bracket>.csv itd.
 
 # ---- CZESTOTLIWOSC ----

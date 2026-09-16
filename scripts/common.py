@@ -15,7 +15,7 @@ DEFAULTS = {
         "duo": {"min": 50, "max": 300, "vocations": [], "party": ["Duo"], "pages": 3},
     },
     "market": {"top_n_history": 150, "history_days": 30},
-    "gold": {"recent_days": 90, "brackets": ["50-100", "100-200", "200-300"]},
+    "gold": {"recent_days_profit": 60, "recent_days_exp": 365, "brackets": ["50-100", "100-200", "200-300"]},
 }
 
 
