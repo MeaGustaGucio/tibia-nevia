@@ -82,18 +82,22 @@ def latest(pattern: str):
     return files[-1] if files else None
 
 
-PRICE_COLS = ["item_id", "item", "instant", "fair", "shelf", "shelf_units", "patient",
-              "upside", "depth_units", "n_sell", "n_buy", "captured_at"]
+PRICE_COLS = ["item_id", "item", "instant", "top_buy", "fair", "shelf", "shelf_units",
+              "patient", "upside", "depth_units", "n_sell", "n_buy", "n_sell_red",
+              "captured_at"]
 
 
-def price_stats(boards: dict, rules: dict, item_names: dict) -> list[dict]:
-    """Uczciwa cena z drabinki (reguly globalne + per-item z config pricing):
-    instant (top buy), fair (VWAP buy po obcieciu top trim% jednostek),
-    shelf/polka (poziom sell z max jednostek, VWAP ±1% wokol niego),
-    patient (min sell), upside ((p25 sell - fair)/fair).
-    Filtry: max_sell_cap (np. vampire teeth 4000), exclude_anonymous."""
+def price_stats(boards: dict, rules: dict, item_names: dict, averages: dict) -> list[dict]:
+    """Uczciwa cena z drabinki (reguly globalne + per-item z config pricing).
+    RED = zasada z oficjalnego manuala Tibii: sell >= +25% sredniej serwera
+    i buy <= -25% sredniej -> ODRZUCAMY (ostrzezenie o nieuczciwej ofercie).
+    instant = min sell (po filtrach) - 1, czyli cena natychmiastowego podciecia;
+    top_buy (zakladka BUY) to tylko statystyka poboczna.
+    fair = VWAP buy po obcieciu top trim% jednostek; shelf/polka = poziom sell
+    z max jednostek; patient = min sell; upside = (p25 sell - fair)/fair."""
     trim = float(rules.get("trim_top_pct", 5)) / 100.0
     excl_anon = bool(rules.get("exclude_anonymous", False))
+    use_red = bool(rules.get("use_red_filter", True))
     cap_global = rules.get("max_sell_cap")
     per_item = rules.get("items", {}) or {}
     out = []
@@ -102,6 +106,18 @@ def price_stats(boards: dict, rules: dict, item_names: dict) -> list[dict]:
         ir = per_item.get(name, {}) or {}
         cap = ir.get("max_sell_cap", cap_global)
         excl = ir.get("exclude_anonymous", excl_anon)
+        avg = averages.get(str(iid), {}) or {}
+        avg_sell = avg.get("day_average_sell") or avg.get("month_average_sell") or 0
+        avg_buy = avg.get("day_average_buy") or avg.get("month_average_buy") or 0
+
+        def red(price, side):
+            if not use_red:
+                return False
+            if side == "sell" and avg_sell > 0:
+                return price >= 1.25 * avg_sell
+            if side == "buy" and avg_buy > 0:
+                return price <= 0.75 * avg_buy
+            return False
 
         def keep(o, side):
             if o.get("price", 0) <= 0:
@@ -110,14 +126,22 @@ def price_stats(boards: dict, rules: dict, item_names: dict) -> list[dict]:
                 return False
             if side == "sell" and cap and o["price"] > cap:
                 return False
+            if red(o["price"], side):
+                return False
             return True
 
+        raw_sells = sorted((o["price"] for o in b.get("sellers", []) if o.get("price", 0) > 0))
         sells = sorted(((o["price"], o.get("amount", 0)) for o in b.get("sellers", []) if keep(o, "sell")))
         buys = sorted(((o["price"], o.get("amount", 0)) for o in b.get("buyers", []) if keep(o, "buy")), reverse=True)
+        n_red = len(raw_sells) - sum(1 for o in b.get("sellers", [])
+                                     if o.get("price", 0) > 0 and not (cap and o["price"] > cap)
+                                     and not red(o["price"], "sell")
+                                     and not (excl and str(o.get("name", "")).lower() == "anonymous"))
         if not sells and not buys:
             continue
-        instant = buys[0][0] if buys else ""
+        top_buy = buys[0][0] if buys else ""
         patient = sells[0][0] if sells else ""
+        instant = patient - 1 if patient else ""
         fair = ""
         if buys:
             total = sum(u for _, u in buys)
@@ -161,10 +185,12 @@ def price_stats(boards: dict, rules: dict, item_names: dict) -> list[dict]:
             captured = dt.datetime.fromtimestamp(float(ts)).strftime("%Y-%m-%d %H:%M") if ts else ""
         except (ValueError, TypeError):
             captured = ""
-        out.append({"item_id": iid, "instant": instant, "fair": fair, "shelf": shelf,
+        out.append({"item_id": iid, "instant": instant, "top_buy": top_buy, "fair": fair,
+                    "shelf": shelf,
                     "shelf_units": shelf_units, "patient": patient,
                     "upside": upside, "depth_units": depth,
-                    "n_sell": len(sells), "n_buy": len(buys), "captured_at": captured,
+                    "n_sell": len(sells), "n_buy": len(buys), "n_sell_red": n_red,
+                    "captured_at": captured,
                     "_sells": sells, "_buys": buys})
     return out
 
@@ -361,8 +387,13 @@ def main() -> None:
     meta_by_name = {str(m.get("name", "")).lower(): m for m in meta if m.get("name")}
     id_to_name = {str(m["id"]): m.get("name", "") for m in meta if m.get("id")}
 
-    # Uczciwe ceny z drabinki
-    prices = price_stats(boards, cfg.get("pricing", {}), id_to_name)
+    # Uczciwe ceny z drabinki (+ srednie serwera do reguly RED z manuala)
+    avgs = {}
+    vf = latest("market_values_nevia.json")
+    if vf:
+        for row in json.loads(vf.read_text(encoding="utf-8")):
+            avgs[str(row.get("id"))] = row
+    prices = price_stats(boards, cfg.get("pricing", {}), id_to_name, avgs)
     for p in prices:
         p["item"] = id_to_name.get(str(p["item_id"]), "")
     with open(GOLD / "price_stats.csv", "w", newline="", encoding="utf-8") as f:

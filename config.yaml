@@ -41,10 +41,12 @@ orderbook:
   max_items: 300            # limit drabinek/dzien: watchlista + loot z faktycznych killi
   # items = watchlista + unia loot_list potworow z hunt_kills (PAYLOAD: ~300 x 5 KB/dzien)
 
-# ---- WYCENA (price_stats: instant / fair / shelf(polka) / patient / upside) ----
+# ---- WYCENA (price_stats: instant / top_buy / fair / shelf(polka) / patient / upside) ----
 pricing:
   trim_top_pct: 5      # obciecie top X% jednostek buy-side (scianki/bait) dla fair
-  exclude_anonymous: false  # true = odrzuc oferty "Anonymous" (DO USTALENIA: co jest "na czerwono")
+  use_red_filter: true # RED z oficjalnego manuala Tibii: sell >= +25% sredniej serwera
+                       # i buy <= -25% sredniej = ODRZUCAMY (ostrzezenie o nieuczciwej ofercie)
+  exclude_anonymous: false  # true = odrzuc oferty "Anonymous"
   max_sell_cap: null   # globalny cap sell (null = brak); per-item override nizej
   items:               # reguly per item (klucz = nazwa mala litera):
     vampire teeth: { max_sell_cap: 4000 }  # Twoja zasada: powyzej 4k odrzucamy

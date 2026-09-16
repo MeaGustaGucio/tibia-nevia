@@ -53,7 +53,8 @@
     <table id="tbl2"><thead><tr><th>Spawn</th><th>Data</th><th class="num">Minuty</th><th class="num">Sztuki</th><th class="num">Szt/h</th><th>Notka</th></tr></thead><tbody></tbody></table></div>
 </main>
 <footer style="max-width:1100px;margin:18px auto 0;color:var(--mut);font-size:.78rem">
-  Instant = top buy (sprzedaż od ręki) • Fair = VWAP buy po obcięciu top 5% jednostek • Patient = min sell • Upside = (p25 sell − fair)/fair.
+  Instant = podcięcie najtańszego sensownego sella o 1 (sprzedaż „od ręki”).
+  Czerwone oferty (sell ≥ +25% średniej serwera, buy ≤ −25% — ostrzeżenie z manuala Tibii) są odrzucane z automatu.
 </footer>
 <script>
 const $ = id => document.getElementById(id);
@@ -93,10 +94,12 @@ async function getCSV(path) {
   $("meta").textContent = `id ${id}`;
   $("sub").textContent = `Snapshot: ${ps.captured_at} • ofert sell: ${ps.n_sell}, buy: ${ps.n_buy} • głębokość ±10% fair: ${fmt(ps.depth_units)} szt`;
   $("kpi").innerHTML =
-    `<div><b>${fmt(ps.instant)}</b>instant (top buy)</div>` +
+    `<div><b>${fmt(ps.instant)}</b>instant (podcięcie min sell − 1)</div>` +
     `<div><b>${fmt(ps.fair)}</b>fair (VWAP − top 5%)</div>` +
+    `<div><b>${fmt(ps.shelf)}${ps.shelf_units ? " ×" + fmt(ps.shelf_units) : ""}</b>półka (max jednostek)</div>` +
     `<div><b>${fmt(ps.patient)}</b>patient (min sell)</div>` +
-    `<div><b>${(Number(ps.upside) * 100).toFixed(1)}%</b>upside do p25 sell</div>`;
+    `<div><b>${(Number(ps.upside) * 100).toFixed(1)}%</b>upside do p25 sell</div>` +
+    `<div><b>${fmt(ps.top_buy)}</b>top buy (stat. poboczna)</div>`;
 
   const lad = await getCSV(`data/ladder/${id}.csv`);
   const sells = lad.filter(r => r.side === "sell").sort((a, b) => a.price - b.price);
