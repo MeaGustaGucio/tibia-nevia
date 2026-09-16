@@ -80,7 +80,7 @@ gry + publiczne ceny marketu). Prywatne repo tez zadziala z Actions, ale wtedy d
 ogladalbys lokalnie przez `serve-dashboard.ps1`.
 
 Po pushu, zeby wizualizacje byly pod `https://TWOJ-NICK.github.io/tibia-nevia/`:
-repo na github.com → Settings → Pages → Deploy from branch → branch `master`, folder `/docs`.
+repo na github.com → Settings → Pages → Deploy from branch → branch `main`, folder `/docs`.
 Darmowej *wlasnej* domeny (typu .tk/.ml) juz nie ma — padly lata temu; realne $0 to subdomeny
 `github.io / pages.dev / streamlit.app`. Wlasna domena to ~50 zl/rok, podepniesz ja pozniej
 jednym wpisem DNS w Pages.
