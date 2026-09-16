@@ -48,14 +48,15 @@ function filtered() {
 }
 
 function renderRank() {
-  const key = state.mode === "exp" ? "xp_h" : "balance_h";
+  const key = state.mode === "exp" ? "xp_h" : "loot_h";
   const rows = filtered().sort((a, b) => Number(b[key]) - Number(a[key]));
   document.querySelector("#tbl tbody").innerHTML = rows.map((r, i) => `<tr>
-    <td>${i + 1}</td><td><a href="spawn.html?spawn=${encodeURIComponent(r.spawn || "")}">${r.spawn || "—"}</a></td><td>${r.party_comp || ""}</td>
+    <td>${i + 1}</td><td><a href="spawn.html?spawn=${encodeURIComponent(r.spawn || "")}">${r.spawn || "—"}</a></td>
+    <td>${r.duration || ""}</td><td>${r.party_comp || ""}</td>
     <td class="num">${fmt(r.xp_h)}</td>
-    <td class="num ${Number(r.balance_h) < 0 ? "neg" : "pos"}">${fmt(r.balance_h)}</td>
+    <td class="num ${Number(r.loot_h) < 0 ? "neg" : "pos"}">${fmt(r.loot_h)}${r.supplies_known === "0" ? "°" : ""}</td>
     <td>${r.hunt_date || ""}</td><td><a href="${r.url}" target="_blank" rel="noopener">hunt</a></td>
-  </tr>`).join("") || `<tr><td colspan="7">Brak danych dla tych filtrów.</td></tr>`;
+  </tr>`).join("") || `<tr><td colspan="8">Brak danych dla tych filtrów.</td></tr>`;
   const max = Math.max(1, ...rows.slice(0, 15).map(r => Number(r[key])));
   $("chartTitle").textContent = `Top 15 — ${state.mode === "exp" ? "EXP/h" : "Profit/h"} (${state.bracket.replace("_", "–")})`;
   $("chart").innerHTML = rows.slice(0, 15).map(r => {
@@ -110,6 +111,9 @@ $("tGuide").onclick = () => tab("Guide");
 $("bracket").onchange = e => { state.bracket = e.target.value; loadRank(); };
 $("party").onchange = e => { state.party = e.target.value; renderRank(); };
 $("q").oninput = e => { state.q = e.target.value.toLowerCase(); renderRank(); };
+document.querySelectorAll("#presets button").forEach(b => b.onclick = () => {
+  $("q").value = b.dataset.q; state.q = b.dataset.q; renderRank();
+});
 $("mExp").onclick = () => { state.mode = "exp"; $("mExp").classList.add("on"); $("mProfit").classList.remove("on"); loadRank(); };
 $("mProfit").onclick = () => { state.mode = "profit"; $("mProfit").classList.add("on"); $("mExp").classList.remove("on"); loadRank(); };
 $("bracket2").onchange = () => loadSpawns();

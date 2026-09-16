@@ -1,5 +1,5 @@
-id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lvl,xp_h,raw_xp_h,balance_h,has_creature_stats,url
-55979,Oramond West #1,"Sep 05, 2026 12:01",00:39h,39,1,EM 181,181,181,181,3035886,845696,502889,1,https://www.hunt-analyser.com/hunt_sessions/55979
-52059,Vampire Crypt (Edron),"Jul 25, 2026 00:41",00:57h,57,1,RP 169,169,169,169,1376977,0,367134,1,https://www.hunt-analyser.com/hunt_sessions/52059
-52356,Dark Fauns -2,"Jul 29, 2026 02:41",00:30h,30,1,RP 169,169,169,169,1711696,0,327484,1,https://www.hunt-analyser.com/hunt_sessions/52356
-55180,Ravenous Lava Lurker #1,"Aug 27, 2026 09:28",00:10h,10,1,EM 176,176,176,176,1887918,0,-38940,1,https://www.hunt-analyser.com/hunt_sessions/55180
+id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lvl,xp_h,raw_xp_h,loot_h,balance_h,supplies_total,supplies_known,has_creature_stats,event_flag,url
+55979,Oramond West #1,"Sep 05, 2026 12:01",00:39h,39,1,EM 181,181,181,181,3035886,845696,537797,502889,22690,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55979
+52356,Dark Fauns -2,"Jul 29, 2026 02:41",00:30h,30,1,RP 169,169,169,169,1711696,0,399498,327484,36007,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52356
+52059,Vampire Crypt (Edron),"Jul 25, 2026 00:41",00:57h,57,1,RP 169,169,169,169,1376977,0,394573,367134,26066,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52059
+55180,Ravenous Lava Lurker #1,"Aug 27, 2026 09:28",00:10h,10,1,EM 176,176,176,176,1887918,0,0,-38940,6490,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55180

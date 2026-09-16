@@ -63,6 +63,10 @@ gold:
   recent_days_exp: 365      # exp/h jest stabilne w czasie, wieksza probka = lepsza mediana
   brackets: ["50-100", "100-200", "200-300"]  # pliki ranking_exp_<bracket>.csv itd.
 
+# ---- EVENTY 2x (wykluczane z median: pompuja exp i loot) ----
+events:
+  extra_dates: ["2026-09-05", "2026-09-06", "2026-09-07"]  # double XP weekend (news podal tylko 09-04)
+
 # ---- CZESTOTLIWOSC ----
 # Zmienia sie NIE tutaj tylko w .github/workflows/daily.yml, linia: cron: "0 5 * * *"
 # (GitHub Actions nie czyta crona z pliku — przyklad: "0 5,17 * * *" = 2x dziennie,

@@ -28,7 +28,8 @@ PAGES_DATA = ROOT / "docs" / "data"  # kopia dla GitHub Pages (docs/ = root stro
 PAGES_DATA.mkdir(parents=True, exist_ok=True)
 
 COLS = ["id", "spawn", "hunt_date", "duration", "minutes", "party_size", "party_comp",
-        "min_lvl", "max_lvl", "avg_lvl", "xp_h", "raw_xp_h", "balance_h", "has_creature_stats", "url"]
+        "min_lvl", "max_lvl", "avg_lvl", "xp_h", "raw_xp_h", "loot_h", "balance_h",
+        "supplies_total", "supplies_known", "has_creature_stats", "event_flag", "url"]
 
 
 def parse_hunt_date(s: str):
@@ -57,12 +58,36 @@ def load_hunts(recent_days: int):
             stale += 1
     print(f"hunts total={len(ded)} fresh(<={recent_days}d)={len(fresh)} stale={stale}")
     for r in fresh:
-        for k in ("xp_h", "raw_xp_h", "balance_h", "party_size", "min_lvl", "max_lvl", "avg_lvl"):
+        for k in ("xp_h", "raw_xp_h", "balance_h", "loot_h", "party_size", "min_lvl",
+                  "max_lvl", "avg_lvl", "supplies_total", "supplies_known", "minutes"):
             try:
-                r[k] = int(r.get(k) or 0)
+                r[k] = int(float(r.get(k) or 0))
             except ValueError:
                 r[k] = 0
     return fresh
+
+
+def load_events() -> set:
+    """Daty eventow 2x exp/loot (wykluczane z median — pompowalyby wyniki).
+    Zrodlo: data/raw/<date>/events.json (fetch_tibia_events.py) + reczne daty z configu."""
+    dates = set()
+    for p in sorted((ROOT / "data" / "raw").glob("*/events.json"))[-4:]:
+        try:
+            for e in json.loads(p.read_text(encoding="utf-8")):
+                if e.get("date"):
+                    dates.add(str(e["date"])[:10])
+        except Exception:
+            pass
+    return dates
+
+
+def flag_events(rows: list[dict], event_dates: set) -> int:
+    n = 0
+    for r in rows:
+        d = parse_hunt_date(r.get("hunt_date", ""))
+        r["event_flag"] = 1 if (d and d.isoformat() in event_dates) else 0
+        n += r["event_flag"]
+    return n
 
 
 def load_manual_prices():
@@ -208,7 +233,7 @@ def write(name: str, rows: list[dict]):
 
 
 SPAWN_COLS = ["spawn", "n_hunts", "median_xp_h", "max_xp_h", "median_profit_h", "max_profit_h",
-              "min_lvl_seen", "max_lvl_seen", "sample_url"]
+              "n_full_loot", "min_lvl_seen", "max_lvl_seen", "sample_url"]
 
 
 def spawn_stats(rows: list[dict]) -> list[dict]:
@@ -221,15 +246,18 @@ def spawn_stats(rows: list[dict]) -> list[dict]:
     out = []
     for spawn, g in groups.items():
         xp = sorted(r["xp_h"] for r in g)
-        pf = sorted(r["balance_h"] for r in g)
+        # PROFIT = loot/h policzony z sesji (Balance + supplies), NIE gotowy Balance!
+        pf = sorted(r["loot_h"] for r in g)
         lvls = [r["avg_lvl"] for r in g if r["avg_lvl"]]
         best = max(g, key=lambda r: r["xp_h"])
+        n_full = sum(1 for r in g if r.get("supplies_known"))
         out.append({
             "spawn": spawn, "n_hunts": len(g),
             "median_xp_h": int(statistics.median(xp)),
             "max_xp_h": max(xp),
             "median_profit_h": int(statistics.median(pf)),
             "max_profit_h": max(pf),
+            "n_full_loot": n_full,
             "min_lvl_seen": min(lvls) if lvls else "",
             "max_lvl_seen": max(lvls) if lvls else "",
             "sample_url": best["url"],
@@ -274,7 +302,7 @@ def spawn_items(hunts: list[dict], kills: list[dict], creatures: dict,
 
 
 KILLS_H_COLS = ["hunt_id", "spawn", "hunt_date", "minutes", "creature", "killed",
-                "kills_per_h", "xp_h", "balance_h", "url"]
+                "kills_per_h", "xp_h", "loot_h", "balance_h", "url"]
 
 
 def kills_enriched(hunts: list[dict], kills: list[dict]) -> list[dict]:
@@ -298,7 +326,8 @@ def kills_enriched(hunts: list[dict], kills: list[dict]) -> list[dict]:
                     "hunt_date": h.get("hunt_date", ""), "minutes": mins,
                     "creature": k.get("creature", ""), "killed": killed,
                     "kills_per_h": round(killed / mins * 60, 1) if mins > 0 else "",
-                    "xp_h": h.get("xp_h", ""), "balance_h": h.get("balance_h", ""),
+                    "xp_h": h.get("xp_h", ""), "loot_h": h.get("loot_h", ""),
+                    "balance_h": h.get("balance_h", ""),
                     "url": h.get("url", "")})
     return out
 
@@ -372,6 +401,13 @@ def main() -> None:
     hunts_profit = load_hunts(rd_profit)
     hunts_exp = load_hunts(rd_exp) if rd_exp != rd_profit else hunts_profit
     manual = load_manual_prices()
+
+    # Eventy 2x exp/loot: sesje z tych dni wypadaja z rankingow i median (pompowalyby wyniki).
+    event_dates = load_events()
+    n_ev = flag_events(hunts_profit, event_dates) + (flag_events(hunts_exp, event_dates) if hunts_exp is not hunts_profit else 0)
+    hunts_profit = [h for h in hunts_profit if not h["event_flag"]]
+    hunts_exp = [h for h in hunts_exp if not h["event_flag"]]
+    print(f"eventy: {len(event_dates)} dni, wykluczono sesji(protexp+exp)={n_ev}")
 
     # Drabinka + stworzenia + metadata (najnowsze snapshoty)
     boards, creatures, meta = {}, {}, []
@@ -475,7 +511,8 @@ def main() -> None:
     print(f"per-item files: ladder+history for {len(prices)} items")
 
     write("ranking_exp", sorted(hunts_exp, key=lambda r: r["xp_h"], reverse=True)[:50])
-    write("ranking_profit", sorted(hunts_profit, key=lambda r: r["balance_h"], reverse=True)[:50])
+    # PROFIT = loot/h policzony z sesji (Balance + supplies), NIE gotowy Balance!
+    write("ranking_profit", sorted(hunts_profit, key=lambda r: r["loot_h"], reverse=True)[:50])
     write_spawns("spawn_stats", spawn_stats(hunts_profit))
     for b in brackets:
         lo, hi = (int(x) for x in b.strip().split("-"))
@@ -483,7 +520,7 @@ def main() -> None:
         pp = [r for r in hunts_profit if r["avg_lvl"] and lo <= r["avg_lvl"] <= hi]
         tag = f"{lo}_{hi}"
         write(f"ranking_exp_{tag}", sorted(pe, key=lambda r: r["xp_h"], reverse=True)[:50])
-        write(f"ranking_profit_{tag}", sorted(pp, key=lambda r: r["balance_h"], reverse=True)[:50])
+        write(f"ranking_profit_{tag}", sorted(pp, key=lambda r: r["loot_h"], reverse=True)[:50])
         write_spawns(f"spawn_stats_{tag}", spawn_stats(pp))
         print(f"bracket {b}: exp={len(pe)} profit={len(pp)} hunts")
 
@@ -493,6 +530,7 @@ def main() -> None:
                     "recent_days": rd_profit, "recent_days_exp": rd_exp,
                     "price_items": len(prices), "spawn_items": len(si),
                     "tagged_items": len(tag_rows),
+                    "events_days": len(event_dates), "events_excluded": n_ev,
                     "sessions_le31d": sum(1 for h in hunts_exp if h.get("_days_ago", 9999) <= 31),
                     "sessions_le62d": sum(1 for h in hunts_exp if h.get("_days_ago", 9999) <= 62),
                     "manual_prices": manual}, indent=1), encoding="utf-8")

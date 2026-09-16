@@ -31,9 +31,10 @@ OUT = ROOT / "data" / "raw"
 
 HUNT_FIELDS = ["id", "url", "spawn", "hunt_date", "duration", "minutes", "party_size", "party_comp",
                "min_lvl", "max_lvl", "avg_lvl", "has_creature_stats",
-               "xp_gain", "raw_xp_gain", "balance", "xp_h", "raw_xp_h", "balance_h",
+               "xp_gain", "raw_xp_gain", "balance", "supplies_total", "loot_total",
+               "supplies_known", "xp_h", "raw_xp_h", "balance_h", "loot_h",
                "query_min", "query_max", "query_party", "query_search"]
-MEMBER_FIELDS = ["hunt_id", "slot", "name", "voc", "voc_name", "level"]
+MEMBER_FIELDS = ["hunt_id", "slot", "name", "voc", "voc_name", "level", "supplies", "balance_m"]
 KILL_FIELDS = ["hunt_id", "creature", "killed"]
 
 
@@ -93,11 +94,29 @@ def parse_detail(hid: str, qmin: int, qmax: int, qparty: str, qsearch: str = "")
         m = re.search(label + r"</p>\s*<p[^>]*>(.*?)</p>", page, re.S)
         return html.unescape(re.sub(r"<[^>]+>", "", m.group(1)).strip()) if m else ""
 
-    members = [
-        {"hunt_id": hid, "slot": i + 1, "name": n.strip(), "voc": v.strip(),
-         "voc_name": VOC_NAMES.get(v.strip(), v.strip()), "level": int(lv)}
-        for i, (n, v, lv) in enumerate(re.findall(r"<td[^>]*>\s*([^<(]+?)\s*\(([A-Z]{2})\s+(\d+)\)\s*</td>", page))
-    ]
+    members = []
+    pm = re.search(r"Party Members</h3>.*?<tbody>(.*?)</tbody>", page, re.S)
+    if pm:
+        # Wiersz: # | nick (XX lvl) | damage | healing | supplies | balance
+        for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", pm.group(1), re.S):
+            tds = [html.unescape(re.sub(r"<[^>]+>", "", c)).strip()
+                   for c in re.findall(r"<td[^>]*>(.*?)</td>", tr, re.S)]
+            if len(tds) < 6:
+                continue
+            m = re.match(r"(.+?)\s*\(([A-Z]{2})\s+(\d+)\)", tds[1])
+            if not m:
+                continue
+            members.append({"hunt_id": hid, "slot": len(members) + 1, "name": m.group(1).strip(),
+                            "voc": m.group(2), "voc_name": VOC_NAMES.get(m.group(2), m.group(2)),
+                            "level": int(m.group(3)), "supplies": num(tds[4]), "balance_m": num(tds[5])})
+    if not members:
+        # Fallback: sama lista nickow (bez supplies)
+        members = [
+            {"hunt_id": hid, "slot": i + 1, "name": n.strip(), "voc": v.strip(),
+             "voc_name": VOC_NAMES.get(v.strip(), v.strip()), "level": int(lv),
+             "supplies": None, "balance_m": None}
+            for i, (n, v, lv) in enumerate(re.findall(r"<td[^>]*>\s*([^<(]+?)\s*\(([A-Z]{2})\s+(\d+)\)\s*</td>", page))
+        ]
     # Tabela "Monster Killed" (tylko ta sekcja, zeby nie lapac innych obrazkow):
     # <img alt="CREATURE" .../> ... </td><td>COUNT</td>
     kills: list[dict] = []
@@ -114,6 +133,12 @@ def parse_detail(hid: str, qmin: int, qmax: int, qparty: str, qsearch: str = "")
     # Fallback: rozmiar party z filtra zapytania, lvl = srodek bracketu zapytania.
     size_fallback = {"Solo": 1, "Duo": 2, "x3": 3, "x4": 4, "x5": 5, "x6+": 6}.get(qparty, 0)
     avg_lvl = round(sum(lvls) / len(lvls)) if lvls else ((qmin + qmax) // 2 if qmin and qmax else "")
+    mins = parse_duration(field("Session Duration")) or 0
+    sup_known = any(m.get("supplies") is not None for m in members)
+    # supplies w tabeli sa ujemne (wydatki): loot = balance_sesji + wydatki
+    sup_total = -sum(m["supplies"] for m in members if m.get("supplies") not in (None, 0)) if sup_known else 0
+    bal_total = num(field("Balance"))
+    loot_total = bal_total + sup_total if sup_known else bal_total
     hunt = {
         "id": hid,
         "url": f"{BASE}/hunt_sessions/{hid}",
@@ -129,10 +154,14 @@ def parse_detail(hid: str, qmin: int, qmax: int, qparty: str, qsearch: str = "")
         "has_creature_stats": 1 if kills else 0,
         "xp_gain": num(field("XP Gain")),
         "raw_xp_gain": num(field("Raw XP Gain")),
-        "balance": num(field("Balance")),
+        "balance": bal_total,
+        "supplies_total": sup_total,
+        "loot_total": loot_total,
+        "supplies_known": 1 if sup_known else 0,
         "xp_h": num(field("XP/h")),
         "raw_xp_h": num(field("Raw XP/h")),
         "balance_h": num(field("Balance/h")),
+        "loot_h": round(loot_total / (mins / 60), 0) if mins > 0 else bal_total,
         "query_min": qmin,
         "query_max": qmax,
         "query_party": qparty,

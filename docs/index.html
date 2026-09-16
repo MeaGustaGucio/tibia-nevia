@@ -82,11 +82,17 @@
       </select>
     </label>
     <label>Szukaj spawna <input type="text" id="q" placeholder="np. asura, hero, lizard" /></label>
+    <label>Szybkie typy
+      <span class="seg" id="presets">
+        <button data-q="quara">quara</button><button data-q="were">were</button><button data-q="tiger">tiger</button><button data-q="cult">culty</button><button data-q="spectre">spectre</button><button data-q="vampire">vampire</button><button data-q="">×</button>
+      </span>
+    </label>
   </div>
   <main><div class="grid2" style="margin-top:14px">
     <div class="card"><table id="tbl"><thead><tr>
-      <th>#</th><th>Spawn</th><th>Party</th><th class="num">EXP/h</th><th class="num">Profit/h</th><th>Data</th><th>Link</th>
-    </tr></thead><tbody></tbody></table></div>
+      <th>#</th><th>Spawn</th><th>Czas</th><th>Party</th><th class="num">EXP/h</th><th class="num">Loot/h*</th><th>Data</th><th>Link</th>
+    </tr></thead><tbody></tbody></table>
+    <p class="sub" style="margin-bottom:0">*Loot/h = Balance + supplies, policzone z sesji (nie gotowiec). ° = skład ukryty, sam Balance (dolne oszacowanie). Kliknij spawn po pełny rozkład: sesje, kille/h, ceny loota.</p></div>
     <div class="card"><h3 id="chartTitle" style="margin:4px 0 10px;font-size:1rem">Top 15</h3><div id="chart"></div></div>
   </div></main>
 </div>
@@ -158,8 +164,11 @@
       <li><b>Fair / półka / patient</b> — fair to średnia ważona po obcięciu ścianek, półka to poziom z największą liczbą sztuk, patient to cierpliwe czekanie na min sell.</li>
       <li><b>Czerwone oferty odrzucamy z automatu</b> — oficjalny manual Tibii: sell ≥ +25% średniej serwera i buy ≤ −25% średniej wyświetlają się na czerwono jako ostrzeżenie o nieuczciwej ofercie. Plus per-item cap (np. vampire teeth: nic powyżej 4000).</li>
     </ul>
-    <p>Ranking na tej stronie używa <b>Balance/h z hunta jako proxy</b> (bo pełny rozkład loota raportuje tylko część graczy).
-    Docelowo: re-wycena <b>drop/h × cena Nevii</b> — pipeline już zbiera ceny wszystkich 5047 itemów Nevii z historią 30 dni.</p>
+    <p>Ranking na tej stronie używa <b>loot/h policzonego z każdej sesji: Balance + supplies</b> (supplies bierzemy
+    z tabeli składu sesji — dlatego przy wyniku nie ma zgadywania, a każda liczba ma link do sesji-źródła).
+    ° przy wyniku = skład ukryty, wtedy pokazujemy sam Balance (dolne oszacowanie).
+    Sesje z dni eventów 2× exp/loot wypadają z median (pompowalyby wyniki).
+    Docelowo: re-wycena <b>drop/h × cena Nevii</b> — pipeline już zbiera ceny wszystkich 5047 itemów Nevii z historią.</p>
     <h3>Ukryte koszty: imbuementy i prey</h3>
     <ul>
       <li>Imbu (mana/life leech, crit) kosztują grubo w itemach — Odejmij je od profitu; bez imbu wiele spawnów 100+ jest nieosiągalnych.</li>

@@ -21,6 +21,7 @@ jobs:
       - run: python scripts/fetch_market.py
       - run: python scripts/fetch_hunts.py
       - run: python scripts/fetch_creatures.py
+      - run: python scripts/fetch_tibia_events.py
       - run: python scripts/fetch_orderbook.py
       - run: python scripts/import_session.py
       - run: python scripts/build_gold.py

@@ -1,5 +1,5 @@
-spawn,n_hunts,median_xp_h,max_xp_h,median_profit_h,max_profit_h,min_lvl_seen,max_lvl_seen,sample_url
-Oramond West #1,1,3035886,3035886,502889,502889,181,181,https://www.hunt-analyser.com/hunt_sessions/55979
-Ravenous Lava Lurker #1,1,1887918,1887918,-38940,-38940,176,176,https://www.hunt-analyser.com/hunt_sessions/55180
-Dark Fauns -2,1,1711696,1711696,327484,327484,169,169,https://www.hunt-analyser.com/hunt_sessions/52356
-Vampire Crypt (Edron),1,1376977,1376977,367134,367134,169,169,https://www.hunt-analyser.com/hunt_sessions/52059
+spawn,n_hunts,median_xp_h,max_xp_h,median_profit_h,max_profit_h,n_full_loot,min_lvl_seen,max_lvl_seen,sample_url
+Oramond West #1,1,3035886,3035886,537797,537797,1,181,181,https://www.hunt-analyser.com/hunt_sessions/55979
+Ravenous Lava Lurker #1,1,1887918,1887918,0,0,1,176,176,https://www.hunt-analyser.com/hunt_sessions/55180
+Dark Fauns -2,1,1711696,1711696,399498,399498,1,169,169,https://www.hunt-analyser.com/hunt_sessions/52356
+Vampire Crypt (Edron),1,1376977,1376977,394573,394573,1,169,169,https://www.hunt-analyser.com/hunt_sessions/52059
