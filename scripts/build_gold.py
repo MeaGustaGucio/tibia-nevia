@@ -69,7 +69,8 @@ def load_hunts(recent_days: int):
 
 def load_events() -> set:
     """Daty eventow 2x exp/loot (wykluczane z median — pompowalyby wyniki).
-    Zrodlo: data/raw/<date>/events.json (fetch_tibia_events.py) + reczne daty z configu."""
+    Zrodlo: data/raw/<date>/events.json (fetch_tibia_events.py) + reczne daty
+    z configu (tu tez, zeby dzialaly bez re-fetcha)."""
     dates = set()
     for p in sorted((ROOT / "data" / "raw").glob("*/events.json"))[-4:]:
         try:
@@ -78,6 +79,11 @@ def load_events() -> set:
                     dates.add(str(e["date"])[:10])
         except Exception:
             pass
+    try:
+        for d in (load_config().get("events", {}) or {}).get("extra_dates", []) or []:
+            dates.add(str(d)[:10])
+    except Exception:
+        pass
     return dates
 
 
