@@ -32,6 +32,7 @@ HUNT_FIELDS = ["id", "url", "spawn", "hunt_date", "duration", "party_size", "par
                "xp_gain", "raw_xp_gain", "balance", "xp_h", "raw_xp_h", "balance_h",
                "query_min", "query_max", "query_party"]
 MEMBER_FIELDS = ["hunt_id", "slot", "name", "voc", "level"]
+KILL_FIELDS = ["hunt_id", "creature", "killed"]
 
 
 def get(url: str) -> str:
@@ -62,7 +63,7 @@ def num(s: str) -> int:
     return int(m.group()) if m else 0
 
 
-def parse_detail(hid: str, qmin: int, qmax: int, qparty: str) -> tuple[dict, list[dict]]:
+def parse_detail(hid: str, qmin: int, qmax: int, qparty: str) -> tuple[dict, list[dict], list[dict]]:
     page = get(f"{BASE}/hunt_sessions/{hid}")
     title = re.search(r"<h1[^>]*text-2xl[^>]*>\s*([^<]+)", page)
     date = re.search(r"(\w{3}\s+\d{1,2},\s+\d{4}\s+\d{2}:\d{2})", page)
@@ -75,6 +76,17 @@ def parse_detail(hid: str, qmin: int, qmax: int, qparty: str) -> tuple[dict, lis
         {"hunt_id": hid, "slot": i + 1, "name": n.strip(), "voc": v.strip(), "level": int(lv)}
         for i, (n, v, lv) in enumerate(re.findall(r"<td[^>]*>\s*([^<(]+?)\s*\(([A-Z]{2})\s+(\d+)\)\s*</td>", page))
     ]
+    # Tabela "Monster Killed" (tylko ta sekcja, zeby nie lapac innych obrazkow):
+    # <img alt="CREATURE" .../> ... </td><td>COUNT</td>
+    kills: list[dict] = []
+    mk = page.find("Monster Killed")
+    if mk != -1:
+        section = page[mk:page.find("</table>", mk) + len("</table>")]
+        for alt, cnt in re.findall(
+                r"<img alt=\"([^\"]+)\"[^>]*?/>\s*[^<]*?</td>\s*<td[^>]*>\s*([\d, ]+?)\s*</td>", section):
+            c = cnt.replace(",", "").replace(" ", "")
+            if alt.strip() and c.isdigit():
+                kills.append({"hunt_id": hid, "creature": html.unescape(alt.strip()), "killed": int(c)})
     lvls = [m["level"] for m in members]
     # Czesc huntow nie pokazuje skladu niezalogowanym (brak tabeli Party Members).
     # Fallback: rozmiar party z filtra zapytania, lvl = srodek bracketu zapytania.
@@ -91,6 +103,7 @@ def parse_detail(hid: str, qmin: int, qmax: int, qparty: str) -> tuple[dict, lis
         "min_lvl": min(lvls) if lvls else "",
         "max_lvl": max(lvls) if lvls else "",
         "avg_lvl": avg_lvl,
+        "has_creature_stats": 1 if kills else 0,
         "xp_gain": num(field("XP Gain")),
         "raw_xp_gain": num(field("Raw XP Gain")),
         "balance": num(field("Balance")),
@@ -101,24 +114,25 @@ def parse_detail(hid: str, qmin: int, qmax: int, qparty: str) -> tuple[dict, lis
         "query_max": qmax,
         "query_party": qparty,
     }
-    return hunt, members
+    return hunt, members, kills
 
 
 def fetch_run(level_min: int, level_max: int, vocations: list, member_counts: list, pages: int):
-    """Jeden przebieg: lista id + detale. Zwraca (hunts, members)."""
+    """Jeden przebieg: lista id + detale. Zwraca (hunts, members, kills)."""
     ids = list_ids(level_min, level_max, vocations, member_counts, pages)
     qparty = member_counts[0] if len(member_counts) == 1 else ""
-    hunts, members = [], []
+    hunts, members, kills = [], [], []
     for k, hid in enumerate(ids):
         try:
-            h, m = parse_detail(hid, level_min, level_max, qparty)
+            h, m, kl = parse_detail(hid, level_min, level_max, qparty)
             hunts.append(h)
             members.extend(m)
+            kills.extend(kl)
         except Exception as e:
             print(f"detail failed {hid}: {e}")
         if (k + 1) % 10 == 0:
             print(f"details {k + 1}/{len(ids)}", flush=True)
-    return hunts, members
+    return hunts, members, kills
 
 
 def main() -> None:
@@ -158,22 +172,25 @@ def main() -> None:
             runs.append(b)
         duo_cfg = None if a.no_duo_fallback else hcfg.get("duo")
 
-    all_hunts, all_members = [], []
+    all_hunts, all_members, all_kills = [], [], []
     for r in runs:
-        h, m = fetch_run(r["min"], r["max"], r.get("vocations") or [], r.get("party") or [], r.get("pages", 3))
+        h, m, kl = fetch_run(r["min"], r["max"], r.get("vocations") or [], r.get("party") or [], r.get("pages", 3))
         all_hunts.extend(h)
         all_members.extend(m)
+        all_kills.extend(kl)
     if duo_cfg:
-        h, m = fetch_run(duo_cfg["min"], duo_cfg["max"], duo_cfg.get("vocations") or [],
-                         duo_cfg.get("party") or ["Duo"], duo_cfg.get("pages", 3))
+        h, m, kl = fetch_run(duo_cfg["min"], duo_cfg["max"], duo_cfg.get("vocations") or [],
+                             duo_cfg.get("party") or ["Duo"], duo_cfg.get("pages", 3))
         print(f"narrow={len(all_hunts)} duo widened({duo_cfg['min']}-{duo_cfg['max']})={len(h)}")
         all_hunts.extend(h)
         all_members.extend(m)
+        all_kills.extend(kl)
 
     merged_h = {r["id"]: r for r in all_hunts}
     new_ids = set(merged_h)
     merged_m = [m for m in all_members if m["hunt_id"] in new_ids]
-    hp, mp = OUT / day / "hunts.csv", OUT / day / "members.csv"
+    merged_k = [k for k in all_kills if k["hunt_id"] in new_ids]
+    hp, mp, kp = OUT / day / "hunts.csv", OUT / day / "members.csv", OUT / day / "hunt_kills.csv"
     with open(hp, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=HUNT_FIELDS)
         w.writeheader()
@@ -182,7 +199,11 @@ def main() -> None:
         w = csv.DictWriter(f, fieldnames=MEMBER_FIELDS)
         w.writeheader()
         w.writerows(merged_m)
-    print(f"DONE hunts={len(merged_h)} members={len(merged_m)} -> {hp}")
+    with open(kp, "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=KILL_FIELDS)
+        w.writeheader()
+        w.writerows(merged_k)
+    print(f"DONE hunts={len(merged_h)} members={len(merged_m)} kills={len(merged_k)} -> {hp}")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Item — Nevia market</title>
+<style>
+  :root { --bg:#14110d; --panel:#1e1a14; --ink:#f0e6d2; --mut:#a89878; --acc:#e0a030; --good:#7bc47f; --bad:#e06c6c; }
+  body { font-family:system-ui,sans-serif; background:var(--bg); color:var(--ink); margin:0; padding:0 12px 40px; }
+  header, main { max-width:1100px; margin:0 auto; }
+  header { padding:20px 4px 8px; }
+  h1 { font-size:1.3rem; margin:0; }
+  p.sub { color:var(--mut); font-size:.9rem; }
+  a { color:var(--acc); }
+  .card { background:var(--panel); border-radius:10px; padding:12px; margin:14px 0; overflow:auto; }
+  .kpi { display:flex; flex-wrap:wrap; gap:10px; }
+  .kpi div { background:#2a241b; border-radius:8px; padding:10px 14px; font-size:.82rem; }
+  .kpi b { display:block; font-size:1.05rem; color:var(--acc); font-variant-numeric:tabular-nums; }
+  table { width:100%; border-collapse:collapse; font-size:.82rem; }
+  th, td { text-align:left; padding:6px 8px; border-bottom:1px solid #332c20; }
+  th { color:var(--mut); } td.num, th.num { text-align:right; font-variant-numeric:tabular-nums; }
+  .ladder { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  @media(max-width:800px){ .ladder{ grid-template-columns:1fr; } }
+  .bar-row { display:grid; grid-template-columns:80px 1fr 70px; gap:8px; align-items:center; font-size:.78rem; margin:4px 0; }
+  .bar-track { background:#2a241b; border-radius:4px; height:14px; }
+  .bar-fill-s { background:var(--bad); height:14px; border-radius:4px; min-width:2px; }
+  .bar-fill-b { background:var(--good); height:14px; border-radius:4px; min-width:2px; }
+  .hist { display:flex; align-items:flex-end; gap:2px; height:120px; margin-top:8px; }
+  .hist div { flex:1; background:var(--acc); min-height:2px; border-radius:2px 2px 0 0; }
+</style>
+</head>
+<body>
+<header>
+  <p class="sub"><a href="index.html">← rankingi</a> <span id="meta"></span></p>
+  <h1 id="title">Item…</h1>
+  <p class="sub" id="sub"></p>
+</header>
+<main>
+  <div class="card"><div class="kpi" id="kpi"></div></div>
+  <div class="card"><h3 style="margin:4px 0 10px">Drabinka ofert (Nevia)</h3>
+    <div class="ladder">
+      <div><h4 style="color:var(--bad)">Sell (oferty sprzedaży)</h4><div id="sells"></div></div>
+      <div><h4 style="color:var(--good)">Buy (oferty kupna)</h4><div id="buys"></div></div>
+    </div>
+  </div>
+  <div class="card"><h3 style="margin:4px 0 10px">Historia 90 dni (średnie dzienne)</h3><div class="hist" id="hist"></div>
+    <p class="sub" id="histleg"></p></div>
+  <div class="card"><h3 style="margin:4px 0 10px">Gdzie to pada (spawny z killi × loot-listy)</h3>
+    <table id="tbl"><thead><tr><th>Spawn</th><th class="num">Fair</th><th class="num">Wartość/h przy 10 szt/h</th><th>Potwory</th></tr></thead><tbody></tbody></table></div>
+  <div class="card"><h3 style="margin:4px 0 10px">Wasze sesje z tym itemem</h3>
+    <table id="tbl2"><thead><tr><th>Spawn</th><th>Data</th><th class="num">Minuty</th><th class="num">Sztuki</th><th class="num">Szt/h</th><th>Notka</th></tr></thead><tbody></tbody></table></div>
+</main>
+<footer style="max-width:1100px;margin:18px auto 0;color:var(--mut);font-size:.78rem">
+  Instant = top buy (sprzedaż od ręki) • Fair = VWAP buy po obcięciu top 5% jednostek • Patient = min sell • Upside = (p25 sell − fair)/fair.
+</footer>
+<script>
+const $ = id => document.getElementById(id);
+const fmt = n => (Number(n) || 0).toLocaleString("pl-PL");
+const q = new URLSearchParams(location.search);
+const itemId = q.get("id") || "";
+const itemName = (q.get("name") || "").toLowerCase();
+
+function parseCSV(text) {
+  const rows = []; let cur = [""], qq = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (qq) {
+      if (c === '"') { if (text[i+1] === '"') { cur[cur.length-1] += '"'; i++; } else qq = false; }
+      else cur[cur.length-1] += c;
+    } else if (c === '"') qq = true;
+    else if (c === ",") cur.push("");
+    else if (c === "\n" || c === "\r") {
+      if (cur.length > 1 || cur[0] !== "") rows.push(cur); cur = [""];
+      if (c === "\r" && text[i+1] === "\n") i++;
+    } else cur[cur.length-1] += c;
+  }
+  if (cur.length > 1 || cur[0] !== "") rows.push(cur);
+  const head = rows.shift() || [];
+  return rows.map(r => Object.fromEntries(head.map((h, j) => [h, r[j] ?? ""])));
+}
+async function getCSV(path) {
+  try { return parseCSV(await (await fetch(path)).text()); } catch { return []; }
+}
+
+(async function () {
+  const stats = await getCSV("data/price_stats.csv");
+  const ps = stats.find(r => String(r.item_id) === itemId || (r.item || "").toLowerCase() === itemName);
+  if (!ps) { $("title").textContent = "Brak danych dla tego itemu (jeszcze nie w drabince)"; return; }
+  const id = ps.item_id, name = ps.item;
+  $("title").textContent = name;
+  $("meta").textContent = `id ${id}`;
+  $("sub").textContent = `Snapshot: ${ps.captured_at} • ofert sell: ${ps.n_sell}, buy: ${ps.n_buy} • głębokość ±10% fair: ${fmt(ps.depth_units)} szt`;
+  $("kpi").innerHTML =
+    `<div><b>${fmt(ps.instant)}</b>instant (top buy)</div>` +
+    `<div><b>${fmt(ps.fair)}</b>fair (VWAP − top 5%)</div>` +
+    `<div><b>${fmt(ps.patient)}</b>patient (min sell)</div>` +
+    `<div><b>${(Number(ps.upside) * 100).toFixed(1)}%</b>upside do p25 sell</div>`;
+
+  const lad = await getCSV(`data/ladder/${id}.csv`);
+  const sells = lad.filter(r => r.side === "sell").sort((a, b) => a.price - b.price);
+  const buys = lad.filter(r => r.side === "buy").sort((a, b) => b.price - a.price);
+  const maxU = Math.max(1, ...lad.map(r => Number(r.units)));
+  $("sells").innerHTML = sells.slice(0, 30).map(r =>
+    `<div class="bar-row"><span>${fmt(r.price)}</span><div class="bar-track"><div class="bar-fill-s" style="width:${Math.max(1, r.units / maxU * 100)}%"></div></div><span style="text-align:right">${fmt(r.units)}</span></div>`).join("");
+  $("buys").innerHTML = buys.slice(0, 30).map(r =>
+    `<div class="bar-row"><span>${fmt(r.price)}</span><div class="bar-track"><div class="bar-fill-b" style="width:${Math.max(1, r.units / maxU * 100)}%"></div></div><span style="text-align:right">${fmt(r.units)}</span></div>`).join("");
+
+  const hist = await getCSV(`data/history/${id}.csv`);
+  if (hist.length) {
+    const mx = Math.max(1, ...hist.map(r => Number(r.sell) || Number(r.buy)));
+    $("hist").innerHTML = hist.map(r =>
+      `<div style="height:${Math.max(2, (Number(r.sell) || Number(r.buy)) / mx * 118)}px" title="${r.date}: buy ${r.buy}, sell ${r.sell}"></div>`).join("");
+    $("histleg").textContent = `${hist[0].date} → ${hist[hist.length - 1].date} (najedź na słupek po wartości)`;
+  } else $("hist").innerHTML = "Brak historii dla tego itemu.";
+
+  const si = await getCSV("data/spawn_items.csv");
+  const mine = si.filter(r => String(r.item_id) === String(id));
+  document.querySelector("#tbl tbody").innerHTML = mine.map(r =>
+    `<tr><td><a href="spawn.html?spawn=${encodeURIComponent(r.spawn)}">${r.spawn}</a></td>
+     <td class="num">${fmt(r.fair)}</td><td class="num">${fmt(Number(r.fair) * 10)}</td><td>${r.creatures || ""}</td></tr>`).join("")
+    || `<tr><td colspan="4">Brak spawnow z killami tego itemu w probce.</td></tr>`;
+
+  const sess = await getCSV("data/session_loot.csv");
+  const mine2 = sess.filter(r => (r.item || "").toLowerCase() === name.toLowerCase());
+  document.querySelector("#tbl2 tbody").innerHTML = mine2.map(r => {
+    const perH = r.minutes > 0 ? (r.count / r.minutes * 60) : 0;
+    return `<tr><td>${r.spawn}</td><td>${r.date}</td><td class="num">${r.minutes}</td>
+      <td class="num">${r.count}</td><td class="num">${perH.toFixed(1)}</td><td>${r.note || ""}</td></tr>`;
+  }).join("") || `<tr><td colspan="6">Brak Waszych zalogowanych sesji — dodaj przez <a href="log.html">log.html</a>.</td></tr>`;
+})();
+</script>
+</body>
+</html>

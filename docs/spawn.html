@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Spawn — Nevia</title>
+<style>
+  :root { --bg:#14110d; --panel:#1e1a14; --ink:#f0e6d2; --mut:#a89878; --acc:#e0a030; --good:#7bc47f; --bad:#e06c6c; }
+  body { font-family:system-ui,sans-serif; background:var(--bg); color:var(--ink); margin:0; padding:0 12px 40px; }
+  header, main { max-width:1100px; margin:0 auto; }
+  header { padding:20px 4px 8px; }
+  h1 { font-size:1.3rem; margin:0; }
+  p.sub { color:var(--mut); font-size:.9rem; }
+  a { color:var(--acc); }
+  .card { background:var(--panel); border-radius:10px; padding:12px; margin:14px 0; overflow:auto; }
+  .kpi { display:flex; flex-wrap:wrap; gap:10px; }
+  .kpi div { background:#2a241b; border-radius:8px; padding:10px 14px; font-size:.82rem; }
+  .kpi b { display:block; font-size:1.05rem; color:var(--acc); font-variant-numeric:tabular-nums; }
+  table { width:100%; border-collapse:collapse; font-size:.82rem; }
+  th, td { text-align:left; padding:6px 8px; border-bottom:1px solid #332c20; }
+  th { color:var(--mut); } td.num, th.num { text-align:right; font-variant-numeric:tabular-nums; }
+  tr:hover td { background:#262014; }
+  .pos { color:var(--good); } .neg { color:var(--bad); }
+</style>
+</head>
+<body>
+<header>
+  <p class="sub"><a href="index.html">← rankingi</a></p>
+  <h1 id="title">Spawn…</h1>
+  <p class="sub" id="sub"></p>
+</header>
+<main>
+  <div class="card"><div class="kpi" id="kpi"></div></div>
+  <div class="card"><h3 style="margin:4px 0 10px">Co tu pada + po ile chodzi (Nevia)</h3>
+    <p class="sub" style="margin-top:0">Mapa z killi sesji × loot-listy potworów. Śr./h liczy się dopiero z Waszych zalogowanych sesji
+    (kolumna „Wasze śr./h” i sekcja sesji poniżej) — reszta to „co pada + aktualna cena”.</p>
+    <table id="tbl"><thead><tr><th>Item</th><th class="num">Instant</th><th class="num">Fair</th><th class="num">Patient</th>
+    <th>Cena z dnia</th><th class="num">Wasze śr./h</th><th class="num">Wartość/h (fair)</th><th>Potwory</th></tr></thead><tbody></tbody></table></div>
+  <div class="card"><h3 style="margin:4px 0 10px">Sesje community na tym spawnie</h3>
+    <table id="tbl2"><thead><tr><th>Data</th><th>Party</th><th class="num">EXP/h</th><th class="num">Profit/h</th><th>Link</th></tr></thead><tbody></tbody></table></div>
+  <div class="card"><h3 style="margin:4px 0 10px">Wasze zalogowane sesje (tu pojawią się county 9 vs 11)</h3>
+    <table id="tbl3"><thead><tr><th>Data</th><th class="num">Minuty</th><th>Item</th><th class="num">Sztuki</th><th class="num">Szt/h</th><th>Notka</th></tr></thead><tbody></tbody></table>
+    <p class="sub">Dodaj przez <a href="log.html">log.html</a> (spawn uzupełni się sam).</p></div>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const fmt = n => (Number(n) || 0).toLocaleString("pl-PL");
+const spawn = new URLSearchParams(location.search).get("spawn") || "";
+function parseCSV(text) {
+  const rows = []; let cur = [""], qq = false;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (qq) {
+      if (c === '"') { if (text[i+1] === '"') { cur[cur.length-1] += '"'; i++; } else qq = false; }
+      else cur[cur.length-1] += c;
+    } else if (c === '"') qq = true;
+    else if (c === ",") cur.push("");
+    else if (c === "\n" || c === "\r") {
+      if (cur.length > 1 || cur[0] !== "") rows.push(cur); cur = [""];
+      if (c === "\r" && text[i+1] === "\n") i++;
+    } else cur[cur.length-1] += c;
+  }
+  if (cur.length > 1 || cur[0] !== "") rows.push(cur);
+  const head = rows.shift() || [];
+  return rows.map(r => Object.fromEntries(head.map((h, j) => [h, r[j] ?? ""])));
+}
+async function getCSV(path) {
+  try { return parseCSV(await (await fetch(path)).text()); } catch { return []; }
+}
+(async function () {
+  $("title").textContent = spawn || "Spawn";
+  const [ranks, sitems, sess] = await Promise.all([
+    getCSV("data/ranking_exp.csv"), getCSV("data/spawn_items.csv"), getCSV("data/session_loot.csv")
+  ]);
+  const mine = ranks.filter(r => r.spawn === spawn);
+  const xp = mine.map(r => Number(r.xp_h)).sort((a, b) => a - b);
+  const med = xp.length ? xp[Math.floor(xp.length / 2)] : 0;
+  $("kpi").innerHTML =
+    `<div><b>${mine.length}</b>sesji community</div>` +
+    `<div><b>${fmt(med)}</b>mediana EXP/h</div>` +
+    `<div><b>${fmt(Math.max(0, ...mine.map(r => Number(r.xp_h))))}</b>max EXP/h</div>`;
+  $("sub").textContent = mine.length ? `lvle w próbce: ${mine.map(r => r.party_comp).join(" · ").slice(0, 160)}` : "Brak sesji community — zaloguj własne.";
+
+  const items = sitems.filter(r => r.spawn === spawn);
+  const mineSess = sess.filter(r => r.spawn === spawn);
+  const avgPerH = {};
+  for (const s of mineSess) {
+    const k = s.item.toLowerCase(), mins = Number(s.minutes) || 0;
+    if (mins <= 0) continue;
+    avgPerH[k] = avgPerH[k] || { units: 0, mins: 0, n: 0 };
+    avgPerH[k].units += Number(s.count) || 0; avgPerH[k].mins += mins; avgPerH[k].n++;
+  }
+  document.querySelector("#tbl tbody").innerHTML = items.map(r => {
+    const a = avgPerH[r.item.toLowerCase()];
+    const perH = a ? (a.units / a.mins * 60) : null;
+    const val = perH !== null && r.fair ? perH * Number(r.fair) : null;
+    return `<tr><td><a href="item.html?id=${r.item_id}&name=${encodeURIComponent(r.item)}">${r.item}</a></td>
+      <td class="num">${fmt(r.instant)}</td><td class="num">${fmt(r.fair)}</td><td class="num">${fmt(r.patient)}</td>
+      <td>${r.price_date || ""}</td>
+      <td class="num">${perH !== null ? perH.toFixed(1) + ` (n=${a.n})` : "—"}</td>
+      <td class="num">${val !== null ? fmt(Math.round(val)) : "—"}</td>
+      <td>${r.creatures || ""}</td></tr>`;
+  }).join("") || `<tr><td colspan="8">Brak mapy loota dla tego spawna (mało killi w próbce).</td></tr>`;
+
+  document.querySelector("#tbl2 tbody").innerHTML = mine.map(r =>
+    `<tr><td>${r.hunt_date || ""}</td><td>${r.party_comp || ""}</td><td class="num">${fmt(r.xp_h)}</td>
+     <td class="num">${fmt(r.balance_h)}</td><td><a href="${r.url}" target="_blank" rel="noopener">hunt</a></td></tr>`).join("")
+    || `<tr><td colspan="5">Brak.</td></tr>`;
+  document.querySelector("#tbl3 tbody").innerHTML = mineSess.map(r => {
+    const perH = Number(r.minutes) > 0 ? (Number(r.count) / Number(r.minutes) * 60) : 0;
+    return `<tr><td>${r.date}</td><td class="num">${r.minutes}</td><td>${r.item}</td>
+      <td class="num">${r.count}</td><td class="num">${perH.toFixed(1)}</td><td>${r.note || ""}</td></tr>`;
+  }).join("") || `<tr><td colspan="6">Jeszcze nic — <a href="log.html">dodaj pierwszą sesję</a>.</td></tr>`;
+})();
+</script>
+</body>
+</html>

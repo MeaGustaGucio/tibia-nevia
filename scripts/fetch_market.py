@@ -82,18 +82,13 @@ for i, item_id in enumerate(todo):
         print(f"history {i + 1}/{len(todo)} (flush)")
 hist_path.write_text(json.dumps(hist), encoding="utf-8")
 
-# metadata hurtowo (mapowanie id -> nazwa/kategoria/NPC) — pojedynczo, bo API nie ma batcha
-meta_path = OUT / "market_metadata_top.json"
-meta = json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.exists() else {}
-todo_m = [i for i in top_ids if str(i) not in meta]
-print(f"metadata: done={len(meta)} todo={len(todo_m)}")
-for i, item_id in enumerate(todo_m):
-    try:
-        meta[str(item_id)] = get("/item_metadata", {"item_id": item_id})
-    except Exception as e:
-        print(f"metadata failed id={item_id}: {e}")
-    if (i + 1) % 25 == 0:
-        meta_path.write_text(json.dumps(meta), encoding="utf-8")
-        print(f"metadata {i + 1}/{len(todo_m)} (flush)")
-meta_path.write_text(json.dumps(meta), encoding="utf-8")
+# metadata: JEDEN call bez item_id zwraca WSZYSTKIE itemy (id->nazwa/NPC/Wiki).
+# (Dokumentacja API: "or all items if no item id is given".)
+meta_path = OUT / "market_metadata_all.json"
+try:
+    meta_all = get("/item_metadata", {})
+    meta_path.write_text(json.dumps(meta_all), encoding="utf-8")
+    print(f"metadata ALL: {len(meta_all)} items (1 call)")
+except Exception as e:
+    print(f"metadata ALL failed: {e}")
 print(f"DONE market Nevia: values={len(all_rows)} history_items={len(hist)}")

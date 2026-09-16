@@ -51,7 +51,7 @@ function renderRank() {
   const key = state.mode === "exp" ? "xp_h" : "balance_h";
   const rows = filtered().sort((a, b) => Number(b[key]) - Number(a[key]));
   document.querySelector("#tbl tbody").innerHTML = rows.map((r, i) => `<tr>
-    <td>${i + 1}</td><td>${r.spawn || "—"}</td><td>${r.party_comp || ""}</td>
+    <td>${i + 1}</td><td><a href="spawn.html?spawn=${encodeURIComponent(r.spawn || "")}">${r.spawn || "—"}</a></td><td>${r.party_comp || ""}</td>
     <td class="num">${fmt(r.xp_h)}</td>
     <td class="num ${Number(r.balance_h) < 0 ? "neg" : "pos"}">${fmt(r.balance_h)}</td>
     <td>${r.hunt_date || ""}</td><td><a href="${r.url}" target="_blank" rel="noopener">hunt</a></td>
@@ -76,7 +76,7 @@ function renderSpawns() {
   const key = state.spawnSort === "exp" ? "median_xp_h" : "median_profit_h";
   const rows = [...state.spawns].sort((a, b) => Number(b[key]) - Number(a[key]));
   document.querySelector("#tbl2 tbody").innerHTML = rows.map((r, i) => `<tr>
-    <td>${i + 1}</td><td>${r.spawn}</td><td class="num">${r.n_hunts}</td>
+    <td>${i + 1}</td><td><a href="spawn.html?spawn=${encodeURIComponent(r.spawn)}">${r.spawn}</a></td><td class="num">${r.n_hunts}</td>
     <td class="num">${fmt(r.median_xp_h)}</td><td class="num">${fmt(r.max_xp_h)}</td>
     <td class="num ${Number(r.median_profit_h) < 0 ? "neg" : "pos"}">${fmt(r.median_profit_h)}</td>
     <td class="num ${Number(r.max_profit_h) < 0 ? "neg" : "pos"}">${fmt(r.max_profit_h)}</td>
