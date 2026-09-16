@@ -18,6 +18,8 @@ import csv
 import html
 import pathlib
 import re
+import time
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -35,10 +37,19 @@ MEMBER_FIELDS = ["hunt_id", "slot", "name", "voc", "voc_name", "level"]
 KILL_FIELDS = ["hunt_id", "creature", "killed"]
 
 
-def get(url: str) -> str:
-    req = urllib.request.Request(url, headers=UA)
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read().decode("utf-8", "replace")
+def get(url: str, retries: int = 5) -> str:
+    """GET z retry: hunt-analyser resetuje polaczenia przy szybszym scrapowaniu (CI)."""
+    last = None
+    for a in range(retries):
+        try:
+            req = urllib.request.Request(url, headers=UA)
+            with urllib.request.urlopen(req, timeout=30) as r:
+                time.sleep(0.4)  # lagodniej = mniej resetow
+                return r.read().decode("utf-8", "replace")
+        except Exception as e:
+            last = e
+            time.sleep(2 * (a + 1))
+    raise last
 
 
 def list_ids(level_min: int, level_max: int, vocations: list, member_counts: list, pages: int, search: str = "") -> list[str]:
@@ -53,7 +64,11 @@ def list_ids(level_min: int, level_max: int, vocations: list, member_counts: lis
             q.append(("search", search))
         q += [("vocations[]", v) for v in (vocations or [])]
         q += [("member_counts[]", m) for m in (member_counts or [])]
-        page = get(f"{BASE}/hunt_sessions?{urllib.parse.urlencode(q)}")
+        try:
+            page = get(f"{BASE}/hunt_sessions?{urllib.parse.urlencode(q)}")
+        except Exception as e:
+            print(f"list page={p} FAILED ({e}) — biore co uzbierane ({len(ids)}) i ide dalej")
+            break
         found = re.findall(r"data-row-click-url-value=\"/hunt_sessions/(\d+)\"", page)
         tag = f"search={search} " if search else ""
         print(f"list {tag}{level_min}-{level_max} {vocations or 'any-voc'} {member_counts or 'any-party'} page={p} ids={len(found)}", flush=True)
