@@ -36,6 +36,9 @@
     (kolumna „Wasze śr./h” i sekcja sesji poniżej) — reszta to „co pada + aktualna cena”.</p>
     <table id="tbl"><thead><tr><th>Item</th><th class="num">Instant</th><th class="num">Fair</th><th class="num">Patient</th>
     <th>Cena z dnia</th><th class="num">Wasze śr./h</th><th class="num">Wartość/h (fair)</th><th>Potwory</th></tr></thead><tbody></tbody></table></div>
+  <div class="card"><h3 style="margin:4px 0 10px">Kille/h per potwór (z sesji community)</h3>
+    <p class="sub" style="margin-top:0">Ile sztuk danego potwora pada na godzinę w poszczególnych sesjach — najtwardsza publiczna granulacja.</p>
+    <table id="tbl4"><thead><tr><th>Potwór</th><th>Data</th><th class="num">Minuty</th><th class="num">Zabito</th><th class="num">Killi/h</th><th class="num">EXP/h sesji</th><th>Link</th></tr></thead><tbody></tbody></table></div>
   <div class="card"><h3 style="margin:4px 0 10px">Sesje community na tym spawnie</h3>
     <table id="tbl2"><thead><tr><th>Data</th><th>Party</th><th class="num">EXP/h</th><th class="num">Profit/h</th><th>Link</th></tr></thead><tbody></tbody></table></div>
   <div class="card"><h3 style="margin:4px 0 10px">Wasze zalogowane sesje (tu pojawią się county 9 vs 11)</h3>    <table id="tbl3"><thead><tr><th>Data</th><th class="num">Minuty</th><th>Item</th><th class="num">Sztuki</th><th class="num">Szt/h</th><th>Notka</th></tr></thead><tbody></tbody></table>
@@ -69,8 +72,8 @@ async function getCSV(path) {
 (async function () {
   $("title").textContent = spawn || "Spawn";
   $("loglink").innerHTML = `Zaloguj hunt tutaj: <a href="log.html?spawn=${encodeURIComponent(spawn)}">log.html → ${spawn}</a> (itemy uzupełnią się same).`;
-  const [ranks, sitems, sess] = await Promise.all([
-    getCSV("data/ranking_exp.csv"), getCSV("data/spawn_items.csv"), getCSV("data/session_loot.csv")
+  const [ranks, sitems, sess, kills] = await Promise.all([
+    getCSV("data/ranking_exp.csv"), getCSV("data/spawn_items.csv"), getCSV("data/session_loot.csv"), getCSV("data/hunt_kills_h.csv")
   ]);
   const mine = ranks.filter(r => r.spawn === spawn);
   const xp = mine.map(r => Number(r.xp_h)).sort((a, b) => a - b);
@@ -102,6 +105,12 @@ async function getCSV(path) {
       <td>${r.creatures || ""}</td></tr>`;
   }).join("") || `<tr><td colspan="8">Brak mapy loota dla tego spawna (mało killi w próbce).</td></tr>`;
 
+  document.querySelector("#tbl4 tbody").innerHTML = kills.filter(r => r.spawn === spawn)
+    .sort((a, b) => Number(b.kills_per_h) - Number(a.kills_per_h)).slice(0, 60).map(r =>
+    `<tr><td>${r.creature}</td><td>${r.hunt_date || ""}</td><td class="num">${r.minutes}</td>
+     <td class="num">${r.killed}</td><td class="num">${r.kills_per_h}</td><td class="num">${fmt(r.xp_h)}</td>
+     <td><a href="${r.url}" target="_blank" rel="noopener">hunt</a></td></tr>`).join("")
+    || `<tr><td colspan="7">Brak killi w próbce.</td></tr>`;
   document.querySelector("#tbl2 tbody").innerHTML = mine.map(r =>
     `<tr><td>${r.hunt_date || ""}</td><td>${r.party_comp || ""}</td><td class="num">${fmt(r.xp_h)}</td>
      <td class="num">${fmt(r.balance_h)}</td><td><a href="${r.url}" target="_blank" rel="noopener">hunt</a></td></tr>`).join("")
