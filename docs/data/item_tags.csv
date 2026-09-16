@@ -4,7 +4,7 @@ Afflicted Strider Worms,,,Yasir,Very High,500
 Alloy Legs,,,Flint|Outro,Very High,11000
 Amber Souvenir,,,Outro|Yasir,Very High,850
 Ancient Belt Buckle,,,Yasir,High,260
-ancient stone,338,,Outro|Telas,Medium,200
+ancient stone,,,Outro|Telas,Medium,200
 Angelic Axe,,,Djinn,Medium,5000
 Apron,,,Yasir,Very High,1300
 Badger Boots,,,Gladys|Outro,Low,7500
@@ -27,7 +27,7 @@ Bloated Maggot,,,Yasir,Very High,5200
 Blood Amulet,,,Yasir,High,1230
 Blood Hood,,,Outro|Yasir,Low,1550
 Blood Preservation,,,Yasir,Low,320
-blood tincture in a vial,1121,,Yasir,High,360
+blood tincture in a vial,1406,,Yasir,High,360
 Blooded Worm,,,Yasir,Very High,4700
 Bloodshot Giant Eye,,,Yasir,High,1820
 bloody pincers,,Intricate Vampirism x15|Powerful Vampirism x15,,,
@@ -39,11 +39,11 @@ Bone Club,,,Others|Outro,High,5
 Bone Fetish,,,Yasir,High,150
 Bone Fibula,,,Yasir,Medium,580
 Bone Rattle,,,Yasir,High,790
-bone shoulderplate,133,,Esrik|Yasir,Medium,150
+bone shoulderplate,158,,Esrik|Yasir,Medium,150
 Bone Toothpick,,,Yasir,Medium,150
 Bonebreaker,,,Djinn,High,10000
 Bonecarving Knife,,,Yasir,Medium,190
-bony tail,180,,Yasir,Low,210
+bony tail,183,,Yasir,Low,210
 Book of Necromantic Rituals,,,Yasir,Medium,180
 Book Page,,,Yasir,Low,640
 Book With A Dragon,,,Yasir,High,1800
@@ -60,7 +60,7 @@ broken halberd,1404,,Esrik|Outro,High,100
 Broken Mitmah Necklace,,,Outro|Yasir,Medium,210
 broken shamanic staff,,Intricate Epiphany x15|Powerful Epiphany x15,,,
 Broken Slicer,,,Esrik|Outro,High,120
-broken throwing axe,676,,Outro|Yasir,Medium,230
+broken throwing axe,736,,Outro|Yasir,Medium,230
 Broodrider Saddle,,,Yasir,High,2800
 Buckle,,,Rashid,Very High,7000
 Bulltaur Armor Scrap,,,Yasir,High,480
@@ -95,7 +95,7 @@ compass,,Intricate Swiftness x25|Powerful Swiftness x25,,,
 Compound Eye,,,Yasir,Low,150
 Cookbook,,,Outro|Yasir,Medium,870
 Coral Branch,,,Yasir,Very High,360
-cowbell,90,,Outro|Yasir,Low,210
+cowbell,95,,Outro|Yasir,Low,210
 Crab Man Claws,,,Outro|Yasir,Very High,550
 Cracked Alabaster Vase,,,Yasir,High,180
 crawler head plating,,Intricate Cloud Fabric x15|Powerful Cloud Fabric x15,,,
@@ -110,12 +110,12 @@ Crystal Sword,,,Rashid,Low,600
 Crystalline Armor,,,Rashid,High,16000
 Crystalline Spikes,,,Outro|Telas,High,440
 Crystalline Sword,,,Ninguem|Others,Very High,
-crystallized anger,131,Intricate Vibrancy x15|Powerful Vibrancy x15,,,
+crystallized anger,,Intricate Vibrancy x15|Powerful Vibrancy x15,,,
 Crystallized Death,,,Outro|Yasir,Very High,3000
 Cuirass Plate,,,Outro|Yasir,Very High,1000
-cultish mask,9334,Intricate Demon Presence x25|Powerful Demon Presence x25,,,
-cultish robe,21,Basic Demon Presence x25|Intricate Demon Presence x25|Powerful Demon Presence x25,,,
-curious matter,216,,Yasir,Medium,430
+cultish mask,9344,Intricate Demon Presence x25|Powerful Demon Presence x25,,,
+cultish robe,,Basic Demon Presence x25|Intricate Demon Presence x25|Powerful Demon Presence x25,,,
+curious matter,,,Yasir,Medium,430
 Cursed Shoulder Spikes,,,Esrik|Yasir,High,320
 cyclops toe,27,Basic Bash x20|Intricate Bash x20|Powerful Bash x20,,,
 Damaged Armor Plates,,,Yasir,High,280
@@ -152,7 +152,7 @@ Diremaw Legs,,,Yasir,Low,270
 Dirty Turban,,,Yasir,High,120
 Distorted Heart,,,Yasir,Very High,2100
 Distorted Robe,,,Yasir,Very High,1200
-double axe,272,,Others|Outro,Medium,260
+double axe,,,Others|Outro,Medium,260
 Dowser,,,Yasir,Medium,35
 Dragolisk Eye,,,Yasir,High,690
 Dragolisk Poison Gland,,,Yasir,Low,475
@@ -166,7 +166,7 @@ Draken Wristbands,,,Yasir,High,430
 Dream Essence Egg,,,Yasir,Low,205
 Dung Ball,,,Yasir,High,130
 Earflap,,,Yasir,Medium,40
-elder bonelord tentacle,3911,,Yasir,High,150
+elder bonelord tentacle,4627,,Yasir,High,150
 Elven Astral Observer,,,Yasir,Medium,90
 elven hoof,,Intricate Precision x20|Powerful Precision x20,,,
 elven scouting glass,,Basic Precision x25|Intricate Precision x25|Powerful Precision x25,,,
@@ -175,7 +175,7 @@ Emerald Tortoise Shell,,,Yasir,Very High,2150
 Empty Honey Glass,,,Yasir,High,270
 Encrypted Notes,,,Yasir,High,620
 energy ball,429,,Yasir,Low,300
-energy vein,75,Powerful Electrify x1,,,
+energy vein,138,Powerful Electrify x1,,,
 Ensouled Essence,,,Yasir,Low,820
 Essence of A Bad Dream,,,Yasir,Medium,360
 Exalted Core,,,Ninguem|Others,Very High,
@@ -187,7 +187,7 @@ Eyeless Devourer Legs,,,Yasir,Very High,650
 Eyeless Devourer Maw,,,Yasir,Very High,420
 Eyeless Devourer Tongue,,,Yasir,Very High,900
 Fafnar Symbol,,,Yasir,High,950
-fairy wings,70,Basic Featherweight x20|Intricate Featherweight x20|Powerful Featherweight x20,,,
+fairy wings,106,Basic Featherweight x20|Intricate Featherweight x20|Powerful Featherweight x20,,,
 Falcon Crest,,,Yasir,High,650
 fiery heart,,Basic Scorch x25|Intricate Scorch x25|Powerful Scorch x25,,,
 fig leaf,1411,,Yasir,Medium,200
@@ -197,9 +197,9 @@ Flask of Demonic Blood,,,Ninguem|Others,Medium,
 flask of embalming fluid,,Basic Lich Shroud x25|Intricate Lich Shroud x25|Powerful Lich Shroud x25,,,
 Flotsam,,,Yasir,Very High,330
 Focus Cape,,,Others|Outro,Low,6000
-fox paw,815,,Gladys|Yasir,Medium,100
+fox paw,918,,Gladys|Yasir,Medium,100
 frazzle skin,336,Powerful Blockade x25,,,
-frazzle tongue,335,,Yasir,Low,700
+frazzle tongue,505,,Yasir,Low,700
 frosty heart,192,Basic Frost x25|Intricate Frost x25|Powerful Frost x25,,,
 frozen lightning,191,,Yasir,Low,270
 Fur Armor,,,Gladys|Outro,Low,5000
@@ -207,7 +207,7 @@ gauze bandage,617,,Yasir,Medium,90
 Ghastly Dragon Head,,,Yasir,High,700
 Giant Pacifier,,,Outro|Yasir,Very High,170
 Giant Tusk,,,Outro|Yasir,Very High,6000
-girlish hair decoration,33,,Yasir,Low,30
+girlish hair decoration,104,,Yasir,Low,30
 Girtablilu Warrior Carapace,,,Yasir,Very High,520
 Glacier Mask,,,Rashid,Medium,2500
 Glacier Robe,,,Rashid,Low,11000
@@ -220,7 +220,7 @@ Glooth Axe,,,Flint|Outro,Low,1500
 Glooth Blade,,,Flint|Outro,Low,1500
 Glooth Cape,,,Flint|Outro,Very High,7000
 Glooth Club,,,Flint|Outro,Low,1500
-glooth injection tube,550,,Outro|Yasir,Medium,350
+glooth injection tube,1421,,Outro|Yasir,Medium,350
 Glorious Axe,,,Djinn,Low,3000
 Glowing Rune,,,Yasir,Low,350
 Goanna Claw,,,Yasir,Medium,260
@@ -237,13 +237,13 @@ Gorerilla Mane,,,Outro|Yasir,Very High,2750
 Gorerilla Tail,,,Outro|Yasir,Very High,2650
 Gorger Antlers,,,Yasir,Very High,2250
 Grappling Hook,,,Outro|Yasir,Medium,150
-green bandage,503,,Yasir,Medium,180
+green bandage,516,,Yasir,Medium,180
 green dragon leather,,Basic Dragon Hide x20|Intricate Dragon Hide x20|Powerful Dragon Hide x20,,,
 green dragon scale,,Intricate Scorch x5|Powerful Scorch x5,,,
 Guardian Shield,,,Djinn,Low,2000
 halberd,274,,Others|Outro,Low,400
-half-digested stones,35,,Outro|Yasir,Low,40
-half-eaten brain,1266,,Outro|Yasir,Medium,85
+Half-Digested Stones,,,Outro|Yasir,Low,40
+half-eaten brain,,,Outro|Yasir,Medium,85
 Hand,,,Yasir,Very High,1450
 Harpy Feathers,,,Yasir,High,730
 Head (Brachiodemon),,,Yasir,Very High,3500
@@ -261,7 +261,7 @@ Hideous Chunk,,,Yasir,High,510
 High Guard Flag,,,Esrik|Yasir,High,550
 High Guard Shoulderplates,,,Esrik|Yasir,Medium,130
 Holy Ash,,,Yasir,High,160
-horoscope,3636,,Yasir,High,40
+horoscope,4177,,Yasir,High,40
 Human Teeth,,,Yasir,Very High,2000
 Humongous Chunk,,,Yasir,High,540
 hydra head,442,,Yasir,Low,600
@@ -281,9 +281,9 @@ Knight Axe,,,Djinn,Low,2000
 Knight Legs,,,Djinn,Low,5000
 Kongra's Shoulderpad,,,Yasir,Medium,100
 Lamassu Hoof,,,Yasir,High,330
-lamassu horn,112,,Yasir,Low,240
-lancer beetle shell,503,,Yasir,High,80
-lancet,3998,,Yasir,Very High,90
+lamassu horn,155,,Yasir,Low,240
+Lancer Beetle Shell,,,Yasir,High,80
+lancet,4086,,Yasir,Very High,90
 Lavafungus Head,,,Yasir,Very High,900
 Lavafungus Ring,,,Yasir,Very High,390
 Lavaworm Jaws,,,Yasir,Very High,1100
@@ -300,12 +300,12 @@ lion's mane,,Basic Slash x25|Intricate Slash x25|Powerful Slash x25,,,
 little bowl of myrrh,,Intricate Featherweight x10|Powerful Featherweight x10,,,
 Lizard Tail,,,Yasir,Medium,95
 Lost Basher's Spike,,,Yasir,Medium,280
-lost bracers,1314,,Yasir,High,140
+lost bracers,1349,,Yasir,High,140
 Luminous Orb,,,Yasir,Medium,1000
 Lump of Earth,,,Yasir,Medium,130
-mad froth,434,,Yasir,High,80
+mad froth,1000,,Yasir,High,80
 Magma Boots,,,Rashid,Low,2500
-magma clump,696,,Outro|Telas,Medium,570
+magma clump,716,,Outro|Telas,Medium,570
 Magma Coat,,,Rashid,Low,11000
 Magma Legs,,,Rashid,,11000
 Magma Monocle,,,Rashid,Low,2500
@@ -321,11 +321,11 @@ Mega Dragon Heart,,,Yasir,Very High,1100
 Mercenary Sword,,,Rashid,Low,12000
 Mercurial Wing,,,Outro|Yasir,Very High,2500
 Metal Bat,,,Flint|Outro,Very High,9000
-metal jaw,2629,,Outro|Yasir,Very High,260
+metal jaw,2815,,Outro|Yasir,Very High,260
 Metal Spats,,,Flint|Outro,Very High,2000
 metal spike,,Powerful Precision x10,,,
 Mino Lance,,,Flint|Outro,High,7000
-mino shield,2599,,Flint|Outro,Low,3000
+mino shield,2767,,Flint|Outro,Low,3000
 Molten Dragon Essence,,,Yasir,High,840
 mooh'tah shell,,Intricate Slash x25|Powerful Slash x25,,,
 moohtant horn,,Powerful Chop x20,,,
@@ -342,12 +342,12 @@ Naga Armring,,,Yasir,Medium,390
 Naga Earring,,,Yasir,Low,380
 Naga Warrior Scales,,,Yasir,Medium,340
 Necromantic Core,,,Outro|Yasir,Very High,10000
-necromantic rust,1337,,Outro|Yasir,High,390
+necromantic rust,1409,,Outro|Yasir,High,390
 Night Harpy Feathers,,,Outro|Yasir,Very High,5000
 Nighthunter Wing,,,Outro|Yasir,High,2000
 Nimmersatt's Seal,,,Yasir,Low,520
-odd organ,476,,Yasir,Medium,410
-ogre ear stud,126,,Yasir,Medium,180
+odd organ,520,,Yasir,Medium,410
+Ogre Ear Stud,,,Yasir,Medium,180
 ogre nose ring,137,Intricate Bash x15|Powerful Bash x15,,,
 Old Girtablilu Carapace,,,Yasir,Very High,570
 orc tooth,,Basic Chop x20|Intricate Chop x20|Powerful Chop x20,,,
@@ -369,7 +369,7 @@ piece of swampling wood,,Basic Snake Skin x25|Intricate Snake Skin x25|Powerful 
 Piece of Warrior Armor,,,Yasir,Medium,50
 pile of grave earth,,Basic Reap x25|Intricate Reap x25|Powerful Reap x25,,,
 Pirat's Tail,,,Yasir,Low,180
-pirate coin,84,,Yasir,Low,110
+pirate coin,91,,Yasir,Low,110
 plasma pearls,151,,Yasir,Low,250
 plasmatic lightning,152,,Yasir,Low,270
 plate legs,915,,Others|Outro,Medium,115
@@ -383,14 +383,14 @@ Prehemoth Horns,,,Outro|Yasir,Very High,3000
 Pressed Flower,,,Yasir,High,570
 Pulverized Ore,,,Outro|Telas,Medium,400
 quara bone,460,,Yasir,Low,500
-quara eye,699,,Yasir,Low,350
+quara eye,1143,,Yasir,Low,350
 quara pincers,356,,Yasir,Low,410
-quara tentacle,785,,Yasir,Medium,140
+quara tentacle,,,Yasir,Medium,140
 quill,,Powerful Vibrancy x5,,,
 Ratana,,,Others|Outro,Low,500
 Raw Meat,,,Ninguem|Others,Medium,
 Red Goanna Scale,,,Yasir,High,270
-red hair dye,30,,Yasir,Medium,40
+Red Hair Dye,,,Yasir,Medium,40
 Relic Sword,,,"Rashid|Yasir, Rashid",Low,25000
 Resin Parasite,,,Outro|Yasir,Low,1450
 Resinous Fish Fin,,,Yasir,Very High,1250
@@ -413,7 +413,7 @@ Sabretooth Fur,,,Outro|Yasir,Very High,2500
 Sandcrawler Shell,,,Yasir,Very High,20
 Scale of Corruption,,,Yasir,Medium,680
 Scarab Pincers,,,Yasir,Medium,280
-scimitar,100,,Djinn,Medium,150
+scimitar,,,Djinn,Medium,150
 Scorpion Charm,,,Yasir,High,620
 Scroll of Heroic Deeds,,,Yasir,Low,230
 scythe leg,455,,Yasir,Low,450
@@ -422,15 +422,15 @@ Sealing Wax,,,Yasir,Medium,620
 Shaggy Tail,,,Yasir,High,25
 Shamanic Talisman,,,Yasir,High,200
 Shark Fins,,,Yasir,Medium,250
-shimmering beetles,834,,Yasir,Medium,150
+shimmering beetles,1000,,Yasir,Medium,150
 Shiny Stone,,,Outro|Telas,Medium,500
-silencer claws,3458,Intricate Void x25|Powerful Void x25,,,
+silencer claws,3804,Intricate Void x25|Powerful Void x25,,,
 Silencer Resonating Chamber,,,Yasir,Low,600
 Silken Bookmark,,,Yasir,Medium,1300
 Silver Moon Coin,,,Outro|Yasir,High,11000
 Silver Poniard,,,Outro|Yasir,Very High,2000
 Sineater Wing,,,Yasir,High,2100
-single human eye,1697,,Yasir,Medium,1000
+single human eye,2281,,Yasir,Medium,1000
 Skull Fetish,,,Yasir,Medium,250
 Skullcracker Armor,,,Rashid,High,18000
 slime heart,98,Powerful Venom x2,,,
@@ -440,13 +440,13 @@ Small Flask of Eyedrops,,,Yasir,Medium,95
 Small Notebook,,,Yasir,Low,480
 Small Treasure Chest,,,Yasir,High,500
 Small Tropical Fish,,,Yasir,Medium,380
-snake skin,176,Intricate Snake Skin x20|Powerful Snake Skin x20,,,
+snake skin,205,Intricate Snake Skin x20|Powerful Snake Skin x20,,,
 some grimeleech wings,,Powerful Void x5,,,
 spark sphere,353,,Yasir,Medium,350
 sparkion claw,435,,Yasir,Low,290
 sparkion legs,400,,Yasir,Low,310
 sparkion stings,299,,Yasir,Low,280
-sparkion tail,338,,Yasir,Medium,300
+sparkion tail,596,,Yasir,Medium,300
 Spellbook of Mind Control,,,Others|Outro,Low,13000
 Spellsinger's Seal,,,Yasir,High,280
 Spellweaver's Robe,,,Others|Outro,Low,12000
@@ -461,7 +461,7 @@ Stag Parchment,,,Outro|Yasir,Very High,3000
 Stalking Seeds,,,Outro|Yasir,Very High,1800
 Stampor Talons,,,Outro|Yasir,High,150
 Star Ink,,,Yasir,Low,1250
-stone wing,796,,Yasir,Medium,120
+stone wing,,,Yasir,Medium,120
 Stonerefiner's Skull,,,Yasir,Low,100
 strand of medusa hair,,Powerful Epiphany x15,,,
 Strange Helmet,,,Djinn,High,500
@@ -483,9 +483,9 @@ Telescope Eye,,,Yasir,Very High,1600
 terra boots,2203,,Rashid,Low,2500
 Terra Hood,,,Rashid,Low,2500
 Terra Mantle,,,Rashid,Low,11000
-terramite legs,356,,Yasir,Medium,60
+terramite legs,,,Yasir,Medium,60
 thick fur,,Intricate Quara Scale x15|Powerful Quara Scale x15,,,
-thorn,188,,Yasir,Medium,100
+thorn,500,,Yasir,Medium,100
 Titan Axe,,,Djinn,Low,4000
 Toe Nails,,,Outro|Yasir,Very High,4500
 Tooth File,,,Yasir,High,60
@@ -497,8 +497,8 @@ Tunnel Tyrant Head,,,Yasir,High,500
 Tunnel Tyrant Shell,,,Yasir,Medium,700
 Two-Headed Turtle Heads,,,Yasir,Medium,460
 Undertaker Fangs,,,Outro|Yasir,High,2700
-unholy bone,129,,Yasir,Medium,480
-vampire teeth,201,Basic Vampirism x25|Intricate Vampirism x25|Powerful Vampirism x25,,,
+unholy bone,289,,Yasir,Medium,480
+vampire teeth,300,Basic Vampirism x25|Intricate Vampirism x25|Powerful Vampirism x25,,,
 Vampire's Cape Chain,,,Yasir,High,150
 Varnished Diremaw Brainpan,,,Yasir,Very High,750
 Varnished Diremaw Legs,,,Yasir,Very High,670
@@ -507,7 +507,7 @@ Venison,,,Yasir,High,55
 Vibrant Heart,,,Yasir,Very High,2100
 Vibrant Robe,,,Yasir,Very High,1200
 Vile Axe,,,Rashid,High,30000
-volatile proto matter,441,,Yasir,Low,300
+volatile proto matter,459,,Yasir,Low,300
 War Axe,,,Rashid,Medium,12000
 war crystal,,Powerful Slash x5,,,
 Wardragon Claw,,,Yasir,Medium,550
@@ -517,30 +517,30 @@ Waspoid Claw,,,Yasir,Medium,320
 waspoid wing,,Powerful Swiftness x20,,,
 Weaver's Wandtip,,,Yasir,Low,250
 werebadger claws,688,,Gladys|Yasir,Medium,160
-werebadger skull,666,,Gladys|Outro|Yasir,Medium,185
+werebadger skull,,,Gladys|Outro|Yasir,Medium,185
 werebear fur,2174,,Gladys|Yasir,High,185
 werebear skull,1865,,Gladys|Yasir,High,195
 wereboar hooves,96,Basic Vibrancy x20|Intricate Vibrancy x20|Powerful Vibrancy x20,,,
 Wereboar Loincloth,,,Gladys|Outro,High,1500
-wereboar tusks,820,,Gladys|Outro|Yasir,Medium,165
-werecrocodile tongue,830,,Yasir,Medium,570
-werefox tail,1286,,Gladys|Yasir,Medium,200
+wereboar tusks,942,,Gladys|Outro|Yasir,Medium,165
+werecrocodile tongue,,,Yasir,Medium,570
+werefox tail,1328,,Gladys|Yasir,Medium,200
 werehyaena nose,159,,Yasir,Low,220
 Werehyaena Talisman,,,Yasir,Medium,350
 werepanther claw,167,,Yasir,Low,280
 Weretiger Tooth,,,Yasir,High,490
-werewolf fur,805,,Gladys|Yasir,Medium,380
+werewolf fur,1223,,Gladys|Yasir,Medium,380
 Widow's Mandibles,,,Yasir,Medium,110
 wild flowers,702,,Yasir,Medium,120
 Wimp Tooth Chain,,,Yasir,Medium,120
 Winged Tail,,,Yasir,High,800
 winter wolf fur,,Basic Quara Scale x25|Intricate Quara Scale x25|Powerful Quara Scale x25,,,
-witch broom,1760,,Yasir,Medium,60
+witch broom,2402,,Yasir,Medium,60
 Wood Cape,,,Others|Outro,Low,5000
 Wooden Spellbook,,,Others|Outro,Medium,12000
 Worm Sponge,,,Yasir,Very High,4200
 wyrm scale,353,Powerful Cloud Fabric x10,,,
-wyvern talisman,9,Basic Cloud Fabric x20|Intricate Cloud Fabric x20|Powerful Cloud Fabric x20,,,
+wyvern talisman,4068,Basic Cloud Fabric x20|Intricate Cloud Fabric x20|Powerful Cloud Fabric x20,,,
 Yapunac Dagger,,,Yasir,Medium,240
 Zaoan Armor,,,Esrik|Outro,Low,14000
 Zaoan Robe,,,Others|Outro,Very High,12000

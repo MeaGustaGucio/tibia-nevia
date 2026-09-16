@@ -3,7 +3,7 @@
   "world": "Nevia",
   "category": "experience",
   "vocation": "all",
-  "highscore_age": 13,
+  "highscore_age": 18,
   "highscore_list": [
    {
     "rank": 1,
@@ -43,7 +43,7 @@
     "vocation": "Royal Paladin",
     "world": "Nevia",
     "level": 1830,
-    "value": 101837471879
+    "value": 101838096747
    },
    {
     "rank": 6,
@@ -83,7 +83,7 @@
     "vocation": "Elite Knight",
     "world": "Nevia",
     "level": 1735,
-    "value": 86797588997
+    "value": 86798024003
    },
    {
     "rank": 11,
@@ -114,8 +114,8 @@
     "name": "Krakowski Smog",
     "vocation": "Elder Druid",
     "world": "Nevia",
-    "level": 1654,
-    "value": 75260438125
+    "level": 1655,
+    "value": 75370476763
    },
    {
     "rank": 15,
@@ -179,15 +179,15 @@
     "vocation": "Elder Druid",
     "world": "Nevia",
     "level": 1577,
-    "value": 65152608721
+    "value": 65193201145
    },
    {
     "rank": 23,
     "name": "Silivren",
     "vocation": "Royal Paladin",
     "world": "Nevia",
-    "level": 1559,
-    "value": 62945017748
+    "level": 1560,
+    "value": 63054518575
    },
    {
     "rank": 24,
@@ -195,7 +195,7 @@
     "vocation": "Elite Knight",
     "world": "Nevia",
     "level": 1552,
-    "value": 62070415471
+    "value": 62078064045
    },
    {
     "rank": 25,
@@ -227,7 +227,7 @@
     "vocation": "Elite Knight",
     "world": "Nevia",
     "level": 1525,
-    "value": 58984305123
+    "value": 58984305127
    },
    {
     "rank": 29,
@@ -259,7 +259,7 @@
     "vocation": "Elder Druid",
     "world": "Nevia",
     "level": 1488,
-    "value": 54756326306
+    "value": 54756370654
    },
    {
     "rank": 33,
@@ -274,8 +274,8 @@
     "name": "Roszada Starego",
     "vocation": "Elite Knight",
     "world": "Nevia",
-    "level": 1464,
-    "value": 52105219246
+    "level": 1465,
+    "value": 52209308091
    },
    {
     "rank": 35,
@@ -323,7 +323,7 @@
     "vocation": "Master Sorcerer",
     "world": "Nevia",
     "level": 1429,
-    "value": 48466660813
+    "value": 48478830347
    },
    {
     "rank": 41,
@@ -379,7 +379,7 @@
     "vocation": "Master Sorcerer",
     "world": "Nevia",
     "level": 1362,
-    "value": 41982037210
+    "value": 41982575522
    },
    {
     "rank": 48,
@@ -418,7 +418,7 @@
    "release": "4.10.0",
    "commit": "d53b603c7e235c45268bcf878ef2921b2356cf75"
   },
-  "timestamp": "2026-09-16T17:52:53Z",
+  "timestamp": "2026-09-16T18:58:13Z",
   "tibia_urls": [
    "https://www.tibia.com/community/?subtopic=highscores&world=Nevia&category=6&profession=0&currentpage=1"
   ],
