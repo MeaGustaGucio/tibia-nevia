@@ -3,7 +3,7 @@
   "world": "Nevia",
   "category": "experience",
   "vocation": "all",
-  "highscore_age": 18,
+  "highscore_age": 8,
   "highscore_list": [
    {
     "rank": 1,
@@ -66,8 +66,8 @@
     "name": "Radyer",
     "vocation": "Elite Knight",
     "world": "Nevia",
-    "level": 1751,
-    "value": 89307169450
+    "level": 1752,
+    "value": 89364563943
    },
    {
     "rank": 9,
@@ -371,7 +371,7 @@
     "vocation": "Elite Knight",
     "world": "Nevia",
     "level": 1390,
-    "value": 44587712590
+    "value": 44587718592
    },
    {
     "rank": 47,
@@ -387,7 +387,7 @@
     "vocation": "Elder Druid",
     "world": "Nevia",
     "level": 1354,
-    "value": 41276426265
+    "value": 41276589352
    },
    {
     "rank": 49,
@@ -418,7 +418,7 @@
    "release": "4.10.0",
    "commit": "d53b603c7e235c45268bcf878ef2921b2356cf75"
   },
-  "timestamp": "2026-09-16T18:58:13Z",
+  "timestamp": "2026-09-16T19:48:33Z",
   "tibia_urls": [
    "https://www.tibia.com/community/?subtopic=highscores&world=Nevia&category=6&profession=0&currentpage=1"
   ],

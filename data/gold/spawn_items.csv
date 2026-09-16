@@ -268,19 +268,6 @@ Cults Carlin,crossbows,3349,98,54,99,2026-09-14 21:28,2,Vicious Squire
 Cults Carlin,gold coins,,,,,,2,Cult Believer|Cult Enforcer|Renegade Knight|Vicious Squire|Vile Grandmaster
 Cults Carlin,meat,3577,,,,,2,Cult Believer|Cult Enforcer|Vicious Squire|Vile Grandmaster
 Cults Carlin,platinum coins,,,,,,2,Renegade Knight|Vile Grandmaster
-Oramond West #1,fish,3578,3,,4,2026-09-14 21:10,1,Quara Hydromancer Scout
-Oramond West #1,globs of glooth,,,,,,1,Devourer|Glooth Blob|Rot Elemental
-Oramond West #1,gold coins,,,,,,1,Blood Beast|Devourer|Glooth Blob|Quara Constrictor Scout|Quara Hydromancer Scout|Quara Pincher Scout
-Oramond West #1,platinum coins,,,,,,1,Devourer|Rot Elemental
-Oramond West #1,poisoned fangs,21195,1089,837,1090,2026-09-14 21:36,1,Blood Beast
-Oramond West #1,quara bones,11491,599,460,600,2026-09-14 21:37,1,Quara Predator Scout
-Oramond West #1,quara eyes,11488,1948,1143,1949,2026-09-14 21:37,1,Quara Hydromancer Scout
-Oramond West #1,quara pincers,11490,,356,,2026-09-14 21:37,1,Quara Pincher Scout
-Oramond West #1,quara tentacles,11487,1374,,1375,2026-09-14 21:37,1,Quara Constrictor Scout
-Oramond West #1,shrimp,3581,13,2,14,2026-09-14 21:10,1,Quara Constrictor Scout|Quara Hydromancer Scout
-Oramond West #1,slime hearts,21194,155,98,156,2026-09-14 21:37,1,Blood Beast
-Oramond West #1,strong health potions,236,10,4,11,2026-09-14 21:18,1,Rot Elemental
-Oramond West #1,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Rot Elemental
 sphinx and lamassu,axes,3274,,,,,1,Werehyaena
 sphinx and lamassu,badger fur,10299,14,4,15,2026-09-14 21:31,1,Badger
 sphinx and lamassu,beetroots,8017,8,,9,2026-09-14 21:09,1,Badger
@@ -555,11 +542,6 @@ Yalahar Grim reaper 3kk/h Raw,soul orbs,5944,29,20,30,2026-09-14 21:24,1,Nightma
 Crumbling Caverns,gold coins,,,,,,2,Cinder Wyrmling|Shell Drake
 Crumbling Caverns,platinum coins,,,,,,2,Cinder Wyrmling|Shell Drake
 Ravenous Lava Lurker,meat ,,,,,,2,Dromedary
-Book World II,gold coins,,,,,,1,Bramble Wyrmling|Hawk Hopper
-Book World II,platinum coins,,,,,,1,Bramble Wyrmling|Hawk Hopper
-Grim Reaper Yalahar,demonic essence,6499,999,898,1000,2026-09-14 21:33,2,Grim Reaper
-Grim Reaper Yalahar,flasks of demonic blood,,,,,,2,Grim Reaper
-Grim Reaper Yalahar,gold coins,,,,,,2,Grim Reaper
 Lycanthrope Grounds (Edron),beetroots,8017,8,,9,2026-09-14 21:09,2,Werebadger
 Lycanthrope Grounds (Edron),fox paws,27462,,918,,2026-09-14 21:34,2,Werefox
 Lycanthrope Grounds (Edron),gold coins,,,,,,2,Werebadger|Werebear|Wereboar|Werefox|Werewolf
@@ -575,6 +557,9 @@ Lycanthrope Grounds (Edron),wereboar tusks,22054,,942,,2026-09-14 21:39,2,Werebo
 Lycanthrope Grounds (Edron),werefox tails,27463,1869,1328,1870,2026-09-14 21:39,2,Werefox
 Lycanthrope Grounds (Edron),werewolf fangs,22052,197,102,198,2026-09-14 21:39,2,Werewolf
 Lycanthrope Grounds (Edron),werewolf fur,10317,,1223,,2026-09-14 21:39,2,Werewolf
+Grim Reaper Yalahar,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Grim Reaper
+Grim Reaper Yalahar,flasks of demonic blood,,,,,,1,Grim Reaper
+Grim Reaper Yalahar,gold coins,,,,,,1,Grim Reaper
 Grim reaper Yalahar,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Grim Reaper|Nightmare
 Grim reaper Yalahar,essences of a bad dream,,,,,,1,Nightmare
 Grim reaper Yalahar,flasks of demonic blood,,,,,,1,Grim Reaper|Nightmare
@@ -679,27 +664,6 @@ Werehayena hunt,werehyaena noses,33943,224,159,225,2026-09-14 21:39,1,Werehyaena
 Grim Reaper (Yalahar),demonic essence,6499,999,898,1000,2026-09-14 21:33,2,Grim Reaper
 Grim Reaper (Yalahar),flasks of demonic blood,,,,,,2,Grim Reaper
 Grim Reaper (Yalahar),gold coins,,,,,,2,Grim Reaper
-Medusa Tower,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Behemoth
-Medusa Tower,battle stones,11447,289,128,290,2026-09-14 21:31,1,Behemoth
-Medusa Tower,blank runes,3147,,7,,2026-09-14 21:19,1,Clay Guardian
-Medusa Tower,double axes,3275,898,,899,2026-09-14 21:25,1,Behemoth
-Medusa Tower,fish,3578,3,,4,2026-09-14 21:10,1,Omnivora
-Medusa Tower,gold coins,,,,,,1,Behemoth|Clay Guardian|Gargoyle|Medusa|Omnivora|Serpent Spawn
-Medusa Tower,great mana potions,53161,,32,,2026-06-22 22:11,1,Medusa
-Medusa Tower,green mushrooms,3732,99,88,100,2026-09-14 21:10,1,Serpent Spawn
-Medusa Tower,ham,3582,14,,15,2026-09-14 21:10,1,Omnivora
-Medusa Tower,lumps of earth,,,,,,1,Clay Guardian
-Medusa Tower,meat,3577,,,,,1,Behemoth
-Medusa Tower,platinum coins,,,,,,1,Behemoth|Medusa
-Medusa Tower,potatoes,,,,,,1,Gargoyle
-Medusa Tower,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Serpent Spawn
-Medusa Tower,small stones,1781,,5,,2026-09-14 21:28,1,Clay Guardian|Gargoyle|Stone Golem
-Medusa Tower,snake skins,9694,393,205,394,2026-09-14 21:37,1,Serpent Spawn
-Medusa Tower,stone wings,10278,1319,,1320,2026-09-14 21:38,1,Gargoyle
-Medusa Tower,strands of medusa hair,,,,,,1,Medusa
-Medusa Tower,sulphurous stones,10315,,100,,2026-09-14 21:38,1,Stone Golem
-Medusa Tower,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa
-Medusa Tower,white mushrooms,3723,4,3,5,2026-09-14 21:10,1,Omnivora
 Sea serpent (Svargrond),dragon ham,3583,69,,70,2026-09-14 21:10,1,Sea Serpent
 Sea serpent (Svargrond),gold coins,,,,,,1,Sea Serpent|Young Sea Serpent
 Sea serpent (Svargrond),morning stars,3282,96,34,97,2026-09-14 21:27,1,Young Sea Serpent
@@ -880,19 +844,19 @@ Werelions -1,twin hooks,10392,469,152,470,2026-09-14 21:30,3,White Lion
 |Rapid| Werelions -2,soul orbs,5944,29,20,30,2026-09-14 21:24,1,Werelioness
 |Rapid| Werelions -2,terra boots,813,2798,2203,2799,2026-09-14 21:03,1,White Lion
 |Rapid| Werelions -2,twin hooks,10392,469,152,470,2026-09-14 21:30,1,White Lion
-|Rapid| Werelions -1,axes,3274,,,,,2,White Lion
-|Rapid| Werelions -1,dark armors,3383,297,121,298,2026-09-14 21:01,2,Werelion
-|Rapid| Werelions -1,gold coins,,,,,,2,Werelioness
-|Rapid| Werelions -1,great spirit potions,7642,151,113,152,2026-09-14 21:18,2,Werelion|White Lion
-|Rapid| Werelions -1,ham,3582,14,,15,2026-09-14 21:10,2,Werelioness
-|Rapid| Werelions -1,leather boots,3552,,,,,2,White Lion
-|Rapid| Werelions -1,lion&#39;s manes,,,,,,2,Werelion|Werelioness|White Lion
-|Rapid| Werelions -1,meat,3577,,,,,2,Werelioness
-|Rapid| Werelions -1,platinum coins,,,,,,2,Werelion|Werelioness|White Lion
-|Rapid| Werelions -1,rapiers,3272,14,,15,2026-09-14 21:29,2,Werelioness
-|Rapid| Werelions -1,soul orbs,5944,29,20,30,2026-09-14 21:24,2,Werelioness
-|Rapid| Werelions -1,terra boots,813,2798,2203,2799,2026-09-14 21:03,2,White Lion
-|Rapid| Werelions -1,twin hooks,10392,469,152,470,2026-09-14 21:30,2,White Lion
+|Rapid| Werelions -1,axes,3274,,,,,1,White Lion
+|Rapid| Werelions -1,dark armors,3383,297,121,298,2026-09-14 21:01,1,Werelion
+|Rapid| Werelions -1,gold coins,,,,,,1,Werelioness
+|Rapid| Werelions -1,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Werelion|White Lion
+|Rapid| Werelions -1,ham,3582,14,,15,2026-09-14 21:10,1,Werelioness
+|Rapid| Werelions -1,leather boots,3552,,,,,1,White Lion
+|Rapid| Werelions -1,lion&#39;s manes,,,,,,1,Werelion|Werelioness|White Lion
+|Rapid| Werelions -1,meat,3577,,,,,1,Werelioness
+|Rapid| Werelions -1,platinum coins,,,,,,1,Werelion|Werelioness|White Lion
+|Rapid| Werelions -1,rapiers,3272,14,,15,2026-09-14 21:29,1,Werelioness
+|Rapid| Werelions -1,soul orbs,5944,29,20,30,2026-09-14 21:24,1,Werelioness
+|Rapid| Werelions -1,terra boots,813,2798,2203,2799,2026-09-14 21:03,1,White Lion
+|Rapid| Werelions -1,twin hooks,10392,469,152,470,2026-09-14 21:30,1,White Lion
 |Double| Werelions -1,axes,3274,,,,,1,White Lion
 |Double| Werelions -1,dark armors,3383,297,121,298,2026-09-14 21:01,1,Werelion
 |Double| Werelions -1,gold coins,,,,,,1,Werelioness
@@ -987,9 +951,6 @@ Weretiger -1,weretiger teeth,,,,,,1,Weretiger|White Weretiger
 EM 300+ WERETIGER -2,gold coins,,,,,,1,Cunning Werepanther|Weretiger|White Weretiger
 EM 300+ WERETIGER -2,platinum coins,,,,,,1,Cunning Werepanther|Weretiger|White Weretiger
 EM 300+ WERETIGER -2,weretiger teeth,,,,,,1,Weretiger|White Weretiger
-Weretiger,gold coins,,,,,,1,Cunning Werepanther|Weretiger|White Weretiger
-Weretiger,platinum coins,,,,,,1,Cunning Werepanther|Weretiger|White Weretiger
-Weretiger,weretiger teeth,,,,,,1,Weretiger|White Weretiger
 Ripper Spectre,great spirit potions,7642,151,113,152,2026-09-14 21:18,8,Arachnophobica|Ripper Spectre
 Ripper Spectre,platinum coins,,,,,,8,Arachnophobica|Ripper Spectre
 Ripper Spectre,two handed swords,3265,389,238,390,2026-09-14 21:30,8,Ripper Spectre
