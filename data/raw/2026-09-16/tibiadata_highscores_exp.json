@@ -3,7 +3,7 @@
   "world": "Nevia",
   "category": "experience",
   "vocation": "all",
-  "highscore_age": 23,
+  "highscore_age": 13,
   "highscore_list": [
    {
     "rank": 1,
@@ -67,7 +67,7 @@
     "vocation": "Elite Knight",
     "world": "Nevia",
     "level": 1751,
-    "value": 89307167263
+    "value": 89307169450
    },
    {
     "rank": 9,
@@ -179,7 +179,7 @@
     "vocation": "Elder Druid",
     "world": "Nevia",
     "level": 1577,
-    "value": 65152489375
+    "value": 65152608721
    },
    {
     "rank": 23,
@@ -418,7 +418,7 @@
    "release": "4.10.0",
    "commit": "d53b603c7e235c45268bcf878ef2921b2356cf75"
   },
-  "timestamp": "2026-09-16T17:06:44Z",
+  "timestamp": "2026-09-16T17:52:53Z",
   "tibia_urls": [
    "https://www.tibia.com/community/?subtopic=highscores&world=Nevia&category=6&profession=0&currentpage=1"
   ],
