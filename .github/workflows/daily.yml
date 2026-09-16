@@ -1,0 +1,53 @@
+name: daily-nevia
+on:
+  schedule:
+    - cron: "0 5 * * *"  # 05:00 UTC dziennie
+  workflow_dispatch:
+    inputs:
+      level_min:
+        description: "Dolna granica lvl (nadpisuje brackety)"
+        required: false
+        default: ""
+      level_max:
+        description: "Gorna granica lvl (nadpisuje brackety)"
+        required: false
+        default: ""
+permissions:
+  contents: write
+jobs:
+  etl:
+    runs-on: ubuntu-latest
+    env:
+      TOP_N_HISTORY: "150"  # historia 30d dla 150 najbardziej handlowanych itemow Nevii
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: tibia-nevia-pipeline/requirements.txt
+      - run: pip install -r tibia-nevia-pipeline/requirements.txt
+      - run: python scripts/fetch_tibiadata.py
+        working-directory: tibia-nevia-pipeline
+      - run: python scripts/fetch_market.py
+        working-directory: tibia-nevia-pipeline
+      # Brackety 50-300: kazdy dokleja (--append) do hunts.csv z danego dnia.
+      # Duo sciaga sie z automatu z poszerzonego zakresu (patrz fetch_hunts.py).
+      - run: python scripts/fetch_hunts.py --level-min 50 --level-max 100 --vocations Druid --member-counts Solo --pages 3
+        working-directory: tibia-nevia-pipeline
+      - run: python scripts/fetch_hunts.py --level-min 100 --level-max 200 --vocations Druid --member-counts Solo --pages 3 --append
+        working-directory: tibia-nevia-pipeline
+      - run: python scripts/fetch_hunts.py --level-min 200 --level-max 300 --vocations Druid --member-counts Solo --pages 3 --append
+        working-directory: tibia-nevia-pipeline
+      - run: python scripts/fetch_hunts.py --level-min 50 --level-max 300 --vocations "" --member-counts Duo --pages 3 --append
+        working-directory: tibia-nevia-pipeline
+      - run: python scripts/build_gold.py --recent-days 90
+        working-directory: tibia-nevia-pipeline
+      # Opcjonalny upload do R2: odkomentuj po dodaniu secretow R2_* (s3cmd/rclone).
+      # - run: echo "R2 upload placeholder"
+      - run: |
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add data docs
+          git diff --quiet && git diff --staged --quiet || (git commit -m "nevia daily snapshot" && git push)
+        working-directory: tibia-nevia-pipeline
