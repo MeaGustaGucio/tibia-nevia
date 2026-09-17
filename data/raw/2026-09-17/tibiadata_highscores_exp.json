@@ -3,7 +3,7 @@
   "world": "Nevia",
   "category": "experience",
   "vocation": "all",
-  "highscore_age": 44,
+  "highscore_age": 40,
   "highscore_list": [
    {
     "rank": 1,
@@ -43,7 +43,7 @@
     "vocation": "Royal Paladin",
     "world": "Nevia",
     "level": 1830,
-    "value": 101838096747
+    "value": 101838359719
    },
    {
     "rank": 6,
@@ -59,7 +59,7 @@
     "vocation": "Royal Paladin",
     "world": "Nevia",
     "level": 1756,
-    "value": 90032571240
+    "value": 90033110065
    },
    {
     "rank": 8,
@@ -67,7 +67,7 @@
     "vocation": "Elite Knight",
     "world": "Nevia",
     "level": 1752,
-    "value": 89364582591
+    "value": 89365560463
    },
    {
     "rank": 9,
@@ -91,7 +91,7 @@
     "vocation": "Master Sorcerer",
     "world": "Nevia",
     "level": 1709,
-    "value": 83034404657
+    "value": 83034464972
    },
    {
     "rank": 12,
@@ -107,7 +107,7 @@
     "vocation": "Royal Paladin",
     "world": "Nevia",
     "level": 1706,
-    "value": 82564623891
+    "value": 82565141391
    },
    {
     "rank": 14,
@@ -123,7 +123,7 @@
     "vocation": "Royal Paladin",
     "world": "Nevia",
     "level": 1652,
-    "value": 74960421348
+    "value": 74961347385
    },
    {
     "rank": 16,
@@ -139,7 +139,7 @@
     "vocation": "Royal Paladin",
     "world": "Nevia",
     "level": 1625,
-    "value": 71315085554
+    "value": 71315420928
    },
    {
     "rank": 18,
@@ -291,7 +291,7 @@
     "vocation": "Royal Paladin",
     "world": "Nevia",
     "level": 1459,
-    "value": 51651680391
+    "value": 51652040391
    },
    {
     "rank": 37,
@@ -418,7 +418,7 @@
    "release": "4.10.0",
    "commit": "d53b603c7e235c45268bcf878ef2921b2356cf75"
   },
-  "timestamp": "2026-09-17T08:24:37Z",
+  "timestamp": "2026-09-17T09:20:38Z",
   "tibia_urls": [
    "https://www.tibia.com/community/?subtopic=highscores&world=Nevia&category=6&profession=0&currentpage=1"
   ],
