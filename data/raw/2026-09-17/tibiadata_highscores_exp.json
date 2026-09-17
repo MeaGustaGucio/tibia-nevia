@@ -3,7 +3,7 @@
   "world": "Nevia",
   "category": "experience",
   "vocation": "all",
-  "highscore_age": 25,
+  "highscore_age": 44,
   "highscore_list": [
    {
     "rank": 1,
@@ -11,7 +11,7 @@
     "vocation": "Royal Paladin",
     "world": "Nevia",
     "level": 1990,
-    "value": 131126562467
+    "value": 131126562695
    },
    {
     "rank": 2,
@@ -91,7 +91,7 @@
     "vocation": "Master Sorcerer",
     "world": "Nevia",
     "level": 1709,
-    "value": 83033802506
+    "value": 83034404657
    },
    {
     "rank": 12,
@@ -147,7 +147,7 @@
     "vocation": "Master Sorcerer",
     "world": "Nevia",
     "level": 1605,
-    "value": 68697284952
+    "value": 68731815204
    },
    {
     "rank": 19,
@@ -283,7 +283,7 @@
     "vocation": "Royal Paladin",
     "world": "Nevia",
     "level": 1463,
-    "value": 51982305990
+    "value": 52003155228
    },
    {
     "rank": 36,
@@ -418,7 +418,7 @@
    "release": "4.10.0",
    "commit": "d53b603c7e235c45268bcf878ef2921b2356cf75"
   },
-  "timestamp": "2026-09-17T05:05:36Z",
+  "timestamp": "2026-09-17T08:24:37Z",
   "tibia_urls": [
    "https://www.tibia.com/community/?subtopic=highscores&world=Nevia&category=6&profession=0&currentpage=1"
   ],

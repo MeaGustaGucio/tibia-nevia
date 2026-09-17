@@ -1,32 +1,4 @@
 hunt_id,slot,name,voc,voc_name,level,supplies,balance_m
-33445,1,Kandydant,EM,Exalted Monk,182,-184298,60469
-33624,1,Akrus Eters,EM,Exalted Monk,218,-279774,111380
-37089,1,Beat The Ghost,EK,Elite Knight,408,-96127,388172
-37100,1,Beat The Ghost,EK,Elite Knight,408,-104016,286006
-40692,1,Pietro Tank,EK,Elite Knight,576,-124968,990352
-46285,1,Tzouka,RP,Royal Paladin,416,-285336,272091
-49066,1,Marshal Shanks,RP,Royal Paladin,244,-199818,1133552
-49066,2,Princes Maya,MS,Master Sorcerer,228,-444178,381846
-49066,3,Meta Tarso,EM,Exalted Monk,277,-27031,764062
-9590,1,Narashia,EK,Elite Knight,272,-106611,146057
-14650,1,Narashia,EK,Elite Knight,308,-249846,377711
-30150,1,Tranquillino Calmitto,EM,Exalted Monk,183,-91505,29559
-30153,1,Tranquillino Calmitto,EM,Exalted Monk,183,-236575,5616
-30155,1,Tranquillino Calmitto,EM,Exalted Monk,183,-233218,88729
-30160,1,Tranquillino Calmitto,EM,Exalted Monk,183,-170644,109863
-30406,1,Tranquillino Calmitto,EM,Exalted Monk,208,-483707,427802
-30431,1,Tranquillino Calmitto,EM,Exalted Monk,210,-456073,419210
-33477,1,Yo Gxi Boyz,RP,Royal Paladin,382,-141167,633181
-33481,1,Yo Gxi Boyz,RP,Royal Paladin,382,-146756,269602
-33657,1,Yo Gxi Boyz,RP,Royal Paladin,383,-161632,433003
-34715,1,Fae Nya,RP,Royal Paladin,430,-111876,236987
-42631,1,Jane Birkin,RP,Royal Paladin,208,-51932,62582
-43891,1,Gralha Vermelha,MS,Master Sorcerer,195,-167317,348855
-50905,1,Torvyn,EK,Elite Knight,258,-28511,137106
-53434,1,Torvyn,EK,Elite Knight,273,-50556,163778
-53639,1,Sauron Emo,EK,Elite Knight,270,-54097,373457
-7463,1,Narashia,EK,Elite Knight,266,-88503,289397
-7508,1,Pally Elfo,RP,Royal Paladin,202,-283314,189464
 24692,1,Ed Reiss,ED,Elder Druid,95,-54593,192348
 2884,1,Sipping Henn,RP,Royal Paladin,90,-49539,-19045
 29463,1,Rezo Senpai,EM,Exalted Monk,53,-166930,-91873
@@ -46,6 +18,7 @@ hunt_id,slot,name,voc,voc_name,level,supplies,balance_m
 52773,1,Silversparrow,EM,Exalted Monk,88,-19052,2095
 52823,1,Silversparrow,EM,Exalted Monk,90,-18468,5960
 53124,1,Silversparrow,EM,Exalted Monk,94,-46342,-8630
+57092,1,Miaushiro,ED,Elder Druid,80,-112302,219613
 7709,1,Sir Magolords,MS,Master Sorcerer,52,-48607,142027
 7885,1,Sir Magolords,MS,Master Sorcerer,54,-97118,382630
 7991,1,Sir Magolords,MS,Master Sorcerer,61,-51238,157826
@@ -68,8 +41,13 @@ hunt_id,slot,name,voc,voc_name,level,supplies,balance_m
 29965,1,Tranquillino Calmitto,EM,Exalted Monk,176,-420760,354870
 30044,1,Rezo Senpai,EM,Exalted Monk,102,-171278,15897
 30149,1,Tranquillino Calmitto,EM,Exalted Monk,183,-139730,104888
+30150,1,Tranquillino Calmitto,EM,Exalted Monk,183,-91505,29559
+30153,1,Tranquillino Calmitto,EM,Exalted Monk,183,-236575,5616
+30155,1,Tranquillino Calmitto,EM,Exalted Monk,183,-233218,88729
+30160,1,Tranquillino Calmitto,EM,Exalted Monk,183,-170644,109863
 31418,1,Lucadejalast Czkoteck,MS,Master Sorcerer,118,-54876,-15705
 31920,1,Lucadejalast Czkoteck,MS,Master Sorcerer,115,-23042,-7223
+33445,1,Kandydant,EM,Exalted Monk,182,-184298,60469
 35841,1,Euclides Picfum,EM,Exalted Monk,136,-157622,-157622
 37083,1,Skra Firadixo,ED,Elder Druid,167,-65722,87479
 37085,1,Skra Firadixo,ED,Elder Druid,168,-52480,5477
@@ -86,6 +64,7 @@ hunt_id,slot,name,voc,voc_name,level,supplies,balance_m
 40531,1,Frodo Rodolfo,ED,Elder Druid,153,-166594,-53625
 40912,1,Monkusvic,EM,Exalted Monk,158,-74388,27703
 41129,1,Klaifiso,ED,Elder Druid,117,-8520,-2228
+43891,1,Gralha Vermelha,MS,Master Sorcerer,195,-167317,348855
 47748,1,Ostraktrium,EK,Elite Knight,147,-101836,-659
 49116,1,Pimentao com calabresa,ED,Elder Druid,180,-149161,136327
 49117,1,Pimentao com calabresa,ED,Elder Druid,180,-154870,162630
@@ -104,6 +83,7 @@ hunt_id,slot,name,voc,voc_name,level,supplies,balance_m
 32008,1,Tranquillino Calmitto,EM,Exalted Monk,276,-922995,687299
 32806,1,Tino Mas San,RP,Royal Paladin,279,-150184,201799
 33345,1,Mana Express,ED,Elder Druid,218,-147365,182292
+33624,1,Akrus Eters,EM,Exalted Monk,218,-279774,111380
 34426,1,Nukik,RP,Royal Paladin,292,-354832,-337441
 34810,1,Nukik,RP,Royal Paladin,300,-12388,59641
 35573,1,Bino Lew,RP,Royal Paladin,297,-612621,276137
@@ -115,6 +95,7 @@ hunt_id,slot,name,voc,voc_name,level,supplies,balance_m
 40956,1,Baiano Loro,RP,Royal Paladin,228,-151363,44256
 42569,1,Jane Birkin,RP,Royal Paladin,207,-95505,153363
 42613,1,Jane Birkin,RP,Royal Paladin,208,-169731,275640
+42631,1,Jane Birkin,RP,Royal Paladin,208,-51932,62582
 42658,1,Jane Birkin,RP,Royal Paladin,208,-159795,181287
 43559,1,Detektyw Monkers,EM,Exalted Monk,201,-258390,24439
 43565,1,Galadino,RP,Royal Paladin,214,-682634,334593
@@ -145,6 +126,7 @@ hunt_id,slot,name,voc,voc_name,level,supplies,balance_m
 50364,1,Torvyn,EK,Elite Knight,253,-50355,152860
 50574,1,Muti Paladin,RP,Royal Paladin,273,-567072,-47780
 50582,1,Muti Paladin,RP,Royal Paladin,277,-207656,277887
+50905,1,Torvyn,EK,Elite Knight,258,-28511,137106
 51253,1,Torvyn,EK,Elite Knight,260,-151434,231954
 51793,1,Nanesi,MS,Master Sorcerer,290,-124963,286066
 52064,1,Kenddora,ED,Elder Druid,242,-185475,339437
@@ -157,6 +139,8 @@ hunt_id,slot,name,voc,voc_name,level,supplies,balance_m
 53327,1,Torvyn,EK,Elite Knight,270,-26374,110115
 53352,1,Torvyn,EK,Elite Knight,271,-24620,94853
 53399,1,Elder Nobeki,ED,Elder Druid,229,-28744,130106
+53434,1,Torvyn,EK,Elite Knight,273,-50556,163778
+53639,1,Sauron Emo,EK,Elite Knight,270,-54097,373457
 53711,1,Torvyn,EK,Elite Knight,276,-19516,224332
 53745,1,Torvyn,EK,Elite Knight,279,-105760,167481
 15712,1,Guerreiro de Xango,EK,Elite Knight,211,-273001,424951
@@ -222,7 +206,9 @@ hunt_id,slot,name,voc,voc_name,level,supplies,balance_m
 47999,1,Hardstyle Jogaliso,MS,Master Sorcerer,1200,-543219,820061
 4839,1,Katzwinckel,ED,Elder Druid,1418,-1161081,1364932
 4839,2,Captain Draja,RP,Royal Paladin,1256,-925934,1321237
+50905,1,Torvyn,EK,Elite Knight,258,-28511,137106
 52823,1,Silversparrow,EM,Exalted Monk,90,-18468,5960
+53434,1,Torvyn,EK,Elite Knight,273,-50556,163778
 55738,1,Swedo Of Lua,MS,Master Sorcerer,901,-337981,3824947
 56517,1,Melin Slowmotion,MS,Master Sorcerer,1086,-422,2611760
 56645,1,Melin Slowmotion,MS,Master Sorcerer,1086,-1199,2783601
@@ -650,6 +636,35 @@ hunt_id,slot,name,voc,voc_name,level,supplies,balance_m
 32941,1,Undead Drago Beer,EK,Elite Knight,352,-249300,273171
 33144,1,Undead Drago Beer,EK,Elite Knight,358,-178108,251148
 33222,1,Undead Drago Beer,EK,Elite Knight,362,-257868,439362
+33445,1,Kandydant,EM,Exalted Monk,182,-184298,60469
 40956,1,Baiano Loro,RP,Royal Paladin,228,-151363,44256
 51555,1,New Niel,ED,Elder Druid,407,-39974,275617
 53187,1,Sauron Emo,EK,Elite Knight,265,-78322,167980
+14650,1,Narashia,EK,Elite Knight,308,-249846,377711
+30150,1,Tranquillino Calmitto,EM,Exalted Monk,183,-91505,29559
+30153,1,Tranquillino Calmitto,EM,Exalted Monk,183,-236575,5616
+30155,1,Tranquillino Calmitto,EM,Exalted Monk,183,-233218,88729
+30160,1,Tranquillino Calmitto,EM,Exalted Monk,183,-170644,109863
+30406,1,Tranquillino Calmitto,EM,Exalted Monk,208,-483707,427802
+30431,1,Tranquillino Calmitto,EM,Exalted Monk,210,-456073,419210
+33477,1,Yo Gxi Boyz,RP,Royal Paladin,382,-141167,633181
+33481,1,Yo Gxi Boyz,RP,Royal Paladin,382,-146756,269602
+33657,1,Yo Gxi Boyz,RP,Royal Paladin,383,-161632,433003
+34715,1,Fae Nya,RP,Royal Paladin,430,-111876,236987
+42631,1,Jane Birkin,RP,Royal Paladin,208,-51932,62582
+43891,1,Gralha Vermelha,MS,Master Sorcerer,195,-167317,348855
+50905,1,Torvyn,EK,Elite Knight,258,-28511,137106
+53434,1,Torvyn,EK,Elite Knight,273,-50556,163778
+53639,1,Sauron Emo,EK,Elite Knight,270,-54097,373457
+7463,1,Narashia,EK,Elite Knight,266,-88503,289397
+7508,1,Pally Elfo,RP,Royal Paladin,202,-283314,189464
+33445,1,Kandydant,EM,Exalted Monk,182,-184298,60469
+33624,1,Akrus Eters,EM,Exalted Monk,218,-279774,111380
+37089,1,Beat The Ghost,EK,Elite Knight,408,-96127,388172
+37100,1,Beat The Ghost,EK,Elite Knight,408,-104016,286006
+40692,1,Pietro Tank,EK,Elite Knight,576,-124968,990352
+46285,1,Tzouka,RP,Royal Paladin,416,-285336,272091
+49066,1,Marshal Shanks,RP,Royal Paladin,244,-199818,1133552
+49066,2,Princes Maya,MS,Master Sorcerer,228,-444178,381846
+49066,3,Meta Tarso,EM,Exalted Monk,277,-27031,764062
+9590,1,Narashia,EK,Elite Knight,272,-106611,146057

@@ -1,5 +1,6 @@
 id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lvl,xp_h,raw_xp_h,loot_h,balance_h,supplies_total,supplies_known,has_creature_stats,event_flag,url
 52279,Crypt Warrior,"Jul 28, 2026 09:45",00:28h,28,1,,0,0,75,8447524,5631685,681249,681248,0,0,1,0,https://www.hunt-analyser.com/hunt_sessions/52279
+57092,Norc Castle,"Sep 17, 2026 03:56",00:15h,15,1,ED 80,80,80,80,6899568,6899568,1327660,878452,112302,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57092
 53124,Yalahar Bog Raiders Central,"Aug 06, 2026 16:03",00:30h,30,1,EM 94,94,94,94,629342,419562,75424,-17260,46342,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53124
 52667,Port Hope Spider Cave,"Aug 01, 2026 17:33",01:00h,60,1,EM 84,84,84,84,616481,277452,52699,-6279,58978,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52667
 52572,Port Hope Spider Cave,"Jul 31, 2026 15:40",01:00h,60,1,EM 82,82,82,82,376290,250860,63228,11549,51679,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52572
