@@ -92,7 +92,8 @@
       <th>#</th><th>Spawn</th><th>Czas</th><th>Party</th><th class="num">EXP/h</th><th class="num">Loot/h*</th><th>Data</th><th>Link</th>
     </tr></thead><tbody></tbody></table>
     <p class="sub" style="margin-bottom:0">*EXP/h i Loot/h z sesji (Balance + supplies).
-    Tryb Profit/h: liczba <b>policzona</b> = suma po potworach (śr. kille/h × wartość-per-kill z sesji jednorodnych);
+    Tryb Profit/h: liczba <b>policzona</b> = suma po potworach (śr. kille/h × wartość-per-kill;
+    wartość-per-kill to mediana ważona z sesji, ważona udziałem gatunku).
     Pokrycie = udział killi z wycenionych gatunków. ° = skład ukryty, sam Balance (dolne oszacowanie).</p></div>
     <div class="card"><h3 id="chartTitle" style="margin:4px 0 10px;font-size:1rem">Top 15</h3><div id="chart"></div></div>
   </div></main>
@@ -139,11 +140,11 @@
     </ul>
     <h3>Shared exp w party (Twój duet ED + EK)</h3>
     <p>Wzór na głowę: <b>exp = baza × bonus_voc / liczba_graczy</b> (× Twoje własne bonusy jak stamina).
-    Bonus od różnych voc: 1 voc +20%, <b>2 voc (Wasz ED+EK) +30%</b>, 3 voc +60%, 4–5 voc +100%.
+    Bonus od różnych voc <b>(rebalans VI.2026!)</b>: 1 voc +20%, <b>2 voc (Wasz ED+EK) +35%</b>, 3 voc +70%, 4–5 voc +100%.
     Kody: ED = Elder Druid, EK = Elite Knight, RP = Royal Paladin, MS = Master Sorcerer,
     <b>EM = Exalted Monk</b> (nowa voc od 2025, melee + support-heal; liczy się do bonusu jak każda inna).
     Warunki: niższy lvl ≥ ⅔ wyższego (114 + 114 ✅; zakres dla 114 to ok. 76–172), max 30 kratek od lidera, aktywność co 2 min.
-    Duo 2 voc: potwór 1000 bazowo → 1300 ÷ 2 = <b>650/głowę</b> — czyli szybciej niż solo tylko jeśli we dwóch zabijacie
+    Duo 2 voc: potwór 1000 bazowo → 1350 ÷ 2 = <b>675/głowę</b> — czyli szybciej niż solo tylko jeśli we dwóch zabijacie
     <b>ponad 2× szybciej</b> niż sam ED. Knight tankuje, druid leczy (Sio) i dowala AoE — na 114 szukajcie spawna, gdzie EK stoi w boxie, a nie gdzie ED kiteruje solo.</p>
     <div class="card" style="margin:10px 0"><h3 style="margin:4px 0 8px">Kalkulator duo (share exp)</h3>
       <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:end">
@@ -169,7 +170,7 @@
     z tabeli składu sesji — dlatego przy wyniku nie ma zgadywania, a każda liczba ma link do sesji-źródła).
     ° przy wyniku = skład ukryty, wtedy pokazujemy sam Balance (dolne oszacowanie).
     Sesje z dni eventów 2× exp/loot wypadają z median (pompowalyby wyniki).
-    Docelowo: re-wycena <b>drop/h × cena Nevii</b> — pipeline już zbiera ceny wszystkich 5047 itemów Nevii z historią.</p>
+    Obok mediany zawsze pokazujemy też zmierzony loot/h, żebyś mógł skonfrontować liczbę policzoną z zaobserwowaną.</p>
     <h3>Ukryte koszty: imbuementy i prey</h3>
     <ul>
       <li>Imbu (mana/life leech, crit) kosztują grubo w itemach — Odejmij je od profitu; bez imbu wiele spawnów 100+ jest nieosiągalnych.</li>
@@ -190,7 +191,7 @@
     <div class="kpi" id="kpi"></div>
     <ul>
       <li><b>Solo ED 100–200:</b> w próbce wygrywają powtarzalne spawny typu Hero/Lizard/Were — sortuj zakładkę Spawny po medianie i bierz te z n ≥ 2.</li>
-      <li><b>Duo ED+EK:</b> publicznych huntów duo na 100–130 jest ~0 w sieci — Wasze pierwsze hunty same staną się danymi. Celuj w spawny, gdzie EK tankuje boxa (share +30% robi robotę tylko przy gęstym pullu).</li>
+      <li><b>Duo ED+EK:</b> sesji duo w sieci jest mało, ale są — filtruj ranking party na „duo/team” i szukaj spawnów, gdzie EK tankuje boxa (share +30% robi robotę tylko przy gęstym pullu).</li>
       <li><b>Profit:</b> poluj na spawny z lootem stackowalnym + imbu-itemami; jedno „Darklight”-style 3 kk/h to zwykle boss-luck, nie norma — patrz mediana, nie max.</li>
       <li><b>Przed huntem:</b> sprawdź boosted creature dnia i czy macie prey na dany typ; po patchach balansujących odczekaj tydzień z oceną spawna.</li>
     </ul>

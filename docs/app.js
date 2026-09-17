@@ -156,7 +156,7 @@ function duoCalc() {
   const a = Number($("duoA").value) || 0, b = Number($("duoB").value) || 0, v = $("duoV").value;
   const lo = Math.min(a, b), hi = Math.max(a, b);
   const ok = hi > 0 && lo >= (2 / 3) * hi;
-  const bonus = { 1: 20, 2: 30, 3: 60, 4: 100 }[v] ?? 30;
+  const bonus = { 1: 20, 2: 35, 3: 70, 4: 100 }[v] ?? 35;
   const perHead = hi > 0 ? (1000 * (1 + bonus / 100) / 2).toFixed(0) : "—";
   $("duoOut").innerHTML = ok
     ? `✅ Share działa (niższy ${lo} ≥ ⅔ z ${hi}). Bonus ${bonus}% → z potwora 1000 bazowo każdy dostaje <b>${perHead}</b> (× stamina/prey osobno).`
