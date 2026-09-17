@@ -717,6 +717,61 @@ def consensus(rows: list[dict]):
     return sorted(out, key=lambda r: r["consensus_h"], reverse=True)
 
 
+SPAWN_LOOT_COLS = ["spawn", "creature", "avg_kills_h", "n_sessions", "value_per_kill",
+                    "contrib_h", "top_loot"]
+
+
+def load_all_hunts():
+    """WSZYSTKIE sesje ever (bez filtra dat!) — tylko do MAPOWANIA co gdzie pada.
+    Loot-listy potworow nie wygasaja; liczby (stawki/ceny) zawsze ze swiezych."""
+    out = {}
+    for p in sorted((ROOT / "data" / "raw").glob("*/hunts.csv")):
+        with open(p, encoding="utf-8") as f:
+            for r in csv.DictReader(f):
+                out[r["id"]] = r
+    return out
+
+
+def spawn_loot_table(hunts_calib, kills_all, creatures, vcalib, price_by_name, tagmap):
+    """JEDNA tabela loota per spawn: potwor × tempo killi/h × wartosc/kill × top loot z cenami.
+    Tempo i wartosci ze SWIEZYCH sesji (<=VCALIB_DAYS)."""
+    vc = {r["creature"]: r["value_per_kill"] for r in vcalib}
+    per = {}
+    for k in kills_all:
+        h = hunts_calib.get(k["hunt_id"])
+        if not h:
+            continue
+        try:
+            mins = int(h.get("minutes") or 0)
+            killed = int(k.get("killed") or 0)
+        except ValueError:
+            continue
+        if mins < 15 or killed <= 0:
+            continue
+        key = (h.get("spawn", ""), k["creature"])
+        per.setdefault(key, {"kph": [], "hunts": set()})
+        per[key]["kph"].append(killed / mins * 60)
+        per[key]["hunts"].add(k["hunt_id"])
+    out = []
+    for (sp, creature), d in per.items():
+        if not sp:
+            continue
+        avg_kph = sum(d["kph"]) / len(d["kph"])
+        v = vc.get(creature, "")
+        tops = []
+        for item in (creatures.get(creature, {}).get("loot_list") or []):
+            pr = price_by_name.get(item.lower(), {}) or {}
+            fair = pr.get("fair", "") or ""
+            tops.append((fair if fair != "" else -1, item, fair, tagmap.get(item.lower(), "")))
+        tops = sorted(tops, reverse=True)[:4]
+        out.append({"spawn": sp, "creature": creature,
+                    "avg_kills_h": round(avg_kph, 1), "n_sessions": len(d["hunts"]),
+                    "value_per_kill": v,
+                    "contrib_h": int(avg_kph * v) if v != "" else "",
+                    "top_loot": "|".join(f"{it}|{f if f != '' else '—'}|{tg}" for _, it, f, tg in tops)})
+    return sorted(out, key=lambda r: (r["spawn"], -(r["contrib_h"] or 0)))
+
+
 def write_spawns(name: str, rows: list[dict]):
     with open(GOLD / f"{name}.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=SPAWN_COLS)
@@ -814,7 +869,9 @@ def main() -> None:
         with open(p, encoding="utf-8") as f:
             kills.extend(list(csv.DictReader(f)))
     all_hunts = {h["id"]: h for h in hunts_exp + hunts_profit}.values()
-    si = spawn_items(list(all_hunts), kills, creatures, price_by_name, meta_by_name)
+    # Mapa co-gdzie-pada z CAŁEJ historii (loot-listy nie wygasaja); liczby zawsze świeże.
+    all_map = load_all_hunts()
+    si = spawn_items(list(all_map.values()), kills, creatures, price_by_name, meta_by_name)
     with open(GOLD / "spawn_items.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=SPAWN_ITEM_COLS)
         w.writeheader()
@@ -842,6 +899,21 @@ def main() -> None:
         w.writeheader()
         w.writerows(sprof)
     print(f"creature_value: {len(vcalib)} gatunkow; spawn_profit: {len(sprof)} spawnow")
+    # JEDNA tabela loota: swieze tempo killi/h + wartosc/kill + top loot z cenami.
+    # Kalibracja: sesje <=VCALIB_DAYS (te same co value-per-kill).
+    hcal = {h["id"]: h for h in list(all_hunts)
+            if (h.get("_days_ago", 9999) or 9999) <= VCALIB_DAYS}
+    tagmap = {}
+    for name in set(list(imbu.keys()) if isinstance(imbu, dict) else []):
+        tagmap[name] = (tagmap.get(name, "") + "🧪").strip()
+    for name, d in (delivery.items() if isinstance(delivery, dict) else []):
+        tagmap[name] = (tagmap.get(name, "") + "📦").strip()
+    sloot = spawn_loot_table(hcal, kills, creatures, vcalib, price_by_name, tagmap)
+    with open(GOLD / "spawn_loot.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=SPAWN_LOOT_COLS)
+        w.writeheader()
+        w.writerows(sloot)
+    print(f"spawn_loot rows={len(sloot)}")
     for b in brackets:
         lo, hi = (int(x) for x in b.strip().split("-"))
         hb = [h for h in hunts_profit if h["avg_lvl"] and lo <= h["avg_lvl"] <= hi]
@@ -949,7 +1021,8 @@ def main() -> None:
               + list(GOLD.glob("spawn_profit*.csv")) + list(GOLD.glob("profit_compare*.csv"))
               + list(GOLD.glob("profit_consensus*.csv"))
               + [GOLD / "price_stats.csv", GOLD / "spawn_items.csv", GOLD / "hunt_kills_h.csv",
-                 GOLD / "item_tags.csv", GOLD / "creature_value.csv", GOLD / "build_info.json"]):
+                 GOLD / "item_tags.csv", GOLD / "creature_value.csv", GOLD / "spawn_loot.csv",
+                 GOLD / "build_info.json"]):
         if p.exists():
             shutil.copy(p, PAGES_DATA / p.name)
     # Szacunki zewnetrzne (poradniki) tez na strone — statyczny plik referencyjny.
@@ -967,7 +1040,7 @@ def main() -> None:
                          + list(GOLD.glob("profit_consensus*.csv"))
                          + [GOLD / "price_stats.csv", GOLD / "spawn_items.csv",
                             GOLD / "hunt_kills_h.csv", GOLD / "item_tags.csv",
-                            GOLD / "creature_value.csv"]):
+                            GOLD / "creature_value.csv", GOLD / "spawn_loot.csv"]):
             if not p.exists():
                 continue
             ws = wb.active if first else wb.create_sheet(p.stem)

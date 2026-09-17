@@ -71,7 +71,7 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
   await wait(1200);
   const kpi = sp.window.document.getElementById("kpi").textContent;
   ok(/sesji/.test(kpi), `spawn '${testSpawn}': KPI renderuje (${kpi.trim().slice(0, 60)})`);
-  ok(sp.window.document.querySelectorAll("#tbl5 tbody tr").length > 0, "spawn: rozbiorka profitu (tbl5)");
+  ok(sp.window.document.querySelectorAll("#tblLoot tbody tr").length > 0, "spawn: jedna tabela loota (tblLoot)");
 
   // --- item.html: rope belt ---
   const it = loadPage("item.html", "item.html?id=11492&name=rope%20belt");
