@@ -59,6 +59,17 @@
 <script>
 const $ = id => document.getElementById(id);
 const fmt = n => (Number(n) || 0).toLocaleString("pl-PL");
+function fmtK(n) {
+  const v = Number(n);
+  if (!isFinite(v) || n === "" || n === undefined || n === null) return "—";
+  const sign = v < 0 ? "−" : "";
+  const a = Math.abs(v);
+  const pl = (x, d) => x.toLocaleString("pl-PL", { maximumFractionDigits: d });
+  if (a >= 1000000) return sign + pl(a / 1000000, 1) + "M";
+  if (a >= 10000) return sign + Math.round(a / 1000) + " tys.";
+  if (a >= 1000) return sign + pl(a / 1000, 1) + " tys.";
+  return sign + pl(a, 0);
+}
 const q = new URLSearchParams(location.search);
 const itemId = q.get("id") || "";
 const itemName = (q.get("name") || "").toLowerCase();
@@ -94,21 +105,21 @@ async function getCSV(path) {
   $("meta").textContent = `id ${id}`;
   $("sub").textContent = `Snapshot: ${ps.captured_at} • ofert sell: ${ps.n_sell}, buy: ${ps.n_buy} • głębokość ±10% fair: ${fmt(ps.depth_units)} szt`;
   $("kpi").innerHTML =
-    `<div><b>${fmt(ps.instant)}</b>instant (podcięcie min sell − 1)</div>` +
-    `<div><b>${fmt(ps.fair)}</b>fair (VWAP − top 5%)</div>` +
-    `<div><b>${fmt(ps.shelf)}${ps.shelf_units ? " ×" + fmt(ps.shelf_units) : ""}</b>półka (max jednostek)</div>` +
-    `<div><b>${fmt(ps.patient)}</b>patient (min sell)</div>` +
+    `<div><b>${fmtK(ps.instant)}</b>instant (podcięcie min sell − 1)</div>` +
+    `<div><b>${fmtK(ps.fair)}</b>fair (VWAP − top 5%)</div>` +
+    `<div><b>${fmtK(ps.shelf)}${ps.shelf_units ? " ×" + fmt(ps.shelf_units) : ""}</b>półka (max jednostek)</div>` +
+    `<div><b>${fmtK(ps.patient)}</b>patient (min sell)</div>` +
     `<div><b>${(Number(ps.upside) * 100).toFixed(1)}%</b>upside do p25 sell</div>` +
-    `<div><b>${fmt(ps.top_buy)}</b>top buy (stat. poboczna)</div>`;
+    `<div><b>${fmtK(ps.top_buy)}</b>top buy (stat. poboczna)</div>`;
 
   const lad = await getCSV(`data/ladder/${id}.csv`);
   const sells = lad.filter(r => r.side === "sell").sort((a, b) => a.price - b.price);
   const buys = lad.filter(r => r.side === "buy").sort((a, b) => b.price - a.price);
   const maxU = Math.max(1, ...lad.map(r => Number(r.units)));
   $("sells").innerHTML = sells.slice(0, 30).map(r =>
-    `<div class="bar-row"><span>${fmt(r.price)}</span><div class="bar-track"><div class="bar-fill-s" style="width:${Math.max(1, r.units / maxU * 100)}%"></div></div><span style="text-align:right">${fmt(r.units)}</span></div>`).join("");
+    `<div class="bar-row"><span>${fmtK(r.price)}</span><div class="bar-track"><div class="bar-fill-s" style="width:${Math.max(1, r.units / maxU * 100)}%"></div></div><span style="text-align:right">${fmt(r.units)}</span></div>`).join("");
   $("buys").innerHTML = buys.slice(0, 30).map(r =>
-    `<div class="bar-row"><span>${fmt(r.price)}</span><div class="bar-track"><div class="bar-fill-b" style="width:${Math.max(1, r.units / maxU * 100)}%"></div></div><span style="text-align:right">${fmt(r.units)}</span></div>`).join("");
+    `<div class="bar-row"><span>${fmtK(r.price)}</span><div class="bar-track"><div class="bar-fill-b" style="width:${Math.max(1, r.units / maxU * 100)}%"></div></div><span style="text-align:right">${fmt(r.units)}</span></div>`).join("");
 
   const hist = await getCSV(`data/history/${id}.csv`);
   if (hist.length) {
@@ -127,13 +138,13 @@ async function getCSV(path) {
       const t = s => (s || "").split("|").filter(Boolean).map(x => `<span class="tag">${x}</span>`).join("");
       $("tags").innerHTML =
         (tg.imbuements ? `<p>🧪 Imbuementy: ${t(tg.imbuements)}</p>` : "") +
-        (tg.delivery_npcs ? `<p>📦 Delivery: ${t(tg.delivery_npcs)}${tg.delivery_bands ? " (" + t(tg.delivery_bands) + ")" : ""}${tg.npc_price ? " — NPC płaci " + fmt(tg.npc_price) : ""}</p>` : "");
+        (tg.delivery_npcs ? `<p>📦 Delivery: ${t(tg.delivery_npcs)}${tg.delivery_bands ? " (" + t(tg.delivery_bands) + ")" : ""}${tg.npc_price ? " — NPC płaci " + fmtK(tg.npc_price) : ""}</p>` : "");
     }
   } catch {}
   const mine = si.filter(r => String(r.item_id) === String(id));
   document.querySelector("#tbl tbody").innerHTML = mine.map(r =>
     `<tr><td><a href="spawn.html?spawn=${encodeURIComponent(r.spawn)}">${r.spawn}</a></td>
-     <td class="num">${fmt(r.fair)}</td><td class="num"><input data-fair="${r.fair}" class="perh" type="number" min="0" value="10" style="width:64px;background:#2a241b;color:var(--ink);border:1px solid #4a4030;border-radius:4px;padding:2px 4px"/> × fair = <b class="val">${fmt(Number(r.fair) * 10)}</b></td><td>${r.creatures || ""}</td></tr>`).join("")
+     <td class="num">${fmtK(r.fair)}</td><td class="num"><input data-fair="${r.fair}" class="perh" type="number" min="0" value="10" style="width:64px;background:#2a241b;color:var(--ink);border:1px solid #4a4030;border-radius:4px;padding:2px 4px"/> × fair = <b class="val">${fmtK(Number(r.fair) * 10)}</b></td><td>${r.creatures || ""}</td></tr>`).join("")
     || `<tr><td colspan="4">Brak spawnow z killami tego itemu w probce.</td></tr>`;
 
   const drops = {};
@@ -141,7 +152,7 @@ async function getCSV(path) {
   $("droppers").textContent = Object.keys(drops).sort().join(", ") || "—";
 document.querySelectorAll('#tbl input.perh').forEach(inp => inp.oninput = () => {
     const f = Number(inp.dataset.fair) || 0;
-    inp.parentElement.querySelector('.val').textContent = (Number(inp.value) * f).toLocaleString('pl-PL');
+    inp.parentElement.querySelector('.val').textContent = fmtK(Number(inp.value) * f);
   });
 })();
 </script>

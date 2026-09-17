@@ -46,41 +46,39 @@
   .kpi b { display:block; font-size:1.05rem; color:var(--acc); }
   footer { max-width:1100px; margin:18px auto 0; color:var(--mut); font-size:.78rem; }
   .view { display:none; } .view.on { display:block; }
+  .viewpanel { display:none; } .viewpanel.on { display:block; }
+  .hero { font-size:1.05rem; margin:2px 0 10px; }
 </style>
 </head>
 <body>
 <header>
-  <h1>⚔️ Nevia — gdzie expić?</h1>
-  <p class="sub">Rankingi spawnów z publicznych huntów (hunt-analyser.com), osobno <b>EXP/h</b> i <b>profit/h</b>.
-  Ceny loota: Nevia (tibiamarket.top) + ręczne ceny z gry. <span id="meta">ładowanie…</span></p>
+  <h1>⚔️ Nevia — gdzie expić i gdzie profitować?</h1>
+  <p class="sub">Dwa pytania, dwie listy. Dane z <span id="meta">ładowanie…</span></p>
 </header>
 <nav class="tabs">
-  <button id="tRank" class="on">Rankingi huntów</button>
-  <button id="tSpawn">Spawny (mediana)</button>
+  <button id="tExp" class="on">🎯 Gdzie expić?</button>
+  <button id="tProfit">💰 Gdzie profitować?</button>
   <button onclick="location.href='demand.html'">🔥 Na co jest popyt?</button>
-  <button id="tGuide">Poradnik: jak czytać dane</button>
+  <button id="tGuide">📖 Poradnik</button>
 </nav>
 
-<div class="view on" id="vRank">
+<div class="view on" id="vExp">
   <div class="controls">
-    <label>Bracket
+    <label>Twój przedział
       <select id="bracket">
         <option value="50_100">50–100</option>
-        <option value="100_200" selected>100–200</option>
+        <option value="100_200" selected>100–200 (Twój)</option>
         <option value="200_300">200–300</option>
       </select>
     </label>
-    <label>Tryb
-      <span class="seg"><button id="mExp" class="on">EXP/h</button><button id="mProfit">Profit/h</button></span>
-    </label>
-    <label>Party
+    <label>Solo / duo
       <select id="party">
-        <option value="all">solo + duo</option>
+        <option value="all">wszystko</option>
         <option value="1">solo</option>
         <option value="2">duo/team</option>
       </select>
     </label>
-    <label>Szukaj spawna <input type="text" id="q" placeholder="np. asura, hero, lizard" /></label>
+    <label>Szukaj spawna <input type="text" id="q" placeholder="np. quara, cults, hero" /></label>
     <label>Szybkie typy
       <span class="seg" id="presets">
         <button data-q="quara">quara</button><button data-q="were">were</button><button data-q="tiger">tiger</button><button data-q="cult">culty</button><button data-q="spectre">spectre</button><button data-q="vampire">vampire</button><button data-q="">×</button>
@@ -88,38 +86,31 @@
     </label>
   </div>
   <main><div class="grid2" style="margin-top:14px">
-    <div class="card"><table id="tbl"><thead><tr>
-      <th>#</th><th>Spawn</th><th>Czas</th><th>Party</th><th class="num">EXP/h</th><th class="num">Loot/h*</th><th>Data</th><th>Link</th>
-    </tr></thead><tbody></tbody></table>
-    <p class="sub" style="margin-bottom:0">*EXP/h i Loot/h z sesji (Balance + supplies, tylko 2026).
-    Tryb Profit/h: <b>konsensus wielu źródeł</b> (sesje policzone/zmierzone + poradniki + gracze) —
-    nigdy jedno źródło, nigdy dane sprzed 2026. Rozrzut = (max−min)/konsensus; Źródeł = liczba głosów.
-    ° = skład ukryty, sam Balance (dolne oszacowanie).</p></div>
-    <div class="card"><h3 id="chartTitle" style="margin:4px 0 10px;font-size:1rem">Top 15</h3><div id="chart"></div><div id="estwrap"></div></div>
+    <div class="card">
+      <p class="hero">Sortuj po <b>EXP/h z prawdziwych sesji 2026</b> — kliknij spawn po szczegóły.</p>
+      <table id="tbl"><thead><tr></tr></thead><tbody></tbody></table>
+    </div>
+    <div class="card"><h3 id="chartTitle" style="margin:4px 0 10px;font-size:1rem">Top 10</h3><div id="chart"></div><div id="estwrap"></div></div>
   </div></main>
 </div>
 
-<div class="view" id="vSpawn">
+<div class="view" id="vProfit">
   <div class="controls">
-    <label>Bracket
-      <select id="bracket2">
-        <option value="">wszystkie</option>
+    <label>Twój przedział
+      <select id="bracketP">
         <option value="50_100">50–100</option>
-        <option value="100_200" selected>100–200</option>
+        <option value="100_200" selected>100–200 (Twój)</option>
         <option value="200_300">200–300</option>
       </select>
     </label>
-    <label>Sortuj
-      <span class="seg"><button id="sExp" class="on">mediana EXP/h</button><button id="sProfit">mediana profit/h</button></span>
-    </label>
+    <label>Szukaj spawna <input type="text" id="qP" placeholder="np. quara, cults, hero" /></label>
   </div>
-  <main><div class="card" style="margin-top:14px">
-    <p class="sub" style="margin-top:0">Mediana z huntów jest uczciwsza niż pojedynczy rekord — jeden fartowny loot nie winduje spawna.
-    n = liczba huntów w próbce (im większa, tym pewniejszy wynik).</p>
-    <table id="tbl2"><thead><tr>
-      <th>#</th><th>Spawn</th><th class="num">n</th><th class="num">mediana EXP/h</th><th class="num">max EXP/h</th>
-      <th class="num">mediana profit/h</th><th class="num">max profit/h</th><th>lvle w próbce</th><th>Przykładowy hunt</th>
-    </tr></thead><tbody></tbody></table>
+  <main><div class="grid2" style="margin-top:14px">
+    <div class="card">
+      <p class="hero">Sortuj po <b>konsensusie profit/h</b> (sesje + poradniki + gracze, tylko 2026).</p>
+      <table id="tblP"><thead><tr></tr></thead><tbody></tbody></table>
+    </div>
+    <div class="card"><h3 id="chartTitleP" style="margin:4px 0 10px;font-size:1rem">Top 10</h3><div id="chartP"></div><div id="estwrapP"></div></div>
   </div></main>
 </div>
 
@@ -199,8 +190,8 @@
     <h2>4. Gotowe analizy dla Ciebie (ED 114 + EK ~114)</h2>
     <div class="kpi" id="kpi"></div>
     <ul>
-      <li><b>Solo ED 100–200:</b> w próbce wygrywają powtarzalne spawny typu Hero/Lizard/Were — sortuj zakładkę Spawny po medianie i bierz te z n ≥ 2.</li>
-      <li><b>Duo ED+EK:</b> sesji duo w sieci jest mało, ale są — filtruj ranking party na „duo/team” i szukaj spawnów, gdzie EK tankuje boxa (share +30% robi robotę tylko przy gęstym pullu).</li>
+      <li><b>Solo ED 100–200:</b> wybierz swój przedział u góry — bierz spawny z dużą liczbą sesji i wysoką zgodnością źródeł.</li>
+      <li><b>Duo ED+EK:</b> filtruj ranking na „duo/team” i szukaj spawnów, gdzie EK tankuje boxa (share +35% robi robotę tylko przy gęstym pullu).</li>
       <li><b>Profit:</b> poluj na spawny z lootem stackowalnym + imbu-itemami; jedno „Darklight”-style 3 kk/h to zwykle boss-luck, nie norma — patrz mediana, nie max.</li>
       <li><b>Przed huntem:</b> sprawdź boosted creature dnia i czy macie prey na dany typ; po patchach balansujących odczekaj tydzień z oceną spawna.</li>
     </ul>

@@ -47,6 +47,17 @@
 <script>
 const $ = id => document.getElementById(id);
 const fmt = n => (Number(n) || 0).toLocaleString("pl-PL");
+function fmtK(n) {
+  const v = Number(n);
+  if (!isFinite(v) || n === "" || n === undefined || n === null) return "—";
+  const sign = v < 0 ? "−" : "";
+  const a = Math.abs(v);
+  const pl = (x, d) => x.toLocaleString("pl-PL", { maximumFractionDigits: d });
+  if (a >= 1000000) return sign + pl(a / 1000000, 1) + "M";
+  if (a >= 10000) return sign + Math.round(a / 1000) + " tys.";
+  if (a >= 1000) return sign + pl(a / 1000, 1) + " tys.";
+  return sign + pl(a, 0);
+}
 const state = { f: "all", s: "fair", q: "", rows: [] };
 function parseCSV(text) {
   const rows = []; let cur = [""], qq = false;
@@ -79,9 +90,9 @@ function render() {
   rows.sort((a, b) => state.s === "fair" ? (Number(b.fair) || 0) - (Number(a.fair) || 0) : (a.item || "").localeCompare(b.item || ""));
   document.querySelector("#tbl tbody").innerHTML = rows.map((r, i) =>
     `<tr><td>${i + 1}</td><td><a href="item.html?name=${encodeURIComponent(r.item)}">${r.item}</a></td>
-     <td class="num">${r.fair ? fmt(r.fair) : "—"}</td><td>${tags(r.imbuements)}</td>
+     <td class="num">${r.fair ? fmtK(r.fair) : "—"}</td><td>${tags(r.imbuements)}</td>
      <td>${tags(r.delivery_npcs)}${r.delivery_bands ? " " + tags(r.delivery_bands) : ""}</td>
-     <td class="num">${r.npc_price ? fmt(r.npc_price) : "—"}</td></tr>`).join("")
+     <td class="num">${r.npc_price ? fmtK(r.npc_price) : "—"}</td></tr>`).join("")
     || `<tr><td colspan="6">Brak.</td></tr>`;
 }
 fetch("data/item_tags.csv").then(r => r.text()).then(t => {

@@ -53,12 +53,12 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
   ok(links.some(h => h && h.startsWith("spawn.html?spawn=")), "index EXP: linki do spawn.html");
   ok(links.some(h => h && h.startsWith("https://www.hunt-analyser.com/")), "index EXP: linki do sesji zrodlowych");
 
-  // --- index: tryb profit (policzony) ---
-  idx.window.document.getElementById("mProfit").click();
+  // --- widok profit (konsensus) ---
+  idx.window.document.getElementById("tProfit").click();
   await wait(1200);
-  const prows = idx.window.document.querySelectorAll("#tbl tbody tr");
-  const ptxt = idx.window.document.querySelector("#tbl tbody").textContent;
-  ok(prows.length > 1 && /%/.test(ptxt), `index PROFIT: wierszy=${prows.length} z kolumna pokrycia`);
+  const prows = idx.window.document.querySelectorAll("#tblP tbody tr");
+  const ptxt = idx.window.document.querySelector("#tblP tbody").textContent;
+  ok(prows.length > 1 && /źr/.test(ptxt), `index PROFIT: wierszy=${prows.length} z kolumna zgodnosci`);
   await wait(800);
   const est = idx.window.document.getElementById("estwrap").textContent;
   ok(/Szacunki|%/.test(est) || prows.length >= 3, "index PROFIT: fallback szacunkow lub >=3 wiersze");
