@@ -3,7 +3,9 @@
 Zapisuje: world_data, market_values (paginacja skip/limit), item_history dla TOP-N
 najbardziej handlowanych itemów + item_metadata. To pokrywa wymóg "historia z tego miesiąca".
 """
+import argparse
 import datetime as dt
+import glob
 import json
 import pathlib
 import urllib.parse
@@ -17,11 +19,10 @@ SERVER = cfg.get("world", "Nevia")
 OUT = ROOT / "data" / "raw" / dt.date.today().isoformat()
 OUT.mkdir(parents=True, exist_ok=True)
 import os
-import time
-import urllib.error
 MKT = cfg.get("market", {})
 TOP_N_HISTORY = int(os.environ.get("TOP_N_HISTORY", MKT.get("top_n_history", 150)))
-HISTORY_DAYS = int(os.environ.get("HISTORY_DAYS", MKT.get("history_days", 30)))
+HISTORY_DAYS = int(os.environ.get("HISTORY_DAYS", MKT.get("history_days", 90)))
+DAILY_HIST_MAX = int(os.environ.get("DAILY_HIST_MAX", MKT.get("daily_hist_max", 40)))
 PAGE_LIMIT = 200  # mniejsze strony = mniej 429
 REQ_DELAY = 0.6  # odstep miedzy requestami (API ma rate limit)
 
@@ -64,14 +65,25 @@ else:
         skip += PAGE_LIMIT
     vals_path.write_text(json.dumps(all_rows), encoding="utf-8")
 
-# TOP-N po miesiecznym wolumenie -> historia (to sa kandydaci do re-wyceny loota).
-# Zapis przyrostowy + resume: przerwany run kontynuuje od miejsca stopu.
-ranked = sorted(all_rows, key=lambda r: (r.get("month_sold", 0) or 0) + (r.get("month_bought", 0) or 0), reverse=True)
-top_ids = [r["id"] for r in ranked[:TOP_N_HISTORY] if r.get("id")]
+# TOP-N po miesiecznym wolumenie -> historia.
+# Seed z poprzednich dni + dziennie tylko DAILY_HIST_MAX top (reszte dobiera sobota).
+import glob as _glob
 hist_path = OUT / "market_history_top.json"
 hist = json.loads(hist_path.read_text(encoding="utf-8")) if hist_path.exists() else {}
-todo = [i for i in top_ids if str(i) not in hist]
-print(f"history: done={len(hist)} todo={len(todo)}")
+if not hist:
+    prev = sorted(_glob.glob(str(ROOT / "data" / "raw" / "*" / "market_history_top.json")))
+    prev = [p for p in prev if pathlib.Path(p).parent != OUT]
+    if prev:
+        try:
+            hist = json.loads(pathlib.Path(prev[-1]).read_text(encoding="utf-8"))
+            print(f"history seed z {prev[-1]}: {len(hist)} items")
+        except Exception:
+            hist = {}
+ranked = sorted(all_rows, key=lambda r: (r.get("month_sold", 0) or 0) + (r.get("month_bought", 0) or 0), reverse=True)
+top_ids = [r["id"] for r in ranked[:TOP_N_HISTORY] if r.get("id")]
+daily_ids = set(top_ids[:DAILY_HIST_MAX])
+todo = [i for i in top_ids if str(i) not in hist or i in daily_ids]
+print(f"history: done={len(hist)} todo={len(todo)} (dzienny refresh top-{DAILY_HIST_MAX})")
 for i, item_id in enumerate(todo):
     try:
         hist[str(item_id)] = get("/item_history", {"server": SERVER, "item_id": item_id, "days": HISTORY_DAYS})

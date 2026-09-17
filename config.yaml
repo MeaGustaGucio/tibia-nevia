@@ -35,7 +35,8 @@ hunts:
 
 # ---- CENY (api.tibiamarket.top) ----
 market:
-  top_n_history: 150  # historia 30-90d dla top-N (szybki dzienny odswiezacz)
+  top_n_history: 150  # historia 90d dla top-N (szybki dzienny odswiezacz top daily_hist_max)
+  daily_hist_max: 40  # dziennie odswiezane tylko top-40 (reszta z seeda; sobota dobiera wszystko)
   history_days: 90    # glebokosc historii (start_days_ago; API pozwala wiecej)
   full_history_weekly: true  # osobny job sobotni dobiera historie dla WSZYSTKICH itemow (porcjami, resume)
 
