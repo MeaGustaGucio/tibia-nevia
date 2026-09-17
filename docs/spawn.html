@@ -76,6 +76,15 @@ async function getCSV(path) {
     getCSV("data/ranking_exp.csv"), getCSV("data/spawn_items.csv"), getCSV("data/hunt_kills_h.csv"),
     getCSV("data/spawn_profit.csv"), getCSV("data/creature_value.csv"), getCSV("data/item_tags.csv")
   ]);
+  // dociagnij warianty per-bracket (strona spawna nie zna bracketu z linku)
+  for (const b of ["50_100", "100_200", "200_300"]) {
+    for (const [arr, file] of [[ranks, `data/ranking_exp_${b}.csv`], [sprofit, `data/spawn_profit_${b}.csv`]]) {
+      for (const r of await getCSV(file)) {
+        const key = r.id ? "id:" + r.id : "spawn:" + r.spawn;
+        if (!arr.some(x => (x.id ? "id:" + x.id : "spawn:" + x.spawn) === key)) arr.push(r);
+      }
+    }
+  }
   const sprow = sprofit.find(r => r.spawn === spawn);
   const vcByName = {};
   for (const c of cvalues) vcByName[c.creature] = c;

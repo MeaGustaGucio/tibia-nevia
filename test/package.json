@@ -1,0 +1,8 @@
+{
+  "name": "nevia-render-test",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "jsdom": "^24.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+name: render-test
+on:
+  push:
+    paths:
+      - "docs/**"
+      - "test/**"
+  workflow_dispatch:
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: test/package-lock.json
+      - run: npm install
+        working-directory: test
+      - run: node render.test.js
+        working-directory: test
