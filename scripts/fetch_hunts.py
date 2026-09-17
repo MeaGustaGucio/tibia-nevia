@@ -258,6 +258,24 @@ def main() -> None:
     merged_m = [m for m in all_members if m["hunt_id"] in new_ids]
     merged_k = [k for k in all_kills if k["hunt_id"] in new_ids]
     hp, mp, kp = OUT / day / "hunts.csv", OUT / day / "members.csv", OUT / day / "hunt_kills.csv"
+    # Tryb pojedynczy DOKLEJA do pliku z danego dnia (dedup po id) — nic nie ginie.
+    if single:
+        if hp.exists():
+            with open(hp, encoding="utf-8") as f:
+                for r in csv.DictReader(f):
+                    if r["id"] not in merged_h:
+                        merged_h[r["id"]] = r
+        if mp.exists():
+            with open(mp, encoding="utf-8") as f:
+                for r in csv.DictReader(f):
+                    if r["hunt_id"] not in new_ids:
+                        merged_m.append(r)
+        if kp.exists():
+            with open(kp, encoding="utf-8") as f:
+                for r in csv.DictReader(f):
+                    if r["hunt_id"] not in new_ids:
+                        merged_k.append(r)
+        new_ids = set(merged_h)
     with open(hp, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=HUNT_FIELDS)
         w.writeheader()

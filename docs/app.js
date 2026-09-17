@@ -31,10 +31,11 @@ async function getCSV(path) {
 async function loadRank() {
   try {
     const info = await (await fetch("data/build_info.json")).json();
-    $("meta").textContent = `zrzut ${info.date} • profit-huntów (≤${info.recent_days}d): ${info.hunts} • exp-huntów (≤${info.recent_days_exp || info.recent_days}d): ${info.hunts_exp ?? info.hunts} • sesji ≤31d: ${info.sessions_le31d ?? "?"} / ≤62d: ${info.sessions_le62d ?? "?"}`;
+    $("meta").textContent = `zrzut ${info.date} • profit-huntów (≤${info.recent_days}d): ${info.hunts} • exp-huntów (≤${info.recent_days_exp || info.recent_days}d): ${info.hunts_exp ?? info.hunts} • sesji ≤31d: ${info.sessions_le31d ?? "?"} / ≤62d: ${info.sessions_le62d ?? "?"} • eventów wykluczono: ${info.events_excluded ?? 0}`;
   } catch { $("meta").textContent = "brak build_info.json — odpal build_gold.py"; }
-  const file = state.mode === "exp" ? `ranking_exp_${state.bracket}` : `ranking_profit_${state.bracket}`;
+  const file = state.mode === "exp" ? `ranking_exp_${state.bracket}` : `spawn_profit_${state.bracket}`;
   state.rows = await getCSV(`data/${file}.csv`);
+  state.isProfit = state.mode !== "exp";
   renderRank();
 }
 
@@ -48,8 +49,11 @@ function filtered() {
 }
 
 function renderRank() {
-  const key = state.mode === "exp" ? "xp_h" : "loot_h";
+  if (state.isProfit) { renderProfit(); return; }
+  const key = "xp_h";
   const rows = filtered().sort((a, b) => Number(b[key]) - Number(a[key]));
+  document.querySelector("#tbl thead tr").innerHTML =
+    `<th>#</th><th>Spawn</th><th>Czas</th><th>Party</th><th class="num">EXP/h</th><th class="num">Loot/h*</th><th>Data</th><th>Link</th>`;
   document.querySelector("#tbl tbody").innerHTML = rows.map((r, i) => `<tr>
     <td>${i + 1}</td><td><a href="spawn.html?spawn=${encodeURIComponent(r.spawn || "")}">${r.spawn || "—"}</a></td>
     <td>${r.duration || ""}</td><td>${r.party_comp || ""}</td>
@@ -58,9 +62,34 @@ function renderRank() {
     <td>${r.hunt_date || ""}</td><td><a href="${r.url}" target="_blank" rel="noopener">hunt</a></td>
   </tr>`).join("") || `<tr><td colspan="8">Brak danych dla tych filtrów.</td></tr>`;
   const max = Math.max(1, ...rows.slice(0, 15).map(r => Number(r[key])));
-  $("chartTitle").textContent = `Top 15 — ${state.mode === "exp" ? "EXP/h" : "Profit/h"} (${state.bracket.replace("_", "–")})`;
+  $("chartTitle").textContent = `Top 15 — EXP/h (${state.bracket.replace("_", "–")})`;
   $("chart").innerHTML = rows.slice(0, 15).map(r => {
     const v = Number(r[key]), pct = Math.max(1, Math.round(v / max * 100));
+    return `<div class="bar-row"><span>${r.spawn || "—"}</span>
+      <div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div>
+      <span style="text-align:right">${fmt(v)}</span></div>`;
+  }).join("") || "Brak danych.";
+}
+
+function renderProfit() {
+  // Profit/h POLICZONY: suma (kille/h × wartosc-per-kill), coverage = udzial wycenionych killi.
+  let rows = state.rows.filter(r => {
+    if (state.q && !(r.spawn || "").toLowerCase().includes(state.q)) return false;
+    return true;
+  }).sort((a, b) => Number(b.profit_computed_h) - Number(a.profit_computed_h));
+  document.querySelector("#tbl thead tr").innerHTML =
+    `<th>#</th><th>Spawn</th><th class="num">Profit/h*</th><th class="num">Pokrycie</th><th class="num">Sesji</th><th class="num">Zmierzony loot/h</th>`;
+  document.querySelector("#tbl tbody").innerHTML = rows.map((r, i) => `<tr>
+    <td>${i + 1}</td><td><a href="spawn.html?spawn=${encodeURIComponent(r.spawn || "")}">${r.spawn || "—"}</a></td>
+    <td class="num">${fmt(r.profit_computed_h)}</td>
+    <td class="num">${Math.round(Number(r.coverage || 0) * 100)}%</td>
+    <td class="num">${r.n_sessions}</td>
+    <td class="num">${fmt(r.measured_loot_h)}</td>
+  </tr>`).join("") || `<tr><td colspan="6">Brak danych dla tych filtrów.</td></tr>`;
+  const max = Math.max(1, ...rows.slice(0, 15).map(r => Number(r.profit_computed_h)));
+  $("chartTitle").textContent = `Top 15 — profit/h policzony (${state.bracket.replace("_", "–")})`;
+  $("chart").innerHTML = rows.slice(0, 15).map(r => {
+    const v = Number(r.profit_computed_h), pct = Math.max(1, Math.round(v / max * 100));
     return `<div class="bar-row"><span>${r.spawn || "—"}</span>
       <div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div>
       <span style="text-align:right">${fmt(v)}</span></div>`;

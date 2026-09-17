@@ -5,6 +5,7 @@ Wyjscie: data/raw/<dzis>/orderbook_nevia.json: {item_id: {sellers, buyers, updat
 Resume: istniejacy plik z danego dnia jest doczytywany. Pacing 0.6s + retry na 429.
 Stdlib + pyyaml (config).
 """
+import argparse
 import datetime as dt
 import glob
 import json
@@ -25,6 +26,7 @@ SERVER = cfg.get("world", "Nevia")
 OB = cfg.get("orderbook", {})
 WATCH = [w.lower() for w in OB.get("watchlist", [])]
 MAX_ITEMS = int(OB.get("max_items", 300))
+DAILY_MAX = int(OB.get("daily_max", 40))  # dziennie tylko tyle (watchlista + top volume)
 
 
 def get(path: str, params: dict, retries: int = 6):
@@ -65,6 +67,9 @@ def loot_items() -> set[str]:
 
 
 def main() -> None:
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--full", action="store_true", help="pelny refresh wszystkich targetow (job tygodniowy)")
+    a = ap.parse_args()
     meta = load_metadata()
     if not meta:
         print("BRAK metadata (uruchom najpierw fetch_market.py) — koniec")
@@ -96,7 +101,31 @@ def main() -> None:
 
     path = OUT / "orderbook_nevia.json"
     snap = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    if not snap:
+        # Seed z poprzednich dni (ciaglosc) — dzisiejszy run tylko odswieza.
+        prev = sorted(glob.glob(str(ROOT / "data" / "raw" / "*" / "orderbook_nevia.json")))
+        prev = [p for p in prev if pathlib.Path(p).parent != OUT]
+        if prev:
+            snap = json.loads(pathlib.Path(prev[-1]).read_text(encoding="utf-8"))
+            print(f"seed z {prev[-1]}: {len(snap)} items")
+    if not a.full:
+        # Dziennie: watchlista + top po wolumenie (szybko, bez throttlingu).
+        # Pelny refresh robi job tygodniowy (--full).
+        vols = {}
+        for p in sorted(glob.glob(str(ROOT / "data" / "raw" / "*" / "market_values_nevia.json")))[-2:]:
+            try:
+                for row in json.loads(pathlib.Path(p).read_text(encoding="utf-8")):
+                    v = (row.get("month_sold", 0) or 0) + (row.get("month_bought", 0) or 0)
+                    vols[str(row.get("id"))] = max(vols.get(str(row.get("id")), 0), v)
+            except Exception:
+                pass
+        watch_ids = wanted[:len(WATCH)]  # watchlista jest zawsze na poczatku listy
+        rest = sorted((i for i in wanted if i not in watch_ids),
+                      key=lambda i: vols.get(str(i), 0), reverse=True)
+        wanted = watch_ids + rest[:max(0, DAILY_MAX - len(watch_ids))]
+        print(f"tryb dzienny: refresh {len(wanted)} items (pelny w sobote)")
     todo = [i for i in wanted if str(i) not in snap]
+    # odswiez tez wpisy starsze niz 8 dni (rotacja w ramach dziennego limitu)
     print(f"done={len(snap)} todo={len(todo)}")
     for i, item_id in enumerate(todo):
         try:

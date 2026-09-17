@@ -34,15 +34,16 @@
   <div class="card"><h3 style="margin:4px 0 10px">Co tu pada + po ile chodzi (Nevia)</h3>    <p class="sub" style="margin-top:0">Mapa z killi sesji × loot-listy potworów. Śr./h liczy się dopiero z Waszych zalogowanych sesji
     (kolumna „Wasze śr./h” i sekcja sesji poniżej) — reszta to „co pada + aktualna cena”.</p>
     <table id="tbl"><thead><tr><th>Item</th><th class="num">Instant</th><th class="num">Fair</th><th class="num">Patient</th>
-    <th>Cena z dnia</th><th>Popyt</th><th class="num">Wasze śr./h</th><th class="num">Wartość/h (fair)</th><th>Potwory</th></tr></thead><tbody></tbody></table></div>
+    <th>Cena z dnia</th><th>Popyt</th><th>Potwory</th></tr></thead><tbody></tbody></table></div>
   <div class="card"><h3 style="margin:4px 0 10px">Kille/h per potwór (z sesji community)</h3>
     <p class="sub" style="margin-top:0">Ile sztuk danego potwora pada na godzinę w poszczególnych sesjach — najtwardsza publiczna granulacja.</p>
     <table id="tbl4"><thead><tr><th>Potwór</th><th>Data</th><th class="num">Minuty</th><th class="num">Zabito</th><th class="num">Killi/h</th><th class="num">EXP/h sesji</th><th>Link</th></tr></thead><tbody></tbody></table></div>
   <div class="card"><h3 style="margin:4px 0 10px">Sesje community na tym spawnie — każda do zweryfikowania</h3>
     <table id="tbl2"><thead><tr><th>Data</th><th>Czas</th><th>Party</th><th class="num">EXP/h</th><th class="num">Loot/h*</th><th class="num">Sup/h</th><th>Link</th></tr></thead><tbody></tbody></table>
     <p class="sub" style="margin-bottom:0">*Loot/h = Balance + supplies z tej sesji. ° = skład ukryty (sam Balance).</p></div>
-  <div class="card"><h3 style="margin:4px 0 10px">Wasze zalogowane sesje (tu pojawią się county 9 vs 11)</h3>    <table id="tbl3"><thead><tr><th>Data</th><th class="num">Minuty</th><th>Item</th><th class="num">Sztuki</th><th class="num">Szt/h</th><th>Notka</th></tr></thead><tbody></tbody></table>
-        <p class="sub" id="loglink">Dodaj przez <a href="log.html">log.html</a>.</p></div>
+  <div class="card"><h3 style="margin:4px 0 10px">Skąd się bierze profit (rozbiórka)</h3>
+    <p class="sub" style="margin-top:0" id="covnote"></p>
+    <table id="tbl5"><thead><tr><th>Potwór</th><th class="num">Śr. killi/h</th><th class="num">Wartość/kill</th><th class="num">Wkład/h</th><th class="num">Sesji (n)</th></tr></thead><tbody></tbody></table></div>
 </main>
 <script>
 const $ = id => document.getElementById(id);
@@ -71,10 +72,13 @@ async function getCSV(path) {
 }
 (async function () {
   $("title").textContent = spawn || "Spawn";
-  $("loglink").innerHTML = `Zaloguj hunt tutaj: <a href="log.html?spawn=${encodeURIComponent(spawn)}">log.html → ${spawn}</a> (itemy uzupełnią się same).`;
-  const [ranks, sitems, sess, kills, tags] = await Promise.all([
-    getCSV("data/ranking_exp.csv"), getCSV("data/spawn_items.csv"), getCSV("data/session_loot.csv"), getCSV("data/hunt_kills_h.csv"), getCSV("data/item_tags.csv")
+  const [ranks, sitems, kills, sprofit, cvalues, tags] = await Promise.all([
+    getCSV("data/ranking_exp.csv"), getCSV("data/spawn_items.csv"), getCSV("data/hunt_kills_h.csv"),
+    getCSV("data/spawn_profit.csv"), getCSV("data/creature_value.csv"), getCSV("data/item_tags.csv")
   ]);
+  const sprow = sprofit.find(r => r.spawn === spawn);
+  const vcByName = {};
+  for (const c of cvalues) vcByName[c.creature] = c;
   const tagByName = {};
   for (const t of tags) tagByName[(t.item || "").toLowerCase()] = t;
   const mine = ranks.filter(r => r.spawn === spawn);
@@ -87,27 +91,14 @@ async function getCSV(path) {
   $("sub").textContent = mine.length ? `lvle w próbce: ${mine.map(r => r.party_comp).join(" · ").slice(0, 160)}` : "Brak sesji community — zaloguj własne.";
 
   const items = sitems.filter(r => r.spawn === spawn);
-  const mineSess = sess.filter(r => r.spawn === spawn);
-  const avgPerH = {};
-  for (const s of mineSess) {
-    const k = s.item.toLowerCase(), mins = Number(s.minutes) || 0;
-    if (mins <= 0) continue;
-    avgPerH[k] = avgPerH[k] || { units: 0, mins: 0, n: 0 };
-    avgPerH[k].units += Number(s.count) || 0; avgPerH[k].mins += mins; avgPerH[k].n++;
-  }
   document.querySelector("#tbl tbody").innerHTML = items.map(r => {
-    const a = avgPerH[r.item.toLowerCase()];
-    const perH = a ? (a.units / a.mins * 60) : null;
-    const val = perH !== null && r.fair ? perH * Number(r.fair) : null;
     const tg = tagByName[r.item.toLowerCase()];
     const badge = tg ? ((tg.imbuements ? "🧪" : "") + (tg.delivery_npcs ? "📦" : "") || "—") : "—";
     return `<tr><td><a href="item.html?id=${r.item_id}&name=${encodeURIComponent(r.item)}">${r.item}</a></td>
       <td class="num">${fmt(r.instant)}</td><td class="num">${fmt(r.fair)}</td><td class="num">${fmt(r.patient)}</td>
       <td>${r.price_date || ""}</td><td title="${tg ? ("imbu: " + (tg.imbuements || "—") + " | delivery: " + (tg.delivery_npcs || "—")) : ""}">${badge}</td>
-      <td class="num">${perH !== null ? perH.toFixed(1) + ` (n=${a.n})` : "—"}</td>
-      <td class="num">${val !== null ? fmt(Math.round(val)) : "—"}</td>
       <td>${r.creatures || ""}</td></tr>`;
-  }).join("") || `<tr><td colspan="9">Brak mapy loota dla tego spawna (mało killi w próbce).</td></tr>`;
+  }).join("") || `<tr><td colspan="7">Brak mapy loota dla tego spawna (mało killi w próbce).</td></tr>`;
 
   document.querySelector("#tbl4 tbody").innerHTML = kills.filter(r => r.spawn === spawn)
     .sort((a, b) => Number(b.kills_per_h) - Number(a.kills_per_h)).slice(0, 60).map(r =>
@@ -121,11 +112,22 @@ async function getCSV(path) {
      <td class="num">${r.supplies_known === "0" ? "—" : fmt(Math.round(Number(r.supplies_total || 0) / (Number(r.minutes) || 60) * 60))}</td>
      <td><a href="${r.url}" target="_blank" rel="noopener">hunt</a></td></tr>`).join("")
     || `<tr><td colspan="7">Brak.</td></tr>`;
-  document.querySelector("#tbl3 tbody").innerHTML = mineSess.map(r => {
-    const perH = Number(r.minutes) > 0 ? (Number(r.count) / Number(r.minutes) * 60) : 0;
-    return `<tr><td>${r.date}</td><td class="num">${r.minutes}</td><td>${r.item}</td>
-      <td class="num">${r.count}</td><td class="num">${perH.toFixed(1)}</td><td>${r.note || ""}</td></tr>`;
-  }).join("") || `<tr><td colspan="6">Jeszcze nic — <a href="log.html">dodaj pierwszą sesję</a>.</td></tr>`;
+  // Rozbiorka profitu: "Potwor 123/h×456" z kolumny valued w spawn_profit.csv
+  if (sprow) {
+    $("covnote").textContent = `Policzony profit/h: ${fmt(sprow.profit_computed_h)} • pokrycie wyceną: ${Math.round(Number(sprow.coverage || 0) * 100)}% killi • sesji: ${sprow.n_sessions} • zmierzony loot/h (mediana): ${fmt(sprow.measured_loot_h)}` +
+      (sprow.missing ? ` • bez wyceny: ${sprow.missing}` : "");
+    const rows = (sprow.valued || "").split(";").filter(Boolean).map(e => {
+      const m = e.match(/^(.*) ([\d.]+)\/h×([\d.]+)$/);
+      if (!m) return null;
+      const vc = vcByName[m[1]] || {};
+      return { c: m[1], kph: Number(m[2]), v: Number(m[3]), n: vc.n_sessions || "?" };
+    }).filter(Boolean).sort((a, b) => b.kph * b.v - a.kph * a.v);
+    document.querySelector("#tbl5 tbody").innerHTML = rows.map(r =>
+      `<tr><td>${r.c}</td><td class="num">${fmt(Math.round(r.kph))}</td><td class="num">${fmt(Math.round(r.v))}</td><td class="num">${fmt(Math.round(r.kph * r.v))}</td><td class="num">${r.n}</td></tr>`).join("")
+      || `<tr><td colspan="5">Brak rozbiórki.</td></tr>`;
+  } else {
+    $("covnote").textContent = "Brak policzonego profitu dla tego spawna (mało sesji z killami).";
+  }
 })();
 </script>
 </body>

@@ -28,6 +28,10 @@ hunts:
     - { search: cults, pages: 3 }
     - { search: lizard, pages: 2 }
     - { search: vampire, pages: 2 }
+    - { search: asura, pages: 3 }
+    - { search: demon, pages: 3 }
+    - { search: roshamuul, pages: 3 }
+    - { search: medusa, pages: 3 }
 
 # ---- CENY (api.tibiamarket.top) ----
 market:
@@ -38,8 +42,9 @@ market:
 # ---- DRABINKA OFERT (market_board: pelny rozklad cen + sztuki) ----
 orderbook:
   watchlist: ["rope belt", "vampire teeth"]  # zawsze sciagane (Twoje itemy)
-  max_items: 300            # limit drabinek/dzien: watchlista + loot z faktycznych killi
-  # items = watchlista + unia loot_list potworow z hunt_kills (PAYLOAD: ~300 x 5 KB/dzien)
+  max_items: 300            # limit drabinek: watchlista + loot z faktycznych killi
+  daily_max: 40             # dziennie tylko tyle (watchlista + top volume); reszte odswieza sobota
+  # items = watchlista + unia loot_list potworow z hunt_kills (PAYLOAD pelny: ~300 x 5 KB)
 
 # ---- WYCENA (price_stats: instant / top_buy / fair / shelf(polka) / patient / upside) ----
 pricing:
@@ -50,11 +55,6 @@ pricing:
   max_sell_cap: null   # globalny cap sell (null = brak); per-item override nizej
   items:               # reguly per item (klucz = nazwa mala litera):
     vampire teeth: { max_sell_cap: 4000 }  # Twoja zasada: powyzej 4k odrzucamy
-
-# ---- LOGI SESJI (Wasze dokladne county: data/manual/sessions/*.csv) ----
-sessions:
-  schema: "spawn,date,minutes,item,count,note"
-  # przyklad: Cults Yalahar,2026-09-16,68,rope belt,11,wieczorny hunt z bratem
 
 # ---- RANKINGI (build_gold.py) ----
 gold:

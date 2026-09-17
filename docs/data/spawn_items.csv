@@ -1,552 +1,555 @@
 spawn,item,item_id,instant,fair,patient,price_date,n_sessions_spawn,creatures
 Crypt Warrior,bones,22159,,,,,2,Crypt Warrior
-Crypt Warrior,pelvis bones,11481,84,11,85,2026-09-14 21:36,2,Crypt Warrior
+Crypt Warrior,pelvis bones,11481,84,11,85,2026-09-14 23:36,2,Crypt Warrior
 Crypt Warrior,platinum coins,,,,,,2,Crypt Warrior
-Crypt Warrior,soul orbs,5944,29,20,30,2026-09-14 21:24,2,Crypt Warrior
-Crypt Warrior,unholy bones,10316,,289,,2026-09-14 21:38,2,Crypt Warrior
-Crypt Warrior,white mushrooms,3723,4,3,5,2026-09-14 21:10,2,Crypt Warrior
+Crypt Warrior,soul orbs,5944,29,20,30,2026-09-14 23:24,2,Crypt Warrior
+Crypt Warrior,unholy bones,10316,,289,,2026-09-14 23:38,2,Crypt Warrior
+Crypt Warrior,white mushrooms,3723,4,3,5,2026-09-14 23:10,2,Crypt Warrior
 Edron Vampire Crypts,bones,22159,,,,,1,Bonebeast
-Edron Vampire Crypts,bony tails,10277,,183,,2026-09-14 21:32,1,Bonebeast
+Edron Vampire Crypts,bony tails,10277,,183,,2026-09-14 23:32,1,Bonebeast
 Edron Vampire Crypts,books of necromantic rituals,,,,,,1,Necromancer
-Edron Vampire Crypts,demonic skeletal hands,9647,78,51,79,2026-09-14 21:33,1,Demon Skeleton
+Edron Vampire Crypts,demonic skeletal hands,9647,78,51,79,2026-09-14 23:33,1,Demon Skeleton
 Edron Vampire Crypts,gold coins,,,,,,1,Bonebeast|Demon Skeleton|Necromancer|Vampire|Vampire Bride|Vampire Viscount
 Edron Vampire Crypts,platinum coins,,,,,,1,Vampire Bride
-Edron Vampire Crypts,poison arrows,3448,,1,,2026-09-14 21:24,1,Necromancer
-Edron Vampire Crypts,skulls,3114,,1,,2026-09-14 21:17,1,Bonebeast
-Edron Vampire Crypts,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Vampire Bride
-Edron Vampire Crypts,throwing stars,3287,95,,96,2026-09-14 21:28,1,Demon Skeleton
-Edron Vampire Crypts,vampire teeth,9685,491,300,492,2026-09-14 21:38,1,Vampire Bride
+Edron Vampire Crypts,poison arrows,3448,,1,,2026-09-14 23:24,1,Necromancer
+Edron Vampire Crypts,skulls,3114,,1,,2026-09-14 23:17,1,Bonebeast
+Edron Vampire Crypts,strong mana potions,237,116,100,117,2026-09-14 23:18,1,Vampire Bride
+Edron Vampire Crypts,throwing stars,3287,95,,96,2026-09-14 23:28,1,Demon Skeleton
+Edron Vampire Crypts,vampire teeth,9685,491,300,492,2026-09-14 23:38,1,Vampire Bride
 Port Hope Spider Cave,gold coins,,,,,,2,Giant Spider|Tarantula
-Port Hope Spider Cave,plate armors,3357,348,112,349,2026-09-14 21:02,2,Giant Spider
-Port Hope Spider Cave,poison arrows,3448,,1,,2026-09-14 21:24,2,Giant Spider
-Port Hope Spider Cave,tarantula eggs,10281,,90,,2026-09-14 21:38,2,Tarantula
-Port Hope Water Elementals (South),fish,3578,3,,4,2026-09-14 21:10,1,Water Elemental
+Port Hope Spider Cave,plate armors,3357,348,112,349,2026-09-14 23:02,2,Giant Spider
+Port Hope Spider Cave,poison arrows,3448,,1,,2026-09-14 23:24,2,Giant Spider
+Port Hope Spider Cave,tarantula eggs,10281,,90,,2026-09-14 23:38,2,Tarantula
+Port Hope Water Elementals (South),fish,3578,3,,4,2026-09-14 23:10,1,Water Elemental
 Port Hope Water Elementals (South),gold coins,,,,,,1,Quara Mantassin Scout|Water Elemental
 Port Hope Water Elementals (South),platinum coins,,,,,,1,Water Elemental
-Port Hope Water Elementals (South),strong health potions,236,10,4,11,2026-09-14 21:18,1,Water Elemental
-Port Hope Water Elementals (South),strong mana potions,237,116,100,117,2026-09-14 21:18,1,Water Elemental
-Liberty Bay Quara Grotto,fish,3578,3,,4,2026-09-14 21:10,1,Quara Hydromancer Scout
+Port Hope Water Elementals (South),strong health potions,236,10,4,11,2026-09-14 23:18,1,Water Elemental
+Port Hope Water Elementals (South),strong mana potions,237,116,100,117,2026-09-14 23:18,1,Water Elemental
+Liberty Bay Quara Grotto,fish,3578,3,,4,2026-09-14 23:10,1,Quara Hydromancer Scout
 Liberty Bay Quara Grotto,gold coins,,,,,,1,Quara Constrictor|Quara Constrictor Scout|Quara Hydromancer|Quara Hydromancer Scout|Quara Mantassin|Quara Mantassin Scout
-Liberty Bay Quara Grotto,great health potions,239,14,,15,2026-09-14 21:18,1,Quara Pincher
-Liberty Bay Quara Grotto,mantassin tails,11489,1274,932,1275,2026-09-14 21:35,1,Quara Mantassin
+Liberty Bay Quara Grotto,great health potions,239,14,,15,2026-09-14 23:18,1,Quara Pincher
+Liberty Bay Quara Grotto,mantassin tails,11489,1274,932,1275,2026-09-14 23:35,1,Quara Mantassin
 Liberty Bay Quara Grotto,platinum coins,,,,,,1,Quara Pincher
-Liberty Bay Quara Grotto,quara bones,11491,599,460,600,2026-09-14 21:37,1,Quara Predator|Quara Predator Scout
-Liberty Bay Quara Grotto,quara eyes,11488,1948,1143,1949,2026-09-14 21:37,1,Quara Hydromancer|Quara Hydromancer Scout
-Liberty Bay Quara Grotto,quara pincers,11490,,356,,2026-09-14 21:37,1,Quara Pincher|Quara Pincher Scout
-Liberty Bay Quara Grotto,quara tentacles,11487,1374,,1375,2026-09-14 21:37,1,Quara Constrictor|Quara Constrictor Scout
-Liberty Bay Quara Grotto,shrimp,3581,13,2,14,2026-09-14 21:10,1,Quara Constrictor Scout|Quara Hydromancer Scout
-Yalahar Bog Raiders Central,boggy dreads,9667,2166,1494,2167,2026-09-14 21:32,1,Bog Raider
-Yalahar Bog Raiders Central,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Nightmare
+Liberty Bay Quara Grotto,quara bones,11491,599,460,600,2026-09-14 23:37,1,Quara Predator|Quara Predator Scout
+Liberty Bay Quara Grotto,quara eyes,11488,1948,1143,1949,2026-09-14 23:37,1,Quara Hydromancer|Quara Hydromancer Scout
+Liberty Bay Quara Grotto,quara pincers,11490,,356,,2026-09-14 23:37,1,Quara Pincher|Quara Pincher Scout
+Liberty Bay Quara Grotto,quara tentacles,11487,1374,,1375,2026-09-14 23:37,1,Quara Constrictor|Quara Constrictor Scout
+Liberty Bay Quara Grotto,shrimp,3581,13,2,14,2026-09-14 23:10,1,Quara Constrictor Scout|Quara Hydromancer Scout
+Yalahar Bog Raiders Central,boggy dreads,9667,2166,1494,2167,2026-09-14 23:32,1,Bog Raider
+Yalahar Bog Raiders Central,demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Nightmare
 Yalahar Bog Raiders Central,essences of a bad dream,,,,,,1,Nightmare
 Yalahar Bog Raiders Central,flasks of demonic blood,,,,,,1,Nightmare
 Yalahar Bog Raiders Central,globs of acid slime ,,,,,,1,Acid Blob
 Yalahar Bog Raiders Central,globs of tar ,,,,,,1,Death Blob
 Yalahar Bog Raiders Central,gold coins,,,,,,1,Bog Raider|Mutated Tiger|Nightmare|Nightmare Scion
-Yalahar Bog Raiders Central,ham,3582,14,,15,2026-09-14 21:10,1,Nightmare
+Yalahar Bog Raiders Central,ham,3582,14,,15,2026-09-14 23:10,1,Nightmare
 Yalahar Bog Raiders Central,meat,3577,,,,,1,Mutated Tiger|Nightmare Scion
 Yalahar Bog Raiders Central,sabreteeth,,,,,,1,Mutated Tiger
-Yalahar Bog Raiders Central,scythe legs,10312,,455,,2026-09-14 21:37,1,Nightmare
-Yalahar Bog Raiders Central,soul orbs,5944,29,20,30,2026-09-14 21:24,1,Nightmare
-Yalahar Bog Raiders Central,striped fur,10293,989,503,990,2026-09-14 21:38,1,Mutated Tiger
-Edron Were cave1,beetroots,8017,8,,9,2026-09-14 21:09,1,Werebadger
-Edron Were cave1,broken helmets,11453,31,8,32,2026-09-14 21:32,1,Orc Warrior
-Edron Were cave1,fox paws,27462,,918,,2026-09-14 21:34,1,Werefox
+Yalahar Bog Raiders Central,scythe legs,10312,,455,,2026-09-14 23:37,1,Nightmare
+Yalahar Bog Raiders Central,soul orbs,5944,29,20,30,2026-09-14 23:24,1,Nightmare
+Yalahar Bog Raiders Central,striped fur,10293,989,503,990,2026-09-14 23:38,1,Mutated Tiger
+Edron Were cave1,beetroots,8017,8,,9,2026-09-14 23:09,1,Werebadger
+Edron Were cave1,broken helmets,11453,31,8,32,2026-09-14 23:32,1,Orc Warrior
+Edron Were cave1,fox paws,27462,,918,,2026-09-14 23:34,1,Werefox
 Edron Were cave1,gold coins,,,,,,1,Orc|Orc Spearman|Orc Warrior|Poison Spider|Werebadger|Werebear
-Edron Were cave1,ham,3582,14,,15,2026-09-14 21:10,1,Werebear
+Edron Were cave1,ham,3582,14,,15,2026-09-14 23:10,1,Werebear
 Edron Were cave1,meat,3577,,,,,1,Orc|Orc Spearman|Orc Warrior
-Edron Were cave1,plate shields,3410,,10,,2026-09-14 21:19,1,Werewolf
+Edron Were cave1,plate shields,3410,,10,,2026-09-14 23:19,1,Werewolf
 Edron Were cave1,platinum coins,,,,,,1,Werebadger|Werebear|Wereboar|Werefox
-Edron Were cave1,spears,3277,94,1,95,2026-09-14 21:28,1,Orc Spearman
-Edron Were cave1,studded legs,3362,39,,40,2026-09-14 21:12,1,Orc Spearman
-Edron Were cave1,werebadger claws,22051,,688,,2026-09-14 21:39,1,Werebadger
-Edron Were cave1,werebadger skulls,22055,999,,1000,2026-09-14 21:39,1,Werebadger
-Edron Were cave1,werebear fur,22057,2789,2174,2790,2026-09-14 21:39,1,Werebear
-Edron Were cave1,werebear skulls,22056,,1865,,2026-09-14 21:39,1,Werebear
-Edron Were cave1,wereboar hooves,22053,148,96,149,2026-09-14 21:39,1,Wereboar
-Edron Were cave1,wereboar tusks,22054,,942,,2026-09-14 21:39,1,Wereboar
-Edron Were cave1,werefox tails,27463,1869,1328,1870,2026-09-14 21:39,1,Werefox
-Edron Were cave1,werewolf fangs,22052,197,102,198,2026-09-14 21:39,1,Werewolf
-Edron Were cave1,werewolf fur,10317,,1223,,2026-09-14 21:39,1,Werewolf
-Edron Were cave2,beetroots,8017,8,,9,2026-09-14 21:09,1,Werebadger
-Edron Were cave2,fox paws,27462,,918,,2026-09-14 21:34,1,Werefox
+Edron Were cave1,spears,3277,94,1,95,2026-09-14 23:28,1,Orc Spearman
+Edron Were cave1,studded legs,3362,39,,40,2026-09-14 23:12,1,Orc Spearman
+Edron Were cave1,werebadger claws,22051,,688,,2026-09-14 23:39,1,Werebadger
+Edron Were cave1,werebadger skulls,22055,999,,1000,2026-09-14 23:39,1,Werebadger
+Edron Were cave1,werebear fur,22057,2789,2174,2790,2026-09-14 23:39,1,Werebear
+Edron Were cave1,werebear skulls,22056,,1865,,2026-09-14 23:39,1,Werebear
+Edron Were cave1,wereboar hooves,22053,148,96,149,2026-09-14 23:39,1,Wereboar
+Edron Were cave1,wereboar tusks,22054,,942,,2026-09-14 23:39,1,Wereboar
+Edron Were cave1,werefox tails,27463,1869,1328,1870,2026-09-14 23:39,1,Werefox
+Edron Were cave1,werewolf fangs,22052,197,102,198,2026-09-14 23:39,1,Werewolf
+Edron Were cave1,werewolf fur,10317,,1223,,2026-09-14 23:39,1,Werewolf
+Edron Were cave2,beetroots,8017,8,,9,2026-09-14 23:09,1,Werebadger
+Edron Were cave2,fox paws,27462,,918,,2026-09-14 23:34,1,Werefox
 Edron Were cave2,gold coins,,,,,,1,Werebadger|Werebear|Wereboar|Werefox|Werewolf
-Edron Were cave2,ham,3582,14,,15,2026-09-14 21:10,1,Werebear
-Edron Were cave2,plate shields,3410,,10,,2026-09-14 21:19,1,Werewolf
+Edron Were cave2,ham,3582,14,,15,2026-09-14 23:10,1,Werebear
+Edron Were cave2,plate shields,3410,,10,,2026-09-14 23:19,1,Werewolf
 Edron Were cave2,platinum coins,,,,,,1,Werebadger|Werebear|Wereboar|Werefox
-Edron Were cave2,werebadger claws,22051,,688,,2026-09-14 21:39,1,Werebadger
-Edron Were cave2,werebadger skulls,22055,999,,1000,2026-09-14 21:39,1,Werebadger
-Edron Were cave2,werebear fur,22057,2789,2174,2790,2026-09-14 21:39,1,Werebear
-Edron Were cave2,werebear skulls,22056,,1865,,2026-09-14 21:39,1,Werebear
-Edron Were cave2,wereboar hooves,22053,148,96,149,2026-09-14 21:39,1,Wereboar
-Edron Were cave2,wereboar tusks,22054,,942,,2026-09-14 21:39,1,Wereboar
-Edron Were cave2,werefox tails,27463,1869,1328,1870,2026-09-14 21:39,1,Werefox
-Edron Were cave2,werewolf fangs,22052,197,102,198,2026-09-14 21:39,1,Werewolf
-Edron Were cave2,werewolf fur,10317,,1223,,2026-09-14 21:39,1,Werewolf
-Edron Were cave3,beetroots,8017,8,,9,2026-09-14 21:09,1,Werebadger
-Edron Were cave3,fox paws,27462,,918,,2026-09-14 21:34,1,Werefox
+Edron Were cave2,werebadger claws,22051,,688,,2026-09-14 23:39,1,Werebadger
+Edron Were cave2,werebadger skulls,22055,999,,1000,2026-09-14 23:39,1,Werebadger
+Edron Were cave2,werebear fur,22057,2789,2174,2790,2026-09-14 23:39,1,Werebear
+Edron Were cave2,werebear skulls,22056,,1865,,2026-09-14 23:39,1,Werebear
+Edron Were cave2,wereboar hooves,22053,148,96,149,2026-09-14 23:39,1,Wereboar
+Edron Were cave2,wereboar tusks,22054,,942,,2026-09-14 23:39,1,Wereboar
+Edron Were cave2,werefox tails,27463,1869,1328,1870,2026-09-14 23:39,1,Werefox
+Edron Were cave2,werewolf fangs,22052,197,102,198,2026-09-14 23:39,1,Werewolf
+Edron Were cave2,werewolf fur,10317,,1223,,2026-09-14 23:39,1,Werewolf
+Edron Were cave3,beetroots,8017,8,,9,2026-09-14 23:09,1,Werebadger
+Edron Were cave3,fox paws,27462,,918,,2026-09-14 23:34,1,Werefox
 Edron Were cave3,gold coins,,,,,,1,Werebadger|Werebear|Wereboar|Werefox|Werewolf
-Edron Were cave3,ham,3582,14,,15,2026-09-14 21:10,1,Werebear
-Edron Were cave3,plate shields,3410,,10,,2026-09-14 21:19,1,Werewolf
+Edron Were cave3,ham,3582,14,,15,2026-09-14 23:10,1,Werebear
+Edron Were cave3,plate shields,3410,,10,,2026-09-14 23:19,1,Werewolf
 Edron Were cave3,platinum coins,,,,,,1,Werebadger|Werebear|Wereboar|Werefox
-Edron Were cave3,werebadger claws,22051,,688,,2026-09-14 21:39,1,Werebadger
-Edron Were cave3,werebadger skulls,22055,999,,1000,2026-09-14 21:39,1,Werebadger
-Edron Were cave3,werebear fur,22057,2789,2174,2790,2026-09-14 21:39,1,Werebear
-Edron Were cave3,werebear skulls,22056,,1865,,2026-09-14 21:39,1,Werebear
-Edron Were cave3,wereboar hooves,22053,148,96,149,2026-09-14 21:39,1,Wereboar
-Edron Were cave3,wereboar tusks,22054,,942,,2026-09-14 21:39,1,Wereboar
-Edron Were cave3,werefox tails,27463,1869,1328,1870,2026-09-14 21:39,1,Werefox
-Edron Were cave3,werewolf fangs,22052,197,102,198,2026-09-14 21:39,1,Werewolf
-Edron Were cave3,werewolf fur,10317,,1223,,2026-09-14 21:39,1,Werewolf
-Edron Werecave with 5 bosses,beetroots,8017,8,,9,2026-09-14 21:09,1,Werebadger
-Edron Werecave with 5 bosses,fox paws,27462,,918,,2026-09-14 21:34,1,Werefox
+Edron Were cave3,werebadger claws,22051,,688,,2026-09-14 23:39,1,Werebadger
+Edron Were cave3,werebadger skulls,22055,999,,1000,2026-09-14 23:39,1,Werebadger
+Edron Were cave3,werebear fur,22057,2789,2174,2790,2026-09-14 23:39,1,Werebear
+Edron Were cave3,werebear skulls,22056,,1865,,2026-09-14 23:39,1,Werebear
+Edron Were cave3,wereboar hooves,22053,148,96,149,2026-09-14 23:39,1,Wereboar
+Edron Were cave3,wereboar tusks,22054,,942,,2026-09-14 23:39,1,Wereboar
+Edron Were cave3,werefox tails,27463,1869,1328,1870,2026-09-14 23:39,1,Werefox
+Edron Were cave3,werewolf fangs,22052,197,102,198,2026-09-14 23:39,1,Werewolf
+Edron Were cave3,werewolf fur,10317,,1223,,2026-09-14 23:39,1,Werewolf
+Edron Werecave with 5 bosses,beetroots,8017,8,,9,2026-09-14 23:09,1,Werebadger
+Edron Werecave with 5 bosses,fox paws,27462,,918,,2026-09-14 23:34,1,Werefox
 Edron Werecave with 5 bosses,gold coins,,,,,,1,Werebadger|Werebear|Wereboar|Werefox|Werewolf
-Edron Werecave with 5 bosses,ham,3582,14,,15,2026-09-14 21:10,1,Werebear
-Edron Werecave with 5 bosses,plate shields,3410,,10,,2026-09-14 21:19,1,Werewolf
+Edron Werecave with 5 bosses,ham,3582,14,,15,2026-09-14 23:10,1,Werebear
+Edron Werecave with 5 bosses,plate shields,3410,,10,,2026-09-14 23:19,1,Werewolf
 Edron Werecave with 5 bosses,platinum coins,,,,,,1,Werebadger|Werebear|Wereboar|Werefox
-Edron Werecave with 5 bosses,werebadger claws,22051,,688,,2026-09-14 21:39,1,Werebadger
-Edron Werecave with 5 bosses,werebadger skulls,22055,999,,1000,2026-09-14 21:39,1,Werebadger
-Edron Werecave with 5 bosses,werebear fur,22057,2789,2174,2790,2026-09-14 21:39,1,Werebear
-Edron Werecave with 5 bosses,werebear skulls,22056,,1865,,2026-09-14 21:39,1,Werebear
-Edron Werecave with 5 bosses,wereboar hooves,22053,148,96,149,2026-09-14 21:39,1,Wereboar
-Edron Werecave with 5 bosses,wereboar tusks,22054,,942,,2026-09-14 21:39,1,Wereboar
-Edron Werecave with 5 bosses,werefox tails,27463,1869,1328,1870,2026-09-14 21:39,1,Werefox
-Edron Werecave with 5 bosses,werewolf fangs,22052,197,102,198,2026-09-14 21:39,1,Werewolf
-Edron Werecave with 5 bosses,werewolf fur,10317,,1223,,2026-09-14 21:39,1,Werewolf
-Exotic cave spider -1 -2   MK 188,dark mushrooms,3728,99,82,100,2026-09-14 21:10,1,Exotic Bat
-Exotic cave spider -1 -2   MK 188,great health potions,239,14,,15,2026-09-14 21:18,1,Exotic Cave Spider
-Exotic cave spider -1 -2   MK 188,great mana potions,53161,,32,,2026-06-22 22:11,1,Exotic Bat
-Exotic cave spider -1 -2   MK 188,green mushrooms,3732,99,88,100,2026-09-14 21:10,1,Exotic Bat
+Edron Werecave with 5 bosses,werebadger claws,22051,,688,,2026-09-14 23:39,1,Werebadger
+Edron Werecave with 5 bosses,werebadger skulls,22055,999,,1000,2026-09-14 23:39,1,Werebadger
+Edron Werecave with 5 bosses,werebear fur,22057,2789,2174,2790,2026-09-14 23:39,1,Werebear
+Edron Werecave with 5 bosses,werebear skulls,22056,,1865,,2026-09-14 23:39,1,Werebear
+Edron Werecave with 5 bosses,wereboar hooves,22053,148,96,149,2026-09-14 23:39,1,Wereboar
+Edron Werecave with 5 bosses,wereboar tusks,22054,,942,,2026-09-14 23:39,1,Wereboar
+Edron Werecave with 5 bosses,werefox tails,27463,1869,1328,1870,2026-09-14 23:39,1,Werefox
+Edron Werecave with 5 bosses,werewolf fangs,22052,197,102,198,2026-09-14 23:39,1,Werewolf
+Edron Werecave with 5 bosses,werewolf fur,10317,,1223,,2026-09-14 23:39,1,Werewolf
+Exotic cave spider -1 -2   MK 188,dark mushrooms,3728,99,82,100,2026-09-14 23:10,1,Exotic Bat
+Exotic cave spider -1 -2   MK 188,great health potions,239,14,,15,2026-09-14 23:18,1,Exotic Cave Spider
+Exotic cave spider -1 -2   MK 188,great mana potions,53161,,32,,2026-06-23 00:11,1,Exotic Bat
+Exotic cave spider -1 -2   MK 188,green mushrooms,3732,99,88,100,2026-09-14 23:10,1,Exotic Bat
 Exotic cave spider -1 -2   MK 188,platinum coins,,,,,,1,Exotic Bat|Exotic Cave Spider
-Exotic cave spider -1 -2   MK 188,poison arrows,3448,,1,,2026-09-14 21:24,1,Exotic Cave Spider
-Asura Palace,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Frost Flower Asura
-Asura Palace,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Palace,flasks of demonic blood,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Palace,gold coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura
-Asura Palace,golden lotus brooches,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Palace,great health potions,239,14,,15,2026-09-14 21:18,1,Frost Flower Asura|Hellspawn
-Asura Palace,hellspawn tails,10304,488,265,489,2026-09-14 21:35,1,Hellspawn
-Asura Palace,peacock feather fans,21975,347,208,348,2026-09-14 21:36,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Palace,platinum coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Palace,soul orbs,5944,29,20,30,2026-09-14 21:24,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Drefia Grim Reaper,blank runes,3147,,7,,2026-09-14 21:19,1,Spectre
+Exotic cave spider -1 -2   MK 188,poison arrows,3448,,1,,2026-09-14 23:24,1,Exotic Cave Spider
+Asura Palace,assassin stars,7368,14,4,15,2026-09-14 23:28,2,Frost Flower Asura
+Asura Palace,centipede legs and gold coins ,,,,,,2,Centipede
+Asura Palace,demonic essence,6499,999,898,1000,2026-09-14 23:33,2,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Palace,flasks of demonic blood,,,,,,2,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Palace,gold coins,,,,,,2,Bug|Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura
+Asura Palace,golden lotus brooches,,,,,,2,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Palace,great health potions,239,14,,15,2026-09-14 23:18,2,Frost Flower Asura|Hellspawn
+Asura Palace,ham,3582,14,,15,2026-09-14 23:10,2,Crocodile
+Asura Palace,hellspawn tails,10304,488,265,489,2026-09-14 23:35,2,Hellspawn
+Asura Palace,peacock feather fans,21975,347,208,348,2026-09-14 23:36,2,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Palace,pieces of crocodile leather,,,,,,2,Crocodile
+Asura Palace,platinum coins,,,,,,2,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Palace,soul orbs,5944,29,20,30,2026-09-14 23:24,2,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Drefia Grim Reaper,blank runes,3147,,7,,2026-09-14 23:19,1,Spectre
 Drefia Grim Reaper,bones,22159,,,,,1,Skeleton Warrior
-Drefia Grim Reaper,candlesticks,2917,9,,10,2026-09-14 21:20,1,Banshee
-Drefia Grim Reaper,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Grim Reaper
+Drefia Grim Reaper,candlesticks,2917,9,,10,2026-09-14 23:20,1,Banshee
+Drefia Grim Reaper,demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Grim Reaper
 Drefia Grim Reaper,flasks of demonic blood,,,,,,1,Grim Reaper
 Drefia Grim Reaper,gold coins,,,,,,1,Banshee|Gravedigger|Grim Reaper|Shadow Pupil|Skeleton Warrior|Spectre
-Drefia Grim Reaper,horoscopes,18926,5299,4177,5300,2026-09-14 21:35,1,Shadow Pupil
-Drefia Grim Reaper,lyres,2949,299,,300,2026-09-14 21:07,1,Spectre
-Drefia Grim Reaper,morning stars,3282,96,34,97,2026-09-14 21:27,1,Tarnished Spirit
-Drefia Grim Reaper,pelvis bones,11481,84,11,85,2026-09-14 21:36,1,Skeleton Warrior
+Drefia Grim Reaper,horoscopes,18926,5299,4177,5300,2026-09-14 23:35,1,Shadow Pupil
+Drefia Grim Reaper,lyres,2949,299,,300,2026-09-14 23:07,1,Spectre
+Drefia Grim Reaper,morning stars,3282,96,34,97,2026-09-14 23:27,1,Tarnished Spirit
+Drefia Grim Reaper,pelvis bones,11481,84,11,85,2026-09-14 23:36,1,Skeleton Warrior
 Drefia Grim Reaper,platinum coins,,,,,,1,Gravedigger
-Drefia Grim Reaper,shadow herbs,3740,19,12,20,2026-09-14 21:08,1,Tarnished Spirit
+Drefia Grim Reaper,shadow herbs,3740,19,12,20,2026-09-14 23:08,1,Tarnished Spirit
 Drefia Grim Reaper,throwing knives,,,,,,1,Stalker
-Drefia Grim Reaper,unholy bones,10316,,289,,2026-09-14 21:38,1,Gravedigger
+Drefia Grim Reaper,unholy bones,10316,,289,,2026-09-14 23:38,1,Gravedigger
 Drefia Grim Reaper,wands of cosmic energy,,,,,,1,Spectre
-Drefia Grim Reaper,white mushrooms,3723,4,3,5,2026-09-14 21:10,1,Skeleton Warrior
-Yalahar Grim Reaper,demonic essence,6499,999,898,1000,2026-09-14 21:33,3,Grim Reaper|Nightmare
+Drefia Grim Reaper,white mushrooms,3723,4,3,5,2026-09-14 23:10,1,Skeleton Warrior
+Yalahar Grim Reaper,demonic essence,6499,999,898,1000,2026-09-14 23:33,3,Grim Reaper|Nightmare
 Yalahar Grim Reaper,essences of a bad dream,,,,,,3,Nightmare
 Yalahar Grim Reaper,flasks of demonic blood,,,,,,3,Grim Reaper|Nightmare
 Yalahar Grim Reaper,gold coins,,,,,,3,Grim Reaper|Nightmare|Nightmare Scion
-Yalahar Grim Reaper,ham,3582,14,,15,2026-09-14 21:10,3,Nightmare
+Yalahar Grim Reaper,ham,3582,14,,15,2026-09-14 23:10,3,Nightmare
 Yalahar Grim Reaper,meat,3577,,,,,3,Nightmare Scion
-Yalahar Grim Reaper,scythe legs,10312,,455,,2026-09-14 21:37,3,Nightmare
-Yalahar Grim Reaper,soul orbs,5944,29,20,30,2026-09-14 21:24,3,Nightmare
-cult carlin com party,bolts,3446,2,1,3,2026-09-14 21:24,1,Vicious Squire
-cult carlin com party,crossbows,3349,98,54,99,2026-09-14 21:28,1,Vicious Squire
+Yalahar Grim Reaper,scythe legs,10312,,455,,2026-09-14 23:37,3,Nightmare
+Yalahar Grim Reaper,soul orbs,5944,29,20,30,2026-09-14 23:24,3,Nightmare
+cult carlin com party,bolts,3446,2,1,3,2026-09-14 23:24,1,Vicious Squire
+cult carlin com party,crossbows,3349,98,54,99,2026-09-14 23:28,1,Vicious Squire
 cult carlin com party,gold coins,,,,,,1,Cult Believer|Renegade Knight|Vicious Squire|Vile Grandmaster
 cult carlin com party,meat,3577,,,,,1,Cult Believer|Vicious Squire|Vile Grandmaster
 cult carlin com party,platinum coins,,,,,,1,Renegade Knight|Vile Grandmaster
 werehyena teste,axes,3274,,,,,1,Werehyaena
-werehyena teste,great health potions,239,14,,15,2026-09-14 21:18,1,Werehyaena
-werehyena teste,great mana potions,53161,,32,,2026-06-22 22:11,1,Werehyaena Shaman
-werehyena teste,halberds,3269,598,274,599,2026-09-14 21:25,1,Werehyaena
+werehyena teste,great health potions,239,14,,15,2026-09-14 23:18,1,Werehyaena
+werehyena teste,great mana potions,53161,,32,,2026-06-23 00:11,1,Werehyaena Shaman
+werehyena teste,halberds,3269,598,274,599,2026-09-14 23:25,1,Werehyaena
 werehyena teste,knives,,,,,,1,Werehyaena
 werehyena teste,meat,3577,,,,,1,Werehyaena
 werehyena teste,platinum coins,,,,,,1,Werehyaena|Werehyaena Shaman
-werehyena teste,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Werehyaena Shaman
-werehyena teste,werehyaena noses,33943,224,159,225,2026-09-14 21:39,1,Werehyaena|Werehyaena Shaman
-Lizard City,broken halberds,10418,,1404,,2026-09-14 21:32,1,Lizard Legionnaire
+werehyena teste,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Werehyaena Shaman
+werehyena teste,werehyaena noses,33943,224,159,225,2026-09-14 23:39,1,Werehyaena|Werehyaena Shaman
+Lizard City,broken halberds,10418,,1404,,2026-09-14 23:32,1,Lizard Legionnaire
 Lizard City,dragon priest&#39;s wandtips,,,,,,1,Lizard Dragon Priest
 Lizard City,gold coins,,,,,,1,Lizard Dragon Priest|Lizard High Guard|Lizard Legionnaire|Lizard Zaogun
-Lizard City,lizard leather,5876,238,150,239,2026-09-14 21:35,1,Lizard Zaogun
-Lizard City,lizard scales,5881,197,117,198,2026-09-14 21:35,1,Lizard Zaogun
+Lizard City,lizard leather,5876,238,150,239,2026-09-14 23:35,1,Lizard Zaogun
+Lizard City,lizard scales,5881,197,117,198,2026-09-14 23:35,1,Lizard Zaogun
 Lizard City,platinum coins,,,,,,1,Lizard Zaogun
-Lizard City,strong health potions,236,10,4,11,2026-09-14 21:18,1,Lizard High Guard
-Lizard City,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Lizard Dragon Priest
-Lizard City,zaogun shoulderplates,10414,5099,3685,5100,2026-09-14 21:39,1,Lizard Zaogun
-Oramond Slums,fish,3578,3,,4,2026-09-14 21:10,1,Quara Hydromancer Scout
+Lizard City,strong health potions,236,10,4,11,2026-09-14 23:18,1,Lizard High Guard
+Lizard City,strong mana potions,237,116,100,117,2026-09-14 23:18,1,Lizard Dragon Priest
+Lizard City,zaogun shoulderplates,10414,5099,3685,5100,2026-09-14 23:39,1,Lizard Zaogun
+Oramond Slums,fish,3578,3,,4,2026-09-14 23:10,1,Quara Hydromancer Scout
 Oramond Slums,globs of glooth,,,,,,1,Devourer|Glooth Blob|Rot Elemental
 Oramond Slums,gold coins,,,,,,1,Blood Beast|Devourer|Glooth Blob|Quara Constrictor Scout|Quara Hydromancer Scout|Quara Pincher Scout
 Oramond Slums,platinum coins,,,,,,1,Devourer|Rot Elemental
-Oramond Slums,poisoned fangs,21195,1089,837,1090,2026-09-14 21:36,1,Blood Beast
-Oramond Slums,quara bones,11491,599,460,600,2026-09-14 21:37,1,Quara Predator Scout
-Oramond Slums,quara eyes,11488,1948,1143,1949,2026-09-14 21:37,1,Quara Hydromancer Scout
-Oramond Slums,quara pincers,11490,,356,,2026-09-14 21:37,1,Quara Pincher Scout
-Oramond Slums,quara tentacles,11487,1374,,1375,2026-09-14 21:37,1,Quara Constrictor Scout
-Oramond Slums,shrimp,3581,13,2,14,2026-09-14 21:10,1,Quara Constrictor Scout|Quara Hydromancer Scout
-Oramond Slums,slime hearts,21194,155,98,156,2026-09-14 21:37,1,Blood Beast
-Oramond Slums,strong health potions,236,10,4,11,2026-09-14 21:18,1,Rot Elemental
-Oramond Slums,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Rot Elemental
-Lizards,broken halberds,10418,,1404,,2026-09-14 21:32,1,Lizard Legionnaire
-Lizards,crossbows,3349,98,54,99,2026-09-14 21:28,1,Dragon
-Lizards,dragon ham,3583,69,,70,2026-09-14 21:10,1,Dragon
+Oramond Slums,poisoned fangs,21195,1089,837,1090,2026-09-14 23:36,1,Blood Beast
+Oramond Slums,quara bones,11491,599,460,600,2026-09-14 23:37,1,Quara Predator Scout
+Oramond Slums,quara eyes,11488,1948,1143,1949,2026-09-14 23:37,1,Quara Hydromancer Scout
+Oramond Slums,quara pincers,11490,,356,,2026-09-14 23:37,1,Quara Pincher Scout
+Oramond Slums,quara tentacles,11487,1374,,1375,2026-09-14 23:37,1,Quara Constrictor Scout
+Oramond Slums,shrimp,3581,13,2,14,2026-09-14 23:10,1,Quara Constrictor Scout|Quara Hydromancer Scout
+Oramond Slums,slime hearts,21194,155,98,156,2026-09-14 23:37,1,Blood Beast
+Oramond Slums,strong health potions,236,10,4,11,2026-09-14 23:18,1,Rot Elemental
+Oramond Slums,strong mana potions,237,116,100,117,2026-09-14 23:18,1,Rot Elemental
+Lizards,broken halberds,10418,,1404,,2026-09-14 23:32,1,Lizard Legionnaire
+Lizards,crossbows,3349,98,54,99,2026-09-14 23:28,1,Dragon
+Lizards,dragon ham,3583,69,,70,2026-09-14 23:10,1,Dragon
 Lizards,dragon&#39;s tails,,,,,,1,Dragon
 Lizards,gold coins,,,,,,1,Dragon|Lancer Beetle|Lizard High Guard|Lizard Legionnaire
 Lizards,lancer beetle shells,10455,,,,,1,Lancer Beetle
-Lizards,steel shields,3409,75,17,76,2026-09-14 21:20,1,Dragon
-Lizards,strong health potions,236,10,4,11,2026-09-14 21:18,1,Lizard High Guard
+Lizards,steel shields,3409,75,17,76,2026-09-14 23:20,1,Dragon
+Lizards,strong health potions,236,10,4,11,2026-09-14 23:18,1,Lizard High Guard
 Glooth Bandit,gold coins,,,,,,1,Glooth Bandit|Glooth Brigand
 Glooth Bandit,platinum coins,,,,,,1,Glooth Bandit|Glooth Brigand
 mini rosha,bones,22159,,,,,3,Weakened Frazzlemaw
-mini rosha,colourful snail shell,25696,3348,2160,3349,2026-09-14 21:32,3,Nymph|Pixie|Swan Maiden
-mini rosha,dandelion seeds,25695,1748,808,1749,2026-09-14 21:33,3,Nymph|Pixie
-mini rosha,fairy wings,25694,193,106,194,2026-09-14 21:34,3,Boogy|Dark Faun|Enfeebled Silencer|Weakened Frazzlemaw
-mini rosha,frazzle skins,20199,388,336,389,2026-09-14 21:34,3,Weakened Frazzlemaw
-mini rosha,frazzle tongues,20198,694,505,695,2026-09-14 21:34,3,Weakened Frazzlemaw
-mini rosha,fresh fruit,25692,8,,9,2026-09-14 21:10,3,Nymph|Pixie
+mini rosha,colourful snail shell,25696,3348,2160,3349,2026-09-14 23:32,3,Nymph|Pixie|Swan Maiden
+mini rosha,dandelion seeds,25695,1748,808,1749,2026-09-14 23:33,3,Nymph|Pixie
+mini rosha,fairy wings,25694,193,106,194,2026-09-14 23:34,3,Boogy|Dark Faun|Enfeebled Silencer|Weakened Frazzlemaw
+mini rosha,frazzle skins,20199,388,336,389,2026-09-14 23:34,3,Weakened Frazzlemaw
+mini rosha,frazzle tongues,20198,694,505,695,2026-09-14 23:34,3,Weakened Frazzlemaw
+mini rosha,fresh fruit,25692,8,,9,2026-09-14 23:10,3,Nymph|Pixie
 mini rosha,gold coins,,,,,,3,Boogy|Dark Faun|Enfeebled Silencer|Nymph|Pixie|Swan Maiden
-mini rosha,great health potions,239,14,,15,2026-09-14 21:18,3,Weakened Frazzlemaw
-mini rosha,great mana potions,53161,,32,,2026-06-22 22:11,3,Weakened Frazzlemaw
+mini rosha,great health potions,239,14,,15,2026-09-14 23:18,3,Weakened Frazzlemaw
+mini rosha,great mana potions,53161,,32,,2026-06-23 00:11,3,Weakened Frazzlemaw
 mini rosha,platinum coins,,,,,,3,Enfeebled Silencer|Weakened Frazzlemaw
-mini rosha,remains of a fish,3125,0,,1,2026-09-14 21:16,3,Weakened Frazzlemaw
-mini rosha,shimmering beetles,25693,,1000,,2026-09-14 21:37,3,Boogy|Dark Faun
-mini rosha,skulls,3114,,1,,2026-09-14 21:17,3,Weakened Frazzlemaw
-mini rosha,strong health potions,236,10,4,11,2026-09-14 21:18,3,Boogy|Dark Faun
-mini rosha,wild flowers,25691,,702,,2026-09-14 21:39,3,Nymph|Pixie|Swan Maiden
-Exotic Cave,dark mushrooms,3728,99,82,100,2026-09-14 21:10,2,Exotic Bat
-Exotic Cave,great health potions,239,14,,15,2026-09-14 21:18,2,Exotic Cave Spider|Pirat Cutthroat
-Exotic Cave,great mana potions,53161,,32,,2026-06-22 22:11,2,Exotic Bat|Pirat Scoundrel
-Exotic Cave,green mushrooms,3732,99,88,100,2026-09-14 21:10,2,Exotic Bat
-Exotic Cave,ice rapiers,3284,995,684,996,2026-09-14 21:29,2,Pirat Cutthroat
+mini rosha,remains of a fish,3125,0,,1,2026-09-14 23:16,3,Weakened Frazzlemaw
+mini rosha,shimmering beetles,25693,,1000,,2026-09-14 23:37,3,Boogy|Dark Faun
+mini rosha,skulls,3114,,1,,2026-09-14 23:17,3,Weakened Frazzlemaw
+mini rosha,strong health potions,236,10,4,11,2026-09-14 23:18,3,Boogy|Dark Faun
+mini rosha,wild flowers,25691,,702,,2026-09-14 23:39,3,Nymph|Pixie|Swan Maiden
+Exotic Cave,dark mushrooms,3728,99,82,100,2026-09-14 23:10,2,Exotic Bat
+Exotic Cave,great health potions,239,14,,15,2026-09-14 23:18,2,Exotic Cave Spider|Pirat Cutthroat
+Exotic Cave,great mana potions,53161,,32,,2026-06-23 00:11,2,Exotic Bat|Pirat Scoundrel
+Exotic Cave,green mushrooms,3732,99,88,100,2026-09-14 23:10,2,Exotic Bat
+Exotic Cave,ice rapiers,3284,995,684,996,2026-09-14 23:29,2,Pirat Cutthroat
 Exotic Cave,platinum coins,,,,,,2,Exotic Bat|Exotic Cave Spider
-Exotic Cave,poison arrows,3448,,1,,2026-09-14 21:24,2,Exotic Cave Spider
-gazer sceptre,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,2,Gazer Spectre
-gazer sceptre,halberds,3269,598,274,599,2026-09-14 21:25,2,Thanatursus
-gazer sceptre,ham,3582,14,,15,2026-09-14 21:10,2,Thanatursus
+Exotic Cave,poison arrows,3448,,1,,2026-09-14 23:24,2,Exotic Cave Spider
+gazer sceptre,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,2,Gazer Spectre
+gazer sceptre,halberds,3269,598,274,599,2026-09-14 23:25,2,Thanatursus
+gazer sceptre,ham,3582,14,,15,2026-09-14 23:10,2,Thanatursus
 gazer sceptre,meat,3577,,,,,2,Thanatursus
 gazer sceptre,platinum coins,,,,,,2,Gazer Spectre|Thanatursus
-gazer sceptre,small diamonds,3028,299,241,300,2026-09-14 21:24,2,Gazer Spectre
-gazer sceptre,small sapphires,3029,248,214,249,2026-09-14 21:24,2,Gazer Spectre
-Hero Fortres,arrows,3447,2,2,3,2026-09-14 21:24,1,Hero
-Hero Fortres,bolts,3446,2,1,3,2026-09-14 21:24,1,Vicious Squire
+gazer sceptre,small diamonds,3028,299,241,300,2026-09-14 23:24,2,Gazer Spectre
+gazer sceptre,small sapphires,3029,248,214,249,2026-09-14 23:24,2,Gazer Spectre
+Hero Fortres,arrows,3447,2,2,3,2026-09-14 23:24,1,Hero
+Hero Fortres,bolts,3446,2,1,3,2026-09-14 23:24,1,Vicious Squire
 Hero Fortres,bones,22159,,,,,1,Bonebeast
-Hero Fortres,bony tails,10277,,183,,2026-09-14 21:32,1,Bonebeast
-Hero Fortres,bows,3350,98,40,99,2026-09-14 21:28,1,Hero
+Hero Fortres,bony tails,10277,,183,,2026-09-14 23:32,1,Bonebeast
+Hero Fortres,bows,3350,98,40,99,2026-09-14 23:28,1,Hero
 Hero Fortres,cheese and gold coins ,,,,,,1,Rat
-Hero Fortres,crossbows,3349,98,54,99,2026-09-14 21:28,1,Vicious Squire
-Hero Fortres,dragon ham,3583,69,,70,2026-09-14 21:10,1,Wyvern
+Hero Fortres,crossbows,3349,98,54,99,2026-09-14 23:28,1,Vicious Squire
+Hero Fortres,dragon ham,3583,69,,70,2026-09-14 23:10,1,Wyvern
 Hero Fortres,gold coins,,,,,,1,Bonebeast|Hero|Lich|Renegade Knight|Stone Golem|Vicious Squire
-Hero Fortres,grapes,3592,9,,10,2026-09-14 21:10,1,Hero
+Hero Fortres,grapes,3592,9,,10,2026-09-14 23:10,1,Hero
 Hero Fortres,meat,3577,,,,,1,Vicious Squire|Vile Grandmaster
 Hero Fortres,platinum coins,,,,,,1,Lich|Renegade Knight|Vile Grandmaster
-Hero Fortres,red roses,3658,24,1,25,2026-09-14 21:08,1,Hero
+Hero Fortres,red roses,3658,24,1,25,2026-09-14 23:08,1,Hero
 Hero Fortres,scrolls,347,,,,,1,Hero
-Hero Fortres,skulls,3114,,1,,2026-09-14 21:17,1,Bonebeast
-Hero Fortres,small stones,1781,,5,,2026-09-14 21:28,1,Stone Golem
+Hero Fortres,skulls,3114,,1,,2026-09-14 23:17,1,Bonebeast
+Hero Fortres,small stones,1781,,5,,2026-09-14 23:28,1,Stone Golem
 Hero Fortres,sniper arrows,7364,,,,,1,Hero
 Hero Fortres,spellbooks,3101,,,,,1,Lich
-Hero Fortres,sulphurous stones,10315,,100,,2026-09-14 21:38,1,Stone Golem
-Hero Fortres,wyvern talismans,9644,5170,4068,5171,2026-09-14 21:39,1,Wyvern
+Hero Fortres,sulphurous stones,10315,,100,,2026-09-14 23:38,1,Stone Golem
+Hero Fortres,wyvern talismans,9644,5170,4068,5171,2026-09-14 23:39,1,Wyvern
 Vampire Crypt (Edron),carrots and meat ,,,,,,1,Rabbit
-Vampire Crypt (Edron),dragon ham,3583,69,,70,2026-09-14 21:10,1,Wyvern
+Vampire Crypt (Edron),dragon ham,3583,69,,70,2026-09-14 23:10,1,Wyvern
 Vampire Crypt (Edron),gold coins,,,,,,1,Vampire|Vampire Bride|Vampire Viscount|Wyvern
-Vampire Crypt (Edron),ham,3582,14,,15,2026-09-14 21:10,1,Deer
+Vampire Crypt (Edron),ham,3582,14,,15,2026-09-14 23:10,1,Deer
 Vampire Crypt (Edron),meat,3577,,,,,1,Deer|Wolf
 Vampire Crypt (Edron),nothing ,,,,,,1,Snake
 Vampire Crypt (Edron),platinum coins,,,,,,1,Vampire Bride
-Vampire Crypt (Edron),strong mana potions,237,116,100,117,2026-09-14 21:18,1,Vampire Bride
-Vampire Crypt (Edron),vampire teeth,9685,491,300,492,2026-09-14 21:38,1,Vampire Bride
-Vampire Crypt (Edron),wyvern talismans,9644,5170,4068,5171,2026-09-14 21:39,1,Wyvern
-Dark Fauns -2,carrots,3595,316,,317,2026-09-14 21:09,1,Twisted Pooka
-Dark Fauns -2,fairy wings,25694,193,106,194,2026-09-14 21:34,1,Boogy|Dark Faun|Twisted Pooka
+Vampire Crypt (Edron),strong mana potions,237,116,100,117,2026-09-14 23:18,1,Vampire Bride
+Vampire Crypt (Edron),vampire teeth,9685,491,300,492,2026-09-14 23:38,1,Vampire Bride
+Vampire Crypt (Edron),wyvern talismans,9644,5170,4068,5171,2026-09-14 23:39,1,Wyvern
+Dark Fauns -2,carrots,3595,316,,317,2026-09-14 23:09,1,Twisted Pooka
+Dark Fauns -2,fairy wings,25694,193,106,194,2026-09-14 23:34,1,Boogy|Dark Faun|Twisted Pooka
 Dark Fauns -2,gold coins,,,,,,1,Boogy|Dark Faun|Twisted Pooka
-Dark Fauns -2,shimmering beetles,25693,,1000,,2026-09-14 21:37,1,Boogy|Dark Faun|Twisted Pooka
-Dark Fauns -2,strong health potions,236,10,4,11,2026-09-14 21:18,1,Boogy|Dark Faun|Twisted Pooka
-Cults Carlin,bolts,3446,2,1,3,2026-09-14 21:24,2,Vicious Squire
-Cults Carlin,crossbows,3349,98,54,99,2026-09-14 21:28,2,Vicious Squire
+Dark Fauns -2,shimmering beetles,25693,,1000,,2026-09-14 23:37,1,Boogy|Dark Faun|Twisted Pooka
+Dark Fauns -2,strong health potions,236,10,4,11,2026-09-14 23:18,1,Boogy|Dark Faun|Twisted Pooka
+Cults Carlin,bolts,3446,2,1,3,2026-09-14 23:24,2,Vicious Squire
+Cults Carlin,crossbows,3349,98,54,99,2026-09-14 23:28,2,Vicious Squire
 Cults Carlin,gold coins,,,,,,2,Cult Believer|Cult Enforcer|Renegade Knight|Vicious Squire|Vile Grandmaster
 Cults Carlin,meat,3577,,,,,2,Cult Believer|Cult Enforcer|Vicious Squire|Vile Grandmaster
 Cults Carlin,platinum coins,,,,,,2,Renegade Knight|Vile Grandmaster
 sphinx and lamassu,axes,3274,,,,,1,Werehyaena
-sphinx and lamassu,badger fur,10299,14,4,15,2026-09-14 21:31,1,Badger
-sphinx and lamassu,beetroots,8017,8,,9,2026-09-14 21:09,1,Badger
-sphinx and lamassu,carrots,3595,316,,317,2026-09-14 21:09,1,Silver Rabbit
-sphinx and lamassu,crab pincers,10272,33,1,34,2026-09-14 21:33,1,Crab
-sphinx and lamassu,dragon ham,3583,69,,70,2026-09-14 21:10,1,Frost Dragon|Frost Dragon Hatchling
-sphinx and lamassu,fish,3578,3,,4,2026-09-14 21:10,1,Frost Troll
+sphinx and lamassu,badger fur,10299,14,4,15,2026-09-14 23:31,1,Badger
+sphinx and lamassu,beetroots,8017,8,,9,2026-09-14 23:09,1,Badger
+sphinx and lamassu,carrots,3595,316,,317,2026-09-14 23:09,1,Silver Rabbit
+sphinx and lamassu,crab pincers,10272,33,1,34,2026-09-14 23:33,1,Crab
+sphinx and lamassu,dragon ham,3583,69,,70,2026-09-14 23:10,1,Frost Dragon|Frost Dragon Hatchling
+sphinx and lamassu,fish,3578,3,,4,2026-09-14 23:10,1,Frost Troll
 sphinx and lamassu,fish and gold coins ,,,,,,1,Crab
 sphinx and lamassu,gold coins,,,,,,1,Crocodile|Crystal Spider|Frost Dragon|Frost Dragon Hatchling|Frost Troll|Mammoth
-sphinx and lamassu,great health potions,239,14,,15,2026-09-14 21:18,1,Werehyaena
-sphinx and lamassu,green mushrooms,3732,99,88,100,2026-09-14 21:10,1,Frost Dragon
-sphinx and lamassu,halberds,3269,598,274,599,2026-09-14 21:25,1,Werehyaena
-sphinx and lamassu,ham,3582,14,,15,2026-09-14 21:10,1,Crocodile|Deer|Mammoth
+sphinx and lamassu,great health potions,239,14,,15,2026-09-14 23:18,1,Werehyaena
+sphinx and lamassu,green mushrooms,3732,99,88,100,2026-09-14 23:10,1,Frost Dragon
+sphinx and lamassu,halberds,3269,598,274,599,2026-09-14 23:25,1,Werehyaena
+sphinx and lamassu,ham,3582,14,,15,2026-09-14 23:10,1,Crocodile|Deer|Mammoth
 sphinx and lamassu,knives,,,,,,1,Werehyaena
-sphinx and lamassu,lamassu horns,31442,556,155,557,2026-09-14 21:35,1,Lamassu
+sphinx and lamassu,lamassu horns,31442,556,155,557,2026-09-14 23:35,1,Lamassu
 sphinx and lamassu,meat,3577,,,,,1,Deer|Mammoth|Werehyaena
 sphinx and lamassu,meat ,,,,,,1,Dromedary
 sphinx and lamassu,meat and silky fur ,,,,,,1,Silver Rabbit
 sphinx and lamassu,meat and winter wolf fur ,,,,,,1,Winter Wolf
 sphinx and lamassu,pieces of crocodile leather,,,,,,1,Crocodile
-sphinx and lamassu,plate armors,3357,348,112,349,2026-09-14 21:02,1,Crystal Spider
+sphinx and lamassu,plate armors,3357,348,112,349,2026-09-14 23:02,1,Crystal Spider
 sphinx and lamassu,platinum coins,,,,,,1,Lamassu|Sphinx|Werehyaena
-sphinx and lamassu,rapiers,3272,14,,15,2026-09-14 21:29,1,Frost Troll
-sphinx and lamassu,red crystal fragments,16126,837,720,838,2026-09-14 21:23,1,Lamassu
-sphinx and lamassu,spears,3277,94,1,95,2026-09-14 21:28,1,Frost Troll
-sphinx and lamassu,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Crystal Spider
-sphinx and lamassu,werehyaena noses,33943,224,159,225,2026-09-14 21:39,1,Werehyaena
+sphinx and lamassu,rapiers,3272,14,,15,2026-09-14 23:29,1,Frost Troll
+sphinx and lamassu,red crystal fragments,16126,837,720,838,2026-09-14 23:23,1,Lamassu
+sphinx and lamassu,spears,3277,94,1,95,2026-09-14 23:28,1,Frost Troll
+sphinx and lamassu,strong mana potions,237,116,100,117,2026-09-14 23:18,1,Crystal Spider
+sphinx and lamassu,werehyaena noses,33943,224,159,225,2026-09-14 23:39,1,Werehyaena
 sphinx and lamassu,wooden shields,3412,,,,,1,Frost Troll
-Walls South,bone shoulderplates,10404,408,158,409,2026-09-14 21:32,1,Draken Warmaster
+Walls South,bone shoulderplates,10404,408,158,409,2026-09-14 23:32,1,Draken Warmaster
 Walls South,gold coins,,,,,,1,Draken Spellweaver|Draken Warmaster
 Walls South,meat,3577,,,,,1,Draken Spellweaver|Draken Warmaster
 Walls South,platinum coins,,,,,,1,Draken Spellweaver|Draken Warmaster
 Walls South,weaver&#39;s wandtips,,,,,,1,Draken Spellweaver
-Pirats,acorns,10296,2327,1853,2328,2026-09-14 21:31,1,Squirrel
-Pirats,cyan crystal fragments,16125,797,731,798,2026-09-14 21:21,1,Pirat Mate
+Pirats,acorns,10296,2327,1853,2328,2026-09-14 23:31,1,Squirrel
+Pirats,cyan crystal fragments,16125,797,731,798,2026-09-14 23:21,1,Pirat Mate
 Pirats,gold coins,,,,,,1,Nightmare Scion
-Pirats,great health potions,239,14,,15,2026-09-14 21:18,1,Pirat Cutthroat
-Pirats,great mana potions,53161,,32,,2026-06-22 22:11,1,Pirat Bombardier|Pirat Scoundrel
-Pirats,ice rapiers,3284,995,684,996,2026-09-14 21:29,1,Pirat Cutthroat
+Pirats,great health potions,239,14,,15,2026-09-14 23:18,1,Pirat Cutthroat
+Pirats,great mana potions,53161,,32,,2026-06-23 00:11,1,Pirat Bombardier|Pirat Scoundrel
+Pirats,ice rapiers,3284,995,684,996,2026-09-14 23:29,1,Pirat Cutthroat
 Pirats,meat,3577,,,,,1,Nightmare Scion
-Pirats,mouldy powder,35596,,251,,2026-09-14 21:36,1,Pirat Mate
-Pirats,pirate coins,35572,109,91,110,2026-09-14 21:36,1,Pirat Mate
-Pirats,red crystal fragments,16126,837,720,838,2026-09-14 21:23,1,Pirat Mate
-Pirats,small diamonds,3028,299,241,300,2026-09-14 21:24,1,Pirat Mate
-Otherworld Kazordoon,crystal bones,23521,10279,5597,10280,2026-09-14 21:33,1,Instable Breach Brood
+Pirats,mouldy powder,35596,,251,,2026-09-14 23:36,1,Pirat Mate
+Pirats,pirate coins,35572,109,91,110,2026-09-14 23:36,1,Pirat Mate
+Pirats,red crystal fragments,16126,837,720,838,2026-09-14 23:23,1,Pirat Mate
+Pirats,small diamonds,3028,299,241,300,2026-09-14 23:24,1,Pirat Mate
+Otherworld Kazordoon,crystal bones,23521,10279,5597,10280,2026-09-14 23:33,1,Instable Breach Brood
 Otherworld Kazordoon,gold coins,,,,,,1,Instable Breach Brood|Instable Sparkion
-Otherworld Kazordoon,plasma pearls,23506,324,151,325,2026-09-14 21:36,1,Instable Breach Brood
+Otherworld Kazordoon,plasma pearls,23506,324,151,325,2026-09-14 23:36,1,Instable Breach Brood
 Otherworld Kazordoon,platinum coins,,,,,,1,Instable Breach Brood|Instable Sparkion
-Medusa Tower - RP 229 (150%),assassin stars,7368,14,4,15,2026-09-14 21:28,1,Behemoth
-Medusa Tower - RP 229 (150%),battle stones,11447,289,128,290,2026-09-14 21:31,1,Behemoth
-Medusa Tower - RP 229 (150%),blank runes,3147,,7,,2026-09-14 21:19,1,Clay Guardian
-Medusa Tower - RP 229 (150%),double axes,3275,898,,899,2026-09-14 21:25,1,Behemoth
-Medusa Tower - RP 229 (150%),fish,3578,3,,4,2026-09-14 21:10,1,Omnivora
+Medusa Tower - RP 229 (150%),assassin stars,7368,14,4,15,2026-09-14 23:28,1,Behemoth
+Medusa Tower - RP 229 (150%),battle stones,11447,289,128,290,2026-09-14 23:31,1,Behemoth
+Medusa Tower - RP 229 (150%),blank runes,3147,,7,,2026-09-14 23:19,1,Clay Guardian
+Medusa Tower - RP 229 (150%),double axes,3275,898,,899,2026-09-14 23:25,1,Behemoth
+Medusa Tower - RP 229 (150%),fish,3578,3,,4,2026-09-14 23:10,1,Omnivora
 Medusa Tower - RP 229 (150%),gold coins,,,,,,1,Behemoth|Clay Guardian|Gargoyle|Medusa|Omnivora|Serpent Spawn
-Medusa Tower - RP 229 (150%),great mana potions,53161,,32,,2026-06-22 22:11,1,Medusa
-Medusa Tower - RP 229 (150%),green mushrooms,3732,99,88,100,2026-09-14 21:10,1,Serpent Spawn
-Medusa Tower - RP 229 (150%),ham,3582,14,,15,2026-09-14 21:10,1,Omnivora
+Medusa Tower - RP 229 (150%),great mana potions,53161,,32,,2026-06-23 00:11,1,Medusa
+Medusa Tower - RP 229 (150%),green mushrooms,3732,99,88,100,2026-09-14 23:10,1,Serpent Spawn
+Medusa Tower - RP 229 (150%),ham,3582,14,,15,2026-09-14 23:10,1,Omnivora
 Medusa Tower - RP 229 (150%),lumps of earth,,,,,,1,Clay Guardian
 Medusa Tower - RP 229 (150%),meat,3577,,,,,1,Behemoth
 Medusa Tower - RP 229 (150%),nothing ,,,,,,1,Slime
 Medusa Tower - RP 229 (150%),platinum coins,,,,,,1,Behemoth|Medusa
 Medusa Tower - RP 229 (150%),potatoes,,,,,,1,Gargoyle
-Medusa Tower - RP 229 (150%),small sapphires,3029,248,214,249,2026-09-14 21:24,1,Serpent Spawn
-Medusa Tower - RP 229 (150%),small stones,1781,,5,,2026-09-14 21:28,1,Clay Guardian|Gargoyle|Stone Golem
-Medusa Tower - RP 229 (150%),snake skins,9694,393,205,394,2026-09-14 21:37,1,Serpent Spawn
-Medusa Tower - RP 229 (150%),stone wings,10278,1319,,1320,2026-09-14 21:38,1,Gargoyle
+Medusa Tower - RP 229 (150%),small sapphires,3029,248,214,249,2026-09-14 23:24,1,Serpent Spawn
+Medusa Tower - RP 229 (150%),small stones,1781,,5,,2026-09-14 23:28,1,Clay Guardian|Gargoyle|Stone Golem
+Medusa Tower - RP 229 (150%),snake skins,9694,393,205,394,2026-09-14 23:37,1,Serpent Spawn
+Medusa Tower - RP 229 (150%),stone wings,10278,1319,,1320,2026-09-14 23:38,1,Gargoyle
 Medusa Tower - RP 229 (150%),strands of medusa hair,,,,,,1,Medusa
-Medusa Tower - RP 229 (150%),sulphurous stones,10315,,100,,2026-09-14 21:38,1,Stone Golem
-Medusa Tower - RP 229 (150%),ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa
-Medusa Tower - RP 229 (150%),white mushrooms,3723,4,3,5,2026-09-14 21:10,1,Omnivora
-Exotic cave + Pirats,bolts,3446,2,1,3,2026-09-14 21:24,1,Minotaur Archer
-Exotic cave + Pirats,broken crossbows,11451,29,,30,2026-09-14 21:32,1,Minotaur Archer
-Exotic cave + Pirats,chain armors,3358,,15,,2026-09-14 21:01,1,Minotaur
-Exotic cave + Pirats,crossbows,3349,98,54,99,2026-09-14 21:28,1,Dragon
-Exotic cave + Pirats,dark mushrooms,3728,99,82,100,2026-09-14 21:10,1,Exotic Bat
-Exotic cave + Pirats,dragon ham,3583,69,,70,2026-09-14 21:10,1,Dragon|Dragon Hatchling
+Medusa Tower - RP 229 (150%),sulphurous stones,10315,,100,,2026-09-14 23:38,1,Stone Golem
+Medusa Tower - RP 229 (150%),ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Medusa
+Medusa Tower - RP 229 (150%),white mushrooms,3723,4,3,5,2026-09-14 23:10,1,Omnivora
+Exotic cave + Pirats,bolts,3446,2,1,3,2026-09-14 23:24,1,Minotaur Archer
+Exotic cave + Pirats,broken crossbows,11451,29,,30,2026-09-14 23:32,1,Minotaur Archer
+Exotic cave + Pirats,chain armors,3358,,15,,2026-09-14 23:01,1,Minotaur
+Exotic cave + Pirats,crossbows,3349,98,54,99,2026-09-14 23:28,1,Dragon
+Exotic cave + Pirats,dark mushrooms,3728,99,82,100,2026-09-14 23:10,1,Exotic Bat
+Exotic cave + Pirats,dragon ham,3583,69,,70,2026-09-14 23:10,1,Dragon|Dragon Hatchling
 Exotic cave + Pirats,dragon&#39;s tails,,,,,,1,Dragon
 Exotic cave + Pirats,gold coins,,,,,,1,Dragon|Dragon Hatchling|Minotaur|Minotaur Archer|Minotaur Guard
-Exotic cave + Pirats,great health potions,239,14,,15,2026-09-14 21:18,1,Exotic Cave Spider|Pirat Cutthroat
-Exotic cave + Pirats,great mana potions,53161,,32,,2026-06-22 22:11,1,Exotic Bat|Pirat Scoundrel
-Exotic cave + Pirats,green mushrooms,3732,99,88,100,2026-09-14 21:10,1,Exotic Bat
-Exotic cave + Pirats,ice rapiers,3284,995,684,996,2026-09-14 21:29,1,Pirat Cutthroat
+Exotic cave + Pirats,great health potions,239,14,,15,2026-09-14 23:18,1,Exotic Cave Spider|Pirat Cutthroat
+Exotic cave + Pirats,great mana potions,53161,,32,,2026-06-23 00:11,1,Exotic Bat|Pirat Scoundrel
+Exotic cave + Pirats,green mushrooms,3732,99,88,100,2026-09-14 23:10,1,Exotic Bat
+Exotic cave + Pirats,ice rapiers,3284,995,684,996,2026-09-14 23:29,1,Pirat Cutthroat
 Exotic cave + Pirats,maces,3286,,,,,1,Minotaur
 Exotic cave + Pirats,piercing bolts,7363,,,,,1,Minotaur Archer
-Exotic cave + Pirats,plate shields,3410,,10,,2026-09-14 21:19,1,Minotaur
+Exotic cave + Pirats,plate shields,3410,,10,,2026-09-14 23:19,1,Minotaur
 Exotic cave + Pirats,platinum coins,,,,,,1,Exotic Bat|Exotic Cave Spider
-Exotic cave + Pirats,poison arrows,3448,,1,,2026-09-14 21:24,1,Exotic Cave Spider
-Exotic cave + Pirats,steel shields,3409,75,17,76,2026-09-14 21:20,1,Dragon
-sphinx & lamassu,bolts,3446,2,1,3,2026-09-14 21:24,2,Vicious Squire
-sphinx & lamassu,crab pincers,10272,33,1,34,2026-09-14 21:33,2,Crab
-sphinx & lamassu,crossbows,3349,98,54,99,2026-09-14 21:28,2,Vicious Squire
+Exotic cave + Pirats,poison arrows,3448,,1,,2026-09-14 23:24,1,Exotic Cave Spider
+Exotic cave + Pirats,steel shields,3409,75,17,76,2026-09-14 23:20,1,Dragon
+sphinx & lamassu,bolts,3446,2,1,3,2026-09-14 23:24,2,Vicious Squire
+sphinx & lamassu,crab pincers,10272,33,1,34,2026-09-14 23:33,2,Crab
+sphinx & lamassu,crossbows,3349,98,54,99,2026-09-14 23:28,2,Vicious Squire
 sphinx & lamassu,fish and gold coins ,,,,,,2,Crab
 sphinx & lamassu,gold coins,,,,,,2,Crocodile|Cult Believer|Cult Enforcer|Cult Scholar|Renegade Knight|Sandcrawler
-sphinx & lamassu,ham,3582,14,,15,2026-09-14 21:10,2,Crocodile
-sphinx & lamassu,lamassu horns,31442,556,155,557,2026-09-14 21:35,2,Lamassu
+sphinx & lamassu,ham,3582,14,,15,2026-09-14 23:10,2,Crocodile
+sphinx & lamassu,lamassu horns,31442,556,155,557,2026-09-14 23:35,2,Lamassu
 sphinx & lamassu,meat,3577,,,,,2,Cult Believer|Cult Enforcer|Cult Scholar|Vicious Squire|Vile Grandmaster
 sphinx & lamassu,pieces of crocodile leather,,,,,,2,Crocodile
 sphinx & lamassu,platinum coins,,,,,,2,Lamassu|Renegade Knight|Sphinx|Vile Grandmaster
-sphinx & lamassu,red crystal fragments,16126,837,720,838,2026-09-14 21:23,2,Lamassu
-carlin cults druid,bolts,3446,2,1,3,2026-09-14 21:24,1,Vicious Squire
-carlin cults druid,crossbows,3349,98,54,99,2026-09-14 21:28,1,Vicious Squire
+sphinx & lamassu,red crystal fragments,16126,837,720,838,2026-09-14 23:23,2,Lamassu
+carlin cults druid,bolts,3446,2,1,3,2026-09-14 23:24,1,Vicious Squire
+carlin cults druid,crossbows,3349,98,54,99,2026-09-14 23:28,1,Vicious Squire
 carlin cults druid,gold coins,,,,,,1,Cult Believer|Cult Enforcer|Cult Scholar|Renegade Knight|Vicious Squire|Vile Grandmaster
 carlin cults druid,meat,3577,,,,,1,Cult Believer|Cult Enforcer|Cult Scholar|Vicious Squire|Vile Grandmaster
 carlin cults druid,platinum coins,,,,,,1,Renegade Knight|Vile Grandmaster
-demons edron square,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Demon
-demons edron square,blank runes,3147,,7,,2026-09-14 21:19,1,Dark Magician
-demons edron square,dead frogs,34237,21,,22,2026-09-14 21:13,1,Dark Apprentice
-demons edron square,demon horns,5954,994,601,995,2026-09-14 21:33,1,Demon
-demons edron square,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Demon
-demons edron square,fire mushrooms,3731,226,176,227,2026-09-14 21:10,1,Demon
+demons edron square,assassin stars,7368,14,4,15,2026-09-14 23:28,1,Demon
+demons edron square,blank runes,3147,,7,,2026-09-14 23:19,1,Dark Magician
+demons edron square,dead frogs,34237,21,,22,2026-09-14 23:13,1,Dark Apprentice
+demons edron square,demon horns,5954,994,601,995,2026-09-14 23:33,1,Demon
+demons edron square,demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Demon
+demons edron square,fire mushrooms,3731,226,176,227,2026-09-14 23:10,1,Demon
 demons edron square,gold coins,,,,,,1,Dark Apprentice|Dark Magician|Demon|Massive Fire Elemental
-demons edron square,great mana potions,53161,,32,,2026-06-22 22:11,1,Demon
-demons edron square,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Demon
-demons edron square,health potions,266,38,24,39,2026-09-14 21:18,1,Dark Magician
-demons edron square,mana potions,268,67,47,68,2026-09-14 21:18,1,Dark Magician
+demons edron square,great mana potions,53161,,32,,2026-06-23 00:11,1,Demon
+demons edron square,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Demon
+demons edron square,health potions,266,38,24,39,2026-09-14 23:18,1,Dark Magician
+demons edron square,mana potions,268,67,47,68,2026-09-14 23:18,1,Dark Magician
 demons edron square,nothing ,,,,,,1,Slime
 demons edron square,platinum coins,,,,,,1,Demon|Massive Fire Elemental
-demons edron square,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Demon
-demons edron square,small emeralds,3032,249,161,250,2026-09-14 21:24,1,Demon
+demons edron square,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Demon
+demons edron square,small emeralds,3032,249,161,250,2026-09-14 23:24,1,Demon
 demons edron square,small rubies,,,,,,1,Demon
 demons edron square,small topazes,,,,,,1,Demon
-demons edron square,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Demon
+demons edron square,ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Demon
 mini,bones,22159,,,,,1,Weakened Frazzlemaw
-mini,fairy wings,25694,193,106,194,2026-09-14 21:34,1,Enfeebled Silencer|Weakened Frazzlemaw
-mini,frazzle skins,20199,388,336,389,2026-09-14 21:34,1,Weakened Frazzlemaw
-mini,frazzle tongues,20198,694,505,695,2026-09-14 21:34,1,Weakened Frazzlemaw
+mini,fairy wings,25694,193,106,194,2026-09-14 23:34,1,Enfeebled Silencer|Weakened Frazzlemaw
+mini,frazzle skins,20199,388,336,389,2026-09-14 23:34,1,Weakened Frazzlemaw
+mini,frazzle tongues,20198,694,505,695,2026-09-14 23:34,1,Weakened Frazzlemaw
 mini,gold coins,,,,,,1,Enfeebled Silencer|Weakened Frazzlemaw
-mini,great health potions,239,14,,15,2026-09-14 21:18,1,Weakened Frazzlemaw
-mini,great mana potions,53161,,32,,2026-06-22 22:11,1,Weakened Frazzlemaw
+mini,great health potions,239,14,,15,2026-09-14 23:18,1,Weakened Frazzlemaw
+mini,great mana potions,53161,,32,,2026-06-23 00:11,1,Weakened Frazzlemaw
 mini,platinum coins,,,,,,1,Enfeebled Silencer|Weakened Frazzlemaw
-mini,remains of a fish,3125,0,,1,2026-09-14 21:16,1,Weakened Frazzlemaw
-mini,skulls,3114,,1,,2026-09-14 21:17,1,Weakened Frazzlemaw
+mini,remains of a fish,3125,0,,1,2026-09-14 23:16,1,Weakened Frazzlemaw
+mini,skulls,3114,,1,,2026-09-14 23:17,1,Weakened Frazzlemaw
 Boquinha rosha Feyrist Nightmare.,bones,22159,,,,,2,Weakened Frazzlemaw
-Boquinha rosha Feyrist Nightmare.,colourful snail shell,25696,3348,2160,3349,2026-09-14 21:32,2,Swan Maiden
-Boquinha rosha Feyrist Nightmare.,fairy wings,25694,193,106,194,2026-09-14 21:34,2,Boogy|Dark Faun|Enfeebled Silencer|Weakened Frazzlemaw
-Boquinha rosha Feyrist Nightmare.,frazzle skins,20199,388,336,389,2026-09-14 21:34,2,Weakened Frazzlemaw
-Boquinha rosha Feyrist Nightmare.,frazzle tongues,20198,694,505,695,2026-09-14 21:34,2,Weakened Frazzlemaw
+Boquinha rosha Feyrist Nightmare.,colourful snail shell,25696,3348,2160,3349,2026-09-14 23:32,2,Swan Maiden
+Boquinha rosha Feyrist Nightmare.,fairy wings,25694,193,106,194,2026-09-14 23:34,2,Boogy|Dark Faun|Enfeebled Silencer|Weakened Frazzlemaw
+Boquinha rosha Feyrist Nightmare.,frazzle skins,20199,388,336,389,2026-09-14 23:34,2,Weakened Frazzlemaw
+Boquinha rosha Feyrist Nightmare.,frazzle tongues,20198,694,505,695,2026-09-14 23:34,2,Weakened Frazzlemaw
 Boquinha rosha Feyrist Nightmare.,gold coins,,,,,,2,Boogy|Dark Faun|Enfeebled Silencer|Swan Maiden|Weakened Frazzlemaw
-Boquinha rosha Feyrist Nightmare.,great health potions,239,14,,15,2026-09-14 21:18,2,Weakened Frazzlemaw
-Boquinha rosha Feyrist Nightmare.,great mana potions,53161,,32,,2026-06-22 22:11,2,Weakened Frazzlemaw
+Boquinha rosha Feyrist Nightmare.,great health potions,239,14,,15,2026-09-14 23:18,2,Weakened Frazzlemaw
+Boquinha rosha Feyrist Nightmare.,great mana potions,53161,,32,,2026-06-23 00:11,2,Weakened Frazzlemaw
 Boquinha rosha Feyrist Nightmare.,platinum coins,,,,,,2,Enfeebled Silencer|Weakened Frazzlemaw
-Boquinha rosha Feyrist Nightmare.,remains of a fish,3125,0,,1,2026-09-14 21:16,2,Weakened Frazzlemaw
-Boquinha rosha Feyrist Nightmare.,shimmering beetles,25693,,1000,,2026-09-14 21:37,2,Boogy|Dark Faun
-Boquinha rosha Feyrist Nightmare.,skulls,3114,,1,,2026-09-14 21:17,2,Weakened Frazzlemaw
-Boquinha rosha Feyrist Nightmare.,strong health potions,236,10,4,11,2026-09-14 21:18,2,Boogy|Dark Faun
-Boquinha rosha Feyrist Nightmare.,wild flowers,25691,,702,,2026-09-14 21:39,2,Swan Maiden
+Boquinha rosha Feyrist Nightmare.,remains of a fish,3125,0,,1,2026-09-14 23:16,2,Weakened Frazzlemaw
+Boquinha rosha Feyrist Nightmare.,shimmering beetles,25693,,1000,,2026-09-14 23:37,2,Boogy|Dark Faun
+Boquinha rosha Feyrist Nightmare.,skulls,3114,,1,,2026-09-14 23:17,2,Weakened Frazzlemaw
+Boquinha rosha Feyrist Nightmare.,strong health potions,236,10,4,11,2026-09-14 23:18,2,Boogy|Dark Faun
+Boquinha rosha Feyrist Nightmare.,wild flowers,25691,,702,,2026-09-14 23:39,2,Swan Maiden
 Glooth Factory - TESTE,gold coins,,,,,,1,Glooth Bandit|Glooth Brigand
 Glooth Factory - TESTE,platinum coins,,,,,,1,Glooth Bandit|Glooth Brigand
-demon edron,assassin stars,7368,14,4,15,2026-09-14 21:28,2,Demon
-demon edron,blank runes,3147,,7,,2026-09-14 21:19,2,Dark Magician
-demon edron,dead frogs,34237,21,,22,2026-09-14 21:13,2,Dark Apprentice
-demon edron,demon horns,5954,994,601,995,2026-09-14 21:33,2,Demon
-demon edron,demonic essence,6499,999,898,1000,2026-09-14 21:33,2,Demon
-demon edron,fire mushrooms,3731,226,176,227,2026-09-14 21:10,2,Demon
+demon edron,assassin stars,7368,14,4,15,2026-09-14 23:28,2,Demon
+demon edron,blank runes,3147,,7,,2026-09-14 23:19,2,Dark Magician
+demon edron,dead frogs,34237,21,,22,2026-09-14 23:13,2,Dark Apprentice
+demon edron,demon horns,5954,994,601,995,2026-09-14 23:33,2,Demon
+demon edron,demonic essence,6499,999,898,1000,2026-09-14 23:33,2,Demon
+demon edron,fire mushrooms,3731,226,176,227,2026-09-14 23:10,2,Demon
 demon edron,gold coins,,,,,,2,Dark Apprentice|Dark Magician|Demon|Massive Fire Elemental
-demon edron,great mana potions,53161,,32,,2026-06-22 22:11,2,Demon
-demon edron,great spirit potions,7642,151,113,152,2026-09-14 21:18,2,Demon
-demon edron,health potions,266,38,24,39,2026-09-14 21:18,2,Dark Magician
-demon edron,mana potions,268,67,47,68,2026-09-14 21:18,2,Dark Magician
+demon edron,great mana potions,53161,,32,,2026-06-23 00:11,2,Demon
+demon edron,great spirit potions,7642,151,113,152,2026-09-14 23:18,2,Demon
+demon edron,health potions,266,38,24,39,2026-09-14 23:18,2,Dark Magician
+demon edron,mana potions,268,67,47,68,2026-09-14 23:18,2,Dark Magician
 demon edron,platinum coins,,,,,,2,Demon|Massive Fire Elemental
-demon edron,small amethysts,3033,198,172,199,2026-09-14 21:24,2,Demon
-demon edron,small emeralds,3032,249,161,250,2026-09-14 21:24,2,Demon
+demon edron,small amethysts,3033,198,172,199,2026-09-14 23:24,2,Demon
+demon edron,small emeralds,3032,249,161,250,2026-09-14 23:24,2,Demon
 demon edron,small rubies,,,,,,2,Demon
 demon edron,small topazes,,,,,,2,Demon
-demon edron,ultimate health potions,7643,108,91,109,2026-09-14 21:18,2,Demon
+demon edron,ultimate health potions,7643,108,91,109,2026-09-14 23:18,2,Demon
 werehyena -2 south,axes,3274,,,,,1,Werehyaena
 werehyena -2 south,gold coins,,,,,,1,Lich
-werehyena -2 south,great health potions,239,14,,15,2026-09-14 21:18,1,Werehyaena
-werehyena -2 south,great mana potions,53161,,32,,2026-06-22 22:11,1,Werehyaena Shaman
-werehyena -2 south,halberds,3269,598,274,599,2026-09-14 21:25,1,Werehyaena
+werehyena -2 south,great health potions,239,14,,15,2026-09-14 23:18,1,Werehyaena
+werehyena -2 south,great mana potions,53161,,32,,2026-06-23 00:11,1,Werehyaena Shaman
+werehyena -2 south,halberds,3269,598,274,599,2026-09-14 23:25,1,Werehyaena
 werehyena -2 south,knives,,,,,,1,Werehyaena
 werehyena -2 south,meat,3577,,,,,1,Werehyaena
 werehyena -2 south,platinum coins,,,,,,1,Lich|Werehyaena|Werehyaena Shaman
-werehyena -2 south,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Werehyaena Shaman
+werehyena -2 south,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Werehyaena Shaman
 werehyena -2 south,spellbooks,3101,,,,,1,Lich
-werehyena -2 south,werehyaena noses,33943,224,159,225,2026-09-14 21:39,1,Werehyaena|Werehyaena Shaman
+werehyena -2 south,werehyaena noses,33943,224,159,225,2026-09-14 23:39,1,Werehyaena|Werehyaena Shaman
 Werehyena north,axes,3274,,,,,1,Werehyaena
-Werehyena north,great health potions,239,14,,15,2026-09-14 21:18,1,Werehyaena
-Werehyena north,great mana potions,53161,,32,,2026-06-22 22:11,1,Werehyaena Shaman
-Werehyena north,halberds,3269,598,274,599,2026-09-14 21:25,1,Werehyaena
+Werehyena north,great health potions,239,14,,15,2026-09-14 23:18,1,Werehyaena
+Werehyena north,great mana potions,53161,,32,,2026-06-23 00:11,1,Werehyaena Shaman
+Werehyena north,halberds,3269,598,274,599,2026-09-14 23:25,1,Werehyaena
 Werehyena north,knives,,,,,,1,Werehyaena
 Werehyena north,meat,3577,,,,,1,Werehyaena
 Werehyena north,platinum coins,,,,,,1,Werehyaena|Werehyaena Shaman
-Werehyena north,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Werehyaena Shaman
-Werehyena north,werehyaena noses,33943,224,159,225,2026-09-14 21:39,1,Werehyaena|Werehyaena Shaman
+Werehyena north,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Werehyaena Shaman
+Werehyena north,werehyaena noses,33943,224,159,225,2026-09-14 23:39,1,Werehyaena|Werehyaena Shaman
 werehyena North,axes,3274,,,,,4,Werehyaena
-werehyena North,great health potions,239,14,,15,2026-09-14 21:18,4,Werehyaena
-werehyena North,great mana potions,53161,,32,,2026-06-22 22:11,4,Werehyaena Shaman
-werehyena North,halberds,3269,598,274,599,2026-09-14 21:25,4,Werehyaena
+werehyena North,great health potions,239,14,,15,2026-09-14 23:18,4,Werehyaena
+werehyena North,great mana potions,53161,,32,,2026-06-23 00:11,4,Werehyaena Shaman
+werehyena North,halberds,3269,598,274,599,2026-09-14 23:25,4,Werehyaena
 werehyena North,knives,,,,,,4,Werehyaena
 werehyena North,meat,3577,,,,,4,Werehyaena
 werehyena North,platinum coins,,,,,,4,Werehyaena|Werehyaena Shaman
-werehyena North,small amethysts,3033,198,172,199,2026-09-14 21:24,4,Werehyaena Shaman
-werehyena North,werehyaena noses,33943,224,159,225,2026-09-14 21:39,4,Werehyaena|Werehyaena Shaman
+werehyena North,small amethysts,3033,198,172,199,2026-09-14 23:24,4,Werehyaena Shaman
+werehyena North,werehyaena noses,33943,224,159,225,2026-09-14 23:39,4,Werehyaena|Werehyaena Shaman
 werehyena north,axes,3274,,,,,2,Werehyaena
-werehyena north,great health potions,239,14,,15,2026-09-14 21:18,2,Werehyaena
-werehyena north,great mana potions,53161,,32,,2026-06-22 22:11,2,Werehyaena Shaman
-werehyena north,halberds,3269,598,274,599,2026-09-14 21:25,2,Werehyaena
+werehyena north,great health potions,239,14,,15,2026-09-14 23:18,2,Werehyaena
+werehyena north,great mana potions,53161,,32,,2026-06-23 00:11,2,Werehyaena Shaman
+werehyena north,halberds,3269,598,274,599,2026-09-14 23:25,2,Werehyaena
 werehyena north,knives,,,,,,2,Werehyaena
 werehyena north,meat,3577,,,,,2,Werehyaena
 werehyena north,platinum coins,,,,,,2,Werehyaena|Werehyaena Shaman
-werehyena north,small amethysts,3033,198,172,199,2026-09-14 21:24,2,Werehyaena Shaman
-werehyena north,werehyaena noses,33943,224,159,225,2026-09-14 21:39,2,Werehyaena|Werehyaena Shaman
-Exotic cave spider weekly task,dark mushrooms,3728,99,82,100,2026-09-14 21:10,1,Exotic Bat
-Exotic cave spider weekly task,great health potions,239,14,,15,2026-09-14 21:18,1,Exotic Cave Spider
-Exotic cave spider weekly task,great mana potions,53161,,32,,2026-06-22 22:11,1,Exotic Bat
-Exotic cave spider weekly task,green mushrooms,3732,99,88,100,2026-09-14 21:10,1,Exotic Bat
+werehyena north,small amethysts,3033,198,172,199,2026-09-14 23:24,2,Werehyaena Shaman
+werehyena north,werehyaena noses,33943,224,159,225,2026-09-14 23:39,2,Werehyaena|Werehyaena Shaman
+Exotic cave spider weekly task,dark mushrooms,3728,99,82,100,2026-09-14 23:10,1,Exotic Bat
+Exotic cave spider weekly task,great health potions,239,14,,15,2026-09-14 23:18,1,Exotic Cave Spider
+Exotic cave spider weekly task,great mana potions,53161,,32,,2026-06-23 00:11,1,Exotic Bat
+Exotic cave spider weekly task,green mushrooms,3732,99,88,100,2026-09-14 23:10,1,Exotic Bat
 Exotic cave spider weekly task,platinum coins,,,,,,1,Exotic Bat|Exotic Cave Spider
-Exotic cave spider weekly task,poison arrows,3448,,1,,2026-09-14 21:24,1,Exotic Cave Spider
+Exotic cave spider weekly task,poison arrows,3448,,1,,2026-09-14 23:24,1,Exotic Cave Spider
 Werehyena South :D,axes,3274,,,,,3,Werehyaena
-Werehyena South :D,great health potions,239,14,,15,2026-09-14 21:18,3,Werehyaena
-Werehyena South :D,great mana potions,53161,,32,,2026-06-22 22:11,3,Werehyaena Shaman
-Werehyena South :D,halberds,3269,598,274,599,2026-09-14 21:25,3,Werehyaena
+Werehyena South :D,great health potions,239,14,,15,2026-09-14 23:18,3,Werehyaena
+Werehyena South :D,great mana potions,53161,,32,,2026-06-23 00:11,3,Werehyaena Shaman
+Werehyena South :D,halberds,3269,598,274,599,2026-09-14 23:25,3,Werehyaena
 Werehyena South :D,knives,,,,,,3,Werehyaena
 Werehyena South :D,meat,3577,,,,,3,Werehyaena
 Werehyena South :D,platinum coins,,,,,,3,Werehyaena|Werehyaena Shaman
-Werehyena South :D,small amethysts,3033,198,172,199,2026-09-14 21:24,3,Werehyaena Shaman
-Werehyena South :D,werehyaena noses,33943,224,159,225,2026-09-14 21:39,3,Werehyaena|Werehyaena Shaman
-MINO CULT,bronze amulets,3056,29,1,30,2026-09-14 21:02,1,Minotaur Cult Follower
-MINO CULT,cowbells,21204,,95,,2026-09-14 21:33,1,Minotaur Cult Follower|Minotaur Cult Prophet
-MINO CULT,cultish robes,9639,88,,89,2026-09-14 21:33,1,Minotaur Cult Follower|Minotaur Cult Prophet|Minotaur Cult Zealot
+Werehyena South :D,small amethysts,3033,198,172,199,2026-09-14 23:24,3,Werehyaena Shaman
+Werehyena South :D,werehyaena noses,33943,224,159,225,2026-09-14 23:39,3,Werehyaena|Werehyaena Shaman
+MINO CULT,bronze amulets,3056,29,1,30,2026-09-14 23:02,1,Minotaur Cult Follower
+MINO CULT,cowbells,21204,,95,,2026-09-14 23:33,1,Minotaur Cult Follower|Minotaur Cult Prophet
+MINO CULT,cultish robes,9639,88,,89,2026-09-14 23:33,1,Minotaur Cult Follower|Minotaur Cult Prophet|Minotaur Cult Zealot
 MINO CULT,gold coins,,,,,,1,Minotaur Cult Follower|Minotaur Cult Prophet|Minotaur Cult Zealot
-MINO CULT,great health potions,239,14,,15,2026-09-14 21:18,1,Minotaur Cult Follower
-MINO CULT,great mana potions,53161,,32,,2026-06-22 22:11,1,Minotaur Cult Prophet
-MINO CULT,ham,3582,14,,15,2026-09-14 21:10,1,Minotaur Cult Follower|Minotaur Cult Prophet
+MINO CULT,great health potions,239,14,,15,2026-09-14 23:18,1,Minotaur Cult Follower
+MINO CULT,great mana potions,53161,,32,,2026-06-23 00:11,1,Minotaur Cult Prophet
+MINO CULT,ham,3582,14,,15,2026-09-14 23:10,1,Minotaur Cult Follower|Minotaur Cult Prophet
 MINO CULT,meat,3577,,,,,1,Pig
-MINO CULT,mino shields,21175,3699,2767,3700,2026-09-14 21:19,1,Minotaur Cult Follower
-MINO CULT,minotaur horns,11472,72,45,73,2026-09-14 21:35,1,Minotaur Cult Follower|Minotaur Cult Prophet
-MINO CULT,minotaur leather,5878,97,53,98,2026-09-14 21:35,1,Minotaur Cult Follower|Minotaur Cult Prophet
-MINO CULT,plate shields,3410,,10,,2026-09-14 21:19,1,Minotaur Cult Follower
+MINO CULT,mino shields,21175,3699,2767,3700,2026-09-14 23:19,1,Minotaur Cult Follower
+MINO CULT,minotaur horns,11472,72,45,73,2026-09-14 23:35,1,Minotaur Cult Follower|Minotaur Cult Prophet
+MINO CULT,minotaur leather,5878,97,53,98,2026-09-14 23:35,1,Minotaur Cult Follower|Minotaur Cult Prophet
+MINO CULT,plate shields,3410,,10,,2026-09-14 23:19,1,Minotaur Cult Follower
 MINO CULT,platinum coins,,,,,,1,Minotaur Cult Follower|Minotaur Cult Prophet|Minotaur Cult Zealot
-MINO CULT,purple robes,11473,104,,105,2026-09-14 21:37,1,Minotaur Cult Zealot
-MINO CULT,small emeralds,3032,249,161,250,2026-09-14 21:24,1,Minotaur Cult Prophet
-MINO CULT,snakebite rods,3066,88,34,89,2026-09-14 21:30,1,Minotaur Cult Zealot
-MINO CULT,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Minotaur Cult Zealot
+MINO CULT,purple robes,11473,104,,105,2026-09-14 23:37,1,Minotaur Cult Zealot
+MINO CULT,small emeralds,3032,249,161,250,2026-09-14 23:24,1,Minotaur Cult Prophet
+MINO CULT,snakebite rods,3066,88,34,89,2026-09-14 23:30,1,Minotaur Cult Zealot
+MINO CULT,strong mana potions,237,116,100,117,2026-09-14 23:18,1,Minotaur Cult Zealot
 Werehyena EK 245lvl,axes,3274,,,,,2,Werehyaena
 Werehyena EK 245lvl,gold coins,,,,,,2,Lich
-Werehyena EK 245lvl,great health potions,239,14,,15,2026-09-14 21:18,2,Werehyaena
-Werehyena EK 245lvl,great mana potions,53161,,32,,2026-06-22 22:11,2,Werehyaena Shaman
-Werehyena EK 245lvl,halberds,3269,598,274,599,2026-09-14 21:25,2,Werehyaena
+Werehyena EK 245lvl,great health potions,239,14,,15,2026-09-14 23:18,2,Werehyaena
+Werehyena EK 245lvl,great mana potions,53161,,32,,2026-06-23 00:11,2,Werehyaena Shaman
+Werehyena EK 245lvl,halberds,3269,598,274,599,2026-09-14 23:25,2,Werehyaena
 Werehyena EK 245lvl,knives,,,,,,2,Werehyaena
 Werehyena EK 245lvl,meat,3577,,,,,2,Werehyaena
 Werehyena EK 245lvl,platinum coins,,,,,,2,Lich|Werehyaena|Werehyaena Shaman
-Werehyena EK 245lvl,small amethysts,3033,198,172,199,2026-09-14 21:24,2,Werehyaena Shaman
+Werehyena EK 245lvl,small amethysts,3033,198,172,199,2026-09-14 23:24,2,Werehyaena Shaman
 Werehyena EK 245lvl,spellbooks,3101,,,,,2,Lich
-Werehyena EK 245lvl,werehyaena noses,33943,224,159,225,2026-09-14 21:39,2,Werehyaena|Werehyaena Shaman
-Mino Cult 29.03,bronze amulets,3056,29,1,30,2026-09-14 21:02,3,Minotaur Cult Follower
-Mino Cult 29.03,cowbells,21204,,95,,2026-09-14 21:33,3,Minotaur Cult Follower|Minotaur Cult Prophet
-Mino Cult 29.03,cultish robes,9639,88,,89,2026-09-14 21:33,3,Minotaur Cult Follower|Minotaur Cult Prophet|Minotaur Cult Zealot
+Werehyena EK 245lvl,werehyaena noses,33943,224,159,225,2026-09-14 23:39,2,Werehyaena|Werehyaena Shaman
+Mino Cult 29.03,bronze amulets,3056,29,1,30,2026-09-14 23:02,3,Minotaur Cult Follower
+Mino Cult 29.03,cowbells,21204,,95,,2026-09-14 23:33,3,Minotaur Cult Follower|Minotaur Cult Prophet
+Mino Cult 29.03,cultish robes,9639,88,,89,2026-09-14 23:33,3,Minotaur Cult Follower|Minotaur Cult Prophet|Minotaur Cult Zealot
 Mino Cult 29.03,gold coins,,,,,,3,Minotaur Cult Follower|Minotaur Cult Prophet|Minotaur Cult Zealot
-Mino Cult 29.03,great health potions,239,14,,15,2026-09-14 21:18,3,Minotaur Cult Follower
-Mino Cult 29.03,great mana potions,53161,,32,,2026-06-22 22:11,3,Minotaur Cult Prophet
-Mino Cult 29.03,ham,3582,14,,15,2026-09-14 21:10,3,Minotaur Cult Follower|Minotaur Cult Prophet
+Mino Cult 29.03,great health potions,239,14,,15,2026-09-14 23:18,3,Minotaur Cult Follower
+Mino Cult 29.03,great mana potions,53161,,32,,2026-06-23 00:11,3,Minotaur Cult Prophet
+Mino Cult 29.03,ham,3582,14,,15,2026-09-14 23:10,3,Minotaur Cult Follower|Minotaur Cult Prophet
 Mino Cult 29.03,meat,3577,,,,,3,Pig
-Mino Cult 29.03,mino shields,21175,3699,2767,3700,2026-09-14 21:19,3,Minotaur Cult Follower
-Mino Cult 29.03,minotaur horns,11472,72,45,73,2026-09-14 21:35,3,Minotaur Cult Follower|Minotaur Cult Prophet
-Mino Cult 29.03,minotaur leather,5878,97,53,98,2026-09-14 21:35,3,Minotaur Cult Follower|Minotaur Cult Prophet
-Mino Cult 29.03,plate shields,3410,,10,,2026-09-14 21:19,3,Minotaur Cult Follower
+Mino Cult 29.03,mino shields,21175,3699,2767,3700,2026-09-14 23:19,3,Minotaur Cult Follower
+Mino Cult 29.03,minotaur horns,11472,72,45,73,2026-09-14 23:35,3,Minotaur Cult Follower|Minotaur Cult Prophet
+Mino Cult 29.03,minotaur leather,5878,97,53,98,2026-09-14 23:35,3,Minotaur Cult Follower|Minotaur Cult Prophet
+Mino Cult 29.03,plate shields,3410,,10,,2026-09-14 23:19,3,Minotaur Cult Follower
 Mino Cult 29.03,platinum coins,,,,,,3,Minotaur Cult Follower|Minotaur Cult Prophet|Minotaur Cult Zealot
-Mino Cult 29.03,purple robes,11473,104,,105,2026-09-14 21:37,3,Minotaur Cult Zealot
-Mino Cult 29.03,small emeralds,3032,249,161,250,2026-09-14 21:24,3,Minotaur Cult Prophet
-Mino Cult 29.03,snakebite rods,3066,88,34,89,2026-09-14 21:30,3,Minotaur Cult Zealot
-Mino Cult 29.03,strong mana potions,237,116,100,117,2026-09-14 21:18,3,Minotaur Cult Zealot
-Yalahar Grim reaper 3kk/h Raw,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Grim Reaper|Nightmare
+Mino Cult 29.03,purple robes,11473,104,,105,2026-09-14 23:37,3,Minotaur Cult Zealot
+Mino Cult 29.03,small emeralds,3032,249,161,250,2026-09-14 23:24,3,Minotaur Cult Prophet
+Mino Cult 29.03,snakebite rods,3066,88,34,89,2026-09-14 23:30,3,Minotaur Cult Zealot
+Mino Cult 29.03,strong mana potions,237,116,100,117,2026-09-14 23:18,3,Minotaur Cult Zealot
+Yalahar Grim reaper 3kk/h Raw,demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Grim Reaper|Nightmare
 Yalahar Grim reaper 3kk/h Raw,essences of a bad dream,,,,,,1,Nightmare
 Yalahar Grim reaper 3kk/h Raw,flasks of demonic blood,,,,,,1,Grim Reaper|Nightmare
 Yalahar Grim reaper 3kk/h Raw,gold coins,,,,,,1,Grim Reaper|Nightmare|Nightmare Scion
-Yalahar Grim reaper 3kk/h Raw,ham,3582,14,,15,2026-09-14 21:10,1,Nightmare
+Yalahar Grim reaper 3kk/h Raw,ham,3582,14,,15,2026-09-14 23:10,1,Nightmare
 Yalahar Grim reaper 3kk/h Raw,meat,3577,,,,,1,Nightmare Scion
-Yalahar Grim reaper 3kk/h Raw,scythe legs,10312,,455,,2026-09-14 21:37,1,Nightmare
-Yalahar Grim reaper 3kk/h Raw,soul orbs,5944,29,20,30,2026-09-14 21:24,1,Nightmare
+Yalahar Grim reaper 3kk/h Raw,scythe legs,10312,,455,,2026-09-14 23:37,1,Nightmare
+Yalahar Grim reaper 3kk/h Raw,soul orbs,5944,29,20,30,2026-09-14 23:24,1,Nightmare
 Crumbling Caverns,gold coins,,,,,,2,Cinder Wyrmling|Shell Drake
 Crumbling Caverns,platinum coins,,,,,,2,Cinder Wyrmling|Shell Drake
 Ravenous Lava Lurker,meat ,,,,,,2,Dromedary
 Lycanthrope Grounds (Edron),beetroots,8017,8,,9,2026-09-14 21:09,2,Werebadger
 Lycanthrope Grounds (Edron),fox paws,27462,,918,,2026-09-14 21:34,2,Werefox
 Lycanthrope Grounds (Edron),gold coins,,,,,,2,Werebadger|Werebear|Wereboar|Werefox|Werewolf
-Lycanthrope Grounds (Edron),ham,3582,14,,15,2026-09-14 21:10,2,Werebear
-Lycanthrope Grounds (Edron),plate shields,3410,,10,,2026-09-14 21:19,2,Werewolf
+Lycanthrope Grounds (Edron),ham,3582,14,,15,2026-09-14 23:10,2,Werebear
+Lycanthrope Grounds (Edron),plate shields,3410,,10,,2026-09-14 23:19,2,Werewolf
 Lycanthrope Grounds (Edron),platinum coins,,,,,,2,Werebadger|Werebear|Wereboar|Werefox
 Lycanthrope Grounds (Edron),werebadger claws,22051,,688,,2026-09-14 21:39,2,Werebadger
 Lycanthrope Grounds (Edron),werebadger skulls,22055,999,,1000,2026-09-14 21:39,2,Werebadger
@@ -564,114 +567,114 @@ Grim reaper Yalahar,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Grim Re
 Grim reaper Yalahar,essences of a bad dream,,,,,,1,Nightmare
 Grim reaper Yalahar,flasks of demonic blood,,,,,,1,Grim Reaper|Nightmare
 Grim reaper Yalahar,gold coins,,,,,,1,Grim Reaper|Nightmare|Nightmare Scion
-Grim reaper Yalahar,ham,3582,14,,15,2026-09-14 21:10,1,Nightmare
+Grim reaper Yalahar,ham,3582,14,,15,2026-09-14 23:10,1,Nightmare
 Grim reaper Yalahar,meat,3577,,,,,1,Nightmare Scion
-Grim reaper Yalahar,scythe legs,10312,,455,,2026-09-14 21:37,1,Nightmare
-Grim reaper Yalahar,soul orbs,5944,29,20,30,2026-09-14 21:24,1,Nightmare
+Grim reaper Yalahar,scythe legs,10312,,455,,2026-09-14 23:37,1,Nightmare
+Grim reaper Yalahar,soul orbs,5944,29,20,30,2026-09-14 23:24,1,Nightmare
 40 min hyeans -2 south,axes,3274,,,,,1,Werehyaena
-40 min hyeans -2 south,great health potions,239,14,,15,2026-09-14 21:18,1,Werehyaena
-40 min hyeans -2 south,great mana potions,53161,,32,,2026-06-22 22:11,1,Werehyaena Shaman
-40 min hyeans -2 south,halberds,3269,598,274,599,2026-09-14 21:25,1,Werehyaena
+40 min hyeans -2 south,great health potions,239,14,,15,2026-09-14 23:18,1,Werehyaena
+40 min hyeans -2 south,great mana potions,53161,,32,,2026-06-23 00:11,1,Werehyaena Shaman
+40 min hyeans -2 south,halberds,3269,598,274,599,2026-09-14 23:25,1,Werehyaena
 40 min hyeans -2 south,knives,,,,,,1,Werehyaena
 40 min hyeans -2 south,meat,3577,,,,,1,Werehyaena
 40 min hyeans -2 south,platinum coins,,,,,,1,Werehyaena|Werehyaena Shaman
-40 min hyeans -2 south,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Werehyaena Shaman
-40 min hyeans -2 south,werehyaena noses,33943,224,159,225,2026-09-14 21:39,1,Werehyaena|Werehyaena Shaman
-buster spectre,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
+40 min hyeans -2 south,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Werehyaena Shaman
+40 min hyeans -2 south,werehyaena noses,33943,224,159,225,2026-09-14 23:39,1,Werehyaena|Werehyaena Shaman
+buster spectre,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Burster Spectre
 buster spectre,platinum coins,,,,,,1,Burster Spectre
 Glooth Plains - Surface,globs of glooth,,,,,,1,Devourer|Glooth Blob|Rot Elemental
 Glooth Plains - Surface,gold coins,,,,,,1,Blood Beast|Devourer|Glooth Blob|Rot Elemental
 Glooth Plains - Surface,platinum coins,,,,,,1,Devourer|Rot Elemental
-Glooth Plains - Surface,poisoned fangs,21195,1089,837,1090,2026-09-14 21:36,1,Blood Beast
-Glooth Plains - Surface,slime hearts,21194,155,98,156,2026-09-14 21:37,1,Blood Beast
-Glooth Plains - Surface,strong health potions,236,10,4,11,2026-09-14 21:18,1,Rot Elemental
-Glooth Plains - Surface,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Rot Elemental
-Lower Spike,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Behemoth
+Glooth Plains - Surface,poisoned fangs,21195,1089,837,1090,2026-09-14 23:36,1,Blood Beast
+Glooth Plains - Surface,slime hearts,21194,155,98,156,2026-09-14 23:37,1,Blood Beast
+Glooth Plains - Surface,strong health potions,236,10,4,11,2026-09-14 23:18,1,Rot Elemental
+Glooth Plains - Surface,strong mana potions,237,116,100,117,2026-09-14 23:18,1,Rot Elemental
+Lower Spike,assassin stars,7368,14,4,15,2026-09-14 23:28,1,Behemoth
 Lower Spike,bananas,3587,,,,,1,Vulcongra
-Lower Spike,battle stones,11447,289,128,290,2026-09-14 21:31,1,Behemoth
-Lower Spike,bloody dwarven beards,17827,110,78,111,2026-09-14 21:32,1,Lost Thrower
-Lower Spike,blue crystal splinters,16124,699,349,700,2026-09-14 21:21,1,Drillworm
-Lower Spike,broken throwing axes,17851,1474,736,1475,2026-09-14 21:32,1,Lost Thrower
-Lower Spike,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Drillworm
-Lower Spike,brown mushrooms,3725,9,,10,2026-09-14 21:09,1,Enslaved Dwarf|Lost Thrower
-Lower Spike,coal,12600,11,5,12,2026-09-14 21:32,1,Drillworm|Lost Thrower
-Lower Spike,double axes,3275,898,,899,2026-09-14 21:25,1,Behemoth
-Lower Spike,dragon ham,3583,69,,70,2026-09-14 21:10,1,Dragon Lord|Wyrm
+Lower Spike,battle stones,11447,289,128,290,2026-09-14 23:31,1,Behemoth
+Lower Spike,bloody dwarven beards,17827,110,78,111,2026-09-14 23:32,1,Lost Thrower
+Lower Spike,blue crystal splinters,16124,699,349,700,2026-09-14 23:21,1,Drillworm
+Lower Spike,broken throwing axes,17851,1474,736,1475,2026-09-14 23:32,1,Lost Thrower
+Lower Spike,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,1,Drillworm
+Lower Spike,brown mushrooms,3725,9,,10,2026-09-14 23:09,1,Enslaved Dwarf|Lost Thrower
+Lower Spike,coal,12600,11,5,12,2026-09-14 23:32,1,Drillworm|Lost Thrower
+Lower Spike,double axes,3275,898,,899,2026-09-14 23:25,1,Behemoth
+Lower Spike,dragon ham,3583,69,,70,2026-09-14 23:10,1,Dragon Lord|Wyrm
 Lower Spike,gold coins,,,,,,1,Behemoth|Dragon Lord|Drillworm|Enslaved Dwarf|Lost Thrower|Nightmare Scion
-Lower Spike,great health potions,239,14,,15,2026-09-14 21:18,1,Lost Thrower
-Lower Spike,great mana potions,53161,,32,,2026-06-22 22:11,1,Lost Thrower
-Lower Spike,green crystal splinters,16122,395,353,396,2026-09-14 21:22,1,Drillworm
-Lower Spike,green mushrooms,3732,99,88,100,2026-09-14 21:10,1,Dragon Lord
-Lower Spike,iron ore,5880,491,403,492,2026-09-14 21:35,1,Enslaved Dwarf
-Lower Spike,lost bracers,17853,1974,1349,1975,2026-09-14 21:35,1,Lost Thrower
+Lower Spike,great health potions,239,14,,15,2026-09-14 23:18,1,Lost Thrower
+Lower Spike,great mana potions,53161,,32,,2026-06-23 00:11,1,Lost Thrower
+Lower Spike,green crystal splinters,16122,395,353,396,2026-09-14 23:22,1,Drillworm
+Lower Spike,green mushrooms,3732,99,88,100,2026-09-14 23:10,1,Dragon Lord
+Lower Spike,iron ore,5880,491,403,492,2026-09-14 23:35,1,Enslaved Dwarf
+Lower Spike,lost bracers,17853,1974,1349,1975,2026-09-14 23:35,1,Lost Thrower
 Lower Spike,lumps of earth,,,,,,1,Drillworm
-Lower Spike,mad froths,17854,2874,1000,2875,2026-09-14 21:35,1,Lost Thrower
-Lower Spike,magma clumps,16130,1699,716,1700,2026-09-14 21:35,1,Vulcongra
+Lower Spike,mad froths,17854,2874,1000,2875,2026-09-14 23:35,1,Lost Thrower
+Lower Spike,magma clumps,16130,1699,716,1700,2026-09-14 23:35,1,Vulcongra
 Lower Spike,meat,3577,,,,,1,Behemoth|Nightmare Scion
 Lower Spike,platinum coins,,,,,,1,Behemoth|Enslaved Dwarf|Lost Thrower|Vulcongra
 Lower Spike,red hair dyes,17855,,,,,1,Lost Thrower
-Lower Spike,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Enslaved Dwarf
-Lower Spike,small emeralds,3032,249,161,250,2026-09-14 21:24,1,Enslaved Dwarf
-Lower Spike,strong health potions,236,10,4,11,2026-09-14 21:18,1,Wyrm
-Lower Spike,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Wyrm
-Lower Spike,wyrm scales,9665,410,353,411,2026-09-14 21:39,1,Wyrm
+Lower Spike,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Enslaved Dwarf
+Lower Spike,small emeralds,3032,249,161,250,2026-09-14 23:24,1,Enslaved Dwarf
+Lower Spike,strong health potions,236,10,4,11,2026-09-14 23:18,1,Wyrm
+Lower Spike,strong mana potions,237,116,100,117,2026-09-14 23:18,1,Wyrm
+Lower Spike,wyrm scales,9665,410,353,411,2026-09-14 23:39,1,Wyrm
 Werehyena MS 290+,axes,3274,,,,,1,Werehyaena
-Werehyena MS 290+,great health potions,239,14,,15,2026-09-14 21:18,1,Werehyaena
-Werehyena MS 290+,great mana potions,53161,,32,,2026-06-22 22:11,1,Werehyaena Shaman
-Werehyena MS 290+,halberds,3269,598,274,599,2026-09-14 21:25,1,Werehyaena
+Werehyena MS 290+,great health potions,239,14,,15,2026-09-14 23:18,1,Werehyaena
+Werehyena MS 290+,great mana potions,53161,,32,,2026-06-23 00:11,1,Werehyaena Shaman
+Werehyena MS 290+,halberds,3269,598,274,599,2026-09-14 23:25,1,Werehyaena
 Werehyena MS 290+,knives,,,,,,1,Werehyaena
 Werehyena MS 290+,meat,3577,,,,,1,Werehyaena
 Werehyena MS 290+,platinum coins,,,,,,1,Werehyaena|Werehyaena Shaman
-Werehyena MS 290+,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Werehyaena Shaman
-Werehyena MS 290+,werehyaena noses,33943,224,159,225,2026-09-14 21:39,1,Werehyaena|Werehyaena Shaman
+Werehyena MS 290+,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Werehyaena Shaman
+Werehyena MS 290+,werehyaena noses,33943,224,159,225,2026-09-14 23:39,1,Werehyaena|Werehyaena Shaman
 BOOK WORLD,gold coins,,,,,,1,Bluebeak|Lion Hydra
 BOOK WORLD,platinum coins,,,,,,1,Bluebeak|Lion Hydra
-Behemoth (Cyclopolis),assassin stars,7368,14,4,15,2026-09-14 21:28,1,Behemoth
-Behemoth (Cyclopolis),battle stones,11447,289,128,290,2026-09-14 21:31,1,Behemoth
-Behemoth (Cyclopolis),bolts,3446,2,1,3,2026-09-14 21:24,1,Dwarf Soldier
-Behemoth (Cyclopolis),crossbows,3349,98,54,99,2026-09-14 21:28,1,Dragon
-Behemoth (Cyclopolis),cyclops toes,9657,74,27,75,2026-09-14 21:33,1,Cyclops Smith
-Behemoth (Cyclopolis),double axes,3275,898,,899,2026-09-14 21:25,1,Behemoth
-Behemoth (Cyclopolis),dragon ham,3583,69,,70,2026-09-14 21:10,1,Dragon
+Behemoth (Cyclopolis),assassin stars,7368,14,4,15,2026-09-14 23:28,1,Behemoth
+Behemoth (Cyclopolis),battle stones,11447,289,128,290,2026-09-14 23:31,1,Behemoth
+Behemoth (Cyclopolis),bolts,3446,2,1,3,2026-09-14 23:24,1,Dwarf Soldier
+Behemoth (Cyclopolis),crossbows,3349,98,54,99,2026-09-14 23:28,1,Dragon
+Behemoth (Cyclopolis),cyclops toes,9657,74,27,75,2026-09-14 23:33,1,Cyclops Smith
+Behemoth (Cyclopolis),double axes,3275,898,,899,2026-09-14 23:25,1,Behemoth
+Behemoth (Cyclopolis),dragon ham,3583,69,,70,2026-09-14 23:10,1,Dragon
 Behemoth (Cyclopolis),dragon&#39;s tails,,,,,,1,Dragon
 Behemoth (Cyclopolis),gold coins,,,,,,1,Behemoth|Cyclops|Cyclops Drone|Cyclops Smith|Dragon|Dwarf Soldier
 Behemoth (Cyclopolis),meat,3577,,,,,1,Behemoth|Cyclops|Cyclops Drone|Cyclops Smith
 Behemoth (Cyclopolis),platinum coins,,,,,,1,Behemoth
-Behemoth (Cyclopolis),shovels,3457,448,1,449,2026-09-14 21:20,1,Dwarf Soldier
-Behemoth (Cyclopolis),soldier helmets,3375,328,,329,2026-09-14 21:12,1,Dwarf Soldier
-Behemoth (Cyclopolis),steel shields,3409,75,17,76,2026-09-14 21:20,1,Dragon
-Behemoth (Cyclopolis),white mushrooms,3723,4,3,5,2026-09-14 21:10,1,Dwarf Soldier
-Hellspawn (Yalahar),battle hammers,3305,114,112,115,2026-09-14 21:26,2,Plaguesmith
+Behemoth (Cyclopolis),shovels,3457,448,1,449,2026-09-14 23:20,1,Dwarf Soldier
+Behemoth (Cyclopolis),soldier helmets,3375,328,,329,2026-09-14 23:12,1,Dwarf Soldier
+Behemoth (Cyclopolis),steel shields,3409,75,17,76,2026-09-14 23:20,1,Dragon
+Behemoth (Cyclopolis),white mushrooms,3723,4,3,5,2026-09-14 23:10,1,Dwarf Soldier
+Hellspawn (Yalahar),battle hammers,3305,114,112,115,2026-09-14 23:26,2,Plaguesmith
 Hellspawn (Yalahar),dirty capes,3122,,,,,2,Plaguesmith
 Hellspawn (Yalahar),gold coins,,,,,,2,Gozzler|Hellspawn|Plaguesmith
-Hellspawn (Yalahar),great health potions,239,14,,15,2026-09-14 21:18,2,Hellspawn
-Hellspawn (Yalahar),hellspawn tails,10304,488,265,489,2026-09-14 21:35,2,Hellspawn
-Hellspawn (Yalahar),morning stars,3282,96,34,97,2026-09-14 21:27,2,Plaguesmith
-Hellspawn (Yalahar),mouldy cheeses,3120,0,,1,2026-09-14 21:15,2,Plaguesmith
+Hellspawn (Yalahar),great health potions,239,14,,15,2026-09-14 23:18,2,Hellspawn
+Hellspawn (Yalahar),hellspawn tails,10304,488,265,489,2026-09-14 23:35,2,Hellspawn
+Hellspawn (Yalahar),morning stars,3282,96,34,97,2026-09-14 23:27,2,Plaguesmith
+Hellspawn (Yalahar),mouldy cheeses,3120,0,,1,2026-09-14 23:15,2,Plaguesmith
 Hellspawn (Yalahar),pieces of iron,,,,,,2,Plaguesmith
-Hellspawn (Yalahar),plate shields,3410,,10,,2026-09-14 21:19,2,Gozzler
-Hellspawn (Yalahar),steel shields,3409,75,17,76,2026-09-14 21:20,2,Plaguesmith
-Hellspawn (Yalahar),two handed swords,3265,389,238,390,2026-09-14 21:30,2,Plaguesmith
+Hellspawn (Yalahar),plate shields,3410,,10,,2026-09-14 23:19,2,Gozzler
+Hellspawn (Yalahar),steel shields,3409,75,17,76,2026-09-14 23:20,2,Plaguesmith
+Hellspawn (Yalahar),two handed swords,3265,389,238,390,2026-09-14 23:30,2,Plaguesmith
 Werehayena hunt,axes,3274,,,,,1,Werehyaena
-Werehayena hunt,great health potions,239,14,,15,2026-09-14 21:18,1,Werehyaena
-Werehayena hunt,great mana potions,53161,,32,,2026-06-22 22:11,1,Werehyaena Shaman
-Werehayena hunt,halberds,3269,598,274,599,2026-09-14 21:25,1,Werehyaena
+Werehayena hunt,great health potions,239,14,,15,2026-09-14 23:18,1,Werehyaena
+Werehayena hunt,great mana potions,53161,,32,,2026-06-23 00:11,1,Werehyaena Shaman
+Werehayena hunt,halberds,3269,598,274,599,2026-09-14 23:25,1,Werehyaena
 Werehayena hunt,knives,,,,,,1,Werehyaena
 Werehayena hunt,meat,3577,,,,,1,Werehyaena
 Werehayena hunt,platinum coins,,,,,,1,Werehyaena|Werehyaena Shaman
-Werehayena hunt,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Werehyaena Shaman
-Werehayena hunt,werehyaena noses,33943,224,159,225,2026-09-14 21:39,1,Werehyaena|Werehyaena Shaman
-Grim Reaper (Yalahar),demonic essence,6499,999,898,1000,2026-09-14 21:33,2,Grim Reaper
+Werehayena hunt,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Werehyaena Shaman
+Werehayena hunt,werehyaena noses,33943,224,159,225,2026-09-14 23:39,1,Werehyaena|Werehyaena Shaman
+Grim Reaper (Yalahar),demonic essence,6499,999,898,1000,2026-09-14 23:33,2,Grim Reaper
 Grim Reaper (Yalahar),flasks of demonic blood,,,,,,2,Grim Reaper
 Grim Reaper (Yalahar),gold coins,,,,,,2,Grim Reaper
 Sea serpent (Svargrond),dragon ham,3583,69,,70,2026-09-14 21:10,1,Sea Serpent
 Sea serpent (Svargrond),gold coins,,,,,,1,Sea Serpent|Young Sea Serpent
-Sea serpent (Svargrond),morning stars,3282,96,34,97,2026-09-14 21:27,1,Young Sea Serpent
+Sea serpent (Svargrond),morning stars,3282,96,34,97,2026-09-14 23:27,1,Young Sea Serpent
 Sea serpent (Svargrond),platinum coins,,,,,,1,Sea Serpent
-Sea serpent (Svargrond),sea serpent scales,9666,597,362,598,2026-09-14 21:37,1,Sea Serpent
-STONFIN 0908,cheese,3607,59,,60,2026-09-14 21:09,1,Corym Charlatan|Corym Skirmisher
-STONFIN 0908,coal,12600,11,5,12,2026-09-14 21:32,1,Stonerefiner
-STONFIN 0908,fish,3578,3,,4,2026-09-14 21:10,1,Marsh Stalker
+Sea serpent (Svargrond),sea serpent scales,9666,597,362,598,2026-09-14 23:37,1,Sea Serpent
+STONFIN 0908,cheese,3607,59,,60,2026-09-14 23:09,1,Corym Charlatan|Corym Skirmisher
+STONFIN 0908,coal,12600,11,5,12,2026-09-14 23:32,1,Stonerefiner
+STONFIN 0908,fish,3578,3,,4,2026-09-14 23:10,1,Marsh Stalker
 STONFIN 0908,globs of acid slime,,,,,,1,Stonerefiner
 STONFIN 0908,gold coins,,,,,,1,Corym Charlatan|Corym Skirmisher|Marsh Stalker|Swampling|Tarantula
 STONFIN 0908,half-digested stones,27369,,,,,1,Stonerefiner
@@ -679,98 +682,98 @@ STONFIN 0908,meat,3577,,,,,1,Marsh Stalker
 STONFIN 0908,nothing ,,,,,,1,Snake
 STONFIN 0908,pieces of swampling wood,,,,,,1,Swampling
 STONFIN 0908,platinum coins,,,,,,1,Stonerefiner
-STONFIN 0908,poisonous slime,9640,48,28,49,2026-09-14 21:36,1,Stonerefiner
-STONFIN 0908,rare earth,27301,74,,75,2026-09-14 21:37,1,Stonerefiner
+STONFIN 0908,poisonous slime,9640,48,28,49,2026-09-14 23:36,1,Stonerefiner
+STONFIN 0908,rare earth,27301,74,,75,2026-09-14 23:37,1,Stonerefiner
 STONFIN 0908,rat cheese,17821,,,,,1,Corym Charlatan|Corym Skirmisher
 STONFIN 0908,rat cheese and stonerefiner&#39;s skulls ,,,,,,1,Stonerefiner
-STONFIN 0908,soft cheese,17820,4,,5,2026-09-14 21:10,1,Corym Charlatan|Corym Skirmisher
+STONFIN 0908,soft cheese,17820,4,,5,2026-09-14 23:10,1,Corym Charlatan|Corym Skirmisher
 STONFIN 0908,swampling mosses,,,,,,1,Swampling
-STONFIN 0908,tarantula eggs,10281,,90,,2026-09-14 21:38,1,Tarantula
-STONFIN 0908,white mushrooms,3723,4,3,5,2026-09-14 21:10,1,Swampling
-STONFIN 0908,worms,3492,14,1,15,2026-09-14 21:39,1,Marsh Stalker
+STONFIN 0908,tarantula eggs,10281,,90,,2026-09-14 23:38,1,Tarantula
+STONFIN 0908,white mushrooms,3723,4,3,5,2026-09-14 23:10,1,Swampling
+STONFIN 0908,worms,3492,14,1,15,2026-09-14 23:39,1,Marsh Stalker
 Glooth Plains - Surface (Oramond),globs of glooth,,,,,,1,Devourer|Glooth Blob|Rot Elemental
 Glooth Plains - Surface (Oramond),gold coins,,,,,,1,Blood Beast|Devourer|Glooth Blob|Rot Elemental
 Glooth Plains - Surface (Oramond),platinum coins,,,,,,1,Devourer|Rot Elemental
-Glooth Plains - Surface (Oramond),poisoned fangs,21195,1089,837,1090,2026-09-14 21:36,1,Blood Beast
-Glooth Plains - Surface (Oramond),slime hearts,21194,155,98,156,2026-09-14 21:37,1,Blood Beast
-Glooth Plains - Surface (Oramond),strong health potions,236,10,4,11,2026-09-14 21:18,1,Rot Elemental
-Glooth Plains - Surface (Oramond),strong mana potions,237,116,100,117,2026-09-14 21:18,1,Rot Elemental
-Glooth Tower,fish,3578,3,,4,2026-09-14 21:10,1,Quara Hydromancer Scout
+Glooth Plains - Surface (Oramond),poisoned fangs,21195,1089,837,1090,2026-09-14 23:36,1,Blood Beast
+Glooth Plains - Surface (Oramond),slime hearts,21194,155,98,156,2026-09-14 23:37,1,Blood Beast
+Glooth Plains - Surface (Oramond),strong health potions,236,10,4,11,2026-09-14 23:18,1,Rot Elemental
+Glooth Plains - Surface (Oramond),strong mana potions,237,116,100,117,2026-09-14 23:18,1,Rot Elemental
+Glooth Tower,fish,3578,3,,4,2026-09-14 23:10,1,Quara Hydromancer Scout
 Glooth Tower,globs of glooth,,,,,,1,Devourer|Rot Elemental
-Glooth Tower,glooth injection tubes,21103,1659,1421,1660,2026-09-14 21:34,1,Glooth Golem
+Glooth Tower,glooth injection tubes,21103,1659,1421,1660,2026-09-14 23:34,1,Glooth Golem
 Glooth Tower,gold coins,,,,,,1,Blood Beast|Devourer|Glooth Golem|Quara Constrictor Scout|Quara Hydromancer Scout|Quara Pincher Scout
-Glooth Tower,great mana potions,53161,,32,,2026-06-22 22:11,1,Glooth Golem
-Glooth Tower,necromantic rust,21196,2088,1409,2089,2026-09-14 21:36,1,Rustheap Golem
+Glooth Tower,great mana potions,53161,,32,,2026-06-23 00:11,1,Glooth Golem
+Glooth Tower,necromantic rust,21196,2088,1409,2089,2026-09-14 23:36,1,Rustheap Golem
 Glooth Tower,platinum coins,,,,,,1,Devourer|Glooth Golem|Rot Elemental|Rustheap Golem
-Glooth Tower,poisoned fangs,21195,1089,837,1090,2026-09-14 21:36,1,Blood Beast
-Glooth Tower,quara bones,11491,599,460,600,2026-09-14 21:37,1,Quara Predator Scout
-Glooth Tower,quara eyes,11488,1948,1143,1949,2026-09-14 21:37,1,Quara Hydromancer Scout
-Glooth Tower,quara pincers,11490,,356,,2026-09-14 21:37,1,Quara Pincher Scout
-Glooth Tower,quara tentacles,11487,1374,,1375,2026-09-14 21:37,1,Quara Constrictor Scout
-Glooth Tower,shrimp,3581,13,2,14,2026-09-14 21:10,1,Quara Constrictor Scout|Quara Hydromancer Scout
-Glooth Tower,slime hearts,21194,155,98,156,2026-09-14 21:37,1,Blood Beast
-Glooth Tower,strong health potions,236,10,4,11,2026-09-14 21:18,1,Rot Elemental
-Glooth Tower,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Rot Elemental
+Glooth Tower,poisoned fangs,21195,1089,837,1090,2026-09-14 23:36,1,Blood Beast
+Glooth Tower,quara bones,11491,599,460,600,2026-09-14 23:37,1,Quara Predator Scout
+Glooth Tower,quara eyes,11488,1948,1143,1949,2026-09-14 23:37,1,Quara Hydromancer Scout
+Glooth Tower,quara pincers,11490,,356,,2026-09-14 23:37,1,Quara Pincher Scout
+Glooth Tower,quara tentacles,11487,1374,,1375,2026-09-14 23:37,1,Quara Constrictor Scout
+Glooth Tower,shrimp,3581,13,2,14,2026-09-14 23:10,1,Quara Constrictor Scout|Quara Hydromancer Scout
+Glooth Tower,slime hearts,21194,155,98,156,2026-09-14 23:37,1,Blood Beast
+Glooth Tower,strong health potions,236,10,4,11,2026-09-14 23:18,1,Rot Elemental
+Glooth Tower,strong mana potions,237,116,100,117,2026-09-14 23:18,1,Rot Elemental
 Gnomegate Lava Hot Spot,bananas,3587,,,,,1,Vulcongra
-Gnomegate Lava Hot Spot,dragon ham,3583,69,,70,2026-09-14 21:10,1,Dragon Lord
+Gnomegate Lava Hot Spot,dragon ham,3583,69,,70,2026-09-14 23:10,1,Dragon Lord
 Gnomegate Lava Hot Spot,gold coins,,,,,,1,Dragon Lord|Massive Fire Elemental|Vulcongra
-Gnomegate Lava Hot Spot,green mushrooms,3732,99,88,100,2026-09-14 21:10,1,Dragon Lord
-Gnomegate Lava Hot Spot,magma clumps,16130,1699,716,1700,2026-09-14 21:35,1,Vulcongra
+Gnomegate Lava Hot Spot,green mushrooms,3732,99,88,100,2026-09-14 23:10,1,Dragon Lord
+Gnomegate Lava Hot Spot,magma clumps,16130,1699,716,1700,2026-09-14 23:35,1,Vulcongra
 Gnomegate Lava Hot Spot,platinum coins,,,,,,1,Massive Fire Elemental|Vulcongra
-Haunted Mansion,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Gazer Spectre
-Haunted Mansion,halberds,3269,598,274,599,2026-09-14 21:25,1,Thanatursus
-Haunted Mansion,ham,3582,14,,15,2026-09-14 21:10,1,Thanatursus
+Haunted Mansion,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,1,Gazer Spectre
+Haunted Mansion,halberds,3269,598,274,599,2026-09-14 23:25,1,Thanatursus
+Haunted Mansion,ham,3582,14,,15,2026-09-14 23:10,1,Thanatursus
 Haunted Mansion,meat,3577,,,,,1,Thanatursus
 Haunted Mansion,platinum coins,,,,,,1,Gazer Spectre|Thanatursus
-Haunted Mansion,small diamonds,3028,299,241,300,2026-09-14 21:24,1,Gazer Spectre
-Haunted Mansion,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Gazer Spectre
-Buster Spectre Darashia,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
+Haunted Mansion,small diamonds,3028,299,241,300,2026-09-14 23:24,1,Gazer Spectre
+Haunted Mansion,small sapphires,3029,248,214,249,2026-09-14 23:24,1,Gazer Spectre
+Buster Spectre Darashia,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Burster Spectre
 Buster Spectre Darashia,platinum coins,,,,,,1,Burster Spectre
-Darklight,brass helmets,3354,39,26,40,2026-09-14 21:11,1,Zombie
+Darklight,brass helmets,3354,39,26,40,2026-09-14 23:11,1,Zombie
 Darklight,crystal coins,,,,,,1,Darklight Matter|Darklight Source|Darklight Striker|Walking Pillar
 Darklight,gold coins,,,,,,1,Ghoul|Zombie
-Darklight,half-eaten brains,9659,2327,,2328,2026-09-14 21:34,1,Zombie
+Darklight,half-eaten brains,9659,2327,,2328,2026-09-14 23:34,1,Zombie
 Darklight,rotten pieces of cloth,,,,,,1,Ghoul
 Darklight,small topazes,,,,,,1,Darklight Striker
 Darklight,unstable darklight matter,,,,,,1,Darklight Matter|Darklight Striker
-Darklight,worms,3492,14,1,15,2026-09-14 21:39,1,Ghoul
+Darklight,worms,3492,14,1,15,2026-09-14 23:39,1,Ghoul
 Darklight,yellow darklight matter,,,,,,1,Darklight Source|Walking Pillar
 DUO 277EM + 250EK,flasks of embalming fluid,,,,,,1,Mummy
-DUO 277EM + 250EK,gauze bandages,9649,1098,617,1099,2026-09-14 21:34,1,Mummy
+DUO 277EM + 250EK,gauze bandages,9649,1098,617,1099,2026-09-14 23:34,1,Mummy
 DUO 277EM + 250EK,gold coins,,,,,,1,Mummy
-DUO 277EM + 250EK,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
-DUO 277EM + 250EK,ham,3582,14,,15,2026-09-14 21:10,1,Lion
+DUO 277EM + 250EK,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Burster Spectre
+DUO 277EM + 250EK,ham,3582,14,,15,2026-09-14 23:10,1,Lion
 DUO 277EM + 250EK,meat,3577,,,,,1,Lion
 DUO 277EM + 250EK,platinum coins,,,,,,1,Burster Spectre
-DUO 277EM + 250EK,worms,3492,14,1,15,2026-09-14 21:39,1,Mummy
-Buried Cathedral -3,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Gazer Spectre
-Buried Cathedral -3,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Arachnophobica|Burster Spectre|Ripper Spectre
+DUO 277EM + 250EK,worms,3492,14,1,15,2026-09-14 23:39,1,Mummy
+Buried Cathedral -3,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,1,Gazer Spectre
+Buried Cathedral -3,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Arachnophobica|Burster Spectre|Ripper Spectre
 Buried Cathedral -3,platinum coins,,,,,,1,Arachnophobica|Burster Spectre|Gazer Spectre|Ripper Spectre
-Buried Cathedral -3,small diamonds,3028,299,241,300,2026-09-14 21:24,1,Gazer Spectre
-Buried Cathedral -3,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Gazer Spectre
-Buried Cathedral -3,two handed swords,3265,389,238,390,2026-09-14 21:30,1,Ripper Spectre
-"Duo buried -2 ED, EK",brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Gazer Spectre
-"Duo buried -2 ED, EK",great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Arachnophobica|Burster Spectre|Ripper Spectre
+Buried Cathedral -3,small diamonds,3028,299,241,300,2026-09-14 23:24,1,Gazer Spectre
+Buried Cathedral -3,small sapphires,3029,248,214,249,2026-09-14 23:24,1,Gazer Spectre
+Buried Cathedral -3,two handed swords,3265,389,238,390,2026-09-14 23:30,1,Ripper Spectre
+"Duo buried -2 ED, EK",brown crystal splinters,16123,398,263,399,2026-09-14 23:21,1,Gazer Spectre
+"Duo buried -2 ED, EK",great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Arachnophobica|Burster Spectre|Ripper Spectre
 "Duo buried -2 ED, EK",platinum coins,,,,,,1,Arachnophobica|Burster Spectre|Gazer Spectre|Ripper Spectre
-"Duo buried -2 ED, EK",small diamonds,3028,299,241,300,2026-09-14 21:24,1,Gazer Spectre
-"Duo buried -2 ED, EK",small sapphires,3029,248,214,249,2026-09-14 21:24,1,Gazer Spectre
-"Duo buried -2 ED, EK",two handed swords,3265,389,238,390,2026-09-14 21:30,1,Ripper Spectre
-Duo burried cathedral,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Gazer Spectre
-Duo burried cathedral,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Arachnophobica|Burster Spectre|Ripper Spectre
+"Duo buried -2 ED, EK",small diamonds,3028,299,241,300,2026-09-14 23:24,1,Gazer Spectre
+"Duo buried -2 ED, EK",small sapphires,3029,248,214,249,2026-09-14 23:24,1,Gazer Spectre
+"Duo buried -2 ED, EK",two handed swords,3265,389,238,390,2026-09-14 23:30,1,Ripper Spectre
+Duo burried cathedral,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,1,Gazer Spectre
+Duo burried cathedral,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Arachnophobica|Burster Spectre|Ripper Spectre
 Duo burried cathedral,platinum coins,,,,,,1,Arachnophobica|Burster Spectre|Gazer Spectre|Ripper Spectre
-Duo burried cathedral,small diamonds,3028,299,241,300,2026-09-14 21:24,1,Gazer Spectre
-Duo burried cathedral,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Gazer Spectre
-Duo burried cathedral,two handed swords,3265,389,238,390,2026-09-14 21:30,1,Ripper Spectre
-"Calassa (Massive Water Elemental, Quara)",fish,3578,3,,4,2026-09-14 21:10,1,Massive Water Elemental
+Duo burried cathedral,small diamonds,3028,299,241,300,2026-09-14 23:24,1,Gazer Spectre
+Duo burried cathedral,small sapphires,3029,248,214,249,2026-09-14 23:24,1,Gazer Spectre
+Duo burried cathedral,two handed swords,3265,389,238,390,2026-09-14 23:30,1,Ripper Spectre
+"Calassa (Massive Water Elemental, Quara)",fish,3578,3,,4,2026-09-14 23:10,1,Massive Water Elemental
 "Calassa (Massive Water Elemental, Quara)",gold coins,,,,,,1,Massive Water Elemental|Quara Constrictor|Quara Hydromancer|Quara Mantassin|Quara Pincher|Quara Predator
-"Calassa (Massive Water Elemental, Quara)",great health potions,239,14,,15,2026-09-14 21:18,1,Massive Water Elemental|Quara Pincher
-"Calassa (Massive Water Elemental, Quara)",great mana potions,53161,,32,,2026-06-22 22:11,1,Massive Water Elemental
-"Calassa (Massive Water Elemental, Quara)",mantassin tails,11489,1274,932,1275,2026-09-14 21:35,1,Quara Mantassin
+"Calassa (Massive Water Elemental, Quara)",great health potions,239,14,,15,2026-09-14 23:18,1,Massive Water Elemental|Quara Pincher
+"Calassa (Massive Water Elemental, Quara)",great mana potions,53161,,32,,2026-06-23 00:11,1,Massive Water Elemental
+"Calassa (Massive Water Elemental, Quara)",mantassin tails,11489,1274,932,1275,2026-09-14 23:35,1,Quara Mantassin
 "Calassa (Massive Water Elemental, Quara)",platinum coins,,,,,,1,Massive Water Elemental|Quara Pincher
-"Calassa (Massive Water Elemental, Quara)",quara bones,11491,599,460,600,2026-09-14 21:37,1,Quara Predator
-"Calassa (Massive Water Elemental, Quara)",quara eyes,11488,1948,1143,1949,2026-09-14 21:37,1,Quara Hydromancer
-"Calassa (Massive Water Elemental, Quara)",quara pincers,11490,,356,,2026-09-14 21:37,1,Quara Pincher
-"Calassa (Massive Water Elemental, Quara)",quara tentacles,11487,1374,,1375,2026-09-14 21:37,1,Quara Constrictor
+"Calassa (Massive Water Elemental, Quara)",quara bones,11491,599,460,600,2026-09-14 23:37,1,Quara Predator
+"Calassa (Massive Water Elemental, Quara)",quara eyes,11488,1948,1143,1949,2026-09-14 23:37,1,Quara Hydromancer
+"Calassa (Massive Water Elemental, Quara)",quara pincers,11490,,356,,2026-09-14 23:37,1,Quara Pincher
+"Calassa (Massive Water Elemental, Quara)",quara tentacles,11487,1374,,1375,2026-09-14 23:37,1,Quara Constrictor
 Quaras duo,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Quara (bestiary),platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Podzilla Quaras,platinum coins,,,,,,5,Quara Looter|Quara Plunderer|Quara Raider
@@ -778,64 +781,64 @@ Quaras Podzilla,platinum coins,,,,,,3,Quara Looter|Quara Plunderer|Quara Raider
 Teste 1 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Teste 2 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Werehyena (South) - 40min/371lvl,axes,3274,,,,,1,Werehyaena
-Werehyena (South) - 40min/371lvl,great health potions,239,14,,15,2026-09-14 21:18,1,Werehyaena
-Werehyena (South) - 40min/371lvl,great mana potions,53161,,32,,2026-06-22 22:11,1,Werehyaena Shaman
-Werehyena (South) - 40min/371lvl,halberds,3269,598,274,599,2026-09-14 21:25,1,Werehyaena
+Werehyena (South) - 40min/371lvl,great health potions,239,14,,15,2026-09-14 23:18,1,Werehyaena
+Werehyena (South) - 40min/371lvl,great mana potions,53161,,32,,2026-06-23 00:11,1,Werehyaena Shaman
+Werehyena (South) - 40min/371lvl,halberds,3269,598,274,599,2026-09-14 23:25,1,Werehyaena
 Werehyena (South) - 40min/371lvl,knives,,,,,,1,Werehyaena
 Werehyena (South) - 40min/371lvl,meat,3577,,,,,1,Werehyaena
 Werehyena (South) - 40min/371lvl,platinum coins,,,,,,1,Werehyaena|Werehyaena Shaman
-Werehyena (South) - 40min/371lvl,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Werehyaena Shaman
-Werehyena (South) - 40min/371lvl,werehyaena noses,33943,224,159,225,2026-09-14 21:39,1,Werehyaena|Werehyaena Shaman
+Werehyena (South) - 40min/371lvl,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Werehyaena Shaman
+Werehyena (South) - 40min/371lvl,werehyaena noses,33943,224,159,225,2026-09-14 23:39,1,Werehyaena|Werehyaena Shaman
 Darashia Werehyena South,axes,3274,,,,,1,Werehyaena
-Darashia Werehyena South,great health potions,239,14,,15,2026-09-14 21:18,1,Werehyaena
-Darashia Werehyena South,great mana potions,53161,,32,,2026-06-22 22:11,1,Werehyaena Shaman
-Darashia Werehyena South,halberds,3269,598,274,599,2026-09-14 21:25,1,Werehyaena
+Darashia Werehyena South,great health potions,239,14,,15,2026-09-14 23:18,1,Werehyaena
+Darashia Werehyena South,great mana potions,53161,,32,,2026-06-23 00:11,1,Werehyaena Shaman
+Darashia Werehyena South,halberds,3269,598,274,599,2026-09-14 23:25,1,Werehyaena
 Darashia Werehyena South,knives,,,,,,1,Werehyaena
 Darashia Werehyena South,meat,3577,,,,,1,Werehyaena
 Darashia Werehyena South,platinum coins,,,,,,1,Werehyaena|Werehyaena Shaman
-Darashia Werehyena South,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Werehyaena Shaman
-Darashia Werehyena South,werehyaena noses,33943,224,159,225,2026-09-14 21:39,1,Werehyaena|Werehyaena Shaman
+Darashia Werehyena South,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Werehyaena Shaman
+Darashia Werehyena South,werehyaena noses,33943,224,159,225,2026-09-14 23:39,1,Werehyaena|Werehyaena Shaman
 Darashia Werehyena North,axes,3274,,,,,1,Werehyaena
-Darashia Werehyena North,great health potions,239,14,,15,2026-09-14 21:18,1,Werehyaena
-Darashia Werehyena North,great mana potions,53161,,32,,2026-06-22 22:11,1,Werehyaena Shaman
-Darashia Werehyena North,halberds,3269,598,274,599,2026-09-14 21:25,1,Werehyaena
+Darashia Werehyena North,great health potions,239,14,,15,2026-09-14 23:18,1,Werehyaena
+Darashia Werehyena North,great mana potions,53161,,32,,2026-06-23 00:11,1,Werehyaena Shaman
+Darashia Werehyena North,halberds,3269,598,274,599,2026-09-14 23:25,1,Werehyaena
 Darashia Werehyena North,knives,,,,,,1,Werehyaena
 Darashia Werehyena North,meat,3577,,,,,1,Werehyaena
 Darashia Werehyena North,meat and worms ,,,,,,1,Hyaena
 Darashia Werehyena North,platinum coins,,,,,,1,Werehyaena|Werehyaena Shaman
-Darashia Werehyena North,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Werehyaena Shaman
-Darashia Werehyena North,werehyaena noses,33943,224,159,225,2026-09-14 21:39,1,Werehyaena|Werehyaena Shaman
+Darashia Werehyena North,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Werehyaena Shaman
+Darashia Werehyena North,werehyaena noses,33943,224,159,225,2026-09-14 23:39,1,Werehyaena|Werehyaena Shaman
 Werelions -2,axes,3274,,,,,3,White Lion
-Werelions -2,dark armors,3383,297,121,298,2026-09-14 21:01,3,Werelion
+Werelions -2,dark armors,3383,297,121,298,2026-09-14 23:01,3,Werelion
 Werelions -2,gold coins,,,,,,3,Werelioness
-Werelions -2,great spirit potions,7642,151,113,152,2026-09-14 21:18,3,Werelion|White Lion
-Werelions -2,ham,3582,14,,15,2026-09-14 21:10,3,Werelioness
+Werelions -2,great spirit potions,7642,151,113,152,2026-09-14 23:18,3,Werelion|White Lion
+Werelions -2,ham,3582,14,,15,2026-09-14 23:10,3,Werelioness
 Werelions -2,leather boots,3552,,,,,3,White Lion
 Werelions -2,lion&#39;s manes,,,,,,3,Werelion|Werelioness|White Lion
 Werelions -2,meat,3577,,,,,3,Werelioness
 Werelions -2,platinum coins,,,,,,3,Werelion|Werelioness|White Lion
-Werelions -2,rapiers,3272,14,,15,2026-09-14 21:29,3,Werelioness
-Werelions -2,soul orbs,5944,29,20,30,2026-09-14 21:24,3,Werelioness
-Werelions -2,terra boots,813,2798,2203,2799,2026-09-14 21:03,3,White Lion
-Werelions -2,twin hooks,10392,469,152,470,2026-09-14 21:30,3,White Lion
+Werelions -2,rapiers,3272,14,,15,2026-09-14 23:29,3,Werelioness
+Werelions -2,soul orbs,5944,29,20,30,2026-09-14 23:24,3,Werelioness
+Werelions -2,terra boots,813,2798,2203,2799,2026-09-14 23:03,3,White Lion
+Werelions -2,twin hooks,10392,469,152,470,2026-09-14 23:30,3,White Lion
 Werelions -1,axes,3274,,,,,3,White Lion
-Werelions -1,dark armors,3383,297,121,298,2026-09-14 21:01,3,Werelion
+Werelions -1,dark armors,3383,297,121,298,2026-09-14 23:01,3,Werelion
 Werelions -1,gold coins,,,,,,3,Werelioness
-Werelions -1,great spirit potions,7642,151,113,152,2026-09-14 21:18,3,Werelion|White Lion
-Werelions -1,ham,3582,14,,15,2026-09-14 21:10,3,Werelioness
+Werelions -1,great spirit potions,7642,151,113,152,2026-09-14 23:18,3,Werelion|White Lion
+Werelions -1,ham,3582,14,,15,2026-09-14 23:10,3,Werelioness
 Werelions -1,leather boots,3552,,,,,3,White Lion
 Werelions -1,lion&#39;s manes,,,,,,3,Werelion|Werelioness|White Lion
 Werelions -1,meat,3577,,,,,3,Werelioness
 Werelions -1,platinum coins,,,,,,3,Werelion|Werelioness|White Lion
-Werelions -1,rapiers,3272,14,,15,2026-09-14 21:29,3,Werelioness
-Werelions -1,soul orbs,5944,29,20,30,2026-09-14 21:24,3,Werelioness
-Werelions -1,terra boots,813,2798,2203,2799,2026-09-14 21:03,3,White Lion
-Werelions -1,twin hooks,10392,469,152,470,2026-09-14 21:30,3,White Lion
+Werelions -1,rapiers,3272,14,,15,2026-09-14 23:29,3,Werelioness
+Werelions -1,soul orbs,5944,29,20,30,2026-09-14 23:24,3,Werelioness
+Werelions -1,terra boots,813,2798,2203,2799,2026-09-14 23:03,3,White Lion
+Werelions -1,twin hooks,10392,469,152,470,2026-09-14 23:30,3,White Lion
 |Rapid| Werelions -2,axes,3274,,,,,1,White Lion
-|Rapid| Werelions -2,dark armors,3383,297,121,298,2026-09-14 21:01,1,Werelion
+|Rapid| Werelions -2,dark armors,3383,297,121,298,2026-09-14 23:01,1,Werelion
 |Rapid| Werelions -2,gold coins,,,,,,1,Werelioness
-|Rapid| Werelions -2,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Werelion|White Lion
-|Rapid| Werelions -2,ham,3582,14,,15,2026-09-14 21:10,1,Werelioness
+|Rapid| Werelions -2,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Werelion|White Lion
+|Rapid| Werelions -2,ham,3582,14,,15,2026-09-14 23:10,1,Werelioness
 |Rapid| Werelions -2,leather boots,3552,,,,,1,White Lion
 |Rapid| Werelions -2,lion&#39;s manes,,,,,,1,Werelion|Werelioness|White Lion
 |Rapid| Werelions -2,meat,3577,,,,,1,Werelioness
@@ -858,76 +861,76 @@ Werelions -1,twin hooks,10392,469,152,470,2026-09-14 21:30,3,White Lion
 |Rapid| Werelions -1,terra boots,813,2798,2203,2799,2026-09-14 21:03,1,White Lion
 |Rapid| Werelions -1,twin hooks,10392,469,152,470,2026-09-14 21:30,1,White Lion
 |Double| Werelions -1,axes,3274,,,,,1,White Lion
-|Double| Werelions -1,dark armors,3383,297,121,298,2026-09-14 21:01,1,Werelion
+|Double| Werelions -1,dark armors,3383,297,121,298,2026-09-14 23:01,1,Werelion
 |Double| Werelions -1,gold coins,,,,,,1,Werelioness
-|Double| Werelions -1,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Werelion|White Lion
-|Double| Werelions -1,ham,3582,14,,15,2026-09-14 21:10,1,Werelioness
+|Double| Werelions -1,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Werelion|White Lion
+|Double| Werelions -1,ham,3582,14,,15,2026-09-14 23:10,1,Werelioness
 |Double| Werelions -1,leather boots,3552,,,,,1,White Lion
 |Double| Werelions -1,lion&#39;s manes,,,,,,1,Werelion|Werelioness|White Lion
 |Double| Werelions -1,meat,3577,,,,,1,Werelioness
 |Double| Werelions -1,platinum coins,,,,,,1,Werelion|Werelioness|White Lion
-|Double| Werelions -1,rapiers,3272,14,,15,2026-09-14 21:29,1,Werelioness
-|Double| Werelions -1,soul orbs,5944,29,20,30,2026-09-14 21:24,1,Werelioness
-|Double| Werelions -1,terra boots,813,2798,2203,2799,2026-09-14 21:03,1,White Lion
-|Double| Werelions -1,twin hooks,10392,469,152,470,2026-09-14 21:30,1,White Lion
+|Double| Werelions -1,rapiers,3272,14,,15,2026-09-14 23:29,1,Werelioness
+|Double| Werelions -1,soul orbs,5944,29,20,30,2026-09-14 23:24,1,Werelioness
+|Double| Werelions -1,terra boots,813,2798,2203,2799,2026-09-14 23:03,1,White Lion
+|Double| Werelions -1,twin hooks,10392,469,152,470,2026-09-14 23:30,1,White Lion
 Werelions,axes,3274,,,,,1,White Lion
-Werelions,dark armors,3383,297,121,298,2026-09-14 21:01,1,Werelion
+Werelions,dark armors,3383,297,121,298,2026-09-14 23:01,1,Werelion
 Werelions,gold coins,,,,,,1,Werelioness
-Werelions,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Werelion|White Lion
-Werelions,ham,3582,14,,15,2026-09-14 21:10,1,Werelioness
+Werelions,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Werelion|White Lion
+Werelions,ham,3582,14,,15,2026-09-14 23:10,1,Werelioness
 Werelions,leather boots,3552,,,,,1,White Lion
 Werelions,lion&#39;s manes,,,,,,1,Werelion|Werelioness|White Lion
 Werelions,meat,3577,,,,,1,Werelioness
 Werelions,platinum coins,,,,,,1,Werelion|Werelioness|White Lion
-Werelions,rapiers,3272,14,,15,2026-09-14 21:29,1,Werelioness
-Werelions,soul orbs,5944,29,20,30,2026-09-14 21:24,1,Werelioness
-Werelions,terra boots,813,2798,2203,2799,2026-09-14 21:03,1,White Lion
-Werelions,twin hooks,10392,469,152,470,2026-09-14 21:30,1,White Lion
+Werelions,rapiers,3272,14,,15,2026-09-14 23:29,1,Werelioness
+Werelions,soul orbs,5944,29,20,30,2026-09-14 23:24,1,Werelioness
+Werelions,terra boots,813,2798,2203,2799,2026-09-14 23:03,1,White Lion
+Werelions,twin hooks,10392,469,152,470,2026-09-14 23:30,1,White Lion
 werelions,axes,3274,,,,,2,White Lion
-werelions,dark armors,3383,297,121,298,2026-09-14 21:01,2,Werelion
+werelions,dark armors,3383,297,121,298,2026-09-14 23:01,2,Werelion
 werelions,gold coins,,,,,,2,Crocodile|Cunning Werepanther|Feral Werecrocodile|Killer Caiman|Werecrocodile|Werelioness
-werelions,great spirit potions,7642,151,113,152,2026-09-14 21:18,2,Werelion|White Lion
-werelions,ham,3582,14,,15,2026-09-14 21:10,2,Crocodile|Killer Caiman|Werelioness
+werelions,great spirit potions,7642,151,113,152,2026-09-14 23:18,2,Werelion|White Lion
+werelions,ham,3582,14,,15,2026-09-14 23:10,2,Crocodile|Killer Caiman|Werelioness
 werelions,leather boots,3552,,,,,2,White Lion
 werelions,lion&#39;s manes,,,,,,2,Werelion|Werelioness|White Lion
 werelions,meat,3577,,,,,2,Werelioness
 werelions,meat and striped fur ,,,,,,2,Tiger|White Tiger
 werelions,pieces of crocodile leather,,,,,,2,Crocodile|Killer Caiman
 werelions,platinum coins,,,,,,2,Cunning Werepanther|Feral Werecrocodile|Werecrocodile|Werelion|Werelioness|Werepanther
-werelions,rapiers,3272,14,,15,2026-09-14 21:29,2,Werelioness
-werelions,small emeralds,3032,249,161,250,2026-09-14 21:24,2,Killer Caiman
-werelions,soul orbs,5944,29,20,30,2026-09-14 21:24,2,Werelioness
-werelions,terra boots,813,2798,2203,2799,2026-09-14 21:03,2,White Lion
-werelions,twin hooks,10392,469,152,470,2026-09-14 21:30,2,White Lion
-werelions,werecrocodile tongues,43729,2299,,2300,2026-09-14 21:39,2,Feral Werecrocodile|Werecrocodile
-werelions,werepanther claws,43731,,167,,2026-09-14 21:39,2,Werepanther
+werelions,rapiers,3272,14,,15,2026-09-14 23:29,2,Werelioness
+werelions,small emeralds,3032,249,161,250,2026-09-14 23:24,2,Killer Caiman
+werelions,soul orbs,5944,29,20,30,2026-09-14 23:24,2,Werelioness
+werelions,terra boots,813,2798,2203,2799,2026-09-14 23:03,2,White Lion
+werelions,twin hooks,10392,469,152,470,2026-09-14 23:30,2,White Lion
+werelions,werecrocodile tongues,43729,2299,,2300,2026-09-14 23:39,2,Feral Werecrocodile|Werecrocodile
+werelions,werepanther claws,43731,,167,,2026-09-14 23:39,2,Werepanther
 werelions,weretiger teeth,,,,,,2,Weretiger|White Weretiger
 Werelion -1,axes,3274,,,,,1,White Lion
-Werelion -1,dark armors,3383,297,121,298,2026-09-14 21:01,1,Werelion
+Werelion -1,dark armors,3383,297,121,298,2026-09-14 23:01,1,Werelion
 Werelion -1,gold coins,,,,,,1,Werelioness
-Werelion -1,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Werelion|White Lion
-Werelion -1,ham,3582,14,,15,2026-09-14 21:10,1,Werelioness
+Werelion -1,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Werelion|White Lion
+Werelion -1,ham,3582,14,,15,2026-09-14 23:10,1,Werelioness
 Werelion -1,leather boots,3552,,,,,1,White Lion
 Werelion -1,lion&#39;s manes,,,,,,1,Werelion|Werelioness|White Lion
 Werelion -1,meat,3577,,,,,1,Werelioness
 Werelion -1,platinum coins,,,,,,1,Werelion|Werelioness|White Lion
-Werelion -1,rapiers,3272,14,,15,2026-09-14 21:29,1,Werelioness
-Werelion -1,soul orbs,5944,29,20,30,2026-09-14 21:24,1,Werelioness
-Werelion -1,terra boots,813,2798,2203,2799,2026-09-14 21:03,1,White Lion
-Werelion -1,twin hooks,10392,469,152,470,2026-09-14 21:30,1,White Lion
+Werelion -1,rapiers,3272,14,,15,2026-09-14 23:29,1,Werelioness
+Werelion -1,soul orbs,5944,29,20,30,2026-09-14 23:24,1,Werelioness
+Werelion -1,terra boots,813,2798,2203,2799,2026-09-14 23:03,1,White Lion
+Werelion -1,twin hooks,10392,469,152,470,2026-09-14 23:30,1,White Lion
 Werelion -1 (post nerf),axes,3274,,,,,1,White Lion
-Werelion -1 (post nerf),dark armors,3383,297,121,298,2026-09-14 21:01,1,Werelion
+Werelion -1 (post nerf),dark armors,3383,297,121,298,2026-09-14 23:01,1,Werelion
 Werelion -1 (post nerf),gold coins,,,,,,1,Werelioness
-Werelion -1 (post nerf),great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Werelion|White Lion
-Werelion -1 (post nerf),ham,3582,14,,15,2026-09-14 21:10,1,Werelioness
+Werelion -1 (post nerf),great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Werelion|White Lion
+Werelion -1 (post nerf),ham,3582,14,,15,2026-09-14 23:10,1,Werelioness
 Werelion -1 (post nerf),leather boots,3552,,,,,1,White Lion
 Werelion -1 (post nerf),lion&#39;s manes,,,,,,1,Werelion|Werelioness|White Lion
 Werelion -1 (post nerf),meat,3577,,,,,1,Werelioness
 Werelion -1 (post nerf),platinum coins,,,,,,1,Werelion|Werelioness|White Lion
-Werelion -1 (post nerf),rapiers,3272,14,,15,2026-09-14 21:29,1,Werelioness
-Werelion -1 (post nerf),soul orbs,5944,29,20,30,2026-09-14 21:24,1,Werelioness
-Werelion -1 (post nerf),terra boots,813,2798,2203,2799,2026-09-14 21:03,1,White Lion
-Werelion -1 (post nerf),twin hooks,10392,469,152,470,2026-09-14 21:30,1,White Lion
+Werelion -1 (post nerf),rapiers,3272,14,,15,2026-09-14 23:29,1,Werelioness
+Werelion -1 (post nerf),soul orbs,5944,29,20,30,2026-09-14 23:24,1,Werelioness
+Werelion -1 (post nerf),terra boots,813,2798,2203,2799,2026-09-14 23:03,1,White Lion
+Werelion -1 (post nerf),twin hooks,10392,469,152,470,2026-09-14 23:30,1,White Lion
 Weretigers -2,gold coins,,,,,,16,Cunning Werepanther|Weretiger|White Weretiger
 Weretigers -2,platinum coins,,,,,,16,Cunning Werepanther|Weretiger|White Weretiger
 Weretigers -2,weretiger teeth,,,,,,16,Weretiger|White Weretiger
@@ -953,127 +956,752 @@ EM 300+ WERETIGER -2,platinum coins,,,,,,1,Cunning Werepanther|Weretiger|White W
 EM 300+ WERETIGER -2,weretiger teeth,,,,,,1,Weretiger|White Weretiger
 Ripper Spectre,great spirit potions,7642,151,113,152,2026-09-14 21:18,8,Arachnophobica|Ripper Spectre
 Ripper Spectre,platinum coins,,,,,,8,Arachnophobica|Ripper Spectre
-Ripper Spectre,two handed swords,3265,389,238,390,2026-09-14 21:30,8,Ripper Spectre
-Burster Spectre #58,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
+Ripper Spectre,two handed swords,3265,389,238,390,2026-09-14 23:30,8,Ripper Spectre
+Burster Spectre #58,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Burster Spectre
 Burster Spectre #58,platinum coins,,,,,,1,Burster Spectre
-Burster Spectre #59,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
+Burster Spectre #59,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Burster Spectre
 Burster Spectre #59,platinum coins,,,,,,1,Burster Spectre
-Burster Spectre #60,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
+Burster Spectre #60,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Burster Spectre
 Burster Spectre #60,platinum coins,,,,,,1,Burster Spectre
-Burster Spectre #61,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
+Burster Spectre #61,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Burster Spectre
 Burster Spectre #61,platinum coins,,,,,,1,Burster Spectre
-INQ Demon Forge (The Well of Souls),arrows,3447,2,2,3,2026-09-14 21:24,1,Hunter
-INQ Demon Forge (The Well of Souls),assassin stars,7368,14,4,15,2026-09-14 21:28,1,Betrayed Wraith|Demon|Undead Dragon
+INQ Demon Forge (The Well of Souls),arrows,3447,2,2,3,2026-09-14 23:24,1,Hunter
+INQ Demon Forge (The Well of Souls),assassin stars,7368,14,4,15,2026-09-14 23:28,1,Betrayed Wraith|Demon|Undead Dragon
 INQ Demon Forge (The Well of Souls),axes,3274,,,,,1,Wild Warrior
-INQ Demon Forge (The Well of Souls),black pearls,3027,279,231,280,2026-09-14 21:21,1,Lost Soul|Undead Dragon
-INQ Demon Forge (The Well of Souls),blank runes,3147,,7,,2026-09-14 21:19,1,Dark Magician|Fire Devil|Lost Soul|Phantasm|Spectre
-INQ Demon Forge (The Well of Souls),bone swords,3338,24,,25,2026-09-14 21:28,1,Braindeath
-INQ Demon Forge (The Well of Souls),brass shields,3411,52,22,53,2026-09-14 21:19,1,Wild Warrior
+INQ Demon Forge (The Well of Souls),black pearls,3027,279,231,280,2026-09-14 23:21,1,Lost Soul|Undead Dragon
+INQ Demon Forge (The Well of Souls),blank runes,3147,,7,,2026-09-14 23:19,1,Dark Magician|Fire Devil|Lost Soul|Phantasm|Spectre
+INQ Demon Forge (The Well of Souls),bone swords,3338,24,,25,2026-09-14 23:28,1,Braindeath
+INQ Demon Forge (The Well of Souls),brass shields,3411,52,22,53,2026-09-14 23:19,1,Wild Warrior
 INQ Demon Forge (The Well of Souls),cherries,,,,,,1,Warlock
-INQ Demon Forge (The Well of Souls),dead frogs,34237,21,,22,2026-09-14 21:13,1,Dark Apprentice
-INQ Demon Forge (The Well of Souls),demon horns,5954,994,601,995,2026-09-14 21:33,1,Demon
-INQ Demon Forge (The Well of Souls),demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Betrayed Wraith|Demon|Phantasm|Undead Dragon
-INQ Demon Forge (The Well of Souls),dragon ham,3583,69,,70,2026-09-14 21:10,1,Dragon Hatchling
-INQ Demon Forge (The Well of Souls),eggs,3606,199,,200,2026-09-14 21:10,1,Wild Warrior
-INQ Demon Forge (The Well of Souls),fire mushrooms,3731,226,176,227,2026-09-14 21:10,1,Demon
+INQ Demon Forge (The Well of Souls),dead frogs,34237,21,,22,2026-09-14 23:13,1,Dark Apprentice
+INQ Demon Forge (The Well of Souls),demon horns,5954,994,601,995,2026-09-14 23:33,1,Demon
+INQ Demon Forge (The Well of Souls),demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Betrayed Wraith|Demon|Phantasm|Undead Dragon
+INQ Demon Forge (The Well of Souls),dragon ham,3583,69,,70,2026-09-14 23:10,1,Dragon Hatchling
+INQ Demon Forge (The Well of Souls),eggs,3606,199,,200,2026-09-14 23:10,1,Wild Warrior
+INQ Demon Forge (The Well of Souls),fire mushrooms,3731,226,176,227,2026-09-14 23:10,1,Demon
 INQ Demon Forge (The Well of Souls),flasks of demonic blood,,,,,,1,Betrayed Wraith
 INQ Demon Forge (The Well of Souls),gold coins,,,,,,1,Betrayed Wraith|Braindeath|Dark Apprentice|Dark Magician|Demon|Dragon Hatchling
-INQ Demon Forge (The Well of Souls),great health potions,239,14,,15,2026-09-14 21:18,1,Lost Soul|Undead Dragon
-INQ Demon Forge (The Well of Souls),great mana potions,53161,,32,,2026-06-22 22:11,1,Betrayed Wraith|Demon|Lost Soul|Phantasm|Undead Dragon
-INQ Demon Forge (The Well of Souls),great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Demon
-INQ Demon Forge (The Well of Souls),hardened bones,5925,,23,,2026-09-14 21:34,1,Undead Dragon
-INQ Demon Forge (The Well of Souls),health potions,266,38,24,39,2026-09-14 21:18,1,Dark Magician
+INQ Demon Forge (The Well of Souls),great health potions,239,14,,15,2026-09-14 23:18,1,Lost Soul|Undead Dragon
+INQ Demon Forge (The Well of Souls),great mana potions,53161,,32,,2026-06-23 00:11,1,Betrayed Wraith|Demon|Lost Soul|Phantasm|Undead Dragon
+INQ Demon Forge (The Well of Souls),great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Demon
+INQ Demon Forge (The Well of Souls),hardened bones,5925,,23,,2026-09-14 23:34,1,Undead Dragon
+INQ Demon Forge (The Well of Souls),health potions,266,38,24,39,2026-09-14 23:18,1,Dark Magician
 INQ Demon Forge (The Well of Souls),hunter&#39;s quivers,,,,,,1,Hunter
-INQ Demon Forge (The Well of Souls),lyres,2949,299,,300,2026-09-14 21:07,1,Spectre
+INQ Demon Forge (The Well of Souls),lyres,2949,299,,300,2026-09-14 23:07,1,Spectre
 INQ Demon Forge (The Well of Souls),maces,3286,,,,,1,Wild Warrior
-INQ Demon Forge (The Well of Souls),mana potions,268,67,47,68,2026-09-14 21:18,1,Dark Magician
+INQ Demon Forge (The Well of Souls),mana potions,268,67,47,68,2026-09-14 23:18,1,Dark Magician
 INQ Demon Forge (The Well of Souls),oranges,3586,,,,,1,Hunter
 INQ Demon Forge (The Well of Souls),platinum coins,,,,,,1,Betrayed Wraith|Demon|Lich|Lost Soul|Phantasm|Undead Dragon
-INQ Demon Forge (The Well of Souls),power bolts,3450,,3,,2026-09-14 21:24,1,Betrayed Wraith|Undead Dragon
-INQ Demon Forge (The Well of Souls),rolls,3601,79,,80,2026-09-14 21:10,1,Hunter
-INQ Demon Forge (The Well of Souls),shadow herbs,3740,19,12,20,2026-09-14 21:08,1,Phantasm
-INQ Demon Forge (The Well of Souls),small amethysts,3033,198,172,199,2026-09-14 21:24,1,Demon|Phantasm
-INQ Demon Forge (The Well of Souls),small diamonds,3028,299,241,300,2026-09-14 21:24,1,Betrayed Wraith
-INQ Demon Forge (The Well of Souls),small emeralds,3032,249,161,250,2026-09-14 21:24,1,Demon|Phantasm
-INQ Demon Forge (The Well of Souls),small pitchforks,11513,83,29,84,2026-09-14 21:37,1,Fire Devil
+INQ Demon Forge (The Well of Souls),power bolts,3450,,3,,2026-09-14 23:24,1,Betrayed Wraith|Undead Dragon
+INQ Demon Forge (The Well of Souls),rolls,3601,79,,80,2026-09-14 23:10,1,Hunter
+INQ Demon Forge (The Well of Souls),shadow herbs,3740,19,12,20,2026-09-14 23:08,1,Phantasm
+INQ Demon Forge (The Well of Souls),small amethysts,3033,198,172,199,2026-09-14 23:24,1,Demon|Phantasm
+INQ Demon Forge (The Well of Souls),small diamonds,3028,299,241,300,2026-09-14 23:24,1,Betrayed Wraith
+INQ Demon Forge (The Well of Souls),small emeralds,3032,249,161,250,2026-09-14 23:24,1,Demon|Phantasm
+INQ Demon Forge (The Well of Souls),small pitchforks,11513,83,29,84,2026-09-14 23:37,1,Fire Devil
 INQ Demon Forge (The Well of Souls),small rubies,,,,,,1,Demon|Phantasm
 INQ Demon Forge (The Well of Souls),small topazes,,,,,,1,Demon|Phantasm
-INQ Demon Forge (The Well of Souls),soul orbs,5944,29,20,30,2026-09-14 21:24,1,Lost Soul
+INQ Demon Forge (The Well of Souls),soul orbs,5944,29,20,30,2026-09-14 23:24,1,Lost Soul
 INQ Demon Forge (The Well of Souls),spellbooks,3101,,,,,1,Lich
 INQ Demon Forge (The Well of Souls),throwing knives,,,,,,1,Stalker
-INQ Demon Forge (The Well of Souls),ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Betrayed Wraith|Demon|Phantasm
-INQ Demon Forge (The Well of Souls),unholy bones,10316,,289,,2026-09-14 21:38,1,Betrayed Wraith|Lost Soul|Undead Dragon
+INQ Demon Forge (The Well of Souls),ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Betrayed Wraith|Demon|Phantasm
+INQ Demon Forge (The Well of Souls),unholy bones,10316,,289,,2026-09-14 23:38,1,Betrayed Wraith|Lost Soul|Undead Dragon
 INQ Demon Forge (The Well of Souls),wands of cosmic energy,,,,,,1,Spectre
-INQ Demon Forge (The Well of Souls),white pearls,3026,158,124,159,2026-09-14 21:24,1,Lost Soul
-Burster Spectre,great spirit potions,7642,151,113,152,2026-09-14 21:18,3,Burster Spectre
+INQ Demon Forge (The Well of Souls),white pearls,3026,158,124,159,2026-09-14 23:24,1,Lost Soul
+Burster Spectre,great spirit potions,7642,151,113,152,2026-09-14 23:18,3,Burster Spectre
 Burster Spectre,platinum coins,,,,,,3,Burster Spectre
-Gazer Spectres,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,2,Gazer Spectre
-Gazer Spectres,fish,3578,3,,4,2026-09-14 21:10,2,Swamp Troll
+Gazer Spectres,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,2,Gazer Spectre
+Gazer Spectres,fish,3578,3,,4,2026-09-14 23:10,2,Swamp Troll
 Gazer Spectres,gold coins,,,,,,2,Swamp Troll
-Gazer Spectres,halberds,3269,598,274,599,2026-09-14 21:25,2,Thanatursus
-Gazer Spectres,ham,3582,14,,15,2026-09-14 21:10,2,Thanatursus
+Gazer Spectres,halberds,3269,598,274,599,2026-09-14 23:25,2,Thanatursus
+Gazer Spectres,ham,3582,14,,15,2026-09-14 23:10,2,Thanatursus
 Gazer Spectres,leather boots,3552,,,,,2,Swamp Troll
 Gazer Spectres,meat,3577,,,,,2,Thanatursus
-Gazer Spectres,mouldy cheeses,3120,0,,1,2026-09-14 21:15,2,Swamp Troll
+Gazer Spectres,mouldy cheeses,3120,0,,1,2026-09-14 23:15,2,Swamp Troll
 Gazer Spectres,platinum coins,,,,,,2,Gazer Spectre|Thanatursus
-Gazer Spectres,small diamonds,3028,299,241,300,2026-09-14 21:24,2,Gazer Spectre
-Gazer Spectres,small sapphires,3029,248,214,249,2026-09-14 21:24,2,Gazer Spectre
-Gazer Spectres,spears,3277,94,1,95,2026-09-14 21:28,2,Swamp Troll
+Gazer Spectres,small diamonds,3028,299,241,300,2026-09-14 23:24,2,Gazer Spectre
+Gazer Spectres,small sapphires,3029,248,214,249,2026-09-14 23:24,2,Gazer Spectre
+Gazer Spectres,spears,3277,94,1,95,2026-09-14 23:28,2,Swamp Troll
 Gazer Spectres,torches,,,,,,2,Swamp Troll
-Gazers Spectres,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Gazer Spectre
-Gazers Spectres,halberds,3269,598,274,599,2026-09-14 21:25,1,Thanatursus
-Gazers Spectres,ham,3582,14,,15,2026-09-14 21:10,1,Thanatursus
+Gazers Spectres,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,1,Gazer Spectre
+Gazers Spectres,halberds,3269,598,274,599,2026-09-14 23:25,1,Thanatursus
+Gazers Spectres,ham,3582,14,,15,2026-09-14 23:10,1,Thanatursus
 Gazers Spectres,meat,3577,,,,,1,Thanatursus
 Gazers Spectres,nothing ,,,,,,1,Slime
 Gazers Spectres,platinum coins,,,,,,1,Gazer Spectre|Thanatursus
-Gazers Spectres,small diamonds,3028,299,241,300,2026-09-14 21:24,1,Gazer Spectre
-Gazers Spectres,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Gazer Spectre
-Gazer Spectre,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,2,Gazer Spectre
-Gazer Spectre,halberds,3269,598,274,599,2026-09-14 21:25,2,Thanatursus
-Gazer Spectre,ham,3582,14,,15,2026-09-14 21:10,2,Thanatursus
+Gazers Spectres,small diamonds,3028,299,241,300,2026-09-14 23:24,1,Gazer Spectre
+Gazers Spectres,small sapphires,3029,248,214,249,2026-09-14 23:24,1,Gazer Spectre
+Gazer Spectre,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,2,Gazer Spectre
+Gazer Spectre,halberds,3269,598,274,599,2026-09-14 23:25,2,Thanatursus
+Gazer Spectre,ham,3582,14,,15,2026-09-14 23:10,2,Thanatursus
 Gazer Spectre,meat,3577,,,,,2,Thanatursus
 Gazer Spectre,platinum coins,,,,,,2,Gazer Spectre|Thanatursus
-Gazer Spectre,small diamonds,3028,299,241,300,2026-09-14 21:24,2,Gazer Spectre
-Gazer Spectre,small sapphires,3029,248,214,249,2026-09-14 21:24,2,Gazer Spectre
-Ripper Spectres,arrows,3447,2,2,3,2026-09-14 21:24,5,Hunter
+Gazer Spectre,small diamonds,3028,299,241,300,2026-09-14 23:24,2,Gazer Spectre
+Gazer Spectre,small sapphires,3029,248,214,249,2026-09-14 23:24,2,Gazer Spectre
+Ripper Spectres,arrows,3447,2,2,3,2026-09-14 23:24,5,Hunter
 Ripper Spectres,axes,3274,,,,,5,Wild Warrior
-Ripper Spectres,brass shields,3411,52,22,53,2026-09-14 21:19,5,Wild Warrior
+Ripper Spectres,brass shields,3411,52,22,53,2026-09-14 23:19,5,Wild Warrior
 Ripper Spectres,carrots and meat ,,,,,,5,Rabbit
-Ripper Spectres,eggs,3606,199,,200,2026-09-14 21:10,5,Wild Warrior
+Ripper Spectres,eggs,3606,199,,200,2026-09-14 23:10,5,Wild Warrior
 Ripper Spectres,gold coins,,,,,,5,Tarantula|Wild Warrior
 Ripper Spectres,gold coins and haunches of boar ,,,,,,5,Boar
-Ripper Spectres,great spirit potions,7642,151,113,152,2026-09-14 21:18,5,Arachnophobica|Ripper Spectre
+Ripper Spectres,great spirit potions,7642,151,113,152,2026-09-14 23:18,5,Arachnophobica|Ripper Spectre
 Ripper Spectres,hunter&#39;s quivers,,,,,,5,Hunter
 Ripper Spectres,maces,3286,,,,,5,Wild Warrior
 Ripper Spectres,oranges,3586,,,,,5,Hunter
 Ripper Spectres,platinum coins,,,,,,5,Arachnophobica|Ripper Spectre
-Ripper Spectres,rolls,3601,79,,80,2026-09-14 21:10,5,Hunter
-Ripper Spectres,tarantula eggs,10281,,90,,2026-09-14 21:38,5,Tarantula
-Ripper Spectres,two handed swords,3265,389,238,390,2026-09-14 21:30,5,Ripper Spectre
-PH Gazer Spectres - No Thanatursus,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Gazer Spectre
+Ripper Spectres,rolls,3601,79,,80,2026-09-14 23:10,5,Hunter
+Ripper Spectres,tarantula eggs,10281,,90,,2026-09-14 23:38,5,Tarantula
+Ripper Spectres,two handed swords,3265,389,238,390,2026-09-14 23:30,5,Ripper Spectre
+PH Gazer Spectres - No Thanatursus,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,1,Gazer Spectre
 PH Gazer Spectres - No Thanatursus,platinum coins,,,,,,1,Gazer Spectre
-PH Gazer Spectres - No Thanatursus,small diamonds,3028,299,241,300,2026-09-14 21:24,1,Gazer Spectre
-PH Gazer Spectres - No Thanatursus,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Gazer Spectre
-Oramond Furys,blank runes,3147,,7,,2026-09-14 21:19,1,Spectre
-Oramond Furys,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Fury|Nightmare
+PH Gazer Spectres - No Thanatursus,small diamonds,3028,299,241,300,2026-09-14 23:24,1,Gazer Spectre
+PH Gazer Spectres - No Thanatursus,small sapphires,3029,248,214,249,2026-09-14 23:24,1,Gazer Spectre
+Oramond Furys,blank runes,3147,,7,,2026-09-14 23:19,1,Spectre
+Oramond Furys,demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Fury|Nightmare
 Oramond Furys,essences of a bad dream,,,,,,1,Nightmare
 Oramond Furys,flasks of demonic blood,,,,,,1,Fury|Nightmare
 Oramond Furys,gold coins,,,,,,1,Fury|Nightmare|Spectre
-Oramond Furys,great health potions,239,14,,15,2026-09-14 21:18,1,Fury
-Oramond Furys,ham,3582,14,,15,2026-09-14 21:10,1,Nightmare
-Oramond Furys,jalapeno peppers,8016,36,,37,2026-09-14 21:10,1,Fury
-Oramond Furys,lyres,2949,299,,300,2026-09-14 21:07,1,Spectre
-Oramond Furys,scythe legs,10312,,455,,2026-09-14 21:37,1,Nightmare
-Oramond Furys,slightly rusted legs,8899,1998,205,1999,2026-09-14 21:24,1,Fury
-Oramond Furys,soul orbs,5944,29,20,30,2026-09-14 21:24,1,Fury|Nightmare
-Oramond Furys,terra rods,3065,1955,1560,1956,2026-09-14 21:30,1,Fury
+Oramond Furys,great health potions,239,14,,15,2026-09-14 23:18,1,Fury
+Oramond Furys,ham,3582,14,,15,2026-09-14 23:10,1,Nightmare
+Oramond Furys,jalapeno peppers,8016,36,,37,2026-09-14 23:10,1,Fury
+Oramond Furys,lyres,2949,299,,300,2026-09-14 23:07,1,Spectre
+Oramond Furys,scythe legs,10312,,455,,2026-09-14 23:37,1,Nightmare
+Oramond Furys,slightly rusted legs,8899,1998,205,1999,2026-09-14 23:24,1,Fury
+Oramond Furys,soul orbs,5944,29,20,30,2026-09-14 23:24,1,Fury|Nightmare
+Oramond Furys,terra rods,3065,1955,1560,1956,2026-09-14 23:30,1,Fury
 Oramond Furys,wands of cosmic energy,,,,,,1,Spectre
-Burster Spectres,great spirit potions,7642,151,113,152,2026-09-14 21:18,3,Burster Spectre
+Burster Spectres,great spirit potions,7642,151,113,152,2026-09-14 23:18,3,Burster Spectre
 Burster Spectres,platinum coins,,,,,,3,Burster Spectre
-GAZER SPECTRE +21% DMG BOUNTY,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Gazer Spectre
-GAZER SPECTRE +21% DMG BOUNTY,halberds,3269,598,274,599,2026-09-14 21:25,1,Thanatursus
-GAZER SPECTRE +21% DMG BOUNTY,ham,3582,14,,15,2026-09-14 21:10,1,Thanatursus
+GAZER SPECTRE +21% DMG BOUNTY,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,1,Gazer Spectre
+GAZER SPECTRE +21% DMG BOUNTY,halberds,3269,598,274,599,2026-09-14 23:25,1,Thanatursus
+GAZER SPECTRE +21% DMG BOUNTY,ham,3582,14,,15,2026-09-14 23:10,1,Thanatursus
 GAZER SPECTRE +21% DMG BOUNTY,meat,3577,,,,,1,Thanatursus
 GAZER SPECTRE +21% DMG BOUNTY,platinum coins,,,,,,1,Gazer Spectre|Thanatursus
-GAZER SPECTRE +21% DMG BOUNTY,small diamonds,3028,299,241,300,2026-09-14 21:24,1,Gazer Spectre
-GAZER SPECTRE +21% DMG BOUNTY,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Gazer Spectre
+GAZER SPECTRE +21% DMG BOUNTY,small diamonds,3028,299,241,300,2026-09-14 23:24,1,Gazer Spectre
+GAZER SPECTRE +21% DMG BOUNTY,small sapphires,3029,248,214,249,2026-09-14 23:24,1,Gazer Spectre
+Deep Banuta -8,ancient stones,9632,1436,,1437,2026-09-14 23:31,1,Eternal Guardian
+Deep Banuta -8,gold coins,,,,,,1,Eternal Guardian|Hydra|Medusa|Serpent Spawn|Souleater
+Deep Banuta -8,great mana potions,53161,,32,,2026-06-23 00:11,1,Medusa
+Deep Banuta -8,green mushrooms,3732,99,88,100,2026-09-14 23:10,1,Serpent Spawn
+Deep Banuta -8,ham,3582,14,,15,2026-09-14 23:10,1,Hydra
+Deep Banuta -8,hydra heads,10282,,442,,2026-09-14 23:35,1,Hydra
+Deep Banuta -8,lizard essences,11680,299,191,300,2026-09-14 23:35,1,Souleater
+Deep Banuta -8,platinum coins,,,,,,1,Eternal Guardian|Hydra|Medusa|Souleater
+Deep Banuta -8,small sapphires,3029,248,214,249,2026-09-14 23:24,1,Serpent Spawn
+Deep Banuta -8,small stones,1781,,5,,2026-09-14 23:28,1,Eternal Guardian
+Deep Banuta -8,snake skins,9694,393,205,394,2026-09-14 23:37,1,Serpent Spawn
+Deep Banuta -8,spiked iron balls,10408,,51,,2026-09-14 23:38,1,Eternal Guardian
+Deep Banuta -8,strands of medusa hair,,,,,,1,Medusa
+Deep Banuta -8,ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Medusa
+Medusa Tower,assassin stars,7368,14,4,15,2026-09-14 23:28,1,Behemoth
+Medusa Tower,battle stones,11447,289,128,290,2026-09-14 23:31,1,Behemoth
+Medusa Tower,blank runes,3147,,7,,2026-09-14 23:19,1,Clay Guardian
+Medusa Tower,double axes,3275,898,,899,2026-09-14 23:25,1,Behemoth
+Medusa Tower,fish,3578,3,,4,2026-09-14 23:10,1,Omnivora
+Medusa Tower,gold coins,,,,,,1,Behemoth|Clay Guardian|Gargoyle|Medusa|Omnivora|Serpent Spawn
+Medusa Tower,great mana potions,53161,,32,,2026-06-23 00:11,1,Medusa
+Medusa Tower,green mushrooms,3732,99,88,100,2026-09-14 23:10,1,Serpent Spawn
+Medusa Tower,ham,3582,14,,15,2026-09-14 23:10,1,Omnivora
+Medusa Tower,lumps of earth,,,,,,1,Clay Guardian
+Medusa Tower,meat,3577,,,,,1,Behemoth
+Medusa Tower,platinum coins,,,,,,1,Behemoth|Medusa
+Medusa Tower,potatoes,,,,,,1,Gargoyle
+Medusa Tower,small sapphires,3029,248,214,249,2026-09-14 23:24,1,Serpent Spawn
+Medusa Tower,small stones,1781,,5,,2026-09-14 23:28,1,Clay Guardian|Gargoyle|Stone Golem
+Medusa Tower,snake skins,9694,393,205,394,2026-09-14 23:37,1,Serpent Spawn
+Medusa Tower,stone wings,10278,1319,,1320,2026-09-14 23:38,1,Gargoyle
+Medusa Tower,strands of medusa hair,,,,,,1,Medusa
+Medusa Tower,sulphurous stones,10315,,100,,2026-09-14 23:38,1,Stone Golem
+Medusa Tower,ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Medusa
+Medusa Tower,white mushrooms,3723,4,3,5,2026-09-14 23:10,1,Omnivora
+Roshamuul West,blue crystal shards,16119,1495,1347,1496,2026-09-14 23:21,3,Sight of Surrender
+Roshamuul West,blue crystal splinters,16124,699,349,700,2026-09-14 23:21,3,Sight of Surrender
+Roshamuul West,broken visors,20184,,578,,2026-09-14 23:32,3,Sight of Surrender
+Roshamuul West,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,3,Choking Fear|Frazzlemaw|Sight of Surrender
+Roshamuul West,brown mushrooms,3725,9,,10,2026-09-14 23:09,3,Retching Horror
+Roshamuul West,dead weights,20202,,,,,3,Choking Fear
+Roshamuul West,frazzle skins,20199,388,336,389,2026-09-14 23:34,3,Frazzlemaw
+Roshamuul West,frazzle tongues,20198,694,505,695,2026-09-14 23:34,3,Frazzlemaw|Guzzlemaw
+Roshamuul West,gold coins,,,,,,3,Frazzlemaw|Guzzlemaw|Silencer
+Roshamuul West,goosebump leathers,20205,,,,,3,Retching Horror
+Roshamuul West,great health potions,239,14,,15,2026-09-14 23:18,3,Frazzlemaw|Guzzlemaw|Retching Horror
+Roshamuul West,great mana potions,53161,,32,,2026-06-23 00:11,3,Choking Fear|Frazzlemaw|Guzzlemaw|Retching Horror|Sight of Surrender
+Roshamuul West,great spirit potions,7642,151,113,152,2026-09-14 23:18,3,Choking Fear|Sight of Surrender
+Roshamuul West,green crystal shards,16121,,,,,3,Sight of Surrender
+Roshamuul West,green crystal splinters,16122,395,353,396,2026-09-14 23:22,3,Sight of Surrender
+Roshamuul West,hemp ropes,20206,,,,,3,Choking Fear
+Roshamuul West,platinum coins,,,,,,3,Choking Fear|Frazzlemaw|Guzzlemaw|Retching Horror|Sight of Surrender|Silencer
+Roshamuul West,pools of chitinous glue,,,,,,3,Retching Horror
+Roshamuul West,sights of surrender&#39;s eye,,,,,,3,Sight of Surrender
+Roshamuul West,silencer claws,20200,5438,3804,5439,2026-09-14 23:37,3,Silencer
+Roshamuul West,stone skin amulets,3081,12489,8895,12490,2026-09-14 23:03,3,Sight of Surrender
+Roshamuul West,ultimate health potions,7643,108,91,109,2026-09-14 23:18,3,Choking Fear|Sight of Surrender
+Roshamuul West,violet crystal shards,16120,,,,,3,Sight of Surrender
+Roshamuul West - First run,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,1,Frazzlemaw
+Roshamuul West - First run,frazzle skins,20199,388,336,389,2026-09-14 23:34,1,Frazzlemaw
+Roshamuul West - First run,frazzle tongues,20198,694,505,695,2026-09-14 23:34,1,Frazzlemaw|Guzzlemaw
+Roshamuul West - First run,gold coins,,,,,,1,Frazzlemaw|Guzzlemaw|Silencer
+Roshamuul West - First run,great health potions,239,14,,15,2026-09-14 23:18,1,Frazzlemaw|Guzzlemaw
+Roshamuul West - First run,great mana potions,53161,,32,,2026-06-23 00:11,1,Frazzlemaw|Guzzlemaw
+Roshamuul West - First run,platinum coins,,,,,,1,Frazzlemaw|Guzzlemaw|Silencer
+Roshamuul West - First run,silencer claws,20200,5438,3804,5439,2026-09-14 23:37,1,Silencer
+Lower Roshamuul,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,3,Frazzlemaw
+Lower Roshamuul,frazzle skins,20199,388,336,389,2026-09-14 23:34,3,Frazzlemaw
+Lower Roshamuul,frazzle tongues,20198,694,505,695,2026-09-14 23:34,3,Frazzlemaw
+Lower Roshamuul,gold coins,,,,,,3,Frazzlemaw|Shock Head|Silencer
+Lower Roshamuul,great health potions,239,14,,15,2026-09-14 23:18,3,Frazzlemaw
+Lower Roshamuul,great mana potions,53161,,32,,2026-06-23 00:11,3,Frazzlemaw
+Lower Roshamuul,platinum coins,,,,,,3,Frazzlemaw|Silencer
+Lower Roshamuul,silencer claws,20200,5438,3804,5439,2026-09-14 23:37,3,Silencer
+After/West Roshamuul,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,1,Frazzlemaw
+After/West Roshamuul,frazzle skins,20199,388,336,389,2026-09-14 23:34,1,Frazzlemaw
+After/West Roshamuul,frazzle tongues,20198,694,505,695,2026-09-14 23:34,1,Frazzlemaw|Guzzlemaw
+After/West Roshamuul,gold coins,,,,,,1,Frazzlemaw|Guzzlemaw|Shock Head|Silencer
+After/West Roshamuul,great health potions,239,14,,15,2026-09-14 23:18,1,Frazzlemaw|Guzzlemaw
+After/West Roshamuul,great mana potions,53161,,32,,2026-06-23 00:11,1,Frazzlemaw|Guzzlemaw
+After/West Roshamuul,platinum coins,,,,,,1,Frazzlemaw|Guzzlemaw|Silencer
+After/West Roshamuul,silencer claws,20200,5438,3804,5439,2026-09-14 23:37,1,Silencer
+Upper Roshamuul (North Depot),brown crystal splinters,16123,398,263,399,2026-09-14 23:21,1,Choking Fear
+Upper Roshamuul (North Depot),brown mushrooms,3725,9,,10,2026-09-14 23:09,1,Retching Horror
+Upper Roshamuul (North Depot),dead weights,20202,,,,,1,Choking Fear
+Upper Roshamuul (North Depot),gold coins,,,,,,1,Silencer
+Upper Roshamuul (North Depot),goosebump leathers,20205,,,,,1,Retching Horror
+Upper Roshamuul (North Depot),great health potions,239,14,,15,2026-09-14 23:18,1,Retching Horror
+Upper Roshamuul (North Depot),great mana potions,53161,,32,,2026-06-23 00:11,1,Choking Fear|Retching Horror
+Upper Roshamuul (North Depot),great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Choking Fear
+Upper Roshamuul (North Depot),hemp ropes,20206,,,,,1,Choking Fear
+Upper Roshamuul (North Depot),platinum coins,,,,,,1,Choking Fear|Retching Horror|Silencer
+Upper Roshamuul (North Depot),pools of chitinous glue,,,,,,1,Retching Horror
+Upper Roshamuul (North Depot),silencer claws,20200,5438,3804,5439,2026-09-14 23:37,1,Silencer
+Upper Roshamuul (North Depot),ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Choking Fear
+(First Hunt) Upper Roshamuul - Nort DP,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,1,Choking Fear
+(First Hunt) Upper Roshamuul - Nort DP,brown mushrooms,3725,9,,10,2026-09-14 23:09,1,Retching Horror
+(First Hunt) Upper Roshamuul - Nort DP,dead weights,20202,,,,,1,Choking Fear
+(First Hunt) Upper Roshamuul - Nort DP,gold coins,,,,,,1,Silencer
+(First Hunt) Upper Roshamuul - Nort DP,goosebump leathers,20205,,,,,1,Retching Horror
+(First Hunt) Upper Roshamuul - Nort DP,great health potions,239,14,,15,2026-09-14 23:18,1,Retching Horror
+(First Hunt) Upper Roshamuul - Nort DP,great mana potions,53161,,32,,2026-06-23 00:11,1,Choking Fear|Retching Horror
+(First Hunt) Upper Roshamuul - Nort DP,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Choking Fear
+(First Hunt) Upper Roshamuul - Nort DP,hemp ropes,20206,,,,,1,Choking Fear
+(First Hunt) Upper Roshamuul - Nort DP,platinum coins,,,,,,1,Choking Fear|Retching Horror|Silencer
+(First Hunt) Upper Roshamuul - Nort DP,pools of chitinous glue,,,,,,1,Retching Horror
+(First Hunt) Upper Roshamuul - Nort DP,silencer claws,20200,5438,3804,5439,2026-09-14 23:37,1,Silencer
+(First Hunt) Upper Roshamuul - Nort DP,ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Choking Fear
+Roshamuul,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,1,Frazzlemaw
+Roshamuul,frazzle skins,20199,388,336,389,2026-09-14 23:34,1,Frazzlemaw
+Roshamuul,frazzle tongues,20198,694,505,695,2026-09-14 23:34,1,Frazzlemaw
+Roshamuul,gold coins,,,,,,1,Frazzlemaw|Shock Head|Silencer
+Roshamuul,great health potions,239,14,,15,2026-09-14 23:18,1,Frazzlemaw
+Roshamuul,great mana potions,53161,,32,,2026-06-23 00:11,1,Frazzlemaw
+Roshamuul,platinum coins,,,,,,1,Frazzlemaw|Silencer
+Roshamuul,silencer claws,20200,5438,3804,5439,2026-09-14 23:37,1,Silencer
+North Roshamuul (South - SOLO RP),brown crystal splinters,16123,398,263,399,2026-09-14 23:21,1,Choking Fear|Frazzlemaw
+North Roshamuul (South - SOLO RP),brown mushrooms,3725,9,,10,2026-09-14 23:09,1,Retching Horror
+North Roshamuul (South - SOLO RP),dead weights,20202,,,,,1,Choking Fear
+North Roshamuul (South - SOLO RP),frazzle skins,20199,388,336,389,2026-09-14 23:34,1,Frazzlemaw
+North Roshamuul (South - SOLO RP),frazzle tongues,20198,694,505,695,2026-09-14 23:34,1,Frazzlemaw
+North Roshamuul (South - SOLO RP),gold coins,,,,,,1,Frazzlemaw|Silencer
+North Roshamuul (South - SOLO RP),goosebump leathers,20205,,,,,1,Retching Horror
+North Roshamuul (South - SOLO RP),great health potions,239,14,,15,2026-09-14 23:18,1,Frazzlemaw|Retching Horror
+North Roshamuul (South - SOLO RP),great mana potions,53161,,32,,2026-06-23 00:11,1,Choking Fear|Frazzlemaw|Retching Horror
+North Roshamuul (South - SOLO RP),great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Choking Fear
+North Roshamuul (South - SOLO RP),hemp ropes,20206,,,,,1,Choking Fear
+North Roshamuul (South - SOLO RP),platinum coins,,,,,,1,Choking Fear|Frazzlemaw|Retching Horror|Silencer
+North Roshamuul (South - SOLO RP),pools of chitinous glue,,,,,,1,Retching Horror
+North Roshamuul (South - SOLO RP),silencer claws,20200,5438,3804,5439,2026-09-14 23:37,1,Silencer
+North Roshamuul (South - SOLO RP),ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Choking Fear
+Roshamuul DP,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,3,Choking Fear|Frazzlemaw
+Roshamuul DP,brown mushrooms,3725,9,,10,2026-09-14 23:09,3,Retching Horror
+Roshamuul DP,dead weights,20202,,,,,3,Choking Fear
+Roshamuul DP,frazzle skins,20199,388,336,389,2026-09-14 23:34,3,Frazzlemaw
+Roshamuul DP,frazzle tongues,20198,694,505,695,2026-09-14 23:34,3,Frazzlemaw
+Roshamuul DP,gold coins,,,,,,3,Frazzlemaw|Silencer
+Roshamuul DP,goosebump leathers,20205,,,,,3,Retching Horror
+Roshamuul DP,great health potions,239,14,,15,2026-09-14 23:18,3,Frazzlemaw|Retching Horror
+Roshamuul DP,great mana potions,53161,,32,,2026-06-23 00:11,3,Choking Fear|Frazzlemaw|Retching Horror
+Roshamuul DP,great spirit potions,7642,151,113,152,2026-09-14 23:18,3,Choking Fear
+Roshamuul DP,hemp ropes,20206,,,,,3,Choking Fear
+Roshamuul DP,platinum coins,,,,,,3,Choking Fear|Frazzlemaw|Retching Horror|Silencer
+Roshamuul DP,pools of chitinous glue,,,,,,3,Retching Horror
+Roshamuul DP,silencer claws,20200,5438,3804,5439,2026-09-14 23:37,3,Silencer
+Roshamuul DP,ultimate health potions,7643,108,91,109,2026-09-14 23:18,3,Choking Fear
+Upper Roshamuul,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,1,Choking Fear|Frazzlemaw
+Upper Roshamuul,brown mushrooms,3725,9,,10,2026-09-14 23:09,1,Retching Horror
+Upper Roshamuul,dead weights,20202,,,,,1,Choking Fear
+Upper Roshamuul,frazzle skins,20199,388,336,389,2026-09-14 23:34,1,Frazzlemaw
+Upper Roshamuul,frazzle tongues,20198,694,505,695,2026-09-14 23:34,1,Frazzlemaw
+Upper Roshamuul,gold coins,,,,,,1,Frazzlemaw|Silencer
+Upper Roshamuul,goosebump leathers,20205,,,,,1,Retching Horror
+Upper Roshamuul,great health potions,239,14,,15,2026-09-14 23:18,1,Frazzlemaw|Retching Horror
+Upper Roshamuul,great mana potions,53161,,32,,2026-06-23 00:11,1,Choking Fear|Frazzlemaw|Retching Horror
+Upper Roshamuul,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Choking Fear
+Upper Roshamuul,hemp ropes,20206,,,,,1,Choking Fear
+Upper Roshamuul,platinum coins,,,,,,1,Choking Fear|Frazzlemaw|Retching Horror|Silencer
+Upper Roshamuul,pools of chitinous glue,,,,,,1,Retching Horror
+Upper Roshamuul,silencer claws,20200,5438,3804,5439,2026-09-14 23:37,1,Silencer
+Upper Roshamuul,ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Choking Fear
+West Roshamuul (SOLO RP),blue crystal shards,16119,1495,1347,1496,2026-09-14 23:21,1,Sight of Surrender
+West Roshamuul (SOLO RP),blue crystal splinters,16124,699,349,700,2026-09-14 23:21,1,Sight of Surrender
+West Roshamuul (SOLO RP),broken visors,20184,,578,,2026-09-14 23:32,1,Sight of Surrender
+West Roshamuul (SOLO RP),brown crystal splinters,16123,398,263,399,2026-09-14 23:21,1,Frazzlemaw|Sight of Surrender
+West Roshamuul (SOLO RP),brown mushrooms,3725,9,,10,2026-09-14 23:09,1,Retching Horror
+West Roshamuul (SOLO RP),frazzle skins,20199,388,336,389,2026-09-14 23:34,1,Frazzlemaw
+West Roshamuul (SOLO RP),frazzle tongues,20198,694,505,695,2026-09-14 23:34,1,Frazzlemaw|Guzzlemaw
+West Roshamuul (SOLO RP),gold coins,,,,,,1,Frazzlemaw|Guzzlemaw|Silencer
+West Roshamuul (SOLO RP),goosebump leathers,20205,,,,,1,Retching Horror
+West Roshamuul (SOLO RP),great health potions,239,14,,15,2026-09-14 23:18,1,Frazzlemaw|Guzzlemaw|Retching Horror
+West Roshamuul (SOLO RP),great mana potions,53161,,32,,2026-06-23 00:11,1,Frazzlemaw|Guzzlemaw|Retching Horror|Sight of Surrender
+West Roshamuul (SOLO RP),great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Sight of Surrender
+West Roshamuul (SOLO RP),green crystal shards,16121,,,,,1,Sight of Surrender
+West Roshamuul (SOLO RP),green crystal splinters,16122,395,353,396,2026-09-14 23:22,1,Sight of Surrender
+West Roshamuul (SOLO RP),platinum coins,,,,,,1,Frazzlemaw|Guzzlemaw|Retching Horror|Sight of Surrender|Silencer
+West Roshamuul (SOLO RP),pools of chitinous glue,,,,,,1,Retching Horror
+West Roshamuul (SOLO RP),sights of surrender&#39;s eye,,,,,,1,Sight of Surrender
+West Roshamuul (SOLO RP),silencer claws,20200,5438,3804,5439,2026-09-14 23:37,1,Silencer
+West Roshamuul (SOLO RP),stone skin amulets,3081,12489,8895,12490,2026-09-14 23:03,1,Sight of Surrender
+West Roshamuul (SOLO RP),ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Sight of Surrender
+West Roshamuul (SOLO RP),violet crystal shards,16120,,,,,1,Sight of Surrender
+Abandoned Sewers,assassin stars,7368,14,4,15,2026-09-14 23:28,3,Demon
+Abandoned Sewers,demon horns,5954,994,601,995,2026-09-14 23:33,3,Demon
+Abandoned Sewers,demonic essence,6499,999,898,1000,2026-09-14 23:33,3,Demon|Grim Reaper
+Abandoned Sewers,fire mushrooms,3731,226,176,227,2026-09-14 23:10,3,Demon
+Abandoned Sewers,flasks of demonic blood,,,,,,3,Grim Reaper
+Abandoned Sewers,gold coins,,,,,,3,Demon|Grim Reaper|Metal Gargoyle
+Abandoned Sewers,great mana potions,53161,,32,,2026-06-23 00:11,3,Demon
+Abandoned Sewers,great spirit potions,7642,151,113,152,2026-09-14 23:18,3,Demon
+Abandoned Sewers,metal jaws,21193,4499,2815,4500,2026-09-14 23:35,3,Metal Gargoyle
+Abandoned Sewers,platinum coins,,,,,,3,Demon|Metal Gargoyle
+Abandoned Sewers,small amethysts,3033,198,172,199,2026-09-14 23:24,3,Demon
+Abandoned Sewers,small emeralds,3032,249,161,250,2026-09-14 23:24,3,Demon
+Abandoned Sewers,small rubies,,,,,,3,Demon
+Abandoned Sewers,small topazes,,,,,,3,Demon
+Abandoned Sewers,ultimate health potions,7643,108,91,109,2026-09-14 23:18,3,Demon
+Prison -3 Demon Boost 03,assassin stars,7368,14,4,15,2026-09-14 23:28,1,Hellhound|Juggernaut
+Prison -3 Demon Boost 03,battle hammers,3305,114,112,115,2026-09-14 23:26,1,Plaguesmith
+Prison -3 Demon Boost 03,black pearls,3027,279,231,280,2026-09-14 23:21,1,Hellhound
+Prison -3 Demon Boost 03,blank runes,3147,,7,,2026-09-14 23:19,1,Blightwalker
+Prison -3 Demon Boost 03,blazing bones,16131,787,363,788,2026-09-14 23:31,1,Hellhound
+Prison -3 Demon Boost 03,bunches of wheat,,,,,,1,Blightwalker
+Prison -3 Demon Boost 03,bundles of cursed straw,,,,,,1,Blightwalker
+Prison -3 Demon Boost 03,demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Blightwalker|Hellhound|Juggernaut
+Prison -3 Demon Boost 03,dirty capes,3122,,,,,1,Plaguesmith
+Prison -3 Demon Boost 03,fiery hearts,9636,,,,,1,Hellhound
+Prison -3 Demon Boost 03,fire mushrooms,3731,226,176,227,2026-09-14 23:10,1,Demon Outcast
+Prison -3 Demon Boost 03,flasks of demonic blood,,,,,,1,Dark Torturer|Hellhound|Juggernaut
+Prison -3 Demon Boost 03,gold coins,,,,,,1,Blightwalker|Dark Torturer|Demon Outcast|Juggernaut|Plaguesmith
+Prison -3 Demon Boost 03,great health potions,239,14,,15,2026-09-14 23:18,1,Dark Torturer|Juggernaut
+Prison -3 Demon Boost 03,great mana potions,53161,,32,,2026-06-23 00:11,1,Blightwalker|Dark Torturer|Demon Outcast|Hellhound|Juggernaut
+Prison -3 Demon Boost 03,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Hellhound
+Prison -3 Demon Boost 03,hailstorm rods,3067,2898,2623,2899,2026-09-14 23:30,1,Blightwalker
+Prison -3 Demon Boost 03,ham,3582,14,,15,2026-09-14 23:10,1,Dark Torturer|Hellhound|Juggernaut
+Prison -3 Demon Boost 03,hardened bones,5925,,23,,2026-09-14 23:34,1,Hellhound
+Prison -3 Demon Boost 03,hellhound slobber,9637,,,,,1,Hellhound
+Prison -3 Demon Boost 03,morning stars,3282,96,34,97,2026-09-14 23:27,1,Plaguesmith
+Prison -3 Demon Boost 03,mouldy cheeses,3120,0,,1,2026-09-14 23:15,1,Plaguesmith
+Prison -3 Demon Boost 03,pieces of iron,,,,,,1,Plaguesmith
+Prison -3 Demon Boost 03,platinum coins,,,,,,1,Blightwalker|Dark Torturer|Demon Outcast|Hellhound|Juggernaut
+Prison -3 Demon Boost 03,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Juggernaut
+Prison -3 Demon Boost 03,small diamonds,3028,299,241,300,2026-09-14 23:24,1,Demon Outcast|Juggernaut
+Prison -3 Demon Boost 03,small emeralds,3032,249,161,250,2026-09-14 23:24,1,Demon Outcast|Juggernaut
+Prison -3 Demon Boost 03,small rubies,,,,,,1,Demon Outcast|Juggernaut
+Prison -3 Demon Boost 03,small sapphires,3029,248,214,249,2026-09-14 23:24,1,Demon Outcast
+Prison -3 Demon Boost 03,small topazes,,,,,,1,Demon Outcast|Juggernaut
+Prison -3 Demon Boost 03,soul orbs,5944,29,20,30,2026-09-14 23:24,1,Blightwalker|Dark Torturer|Hellhound|Juggernaut
+Prison -3 Demon Boost 03,steel shields,3409,75,17,76,2026-09-14 23:20,1,Plaguesmith
+Prison -3 Demon Boost 03,two handed swords,3265,389,238,390,2026-09-14 23:30,1,Plaguesmith
+Prison -3 Demon Boost 03,ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Blightwalker|Demon Outcast|Hellhound
+Oramond Demons,assassin stars,7368,14,4,15,2026-09-14 23:28,1,Demon
+Oramond Demons,demon horns,5954,994,601,995,2026-09-14 23:33,1,Demon
+Oramond Demons,demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Demon|Grim Reaper
+Oramond Demons,fire mushrooms,3731,226,176,227,2026-09-14 23:10,1,Demon
+Oramond Demons,flasks of demonic blood,,,,,,1,Grim Reaper
+Oramond Demons,gold coins,,,,,,1,Demon|Grim Reaper|Metal Gargoyle
+Oramond Demons,great mana potions,53161,,32,,2026-06-23 00:11,1,Demon
+Oramond Demons,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Demon
+Oramond Demons,metal jaws,21193,4499,2815,4500,2026-09-14 23:35,1,Metal Gargoyle
+Oramond Demons,platinum coins,,,,,,1,Demon|Metal Gargoyle
+Oramond Demons,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Demon
+Oramond Demons,small emeralds,3032,249,161,250,2026-09-14 23:24,1,Demon
+Oramond Demons,small rubies,,,,,,1,Demon
+Oramond Demons,small topazes,,,,,,1,Demon
+Oramond Demons,ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Demon
+Oramond Sewers,assassin stars,7368,14,4,15,2026-09-14 23:28,3,Demon
+Oramond Sewers,demon horns,5954,994,601,995,2026-09-14 23:33,3,Demon
+Oramond Sewers,demonic essence,6499,999,898,1000,2026-09-14 23:33,3,Demon|Grim Reaper
+Oramond Sewers,fire mushrooms,3731,226,176,227,2026-09-14 23:10,3,Demon
+Oramond Sewers,flasks of demonic blood,,,,,,3,Grim Reaper
+Oramond Sewers,gold coins,,,,,,3,Demon|Grim Reaper|Metal Gargoyle
+Oramond Sewers,great mana potions,53161,,32,,2026-06-23 00:11,3,Demon
+Oramond Sewers,great spirit potions,7642,151,113,152,2026-09-14 23:18,3,Demon
+Oramond Sewers,metal jaws,21193,4499,2815,4500,2026-09-14 23:35,3,Metal Gargoyle
+Oramond Sewers,platinum coins,,,,,,3,Demon|Metal Gargoyle
+Oramond Sewers,small amethysts,3033,198,172,199,2026-09-14 23:24,3,Demon
+Oramond Sewers,small emeralds,3032,249,161,250,2026-09-14 23:24,3,Demon
+Oramond Sewers,small rubies,,,,,,3,Demon
+Oramond Sewers,small topazes,,,,,,3,Demon
+Oramond Sewers,ultimate health potions,7643,108,91,109,2026-09-14 23:18,3,Demon
+Catedral -1,brown crystal splinters,16123,398,263,399,2026-09-14 23:21,1,Gazer Spectre
+Catedral -1,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Arachnophobica|Ripper Spectre
+Catedral -1,platinum coins,,,,,,1,Arachnophobica|Gazer Spectre|Ripper Spectre
+Catedral -1,small diamonds,3028,299,241,300,2026-09-14 23:24,1,Gazer Spectre
+Catedral -1,small sapphires,3029,248,214,249,2026-09-14 23:24,1,Gazer Spectre
+Catedral -1,two handed swords,3265,389,238,390,2026-09-14 23:30,1,Ripper Spectre
+Goana Esquerda,crab pincers,10272,33,1,34,2026-09-14 23:33,1,Crab
+Goana Esquerda,earth arrows,774,,,,,1,Adult Goanna
+Goana Esquerda,emerald bangles,3010,,,,,1,Adult Goanna
+Goana Esquerda,envenomed arrows,16143,,,,,1,Adult Goanna|Young Goanna
+Goana Esquerda,fish and gold coins ,,,,,,1,Crab
+Goana Esquerda,flaming arrows,763,,,,,1,Ogre Rowdy
+Goana Esquerda,goanna meats,31560,,,,,1,Adult Goanna|Young Goanna
+Goana Esquerda,gold coins,,,,,,1,Crocodile
+Goana Esquerda,ham,3582,14,,15,2026-09-14 23:10,1,Crocodile|Lion
+Goana Esquerda,lamassu horns,31442,556,155,557,2026-09-14 23:35,1,Lamassu
+Goana Esquerda,meat,3577,,,,,1,Lion|Ogre Ruffian
+Goana Esquerda,meat and worms ,,,,,,1,Hyaena
+Goana Esquerda,ogre ear studs,22188,,,,,1,Ogre Rowdy|Ogre Ruffian|Ogre Sage
+Goana Esquerda,ogre nose rings,22189,,137,,2026-09-14 23:36,1,Ogre Rowdy|Ogre Ruffian|Ogre Sage
+Goana Esquerda,pieces of crocodile leather,,,,,,1,Crocodile
+Goana Esquerda,platinum coins,,,,,,1,Adult Goanna|Feral Sphinx|Lamassu|Manticore|Ogre Rowdy|Ogre Ruffian
+Goana Esquerda,raw meat,22186,,,,,1,Clomp
+Goana Esquerda,red crystal fragments,16126,837,720,838,2026-09-14 23:23,1,Lamassu
+Goana Esquerda,shamanic talismans,22184,,,,,1,Ogre Sage
+Goana Esquerda,skull fetishes,,,,,,1,Ogre Rowdy|Ogre Sage
+Goana Esquerda,small sapphires,3029,248,214,249,2026-09-14 23:24,1,Ogre Ruffian
+Goana Esquerda,snakebite rods,3066,88,34,89,2026-09-14 23:30,1,Young Goanna
+catacombs demon boosted (de novo) x2,assassin stars,7368,14,4,15,2026-09-14 23:28,2,Demon|Hellhound|Juggernaut
+catacombs demon boosted (de novo) x2,black pearls,3027,279,231,280,2026-09-14 23:21,2,Hellhound
+catacombs demon boosted (de novo) x2,blazing bones,16131,787,363,788,2026-09-14 23:31,2,Hellhound
+catacombs demon boosted (de novo) x2,crowbars,3304,,,,,2,Destroyer
+catacombs demon boosted (de novo) x2,demon horns,5954,994,601,995,2026-09-14 23:33,2,Demon
+catacombs demon boosted (de novo) x2,demonic essence,6499,999,898,1000,2026-09-14 23:33,2,Demon|Destroyer|Grim Reaper|Hellhound|Juggernaut
+catacombs demon boosted (de novo) x2,fiery hearts,9636,,,,,2,Hellhound
+catacombs demon boosted (de novo) x2,fire mushrooms,3731,226,176,227,2026-09-14 23:10,2,Demon
+catacombs demon boosted (de novo) x2,flasks of demonic blood,,,,,,2,Dark Torturer|Grim Reaper|Hellhound|Juggernaut
+catacombs demon boosted (de novo) x2,gold coins,,,,,,2,Dark Torturer|Demon|Destroyer|Grim Reaper|Hellspawn|Juggernaut
+catacombs demon boosted (de novo) x2,great health potions,239,14,,15,2026-09-14 23:18,2,Dark Torturer|Hellspawn|Juggernaut
+catacombs demon boosted (de novo) x2,great mana potions,53161,,32,,2026-06-23 00:11,2,Dark Torturer|Demon|Hellhound|Juggernaut
+catacombs demon boosted (de novo) x2,great spirit potions,7642,151,113,152,2026-09-14 23:18,2,Demon|Hellhound
+catacombs demon boosted (de novo) x2,ham,3582,14,,15,2026-09-14 23:10,2,Dark Torturer|Hellhound|Juggernaut
+catacombs demon boosted (de novo) x2,hardened bones,5925,,23,,2026-09-14 23:34,2,Hellhound
+catacombs demon boosted (de novo) x2,hellhound slobber,9637,,,,,2,Hellhound
+catacombs demon boosted (de novo) x2,hellspawn tails,10304,488,265,489,2026-09-14 23:35,2,Hellspawn
+catacombs demon boosted (de novo) x2,meat,3577,,,,,2,Destroyer
+catacombs demon boosted (de novo) x2,platinum coins,,,,,,2,Dark Torturer|Demon|Hellhound|Juggernaut
+catacombs demon boosted (de novo) x2,small amethysts,3033,198,172,199,2026-09-14 23:24,2,Demon|Juggernaut
+catacombs demon boosted (de novo) x2,small diamonds,3028,299,241,300,2026-09-14 23:24,2,Juggernaut
+catacombs demon boosted (de novo) x2,small emeralds,3032,249,161,250,2026-09-14 23:24,2,Demon|Juggernaut
+catacombs demon boosted (de novo) x2,small rubies,,,,,,2,Demon|Juggernaut
+catacombs demon boosted (de novo) x2,small topazes,,,,,,2,Demon|Juggernaut
+catacombs demon boosted (de novo) x2,soul orbs,5944,29,20,30,2026-09-14 23:24,2,Dark Torturer|Hellhound|Juggernaut
+catacombs demon boosted (de novo) x2,ultimate health potions,7643,108,91,109,2026-09-14 23:18,2,Demon|Hellhound
+Grounds of Fire (Infernatil),assassin stars,7368,14,4,15,2026-09-14 23:28,1,Hellhound
+Grounds of Fire (Infernatil),black pearls,3027,279,231,280,2026-09-14 23:21,1,Hellhound
+Grounds of Fire (Infernatil),blank runes,3147,,7,,2026-09-14 23:19,1,Hellfire Fighter
+Grounds of Fire (Infernatil),blazing bones,16131,787,363,788,2026-09-14 23:31,1,Hellhound
+Grounds of Fire (Infernatil),burnt scrolls,3124,,,,,1,Hellfire Fighter
+Grounds of Fire (Infernatil),demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Fury|Hellfire Fighter|Hellflayer|Hellhound|Vexclaw
+Grounds of Fire (Infernatil),fiery hearts,9636,,,,,1,Hellfire Fighter|Hellhound
+Grounds of Fire (Infernatil),fire mushrooms,3731,226,176,227,2026-09-14 23:10,1,Vexclaw
+Grounds of Fire (Infernatil),flasks of demonic blood,,,,,,1,Fury|Hellflayer|Hellhound
+Grounds of Fire (Infernatil),gold coins,,,,,,1,Fury|Hellfire Fighter|Hellflayer
+Grounds of Fire (Infernatil),great health potions,239,14,,15,2026-09-14 23:18,1,Fury
+Grounds of Fire (Infernatil),great mana potions,53161,,32,,2026-06-23 00:11,1,Hellflayer|Hellhound|Vexclaw
+Grounds of Fire (Infernatil),great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Hellflayer|Hellhound|Vexclaw
+Grounds of Fire (Infernatil),ham,3582,14,,15,2026-09-14 23:10,1,Hellhound
+Grounds of Fire (Infernatil),hardened bones,5925,,23,,2026-09-14 23:34,1,Hellhound
+Grounds of Fire (Infernatil),hellhound slobber,9637,,,,,1,Hellhound
+Grounds of Fire (Infernatil),jalapeno peppers,8016,36,,37,2026-09-14 23:10,1,Fury
+Grounds of Fire (Infernatil),pairs of hellflayer horns,,,,,,1,Hellflayer
+Grounds of Fire (Infernatil),platinum coins,,,,,,1,Hellflayer|Hellhound|Vexclaw
+Grounds of Fire (Infernatil),slightly rusted legs,8899,1998,205,1999,2026-09-14 23:24,1,Fury
+Grounds of Fire (Infernatil),soul orbs,5944,29,20,30,2026-09-14 23:24,1,Fury|Hellfire Fighter|Hellhound
+Grounds of Fire (Infernatil),terra rods,3065,1955,1560,1956,2026-09-14 23:30,1,Fury
+Grounds of Fire (Infernatil),ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Hellflayer|Hellhound|Vexclaw
+Grounds of Fire (Infernatil),vexclaw talons,22728,,,,,1,Vexclaw
+iks occ (Mitmah Seers),broken Mitmah necklace,44438,,146,,2026-09-14 23:32,1,Mitmah Scout
+iks occ (Mitmah Seers),crystals of the Mitmah,,,,,,1,Mitmah Seer
+iks occ (Mitmah Seers),gold coins,,,,,,1,Iks Yapunac
+iks occ (Mitmah Seers),great health potions,239,14,,15,2026-09-14 23:18,1,Iks Yapunac
+iks occ (Mitmah Seers),great mana potions,53161,,32,,2026-06-23 00:11,1,Mitmah Seer
+iks occ (Mitmah Seers),platinum coins,,,,,,1,Iks Yapunac|Mitmah Scout|Mitmah Seer
+iks occ (Mitmah Seers),yapunac daggers,44440,,,,,1,Iks Yapunac
+Rootthings -2 (Podzilla),amber sickles,,,,,,5,Rootthing Amber Shaper
+Rootthings -2 (Podzilla),platinum coins,,,,,,5,Rootthing Amber Shaper|Rootthing Bug Tracker|Rootthing Nutshell
+DT -1 (VEX BOUNTY),demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Grimeleech|Hellflayer|Vexclaw
+DT -1 (VEX BOUNTY),fire mushrooms,3731,226,176,227,2026-09-14 23:10,1,Vexclaw
+DT -1 (VEX BOUNTY),flasks of demonic blood,,,,,,1,Dark Torturer|Grimeleech|Hellflayer
+DT -1 (VEX BOUNTY),gold coins,,,,,,1,Dark Torturer|Grimeleech|Hellflayer
+DT -1 (VEX BOUNTY),great health potions,239,14,,15,2026-09-14 23:18,1,Dark Torturer|Grimeleech
+DT -1 (VEX BOUNTY),great mana potions,53161,,32,,2026-06-23 00:11,1,Dark Torturer|Grimeleech|Hellflayer|Vexclaw
+DT -1 (VEX BOUNTY),great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Grimeleech|Hellflayer|Vexclaw
+DT -1 (VEX BOUNTY),ham,3582,14,,15,2026-09-14 23:10,1,Dark Torturer
+DT -1 (VEX BOUNTY),pairs of hellflayer horns,,,,,,1,Hellflayer
+DT -1 (VEX BOUNTY),platinum coins,,,,,,1,Dark Torturer|Grimeleech|Hellflayer|Vexclaw
+DT -1 (VEX BOUNTY),some grimeleech wings,22730,1397,1160,1398,2026-09-14 23:37,1,Grimeleech
+DT -1 (VEX BOUNTY),soul orbs,5944,29,20,30,2026-09-14 23:24,1,Dark Torturer
+DT -1 (VEX BOUNTY),ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Hellflayer|Vexclaw
+DT -1 (VEX BOUNTY),vexclaw talons,22728,,,,,1,Vexclaw
+WZ 8 (SD BOUNTY),gold ingots,9058,,,,,1,Lavaworm|Streaked Devourer
+WZ 8 (SD BOUNTY),lavafungi ring,,,,,,1,Lavafungus
+WZ 8 (SD BOUNTY),platinum coins,,,,,,1,Lavafungus|Lavaworm|Streaked Devourer
+WZ 8 (SD BOUNTY),streaked devourer eyes,36772,,,,,1,Streaked Devourer
+WZ 8 (SD BOUNTY),streaked devourer maws,36773,,,,,1,Streaked Devourer
+WZ 8 (SD BOUNTY),terra rods,3065,1955,1560,1956,2026-09-14 23:30,1,Lavafungus
+Demons Edron,assassin stars,7368,14,4,15,2026-09-14 23:28,1,Demon
+Demons Edron,blank runes,3147,,7,,2026-09-14 23:19,1,Dark Magician
+Demons Edron,dead frogs,34237,21,,22,2026-09-14 23:13,1,Dark Apprentice
+Demons Edron,demon horns,5954,994,601,995,2026-09-14 23:33,1,Demon
+Demons Edron,demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Demon
+Demons Edron,fire mushrooms,3731,226,176,227,2026-09-14 23:10,1,Demon
+Demons Edron,gold coins,,,,,,1,Dark Apprentice|Dark Magician|Demon|Massive Fire Elemental
+Demons Edron,great mana potions,53161,,32,,2026-06-23 00:11,1,Demon
+Demons Edron,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Demon
+Demons Edron,health potions,266,38,24,39,2026-09-14 23:18,1,Dark Magician
+Demons Edron,mana potions,268,67,47,68,2026-09-14 23:18,1,Dark Magician
+Demons Edron,platinum coins,,,,,,1,Demon|Massive Fire Elemental
+Demons Edron,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Demon
+Demons Edron,small emeralds,3032,249,161,250,2026-09-14 23:24,1,Demon
+Demons Edron,small rubies,,,,,,1,Demon
+Demons Edron,small topazes,,,,,,1,Demon
+Demons Edron,ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Demon
+cobra bastion,cheesy figurines,17818,,,,,1,Cobra Scout
+cobra bastion,cobra crests,31678,,,,,1,Cobra Assassin|Cobra Scout|Cobra Vizier
+cobra bastion,cyan crystal fragments,16125,797,731,798,2026-09-14 23:21,1,Cobra Vizier
+cobra bastion,earth arrows,774,,,,,1,Cobra Scout
+cobra bastion,knives,,,,,,1,Cobra Assassin
+cobra bastion,opals,22194,,,,,1,Cobra Assassin|Cobra Scout
+cobra bastion,platinum coins,,,,,,1,Cobra Assassin|Cobra Scout|Cobra Vizier
+cobra bastion,protection amulets,3084,,,,,1,Cobra Assassin
+cobra bastion,scimitars,3307,478,,479,2026-09-14 23:29,1,Cobra Assassin
+cobra bastion,small emeralds,3032,249,161,250,2026-09-14 23:24,1,Cobra Assassin
+cobra bastion,snakebite rods,3066,88,34,89,2026-09-14 23:30,1,Cobra Vizier
+cobra bastion,terra boots,813,2798,2203,2799,2026-09-14 23:03,1,Cobra Vizier
+cobra bastion,terra hoods,830,,,,,1,Cobra Vizier
+cobra bastion,terra rods,3065,1955,1560,1956,2026-09-14 23:30,1,Cobra Vizier
+Feru way,assassin stars,7368,14,4,15,2026-09-14 23:28,1,Demon
+Feru way,demon horns,5954,994,601,995,2026-09-14 23:33,1,Demon
+Feru way,demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Demon|Grimeleech|Hellflayer|Vexclaw
+Feru way,fire mushrooms,3731,226,176,227,2026-09-14 23:10,1,Demon|Vexclaw
+Feru way,flasks of demonic blood,,,,,,1,Grimeleech|Hellflayer
+Feru way,gold coins,,,,,,1,Demon|Grimeleech|Hellflayer
+Feru way,great health potions,239,14,,15,2026-09-14 23:18,1,Grimeleech
+Feru way,great mana potions,53161,,32,,2026-06-23 00:11,1,Demon|Grimeleech|Hellflayer|Vexclaw
+Feru way,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Demon|Grimeleech|Hellflayer|Vexclaw
+Feru way,pairs of hellflayer horns,,,,,,1,Hellflayer
+Feru way,platinum coins,,,,,,1,Demon|Grimeleech|Hellflayer|Vexclaw
+Feru way,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Demon
+Feru way,small emeralds,3032,249,161,250,2026-09-14 23:24,1,Demon
+Feru way,small rubies,,,,,,1,Demon
+Feru way,small topazes,,,,,,1,Demon
+Feru way,some grimeleech wings,22730,1397,1160,1398,2026-09-14 23:37,1,Grimeleech
+Feru way,ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Demon|Hellflayer|Vexclaw
+Feru way,vexclaw talons,22728,,,,,1,Vexclaw
+Demon Goroma,assassin stars,7368,14,4,15,2026-09-14 23:28,1,Demon|Hellhound
+Demon Goroma,black pearls,3027,279,231,280,2026-09-14 23:21,1,Hellhound
+Demon Goroma,blazing bones,16131,787,363,788,2026-09-14 23:31,1,Hellhound
+Demon Goroma,demon horns,5954,994,601,995,2026-09-14 23:33,1,Demon
+Demon Goroma,demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Demon|Hellhound
+Demon Goroma,demonic skeletal hands,9647,78,51,79,2026-09-14 23:33,1,Demon Skeleton
+Demon Goroma,dragon ham,3583,69,,70,2026-09-14 23:10,1,Dragon Lord
+Demon Goroma,fiery hearts,9636,,,,,1,Hellhound
+Demon Goroma,fire mushrooms,3731,226,176,227,2026-09-14 23:10,1,Demon
+Demon Goroma,flasks of demonic blood,,,,,,1,Hellhound
+Demon Goroma,gold coins,,,,,,1,Demon|Demon Skeleton|Dragon Lord
+Demon Goroma,great mana potions,53161,,32,,2026-06-23 00:11,1,Demon|Hellhound
+Demon Goroma,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Demon|Hellhound
+Demon Goroma,green mushrooms,3732,99,88,100,2026-09-14 23:10,1,Dragon Lord
+Demon Goroma,ham,3582,14,,15,2026-09-14 23:10,1,Hellhound
+Demon Goroma,hardened bones,5925,,23,,2026-09-14 23:34,1,Hellhound
+Demon Goroma,hellhound slobber,9637,,,,,1,Hellhound
+Demon Goroma,nothing ,,,,,,1,Fire Elemental
+Demon Goroma,platinum coins,,,,,,1,Demon|Hellhound
+Demon Goroma,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Demon
+Demon Goroma,small emeralds,3032,249,161,250,2026-09-14 23:24,1,Demon
+Demon Goroma,small rubies,,,,,,1,Demon
+Demon Goroma,small topazes,,,,,,1,Demon
+Demon Goroma,soul orbs,5944,29,20,30,2026-09-14 23:24,1,Hellhound
+Demon Goroma,throwing stars,3287,95,,96,2026-09-14 23:28,1,Demon Skeleton
+Demon Goroma,ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Demon|Hellhound
+demons Oramond 30 minutes,assassin stars,7368,14,4,15,2026-09-14 23:28,1,Demon
+demons Oramond 30 minutes,demon horns,5954,994,601,995,2026-09-14 23:33,1,Demon
+demons Oramond 30 minutes,demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Demon|Grim Reaper
+demons Oramond 30 minutes,fire mushrooms,3731,226,176,227,2026-09-14 23:10,1,Demon
+demons Oramond 30 minutes,flasks of demonic blood,,,,,,1,Grim Reaper
+demons Oramond 30 minutes,globs of glooth,,,,,,1,Devourer|Glooth Blob|Rot Elemental
+demons Oramond 30 minutes,globs of tar ,,,,,,1,Death Blob
+demons Oramond 30 minutes,gold coins,,,,,,1,Demon|Devourer|Glooth Blob|Grim Reaper|Metal Gargoyle|Rot Elemental
+demons Oramond 30 minutes,great mana potions,53161,,32,,2026-06-23 00:11,1,Demon
+demons Oramond 30 minutes,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Demon
+demons Oramond 30 minutes,metal jaws,21193,4499,2815,4500,2026-09-14 23:35,1,Metal Gargoyle
+demons Oramond 30 minutes,metal toes,21198,,,,,1,Walker
+demons Oramond 30 minutes,platinum coins,,,,,,1,Demon|Devourer|Metal Gargoyle|Rot Elemental|Walker
+demons Oramond 30 minutes,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Demon
+demons Oramond 30 minutes,small emeralds,3032,249,161,250,2026-09-14 23:24,1,Demon
+demons Oramond 30 minutes,small rubies,,,,,,1,Demon
+demons Oramond 30 minutes,small topazes,,,,,,1,Demon
+demons Oramond 30 minutes,strong health potions,236,10,4,11,2026-09-14 23:18,1,Rot Elemental
+demons Oramond 30 minutes,strong mana potions,237,116,100,117,2026-09-14 23:18,1,Rot Elemental
+demons Oramond 30 minutes,ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Demon
+demons goroma 30m,assassin stars,7368,14,4,15,2026-09-14 23:28,1,Demon|Hellhound
+demons goroma 30m,black pearls,3027,279,231,280,2026-09-14 23:21,1,Hellhound
+demons goroma 30m,blazing bones,16131,787,363,788,2026-09-14 23:31,1,Hellhound
+demons goroma 30m,demon horns,5954,994,601,995,2026-09-14 23:33,1,Demon
+demons goroma 30m,demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Demon|Hellhound
+demons goroma 30m,demonic skeletal hands,9647,78,51,79,2026-09-14 23:33,1,Demon Skeleton
+demons goroma 30m,dragon ham,3583,69,,70,2026-09-14 23:10,1,Dragon Lord
+demons goroma 30m,fiery hearts,9636,,,,,1,Hellhound
+demons goroma 30m,fire mushrooms,3731,226,176,227,2026-09-14 23:10,1,Demon
+demons goroma 30m,flasks of demonic blood,,,,,,1,Hellhound
+demons goroma 30m,gold coins,,,,,,1,Demon|Demon Skeleton|Dragon Lord
+demons goroma 30m,great mana potions,53161,,32,,2026-06-23 00:11,1,Demon|Hellhound
+demons goroma 30m,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Demon|Hellhound
+demons goroma 30m,green mushrooms,3732,99,88,100,2026-09-14 23:10,1,Dragon Lord
+demons goroma 30m,ham,3582,14,,15,2026-09-14 23:10,1,Hellhound
+demons goroma 30m,hardened bones,5925,,23,,2026-09-14 23:34,1,Hellhound
+demons goroma 30m,hellhound slobber,9637,,,,,1,Hellhound
+demons goroma 30m,nothing ,,,,,,1,Fire Elemental
+demons goroma 30m,platinum coins,,,,,,1,Demon|Hellhound
+demons goroma 30m,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Demon
+demons goroma 30m,small emeralds,3032,249,161,250,2026-09-14 23:24,1,Demon
+demons goroma 30m,small rubies,,,,,,1,Demon
+demons goroma 30m,small topazes,,,,,,1,Demon
+demons goroma 30m,soul orbs,5944,29,20,30,2026-09-14 23:24,1,Hellhound
+demons goroma 30m,throwing stars,3287,95,,96,2026-09-14 23:28,1,Demon Skeleton
+demons goroma 30m,ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Demon|Hellhound
+Caminho de Ferumbras,assassin stars,7368,14,4,15,2026-09-14 23:28,1,Demon
+Caminho de Ferumbras,demon horns,5954,994,601,995,2026-09-14 23:33,1,Demon
+Caminho de Ferumbras,demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Demon|Grimeleech|Hellflayer|Vexclaw
+Caminho de Ferumbras,fire mushrooms,3731,226,176,227,2026-09-14 23:10,1,Demon|Vexclaw
+Caminho de Ferumbras,flasks of demonic blood,,,,,,1,Grimeleech|Hellflayer
+Caminho de Ferumbras,gold coins,,,,,,1,Demon|Grimeleech|Hellflayer
+Caminho de Ferumbras,great health potions,239,14,,15,2026-09-14 23:18,1,Grimeleech
+Caminho de Ferumbras,great mana potions,53161,,32,,2026-06-23 00:11,1,Demon|Grimeleech|Hellflayer|Vexclaw
+Caminho de Ferumbras,great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Demon|Grimeleech|Hellflayer|Vexclaw
+Caminho de Ferumbras,pairs of hellflayer horns,,,,,,1,Hellflayer
+Caminho de Ferumbras,platinum coins,,,,,,1,Demon|Grimeleech|Hellflayer|Vexclaw
+Caminho de Ferumbras,small amethysts,3033,198,172,199,2026-09-14 23:24,1,Demon
+Caminho de Ferumbras,small emeralds,3032,249,161,250,2026-09-14 23:24,1,Demon
+Caminho de Ferumbras,small rubies,,,,,,1,Demon
+Caminho de Ferumbras,small topazes,,,,,,1,Demon
+Caminho de Ferumbras,some grimeleech wings,22730,1397,1160,1398,2026-09-14 23:37,1,Grimeleech
+Caminho de Ferumbras,ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Demon|Hellflayer|Vexclaw
+Caminho de Ferumbras,vexclaw talons,22728,,,,,1,Vexclaw
+Asura Mirror,assassin stars,7368,14,4,15,2026-09-14 23:28,5,Frost Flower Asura
+Asura Mirror,demonic essence,6499,999,898,1000,2026-09-14 23:33,5,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,flasks of demonic blood,,,,,,5,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,gold coins,,,,,,5,Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura|Nomad
+Asura Mirror,golden lotus brooches,,,,,,5,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,great health potions,239,14,,15,2026-09-14 23:18,5,Frost Flower Asura|Hellspawn
+Asura Mirror,ham,3582,14,,15,2026-09-14 23:10,5,Crocodile
+Asura Mirror,hellspawn tails,10304,488,265,489,2026-09-14 23:35,5,Hellspawn
+Asura Mirror,peacock feather fans,21975,347,208,348,2026-09-14 23:36,5,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,pieces of crocodile leather,,,,,,5,Crocodile
+Asura Mirror,platinum coins,,,,,,5,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,soul orbs,5944,29,20,30,2026-09-14 23:24,5,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+True asuras,arrows,3447,2,2,3,2026-09-14 23:24,23,Hunter
+True asuras,assassin stars,7368,14,4,15,2026-09-14 23:28,23,Frost Flower Asura|Hellhound
+True asuras,axes,3274,,,,,23,Bandit
+True asuras,black pearls,3027,279,231,280,2026-09-14 23:21,23,Hellhound
+True asuras,blazing bones,16131,787,363,788,2026-09-14 23:31,23,Hellhound
+True asuras,brass shields,3411,52,22,53,2026-09-14 23:19,23,Bandit
+True asuras,demonic essence,6499,999,898,1000,2026-09-14 23:33,23,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
+True asuras,fiery hearts,9636,,,,,23,Hellhound
+True asuras,flasks of demonic blood,,,,,,23,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
+True asuras,gold coins,,,,,,23,Bandit|Bug|Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn
+True asuras,golden lotus brooches,,,,,,23,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+True asuras,great health potions,239,14,,15,2026-09-14 23:18,23,Frost Flower Asura|Hellspawn
+True asuras,great mana potions,53161,,32,,2026-06-23 00:11,23,Hellhound
+True asuras,great spirit potions,7642,151,113,152,2026-09-14 23:18,23,Hellhound
+True asuras,ham,3582,14,,15,2026-09-14 23:10,23,Crocodile|Elephant|Hellhound
+True asuras,hardened bones,5925,,23,,2026-09-14 23:34,23,Hellhound
+True asuras,hellhound slobber,9637,,,,,23,Hellhound
+True asuras,hellspawn tails,10304,488,265,489,2026-09-14 23:35,23,Hellspawn
+True asuras,hunter&#39;s quivers,,,,,,23,Hunter
+True asuras,leather legs,3559,14,,15,2026-09-14 23:12,23,Bandit
+True asuras,maces,3286,,,,,23,Bandit
+True asuras,meat,3577,,,,,23,Elephant
+True asuras,meat and worms ,,,,,,23,Hyaena
+True asuras,nothing ,,,,,,23,Snake
+True asuras,oranges,3586,,,,,23,Hunter
+True asuras,peacock feather fans,21975,347,208,348,2026-09-14 23:36,23,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+True asuras,pieces of crocodile leather,,,,,,23,Crocodile
+True asuras,platinum coins,,,,,,23,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
+True asuras,rolls,3601,79,,80,2026-09-14 23:10,23,Hunter
+True asuras,soul orbs,5944,29,20,30,2026-09-14 23:24,23,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
+True asuras,tarantula eggs,10281,,90,,2026-09-14 23:38,23,Tarantula
+True asuras,ultimate health potions,7643,108,91,109,2026-09-14 23:18,23,Hellhound
+True Asura [2/26],assassin stars,7368,14,4,15,2026-09-14 23:28,1,Hellhound
+True Asura [2/26],black pearls,3027,279,231,280,2026-09-14 23:21,1,Hellhound
+True Asura [2/26],blazing bones,16131,787,363,788,2026-09-14 23:31,1,Hellhound
+True Asura [2/26],demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Dawnfire Asura|Hellhound
+True Asura [2/26],fiery hearts,9636,,,,,1,Hellhound
+True Asura [2/26],flasks of demonic blood,,,,,,1,Dawnfire Asura|Hellhound
+True Asura [2/26],gold coins,,,,,,1,Dawnfire Asura|Hellspawn|Nomad
+True Asura [2/26],golden lotus brooches,,,,,,1,Dawnfire Asura
+True Asura [2/26],great health potions,239,14,,15,2026-09-14 23:18,1,Hellspawn
+True Asura [2/26],great mana potions,53161,,32,,2026-06-23 00:11,1,Hellhound
+True Asura [2/26],great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Hellhound
+True Asura [2/26],ham,3582,14,,15,2026-09-14 23:10,1,Hellhound
+True Asura [2/26],hardened bones,5925,,23,,2026-09-14 23:34,1,Hellhound
+True Asura [2/26],hellhound slobber,9637,,,,,1,Hellhound
+True Asura [2/26],hellspawn tails,10304,488,265,489,2026-09-14 23:35,1,Hellspawn
+True Asura [2/26],meat and worms ,,,,,,1,Hyaena
+True Asura [2/26],peacock feather fans,21975,347,208,348,2026-09-14 23:36,1,Dawnfire Asura
+True Asura [2/26],platinum coins,,,,,,1,Dawnfire Asura|Hellhound
+True Asura [2/26],soul orbs,5944,29,20,30,2026-09-14 23:24,1,Dawnfire Asura|Hellhound
+True Asura [2/26],ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Hellhound
+True Asura [3/7],assassin stars,7368,14,4,15,2026-09-14 23:28,1,Hellhound
+True Asura [3/7],black pearls,3027,279,231,280,2026-09-14 23:21,1,Hellhound
+True Asura [3/7],blazing bones,16131,787,363,788,2026-09-14 23:31,1,Hellhound
+True Asura [3/7],demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Dawnfire Asura|Hellhound
+True Asura [3/7],fiery hearts,9636,,,,,1,Hellhound
+True Asura [3/7],flasks of demonic blood,,,,,,1,Dawnfire Asura|Hellhound
+True Asura [3/7],gold coins,,,,,,1,Dawnfire Asura|Hellspawn|Nomad
+True Asura [3/7],golden lotus brooches,,,,,,1,Dawnfire Asura
+True Asura [3/7],great health potions,239,14,,15,2026-09-14 23:18,1,Hellspawn
+True Asura [3/7],great mana potions,53161,,32,,2026-06-23 00:11,1,Hellhound
+True Asura [3/7],great spirit potions,7642,151,113,152,2026-09-14 23:18,1,Hellhound
+True Asura [3/7],ham,3582,14,,15,2026-09-14 23:10,1,Hellhound
+True Asura [3/7],hardened bones,5925,,23,,2026-09-14 23:34,1,Hellhound
+True Asura [3/7],hellhound slobber,9637,,,,,1,Hellhound
+True Asura [3/7],hellspawn tails,10304,488,265,489,2026-09-14 23:35,1,Hellspawn
+True Asura [3/7],meat and worms ,,,,,,1,Hyaena
+True Asura [3/7],peacock feather fans,21975,347,208,348,2026-09-14 23:36,1,Dawnfire Asura
+True Asura [3/7],platinum coins,,,,,,1,Dawnfire Asura|Hellhound
+True Asura [3/7],soul orbs,5944,29,20,30,2026-09-14 23:24,1,Dawnfire Asura|Hellhound
+True Asura [3/7],ultimate health potions,7643,108,91,109,2026-09-14 23:18,1,Hellhound
+asura,assassin stars,7368,14,4,15,2026-09-14 23:28,1,Frost Flower Asura
+asura,demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+asura,flasks of demonic blood,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+asura,gold coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura
+asura,golden lotus brooches,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+asura,great health potions,239,14,,15,2026-09-14 23:18,1,Frost Flower Asura|Hellspawn
+asura,hellspawn tails,10304,488,265,489,2026-09-14 23:35,1,Hellspawn
+asura,peacock feather fans,21975,347,208,348,2026-09-14 23:36,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+asura,platinum coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+asura,soul orbs,5944,29,20,30,2026-09-14 23:24,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+[BOUNTY ADEPT] [ED - RUBINOT] - Asura Mirror,assassin stars,7368,14,4,15,2026-09-14 23:28,1,Frost Flower Asura
+[BOUNTY ADEPT] [ED - RUBINOT] - Asura Mirror,demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+[BOUNTY ADEPT] [ED - RUBINOT] - Asura Mirror,flasks of demonic blood,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+[BOUNTY ADEPT] [ED - RUBINOT] - Asura Mirror,gold coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura
+[BOUNTY ADEPT] [ED - RUBINOT] - Asura Mirror,golden lotus brooches,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+[BOUNTY ADEPT] [ED - RUBINOT] - Asura Mirror,great health potions,239,14,,15,2026-09-14 23:18,1,Frost Flower Asura|Hellspawn
+[BOUNTY ADEPT] [ED - RUBINOT] - Asura Mirror,hellspawn tails,10304,488,265,489,2026-09-14 23:35,1,Hellspawn
+[BOUNTY ADEPT] [ED - RUBINOT] - Asura Mirror,peacock feather fans,21975,347,208,348,2026-09-14 23:36,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+[BOUNTY ADEPT] [ED - RUBINOT] - Asura Mirror,platinum coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+[BOUNTY ADEPT] [ED - RUBINOT] - Asura Mirror,soul orbs,5944,29,20,30,2026-09-14 23:24,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura (Mirror),assassin stars,7368,14,4,15,2026-09-14 23:28,1,Frost Flower Asura
+Asura (Mirror),demonic essence,6499,999,898,1000,2026-09-14 23:33,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura (Mirror),flasks of demonic blood,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura (Mirror),gold coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura|Nomad
+Asura (Mirror),golden lotus brooches,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura (Mirror),great health potions,239,14,,15,2026-09-14 23:18,1,Frost Flower Asura|Hellspawn
+Asura (Mirror),hellspawn tails,10304,488,265,489,2026-09-14 23:35,1,Hellspawn
+Asura (Mirror),peacock feather fans,21975,347,208,348,2026-09-14 23:36,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura (Mirror),platinum coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura (Mirror),soul orbs,5944,29,20,30,2026-09-14 23:24,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+❄️ Iceplume Strider – Test Hunt,platinum coins,,,,,,1,Iceplume Strider|Silverfrost Sentinel
+❄️ Iceplume Strider – Test Hunt,small sapphires,3029,248,214,249,2026-09-14 23:24,1,Iceplume Strider|Silverfrost Sentinel
+❄️ Iceplume Strider – Bounty Hunt,platinum coins,,,,,,1,Iceplume Strider|Silverfrost Sentinel
+❄️ Iceplume Strider – Bounty Hunt,small sapphires,3029,248,214,249,2026-09-14 23:24,1,Iceplume Strider|Silverfrost Sentinel

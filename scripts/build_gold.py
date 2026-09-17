@@ -274,8 +274,8 @@ def spawn_stats(rows: list[dict]) -> list[dict]:
 def spawn_items(hunts: list[dict], kills: list[dict], creatures: dict,
                 price_by_name: dict, meta_by_name: dict) -> list[dict]:
     """Spawn -> itemy: unia loot_list potworow bitych na spawnie (z hunt_kills).
-    Bez procentow dropu (Wiki ich nie daje) — to MAPA 'co tu pada + po ile chodzi',
-    nie srednia/h. Srednie/h liczymy dopiero z session_loot (Wasze logi)."""
+    Bez procentow dropu (Wiki ich nie daje) — to MAPA 'co tu pada + po ile chodzi'.
+    Srednie/h per item liczy strona z value-per-kill (creature_value.csv)."""
     hunt_spawn = {h["id"]: h.get("spawn", "") for h in hunts}
     spawn_creatures: dict[str, dict[str, int]] = {}
     spawn_sessions: dict[str, set] = {}
@@ -309,6 +309,127 @@ def spawn_items(hunts: list[dict], kills: list[dict], creatures: dict,
 
 KILLS_H_COLS = ["hunt_id", "spawn", "hunt_date", "minutes", "creature", "killed",
                 "kills_per_h", "xp_h", "loot_h", "balance_h", "url"]
+
+VCALIB_DAYS = 120  # kalibracja value-per-kill: swieze sesje (ceny malo dryfuja), ale szersze niz profit
+
+
+def wmedian(pairs: list) -> int:
+    """Mediana wazona: pairs = [(wartosc, waga)]."""
+    tot = sum(w for _, w in pairs)
+    if tot <= 0:
+        return 0
+    acc = 0
+    for v, w in sorted(pairs):
+        acc += w
+        if acc >= tot / 2:
+            return int(v)
+    return int(sorted(pairs)[-1][0])
+
+
+def calibrate_value_per_kill(hunts: list[dict], kills: list[dict]):
+    """Ile warta jest SREDNIO jedna sztuka potwora: loot/h sesji rozdzielony na
+    gatunki proporcjonalnie do killi, obserwacje wazone udzialem (dominantne sesje
+    waza najmocniej). Mediana wazona per gatunek. W pelni weryfikowalne."""
+    hmap = {h["id"]: h for h in hunts
+            if (h.get("_days_ago", 9999) or 9999) <= VCALIB_DAYS and (h.get("loot_h") or 0) > 0}
+    by_hunt: dict[str, list] = {}
+    for k in kills:
+        if k["hunt_id"] in hmap:
+            by_hunt.setdefault(k["hunt_id"], []).append(k)
+    obs: dict[str, list] = {}
+    samples: dict[str, list] = {}
+    for hid, rows in by_hunt.items():
+        h = hmap[hid]
+        try:
+            mins = int(h.get("minutes") or 0)
+        except ValueError:
+            continue
+        if mins < 15:
+            continue
+        counts = [(r["creature"], int(r.get("killed") or 0)) for r in rows]
+        counts = [(c, n) for c, n in counts if n > 0]
+        tot = sum(n for _, n in counts)
+        if tot <= 0:
+            continue
+        loot_h = float(h["loot_h"])
+        for creature, n in counts:
+            share = n / tot
+            kph = n / mins * 60
+            if kph <= 0:
+                continue
+            v = (loot_h * share) / kph  # wartosc per kill przy proporcjonalnym podziale
+            obs.setdefault(creature, []).append((v, share))
+            if len(samples.get(creature, [])) < 5:
+                samples.setdefault(creature, []).append(h.get("url", ""))
+    out = []
+    for creature, o in obs.items():
+        vs = sorted(v for v, _ in o)
+        out.append({"creature": creature, "n_sessions": len(o),
+                    "value_per_kill": wmedian(o),
+                    "min_v": int(vs[0]), "max_v": int(vs[-1]),
+                    "sample_urls": "|".join(samples.get(creature, []))})
+    return sorted(out, key=lambda r: r["n_sessions"], reverse=True)
+
+
+SPAWN_PROFIT_COLS = ["spawn", "profit_computed_h", "coverage", "n_sessions",
+                     "measured_loot_h", "valued", "missing"]
+
+
+def spawn_profit_computed(hunts: list[dict], kills: list[dict], vcalib: list[dict]):
+    """Profit/h spawna POLICZONY: suma po potworach (srednie kille/h × value-per-kill).
+    coverage = udzial killi z wycenionych gatunkow. Brak wyceny = jawna luka, nie zgadywanie."""
+    vc = {r["creature"]: r["value_per_kill"] for r in vcalib}
+    hmap = {h["id"]: h for h in hunts
+            if (h.get("_days_ago", 9999) or 9999) <= VCALIB_DAYS}
+    sp_kills: dict[str, dict[str, list]] = {}
+    sp_hours: dict[str, float] = {}
+    sp_loot: dict[str, list] = {}
+    seen_hunts: dict[str, set] = {}
+    for k in kills:
+        h = hmap.get(k["hunt_id"])
+        if not h:
+            continue
+        try:
+            mins = int(h.get("minutes") or 0)
+            killed = int(k.get("killed") or 0)
+        except ValueError:
+            continue
+        if mins < 15 or killed <= 0:
+            continue
+        sp = h.get("spawn", "")
+        sp_kills.setdefault(sp, {}).setdefault(k["creature"], []).append(killed / mins * 60)
+        seen_hunts.setdefault(sp, set()).add(k["hunt_id"])
+        if h.get("loot_h"):
+            sp_loot.setdefault(sp, []).append(float(h["loot_h"]))
+    for sp, hs in seen_hunts.items():
+        hrs = 0.0
+        for hid in hs:
+            try:
+                hrs += int(hmap[hid].get("minutes") or 0) / 60
+            except ValueError:
+                pass
+        sp_hours[sp] = hrs
+    import statistics
+    out = []
+    for sp, census in sp_kills.items():
+        profit, valued_units, all_units, valued, missing = 0.0, 0.0, 0.0, [], []
+        for creature, rates in census.items():
+            avg_kph = sum(rates) / len(rates)
+            all_units += avg_kph
+            if creature in vc:
+                profit += avg_kph * vc[creature]
+                valued_units += avg_kph
+                valued.append(f"{creature} {avg_kph:.0f}/h×{vc[creature]}")
+            else:
+                missing.append(creature)
+        ml = sp_loot.get(sp, [])
+        out.append({"spawn": sp, "profit_computed_h": int(profit),
+                    "coverage": round(valued_units / all_units, 2) if all_units else 0,
+                    "n_sessions": len(seen_hunts.get(sp, set())),
+                    "measured_loot_h": int(statistics.median(sorted(ml))) if ml else "",
+                    "valued": ";".join(sorted(valued)[:10]),
+                    "missing": "|".join(sorted(missing)[:10])})
+    return sorted(out, key=lambda r: r["profit_computed_h"], reverse=True)
 
 
 def kills_enriched(hunts: list[dict], kills: list[dict]) -> list[dict]:
@@ -415,11 +536,16 @@ def main() -> None:
     hunts_exp = [h for h in hunts_exp if not h["event_flag"]]
     print(f"eventy: {len(event_dates)} dni, wykluczono sesji(protexp+exp)={n_ev}")
 
-    # Drabinka + stworzenia + metadata (najnowsze snapshoty)
-    boards, creatures, meta = {}, {}, []
-    bf = latest("orderbook_nevia.json")
-    if bf:
-        boards = json.loads(bf.read_text(encoding="utf-8"))
+    # Drabinka: merge z ostatnich 7 dni (nowsze wygrywaja) — dzienny refresh obejmuje
+    # tylko podzbior, reszta zyje poprzednim snapshotem (captured_at przy kazdej cenie).
+    boards = {}
+    for bf in sorted((ROOT / "data" / "raw").glob("*/orderbook_nevia.json"))[-7:]:
+        try:
+            boards.update(json.loads(bf.read_text(encoding="utf-8")))
+        except Exception:
+            pass
+    print(f"orderbook merged: {len(boards)} items") if boards else None
+    creatures, meta = {}, []
     cf = latest("creatures.json")
     if cf:
         creatures = json.loads(cf.read_text(encoding="utf-8"))
@@ -486,6 +612,30 @@ def main() -> None:
         w.writerows(kh)
     print(f"hunt_kills_h rows={len(kh)}")
 
+    # Wartosc-per-kill (kalibracja na sesjach jednogatunkowych) + POLICZONY profit/h spawnow
+    vcalib = calibrate_value_per_kill(list(all_hunts), kills)
+    with open(GOLD / "creature_value.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["creature", "n_sessions", "value_per_kill",
+                                          "min_v", "max_v", "sample_urls"])
+        w.writeheader()
+        w.writerows(vcalib)
+    sprof = spawn_profit_computed(list(all_hunts), kills, vcalib)
+    with open(GOLD / "spawn_profit.csv", "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=SPAWN_PROFIT_COLS)
+        w.writeheader()
+        w.writerows(sprof)
+    print(f"creature_value: {len(vcalib)} gatunkow; spawn_profit: {len(sprof)} spawnow")
+    for b in brackets:
+        lo, hi = (int(x) for x in b.strip().split("-"))
+        hb = [h for h in hunts_profit if h["avg_lvl"] and lo <= h["avg_lvl"] <= hi]
+        # kalibracja globalna, srednie kille/h z bracketu
+        ids = {h["id"] for h in hb}
+        kb = [k for k in kills if k["hunt_id"] in ids]
+        spb = spawn_profit_computed(hb, kb, vcalib)
+        with open(GOLD / f"spawn_profit_{lo}_{hi}.csv", "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=SPAWN_PROFIT_COLS)
+            w.writeheader()
+            w.writerows(spb)
     # Per-item: drabinka + historia do docs/data (nadpisywane — tylko najnowszy stan)
     hist = {}
     hf = latest("market_history_top.json")
@@ -544,9 +694,9 @@ def main() -> None:
     # Kopia rankingow do docs/data/ — GitHub Pages serwuje caly folder docs/,
     # wiec dashboard (docs/index.html) czyta te CSV bez zadnego backendu.
     for p in (list(GOLD.glob("ranking_*.csv")) + list(GOLD.glob("spawn_stats*.csv"))
+              + list(GOLD.glob("spawn_profit*.csv"))
               + [GOLD / "price_stats.csv", GOLD / "spawn_items.csv", GOLD / "hunt_kills_h.csv",
-                 GOLD / "item_tags.csv",
-                 GOLD / "session_loot.csv", GOLD / "build_info.json"]):
+                 GOLD / "item_tags.csv", GOLD / "creature_value.csv", GOLD / "build_info.json"]):
         if p.exists():
             shutil.copy(p, PAGES_DATA / p.name)
     print(f"copied {len(list(PAGES_DATA.glob('*')))} files -> {PAGES_DATA}")
@@ -556,9 +706,10 @@ def main() -> None:
         wb = openpyxl.Workbook()
         first = True
         for p in sorted(list(GOLD.glob("ranking_*.csv")) + list(GOLD.glob("spawn_stats*.csv"))
+                         + list(GOLD.glob("spawn_profit*.csv"))
                          + [GOLD / "price_stats.csv", GOLD / "spawn_items.csv",
                             GOLD / "hunt_kills_h.csv", GOLD / "item_tags.csv",
-                            GOLD / "session_loot.csv"]):
+                            GOLD / "creature_value.csv"]):
             if not p.exists():
                 continue
             ws = wb.active if first else wb.create_sheet(p.stem)

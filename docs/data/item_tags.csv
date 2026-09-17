@@ -19,7 +19,7 @@ Bashmu Tongue,,,Yasir,Medium,400
 Battle Shield,,,Others|Outro,Medium,95
 battle stone,128,Intricate Chop x25|Powerful Chop x25,,,
 Black Shield,,,Djinn,Medium,800
-blazing bone,,Intricate Dragon Hide x10|Powerful Dragon Hide x10,,,
+blazing bone,363,Intricate Dragon Hide x10|Powerful Dragon Hide x10,,,
 Blemished Spawn Abdomen,,,Yasir,Very High,550
 Blemished Spawn Head,,,Yasir,Very High,800
 Blemished Spawn Tail,,,Yasir,Very High,1000
@@ -52,12 +52,12 @@ Bowl of Terror Sweat,,,Yasir,Low,500
 Brigadeiro,,,Outro|Yasir,Very High,2640
 brimstone fangs,,Powerful Snake Skin x10,,,
 brimstone shell,,Intricate Blockade x25|Powerful Blockade x25,,,
-Brinebrute Claw,,,Yasir,Very High,2600
+brinebrute claw,7714,,Yasir,Very High,2600
 Broadsword,,,Djinn,High,500
 Broken Draken Mail,,,Esrik|Outro,High,340
 Broken Gladiator Shield,,,Outro|Telas,Medium,190
 broken halberd,1404,,Esrik|Outro,High,100
-Broken Mitmah Necklace,,,Outro|Yasir,Medium,210
+broken Mitmah necklace,146,,Outro|Yasir,Medium,210
 broken shamanic staff,,Intricate Epiphany x15|Powerful Epiphany x15,,,
 Broken Slicer,,,Esrik|Outro,High,120
 broken throwing axe,736,,Outro|Yasir,Medium,230
@@ -441,7 +441,7 @@ Small Notebook,,,Yasir,Low,480
 Small Treasure Chest,,,Yasir,High,500
 Small Tropical Fish,,,Yasir,Medium,380
 snake skin,205,Intricate Snake Skin x20|Powerful Snake Skin x20,,,
-some grimeleech wings,,Powerful Void x5,,,
+some grimeleech wings,1160,Powerful Void x5,,,
 spark sphere,353,,Yasir,Medium,350
 sparkion claw,435,,Yasir,Low,290
 sparkion legs,400,,Yasir,Low,310

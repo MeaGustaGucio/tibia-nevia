@@ -48,9 +48,9 @@
   <div class="card"><h3 style="margin:4px 0 10px">Historia 90 dni (średnie dzienne)</h3><div class="hist" id="hist"></div>
     <p class="sub" id="histleg"></p></div>
   <div class="card"><h3 style="margin:4px 0 10px">Gdzie to pada (spawny z killi × loot-listy)</h3>
-    <table id="tbl"><thead><tr><th>Spawn</th><th class="num">Fair</th><th class="num">Wartość/h przy 10 szt/h</th><th>Potwory</th></tr></thead><tbody></tbody></table></div>
-  <div class="card"><h3 style="margin:4px 0 10px">Wasze sesje z tym itemem</h3>
-    <table id="tbl2"><thead><tr><th>Spawn</th><th>Data</th><th class="num">Minuty</th><th class="num">Sztuki</th><th class="num">Szt/h</th><th>Notka</th></tr></thead><tbody></tbody></table></div>
+    <table id="tbl"><thead><tr><th>Spawn</th><th class="num">Fair</th><th class="num">Kalkulator: szt/h × fair</th><th>Potwory</th></tr></thead><tbody></tbody></table></div>
+  <div class="card"><h3 style="margin:4px 0 10px">Sesje z killami tego itemu (potwory, które go dropią)</h3>
+    <p class="sub" style="margin-top:0">Item dropi z: <span id="droppers"></span>. Dokładnych countów itemów per sesja nie publikuje żadne API — strona pokazuje kille/h potworów + aktualne ceny.</p></div>
 </main>
 <footer style="max-width:1100px;margin:18px auto 0;color:var(--mut);font-size:.78rem">
   Instant = podcięcie najtańszego sensownego sella o 1 (sprzedaż „od ręki”).
@@ -133,16 +133,16 @@ async function getCSV(path) {
   const mine = si.filter(r => String(r.item_id) === String(id));
   document.querySelector("#tbl tbody").innerHTML = mine.map(r =>
     `<tr><td><a href="spawn.html?spawn=${encodeURIComponent(r.spawn)}">${r.spawn}</a></td>
-     <td class="num">${fmt(r.fair)}</td><td class="num">${fmt(Number(r.fair) * 10)}</td><td>${r.creatures || ""}</td></tr>`).join("")
+     <td class="num">${fmt(r.fair)}</td><td class="num"><input data-fair="${r.fair}" class="perh" type="number" min="0" value="10" style="width:64px;background:#2a241b;color:var(--ink);border:1px solid #4a4030;border-radius:4px;padding:2px 4px"/> × fair = <b class="val">${fmt(Number(r.fair) * 10)}</b></td><td>${r.creatures || ""}</td></tr>`).join("")
     || `<tr><td colspan="4">Brak spawnow z killami tego itemu w probce.</td></tr>`;
 
-  const sess = await getCSV("data/session_loot.csv");
-  const mine2 = sess.filter(r => (r.item || "").toLowerCase() === name.toLowerCase());
-  document.querySelector("#tbl2 tbody").innerHTML = mine2.map(r => {
-    const perH = r.minutes > 0 ? (r.count / r.minutes * 60) : 0;
-    return `<tr><td>${r.spawn}</td><td>${r.date}</td><td class="num">${r.minutes}</td>
-      <td class="num">${r.count}</td><td class="num">${perH.toFixed(1)}</td><td>${r.note || ""}</td></tr>`;
-  }).join("") || `<tr><td colspan="6">Brak Waszych zalogowanych sesji — dodaj przez <a href="log.html">log.html</a>.</td></tr>`;
+  const drops = {};
+  for (const r of mine) for (const c of (r.creatures || "").split("|")) if (c) drops[c] = true;
+  $("droppers").textContent = Object.keys(drops).sort().join(", ") || "—";
+document.querySelectorAll('#tbl input.perh').forEach(inp => inp.oninput = () => {
+    const f = Number(inp.dataset.fair) || 0;
+    inp.parentElement.querySelector('.val').textContent = (Number(inp.value) * f).toLocaleString('pl-PL');
+  });
 })();
 </script>
 </body>

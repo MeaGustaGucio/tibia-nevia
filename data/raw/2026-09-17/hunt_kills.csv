@@ -1,0 +1,641 @@
+hunt_id,creature,killed
+29403,Serpent Spawn,222
+29403,Behemoth,189
+29403,Omnivora,151
+29403,Clay Guardian,143
+29403,Medusa,127
+29403,Stone Golem,33
+29403,Gargoyle,25
+29403,Slime,5
+29958,Serpent Spawn,242
+29958,Behemoth,221
+29958,Omnivora,214
+29958,Medusa,194
+29958,Clay Guardian,132
+29958,Werehyaena,81
+29958,Werehyaena Shaman,29
+29958,Gargoyle,18
+29958,Stone Golem,6
+29958,Slime,2
+32941,Omnivora,239
+32941,Serpent Spawn,215
+32941,Clay Guardian,214
+32941,Behemoth,195
+32941,Medusa,173
+32941,Gargoyle,43
+32941,Stone Golem,20
+32941,Gorga,5
+32941,Slime,1
+33144,Omnivora,215
+33144,Clay Guardian,181
+33144,Serpent Spawn,175
+33144,Behemoth,154
+33144,Medusa,137
+33144,Gargoyle,41
+33144,Stone Golem,18
+33144,Gorga,4
+33222,Omnivora,311
+33222,Serpent Spawn,267
+33222,Clay Guardian,255
+33222,Behemoth,239
+33222,Medusa,207
+33222,Gargoyle,59
+33222,Stone Golem,27
+33222,Gorga,6
+33445,Eternal Guardian,92
+33445,Medusa,86
+33445,Hydra,70
+33445,Serpent Spawn,43
+33445,Giant Spider,5
+33445,Centipede,5
+34016,Serpent Spawn,77
+34016,Medusa,45
+34016,Quara Hydromancer Scout,14
+34016,Tarantula,13
+34016,Quara Mantassin Scout,10
+34016,Giant Spider,7
+34016,Quara Predator Scout,6
+34016,Cobra,6
+34016,Water Elemental,5
+34016,Spider,5
+34016,Skunk,4
+34016,Scorpion,3
+34016,Bog Raider,2
+34016,Crocodile,2
+34016,Quara Pincher Scout,2
+34016,Crypt Shambler,1
+34016,Slime,1
+40956,Clay Guardian,101
+40956,Omnivora,89
+40956,Serpent Spawn,74
+40956,Behemoth,61
+40956,Medusa,44
+40956,Stone Golem,39
+40956,Gargoyle,28
+40956,Slime,4
+42429,Medusa,171
+42429,Souleater,140
+42429,Eternal Guardian,119
+42429,Hydra,58
+42429,Serpent Spawn,49
+51555,Serpent Spawn,134
+51555,Behemoth,98
+51555,Medusa,77
+51555,Clay Guardian,74
+51555,Omnivora,73
+51555,Gargoyle,4
+51555,Stone Golem,2
+53187,Serpent Spawn,116
+53187,Behemoth,113
+53187,Medusa,78
+53187,Omnivora,70
+53187,Clay Guardian,62
+53187,Gargoyle,3
+53187,Gorga,3
+53187,Stone Golem,2
+10194,Choking Fear,347
+10194,Retching Horror,327
+10194,Frazzlemaw,179
+10194,Silencer,135
+10335,Frazzlemaw,247
+10335,Silencer,239
+10335,Guzzlemaw,174
+10335,Shock Head,125
+10750,Frazzlemaw,185
+10750,Silencer,178
+10750,Guzzlemaw,126
+10750,Shock Head,86
+27570,Terrorsleep,181
+27570,Feversleep,131
+30008,Terrorsleep,204
+30008,Feversleep,148
+30104,Terrorsleep,247
+30104,Feversleep,190
+32687,Frazzlemaw,14
+32687,Silencer,6
+32826,Frazzlemaw,620
+32826,Silencer,490
+32826,Guzzlemaw,291
+33749,Frazzlemaw,325
+33749,Silencer,232
+33749,Guzzlemaw,142
+34191,Frazzlemaw,375
+34191,Silencer,298
+34191,Guzzlemaw,166
+35558,Frazzlemaw,995
+35558,Silencer,829
+35558,Guzzlemaw,495
+35628,Frazzlemaw,1047
+35628,Silencer,837
+35628,Guzzlemaw,474
+35733,Frazzlemaw,237
+35733,Silencer,177
+35733,Guzzlemaw,108
+35733,Rotworm Queen,1
+35874,Frazzlemaw,1047
+35874,Silencer,833
+35874,Guzzlemaw,459
+35961,Frazzlemaw,1058
+35961,Silencer,860
+35961,Guzzlemaw,472
+36173,Frazzlemaw,1081
+36173,Silencer,852
+36173,Guzzlemaw,461
+36869,Frazzlemaw,1074
+36869,Silencer,853
+36869,Guzzlemaw,452
+36869,Choking Fear,2
+36869,Retching Horror,1
+38260,Frazzlemaw,96
+38260,Silencer,71
+38260,Guzzlemaw,42
+41852,Frazzlemaw,261
+41852,Silencer,151
+41852,Shock Head,37
+42192,Frazzlemaw,256
+42192,Silencer,146
+42192,Shock Head,41
+44612,Frazzlemaw,342
+44612,Silencer,190
+44612,Shock Head,59
+45237,Frazzlemaw,385
+45237,Silencer,326
+45237,Guzzlemaw,208
+45237,Shock Head,87
+46048,Choking Fear,432
+46048,Retching Horror,377
+46048,Silencer,204
+46233,Choking Fear,459
+46233,Retching Horror,406
+46233,Silencer,242
+48935,Frazzlemaw,716
+48935,Silencer,501
+48935,Guzzlemaw,298
+4914,Choking Fear,335
+4914,Retching Horror,284
+4914,Silencer,179
+4948,Choking Fear,597
+4948,Retching Horror,577
+4948,Frazzlemaw,274
+4948,Silencer,214
+49879,Frazzlemaw,71
+49879,Silencer,38
+49879,Shock Head,4
+51398,Frazzlemaw,664
+51398,Silencer,540
+51398,Guzzlemaw,340
+51398,Sight of Surrender,2
+52190,Retching Horror,373
+52190,Choking Fear,350
+52190,Frazzlemaw,150
+52190,Silencer,142
+52856,Choking Fear,1482
+52856,Retching Horror,1304
+52856,Silencer,629
+52856,Frazzlemaw,444
+52922,Choking Fear,1768
+52922,Retching Horror,1525
+52922,Silencer,771
+52922,Frazzlemaw,495
+53422,Retching Horror,1724
+53422,Choking Fear,1658
+53422,Frazzlemaw,835
+53422,Silencer,557
+54405,Choking Fear,1122
+54405,Retching Horror,1109
+54405,Frazzlemaw,532
+54405,Silencer,412
+54907,Frazzlemaw,259
+54907,Silencer,218
+54907,Guzzlemaw,118
+55588,Frazzlemaw,586
+55588,Silencer,457
+55588,Guzzlemaw,268
+55588,Sight of Surrender,1
+55588,Retching Horror,1
+8449,Choking Fear,316
+8449,Retching Horror,282
+8449,Silencer,156
+8461,Retching Horror,233
+8461,Choking Fear,232
+8461,Frazzlemaw,124
+8461,Silencer,101
+27533,Spellreaper Inferniarch,3715
+27533,Hellhunter Inferniarch,3692
+27533,Brinebrute Inferniarch,261
+27578,Grimeleech,326
+27578,Spectre,319
+27578,Hand of Cursed Fate,171
+27578,Hellflayer,143
+27578,Vexclaw,48
+30031,Burster Spectre,929
+30034,Burster Spectre,908
+37250,Grim Reaper,108
+37250,Demon,83
+37250,Metal Gargoyle,72
+38400,Demon Outcast,1345
+38400,Dark Torturer,554
+38400,Plaguesmith,502
+38400,Blightwalker,145
+38400,Hellhound,141
+38400,Juggernaut,96
+38570,Grim Reaper,306
+38570,Demon,220
+38570,Metal Gargoyle,202
+38912,Grim Reaper,124
+38912,Demon,90
+38912,Metal Gargoyle,80
+41046,Spectre,122
+41046,Lost Soul,121
+41046,Betrayed Wraith,78
+41046,Phantasm,64
+41046,Demon,20
+41046,Undead Dragon,8
+41046,Lich,8
+41046,Wild Warrior,7
+41046,Warlock,5
+41046,Braindeath,4
+41046,Stalker,3
+41046,Hunter,3
+41046,Fire Devil,2
+41046,Dragon Hatchling,2
+41046,Dark Magician,1
+41046,Dark Apprentice,1
+41091,Demon,255
+41091,Metal Gargoyle,96
+41091,Grim Reaper,4
+41940,Demon,56
+41940,Massive Fire Elemental,17
+41940,Dark Apprentice,3
+41940,Slime,1
+41940,Dark Magician,1
+42139,Grim Reaper,146
+42139,Demon,126
+42139,Metal Gargoyle,111
+42159,Grim Reaper,121
+42159,Demon,99
+42159,Metal Gargoyle,84
+42161,Grim Reaper,144
+42161,Demon,125
+42161,Metal Gargoyle,97
+43200,Demon,61
+43200,Massive Fire Elemental,16
+43200,Dark Apprentice,5
+43200,Dark Magician,1
+43631,Demon,28
+43631,Massive Fire Elemental,7
+44540,Ripper Spectre,263
+44540,Arachnophobica,215
+44540,Gazer Spectre,152
+44985,Young Goanna,503
+44985,Adult Goanna,386
+44985,Feral Sphinx,310
+44985,Manticore,228
+44985,Ogre Rowdy,126
+44985,Sphinx,92
+44985,Ogre Sage,67
+44985,Ogre Ruffian,65
+44985,Lamassu,59
+44985,Clomp,48
+44985,Scorpion,32
+44985,Hyaena,29
+44985,Lion,25
+44985,Cobra,25
+44985,Crocodile,20
+44985,Crab,9
+44985,Flamingo,3
+44985,Sun-Marked Goanna,1
+45098,Hellspawn,220
+45098,Destroyer,176
+45098,Grim Reaper,170
+45098,Dark Torturer,138
+45098,Juggernaut,5
+45098,Hellhound,4
+45098,Demon,3
+45101,Hellspawn,220
+45101,Destroyer,176
+45101,Grim Reaper,170
+45101,Dark Torturer,138
+45101,Juggernaut,5
+45101,Hellhound,4
+45101,Demon,3
+45112,Vexclaw,371
+45112,Hellfire Fighter,274
+45112,Fury,255
+45112,Hellhound,199
+45112,Hellflayer,107
+47295,Mitmah Seer,491
+47295,Mitmah Scout,140
+47295,Iks Yapunac,64
+47353,Rootthing Nutshell,1738
+47353,Rootthing Bug Tracker,987
+47353,Rootthing Amber Shaper,529
+47363,Rootthing Nutshell,1661
+47363,Rootthing Bug Tracker,918
+47363,Rootthing Amber Shaper,491
+47423,Dark Torturer,419
+47423,Vexclaw,409
+47423,Hellflayer,133
+47423,Grimeleech,81
+47433,Rootthing Nutshell,1909
+47433,Rootthing Bug Tracker,1035
+47433,Rootthing Amber Shaper,551
+47436,Rootthing Nutshell,1699
+47436,Rootthing Bug Tracker,938
+47436,Rootthing Amber Shaper,501
+47458,Lavaworm,296
+47458,Streaked Devourer,290
+47458,Lavafungus,231
+47548,Rootthing Nutshell,1786
+47548,Rootthing Bug Tracker,986
+47548,Rootthing Amber Shaper,526
+48650,Demon,47
+48650,Massive Fire Elemental,8
+48650,Dark Apprentice,4
+48650,Dark Magician,2
+49294,Cobra Assassin,585
+49294,Cobra Scout,360
+49294,Cobra Vizier,196
+49641,Demon,342
+49641,Vexclaw,313
+49641,Grimeleech,303
+49641,Hellflayer,99
+50901,Fire Elemental,244
+50901,Demon,106
+50901,Demon Skeleton,91
+50901,Dragon Lord,36
+50901,Hellhound,26
+50923,Demon,71
+50923,Metal Gargoyle,60
+50923,Grim Reaper,55
+50923,Glooth Blob,8
+50923,Rot Elemental,4
+50923,Walker,2
+50923,Death Blob,2
+50923,Devourer,1
+50928,Fire Elemental,156
+50928,Demon,67
+50928,Demon Skeleton,59
+50928,Dragon Lord,32
+50928,Hellhound,10
+52228,Demon,240
+52228,Vexclaw,217
+52228,Grimeleech,192
+52228,Hellflayer,48
+6677,Demon Outcast,740
+6677,Dark Torturer,300
+6677,Plaguesmith,288
+6677,Hellhound,77
+6677,Blightwalker,65
+6677,Juggernaut,64
+6703,Demon Outcast,344
+6703,Dark Torturer,93
+6703,Plaguesmith,74
+6703,Nightmare,68
+6703,Blightwalker,50
+6703,Lost Soul,43
+6703,Hellhound,10
+6703,Juggernaut,1
+6704,Demon Outcast,342
+6704,Dark Torturer,95
+6704,Plaguesmith,80
+6704,Nightmare,66
+6704,Blightwalker,50
+6704,Lost Soul,41
+6704,Hellhound,11
+7265,Demon Outcast,343
+7265,Dark Torturer,97
+7265,Nightmare,75
+7265,Plaguesmith,71
+7265,Blightwalker,45
+7265,Lost Soul,44
+7265,Hellhound,11
+43152,Midnight Asura,143
+43152,Hellspawn,143
+43152,Dawnfire Asura,134
+43152,Frost Flower Asura,89
+43152,Crocodile,2
+43152,Centipede,1
+43152,Bug,1
+43568,Dawnfire Asura,313
+43568,Midnight Asura,269
+43568,Hellspawn,87
+43568,Frost Flower Asura,8
+43568,True Dawnfire Asura,4
+43568,True Midnight Asura,3
+43880,True Midnight Asura,477
+43880,True Dawnfire Asura,399
+43880,Hellhound,119
+43880,True Frost Flower Asura,113
+43904,True Midnight Asura,746
+43904,True Dawnfire Asura,607
+43904,Hellhound,193
+43904,True Frost Flower Asura,162
+43904,Hellspawn,4
+43904,Midnight Asura,3
+43904,Dawnfire Asura,3
+43904,Nomad,1
+44004,True Midnight Asura,838
+44004,True Dawnfire Asura,694
+44004,Hellhound,218
+44004,True Frost Flower Asura,181
+44004,Midnight Asura,3
+44004,Hellspawn,3
+44004,Dawnfire Asura,3
+44004,Cave Hydra,3
+44004,Hyaena,2
+44004,Nomad,1
+44100,True Midnight Asura,1362
+44100,True Dawnfire Asura,1107
+44100,Hellhound,357
+44100,True Frost Flower Asura,308
+44100,Hellspawn,6
+44100,Dawnfire Asura,4
+44100,Nomad,3
+44100,Hyaena,1
+44269,True Midnight Asura,723
+44269,True Dawnfire Asura,594
+44269,Hellhound,188
+44269,True Frost Flower Asura,157
+44407,True Midnight Asura,409
+44407,True Dawnfire Asura,337
+44407,Hellhound,106
+44407,True Frost Flower Asura,91
+44407,Flamingo,7
+44407,Crocodile,2
+44407,Spider,1
+44407,Nomad,1
+44407,Hunter,1
+44407,Elephant,1
+44407,Dawnfire Asura,1
+44407,Bug,1
+44487,True Midnight Asura,1144
+44487,True Dawnfire Asura,946
+44487,Hellhound,292
+44487,True Frost Flower Asura,254
+44487,Nomad,5
+44487,Hyaena,2
+44520,True Midnight Asura,486
+44520,True Dawnfire Asura,401
+44520,Hellhound,119
+44520,True Frost Flower Asura,112
+44520,Nomad,1
+44528,True Midnight Asura,1427
+44528,True Dawnfire Asura,1172
+44528,Hellhound,371
+44528,True Frost Flower Asura,332
+44528,Hellspawn,10
+44528,Dawnfire Asura,4
+44528,Nomad,2
+44528,Hyaena,1
+44547,True Midnight Asura,922
+44547,True Dawnfire Asura,757
+44547,Hellhound,234
+44547,True Frost Flower Asura,208
+44547,Nomad,6
+44547,Tarantula,2
+44547,Bandit,2
+44547,Snake,1
+44547,Midnight Asura,1
+44547,Dawnfire Asura,1
+44547,Crocodile,1
+44738,True Midnight Asura,779
+44738,True Dawnfire Asura,647
+44738,Hellhound,199
+44738,True Frost Flower Asura,181
+44738,Nomad,1
+44738,Hyaena,1
+44775,True Midnight Asura,947
+44775,True Dawnfire Asura,805
+44775,Hellhound,242
+44775,True Frost Flower Asura,226
+44775,Midnight Asura,2
+44775,Nomad,1
+44775,Hyaena,1
+44775,Hellspawn,1
+44775,Dawnfire Asura,1
+45059,True Midnight Asura,891
+45059,True Dawnfire Asura,760
+45059,Hellhound,228
+45059,True Frost Flower Asura,200
+45059,Dawnfire Asura,7
+45059,Midnight Asura,6
+45059,Hellspawn,4
+45059,Frost Flower Asura,2
+45059,Nomad,1
+45059,Hyaena,1
+45100,True Midnight Asura,815
+45100,True Dawnfire Asura,674
+45100,Hellhound,202
+45100,True Frost Flower Asura,179
+45100,Nomad,1
+45127,True Midnight Asura,1508
+45127,True Dawnfire Asura,1240
+45127,Hellhound,384
+45127,True Frost Flower Asura,338
+45127,Nomad,1
+45156,True Midnight Asura,767
+45156,True Dawnfire Asura,636
+45156,Hellhound,196
+45156,True Frost Flower Asura,174
+45156,Hellspawn,6
+45156,Nomad,2
+45156,Dawnfire Asura,2
+45539,Dawnfire Asura,414
+45539,Midnight Asura,399
+45539,Hellspawn,134
+45539,Frost Flower Asura,96
+45539,Nomad,3
+46669,Dawnfire Asura,598
+46669,Midnight Asura,587
+46669,Hellspawn,183
+46669,Frost Flower Asura,159
+47754,True Midnight Asura,964
+47754,True Dawnfire Asura,791
+47754,Hellhound,224
+47754,True Frost Flower Asura,179
+47754,Dawnfire Asura,2
+47754,Crocodile,2
+47754,Nomad,1
+48993,Dawnfire Asura,12
+48993,Hellspawn,11
+48993,Frost Flower Asura,7
+48993,Midnight Asura,6
+49267,True Midnight Asura,584
+49267,True Dawnfire Asura,504
+49267,Hellhound,155
+49267,True Frost Flower Asura,133
+49267,Nomad,1
+49568,True Midnight Asura,600
+49568,True Dawnfire Asura,501
+49568,Hellhound,156
+49568,True Frost Flower Asura,135
+49568,Hellspawn,2
+49568,Nomad,1
+49759,True Midnight Asura,765
+49759,True Dawnfire Asura,635
+49759,Hellhound,191
+49759,True Frost Flower Asura,172
+49787,Midnight Asura,146
+49787,Dawnfire Asura,134
+49787,Frost Flower Asura,58
+49787,Hellspawn,48
+50187,True Midnight Asura,445
+50187,True Dawnfire Asura,366
+50187,Hellhound,110
+50187,True Frost Flower Asura,100
+50187,Hyaena,5
+50187,Nomad,1
+50699,Dawnfire Asura,1564
+50699,Midnight Asura,1483
+50699,Hellspawn,502
+50699,Frost Flower Asura,387
+50699,True Dawnfire Asura,4
+50699,Crocodile,1
+51716,True Midnight Asura,604
+51716,True Dawnfire Asura,504
+51716,Hellhound,154
+51716,True Frost Flower Asura,134
+51716,Nomad,1
+52884,Dawnfire Asura,379
+52884,Midnight Asura,363
+52884,Hellspawn,128
+52884,Frost Flower Asura,112
+52884,Nomad,1
+54069,Dawnfire Asura,394
+54069,Midnight Asura,347
+54069,Hellspawn,126
+54069,Frost Flower Asura,56
+54689,Dawnfire Asura,756
+54689,Midnight Asura,730
+54689,Hellspawn,232
+54689,Frost Flower Asura,101
+54697,Dawnfire Asura,668
+54697,Midnight Asura,650
+54697,Hellspawn,199
+54697,Frost Flower Asura,113
+55194,True Midnight Asura,634
+55194,True Dawnfire Asura,526
+55194,Hellhound,167
+55194,True Frost Flower Asura,140
+55427,True Midnight Asura,768
+55427,True Dawnfire Asura,626
+55427,Hellhound,204
+55427,True Frost Flower Asura,167
+55427,Nomad,1
+55514,True Midnight Asura,691
+55514,True Dawnfire Asura,580
+55514,Hellhound,181
+55514,True Frost Flower Asura,154
+55858,True Midnight Asura,220
+55858,True Dawnfire Asura,188
+55858,Hellhound,55
+55858,True Frost Flower Asura,50
+56613,Silverfrost Sentinel,125
+56613,Iceplume Strider,123
+56613,True Frost Flower Asura,92
+56613,True Midnight Asura,17
+56813,Silverfrost Sentinel,382
+56813,Iceplume Strider,358
+56813,True Frost Flower Asura,323
+56813,True Midnight Asura,80
