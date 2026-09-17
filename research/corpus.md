@@ -43,5 +43,15 @@
 ## 5. KOLEJKA BLOKÓW (status)
 - ✅ 01 reddit (430 wątków, 1458 kom., NOTEs+claims)
 - 🟡 02 forum tibia (Nevia board + 1 wątek; TODO: Gameplay board, Nevia-Trade boardid)
-- ⬜ 03 TibiaQA (2026-filter; zalążek: party bonus)
-- ⬜ 04 Tibiopedia forum, 05 Rookie, 06 BR (PortalTibia/TibiaBR/TibiaLife), 07 ES, 08+ guides (Buddy/Vault/MMOKB/Pal/Monk/Route)
+- ✅ 03 TibiaQA (dyscyplina dat; 2026-zweryfikowane + ponadczasowe z adnotacją)
+- ✅ 04 Tibiopedia (feed update'ów z % balansu! tabele hunting_places do scrapa w fazie C)
+- ✅ 05 Rookie (Rook-only treściowo; metodologia + wzór XP + progi bestiary loot!)
+- ⬜ 06 BR (PortalTibia/TibiaBR/TibiaLife), 07 ES (Duality/Magazine), 08+ guides (Buddy/Vault/MMOKB/Pal/Monk/Route)
+
+## 6. DELTA v2 (17.09.2026, bloki 03–05)
+- Wzór XP: bonusy ADDYTYWNE do bazy, mnoży tylko stamina ×1,5 (Rookie + TibiaQA 2020, ponadczasowe). → POPRAWIONE na stronie.
+- W double EXP: prey na DMG > prey na EXP (więcej killi skaluje się z eventem).
+- Drop-rate'y (rzadkość!): Gloom Wolf ~8%, Amazon charm ~5%, Culty rope belt 5–10%, maska 10% enlightened. [TibiaQA 2025]
+- Bestiary progi: >25% / 5–25% / 1–5% / 0,5–1% / <0,5% → przyszłe boundy modelu dropu.
+- Delivery: +produkty Soul War/Rotten Blood (05.2026) — watchlista delivery do rozszerzenia!
+- Stare wątki PL (2014–2018) odrzucane liczbowo; metodologia Rookie (3 runy, R²) jako wzorzec raportowania.

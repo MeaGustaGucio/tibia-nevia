@@ -130,7 +130,11 @@
     <p>EXP/h to doświadczenie na godzinę huntowania. Poziom rośnie wykładniczo drożej (tabela exp na tibia.com/library),
     więc ten sam spawn daje inną <i>wartość</i> na 50 i na 250 lvl. Zawsze filtruj ranking do swojego bracketu.
     Uwaga: hunt-analyser pokazuje <b>XP/h</b> (z bonusami: stamina, share, prey, eventy) i <b>Raw XP/h</b> (gołe, bez bonusów).
-    Porównując dwa spawny patrz na <b>Raw XP/h</b> — inaczej porównujesz bonusy graczy, nie spawny.</p>
+    Porównując dwa spawny patrz na <b>Raw XP/h</b> — inaczej porównujesz bonusy graczy, nie spawny.
+    Precyzyjna matematyka (Rookie/TibiaQA, 2026): <b>XP = baza × stamina × ... NIE</b> — tak naprawdę
+    <b>XP = baza × (100% + double + boost + prey + voucher…) × stamina</b>. Wszystkie bonusy DODAJĄ SIĘ do bazy,
+    tylko stamina premium MNOŻY (×1,5). Np. potwór 1000 + boost i prey 40% w zielonej:
+    (1000×2,25) + (1000×0,4) = 2650, nie 1000×2,65. Wniosek: w czasie double EXP lepsza jest prey na DMG (więcej killi) niż na EXP.</p>
     <h3>Stamina (zegar premii i kar)</h3>
     <ul>
       <li><b>42:00–39:00 (zielona, premium): +50% exp.</b> Regeneruje się 2× wolniej (6 min offline = 1 min).</li>
