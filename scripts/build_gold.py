@@ -760,7 +760,10 @@ def spawn_loot_table(hunts_calib, kills_all, creatures, vcalib, price_by_name, t
         v = vc.get(creature, "")
         tops = []
         for item in (creatures.get(creature, {}).get("loot_list") or []):
-            pr = price_by_name.get(item.lower(), {}) or {}
+            key = item.lower()
+            pr = price_by_name.get(key, {}) or {}
+            if not pr and key.endswith("s"):
+                pr = price_by_name.get(key[:-1], {}) or {}
             fair = pr.get("fair", "") or ""
             tops.append((fair if fair != "" else -1, item, fair, tagmap.get(item.lower(), "")))
         tops = sorted(tops, reverse=True)[:4]
