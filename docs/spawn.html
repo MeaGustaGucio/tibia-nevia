@@ -44,6 +44,9 @@
   <div class="card"><h3 style="margin:4px 0 10px">Skąd się bierze profit (rozbiórka)</h3>
     <p class="sub" style="margin-top:0" id="covnote"></p>
     <table id="tbl5"><thead><tr><th>Potwór</th><th class="num">Śr. killi/h</th><th class="num">Wartość/kill</th><th class="num">Wkład/h</th><th class="num">Sesji (n)</th></tr></thead><tbody></tbody></table></div>
+  <div class="card"><h3 style="margin:4px 0 10px">Profesjonalne porównanie źródeł profitu (2026)</h3>
+    <p class="sub" style="margin-top:0">Każdy wiersz to osobne źródło. Konsensus = mediana ważona (sesje ×3, zmierzone ×2, poradniki i gracze ×1).</p>
+    <table id="tbl6"><thead><tr><th>Źródło</th><th>Rodzaj</th><th class="num">Od</th><th class="num">Do</th><th>n/data</th><th>Link</th></tr></thead><tbody></tbody></table></div>
 </main>
 <script>
 const $ = id => document.getElementById(id);
@@ -72,10 +75,18 @@ async function getCSV(path) {
 }
 (async function () {
   $("title").textContent = spawn || "Spawn";
-  const [ranks, sitems, kills, sprofit, cvalues, tags] = await Promise.all([
+  const [ranks, sitems, kills, sprofit, cvalues, tags, pcmp] = await Promise.all([
     getCSV("data/ranking_exp.csv"), getCSV("data/spawn_items.csv"), getCSV("data/hunt_kills_h.csv"),
-    getCSV("data/spawn_profit.csv"), getCSV("data/creature_value.csv"), getCSV("data/item_tags.csv")
+    getCSV("data/spawn_profit.csv"), getCSV("data/creature_value.csv"), getCSV("data/item_tags.csv"),
+    getCSV("data/profit_compare.csv")
   ]);
+  document.querySelector("#tbl6 tbody").innerHTML = pcmp
+    .filter(r => (r.cluster_members || "").split("|").includes(spawn))
+    .map(r => `<tr><td>${r.source}</td><td>${r.kind}</td>
+      <td class="num">${fmt(r.lo)}</td><td class="num">${fmt(r.hi)}</td>
+      <td>${[r.n && ("n=" + r.n), r.date].filter(Boolean).join(" · ")}</td>
+      <td>${r.url ? `<a href="${r.url}" target="_blank" rel="noopener">link</a>` : "—"}</td></tr>`).join("")
+    || `<tr><td colspan="6">Brak innych źródeł dla tego spawna (tylko sesje powyżej).</td></tr>`;
   // dociagnij warianty per-bracket (strona spawna nie zna bracketu z linku)
   for (const b of ["50_100", "100_200", "200_300"]) {
     for (const [arr, file] of [[ranks, `data/ranking_exp_${b}.csv`], [sprofit, `data/spawn_profit_${b}.csv`]]) {

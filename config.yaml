@@ -59,6 +59,11 @@ pricing:
   items:               # reguly per item (klucz = nazwa mala litera):
     vampire teeth: { max_sell_cap: 4000 }  # Twoja zasada: powyzej 4k odrzucamy
 
+# ---- SWIEZOSC (twarda zasada: TYLKO biezacy rok!) ----
+freshness:
+  min_year: 2026  # sesje, szacunki i claims starsze odpadaja wszedzie
+  note: "2024/2025 to inny balans gry — nie mieszamy"
+
 # ---- RANKINGI (build_gold.py) ----
 gold:
   # DWA odciecia, bo nerf golda 07.09.2026 psuje PROFIT starych huntow, ale nie EXP:

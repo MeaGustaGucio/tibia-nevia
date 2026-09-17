@@ -18,6 +18,7 @@ import datetime as dt
 import glob
 import json
 import pathlib
+import re
 import shutil
 
 from common import ROOT, load_config
@@ -48,15 +49,19 @@ def load_hunts(recent_days: int):
     for r in rows:
         ded[r["id"]] = r
     today = dt.date.today()
-    fresh, stale = [], 0
+    min_year = 2026  # TWARDY FILTR: tylko biezacy rok, zadnych 2024/2025!
+    fresh, stale, oldyear = [], 0, 0
     for r in ded.values():
         d = parse_hunt_date(r.get("hunt_date", ""))
+        if d and d.year < min_year:
+            oldyear += 1
+            continue
         r["_days_ago"] = (today - d).days if d else 9999
         if r["_days_ago"] <= recent_days:
             fresh.append(r)
         else:
             stale += 1
-    print(f"hunts total={len(ded)} fresh(<={recent_days}d)={len(fresh)} stale={stale}")
+    print(f"hunts total={len(ded)} fresh(<={recent_days}d)={len(fresh)} stale={stale} pre2026={oldyear}")
     for r in fresh:
         for k in ("xp_h", "raw_xp_h", "balance_h", "loot_h", "party_size", "min_lvl",
                   "max_lvl", "avg_lvl", "supplies_total", "supplies_known", "minutes"):
@@ -500,6 +505,218 @@ def load_reference_tags() -> tuple[dict, dict]:
     return imbu, delivery
 
 
+CONSENSUS_COLS = ["spawn", "consensus_h", "spread_pct", "n_sources", "sources"]
+COMPARE_COLS = ["spawn", "norm", "kind", "source", "lo", "hi", "n", "date", "url",
+                "cluster", "cluster_members"]
+
+
+STOPWORDS = {"the", "solo", "duo", "trio", "team", "ed", "ek", "rp", "ms", "em",
+             "druid", "knight", "paladin", "sorcerer", "monk", "hunt", "party",
+             "north", "south", "east", "west", "upper", "lower", "depot", "dp",
+             "fullmoon", "full", "moon", "double", "rapid", "boosted", "boost",
+             "post", "nerf", "teste", "test", "bestiary", "bounty", "with", "and",
+             "na", "de", "com", "en", "w", "z", "ze", "do", "no", "nos", "das",
+             "adept", "massive", "soloo", "hunts", "boost", "dmg", "dobre", "xp"}
+
+
+def stem(w: str) -> str:
+    if len(w) > 4 and w.endswith("s"):
+        return w[:-1]
+    return w
+
+
+def canon_tokens(name: str) -> set:
+    t = re.sub(r"\[[^\]]*\]|\([^)]*\)|\|[^|]*\|", " ", (name or "").lower())
+    t = re.sub(r"[^a-z0-9 ]", " ", t)
+    out = set()
+    for w in t.split():
+        if w in STOPWORDS or len(w) <= 1 or w.isdigit():
+            continue
+        out.add(stem(w))
+    return out
+
+
+def norm_spawn(name: str) -> str:
+    """Stabilny klucz canonical (sortowany) — tylko do deterministycznych operacji."""
+    return " ".join(sorted(canon_tokens(name)))
+
+
+def cluster_spawns(names: list, threshold: float = 0.5) -> dict:
+    """Union-find po Jaccard(tokeny) >= threshold. Zwraca {raw_name: cluster_id}.
+    Np. 'Yalahar Cults'~'Cults Yalahar', 'Burster Spectre #25'~'Burster Spectres';
+    'Asura Palace' vs 'Asura Mirror' zostaja osobno."""
+    uniq = sorted(set(names))
+    toks = {n: canon_tokens(n) for n in uniq}
+    parent = {n: n for n in uniq}
+
+    def find(x):
+        while parent[x] != x:
+            parent[x] = parent[parent[x]]
+            x = parent[x]
+        return x
+
+    def union(a, b):
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[rb] = ra
+
+    for i, a in enumerate(uniq):
+        if not toks[a]:
+            continue
+        for b in uniq[i + 1:]:
+            if not toks[b]:
+                continue
+            inter = len(toks[a] & toks[b])
+            union_ = len(toks[a] | toks[b])
+            if union_ and inter / union_ >= threshold:
+                union(a, b)
+    clusters: dict[str, list] = {}
+    for n in uniq:
+        clusters.setdefault(find(n), []).append(n)
+    mapping = {}
+    for cid, members in clusters.items():
+        for m in members:
+            mapping[m] = cid
+    return mapping
+
+
+def parse_money(s):
+    """'150000'->(150000,150000); '750K~900K'->(750000,900000); '2.4kk'->(2400000,2400000)."""
+    if s is None:
+        return None
+    t = str(s).lower().replace("~", "-").replace("–", "-").replace(" ", "")
+    if not t or t in ("-", "—"):
+        return None
+    def one(x):
+        m = re.match(r"([\d.,]+)(kk|k)?", x)
+        if not m:
+            return None
+        v = float(m.group(1).replace(",", "."))
+        mult = 1000000 if m.group(2) == "kk" else (1000 if m.group(2) == "k" else 1)
+        return int(v * mult)
+    if "-" in t:
+        a, b = t.split("-", 1)
+        va, vb = one(a), one(b)
+        if va is None or vb is None:
+            return None
+        return (min(va, vb), max(va, vb))
+    v = one(t)
+    return (v, v) if v is not None else None
+
+
+def load_compare_inputs(sprof_rows, spawn_stats_rows, guide_bracket=None):
+    """Zbierz wiersze porownawcze: computed + measured + guides + community. Zwraca listę dictów."""
+    rows = []
+    for r in sprof_rows:
+        try:
+            v = int(r.get("profit_computed_h") or 0)
+        except ValueError:
+            continue
+        if v > 0:
+            rows.append({"spawn": r.get("spawn", ""), "norm": norm_spawn(r.get("spawn", "")),
+                         "kind": "computed", "source": "sesje+kille (nasz model)",
+                         "lo": v, "hi": v, "n": r.get("n_sessions", ""),
+                         "date": dt.date.today().isoformat(), "url": ""})
+    for r in spawn_stats_rows:
+        try:
+            v = int(r.get("median_profit_h") or 0)
+        except ValueError:
+            continue
+        if v > 0:
+            rows.append({"spawn": r.get("spawn", ""), "norm": norm_spawn(r.get("spawn", "")),
+                         "kind": "measured", "source": "mediana loot/h z sesji",
+                         "lo": v, "hi": v, "n": r.get("n_hunts", ""),
+                         "date": dt.date.today().isoformat(), "url": r.get("sample_url", "")})
+    # poradniki (tylko 2026!); przy tagu bracketu tylko pasujace wiersze
+    for fn in ("control_estimates.csv",):
+        for base in (ROOT / "research", GOLD):
+            p = base / fn if base == ROOT / "research" else base / fn
+            if not p.exists():
+                continue
+            with open(p, encoding="utf-8") as f:
+                for r in csv.DictReader(f):
+                    if guide_bracket and (r.get("bracket", "") or "") != guide_bracket:
+                        continue
+                    try:
+                        y = int(str(r.get("source_date", ""))[:4])
+                    except ValueError:
+                        continue
+                    if y < 2026:
+                        continue
+                    lo, hi = None, None
+                    try:
+                        if r.get("profit_lo"):
+                            lo = int(float(r["profit_lo"]))
+                        if r.get("profit_hi"):
+                            hi = int(float(r["profit_hi"]))
+                    except ValueError:
+                        continue
+                    if lo is None and hi is None:
+                        continue
+                    rows.append({"spawn": r.get("spawn", ""), "norm": norm_spawn(r.get("spawn", "")),
+                                 "kind": "guide", "source": f'{r.get("source", "")} ({r.get("source_date", "")})',
+                                 "lo": lo or hi, "hi": hi or lo, "n": "", "date": r.get("source_date", ""), "url": ""})
+    # community claims (tylko 2026, tylko z profit_h)
+    for p in sorted((ROOT / "research" / "blocks").glob("*/claims.jsonl")):
+        with open(p, encoding="utf-8") as f:
+            for line in f:
+                try:
+                    r = json.loads(line)
+                except Exception:
+                    continue
+                try:
+                    y = int(str(r.get("date", ""))[:4])
+                except ValueError:
+                    continue
+                if y < 2026 or not r.get("profit_h"):
+                    continue
+                rng = parse_money(r["profit_h"])
+                if not rng:
+                    continue
+                rows.append({"spawn": r.get("spawn", ""), "norm": norm_spawn(r.get("spawn", "")),
+                             "kind": "community", "source": "gracze (link)",
+                             "lo": rng[0], "hi": rng[1], "n": "",
+                             "date": r.get("date", ""), "url": r.get("url", "")})
+    # klasteryzacja nazw + sklad klastra w kazdym wierszu (frontend laczy po nazwach)
+    cmap = cluster_spawns([r["spawn"] for r in rows])
+    clmembers: dict[str, set] = {}
+    for r in rows:
+        r["cluster"] = cmap.get(r["spawn"], r["spawn"])
+        clmembers.setdefault(r["cluster"], set()).add(r["spawn"])
+    for r in rows:
+        r["cluster_members"] = "|".join(sorted(clmembers[r["cluster"]]))
+    return rows
+
+
+def consensus(rows: list[dict]):
+    """Konsensus per KLASTER spawnow (clustering Jaccard — patrz cluster_spawns):
+    mediana wazona srodkow (computed 3, measured 2, guide 1, community 1)."""
+    W = {"computed": 3, "measured": 2, "guide": 1, "community": 1}
+    groups: dict[str, list] = {}
+    for r in rows:
+        groups.setdefault(r.get("cluster", r["spawn"]), []).append(r)
+    out = []
+    for cid, g in groups.items():
+        mids = [((r["lo"] + r["hi"]) / 2, W.get(r["kind"], 1)) for r in g]
+        tot = sum(w for _, w in mids)
+        acc, cons = 0, mids[0][0] if mids else 0
+        for v, w in sorted(mids):
+            acc += w
+            if acc >= tot / 2:
+                cons = v
+                break
+        lo_all = min(r["lo"] for r in g)
+        hi_all = max(r["hi"] for r in g)
+        from collections import Counter
+        disp = Counter(r["spawn"] for r in g).most_common(1)[0][0]
+        members = sorted({r["spawn"] for r in g})
+        out.append({"spawn": disp, "norm": cid[:60], "consensus_h": int(cons),
+                    "spread_pct": round((hi_all - lo_all) / cons, 2) if cons else "",
+                    "n_sources": len(g), "members": "|".join(members),
+                    "sources": "|".join(sorted({f'{r["kind"]}:{r["source"]}' for r in g})[:8])})
+    return sorted(out, key=lambda r: r["consensus_h"], reverse=True)
+
+
 def write_spawns(name: str, rows: list[dict]):
     with open(GOLD / f"{name}.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=SPAWN_COLS)
@@ -669,7 +886,9 @@ def main() -> None:
     write("ranking_exp", sorted(hunts_exp, key=lambda r: r["xp_h"], reverse=True)[:50])
     # PROFIT = loot/h policzony z sesji (Balance + supplies), NIE gotowy Balance!
     write("ranking_profit", sorted(hunts_profit, key=lambda r: r["loot_h"], reverse=True)[:50])
-    write_spawns("spawn_stats", spawn_stats(hunts_profit))
+    ss_all = spawn_stats(hunts_profit)
+    write_spawns("spawn_stats", ss_all)
+    bracket_inputs = {}
     for b in brackets:
         lo, hi = (int(x) for x in b.strip().split("-"))
         pe = [r for r in hunts_exp if r["avg_lvl"] and lo <= r["avg_lvl"] <= hi]
@@ -677,8 +896,41 @@ def main() -> None:
         tag = f"{lo}_{hi}"
         write(f"ranking_exp_{tag}", sorted(pe, key=lambda r: r["xp_h"], reverse=True)[:50])
         write(f"ranking_profit_{tag}", sorted(pp, key=lambda r: r["loot_h"], reverse=True)[:50])
-        write_spawns(f"spawn_stats_{tag}", spawn_stats(pp))
+        ss_b = spawn_stats(pp)
+        write_spawns(f"spawn_stats_{tag}", ss_b)
+        bracket_inputs[tag] = (pp, ss_b)
         print(f"bracket {b}: exp={len(pe)} profit={len(pp)} hunts")
+
+    # PROFIT-KONSENSUS z wielu zrodel (sesje policzone/zmierzone + poradniki + gracze).
+    # Zadnych danych sprzed 2026 (filtr twardy) i zadnego polegania na jednym zrodle.
+    def build_consensus(sprof_rows, ss_rows, suffix, guide_bracket=None):
+        cmp_rows = load_compare_inputs(sprof_rows, ss_rows, guide_bracket)
+        with open(GOLD / f"profit_compare{suffix}.csv", "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=COMPARE_COLS)
+            w.writeheader()
+            w.writerows(cmp_rows)
+        cons = consensus(cmp_rows)
+        with open(GOLD / f"profit_consensus{suffix}.csv", "w", newline="", encoding="utf-8") as f:
+            w = csv.DictWriter(f, fieldnames=["spawn", "norm", "consensus_h", "spread_pct",
+                                              "n_sources", "members", "sources"])
+            w.writeheader()
+            w.writerows(cons)
+        print(f"consensus{suffix or ' ALL'}: rows={len(cmp_rows)} spawns={len(cons)}")
+        return cmp_rows, cons
+
+    sprof_all = []
+    for p in sorted(GOLD.glob("spawn_profit.csv")):
+        with open(p, encoding="utf-8") as f:
+            sprof_all.extend(list(csv.DictReader(f)))
+    build_consensus(sprof_all, ss_all, "")
+    for b in brackets:
+        lo, hi = (int(x) for x in b.strip().split("-"))
+        tag = f"{lo}_{hi}"
+        with open(GOLD / f"spawn_profit_{tag}.csv", encoding="utf-8") as f:
+            sp_b = list(csv.DictReader(f))
+        with open(GOLD / f"spawn_stats_{tag}.csv", encoding="utf-8") as f:
+            ss_b = list(csv.DictReader(f))
+        build_consensus(sp_b, ss_b, f"_{tag}", guide_bracket=tag)
 
     (GOLD / "build_info.json").write_text(
         json.dumps({"date": dt.date.today().isoformat(), "hunts": len(hunts_profit),
@@ -694,7 +946,8 @@ def main() -> None:
     # Kopia rankingow do docs/data/ — GitHub Pages serwuje caly folder docs/,
     # wiec dashboard (docs/index.html) czyta te CSV bez zadnego backendu.
     for p in (list(GOLD.glob("ranking_*.csv")) + list(GOLD.glob("spawn_stats*.csv"))
-              + list(GOLD.glob("spawn_profit*.csv"))
+              + list(GOLD.glob("spawn_profit*.csv")) + list(GOLD.glob("profit_compare*.csv"))
+              + list(GOLD.glob("profit_consensus*.csv"))
               + [GOLD / "price_stats.csv", GOLD / "spawn_items.csv", GOLD / "hunt_kills_h.csv",
                  GOLD / "item_tags.csv", GOLD / "creature_value.csv", GOLD / "build_info.json"]):
         if p.exists():
@@ -710,7 +963,8 @@ def main() -> None:
         wb = openpyxl.Workbook()
         first = True
         for p in sorted(list(GOLD.glob("ranking_*.csv")) + list(GOLD.glob("spawn_stats*.csv"))
-                         + list(GOLD.glob("spawn_profit*.csv"))
+                         + list(GOLD.glob("spawn_profit*.csv")) + list(GOLD.glob("profit_compare*.csv"))
+                         + list(GOLD.glob("profit_consensus*.csv"))
                          + [GOLD / "price_stats.csv", GOLD / "spawn_items.csv",
                             GOLD / "hunt_kills_h.csv", GOLD / "item_tags.csv",
                             GOLD / "creature_value.csv"]):

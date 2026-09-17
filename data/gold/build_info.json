@@ -1,11 +1,11 @@
 {
  "date": "2026-09-17",
  "hunts": 64,
- "hunts_exp": 296,
+ "hunts_exp": 220,
  "recent_days": 60,
  "recent_days_exp": 365,
  "price_items": 236,
- "spawn_items": 1893,
+ "spawn_items": 1354,
  "tagged_items": 548,
  "events_days": 13,
  "events_excluded": 17,
