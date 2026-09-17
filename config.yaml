@@ -32,6 +32,8 @@ hunts:
     - { search: demon, pages: 3 }
     - { search: roshamuul, pages: 3 }
     - { search: medusa, pages: 3 }
+    - { search: glooth, pages: 3 }
+    - { search: banuta, pages: 3 }
 
 # ---- CENY (api.tibiamarket.top) ----
 market:

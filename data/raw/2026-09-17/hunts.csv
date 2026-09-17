@@ -1,4 +1,33 @@
 id,url,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lvl,has_creature_stats,xp_gain,raw_xp_gain,balance,supplies_total,loot_total,supplies_known,xp_h,raw_xp_h,balance_h,loot_h,query_min,query_max,query_party,query_search
+33445,https://www.hunt-analyser.com/hunt_sessions/33445,2. Hydra Medusa Serpent Spawn Deep Banuta,"Jul 24, 2025 17:09",00:42h,42,1,EM 182,182,182,182,1,1197112,798075,60469,184298,244767,1,1710160,1140107,86384,349667.0,0,0,,banuta
+33624,https://www.hunt-analyser.com/hunt_sessions/33624,Deeper Banuta -8,"Jul 27, 2025 05:37",01:13h,73,1,EM 218,218,218,218,1,3120417,1686574,111380,279774,391154,1,2564726,1386225,91545,321496.0,0,0,,banuta
+37089,https://www.hunt-analyser.com/hunt_sessions/37089,BANUTA -4,"Sep 23, 2025 14:56",00:40h,40,1,EK 408,408,408,408,1,2083821,1389214,388172,96127,484299,1,3125731,2083821,582258,726448.0,0,0,,banuta
+37100,https://www.hunt-analyser.com/hunt_sessions/37100,BANUTA -4,"Sep 23, 2025 18:29",00:40h,40,1,EK 408,408,408,408,1,2116263,1410843,286006,104016,390022,1,3174394,2116264,429009,585033.0,0,0,,banuta
+40692,https://www.hunt-analyser.com/hunt_sessions/40692,Deeper Banuta -4,"Dec 03, 2025 08:44",01:00h,60,1,EK 576,576,576,576,1,5106375,2333025,990352,124968,1115320,1,5106375,2333025,990352,1115320.0,0,0,,banuta
+42429,https://www.hunt-analyser.com/hunt_sessions/42429,Deep Banuta -8,"Jan 14, 2026 00:23",00:38h,38,0,,,,,1,2041545,1361030,278083,0,278083,0,3223492,2148994,439078,439078.0,0,0,,banuta
+46285,https://www.hunt-analyser.com/hunt_sessions/46285,Deeper Banuta -8,"Apr 21, 2026 15:06",01:25h,85,1,RP 416,416,416,416,1,4032672,2688452,272091,285336,557427,1,2846592,1897730,192064,393478.0,0,0,,banuta
+47482,https://www.hunt-analyser.com/hunt_sessions/47482,Deeper banuta -1,"May 17, 2026 07:17",01:03h,63,0,,,,,1,2880703,1280376,86778,0,86778,0,2743526,1219405,82645,82646.0,0,0,,banuta
+49066,https://www.hunt-analyser.com/hunt_sessions/49066,Banuta -4,"Jun 19, 2026 11:42",01:52h,112,3,RP 244+MS 228+EM 277,228,277,250,1,2824227,1225136,2279460,671027,2950487,1,1512978,656322,1221139,1580618.0,0,0,,banuta
+9590,https://www.hunt-analyser.com/hunt_sessions/9590,Banuta -3,"Nov 15, 2024 00:49",00:30h,30,1,EK 272,272,272,272,1,1098468,0,146057,106611,252668,1,2196936,0,292114,505336.0,0,0,,banuta
+14650,https://www.hunt-analyser.com/hunt_sessions/14650,Glooth Tower,"Dec 30, 2024 17:04",01:00h,60,1,EK 308,308,308,308,1,2708640,1805868,377711,249846,627557,1,2708640,1805868,377711,627557.0,0,0,,glooth
+30150,https://www.hunt-analyser.com/hunt_sessions/30150,glooth tower,"May 16, 2025 18:35",00:15h,15,1,EM 183,183,183,183,1,602406,401625,29559,91505,121064,1,2409624,1606500,118236,484256.0,0,0,,glooth
+30153,https://www.hunt-analyser.com/hunt_sessions/30153,GLOOTH TOWER MONK 185,"May 16, 2025 18:55",00:31h,31,1,EM 183,183,183,183,1,1467487,978385,5616,236575,242191,1,2840297,1893648,10869,468757.0,0,0,,glooth
+30155,https://www.hunt-analyser.com/hunt_sessions/30155,glooth tower monk 186,"May 16, 2025 19:53",00:30h,30,1,EM 183,183,183,183,1,1415692,943842,88729,233218,321947,1,2831384,1887684,177458,643894.0,0,0,,glooth
+30160,https://www.hunt-analyser.com/hunt_sessions/30160,glooth tower monk,"May 16, 2025 20:34",00:38h,38,1,EM 183,183,183,183,1,1408544,939082,109863,170644,280507,1,2224016,1482761,173467,442906.0,0,0,,glooth
+30406,https://www.hunt-analyser.com/hunt_sessions/30406,GLOOTH TOWER - BOOSTADO MONK,"May 22, 2025 16:57",02:01h,121,1,EM 208,208,208,208,1,4594797,2378004,427802,483707,911509,1,2278411,1179175,212133,451988.0,0,0,,glooth
+30431,https://www.hunt-analyser.com/hunt_sessions/30431,glooth tower,"May 22, 2025 23:13",01:17h,77,1,EM 210,210,210,210,1,4027551,1517052,419210,456073,875283,1,3138351,1182118,326657,682039.0,0,0,,glooth
+33477,https://www.hunt-analyser.com/hunt_sessions/33477,Wildlife Raid Oramond,"Jul 24, 2025 22:15",00:19h,19,1,RP 382,382,382,382,1,2134767,1423349,633181,141167,774348,1,6741369,4494786,1999518,2445309.0,0,0,,glooth
+33481,https://www.hunt-analyser.com/hunt_sessions/33481,Wildlife Raid Oramond,"Jul 24, 2025 23:15",00:19h,19,1,RP 382,382,382,382,1,2131141,1420934,269602,146756,416358,1,6729918,4487160,851374,1314815.0,0,0,,glooth
+33657,https://www.hunt-analyser.com/hunt_sessions/33657,Wildlife Raid Oramond,"Jul 27, 2025 17:16",00:21h,21,1,RP 383,383,383,383,1,3441971,1529710,433003,161632,594635,1,9834202,4370600,1237151,1698957.0,0,0,,glooth
+34715,https://www.hunt-analyser.com/hunt_sessions/34715,Glooth Bandits (East),"Aug 15, 2025 04:58",00:28h,28,1,RP 430,430,430,430,1,1542564,850664,236987,111876,348863,1,3305494,1822851,507829,747564.0,0,0,,glooth
+36882,https://www.hunt-analyser.com/hunt_sessions/36882,Glooth bandit,"Sep 19, 2025 02:22",01:15h,75,0,,,,,1,14,440,35,0,35,0,11,352,28,28.0,0,0,,glooth
+42631,https://www.hunt-analyser.com/hunt_sessions/42631,Glooth Factory - TESTE,"Jan 18, 2026 11:25",00:15h,15,1,RP 208,208,208,208,1,470100,313400,62582,51932,114514,1,1880400,1253600,250328,458056.0,0,0,,glooth
+43891,https://www.hunt-analyser.com/hunt_sessions/43891,Glooth Bandit,"Feb 21, 2026 21:31",01:42h,102,1,MS 195,195,195,195,1,1437693,1437693,348855,167317,516172,1,845701,845701,205208,303631.0,0,0,,glooth
+50905,https://www.hunt-analyser.com/hunt_sessions/50905,Glooth Plains - Surface,"Jul 10, 2026 15:33",00:30h,30,1,EK 258,258,258,258,1,1544263,701018,137106,28511,165617,1,3088526,1402036,274212,331234.0,0,0,,glooth
+53434,https://www.hunt-analyser.com/hunt_sessions/53434,Glooth Plains - Surface (Oramond),"Aug 09, 2026 21:39",00:42h,42,1,EK 273,273,273,273,1,1382036,921416,163778,50556,214334,1,1974337,1316308,233968,306191.0,0,0,,glooth
+53639,https://www.hunt-analyser.com/hunt_sessions/53639,Glooth Tower,"Aug 12, 2026 00:46",00:25h,25,1,EK 270,270,270,270,1,1411323,940935,373457,54097,427554,1,3387175,2258244,896296,1026130.0,0,0,,glooth
+7463,https://www.hunt-analyser.com/hunt_sessions/7463,Glooth Bandits South (East),"Oct 29, 2024 15:13",01:02h,62,1,EK 266,266,266,266,1,1797549,0,289397,88503,377900,1,1739563,0,280061,365710.0,0,0,,glooth
+7508,https://www.hunt-analyser.com/hunt_sessions/7508,Glooth Bandit (East),"Oct 29, 2024 22:36",01:05h,65,1,RP 202,202,202,202,1,2558325,1402000,189464,283314,472778,1,2361530,1294153,174889,436410.0,0,0,,glooth
 24692,https://www.hunt-analyser.com/hunt_sessions/24692,Cults yalahar,"Feb 17, 2025 08:24",01:08h,68,1,ED 95,95,95,95,1,332790,0,192348,54593,246941,1,293638,0,169718,217889.0,0,0,,cults
 2884,https://www.hunt-analyser.com/hunt_sessions/2884,Nightmare Scion Task,"May 30, 2024 15:38",00:53h,53,1,RP 90,90,90,90,1,890928,593953,-19045,49539,30494,1,1008597,672399,-21561,34522.0,50,100,Solo,
 29463,https://www.hunt-analyser.com/hunt_sessions/29463,Monk Hunt #7 Middle Spike,"May 02, 2025 20:03",01:34h,94,1,EM 53,53,53,53,1,1689090,563030,-91873,166930,75057,1,1078142,359380,-58643,47909.0,50,100,Solo,
@@ -46,10 +75,6 @@ id,url,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,av
 29965,https://www.hunt-analyser.com/hunt_sessions/29965,werehyena monk 178,"May 12, 2025 19:15",02:48h,168,1,EM 176,176,176,176,1,2706327,2250996,354870,420760,775630,1,966545,803927,126739,277011.0,0,0,,werehyena
 30044,https://www.hunt-analyser.com/hunt_sessions/30044,Monk Hunt #16 Feyrist Dark Cave,"May 14, 2025 19:10",01:15h,75,1,EM 102,102,102,102,1,3621375,1263917,15897,171278,187175,1,2897100,1011133,12717,149740.0,100,200,Solo,
 30149,https://www.hunt-analyser.com/hunt_sessions/30149,werehyena monk 184,"May 16, 2025 17:13",01:19h,79,1,EM 183,183,183,183,1,1172962,781975,104888,139730,244618,1,890857,593905,79661,185786.0,0,0,,werehyena
-30150,https://www.hunt-analyser.com/hunt_sessions/30150,glooth tower,"May 16, 2025 18:35",00:15h,15,1,EM 183,183,183,183,1,602406,401625,29559,91505,121064,1,2409624,1606500,118236,484256.0,100,200,Solo,
-30153,https://www.hunt-analyser.com/hunt_sessions/30153,GLOOTH TOWER MONK 185,"May 16, 2025 18:55",00:31h,31,1,EM 183,183,183,183,1,1467487,978385,5616,236575,242191,1,2840297,1893648,10869,468757.0,100,200,Solo,
-30155,https://www.hunt-analyser.com/hunt_sessions/30155,glooth tower monk 186,"May 16, 2025 19:53",00:30h,30,1,EM 183,183,183,183,1,1415692,943842,88729,233218,321947,1,2831384,1887684,177458,643894.0,100,200,Solo,
-30160,https://www.hunt-analyser.com/hunt_sessions/30160,glooth tower monk,"May 16, 2025 20:34",00:38h,38,1,EM 183,183,183,183,1,1408544,939082,109863,170644,280507,1,2224016,1482761,173467,442906.0,100,200,Solo,
 31405,https://www.hunt-analyser.com/hunt_sessions/31405,werehyaena,"Jun 14, 2025 14:23",00:27h,27,1,,,,150,1,156424,0,5338,0,5338,0,347608,0,11862,11862.0,100,200,Solo,
 31418,https://www.hunt-analyser.com/hunt_sessions/31418,Yielothax,"Jun 14, 2025 22:34",00:47h,47,1,MS 118,118,118,118,1,736599,0,-15705,54876,39171,1,940339,0,-20049,50006.0,100,200,Solo,
 31920,https://www.hunt-analyser.com/hunt_sessions/31920,Yielothax con soft boots,"Jun 26, 2025 09:44",00:46h,46,1,MS 115,115,115,115,1,270465,0,-7223,23042,15819,1,352780,0,-9422,20633.0,100,200,Solo,
@@ -62,7 +87,6 @@ id,url,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,av
 33258,https://www.hunt-analyser.com/hunt_sessions/33258,ghastly + chosens,"Jul 21, 2025 16:13",01:23h,83,1,,,,150,1,464242,0,90858,0,90858,0,335596,0,65680,65680.0,100,200,Solo,
 33424,https://www.hunt-analyser.com/hunt_sessions/33424,lizard chosen & ghastly dragon,"Jul 24, 2025 00:36",00:54h,54,0,,,,,1,393935,0,88150,0,88150,0,437705,0,97944,97944.0,0,0,,lizard
 33425,https://www.hunt-analyser.com/hunt_sessions/33425,grimvale,"Jul 24, 2025 03:21",00:39h,39,1,,,,150,1,310005,0,76011,0,76011,0,476930,0,116940,116940.0,100,200,Solo,
-33445,https://www.hunt-analyser.com/hunt_sessions/33445,2. Hydra Medusa Serpent Spawn Deep Banuta,"Jul 24, 2025 17:09",00:42h,42,1,EM 182,182,182,182,1,1197112,798075,60469,184298,244767,1,1710160,1140107,86384,349667.0,0,0,,medusa
 34016,https://www.hunt-analyser.com/hunt_sessions/34016,goroma medusa & serpent spawn,"Aug 03, 2025 10:42",01:23h,83,0,,,,,1,872773,0,16394,0,16394,0,630920,0,11851,11851.0,0,0,,medusa
 35841,https://www.hunt-analyser.com/hunt_sessions/35841,Monk Solo - Lavas,"Sep 02, 2025 07:30",01:13h,73,1,EM 136,136,136,136,1,3411900,1912400,-157622,157622,0,1,2804301,1571835,-129553,0.0,100,200,Solo,
 37083,https://www.hunt-analyser.com/hunt_sessions/37083,Edron Were cave1,"Sep 23, 2025 10:34",00:34h,34,1,ED 167,167,167,167,1,514259,0,87479,65722,153201,1,907515,0,154374,270355.0,100,200,Solo,
@@ -80,7 +104,6 @@ id,url,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,av
 40531,https://www.hunt-analyser.com/hunt_sessions/40531,Lizard City,"Nov 30, 2025 10:17",02:01h,121,1,ED 153,153,153,153,1,1358469,905648,-53625,166594,112969,1,673620,449081,-26591,56018.0,0,0,,lizard
 40912,https://www.hunt-analyser.com/hunt_sessions/40912,Oramond Slums,"Dec 08, 2025 14:50",00:14h,14,1,EM 158,158,158,158,1,383867,255922,27703,74388,102091,1,1645144,1096808,118727,437533.0,100,200,Solo,
 41129,https://www.hunt-analyser.com/hunt_sessions/41129,Lizards,"Dec 13, 2025 09:43",00:32h,32,1,ED 117,117,117,117,1,81716,54478,-2228,8520,6292,1,153217,102146,-4178,11798.0,0,0,,lizard
-43891,https://www.hunt-analyser.com/hunt_sessions/43891,Glooth Bandit,"Feb 21, 2026 21:31",01:42h,102,1,MS 195,195,195,195,1,1437693,1437693,348855,167317,516172,1,845701,845701,205208,303631.0,100,200,Solo,
 43941,https://www.hunt-analyser.com/hunt_sessions/43941,mini rosha,"Feb 23, 2026 05:07",00:33h,33,1,,,,150,1,638850,0,48047,0,48047,0,1161545,0,87358,87358.0,100,200,Solo,
 47748,https://www.hunt-analyser.com/hunt_sessions/47748,Exotic Cave,"May 22, 2026 15:49",00:33h,33,1,EK 147,147,147,147,1,410814,0,-659,101836,101177,1,746934,0,-1199,183958.0,100,200,Solo,
 49116,https://www.hunt-analyser.com/hunt_sessions/49116,gazer sceptre,"Jun 19, 2026 18:37",00:30h,30,1,ED 180,180,180,180,1,1854090,1236060,136327,149161,285488,1,3708180,2472120,272654,570976.0,100,200,Solo,
@@ -114,7 +137,6 @@ id,url,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,av
 32843,https://www.hunt-analyser.com/hunt_sessions/32843,Oramond West Quara,"Jul 16, 2025 05:49",01:11h,71,0,,,,,1,1804486,1203044,-116704,0,-116704,0,1524917,1016656,-98624,-98623.0,0,0,,quara
 33031,https://www.hunt-analyser.com/hunt_sessions/33031,werehyaena avalanche hunt,"Jul 18, 2025 01:01",00:40h,40,1,,,,250,1,356400,0,34203,0,34203,0,534600,0,51304,51304.0,200,300,Solo,
 33345,https://www.hunt-analyser.com/hunt_sessions/33345,WEREHYENA -2 NORTE 22/07,"Jul 22, 2025 19:39",00:56h,56,1,ED 218,218,218,218,1,1643160,1095441,182292,147365,329657,1,1760528,1173686,195312,353204.0,0,0,,werehyena
-33624,https://www.hunt-analyser.com/hunt_sessions/33624,Deeper Banuta -8,"Jul 27, 2025 05:37",01:13h,73,1,EM 218,218,218,218,1,3120417,1686574,111380,279774,391154,1,2564726,1386225,91545,321496.0,200,300,Solo,
 33926,https://www.hunt-analyser.com/hunt_sessions/33926,putrid mummy (dayli boosted),"Jul 31, 2025 23:31",00:50h,50,1,,,,250,1,624145,0,343311,0,343311,0,748974,0,411973,411973.0,200,300,Solo,
 34426,https://www.hunt-analyser.com/hunt_sessions/34426,Barkless,"Aug 10, 2025 12:26",01:07h,67,1,RP 292,292,292,292,1,2729667,1819778,-337441,354832,17391,1,2444477,1629651,-302186,15574.0,200,300,Solo,
 34810,https://www.hunt-analyser.com/hunt_sessions/34810,Barbarians,"Aug 16, 2025 15:03",01:00h,60,1,RP 300,300,300,300,1,210118,140428,59641,12388,72029,1,210118,140428,59641,72029.0,200,300,Solo,
@@ -143,7 +165,6 @@ id,url,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,av
 42012,https://www.hunt-analyser.com/hunt_sessions/42012,mini,"Jan 02, 2026 22:20",01:05h,65,1,,,,250,1,703036,0,268594,0,268594,0,648956,0,247932,247933.0,200,300,Solo,
 42569,https://www.hunt-analyser.com/hunt_sessions/42569,Boquinha rosha Feyrist Nightmare.,"Jan 16, 2026 19:32",00:24h,24,1,RP 207,207,207,207,1,573616,393016,153363,95505,248868,1,1434040,982540,383407,622170.0,200,300,Solo,
 42613,https://www.hunt-analyser.com/hunt_sessions/42613,Boquinha rosha Feyrist Nightmare.,"Jan 17, 2026 23:12",00:49h,49,1,RP 208,208,208,208,1,1083225,722150,275640,169731,445371,1,1326397,884265,337518,545352.0,200,300,Solo,
-42631,https://www.hunt-analyser.com/hunt_sessions/42631,Glooth Factory - TESTE,"Jan 18, 2026 11:25",00:15h,15,1,RP 208,208,208,208,1,470100,313400,62582,51932,114514,1,1880400,1253600,250328,458056.0,200,300,Solo,
 42658,https://www.hunt-analyser.com/hunt_sessions/42658,Exotic Cave,"Jan 19, 2026 07:30",00:45h,45,1,RP 208,208,208,208,1,1510897,1007272,181287,159795,341082,1,2014529,1343029,241716,454776.0,200,300,Solo,
 43200,https://www.hunt-analyser.com/hunt_sessions/43200,demon edron,"Feb 02, 2026 23:40",01:18h,78,0,,,,,1,586327,0,165267,0,165267,0,451020,0,127128,127128.0,0,0,,demon
 43559,https://www.hunt-analyser.com/hunt_sessions/43559,werehyena -2 south,"Feb 14, 2026 01:12",00:35h,35,1,EM 201,201,201,201,1,1722195,1148130,24439,258390,282829,1,2952334,1968222,41895,484850.0,0,0,,werehyena
@@ -177,7 +198,6 @@ id,url,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,av
 50574,https://www.hunt-analyser.com/hunt_sessions/50574,Grim reaper Yalahar,"Jul 07, 2026 10:43",01:43h,103,1,RP 273,273,273,273,1,13382111,5077400,-47780,567072,519292,1,7795404,2957708,-27834,302500.0,200,300,Solo,
 50582,https://www.hunt-analyser.com/hunt_sessions/50582,40 min hyeans -2 south,"Jul 07, 2026 14:58",00:49h,49,1,RP 277,277,277,277,1,2410980,1607320,277887,207656,485543,1,2952220,1968146,340269,594542.0,200,300,Solo,
 50607,https://www.hunt-analyser.com/hunt_sessions/50607,buster spectre,"Jul 07, 2026 14:01",00:40h,40,0,,,,,1,1486800,0,33356,0,33356,0,2230200,0,50034,50034.0,0,0,,spectre
-50905,https://www.hunt-analyser.com/hunt_sessions/50905,Glooth Plains - Surface,"Jul 10, 2026 15:33",00:30h,30,1,EK 258,258,258,258,1,1544263,701018,137106,28511,165617,1,3088526,1402036,274212,331234.0,0,0,,quara
 51253,https://www.hunt-analyser.com/hunt_sessions/51253,Lower Spike,"Jul 14, 2026 17:26",00:50h,50,1,EK 260,260,260,260,1,2049426,1366330,231954,151434,383388,1,2459311,1639596,278344,460066.0,200,300,Solo,
 51793,https://www.hunt-analyser.com/hunt_sessions/51793,Werehyena MS 290+,"Jul 21, 2026 13:51",00:37h,37,1,MS 290,290,290,290,1,2054214,1369476,286066,124963,411029,1,3331157,2220771,463890,666534.0,0,0,,werehyena
 52064,https://www.hunt-analyser.com/hunt_sessions/52064,BOOK WORLD,"Jul 25, 2026 05:32",00:53h,53,1,ED 242,242,242,242,1,4988327,2035075,339437,185475,524912,1,5647162,2303858,384268,594240.0,200,300,Solo,
@@ -190,8 +210,6 @@ id,url,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,av
 53327,https://www.hunt-analyser.com/hunt_sessions/53327,Sea serpent (Svargrond),"Aug 08, 2026 11:45",00:50h,50,1,EK 270,270,270,270,1,1403371,935581,110115,26374,136489,1,1684045,1122697,132138,163787.0,200,300,Solo,
 53352,https://www.hunt-analyser.com/hunt_sessions/53352,Lycanthrope Grounds (Edron),"Aug 08, 2026 20:04",00:15h,15,1,EK 271,271,271,271,1,551879,367920,94853,24620,119473,1,2207516,1471680,379412,477892.0,200,300,Solo,
 53399,https://www.hunt-analyser.com/hunt_sessions/53399,STONFIN 0908,"Aug 09, 2026 16:06",00:46h,46,1,ED 229,229,229,229,1,399632,266424,130106,28744,158850,1,521259,347509,169703,207196.0,200,300,Solo,
-53434,https://www.hunt-analyser.com/hunt_sessions/53434,Glooth Plains - Surface (Oramond),"Aug 09, 2026 21:39",00:42h,42,1,EK 273,273,273,273,1,1382036,921416,163778,50556,214334,1,1974337,1316308,233968,306191.0,0,0,,quara
-53639,https://www.hunt-analyser.com/hunt_sessions/53639,Glooth Tower,"Aug 12, 2026 00:46",00:25h,25,1,EK 270,270,270,270,1,1411323,940935,373457,54097,427554,1,3387175,2258244,896296,1026130.0,200,300,Solo,
 53711,https://www.hunt-analyser.com/hunt_sessions/53711,Gnomegate Lava Hot Spot,"Aug 12, 2026 19:52",00:25h,25,1,EK 276,276,276,276,1,888309,493508,224332,19516,243848,1,2131941,1184419,538396,585235.0,200,300,Solo,
 53745,https://www.hunt-analyser.com/hunt_sessions/53745,Grim Reaper (Yalahar),"Aug 12, 2026 23:17",01:00h,60,1,EK 279,279,279,279,1,7256749,2863850,167481,105760,273241,1,7256749,2863850,167481,273241.0,200,300,Solo,
 15712,https://www.hunt-analyser.com/hunt_sessions/15712,Burster Duo - Dia 2,"Jan 05, 2025 08:41",01:38h,98,2,EK 211+ED 234,211,234,222,1,7008165,3061060,164331,540851,705182,1,4290713,1874118,100610,431744.0,50,300,Duo,
@@ -525,5 +543,4 @@ id,url,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,av
 32941,https://www.hunt-analyser.com/hunt_sessions/32941,Medusa Tower,"Jul 16, 2025 23:00",00:50h,50,1,EK 352,352,352,352,1,3278850,2185901,273171,249300,522471,1,3934620,2623081,327805,626965.0,0,0,,medusa
 33144,https://www.hunt-analyser.com/hunt_sessions/33144,Medusa Tower,"Jul 19, 2025 16:30",00:40h,40,1,EK 358,358,358,358,1,2639445,1759632,251148,178108,429256,1,3959167,2639448,376722,643884.0,0,0,,medusa
 33222,https://www.hunt-analyser.com/hunt_sessions/33222,Medusa Tower,"Jul 20, 2025 22:53",01:00h,60,1,EK 362,362,362,362,1,4018034,2678690,439362,257868,697230,1,4018034,2678690,439362,697230.0,0,0,,medusa
-42429,https://www.hunt-analyser.com/hunt_sessions/42429,Deep Banuta -8,"Jan 14, 2026 00:23",00:38h,38,0,,,,,1,2041545,1361030,278083,0,278083,0,3223492,2148994,439078,439078.0,0,0,,medusa
 51555,https://www.hunt-analyser.com/hunt_sessions/51555,Medusa Tower,"Jul 18, 2026 10:39",00:38h,38,1,ED 407,407,407,407,1,1577974,1051983,275617,39974,315591,1,2491537,1661025,435184,498302.0,0,0,,medusa

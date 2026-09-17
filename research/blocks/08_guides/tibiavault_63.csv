@@ -1,0 +1,64 @@
+spot,level,vocation,xp_h,profit_h,city,team
+Yalahar Elves,8-30,K P S D,120k-160k,150k-200k,Yalahar,solo
+Cobra — Ankrahmun,8-20,K P S D,—,—,Ankrahmun,solo
+Larvas — Ankrahmun,8-0,K P S D M,—,—,Ankrahmun,solo
+Mistrock — Cyclops,8-50,K P S D M,—,—,Yalahar,solo
+Port Hope Swamp Trolls,8-40,K P S D,—,—,Port Hope,solo
+Swamp Troll Cave — Venore,8-25,K P S D,—,—,Venore,solo
+Cemetery Quarter — Yalahar,10-0,K P S D,—,—,Yalahar,solo
+Tiquanda Tarantula Cave,14-30,K P S D,—,—,Port Hope,solo
+Darashia Pyramid,15-40,K P S D M,15k-50k,5k-20k,Darashia,solo
+Stonerefiner Cave,15-0,K P S D,—,—,Venore,solo
+Nomad Cave,15-35,K P S D,—,—,Ankrahmun,solo
+Mintwallin Minotaurs,15-40,K P S D,20k-80k,5k-20k,Thais,solo
+Amazon Camp — Venore,20-50,K P S D,30k-100k,10k-30k,Venore,solo
+Kha'labal Terramites Cave,20-40,K P S D,23k/h,1.2k/h,Ankrahmun,solo
+Krimhorn Barbarian Camp,20-50,K P S D,—,—,Svargrond,solo
+Cyclops Camp — Thais,25-55,K P S D,40k-120k,15k-40k,Thais,solo
+Scarabs &amp; Ancient Scarabs — Ankrahmun,30-60,K P S D,50k-150k,15k-50k,Ankrahmun,solo
+Orc Fortress — Ulderek's Rock,30-60,K P,40k-100k,10k-30k,Venore,solo
+Forest Fury Camp,30-80,K P S D,—,—,Carlin,solo
+Northport Pirates Cave,35-0,K P S D,Average,Good,Carlin,solo
+Darashia Dragon Lair,40-80,K P S D,200k-400k,0-80k,Darashia,solo
+Upper Spike,50-80,K D,200k-350k,30k-60k,Kazordoon,solo
+Giant Spider Cave — Port Hope,50-80,K P S D,80k-200k,20k-60k,Port Hope,solo
+Edron Hero Cave,60-100,K P,300k-500k,50k-120k,Edron,solo
+Krailos Steppe,60-100,K P D,350k-600k,40k-100k,Rathleton,solo
+Werehyaenas — Darashia,60-100,K P S D,200k-500k,80k-200k,Darashia,solo
+Alchemist Quarter — Mutated Humans,60-100,K P S D,—,—,Yalahar,solo
+Wyrms — Drefia,70-120,K P S D,200k-500k,50k-150k,Darashia,solo
+Edron Werecreatures,80-150,K P S D,800k-1.5kk,200k-500k,Edron,solo
+Frost Dragons,80-140,K P,400k-800k,80k-200k,Svargrond,solo
+Lizard City — Zao,100-150,K P S D,600k-1.2kk,100k-250k,Zao,solo
+Upper Spike — Kazordoon,100-160,K P S D,500k-1kk,100k-300k,Kazordoon,solo
+Banuta — Port Hope,100-160,K P S D,600k-1.2kk,100k-300k,Port Hope,solo
+Ghastly Dragons — Zao,130-200,K P,1kk-1.8kk,150k-350k,Zao,solo
+Draken Walls — Zao,130-200,K P S D,2kk-4kk,200k-500k,Zao,team
+Nightmare Isles — Darashia,130-200,K P S D,1kk-2kk,100k-300k,Darashia,solo
+Glooth Bandits,150-250,K P S D,1kk-2kk,300k-700k,Rathleton,solo
+Asura Palace,150-250,K P S D,1.5kk-3kk,200k-600k,Port Hope,solo
+Summer/Winter Court — Feyrist,150-250,K P S D,1.5kk-3kk,150k-400k,Feyrist,solo
+Carnivoras — Port Hope,150-250,K P S D,1.5kk-3kk,200k-600k,Port Hope,solo
+Oramond Minos,200-350,K P S D,3kk-6kk,500k-1.5kk,Rathleton,team
+Roshamuul Prison,200-350,K P S D,4kk-8kk,300k-800k,Roshamuul,team
+Pirats — The Wreckoning,200-300,K P S D,2kk-4kk,300k-800k,Issavi,solo
+Demon Forge,200-350,K P S D,3kk-5kk,200k-500k,Edron,team
+Crazed Winter Elves — Court of Winter,200-300,K P S D,3kk-6kk,300k-800k,Svargrond,solo
+Issavi Sewers — Kilmaresh,200-300,K P S D,2kk-4kk,200k-500k,Issavi,solo
+Crumbling Caverns,250-350,D,2-2.5kk,200-300k,Edron,solo
+Falcon Bastion,250-400,K P S D,5kk-10kk,500k-2kk,Edron,team
+Secret Library,250-400,K P S D,8kk-15kk,200k-600k,Edron,team
+Cobras — Cobra Bastion,250-400,K P S D,5kk-9kk,400k-1.2kk,Ankrahmun,team
+Flimsy Lost Souls,250-400,K P S D,6kk-12kk,400k-1kk,Yalahar,team
+Ferumbras Tower,250-400,K P S D,5kk-10kk,400k-1.5kk,Liberty Bay,team
+Buried Cathedral,250-350,K P S D,6kk-12kk,300k-800k,Roshamuul,team
+Claustrophobic Inferno,250-400,K P S D,7kk-15kk,200k-600k,Yalahar,team
+Soul War — Zarganash,300-999,K P S D,10kk-20kk,500k-2kk,Yalahar,team
+Secret Library — Fire Section,350-800,K P S D,—,—,Edron,solo
+Roshamuul Bones,400-700,P,Good,Good,Roshamuul,solo
+Warzone 3 — Gnomebase,450-1300,K,—,—,Kazordoon,solo
+Ferumbras' Ascendant — Plaguesmith Seal,500-1500,K,—,—,Darashia,solo
+Ferumbras' Ascendant — Dark Torturer Seal,550-0,K P M,—,—,Darashia,solo
+Cobra Bastion -1 — Solo EK,550-1000,K,—,—,Ankrahmun,solo
+Issavi Sewers,600-1500,K,—,—,Issavi,solo
+Ferumbras' Ascendant — Mazoran Seal,900-1500,P,—,—,Darashia,solo

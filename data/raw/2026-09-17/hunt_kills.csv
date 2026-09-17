@@ -1,4 +1,192 @@
 hunt_id,creature,killed
+33445,Eternal Guardian,92
+33445,Medusa,86
+33445,Hydra,70
+33445,Serpent Spawn,43
+33445,Giant Spider,5
+33445,Centipede,5
+33624,Medusa,163
+33624,Souleater,150
+33624,Serpent Spawn,142
+33624,Eternal Guardian,102
+33624,Hydra,101
+33624,Tarantula,1
+33624,Centipede,1
+33624,Carniphila,1
+37089,Medusa,149
+37089,Souleater,120
+37089,Serpent Spawn,106
+37089,Hydra,80
+37089,Eternal Guardian,76
+37100,Medusa,149
+37100,Souleater,113
+37100,Serpent Spawn,111
+37100,Eternal Guardian,82
+37100,Hydra,81
+40692,Medusa,264
+40692,Souleater,226
+40692,Serpent Spawn,154
+40692,Eternal Guardian,145
+40692,Hydra,113
+42429,Medusa,171
+42429,Souleater,140
+42429,Eternal Guardian,119
+42429,Hydra,58
+42429,Serpent Spawn,49
+46285,Hydra,251
+46285,Serpent Spawn,243
+46285,Medusa,217
+46285,Eternal Guardian,155
+46285,Souleater,145
+46285,Centipede,24
+46285,Earth Elemental,17
+46285,Acid Blob,15
+46285,Giant Spider,8
+46285,Ice Golem,5
+46285,Skunk,5
+46285,Frost Dragon,4
+46285,Behemoth,4
+46285,Poison Spider,3
+46285,Tarantula,3
+46285,Bug,3
+46285,Nightmare,2
+46285,Hellspawn,2
+46285,Ghastly Dragon,2
+46285,Bat,2
+46285,Phantasm,1
+46285,Flamingo,1
+46285,Cave Rat,1
+46285,Carniphila,1
+46285,Water Elemental,1
+47482,Serpent Spawn,204
+47482,Hydra,131
+47482,Eternal Guardian,111
+47482,Giant Spider,45
+47482,Acid Blob,35
+47482,Medusa,29
+47482,Centipede,20
+47482,Bonebeast,12
+47482,Fire Elemental,10
+47482,Earth Elemental,8
+47482,Massive Fire Elemental,2
+49066,Medusa,182
+49066,Souleater,177
+49066,Eternal Guardian,135
+49066,Serpent Spawn,130
+49066,Hydra,83
+49066,Werelion,25
+49066,Werelioness,23
+49066,White Lion,12
+49066,Terrified Elephant,10
+49066,Scarab,6
+49066,Bat,5
+49066,Ancient Scarab,4
+49066,Bonebeast,4
+49066,Larva,3
+49066,Bear,2
+49066,Nomad,2
+49066,Wolf,2
+49066,Frost Troll,1
+49066,Centipede,1
+49066,Hyaena,1
+49066,Scorpion,1
+49066,The Noxious Spawn,1
+49066,Gorgo,1
+9590,Hydra,74
+9590,Serpent Spawn,56
+9590,Souleater,51
+9590,Medusa,49
+9590,Eternal Guardian,30
+9590,Earth Elemental,14
+9590,Behemoth,12
+9590,Hellspawn,8
+9590,Nightmare,7
+9590,Phantasm,4
+14650,Rustheap Golem,316
+14650,Glooth Golem,282
+14650,Devourer,237
+14650,Rot Elemental,140
+14650,Glooth Blob,1
+30150,Rustheap Golem,68
+30150,Glooth Golem,58
+30150,Devourer,58
+30150,Rot Elemental,38
+30153,Rustheap Golem,164
+30153,Glooth Golem,149
+30153,Devourer,140
+30153,Rot Elemental,82
+30155,Rustheap Golem,174
+30155,Glooth Golem,147
+30155,Devourer,109
+30155,Rot Elemental,80
+30160,Rustheap Golem,171
+30160,Glooth Golem,136
+30160,Devourer,121
+30160,Rot Elemental,85
+30406,Rustheap Golem,426
+30406,Glooth Golem,354
+30406,Devourer,329
+30406,Rot Elemental,164
+30431,Rustheap Golem,407
+30431,Glooth Golem,357
+30431,Devourer,322
+30431,Rot Elemental,142
+33477,Glooth Anemone,375
+33477,Devourer,137
+33477,Drillworm,108
+33477,Behemoth,65
+33477,Elder Wyrm,62
+33477,Wyrm,34
+33477,Blood Beast,27
+33481,Glooth Anemone,366
+33481,Devourer,153
+33481,Drillworm,124
+33481,Behemoth,65
+33481,Elder Wyrm,55
+33481,Blood Beast,32
+33481,Wyrm,19
+33657,Glooth Anemone,392
+33657,Devourer,156
+33657,Drillworm,125
+33657,Behemoth,70
+33657,Elder Wyrm,66
+33657,Blood Beast,36
+33657,Wyrm,27
+34715,Glooth Bandit,216
+34715,Glooth Brigand,214
+36882,Glooth Brigand,126
+36882,Glooth Bandit,100
+36882,Glooth Blob,3
+36882,Rot Elemental,2
+36882,Glooth Anemone,1
+42631,Glooth Bandit,84
+42631,Glooth Brigand,76
+43891,Glooth Bandit,384
+43891,Glooth Brigand,352
+50905,Rot Elemental,209
+50905,Glooth Blob,208
+50905,Blood Beast,155
+50905,Devourer,139
+53434,Rot Elemental,373
+53434,Glooth Blob,348
+53434,Devourer,163
+53434,Blood Beast,110
+53639,Rustheap Golem,174
+53639,Glooth Golem,142
+53639,Devourer,111
+53639,Rot Elemental,78
+53639,Quara Hydromancer Scout,3
+53639,Quara Constrictor Scout,3
+53639,Quara Predator Scout,2
+53639,Quara Pincher Scout,2
+53639,Blood Beast,1
+7463,Glooth Bandit,306
+7463,Glooth Brigand,304
+7463,Rustheap Golem,2
+7463,Metal Gargoyle,2
+7463,Rot Elemental,1
+7508,Glooth Brigand,378
+7508,Glooth Bandit,341
 24692,Adept of the Cult,235
 24692,Enlightened of the Cult,137
 24692,Acolyte of the Cult,87
@@ -214,22 +402,6 @@ hunt_id,creature,killed
 30044,Faun,5
 30149,Werehyaena,264
 30149,Werehyaena Shaman,91
-30150,Rustheap Golem,68
-30150,Glooth Golem,58
-30150,Devourer,58
-30150,Rot Elemental,38
-30153,Rustheap Golem,164
-30153,Glooth Golem,149
-30153,Devourer,140
-30153,Rot Elemental,82
-30155,Rustheap Golem,174
-30155,Glooth Golem,147
-30155,Devourer,109
-30155,Rot Elemental,80
-30160,Rustheap Golem,171
-30160,Glooth Golem,136
-30160,Devourer,121
-30160,Rot Elemental,85
 31405,Werehyaena,48
 31418,Yielothax,168
 31418,Gnarlhound,1
@@ -281,12 +453,6 @@ hunt_id,creature,killed
 33425,Wisp,4
 33425,Dark Faun,3
 33425,Twisted Pooka,2
-33445,Eternal Guardian,92
-33445,Medusa,86
-33445,Hydra,70
-33445,Serpent Spawn,43
-33445,Giant Spider,5
-33445,Centipede,5
 34016,Serpent Spawn,77
 34016,Medusa,45
 34016,Quara Hydromancer Scout,14
@@ -378,8 +544,6 @@ hunt_id,creature,killed
 41129,Lizard Legionnaire,20
 41129,Lancer Beetle,1
 41129,Dragon,1
-43891,Glooth Bandit,384
-43891,Glooth Brigand,352
 43941,Weakened Frazzlemaw,125
 43941,Enfeebled Silencer,70
 43941,Boogy,8
@@ -565,14 +729,6 @@ hunt_id,creature,killed
 33031,Werehyaena,123
 33345,Werehyaena,320
 33345,Werehyaena Shaman,179
-33624,Medusa,163
-33624,Souleater,150
-33624,Serpent Spawn,142
-33624,Eternal Guardian,102
-33624,Hydra,101
-33624,Tarantula,1
-33624,Centipede,1
-33624,Carniphila,1
 33926,Putrid Mummy,210
 33926,Bonebeast,52
 33926,Giant Spider,8
@@ -708,8 +864,6 @@ hunt_id,creature,killed
 42613,Boogy,6
 42613,Dark Faun,5
 42613,Swan Maiden,3
-42631,Glooth Bandit,84
-42631,Glooth Brigand,76
 42658,Exotic Bat,573
 42658,Exotic Cave Spider,226
 42658,Pirat Cutthroat,2
@@ -789,10 +943,6 @@ hunt_id,creature,killed
 50582,Werehyaena,514
 50582,Werehyaena Shaman,216
 50607,Burster Spectre,165
-50905,Rot Elemental,209
-50905,Glooth Blob,208
-50905,Blood Beast,155
-50905,Devourer,139
 51253,Lost Thrower,134
 51253,Lost Basher,128
 51253,Lost Husher,117
@@ -846,19 +996,6 @@ hunt_id,creature,killed
 53399,Feverish Citizen,4
 53399,Corym Skirmisher,4
 53399,Swampling,2
-53434,Rot Elemental,373
-53434,Glooth Blob,348
-53434,Devourer,163
-53434,Blood Beast,110
-53639,Rustheap Golem,174
-53639,Glooth Golem,142
-53639,Devourer,111
-53639,Rot Elemental,78
-53639,Quara Hydromancer Scout,3
-53639,Quara Constrictor Scout,3
-53639,Quara Predator Scout,2
-53639,Quara Pincher Scout,2
-53639,Blood Beast,1
 53711,Vulcongra,178
 53711,Massive Fire Elemental,118
 53711,Dragon Lord,70
@@ -1063,10 +1200,6 @@ hunt_id,creature,killed
 4839,Quara Raider,1545
 4839,Quara Looter,1143
 4839,Quara Plunderer,806
-50905,Rot Elemental,209
-50905,Glooth Blob,208
-50905,Blood Beast,155
-50905,Devourer,139
 52823,Quara Mantassin Scout,19
 52823,Quara Mantassin,19
 52823,Quara Pincher Scout,18
@@ -1077,10 +1210,6 @@ hunt_id,creature,killed
 52823,Quara Constrictor Scout,12
 52823,Quara Predator,6
 52823,Quara Hydromancer Scout,6
-53434,Rot Elemental,373
-53434,Glooth Blob,348
-53434,Devourer,163
-53434,Blood Beast,110
 55738,Quara Raider,941
 55738,Quara Looter,719
 55738,Quara Plunderer,491
@@ -2439,12 +2568,6 @@ hunt_id,creature,killed
 33222,Gargoyle,59
 33222,Stone Golem,27
 33222,Gorga,6
-33445,Eternal Guardian,92
-33445,Medusa,86
-33445,Hydra,70
-33445,Serpent Spawn,43
-33445,Giant Spider,5
-33445,Centipede,5
 34016,Serpent Spawn,77
 34016,Medusa,45
 34016,Quara Hydromancer Scout,14
@@ -2470,11 +2593,6 @@ hunt_id,creature,killed
 40956,Stone Golem,39
 40956,Gargoyle,28
 40956,Slime,4
-42429,Medusa,171
-42429,Souleater,140
-42429,Eternal Guardian,119
-42429,Hydra,58
-42429,Serpent Spawn,49
 51555,Serpent Spawn,134
 51555,Behemoth,98
 51555,Medusa,77
