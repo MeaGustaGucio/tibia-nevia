@@ -94,6 +94,20 @@ function renderProfit() {
       <div class="bar-track"><div class="bar-fill" style="width:${pct}%"></div></div>
       <span style="text-align:right">${fmt(v)}</span></div>`;
   }).join("") || "Brak danych.";
+  // Malo policzonych danych? Pokaz SZACUNKI zewnetrzne (poradniki) — wyraznie oznaczone, nigdy nie mieszane.
+  const ew = $("estwrap");
+  if (rows.length < 3) {
+    getCSV("data/control_estimates.csv").then(est => {
+      const tag = state.bracket.replace("_", "-");
+      const rel = est.filter(r => (r.bracket || "").replace("_", "-") === tag);
+      if (!rel.length) { ew.innerHTML = ""; return; }
+      const f2 = n => n === "" || n === undefined ? "—" : fmt(n);
+      ew.innerHTML = `<h3 style="margin:12px 0 6px;font-size:.95rem">Szacunki zewnętrzne (poradniki ${tag.replace("-", "–")}) — nie nasze sesje!</h3>
+      <table style="width:100%;border-collapse:collapse;font-size:.78rem"><thead><tr><th>Spawn</th><th class="num">EXP/h</th><th class="num">Profit/h</th><th>Źródło</th></tr></thead><tbody>` +
+      rel.map(r => `<tr><td>${r.spawn}</td><td class="num">${f2(r.exp_lo)}${r.exp_hi && r.exp_hi !== r.exp_lo ? "–" + f2(r.exp_hi) : ""}</td><td class="num">${f2(r.profit_lo)}${r.profit_hi && r.profit_hi !== r.profit_lo ? "–" + f2(r.profit_hi) : ""}</td><td>${r.source} (${r.source_date})</td></tr>`).join("") +
+      `</tbody></table><p class="sub">Liczby z poradników, nie z sesji — traktuj jako punkt startu, nie fakt.</p>`;
+    }).catch(() => { ew.innerHTML = ""; });
+  } else ew.innerHTML = "";
 }
 
 /* ---------- Spawny (mediana) ---------- */

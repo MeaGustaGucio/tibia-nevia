@@ -59,6 +59,9 @@ const wait = (ms) => new Promise(r => setTimeout(r, ms));
   const prows = idx.window.document.querySelectorAll("#tbl tbody tr");
   const ptxt = idx.window.document.querySelector("#tbl tbody").textContent;
   ok(prows.length > 1 && /%/.test(ptxt), `index PROFIT: wierszy=${prows.length} z kolumna pokrycia`);
+  await wait(800);
+  const est = idx.window.document.getElementById("estwrap").textContent;
+  ok(/Szacunki|%/.test(est) || prows.length >= 3, "index PROFIT: fallback szacunkow lub >=3 wiersze");
 
   // --- spawn.html dla top spawna z POLICZONEGO profitu ---
   const sprows = fs.readFileSync(path.join(ROOT, "data", "spawn_profit.csv"), "utf8")

@@ -699,6 +699,10 @@ def main() -> None:
                  GOLD / "item_tags.csv", GOLD / "creature_value.csv", GOLD / "build_info.json"]):
         if p.exists():
             shutil.copy(p, PAGES_DATA / p.name)
+    # Szacunki zewnetrzne (poradniki) tez na strone — statyczny plik referencyjny.
+    est = ROOT / "research" / "control_estimates.csv"
+    if est.exists():
+        shutil.copy(est, PAGES_DATA / "control_estimates.csv")
     print(f"copied {len(list(PAGES_DATA.glob('*')))} files -> {PAGES_DATA}")
     try:
         import openpyxl
