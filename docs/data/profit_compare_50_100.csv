@@ -1,17 +1,18 @@
 spawn,norm,kind,source,lo,hi,n,date,url,cluster,cluster_members
-Crypt Warrior,crypt warrior,computed,sesje+kille (nasz model),302481,302481,1,2026-09-17,,Crypt Warrior,Crypt Warrior
-Edron Vampire Crypts,crypt edron vampire,computed,sesje+kille (nasz model),74122,74122,1,2026-09-17,,Edron Vampire Crypts,Edron Vampire Crypts
-Yalahar Bog Raiders Central,bog central raider yalahar,computed,sesje+kille (nasz model),37596,37596,1,2026-09-17,,Yalahar Bog Raiders Central,Yalahar Bog Raiders Central
-Port Hope Spider Cave,cave hope port spider,computed,sesje+kille (nasz model),27318,27318,2,2026-09-17,,Port Hope Spider Cave,Port Hope Spider Cave
-Port Hope Water Elementals (South),elemental hope port water,computed,sesje+kille (nasz model),19552,19552,1,2026-09-17,,Port Hope Water Elementals (South),Port Hope Water Elementals (South)
-Liberty Bay Quara Grotto,bay grotto liberty quara,computed,sesje+kille (nasz model),16352,16352,1,2026-09-17,,Liberty Bay Quara Grotto,Liberty Bay Quara Grotto
-Crypt Warrior,crypt warrior,measured,mediana loot/h z sesji,681249,681249,1,2026-09-17,https://www.hunt-analyser.com/hunt_sessions/52279,Crypt Warrior,Crypt Warrior
-Norc Castle,castle norc,measured,mediana loot/h z sesji,1327660,1327660,1,2026-09-17,https://www.hunt-analyser.com/hunt_sessions/57092,Norc Castle,Norc Castle
-Yalahar Bog Raiders Central,bog central raider yalahar,measured,mediana loot/h z sesji,75424,75424,1,2026-09-17,https://www.hunt-analyser.com/hunt_sessions/53124,Yalahar Bog Raiders Central,Yalahar Bog Raiders Central
-Port Hope Spider Cave,cave hope port spider,measured,mediana loot/h z sesji,57963,57963,2,2026-09-17,https://www.hunt-analyser.com/hunt_sessions/52667,Port Hope Spider Cave,Port Hope Spider Cave
-Port Hope Water Elementals (South),elemental hope port water,measured,mediana loot/h z sesji,39651,39651,1,2026-09-17,https://www.hunt-analyser.com/hunt_sessions/52773,Port Hope Water Elementals (South),Port Hope Water Elementals (South)
-Liberty Bay Quara Grotto,bay grotto liberty quara,measured,mediana loot/h z sesji,66622,66622,1,2026-09-17,https://www.hunt-analyser.com/hunt_sessions/52823,Liberty Bay Quara Grotto,Liberty Bay Quara Grotto
-Edron Vampire Crypts,crypt edron vampire,measured,mediana loot/h z sesji,62528,62528,1,2026-09-17,https://www.hunt-analyser.com/hunt_sessions/52560,Edron Vampire Crypts,Edron Vampire Crypts
+Norc Castle,castle norc,computed,sesje+kille (nasz model),654296,654296,1,2026-09-18,,Norc Castle,Norc Castle
+Crypt Warrior,crypt warrior,computed,sesje+kille (nasz model),201344,201344,1,2026-09-18,,Crypt Warrior,Crypt Warrior
+Edron Vampire Crypts,crypt edron vampire,computed,sesje+kille (nasz model),40444,40444,1,2026-09-18,,Edron Vampire Crypts,Edron Vampire Crypts
+Yalahar Bog Raiders Central,bog central raider yalahar,computed,sesje+kille (nasz model),25064,25064,1,2026-09-18,,Yalahar Bog Raiders Central,Yalahar Bog Raiders Central
+Port Hope Spider Cave,cave hope port spider,computed,sesje+kille (nasz model),18120,18120,2,2026-09-18,,Port Hope Spider Cave,Port Hope Spider Cave
+Port Hope Water Elementals (South),elemental hope port water,computed,sesje+kille (nasz model),12886,12886,1,2026-09-18,,Port Hope Water Elementals (South),Port Hope Water Elementals (South)
+Liberty Bay Quara Grotto,bay grotto liberty quara,computed,sesje+kille (nasz model),10993,10993,1,2026-09-18,,Liberty Bay Quara Grotto,Liberty Bay Quara Grotto
+Crypt Warrior,crypt warrior,measured,mediana loot/h z sesji,681249,681249,1,2026-09-18,https://www.hunt-analyser.com/hunt_sessions/52279,Crypt Warrior,Crypt Warrior
+Norc Castle,castle norc,measured,mediana loot/h z sesji,1327660,1327660,1,2026-09-18,https://www.hunt-analyser.com/hunt_sessions/57092,Norc Castle,Norc Castle
+Yalahar Bog Raiders Central,bog central raider yalahar,measured,mediana loot/h z sesji,75424,75424,1,2026-09-18,https://www.hunt-analyser.com/hunt_sessions/53124,Yalahar Bog Raiders Central,Yalahar Bog Raiders Central
+Port Hope Spider Cave,cave hope port spider,measured,mediana loot/h z sesji,57963,57963,2,2026-09-18,https://www.hunt-analyser.com/hunt_sessions/52667,Port Hope Spider Cave,Port Hope Spider Cave
+Port Hope Water Elementals (South),elemental hope port water,measured,mediana loot/h z sesji,39651,39651,1,2026-09-18,https://www.hunt-analyser.com/hunt_sessions/52773,Port Hope Water Elementals (South),Port Hope Water Elementals (South)
+Liberty Bay Quara Grotto,bay grotto liberty quara,measured,mediana loot/h z sesji,66622,66622,1,2026-09-18,https://www.hunt-analyser.com/hunt_sessions/52823,Liberty Bay Quara Grotto,Liberty Bay Quara Grotto
+Edron Vampire Crypts,crypt edron vampire,measured,mediana loot/h z sesji,62528,62528,1,2026-09-18,https://www.hunt-analyser.com/hunt_sessions/52560,Edron Vampire Crypts,Edron Vampire Crypts
 Cults Yalahar,cult yalahar,guide,TibiaPal hunting (2026),350000,350000,,2026,,Cults Yalahar,Cults Yalahar|Yalahar Cults
 Edron Werecreatures,edron werecreature,guide,TibiaVault (2026-03),200000,500000,,2026-03,,Edron Werecreatures,Edron Werecreatures
 Yalahar Cults,cult yalahar,guide,TibiaBuddy mage (2026-04-24),500000,500000,,2026-04-24,,Cults Yalahar,Cults Yalahar|Yalahar Cults
