@@ -3,7 +3,6 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 53032,Roothings -2 x4 Hunt,"Aug 04, 2026 17:02",02:01h,121,4,MS 913+ED 866+EM 766+EK 839,766,913,846,0,0,4214107,2578186,3299107,1,0,0,https://www.hunt-analyser.com/hunt_sessions/53032
 55194,True asuras,"Aug 27, 2026 18:38",01:03h,63,2,ED 776+EK 771,771,776,774,10428196,6952377,4002418,3487926,540216,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55194
 55514,True asuras,"Aug 31, 2026 08:31",01:09h,69,2,ED 782+EK 778,778,782,780,10431679,6954698,3983848,3491606,566077,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55514
-51716,True asuras,"Jul 20, 2026 18:50",01:00h,60,2,ED 751+EK 750,750,751,750,10455176,6970361,3861602,3387792,473810,1,1,0,https://www.hunt-analyser.com/hunt_sessions/51716
 55427,True asuras,"Aug 30, 2026 10:24",01:17h,77,2,ED 779+EK 776,776,779,778,10265467,6843888,3769169,3237464,682354,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55427
 53422,Roshamuul DP,"Aug 09, 2026 18:31",02:17h,137,1,RP 1100,1100,1100,1100,17364049,9509254,3090824,2732461,818261,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53422
 52922,Roshamuul DP,"Aug 04, 2026 13:13",02:21h,141,1,RP 1098,1098,1098,1098,13519768,9013179,2865829,2614815,589882,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52922
@@ -30,11 +29,9 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 52653,Weretiger -2,"Aug 01, 2026 10:30",00:37h,37,1,MS 508,508,508,508,13236024,4886185,1437871,1338150,61494,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52653
 52720,Weretigers -1,"Aug 02, 2026 04:55",00:47h,47,1,RP 674,674,674,674,7488382,5598638,1331313,1052277,218578,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52720
 57092,Norc Castle,"Sep 17, 2026 03:56",00:15h,15,1,ED 80,80,80,80,6899568,6899568,1327660,878452,112302,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57092
-51722,Duo burried cathedral,"Jul 20, 2026 12:07",00:37h,37,2,EK 300+ED 199,199,300,250,6523629,3125691,1262110,437458,508535,1,1,0,https://www.hunt-analyser.com/hunt_sessions/51722
 53132,Ripper Spectre,"Aug 06, 2026 13:02",00:13h,13,1,MS 327,327,327,327,7386466,3624696,1047849,838384,45384,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53132
 53639,Glooth Tower,"Aug 12, 2026 00:46",00:25h,25,1,EK 270,270,270,270,3387175,2258244,1026130,896296,54097,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53639
 53149,GAZER SPECTRE +21% DMG BOUNTY,"Aug 06, 2026 16:21",00:47h,47,0,,0,0,0,9713439,8077755,888391,888390,0,0,1,0,https://www.hunt-analyser.com/hunt_sessions/53149
-51711,Werelion -1 (post nerf),"Jul 20, 2026 12:43",00:55h,55,1,MS 494,494,494,494,6109828,2796163,824888,696876,117344,1,1,0,https://www.hunt-analyser.com/hunt_sessions/51711
 53031,Burster Spectres,"Aug 05, 2026 13:05",00:42h,42,1,RP 676,676,676,676,7030022,6215737,805934,630128,123064,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53031
 52884,Asura (Mirror),"Aug 03, 2026 22:24",01:00h,60,1,EK 637,637,637,637,5315561,3543830,776212,568882,207330,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52884
 52279,Crypt Warrior,"Jul 28, 2026 09:45",00:28h,28,1,,0,0,75,8447524,5631685,681249,681248,0,0,1,0,https://www.hunt-analyser.com/hunt_sessions/52279
@@ -49,3 +46,6 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 52059,Vampire Crypt (Edron),"Jul 25, 2026 00:41",00:57h,57,1,RP 169,169,169,169,1376977,0,394573,367134,26066,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52059
 53434,Glooth Plains - Surface (Oramond),"Aug 09, 2026 21:39",00:42h,42,1,EK 273,273,273,273,1974337,1316308,306191,233968,50556,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53434
 53078,Grim Reaper (Yalahar),"Aug 05, 2026 17:57",00:45h,45,1,EK 270,270,270,270,5397697,2710400,297107,174872,91676,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53078
+52736,Hellspawn (Yalahar),"Aug 02, 2026 08:14",00:30h,30,1,EK 267,267,267,267,1683640,1122432,293484,208160,42662,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52736
+52082,Behemoth (Cyclopolis),"Jul 25, 2026 12:21",00:30h,30,1,EK 262,262,262,262,1028212,685498,287960,224568,31696,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52082
+53745,Grim Reaper (Yalahar),"Aug 12, 2026 23:17",01:00h,60,1,EK 279,279,279,279,7256749,2863850,273241,167481,105760,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53745
