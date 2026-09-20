@@ -9,8 +9,10 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 50187,True asuras,"Jul 02, 2026 18:15",00:22h,22,2,ED 731+EK 734,731,734,732,31222404,13876194,3877189,3276730,220168,1,1,0,https://www.hunt-analyser.com/hunt_sessions/50187
 56645,Quaras Podzilla,"Sep 11, 2026 22:04",01:06h,66,1,MS 1086,1086,1086,1086,30348861,13833180,2531636,2530546,1199,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56645
 56931,Podzilla Quaras,"Sep 14, 2026 21:35",02:06h,126,1,MS 910,910,910,910,26803598,10939691,2320544,2248862,150530,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56931
+57305,Podzilla Quaras,"Sep 19, 2026 11:40",01:01h,61,1,MS 914,914,914,914,26596120,12015061,2357531,2273220,85715,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57305
 57171,Podzilla Quaras,"Sep 17, 2026 22:04",02:06h,126,1,MS 913,913,913,913,25736441,11635015,2306048,2227467,165020,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57171
 57028,Podzilla Quaras,"Sep 15, 2026 22:02",01:46h,106,1,MS 912,912,912,912,24708903,11639020,2614291,2570896,76664,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57028
+57344,Podzilla Quaras,"Sep 19, 2026 18:29",01:31h,91,1,MS 915,915,915,915,24171702,12240593,2662738,2624369,58193,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57344
 56841,Podzilla Quaras,"Sep 13, 2026 21:35",02:14h,134,1,MS 909,909,909,909,23684524,10975401,2550560,2156436,880210,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56841
 56743,Podzilla Quaras,"Sep 12, 2026 23:46",01:21h,81,1,MS 908,908,908,908,23588772,11496259,2428654,2380011,65668,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56743
 45112,Grounds of Fire (Infernatil),"Mar 20, 2026 23:05",01:02h,62,1,ED 1292,1292,1292,1292,22640122,10078895,1946375,1785845,165880,1,1,0,https://www.hunt-analyser.com/hunt_sessions/45112
@@ -47,5 +49,3 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 56813,❄️ Iceplume Strider – Bounty Hunt,"Sep 13, 2026 17:25",01:01h,61,1,EM 918,918,918,918,13409448,8939641,2532536,2430367,103871,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56813
 52653,Weretiger -2,"Aug 01, 2026 10:30",00:37h,37,1,MS 508,508,508,508,13236024,4886185,1437871,1338150,61494,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52653
 44100,True Asura [2/26],"Feb 26, 2026 13:55",03:08h,188,3,ED 630+EK 633+RP 560,560,633,608,13095234,0,2916478,2283918,1982020,1,1,0,https://www.hunt-analyser.com/hunt_sessions/44100
-45418,Weretigers -2,"Mar 29, 2026 04:08",01:00h,60,1,RP 587,587,587,587,12944278,7920246,1427502,940650,486852,1,1,0,https://www.hunt-analyser.com/hunt_sessions/45418
-56613,❄️ Iceplume Strider – Test Hunt,"Sep 11, 2026 15:17",00:20h,20,1,EM 916,916,916,916,12872277,8581533,1699935,1601820,32705,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56613

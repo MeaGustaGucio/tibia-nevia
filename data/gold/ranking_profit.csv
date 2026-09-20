@@ -7,6 +7,7 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 53422,Roshamuul DP,"Aug 09, 2026 18:31",02:17h,137,1,RP 1100,1100,1100,1100,17364049,9509254,3090824,2732461,818261,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53422
 52922,Roshamuul DP,"Aug 04, 2026 13:13",02:21h,141,1,RP 1098,1098,1098,1098,13519768,9013179,2865829,2614815,589882,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52922
 52856,Roshamuul DP,"Aug 03, 2026 16:41",02:06h,126,1,RP 1097,1097,1097,1097,12780735,8520490,2827817,2584214,511565,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52856
+57344,Podzilla Quaras,"Sep 19, 2026 18:29",01:31h,91,1,MS 915,915,915,915,24171702,12240593,2662738,2624369,58193,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57344
 52228,Caminho de Ferumbras,"Jul 27, 2026 16:26",00:45h,45,1,RP 1012,1012,1012,1012,11074616,7842296,2620800,2125486,371485,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52228
 57028,Podzilla Quaras,"Sep 15, 2026 22:02",01:46h,106,1,MS 912,912,912,912,24708903,11639020,2614291,2570896,76664,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57028
 56841,Podzilla Quaras,"Sep 13, 2026 21:35",02:14h,134,1,MS 909,909,909,909,23684524,10975401,2550560,2156436,880210,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56841
@@ -16,6 +17,7 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 56743,Podzilla Quaras,"Sep 12, 2026 23:46",01:21h,81,1,MS 908,908,908,908,23588772,11496259,2428654,2380011,65668,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56743
 55588,West Roshamuul (SOLO RP),"Sep 01, 2026 03:31",00:47h,47,1,RP 932,932,932,932,21647152,13480454,2425371,1988678,342076,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55588
 56517,Quaras Podzilla,"Sep 10, 2026 20:11",01:06h,66,1,MS 1086,1086,1086,1086,33741467,13915512,2374711,2374327,422,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56517
+57305,Podzilla Quaras,"Sep 19, 2026 11:40",01:01h,61,1,MS 914,914,914,914,26596120,12015061,2357531,2273220,85715,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57305
 56931,Podzilla Quaras,"Sep 14, 2026 21:35",02:06h,126,1,MS 910,910,910,910,26803598,10939691,2320544,2248862,150530,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56931
 57171,Podzilla Quaras,"Sep 17, 2026 22:04",02:06h,126,1,MS 913,913,913,913,25736441,11635015,2306048,2227467,165020,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57171
 52068,Ripper Spectre,"Jul 25, 2026 05:53",00:32h,32,1,RP 672,672,672,672,9691329,7271823,2082504,1903822,95297,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52068
@@ -35,7 +37,6 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 53031,Burster Spectres,"Aug 05, 2026 13:05",00:42h,42,1,RP 676,676,676,676,7030022,6215737,805934,630128,123064,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53031
 52884,Asura (Mirror),"Aug 03, 2026 22:24",01:00h,60,1,EK 637,637,637,637,5315561,3543830,776212,568882,207330,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52884
 52279,Crypt Warrior,"Jul 28, 2026 09:45",00:28h,28,1,,0,0,75,8447524,5631685,681249,681248,0,0,1,0,https://www.hunt-analyser.com/hunt_sessions/52279
-51793,Werehyena MS 290+,"Jul 21, 2026 13:51",00:37h,37,1,MS 290,290,290,290,3331157,2220771,666534,463890,124963,1,1,0,https://www.hunt-analyser.com/hunt_sessions/51793
 52064,BOOK WORLD,"Jul 25, 2026 05:32",00:53h,53,1,ED 242,242,242,242,5647162,2303858,594240,384268,185475,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52064
 53711,Gnomegate Lava Hot Spot,"Aug 12, 2026 19:52",00:25h,25,1,EK 276,276,276,276,2131941,1184419,585235,538396,19516,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53711
 53750,Werelions -1,"Aug 12, 2026 22:03",00:37h,37,0,,0,0,0,3836680,2046372,507092,507092,0,0,1,0,https://www.hunt-analyser.com/hunt_sessions/53750
@@ -48,4 +49,3 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 53078,Grim Reaper (Yalahar),"Aug 05, 2026 17:57",00:45h,45,1,EK 270,270,270,270,5397697,2710400,297107,174872,91676,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53078
 52736,Hellspawn (Yalahar),"Aug 02, 2026 08:14",00:30h,30,1,EK 267,267,267,267,1683640,1122432,293484,208160,42662,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52736
 52082,Behemoth (Cyclopolis),"Jul 25, 2026 12:21",00:30h,30,1,EK 262,262,262,262,1028212,685498,287960,224568,31696,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52082
-53745,Grim Reaper (Yalahar),"Aug 12, 2026 23:17",01:00h,60,1,EK 279,279,279,279,7256749,2863850,273241,167481,105760,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53745

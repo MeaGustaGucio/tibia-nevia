@@ -1,19 +1,19 @@
 spawn,norm,consensus_h,spread_pct,n_sources,members,sources
 Asuras/Falcons,Asuras/Falcons,600000,0.0,1,Asuras/Falcons,community:gracze (link)
 Summer Court,Summer Court,500000,0.4,1,Summer Court,community:gracze (link)
-Norc Castle,Norc Castle,435912,2.05,2,Norc Castle,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Cults Yalahar,Cults Yalahar,350000,0.43,2,Cults Yalahar|Yalahar Cults,guide:TibiaBuddy mage (2026-04-24)|guide:TibiaPal hunting (2026)
 Edron Werecreatures,Edron Werecreatures,350000,0.86,2,Edron Werecreatures,guide:TibiaVault (2026-03)
+Norc Castle,Norc Castle,326688,3.06,2,Norc Castle,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Nagas,Nagas,300000,0.0,1,Nagas,community:gracze (link)
 Iksupan,Iksupan,225000,1.33,2,Iksupan,community:gracze (link)
-Crypt Warrior,Crypt Warrior,151240,3.5,2,Crypt Warrior,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Edron Heroes -2-3,Edron Heroes -2-3,150000,0.0,1,Edron Heroes -2-3,community:gracze (link)
 Mutated Tigers Alchemy,Mutated Tigers Alchemy,148000,0.0,1,Mutated Tigers Alchemy,community:gracze (link)
 Werehyaenas,Werehyaenas,140000,0.86,1,Werehyaenas,guide:TibiaVault (2026-03)
+Crypt Warrior,Crypt Warrior,120621,4.65,2,Crypt Warrior,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Edron Hero Cave,Edron Hero Cave,85000,0.82,1,Edron Hero Cave,guide:TibiaVault (2026-03)
-Edron Vampire Crypts,Edron Vampire Crypts,28188,1.22,2,Edron Vampire Crypts,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
+Edron Vampire Crypts,Edron Vampire Crypts,21439,1.92,2,Edron Vampire Crypts,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Drefia Wyrms,Drefia Wyrms,20000,0.0,1,Drefia Wyrms,community:gracze (link)
-Yalahar Bog Raiders Central,Yalahar Bog Raiders Central,18798,3.01,2,Yalahar Bog Raiders Central,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
-Port Hope Spider Cave,Port Hope Spider Cave,13659,3.24,2,Port Hope Spider Cave,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
-Port Hope Water Elementals (South),Port Hope Water Elementals (South),9776,3.06,2,Port Hope Water Elementals (South),computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
-Liberty Bay Quara Grotto,Liberty Bay Quara Grotto,8012,7.32,2,Liberty Bay Quara Grotto,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
+Yalahar Bog Raiders Central,Yalahar Bog Raiders Central,14942,4.05,2,Yalahar Bog Raiders Central,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
+Port Hope Spider Cave,Port Hope Spider Cave,10909,4.31,2,Port Hope Spider Cave,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
+Port Hope Water Elementals (South),Port Hope Water Elementals (South),7554,4.25,2,Port Hope Water Elementals (South),computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
+Liberty Bay Quara Grotto,Liberty Bay Quara Grotto,6444,9.34,2,Liberty Bay Quara Grotto,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
