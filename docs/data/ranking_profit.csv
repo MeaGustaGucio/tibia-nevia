@@ -1,6 +1,5 @@
 id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lvl,xp_h,raw_xp_h,loot_h,balance_h,supplies_total,supplies_known,has_creature_stats,event_flag,url
 57553,Claustrophobic Inferno,"Sep 21, 2026 22:37",00:40h,40,4,ED 934+EM 1122+RP 946+EK 778,778,1122,945,9079366,6053157,6732930,5671459,707647,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57553
-52190,North Roshamuul (South - SOLO RP),"Jul 27, 2026 03:22",00:30h,30,1,RP 910,910,910,910,16135802,11589704,5256546,4719850,268348,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52190
 53032,Roothings -2 x4 Hunt,"Aug 04, 2026 17:02",02:01h,121,4,MS 913+ED 866+EM 766+EK 839,766,913,846,0,0,4214107,2578186,3299107,1,0,0,https://www.hunt-analyser.com/hunt_sessions/53032
 55194,True asuras,"Aug 27, 2026 18:38",01:03h,63,2,ED 776+EK 771,771,776,774,10428196,6952377,4002418,3487926,540216,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55194
 55514,True asuras,"Aug 31, 2026 08:31",01:09h,69,2,ED 782+EK 778,778,782,780,10431679,6954698,3983848,3491606,566077,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55514
@@ -9,7 +8,7 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 52922,Roshamuul DP,"Aug 04, 2026 13:13",02:21h,141,1,RP 1098,1098,1098,1098,13519768,9013179,2865829,2614815,589882,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52922
 52856,Roshamuul DP,"Aug 03, 2026 16:41",02:06h,126,1,RP 1097,1097,1097,1097,12780735,8520490,2827817,2584214,511565,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52856
 57344,Podzilla Quaras,"Sep 19, 2026 18:29",01:31h,91,1,MS 915,915,915,915,24171702,12240593,2662738,2624369,58193,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57344
-52228,Caminho de Ferumbras,"Jul 27, 2026 16:26",00:45h,45,1,RP 1012,1012,1012,1012,11074616,7842296,2620800,2125486,371485,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52228
+57967,Podzilla Quaras,"Sep 25, 2026 22:32",01:56h,116,1,MS 920,920,920,920,29412454,13304952,2650802,2602929,92552,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57967
 57028,Podzilla Quaras,"Sep 15, 2026 22:02",01:46h,106,1,MS 912,912,912,912,24708903,11639020,2614291,2570896,76664,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57028
 57404,Podzilla Quaras,"Sep 20, 2026 11:35",02:03h,123,1,MS 916,916,916,916,27570447,12351299,2604112,2548624,113748,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57404
 57551,Podzilla Quaras,"Sep 21, 2026 21:19",02:02h,122,1,MS 917,917,917,917,28446030,12963023,2559540,2532059,55878,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57551
@@ -49,3 +48,4 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 53845,Crypt Warrior,"Aug 14, 2026 01:08",01:00h,60,0,,0,0,0,13899284,4329542,464720,464720,0,0,1,0,https://www.hunt-analyser.com/hunt_sessions/53845
 53617,Burster Spectre,"Aug 12, 2026 01:52",01:00h,60,1,RP 575,575,575,575,3677400,3677400,446932,78019,368913,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53617
 52356,Dark Fauns -2,"Jul 29, 2026 02:41",00:30h,30,1,RP 169,169,169,169,1711696,0,399498,327484,36007,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52356
+53434,Glooth Plains - Surface (Oramond),"Aug 09, 2026 21:39",00:42h,42,1,EK 273,273,273,273,1974337,1316308,306191,233968,50556,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53434
