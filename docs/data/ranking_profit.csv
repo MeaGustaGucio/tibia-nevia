@@ -39,6 +39,7 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 53132,Ripper Spectre,"Aug 06, 2026 13:02",00:13h,13,1,MS 327,327,327,327,7386466,3624696,1047849,838384,45384,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53132
 53639,Glooth Tower,"Aug 12, 2026 00:46",00:25h,25,1,EK 270,270,270,270,3387175,2258244,1026130,896296,54097,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53639
 57588,Medusa tower,"Sep 22, 2026 17:11",00:46h,46,1,RP 266,266,266,266,3469917,2313280,913643,509324,309978,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57588
+58141,Gazer Spectres,"Sep 27, 2026 20:02",01:03h,63,2,ED 414+EK 488,414,488,451,4001812,2667876,910091,836975,76772,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58141
 53149,GAZER SPECTRE +21% DMG BOUNTY,"Aug 06, 2026 16:21",00:47h,47,0,,0,0,0,9713439,8077755,888391,888390,0,0,1,0,https://www.hunt-analyser.com/hunt_sessions/53149
 53031,Burster Spectres,"Aug 05, 2026 13:05",00:42h,42,1,RP 676,676,676,676,7030022,6215737,805934,630128,123064,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53031
 52884,Asura (Mirror),"Aug 03, 2026 22:24",01:00h,60,1,EK 637,637,637,637,5315561,3543830,776212,568882,207330,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52884
@@ -47,5 +48,4 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 53352,Lycanthrope Grounds (Edron),"Aug 08, 2026 20:04",00:15h,15,1,EK 271,271,271,271,2207516,1471680,477892,379412,24620,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53352
 53845,Crypt Warrior,"Aug 14, 2026 01:08",01:00h,60,0,,0,0,0,13899284,4329542,464720,464720,0,0,1,0,https://www.hunt-analyser.com/hunt_sessions/53845
 53617,Burster Spectre,"Aug 12, 2026 01:52",01:00h,60,1,RP 575,575,575,575,3677400,3677400,446932,78019,368913,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53617
-52356,Dark Fauns -2,"Jul 29, 2026 02:41",00:30h,30,1,RP 169,169,169,169,1711696,0,399498,327484,36007,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52356
 53434,Glooth Plains - Surface (Oramond),"Aug 09, 2026 21:39",00:42h,42,1,EK 273,273,273,273,1974337,1316308,306191,233968,50556,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53434
