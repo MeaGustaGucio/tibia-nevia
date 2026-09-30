@@ -1,0 +1,429 @@
+{
+ "highscores": {
+  "world": "Nevia",
+  "category": "experience",
+  "vocation": "all",
+  "highscore_age": 21,
+  "highscore_list": [
+   {
+    "rank": 1,
+    "name": "Ultimate Zoodoo",
+    "vocation": "Royal Paladin",
+    "world": "Nevia",
+    "level": 2006,
+    "value": 134135364159
+   },
+   {
+    "rank": 2,
+    "name": "Kohaminha",
+    "vocation": "Elder Druid",
+    "world": "Nevia",
+    "level": 1877,
+    "value": 109942018419
+   },
+   {
+    "rank": 3,
+    "name": "Zunir",
+    "vocation": "Royal Paladin",
+    "world": "Nevia",
+    "level": 1866,
+    "value": 108021800160
+   },
+   {
+    "rank": 4,
+    "name": "Vuvvex",
+    "vocation": "Royal Paladin",
+    "world": "Nevia",
+    "level": 1855,
+    "value": 106096778845
+   },
+   {
+    "rank": 5,
+    "name": "The Better Paulo",
+    "vocation": "Royal Paladin",
+    "world": "Nevia",
+    "level": 1831,
+    "value": 102013013334
+   },
+   {
+    "rank": 6,
+    "name": "Celso",
+    "vocation": "Elder Druid",
+    "world": "Nevia",
+    "level": 1801,
+    "value": 97173291217
+   },
+   {
+    "rank": 7,
+    "name": "Cropper Phale",
+    "vocation": "Royal Paladin",
+    "world": "Nevia",
+    "level": 1759,
+    "value": 90405837279
+   },
+   {
+    "rank": 8,
+    "name": "Radyer",
+    "vocation": "Elite Knight",
+    "world": "Nevia",
+    "level": 1757,
+    "value": 90151709299
+   },
+   {
+    "rank": 9,
+    "name": "Courage Kruziox",
+    "vocation": "Master Sorcerer",
+    "world": "Nevia",
+    "level": 1747,
+    "value": 88678949993
+   },
+   {
+    "rank": 10,
+    "name": "Lil King Belya",
+    "vocation": "Elite Knight",
+    "world": "Nevia",
+    "level": 1737,
+    "value": 87192891125
+   },
+   {
+    "rank": 11,
+    "name": "Kie Is Back",
+    "vocation": "Elite Knight",
+    "world": "Nevia",
+    "level": 1718,
+    "value": 84335925168
+   },
+   {
+    "rank": 12,
+    "name": "Balas King",
+    "vocation": "Royal Paladin",
+    "world": "Nevia",
+    "level": 1711,
+    "value": 83193201253
+   },
+   {
+    "rank": 13,
+    "name": "Rafau De Maged",
+    "vocation": "Master Sorcerer",
+    "world": "Nevia",
+    "level": 1706,
+    "value": 82570567635
+   },
+   {
+    "rank": 14,
+    "name": "Jaruga",
+    "vocation": "Royal Paladin",
+    "world": "Nevia",
+    "level": 1663,
+    "value": 76480484983
+   },
+   {
+    "rank": 15,
+    "name": "Krakowski Smog",
+    "vocation": "Elder Druid",
+    "world": "Nevia",
+    "level": 1663,
+    "value": 76381112327
+   },
+   {
+    "rank": 16,
+    "name": "Mage Sat",
+    "vocation": "Master Sorcerer",
+    "world": "Nevia",
+    "level": 1635,
+    "value": 72673331472
+   },
+   {
+    "rank": 17,
+    "name": "Skillovsky",
+    "vocation": "Royal Paladin",
+    "world": "Nevia",
+    "level": 1633,
+    "value": 72384028205
+   },
+   {
+    "rank": 18,
+    "name": "Seymour Blood",
+    "vocation": "Master Sorcerer",
+    "world": "Nevia",
+    "level": 1615,
+    "value": 70063810229
+   },
+   {
+    "rank": 19,
+    "name": "Semirek",
+    "vocation": "Elite Knight",
+    "world": "Nevia",
+    "level": 1602,
+    "value": 68288858408
+   },
+   {
+    "rank": 20,
+    "name": "Sai Oh",
+    "vocation": "Elder Druid",
+    "world": "Nevia",
+    "level": 1598,
+    "value": 67798413434
+   },
+   {
+    "rank": 21,
+    "name": "Haikyou",
+    "vocation": "Royal Paladin",
+    "world": "Nevia",
+    "level": 1590,
+    "value": 66773606183
+   },
+   {
+    "rank": 22,
+    "name": "Yoddu",
+    "vocation": "Elder Druid",
+    "world": "Nevia",
+    "level": 1583,
+    "value": 65963751432
+   },
+   {
+    "rank": 23,
+    "name": "Silivren",
+    "vocation": "Royal Paladin",
+    "world": "Nevia",
+    "level": 1568,
+    "value": 64026503148
+   },
+   {
+    "rank": 24,
+    "name": "Poltora Kilogramik Elite",
+    "vocation": "Elite Knight",
+    "world": "Nevia",
+    "level": 1553,
+    "value": 62211629869
+   },
+   {
+    "rank": 25,
+    "name": "Chan Blue",
+    "vocation": "Royal Paladin",
+    "world": "Nevia",
+    "level": 1548,
+    "value": 61669212885
+   },
+   {
+    "rank": 26,
+    "name": "Pelny Brzuszek",
+    "vocation": "Elite Knight",
+    "world": "Nevia",
+    "level": 1541,
+    "value": 60842208368
+   },
+   {
+    "rank": 27,
+    "name": "Gzbek",
+    "vocation": "Elite Knight",
+    "world": "Nevia",
+    "level": 1537,
+    "value": 60329187227
+   },
+   {
+    "rank": 28,
+    "name": "Supersonic Lulu",
+    "vocation": "Elder Druid",
+    "world": "Nevia",
+    "level": 1536,
+    "value": 60237262514
+   },
+   {
+    "rank": 29,
+    "name": "Sosnowe",
+    "vocation": "Elite Knight",
+    "world": "Nevia",
+    "level": 1533,
+    "value": 59853259169
+   },
+   {
+    "rank": 30,
+    "name": "Sir Kekumber",
+    "vocation": "Master Sorcerer",
+    "world": "Nevia",
+    "level": 1527,
+    "value": 59113918494
+   },
+   {
+    "rank": 31,
+    "name": "Sir Cruelty",
+    "vocation": "Elite Knight",
+    "world": "Nevia",
+    "level": 1504,
+    "value": 56555060439
+   },
+   {
+    "rank": 32,
+    "name": "Ulany Brzuszek",
+    "vocation": "Elder Druid",
+    "world": "Nevia",
+    "level": 1503,
+    "value": 56446799761
+   },
+   {
+    "rank": 33,
+    "name": "Over For Chlop",
+    "vocation": "Royal Paladin",
+    "world": "Nevia",
+    "level": 1491,
+    "value": 55068751183
+   },
+   {
+    "rank": 34,
+    "name": "Rocktoy",
+    "vocation": "Royal Paladin",
+    "world": "Nevia",
+    "level": 1476,
+    "value": 53445360832
+   },
+   {
+    "rank": 35,
+    "name": "Roszada Starego",
+    "vocation": "Elite Knight",
+    "world": "Nevia",
+    "level": 1474,
+    "value": 53172242135
+   },
+   {
+    "rank": 36,
+    "name": "Akeyooshi",
+    "vocation": "Royal Paladin",
+    "world": "Nevia",
+    "level": 1466,
+    "value": 52398345408
+   },
+   {
+    "rank": 37,
+    "name": "Paladyn do Nerfa",
+    "vocation": "Royal Paladin",
+    "world": "Nevia",
+    "level": 1466,
+    "value": 52382675795
+   },
+   {
+    "rank": 38,
+    "name": "Doom Zeby",
+    "vocation": "Royal Paladin",
+    "world": "Nevia",
+    "level": 1460,
+    "value": 51681011452
+   },
+   {
+    "rank": 39,
+    "name": "Dejvoor",
+    "vocation": "Elite Knight",
+    "world": "Nevia",
+    "level": 1456,
+    "value": 51288849049
+   },
+   {
+    "rank": 40,
+    "name": "Lady Dashka",
+    "vocation": "Elite Knight",
+    "world": "Nevia",
+    "level": 1438,
+    "value": 49438839362
+   },
+   {
+    "rank": 41,
+    "name": "Kolllczan",
+    "vocation": "Master Sorcerer",
+    "world": "Nevia",
+    "level": 1437,
+    "value": 49287834177
+   },
+   {
+    "rank": 42,
+    "name": "Sir Dashek",
+    "vocation": "Elder Druid",
+    "world": "Nevia",
+    "level": 1436,
+    "value": 49226593318
+   },
+   {
+    "rank": 43,
+    "name": "Triddo",
+    "vocation": "Elite Knight",
+    "world": "Nevia",
+    "level": 1424,
+    "value": 47923952866
+   },
+   {
+    "rank": 44,
+    "name": "Tyrann Undead",
+    "vocation": "Elite Knight",
+    "world": "Nevia",
+    "level": 1415,
+    "value": 47061007725
+   },
+   {
+    "rank": 45,
+    "name": "Nemethor",
+    "vocation": "Elite Knight",
+    "world": "Nevia",
+    "level": 1405,
+    "value": 46044381915
+   },
+   {
+    "rank": 46,
+    "name": "Kate Walker",
+    "vocation": "Elite Knight",
+    "world": "Nevia",
+    "level": 1400,
+    "value": 45602238557
+   },
+   {
+    "rank": 47,
+    "name": "Maya Leya",
+    "vocation": "Elite Knight",
+    "world": "Nevia",
+    "level": 1400,
+    "value": 45588430370
+   },
+   {
+    "rank": 48,
+    "name": "Gicik Amane",
+    "vocation": "Master Sorcerer",
+    "world": "Nevia",
+    "level": 1366,
+    "value": 42326478114
+   },
+   {
+    "rank": 49,
+    "name": "Anti Druid",
+    "vocation": "Elder Druid",
+    "world": "Nevia",
+    "level": 1365,
+    "value": 42273554339
+   },
+   {
+    "rank": 50,
+    "name": "Wamphyr",
+    "vocation": "Master Sorcerer",
+    "world": "Nevia",
+    "level": 1357,
+    "value": 41499433183
+   }
+  ],
+  "highscore_page": {
+   "current_page": 1,
+   "total_pages": 20,
+   "total_records": 1000
+  }
+ },
+ "information": {
+  "api": {
+   "version": 4,
+   "release": "4.10.0",
+   "commit": "d53b603c7e235c45268bcf878ef2921b2356cf75"
+  },
+  "timestamp": "2026-09-30T05:01:03Z",
+  "tibia_urls": [
+   "https://www.tibia.com/community/?subtopic=highscores&world=Nevia&category=6&profession=0&currentpage=1"
+  ],
+  "status": {
+   "http_code": 200
+  }
+ }
+}

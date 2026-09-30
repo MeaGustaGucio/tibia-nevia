@@ -180,6 +180,9 @@ Yalahar Bog Raiders Central,sabreteeth,,,,,,1,Mutated Tiger
 Yalahar Bog Raiders Central,scythe legs,10312,,,,,1,Nightmare
 Yalahar Bog Raiders Central,soul orbs,5944,,,,,1,Nightmare
 Yalahar Bog Raiders Central,striped fur,10293,989,503,990,2026-09-14 21:38,1,Mutated Tiger
+Norc Castle,gold coins,,,,,,1,Tarantula
+Norc Castle,platinum coins,,,,,,1,Norcferatu Heartless|Norcferatu Nightweaver|Varg
+Norc Castle,tarantula eggs,10281,,90,,2026-09-14 21:38,1,Tarantula
 Cults Yalahar,cultish masks,9638,12498,9344,12499,2026-09-14 21:33,5,Enlightened of the Cult
 Cults Yalahar,cultish robes,9639,88,,89,2026-09-14 21:33,5,Adept of the Cult
 Cults Yalahar,gold coins,,,,,,5,Acolyte of the Cult|Adept of the Cult|Enlightened of the Cult|Novice of the Cult
@@ -214,12 +217,13 @@ Vandura Wyrm Lairs,gold coins,,,,,,1,Wyrm
 Vandura Wyrm Lairs,strong health potions,236,10,4,11,2026-09-14 21:18,1,Wyrm
 Vandura Wyrm Lairs,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Wyrm
 Vandura Wyrm Lairs,wyrm scales,9665,,,,,1,Wyrm
-Exotic cave,dark mushrooms,3728,,,,,3,Exotic Bat
-Exotic cave,great health potions,239,14,,15,2026-09-14 21:18,3,Exotic Cave Spider
-Exotic cave,great mana potions,53161,,,,,3,Exotic Bat
-Exotic cave,green mushrooms,3732,,,,,3,Exotic Bat
-Exotic cave,platinum coins,,,,,,3,Exotic Bat|Exotic Cave Spider
-Exotic cave,poison arrows,3448,,,,,3,Exotic Cave Spider
+Exotic cave,dark mushrooms,3728,,,,,4,Exotic Bat
+Exotic cave,great health potions,239,14,,15,2026-09-14 21:18,4,Exotic Cave Spider|Pirat Cutthroat
+Exotic cave,great mana potions,53161,,,,,4,Exotic Bat
+Exotic cave,green mushrooms,3732,,,,,4,Exotic Bat
+Exotic cave,ice rapiers,3284,995,684,996,2026-09-14 21:29,4,Pirat Cutthroat
+Exotic cave,platinum coins,,,,,,4,Exotic Bat|Exotic Cave Spider
+Exotic cave,poison arrows,3448,,,,,4,Exotic Cave Spider
 Pirat Wreckoning,cyan crystal fragments,16125,,,,,1,Pirat Mate
 Pirat Wreckoning,great health potions,239,14,,15,2026-09-14 21:18,1,Pirat Cutthroat
 Pirat Wreckoning,great mana potions,53161,,,,,1,Pirat Bombardier|Pirat Scoundrel
@@ -2340,9 +2344,6 @@ Edron Vampires,gold coins,,,,,,1,Vampire|Vampire Bride|Vampire Viscount
 Edron Vampires,platinum coins,,,,,,1,Vampire Bride
 Edron Vampires,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Vampire Bride
 Edron Vampires,vampire teeth,9685,491,300,492,2026-09-14 21:38,1,Vampire Bride
-Norc Castle,gold coins,,,,,,1,Tarantula
-Norc Castle,platinum coins,,,,,,1,Norcferatu Heartless|Norcferatu Nightweaver|Varg
-Norc Castle,tarantula eggs,10281,,90,,2026-09-14 21:38,1,Tarantula
 Asura Mirror,assassin stars,7368,14,4,15,2026-09-14 21:28,14,Frost Flower Asura
 Asura Mirror,demonic essence,6499,999,898,1000,2026-09-14 21:33,14,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 Asura Mirror,flasks of demonic blood,,,,,,14,Dawnfire Asura|Frost Flower Asura|Midnight Asura
