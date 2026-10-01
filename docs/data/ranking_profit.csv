@@ -34,7 +34,6 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 54069,Asura Mirror,"Aug 16, 2026 02:43",00:30h,30,1,RP 682,682,682,682,15911736,8652918,1575462,1280202,147630,1,1,0,https://www.hunt-analyser.com/hunt_sessions/54069
 56670,Teste 1 Quara Podizilla,"Sep 12, 2026 05:17",01:00h,60,1,MS 957,957,957,957,22430557,8785265,1467950,1355766,112184,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56670
 56710,Teste 2 Quara Podizilla,"Sep 12, 2026 16:36",01:04h,64,1,MS 958,958,958,958,13784361,8738120,1452054,1238735,227540,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56710
-52653,Weretiger -2,"Aug 01, 2026 10:30",00:37h,37,1,MS 508,508,508,508,13236024,4886185,1437871,1338150,61494,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52653
 52720,Weretigers -1,"Aug 02, 2026 04:55",00:47h,47,1,RP 674,674,674,674,7488382,5598638,1331313,1052277,218578,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52720
 57092,Norc Castle,"Sep 17, 2026 03:56",00:15h,15,1,ED 80,80,80,80,6899568,6899568,1327660,878452,112302,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57092
 53132,Ripper Spectre,"Aug 06, 2026 13:02",00:13h,13,1,MS 327,327,327,327,7386466,3624696,1047849,838384,45384,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53132
@@ -49,3 +48,4 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 53352,Lycanthrope Grounds (Edron),"Aug 08, 2026 20:04",00:15h,15,1,EK 271,271,271,271,2207516,1471680,477892,379412,24620,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53352
 53845,Crypt Warrior,"Aug 14, 2026 01:08",01:00h,60,0,,0,0,0,13899284,4329542,464720,464720,0,0,1,0,https://www.hunt-analyser.com/hunt_sessions/53845
 53617,Burster Spectre,"Aug 12, 2026 01:52",01:00h,60,1,RP 575,575,575,575,3677400,3677400,446932,78019,368913,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53617
+58278,Exotic cave,"Sep 29, 2026 21:24",00:41h,41,1,EK 130,130,130,130,1553550,1035706,341116,217122,84729,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58278
