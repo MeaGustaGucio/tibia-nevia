@@ -1147,17 +1147,20 @@ Walls South,gold coins,,,,,,1,Draken Spellweaver|Draken Warmaster
 Walls South,meat,3577,,,,,1,Draken Spellweaver|Draken Warmaster
 Walls South,platinum coins,,,,,,1,Draken Spellweaver|Draken Warmaster
 Walls South,weaver&#39;s wandtips,,,,,,1,Draken Spellweaver
-Pirats,acorns,10296,2327,1853,2328,2026-09-14 21:31,1,Squirrel
-Pirats,cyan crystal fragments,16125,,,,,1,Pirat Mate
-Pirats,gold coins,,,,,,1,Nightmare Scion
-Pirats,great health potions,239,14,,15,2026-09-14 21:18,1,Pirat Cutthroat
-Pirats,great mana potions,53161,,,,,1,Pirat Bombardier|Pirat Scoundrel
-Pirats,ice rapiers,3284,995,684,996,2026-09-14 21:29,1,Pirat Cutthroat
-Pirats,meat,3577,,,,,1,Nightmare Scion
-Pirats,mouldy powder,35596,,,,,1,Pirat Mate
-Pirats,pirate coins,35572,,,,,1,Pirat Mate
-Pirats,red crystal fragments,16126,,,,,1,Pirat Mate
-Pirats,small diamonds,3028,299,241,300,2026-09-14 21:24,1,Pirat Mate
+Pirats,acorns,10296,2327,1853,2328,2026-09-14 21:31,2,Squirrel
+Pirats,cyan crystal fragments,16125,,,,,2,Pirat Mate
+Pirats,dark mushrooms,3728,,,,,2,Exotic Bat
+Pirats,gold coins,,,,,,2,Nightmare Scion
+Pirats,great health potions,239,14,,15,2026-09-14 21:18,2,Pirat Cutthroat
+Pirats,great mana potions,53161,,,,,2,Exotic Bat|Pirat Bombardier|Pirat Scoundrel
+Pirats,green mushrooms,3732,,,,,2,Exotic Bat
+Pirats,ice rapiers,3284,995,684,996,2026-09-14 21:29,2,Pirat Cutthroat
+Pirats,meat,3577,,,,,2,Nightmare Scion
+Pirats,mouldy powder,35596,,,,,2,Pirat Mate
+Pirats,pirate coins,35572,,,,,2,Pirat Mate
+Pirats,platinum coins,,,,,,2,Exotic Bat
+Pirats,red crystal fragments,16126,,,,,2,Pirat Mate
+Pirats,small diamonds,3028,299,241,300,2026-09-14 21:24,2,Pirat Mate
 Otherworld Kazordoon,crystal bones,23521,,,,,1,Instable Breach Brood
 Otherworld Kazordoon,gold coins,,,,,,1,Instable Breach Brood|Instable Sparkion
 Otherworld Kazordoon,plasma pearls,23506,,,,,1,Instable Breach Brood
@@ -1807,7 +1810,7 @@ Quara Sunken Quarter,quara tentacles,11487,,,,,1,Quara Constrictor
 Quaras duo,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Quara Podzilla,platinum coins,,,,,,2,Quara Looter|Quara Plunderer|Quara Raider
 Quara (bestiary),platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
-Podzilla Quaras,platinum coins,,,,,,14,Quara Looter|Quara Plunderer|Quara Raider
+Podzilla Quaras,platinum coins,,,,,,15,Quara Looter|Quara Plunderer|Quara Raider
 Quaras Podzilla,platinum coins,,,,,,3,Quara Looter|Quara Plunderer|Quara Raider
 Teste 1 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Teste 2 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
@@ -3522,3 +3525,11 @@ Claustrophobic Inferno,crystal coins,,,,,,1,Brachiodemon|Infernal Demon|Infernal
 Claustrophobic Inferno,gold ingots,9058,,,,,1,Infernal Demon
 Claustrophobic Inferno,terra rods,3065,1955,1560,1956,2026-09-14 21:30,1,Infernal Phantom
 Claustrophobic Inferno,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Brachiodemon|Infernal Demon|Infernal Phantom
+Roshamuul Shock Heads,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Frazzlemaw
+Roshamuul Shock Heads,frazzle skins,20199,,,,,1,Frazzlemaw
+Roshamuul Shock Heads,frazzle tongues,20198,,,,,1,Frazzlemaw|Guzzlemaw
+Roshamuul Shock Heads,gold coins,,,,,,1,Frazzlemaw|Guzzlemaw|Shock Head|Silencer
+Roshamuul Shock Heads,great health potions,239,14,,15,2026-09-14 21:18,1,Frazzlemaw|Guzzlemaw
+Roshamuul Shock Heads,great mana potions,53161,,,,,1,Frazzlemaw|Guzzlemaw
+Roshamuul Shock Heads,platinum coins,,,,,,1,Frazzlemaw|Guzzlemaw|Silencer
+Roshamuul Shock Heads,silencer claws,20200,5438,3804,5439,2026-09-14 21:37,1,Silencer

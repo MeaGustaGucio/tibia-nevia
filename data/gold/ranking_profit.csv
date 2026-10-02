@@ -29,12 +29,13 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 57871,Podzilla Quaras,"Sep 24, 2026 23:16",01:02h,62,1,MS 919,919,919,919,26807108,12174555,2202769,2162832,41268,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57871
 55738,Podzilla Quaras,"Sep 02, 2026 21:50",02:00h,120,1,MS 901,901,901,901,21477751,9589163,2081464,1912473,337981,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55738
 56657,Quaras Podzilla,"Sep 11, 2026 23:39",01:06h,66,1,MS 1086,1086,1086,1086,31351750,13358831,2053045,2005647,52138,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56657
+58460,Podzilla Quaras,"Oct 01, 2026 21:19",02:11h,131,1,MS 923,923,923,923,26080254,11996650,1802086,1729751,157930,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58460
 56613,❄️ Iceplume Strider – Test Hunt,"Sep 11, 2026 15:17",00:20h,20,1,EM 916,916,916,916,12872277,8581533,1699935,1601820,32705,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56613
 54319,Werelions -1,"Aug 18, 2026 11:25",00:30h,30,1,RP 683,683,683,683,17464616,13646426,1642660,1440182,101239,1,1,0,https://www.hunt-analyser.com/hunt_sessions/54319
 54069,Asura Mirror,"Aug 16, 2026 02:43",00:30h,30,1,RP 682,682,682,682,15911736,8652918,1575462,1280202,147630,1,1,0,https://www.hunt-analyser.com/hunt_sessions/54069
 56670,Teste 1 Quara Podizilla,"Sep 12, 2026 05:17",01:00h,60,1,MS 957,957,957,957,22430557,8785265,1467950,1355766,112184,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56670
 56710,Teste 2 Quara Podizilla,"Sep 12, 2026 16:36",01:04h,64,1,MS 958,958,958,958,13784361,8738120,1452054,1238735,227540,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56710
-52720,Weretigers -1,"Aug 02, 2026 04:55",00:47h,47,1,RP 674,674,674,674,7488382,5598638,1331313,1052277,218578,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52720
+58439,Roshamuul Shock Heads,"Oct 02, 2026 01:02",01:00h,60,1,RP 590,590,590,590,6340345,4226898,1340670,777433,563237,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58439
 57092,Norc Castle,"Sep 17, 2026 03:56",00:15h,15,1,ED 80,80,80,80,6899568,6899568,1327660,878452,112302,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57092
 53132,Ripper Spectre,"Aug 06, 2026 13:02",00:13h,13,1,MS 327,327,327,327,7386466,3624696,1047849,838384,45384,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53132
 53639,Glooth Tower,"Aug 12, 2026 00:46",00:25h,25,1,EK 270,270,270,270,3387175,2258244,1026130,896296,54097,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53639
@@ -43,9 +44,8 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 53149,GAZER SPECTRE +21% DMG BOUNTY,"Aug 06, 2026 16:21",00:47h,47,0,,0,0,0,9713439,8077755,888391,888390,0,0,1,0,https://www.hunt-analyser.com/hunt_sessions/53149
 53031,Burster Spectres,"Aug 05, 2026 13:05",00:42h,42,1,RP 676,676,676,676,7030022,6215737,805934,630128,123064,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53031
 52884,Asura (Mirror),"Aug 03, 2026 22:24",01:00h,60,1,EK 637,637,637,637,5315561,3543830,776212,568882,207330,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52884
+58448,Pirats,"Oct 01, 2026 21:47",00:31h,31,1,EM 229,229,229,229,2934329,2043743,753608,610418,73981,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58448
 53711,Gnomegate Lava Hot Spot,"Aug 12, 2026 19:52",00:25h,25,1,EK 276,276,276,276,2131941,1184419,585235,538396,19516,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53711
 53750,Werelions -1,"Aug 12, 2026 22:03",00:37h,37,0,,0,0,0,3836680,2046372,507092,507092,0,0,1,0,https://www.hunt-analyser.com/hunt_sessions/53750
 53352,Lycanthrope Grounds (Edron),"Aug 08, 2026 20:04",00:15h,15,1,EK 271,271,271,271,2207516,1471680,477892,379412,24620,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53352
 53845,Crypt Warrior,"Aug 14, 2026 01:08",01:00h,60,0,,0,0,0,13899284,4329542,464720,464720,0,0,1,0,https://www.hunt-analyser.com/hunt_sessions/53845
-53617,Burster Spectre,"Aug 12, 2026 01:52",01:00h,60,1,RP 575,575,575,575,3677400,3677400,446932,78019,368913,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53617
-58278,Exotic cave,"Sep 29, 2026 21:24",00:41h,41,1,EK 130,130,130,130,1553550,1035706,341116,217122,84729,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58278
