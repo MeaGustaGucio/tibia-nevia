@@ -1,18 +1,18 @@
 spawn,norm,consensus_h,spread_pct,n_sources,members,sources
 Oramond Minos,Oramond Minos,1000000,1.0,1,Oramond Minos,guide:TibiaVault (2026-03)
-Pirats,Pirats,751788,0.0,2,Pirats,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Roshamuul Prison,Roshamuul Prison,750000,0.67,1,Roshamuul Prison,guide:MMOKB (2026-07-24)
 Cobra Bastion,Cobra Bastion,650000,0.46,1,Cobra Bastion,guide:MMOKB (2026-07-24)
 Asuras/Falcons,Asuras/Falcons,600000,0.0,1,Asuras/Falcons,community:gracze (link)
 Summer Court,Summer Court,500000,0.4,2,Summer Court,community:gracze (link)|guide:reddit r/TibiaMMO (2026)
 Asura Palace,Asura Palace,400000,1.0,1,Asura Palace,guide:TibiaVault (2026-03)
+Pirats,Pirats,375961,1.0,2,Pirats,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Nagas,Nagas,300000,0.0,2,Nagas,community:gracze (link)|guide:reddit r/TibiaMMO (2026)
 Burster Spectres,Burster Spectres,250000,0.4,1,Burster Spectres,guide:MMOKB (2026-07-24)
 Iksupan,Iksupan,225000,1.33,2,Iksupan,community:gracze (link)
 Edron Heroes -2-3,Edron Heroes -2-3,150000,0.0,1,Edron Heroes -2-3,community:gracze (link)
 Mutated Tigers Alchemy,Mutated Tigers Alchemy,148000,0.0,1,Mutated Tigers Alchemy,community:gracze (link)
-Medusa tower,Medusa tower,42039,20.73,2,Medusa tower,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Gnomegate Lava Hot Spot,Gnomegate Lava Hot Spot,41284,13.18,2,Gnomegate Lava Hot Spot,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
+Medusa tower,Medusa tower,41126,21.22,2,Medusa tower,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Lycanthrope Grounds (Edron),Lycanthrope Grounds (Edron),33488,13.27,2,Lycanthrope Grounds (Edron),computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Glooth Tower,Glooth Tower,24417,41.03,2,Glooth Tower,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Grim Reaper (Yalahar),Grim Reaper (Yalahar),21729,12.12,2,Grim Reaper (Yalahar),computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
