@@ -10,6 +10,7 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 56645,Quaras Podzilla,"Sep 11, 2026 22:04",01:06h,66,1,MS 1086,1086,1086,1086,30348861,13833180,2531636,2530546,1199,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56645
 57967,Podzilla Quaras,"Sep 25, 2026 22:32",01:56h,116,1,MS 920,920,920,920,29412454,13304952,2650802,2602929,92552,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57967
 57551,Podzilla Quaras,"Sep 21, 2026 21:19",02:02h,122,1,MS 917,917,917,917,28446030,12963023,2559540,2532059,55878,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57551
+58660,Podzilla Quaras,"Oct 03, 2026 22:39",01:01h,61,1,MS 926,926,926,926,28263413,12782591,1888781,1873740,15292,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58660
 57404,Podzilla Quaras,"Sep 20, 2026 11:35",02:03h,123,1,MS 916,916,916,916,27570447,12351299,2604112,2548624,113748,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57404
 57998,Podzilla Quaras,"Sep 26, 2026 11:29",01:02h,62,1,MS 922,922,922,922,27266807,12356835,2341441,2310659,31808,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57998
 57871,Podzilla Quaras,"Sep 24, 2026 23:16",01:02h,62,1,MS 919,919,919,919,26807108,12174555,2202769,2162832,41268,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57871
@@ -48,4 +49,3 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 49568,True asuras,"Jun 25, 2026 18:23",01:03h,63,2,ED 711+EK 713,711,713,712,14857149,6602972,3722503,3330521,411580,1,1,0,https://www.hunt-analyser.com/hunt_sessions/49568
 47999,Quara (bestiary),"May 28, 2026 06:51",01:04h,64,1,MS 1200,1200,1200,1200,14827378,8122931,1278075,768807,543219,1,1,0,https://www.hunt-analyser.com/hunt_sessions/47999
 49641,Feru way,"Jun 26, 2026 11:53",01:09h,69,1,RP 845,845,845,845,14563213,6472518,2702619,2221898,552829,1,1,0,https://www.hunt-analyser.com/hunt_sessions/49641
-44407,True asuras,"Mar 05, 2026 21:55",00:52h,52,2,EK 612+ED 612,612,612,612,14408098,5147589,2906880,2337735,493259,1,1,0,https://www.hunt-analyser.com/hunt_sessions/44407

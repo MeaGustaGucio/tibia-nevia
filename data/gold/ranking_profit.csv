@@ -1,11 +1,9 @@
 id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lvl,xp_h,raw_xp_h,loot_h,balance_h,supplies_total,supplies_known,has_creature_stats,event_flag,url
 57553,Claustrophobic Inferno,"Sep 21, 2026 22:37",00:40h,40,4,ED 934+EM 1122+RP 946+EK 778,778,1122,945,9079366,6053157,6732930,5671459,707647,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57553
-53032,Roothings -2 x4 Hunt,"Aug 04, 2026 17:02",02:01h,121,4,MS 913+ED 866+EM 766+EK 839,766,913,846,0,0,4214107,2578186,3299107,1,0,0,https://www.hunt-analyser.com/hunt_sessions/53032
 55194,True asuras,"Aug 27, 2026 18:38",01:03h,63,2,ED 776+EK 771,771,776,774,10428196,6952377,4002418,3487926,540216,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55194
 55514,True asuras,"Aug 31, 2026 08:31",01:09h,69,2,ED 782+EK 778,778,782,780,10431679,6954698,3983848,3491606,566077,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55514
 55427,True asuras,"Aug 30, 2026 10:24",01:17h,77,2,ED 779+EK 776,776,779,778,10265467,6843888,3769169,3237464,682354,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55427
 53422,Roshamuul DP,"Aug 09, 2026 18:31",02:17h,137,1,RP 1100,1100,1100,1100,17364049,9509254,3090824,2732461,818261,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53422
-52922,Roshamuul DP,"Aug 04, 2026 13:13",02:21h,141,1,RP 1098,1098,1098,1098,13519768,9013179,2865829,2614815,589882,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52922
 57344,Podzilla Quaras,"Sep 19, 2026 18:29",01:31h,91,1,MS 915,915,915,915,24171702,12240593,2662738,2624369,58193,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57344
 57967,Podzilla Quaras,"Sep 25, 2026 22:32",01:56h,116,1,MS 920,920,920,920,29412454,13304952,2650802,2602929,92552,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57967
 57028,Podzilla Quaras,"Sep 15, 2026 22:02",01:46h,106,1,MS 912,912,912,912,24708903,11639020,2614291,2570896,76664,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57028
@@ -29,6 +27,7 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 55738,Podzilla Quaras,"Sep 02, 2026 21:50",02:00h,120,1,MS 901,901,901,901,21477751,9589163,2081464,1912473,337981,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55738
 56657,Quaras Podzilla,"Sep 11, 2026 23:39",01:06h,66,1,MS 1086,1086,1086,1086,31351750,13358831,2053045,2005647,52138,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56657
 58564,Podzilla Quaras,"Oct 02, 2026 21:22",02:54h,174,1,MS 925,925,925,925,24888955,12396309,1924699,1787535,397774,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58564
+58660,Podzilla Quaras,"Oct 03, 2026 22:39",01:01h,61,1,MS 926,926,926,926,28263413,12782591,1888781,1873740,15292,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58660
 58460,Podzilla Quaras,"Oct 01, 2026 21:19",02:11h,131,1,MS 923,923,923,923,26080254,11996650,1802086,1729751,157930,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58460
 56613,❄️ Iceplume Strider – Test Hunt,"Sep 11, 2026 15:17",00:20h,20,1,EM 916,916,916,916,12872277,8581533,1699935,1601820,32705,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56613
 54319,Werelions -1,"Aug 18, 2026 11:25",00:30h,30,1,RP 683,683,683,683,17464616,13646426,1642660,1440182,101239,1,1,0,https://www.hunt-analyser.com/hunt_sessions/54319
@@ -49,3 +48,4 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 53352,Lycanthrope Grounds (Edron),"Aug 08, 2026 20:04",00:15h,15,1,EK 271,271,271,271,2207516,1471680,477892,379412,24620,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53352
 53845,Crypt Warrior,"Aug 14, 2026 01:08",01:00h,60,0,,0,0,0,13899284,4329542,464720,464720,0,0,1,0,https://www.hunt-analyser.com/hunt_sessions/53845
 53617,Burster Spectre,"Aug 12, 2026 01:52",01:00h,60,1,RP 575,575,575,575,3677400,3677400,446932,78019,368913,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53617
+58278,Exotic cave,"Sep 29, 2026 21:24",00:41h,41,1,EK 130,130,130,130,1553550,1035706,341116,217122,84729,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58278
