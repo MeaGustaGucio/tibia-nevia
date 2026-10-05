@@ -26,6 +26,7 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 57871,Podzilla Quaras,"Sep 24, 2026 23:16",01:02h,62,1,MS 919,919,919,919,26807108,12174555,2202769,2162832,41268,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57871
 55738,Podzilla Quaras,"Sep 02, 2026 21:50",02:00h,120,1,MS 901,901,901,901,21477751,9589163,2081464,1912473,337981,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55738
 56657,Quaras Podzilla,"Sep 11, 2026 23:39",01:06h,66,1,MS 1086,1086,1086,1086,31351750,13358831,2053045,2005647,52138,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56657
+58722,Podzilla Quaras,"Oct 04, 2026 16:19",02:08h,128,1,MS 927,927,927,927,29493035,13840499,1956337,1948717,16254,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58722
 58564,Podzilla Quaras,"Oct 02, 2026 21:22",02:54h,174,1,MS 925,925,925,925,24888955,12396309,1924699,1787535,397774,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58564
 58660,Podzilla Quaras,"Oct 03, 2026 22:39",01:01h,61,1,MS 926,926,926,926,28263413,12782591,1888781,1873740,15292,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58660
 58460,Podzilla Quaras,"Oct 01, 2026 21:19",02:11h,131,1,MS 923,923,923,923,26080254,11996650,1802086,1729751,157930,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58460
@@ -41,11 +42,10 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 57588,Medusa tower,"Sep 22, 2026 17:11",00:46h,46,1,RP 266,266,266,266,3469917,2313280,913643,509324,309978,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57588
 58141,Gazer Spectres,"Sep 27, 2026 20:02",01:03h,63,2,ED 414+EK 488,414,488,451,4001812,2667876,910091,836975,76772,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58141
 53149,GAZER SPECTRE +21% DMG BOUNTY,"Aug 06, 2026 16:21",00:47h,47,0,,0,0,0,9713439,8077755,888391,888390,0,0,1,0,https://www.hunt-analyser.com/hunt_sessions/53149
-53031,Burster Spectres,"Aug 05, 2026 13:05",00:42h,42,1,RP 676,676,676,676,7030022,6215737,805934,630128,123064,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53031
+58736,Burster Spectre Darashia,"Oct 04, 2026 20:41",00:28h,28,1,EK 364,364,364,364,5805000,3870000,753696,560715,90058,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58736
 58448,Pirats,"Oct 01, 2026 21:47",00:31h,31,1,EM 229,229,229,229,2934329,2043743,753608,610418,73981,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58448
 53711,Gnomegate Lava Hot Spot,"Aug 12, 2026 19:52",00:25h,25,1,EK 276,276,276,276,2131941,1184419,585235,538396,19516,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53711
 53750,Werelions -1,"Aug 12, 2026 22:03",00:37h,37,0,,0,0,0,3836680,2046372,507092,507092,0,0,1,0,https://www.hunt-analyser.com/hunt_sessions/53750
 53352,Lycanthrope Grounds (Edron),"Aug 08, 2026 20:04",00:15h,15,1,EK 271,271,271,271,2207516,1471680,477892,379412,24620,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53352
 53845,Crypt Warrior,"Aug 14, 2026 01:08",01:00h,60,0,,0,0,0,13899284,4329542,464720,464720,0,0,1,0,https://www.hunt-analyser.com/hunt_sessions/53845
 53617,Burster Spectre,"Aug 12, 2026 01:52",01:00h,60,1,RP 575,575,575,575,3677400,3677400,446932,78019,368913,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53617
-58278,Exotic cave,"Sep 29, 2026 21:24",00:41h,41,1,EK 130,130,130,130,1553550,1035706,341116,217122,84729,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58278
