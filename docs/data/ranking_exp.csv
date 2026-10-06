@@ -6,6 +6,7 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 47353,Rootthings -2 (Podzilla),"May 15, 2026 09:21",01:30h,90,4,MS 858+ED 977+EK 984+RP 940,858,984,940,32988994,12005647,5170567,3583308,2380888,1,1,0,https://www.hunt-analyser.com/hunt_sessions/47353
 47363,Rootthings -2 (Podzilla),"May 15, 2026 11:19",01:29h,89,4,MS 858+ED 977+EK 984+RP 940,858,984,940,31770138,11451865,4815506,3186873,2415805,1,1,0,https://www.hunt-analyser.com/hunt_sessions/47363
 56657,Quaras Podzilla,"Sep 11, 2026 23:39",01:06h,66,1,MS 1086,1086,1086,1086,31351750,13358831,2053045,2005647,52138,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56657
+58828,Podzilla Quaras,"Oct 05, 2026 20:32",02:04h,124,1,MS 929,929,929,929,31228334,13074860,2094855,2066325,58961,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58828
 50187,True asuras,"Jul 02, 2026 18:15",00:22h,22,2,ED 731+EK 734,731,734,732,31222404,13876194,3877189,3276730,220168,1,1,0,https://www.hunt-analyser.com/hunt_sessions/50187
 56645,Quaras Podzilla,"Sep 11, 2026 22:04",01:06h,66,1,MS 1086,1086,1086,1086,30348861,13833180,2531636,2530546,1199,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56645
 58722,Podzilla Quaras,"Oct 04, 2026 16:19",02:08h,128,1,MS 927,927,927,927,29493035,13840499,1956337,1948717,16254,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58722
@@ -48,4 +49,3 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 54405,Upper Roshamuul,"Aug 19, 2026 05:10",02:00h,120,1,RP 793,793,793,793,15255424,7244838,2433468,1849759,1167418,1,1,0,https://www.hunt-analyser.com/hunt_sessions/54405
 49759,True asuras,"Jun 27, 2026 16:30",01:19h,79,2,ED 717+EK 718,717,718,718,15213008,6675341,3561406,3099312,608423,1,1,0,https://www.hunt-analyser.com/hunt_sessions/49759
 49568,True asuras,"Jun 25, 2026 18:23",01:03h,63,2,ED 711+EK 713,711,713,712,14857149,6602972,3722503,3330521,411580,1,1,0,https://www.hunt-analyser.com/hunt_sessions/49568
-47999,Quara (bestiary),"May 28, 2026 06:51",01:04h,64,1,MS 1200,1200,1200,1200,14827378,8122931,1278075,768807,543219,1,1,0,https://www.hunt-analyser.com/hunt_sessions/47999
