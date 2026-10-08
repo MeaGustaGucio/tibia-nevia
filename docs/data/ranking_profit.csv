@@ -27,6 +27,7 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 57871,Podzilla Quaras,"Sep 24, 2026 23:16",01:02h,62,1,MS 919,919,919,919,26807108,12174555,2202769,2162832,41268,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57871
 58828,Podzilla Quaras,"Oct 05, 2026 20:32",02:04h,124,1,MS 929,929,929,929,31228334,13074860,2094855,2066325,58961,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58828
 55738,Podzilla Quaras,"Sep 02, 2026 21:50",02:00h,120,1,MS 901,901,901,901,21477751,9589163,2081464,1912473,337981,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55738
+59008,Podzilla Quaras,"Oct 07, 2026 20:39",02:33h,153,1,MS 933,933,933,933,28458567,12463233,2065208,2046881,46734,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59008
 56657,Quaras Podzilla,"Sep 11, 2026 23:39",01:06h,66,1,MS 1086,1086,1086,1086,31351750,13358831,2053045,2005647,52138,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56657
 58722,Podzilla Quaras,"Oct 04, 2026 16:19",02:08h,128,1,MS 927,927,927,927,29493035,13840499,1956337,1948717,16254,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58722
 58564,Podzilla Quaras,"Oct 02, 2026 21:22",02:54h,174,1,MS 925,925,925,925,24888955,12396309,1924699,1787535,397774,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58564
@@ -35,10 +36,12 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 56613,❄️ Iceplume Strider – Test Hunt,"Sep 11, 2026 15:17",00:20h,20,1,EM 916,916,916,916,12872277,8581533,1699935,1601820,32705,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56613
 54319,Werelions -1,"Aug 18, 2026 11:25",00:30h,30,1,RP 683,683,683,683,17464616,13646426,1642660,1440182,101239,1,1,0,https://www.hunt-analyser.com/hunt_sessions/54319
 54069,Asura Mirror,"Aug 16, 2026 02:43",00:30h,30,1,RP 682,682,682,682,15911736,8652918,1575462,1280202,147630,1,1,0,https://www.hunt-analyser.com/hunt_sessions/54069
+58972,Podzilla Quaras,"Oct 07, 2026 13:17",01:00h,60,2,ED 936+EK 754,754,936,845,10870646,5853077,1514600,1055075,459525,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58972
 56670,Teste 1 Quara Podizilla,"Sep 12, 2026 05:17",01:00h,60,1,MS 957,957,957,957,22430557,8785265,1467950,1355766,112184,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56670
 56710,Teste 2 Quara Podizilla,"Sep 12, 2026 16:36",01:04h,64,1,MS 958,958,958,958,13784361,8738120,1452054,1238735,227540,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56710
 58439,Roshamuul Shock Heads,"Oct 02, 2026 01:02",01:00h,60,1,RP 590,590,590,590,6340345,4226898,1340670,777433,563237,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58439
 57092,Norc Castle,"Sep 17, 2026 03:56",00:15h,15,1,ED 80,80,80,80,6899568,6899568,1327660,878452,112302,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57092
+58956,Ripper Spectre Solo MS +650,"Oct 04, 2026 15:36",01:32h,92,1,MS 655,655,655,655,4551026,3034131,1037744,830461,317834,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58956
 53639,Glooth Tower,"Aug 12, 2026 00:46",00:25h,25,1,EK 270,270,270,270,3387175,2258244,1026130,896296,54097,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53639
 57588,Medusa tower,"Sep 22, 2026 17:11",00:46h,46,1,RP 266,266,266,266,3469917,2313280,913643,509324,309978,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57588
 58141,Gazer Spectres,"Sep 27, 2026 20:02",01:03h,63,2,ED 414+EK 488,414,488,451,4001812,2667876,910091,836975,76772,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58141
@@ -46,6 +49,3 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 58448,Pirats,"Oct 01, 2026 21:47",00:31h,31,1,EM 229,229,229,229,2934329,2043743,753608,610418,73981,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58448
 58896,Draken Walls North Solo EK,"Oct 06, 2026 20:04",01:01h,61,1,EK 247,247,247,247,2961368,1974245,606530,342032,268906,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58896
 53711,Gnomegate Lava Hot Spot,"Aug 12, 2026 19:52",00:25h,25,1,EK 276,276,276,276,2131941,1184419,585235,538396,19516,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53711
-58875,Banuta -6,"Oct 06, 2026 16:20",00:51h,51,1,EM 214,214,214,214,2503625,1669085,540205,271521,228381,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58875
-53750,Werelions -1,"Aug 12, 2026 22:03",00:37h,37,0,,0,0,0,3836680,2046372,507092,507092,0,0,1,0,https://www.hunt-analyser.com/hunt_sessions/53750
-53352,Lycanthrope Grounds (Edron),"Aug 08, 2026 20:04",00:15h,15,1,EK 271,271,271,271,2207516,1471680,477892,379412,24620,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53352

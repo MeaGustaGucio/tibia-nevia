@@ -1,8 +1,8 @@
 spawn,norm,kind,source,lo,hi,n,date,url,cluster,cluster_members
-Ora West,ora,computed,sesje+kille (nasz model),53783,53783,1,2026-10-07,,Ora West,Ora West
-Exotic cave,cave exotic,computed,sesje+kille (nasz model),42845,42845,1,2026-10-07,,Exotic cave,Exotic cave
-Ora West,ora,measured,mediana loot/h z sesji,165626,165626,1,2026-10-07,https://www.hunt-analyser.com/hunt_sessions/58874,Ora West,Ora West
-Exotic cave,cave exotic,measured,mediana loot/h z sesji,341116,341116,1,2026-10-07,https://www.hunt-analyser.com/hunt_sessions/58278,Exotic cave,Exotic cave
+Exotic cave,cave exotic,computed,sesje+kille (nasz model),37884,37884,1,2026-10-08,,Exotic cave,Exotic cave
+Ora West,ora,computed,sesje+kille (nasz model),35122,35122,1,2026-10-08,,Ora West,Ora West
+Ora West,ora,measured,mediana loot/h z sesji,165626,165626,1,2026-10-08,https://www.hunt-analyser.com/hunt_sessions/58874,Ora West,Ora West
+Exotic cave,cave exotic,measured,mediana loot/h z sesji,341116,341116,1,2026-10-08,https://www.hunt-analyser.com/hunt_sessions/58278,Exotic cave,Exotic cave
 Werehyenas,werehyena,guide,MMOKB (2026-07-24),200000,400000,,2026-07-24,,Werehyenas,Werehyenas
 Gazer Spectres,gazer spectre,guide,MMOKB (2026-07-24),100000,200000,,2026-07-24,,Gazer Spectres,Gazer Spectres
 Glooth Bandits,bandit glooth,guide,MMOKB+TibiaVault (2026-07-24),200000,700000,,2026-07-24,,Glooth Bandits,Glooth Bandits
