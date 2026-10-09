@@ -3,7 +3,6 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 55194,True asuras,"Aug 27, 2026 18:38",01:03h,63,2,ED 776+EK 771,771,776,774,10428196,6952377,4002418,3487926,540216,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55194
 55514,True asuras,"Aug 31, 2026 08:31",01:09h,69,2,ED 782+EK 778,778,782,780,10431679,6954698,3983848,3491606,566077,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55514
 55427,True asuras,"Aug 30, 2026 10:24",01:17h,77,2,ED 779+EK 776,776,779,778,10265467,6843888,3769169,3237464,682354,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55427
-53422,Roshamuul DP,"Aug 09, 2026 18:31",02:17h,137,1,RP 1100,1100,1100,1100,17364049,9509254,3090824,2732461,818261,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53422
 57344,Podzilla Quaras,"Sep 19, 2026 18:29",01:31h,91,1,MS 915,915,915,915,24171702,12240593,2662738,2624369,58193,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57344
 57967,Podzilla Quaras,"Sep 25, 2026 22:32",01:56h,116,1,MS 920,920,920,920,29412454,13304952,2650802,2602929,92552,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57967
 57028,Podzilla Quaras,"Sep 15, 2026 22:02",01:46h,106,1,MS 912,912,912,912,24708903,11639020,2614291,2570896,76664,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57028
@@ -49,3 +48,4 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 58448,Pirats,"Oct 01, 2026 21:47",00:31h,31,1,EM 229,229,229,229,2934329,2043743,753608,610418,73981,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58448
 58896,Draken Walls North Solo EK,"Oct 06, 2026 20:04",01:01h,61,1,EK 247,247,247,247,2961368,1974245,606530,342032,268906,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58896
 53711,Gnomegate Lava Hot Spot,"Aug 12, 2026 19:52",00:25h,25,1,EK 276,276,276,276,2131941,1184419,585235,538396,19516,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53711
+58875,Banuta -6,"Oct 06, 2026 16:20",00:51h,51,1,EM 214,214,214,214,2503625,1669085,540205,271521,228381,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58875
