@@ -7,7 +7,9 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 57967,Podzilla Quaras,"Sep 25, 2026 22:32",01:56h,116,1,MS 920,920,920,920,29412454,13304952,2650802,2602929,92552,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57967
 57028,Podzilla Quaras,"Sep 15, 2026 22:02",01:46h,106,1,MS 912,912,912,912,24708903,11639020,2614291,2570896,76664,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57028
 57404,Podzilla Quaras,"Sep 20, 2026 11:35",02:03h,123,1,MS 916,916,916,916,27570447,12351299,2604112,2548624,113748,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57404
+59187,Roshamuul DP,"Oct 10, 2026 01:29",00:07h,7,1,EM 565,565,565,565,12205431,8136960,2587877,2464962,14340,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59187
 58226,Podzilla Quaras,"Sep 28, 2026 21:17",02:06h,126,1,MS 922,922,922,922,26741308,12101609,2577848,2505160,152644,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58226
+59127,Asura cidadel -2,"Oct 09, 2026 08:46",00:54h,54,1,EK 1201,1201,1201,1201,9472070,9472070,2573858,2348516,202807,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59127
 57551,Podzilla Quaras,"Sep 21, 2026 21:19",02:02h,122,1,MS 917,917,917,917,28446030,12963023,2559540,2532059,55878,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57551
 56841,Podzilla Quaras,"Sep 13, 2026 21:35",02:14h,134,1,MS 909,909,909,909,23684524,10975401,2550560,2156436,880210,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56841
 56813,❄️ Iceplume Strider – Bounty Hunt,"Sep 13, 2026 17:25",01:01h,61,1,EM 918,918,918,918,13409448,8939641,2532536,2430367,103871,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56813
@@ -22,6 +24,7 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 57998,Podzilla Quaras,"Sep 26, 2026 11:29",01:02h,62,1,MS 922,922,922,922,27266807,12356835,2341441,2310659,31808,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57998
 56931,Podzilla Quaras,"Sep 14, 2026 21:35",02:06h,126,1,MS 910,910,910,910,26803598,10939691,2320544,2248862,150530,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56931
 57171,Podzilla Quaras,"Sep 17, 2026 22:04",02:06h,126,1,MS 913,913,913,913,25736441,11635015,2306048,2227467,165020,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57171
+59184,Podzilla Quaras,"Oct 09, 2026 21:36",02:24h,144,1,MS 935,935,935,935,30389072,13693035,2280606,2259027,51787,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59184
 58909,Podzilla Quaras,"Oct 06, 2026 21:17",02:30h,150,1,MS 931,931,931,931,30074754,13418599,2279845,2235265,111450,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58909
 57871,Podzilla Quaras,"Sep 24, 2026 23:16",01:02h,62,1,MS 919,919,919,919,26807108,12174555,2202769,2162832,41268,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57871
 58828,Podzilla Quaras,"Oct 05, 2026 20:32",02:04h,124,1,MS 929,929,929,929,31228334,13074860,2094855,2066325,58961,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58828
@@ -46,6 +49,3 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 58141,Gazer Spectres,"Sep 27, 2026 20:02",01:03h,63,2,ED 414+EK 488,414,488,451,4001812,2667876,910091,836975,76772,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58141
 58736,Burster Spectre Darashia,"Oct 04, 2026 20:41",00:28h,28,1,EK 364,364,364,364,5805000,3870000,753696,560715,90058,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58736
 58448,Pirats,"Oct 01, 2026 21:47",00:31h,31,1,EM 229,229,229,229,2934329,2043743,753608,610418,73981,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58448
-58896,Draken Walls North Solo EK,"Oct 06, 2026 20:04",01:01h,61,1,EK 247,247,247,247,2961368,1974245,606530,342032,268906,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58896
-53711,Gnomegate Lava Hot Spot,"Aug 12, 2026 19:52",00:25h,25,1,EK 276,276,276,276,2131941,1184419,585235,538396,19516,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53711
-58875,Banuta -6,"Oct 06, 2026 16:20",00:51h,51,1,EM 214,214,214,214,2503625,1669085,540205,271521,228381,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58875

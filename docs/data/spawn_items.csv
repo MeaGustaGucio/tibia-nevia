@@ -1812,7 +1812,7 @@ Quara Sunken Quarter,quara tentacles,11487,,,,,1,Quara Constrictor
 Quaras duo,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Quara Podzilla,platinum coins,,,,,,2,Quara Looter|Quara Plunderer|Quara Raider
 Quara (bestiary),platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
-Podzilla Quaras,platinum coins,,,,,,22,Quara Looter|Quara Plunderer|Quara Raider
+Podzilla Quaras,platinum coins,,,,,,23,Quara Looter|Quara Plunderer|Quara Raider
 Quaras Podzilla,platinum coins,,,,,,3,Quara Looter|Quara Plunderer|Quara Raider
 Teste 1 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Teste 2 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
@@ -3284,21 +3284,21 @@ North Roshamuul (South - SOLO RP),platinum coins,,,,,,1,Choking Fear|Frazzlemaw|
 North Roshamuul (South - SOLO RP),pools of chitinous glue,,,,,,1,Retching Horror
 North Roshamuul (South - SOLO RP),silencer claws,20200,5438,3804,5439,2026-09-14 21:37,1,Silencer
 North Roshamuul (South - SOLO RP),ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Choking Fear
-Roshamuul DP,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,3,Choking Fear|Frazzlemaw
-Roshamuul DP,brown mushrooms,3725,9,,10,2026-09-14 21:09,3,Retching Horror
-Roshamuul DP,dead weights,20202,,,,,3,Choking Fear
-Roshamuul DP,frazzle skins,20199,,,,,3,Frazzlemaw
-Roshamuul DP,frazzle tongues,20198,,,,,3,Frazzlemaw
-Roshamuul DP,gold coins,,,,,,3,Frazzlemaw|Silencer
-Roshamuul DP,goosebump leathers,20205,,,,,3,Retching Horror
-Roshamuul DP,great health potions,239,14,,15,2026-09-14 21:18,3,Frazzlemaw|Retching Horror
-Roshamuul DP,great mana potions,53161,,,,,3,Choking Fear|Frazzlemaw|Retching Horror
-Roshamuul DP,great spirit potions,7642,151,113,152,2026-09-14 21:18,3,Choking Fear
-Roshamuul DP,hemp ropes,20206,,,,,3,Choking Fear
-Roshamuul DP,platinum coins,,,,,,3,Choking Fear|Frazzlemaw|Retching Horror|Silencer
-Roshamuul DP,pools of chitinous glue,,,,,,3,Retching Horror
-Roshamuul DP,silencer claws,20200,5438,3804,5439,2026-09-14 21:37,3,Silencer
-Roshamuul DP,ultimate health potions,7643,108,91,109,2026-09-14 21:18,3,Choking Fear
+Roshamuul DP,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,4,Choking Fear|Frazzlemaw
+Roshamuul DP,brown mushrooms,3725,9,,10,2026-09-14 21:09,4,Retching Horror
+Roshamuul DP,dead weights,20202,,,,,4,Choking Fear
+Roshamuul DP,frazzle skins,20199,,,,,4,Frazzlemaw
+Roshamuul DP,frazzle tongues,20198,,,,,4,Frazzlemaw
+Roshamuul DP,gold coins,,,,,,4,Frazzlemaw|Silencer
+Roshamuul DP,goosebump leathers,20205,,,,,4,Retching Horror
+Roshamuul DP,great health potions,239,14,,15,2026-09-14 21:18,4,Frazzlemaw|Retching Horror
+Roshamuul DP,great mana potions,53161,,,,,4,Choking Fear|Frazzlemaw|Retching Horror
+Roshamuul DP,great spirit potions,7642,151,113,152,2026-09-14 21:18,4,Choking Fear
+Roshamuul DP,hemp ropes,20206,,,,,4,Choking Fear
+Roshamuul DP,platinum coins,,,,,,4,Choking Fear|Frazzlemaw|Retching Horror|Silencer
+Roshamuul DP,pools of chitinous glue,,,,,,4,Retching Horror
+Roshamuul DP,silencer claws,20200,5438,3804,5439,2026-09-14 21:37,4,Silencer
+Roshamuul DP,ultimate health potions,7643,108,91,109,2026-09-14 21:18,4,Choking Fear
 Upper Roshamuul,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Choking Fear|Frazzlemaw
 Upper Roshamuul,brown mushrooms,3725,9,,10,2026-09-14 21:09,1,Retching Horror
 Upper Roshamuul,dead weights,20202,,,,,1,Choking Fear
@@ -3573,3 +3573,5 @@ Draken Walls North Solo EK,weaver&#39;s wandtips,,,,,,1,Draken Spellweaver
 Ripper Spectre Solo MS +650,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Arachnophobica|Ripper Spectre
 Ripper Spectre Solo MS +650,platinum coins,,,,,,1,Arachnophobica|Ripper Spectre
 Ripper Spectre Solo MS +650,two handed swords,3265,,,,,1,Ripper Spectre
+Asura cidadel -2,platinum coins,,,,,,1,Iceplume Strider|Silverfrost Sentinel
+Asura cidadel -2,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Iceplume Strider|Silverfrost Sentinel
