@@ -26,6 +26,7 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 57171,Podzilla Quaras,"Sep 17, 2026 22:04",02:06h,126,1,MS 913,913,913,913,25736441,11635015,2306048,2227467,165020,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57171
 59184,Podzilla Quaras,"Oct 09, 2026 21:36",02:24h,144,1,MS 935,935,935,935,30389072,13693035,2280606,2259027,51787,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59184
 58909,Podzilla Quaras,"Oct 06, 2026 21:17",02:30h,150,1,MS 931,931,931,931,30074754,13418599,2279845,2235265,111450,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58909
+59300,Podzilla Quaras,"Oct 11, 2026 11:39",02:07h,127,1,MS 936,936,936,936,31502081,13429385,2217153,2185351,67314,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59300
 57871,Podzilla Quaras,"Sep 24, 2026 23:16",01:02h,62,1,MS 919,919,919,919,26807108,12174555,2202769,2162832,41268,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57871
 58828,Podzilla Quaras,"Oct 05, 2026 20:32",02:04h,124,1,MS 929,929,929,929,31228334,13074860,2094855,2066325,58961,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58828
 55738,Podzilla Quaras,"Sep 02, 2026 21:50",02:00h,120,1,MS 901,901,901,901,21477751,9589163,2081464,1912473,337981,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55738
@@ -33,6 +34,7 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 56657,Quaras Podzilla,"Sep 11, 2026 23:39",01:06h,66,1,MS 1086,1086,1086,1086,31351750,13358831,2053045,2005647,52138,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56657
 59231,Podzilla Quaras,"Oct 10, 2026 14:00",02:03h,123,1,MS 936,936,936,936,29202663,13004650,2020799,2004791,32814,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59231
 58722,Podzilla Quaras,"Oct 04, 2026 16:19",02:08h,128,1,MS 927,927,927,927,29493035,13840499,1956337,1948717,16254,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58722
+59321,Podzilla Quaras,"Oct 11, 2026 18:32",00:59h,59,1,MS 938,938,938,938,32332698,13080784,1943287,1927944,15087,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59321
 58564,Podzilla Quaras,"Oct 02, 2026 21:22",02:54h,174,1,MS 925,925,925,925,24888955,12396309,1924699,1787535,397774,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58564
 58660,Podzilla Quaras,"Oct 03, 2026 22:39",01:01h,61,1,MS 926,926,926,926,28263413,12782591,1888781,1873740,15292,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58660
 58460,Podzilla Quaras,"Oct 01, 2026 21:19",02:11h,131,1,MS 923,923,923,923,26080254,11996650,1802086,1729751,157930,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58460
@@ -45,7 +47,5 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 58439,Roshamuul Shock Heads,"Oct 02, 2026 01:02",01:00h,60,1,RP 590,590,590,590,6340345,4226898,1340670,777433,563237,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58439
 57092,Norc Castle,"Sep 17, 2026 03:56",00:15h,15,1,ED 80,80,80,80,6899568,6899568,1327660,878452,112302,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57092
 58956,Ripper Spectre Solo MS +650,"Oct 04, 2026 15:36",01:32h,92,1,MS 655,655,655,655,4551026,3034131,1037744,830461,317834,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58956
-53639,Glooth Tower,"Aug 12, 2026 00:46",00:25h,25,1,EK 270,270,270,270,3387175,2258244,1026130,896296,54097,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53639
 57588,Medusa tower,"Sep 22, 2026 17:11",00:46h,46,1,RP 266,266,266,266,3469917,2313280,913643,509324,309978,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57588
 58141,Gazer Spectres,"Sep 27, 2026 20:02",01:03h,63,2,ED 414+EK 488,414,488,451,4001812,2667876,910091,836975,76772,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58141
-58736,Burster Spectre Darashia,"Oct 04, 2026 20:41",00:28h,28,1,EK 364,364,364,364,5805000,3870000,753696,560715,90058,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58736
