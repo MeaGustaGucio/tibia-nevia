@@ -1812,7 +1812,7 @@ Quara Sunken Quarter,quara tentacles,11487,,,,,1,Quara Constrictor
 Quaras duo,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Quara Podzilla,platinum coins,,,,,,2,Quara Looter|Quara Plunderer|Quara Raider
 Quara (bestiary),platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
-Podzilla Quaras,platinum coins,,,,,,27,Quara Looter|Quara Plunderer|Quara Raider
+Podzilla Quaras,platinum coins,,,,,,28,Quara Looter|Quara Plunderer|Quara Raider
 Quaras Podzilla,platinum coins,,,,,,3,Quara Looter|Quara Plunderer|Quara Raider
 Teste 1 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Teste 2 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
@@ -1884,19 +1884,19 @@ Werelions -1,rapiers,3272,,,,,7,Werelioness
 Werelions -1,soul orbs,5944,,,,,7,Werelioness
 Werelions -1,terra boots,813,2798,2203,2799,2026-09-14 21:03,7,White Lion
 Werelions -1,twin hooks,10392,,,,,7,White Lion
-Werelion -1,axes,3274,,,,,8,White Lion
-Werelion -1,dark armors,3383,,,,,8,Werelion
-Werelion -1,gold coins,,,,,,8,Werelioness
-Werelion -1,great spirit potions,7642,151,113,152,2026-09-14 21:18,8,Werelion|White Lion
-Werelion -1,ham,3582,,,,,8,Werelioness
-Werelion -1,leather boots,3552,,,,,8,White Lion
-Werelion -1,lion&#39;s manes,,,,,,8,Werelion|Werelioness|White Lion
-Werelion -1,meat,3577,,,,,8,Werelioness
-Werelion -1,platinum coins,,,,,,8,Werelion|Werelioness|White Lion
-Werelion -1,rapiers,3272,,,,,8,Werelioness
-Werelion -1,soul orbs,5944,,,,,8,Werelioness
-Werelion -1,terra boots,813,2798,2203,2799,2026-09-14 21:03,8,White Lion
-Werelion -1,twin hooks,10392,,,,,8,White Lion
+Werelion -1,axes,3274,,,,,9,White Lion
+Werelion -1,dark armors,3383,,,,,9,Werelion
+Werelion -1,gold coins,,,,,,9,Werelioness
+Werelion -1,great spirit potions,7642,151,113,152,2026-09-14 21:18,9,Werelion|White Lion
+Werelion -1,ham,3582,,,,,9,Werelioness
+Werelion -1,leather boots,3552,,,,,9,White Lion
+Werelion -1,lion&#39;s manes,,,,,,9,Werelion|Werelioness|White Lion
+Werelion -1,meat,3577,,,,,9,Werelioness
+Werelion -1,platinum coins,,,,,,9,Werelion|Werelioness|White Lion
+Werelion -1,rapiers,3272,,,,,9,Werelioness
+Werelion -1,soul orbs,5944,,,,,9,Werelioness
+Werelion -1,terra boots,813,2798,2203,2799,2026-09-14 21:03,9,White Lion
+Werelion -1,twin hooks,10392,,,,,9,White Lion
 Werelions -2,axes,3274,,,,,5,White Lion
 Werelions -2,dark armors,3383,,,,,5,Werelion
 Werelions -2,gold coins,,,,,,5,Werelioness
@@ -3573,3 +3573,37 @@ Ripper Spectre Solo MS +650,platinum coins,,,,,,1,Arachnophobica|Ripper Spectre
 Ripper Spectre Solo MS +650,two handed swords,3265,,,,,1,Ripper Spectre
 Asura cidadel -2,platinum coins,,,,,,1,Iceplume Strider|Silverfrost Sentinel
 Asura cidadel -2,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Iceplume Strider|Silverfrost Sentinel
+Demons Goroma,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Demon|Hellhound
+Demons Goroma,black pearls,3027,279,231,280,2026-09-14 21:21,1,Hellhound
+Demons Goroma,blank runes,3147,,7,,2026-09-14 21:19,1,Fire Devil
+Demons Goroma,blazing bones,16131,787,363,788,2026-09-14 21:31,1,Hellhound
+Demons Goroma,cultish masks,9638,12498,9344,12499,2026-09-14 21:33,1,Enlightened of the Cult
+Demons Goroma,cultish robes,9639,88,,89,2026-09-14 21:33,1,Adept of the Cult
+Demons Goroma,dark rosaries,,,,,,1,Priestess
+Demons Goroma,demon horns,5954,,,,,1,Demon
+Demons Goroma,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Demon|Hellhound
+Demons Goroma,demonic skeletal hands,9647,,,,,1,Demon Skeleton
+Demons Goroma,dragon ham,3583,,,,,1,Dragon Lord
+Demons Goroma,fiery hearts,9636,,,,,1,Hellhound
+Demons Goroma,fire mushrooms,3731,,,,,1,Demon
+Demons Goroma,flasks of demonic blood,,,,,,1,Hellhound
+Demons Goroma,goat grasses,,,,,,1,Priestess
+Demons Goroma,gold coins,,,,,,1,Acolyte of the Cult|Adept of the Cult|Demon|Demon Skeleton|Dragon Lord|Enlightened of the Cult
+Demons Goroma,great mana potions,53161,,,,,1,Demon|Hellhound
+Demons Goroma,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Demon|Hellhound
+Demons Goroma,green mushrooms,3732,,,,,1,Dragon Lord
+Demons Goroma,ham,3582,,,,,1,Hellhound
+Demons Goroma,hardened bones,5925,,,,,1,Hellhound
+Demons Goroma,hellhound slobber,9637,,,,,1,Hellhound
+Demons Goroma,nothing ,,,,,,1,Fire Elemental
+Demons Goroma,platinum coins,,,,,,1,Demon|Hellhound
+Demons Goroma,rope belts,11492,5096,4315,5097,2026-09-14 21:37,1,Acolyte of the Cult|Adept of the Cult
+Demons Goroma,sling herbs,3738,,,,,1,Priestess
+Demons Goroma,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Demon
+Demons Goroma,small emeralds,3032,249,161,250,2026-09-14 21:24,1,Demon
+Demons Goroma,small pitchforks,11513,,,,,1,Fire Devil
+Demons Goroma,small rubies,,,,,,1,Demon
+Demons Goroma,small topazes,,,,,,1,Demon
+Demons Goroma,soul orbs,5944,,,,,1,Hellhound
+Demons Goroma,throwing stars,3287,,,,,1,Demon Skeleton
+Demons Goroma,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Demon|Hellhound
