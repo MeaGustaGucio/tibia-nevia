@@ -803,11 +803,6 @@ DL POI,dragon&#39;s tails,,,,,,1,Dragon
 DL POI,gold coins,,,,,,1,Dragon|Dragon Lord
 DL POI,green mushrooms,3732,,,,,1,Dragon Lord
 DL POI,steel shields,3409,,,,,1,Dragon
-yalahar pirates,compasses,,,,,,1,Pirate Buccaneer|Pirate Corsair|Pirate Cutthroat|Pirate Marauder
-yalahar pirates,gold coins,,,,,,1,Pirate Buccaneer|Pirate Corsair|Pirate Cutthroat|Pirate Marauder
-yalahar pirates,sabres,3273,,,,,1,Pirate Buccaneer|Pirate Corsair
-yalahar pirates,torches,,,,,,1,Pirate Buccaneer|Pirate Marauder
-yalahar pirates,worn leather boots,3123,,,,,1,Pirate Buccaneer
 GT ZAO,crystallized anger,23507,,,,,1,Breach Brood
 GT ZAO,curious matter,23511,,,,,1,Breach Brood
 GT ZAO,dangerous proto matter,23515,,,,,1,Reality Reaver
@@ -3346,6 +3341,14 @@ West Roshamuul (SOLO RP),violet crystal shards,16120,,,,,1,Sight of Surrender
 💀 Choking Fear – Bounty Hunt (Upper Roshamuul North),pools of chitinous glue,,,,,,1,Retching Horror
 💀 Choking Fear – Bounty Hunt (Upper Roshamuul North),silencer claws,20200,5438,3804,5439,2026-09-14 21:37,1,Silencer
 💀 Choking Fear – Bounty Hunt (Upper Roshamuul North),ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Choking Fear
+Roshamuul Shock Heads,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Frazzlemaw
+Roshamuul Shock Heads,frazzle skins,20199,,,,,1,Frazzlemaw
+Roshamuul Shock Heads,frazzle tongues,20198,,,,,1,Frazzlemaw|Guzzlemaw
+Roshamuul Shock Heads,gold coins,,,,,,1,Frazzlemaw|Guzzlemaw|Shock Head|Silencer
+Roshamuul Shock Heads,great health potions,239,14,,15,2026-09-14 21:18,1,Frazzlemaw|Guzzlemaw
+Roshamuul Shock Heads,great mana potions,53161,,,,,1,Frazzlemaw|Guzzlemaw
+Roshamuul Shock Heads,platinum coins,,,,,,1,Frazzlemaw|Guzzlemaw|Silencer
+Roshamuul Shock Heads,silencer claws,20200,5438,3804,5439,2026-09-14 21:37,1,Silencer
 Deep Banuta -8,ancient stones,9632,1436,,1437,2026-09-14 21:31,1,Eternal Guardian
 Deep Banuta -8,gold coins,,,,,,1,Eternal Guardian|Hydra|Medusa|Serpent Spawn|Souleater
 Deep Banuta -8,great mana potions,53161,,,,,1,Medusa
@@ -3523,14 +3526,6 @@ Banuta -3,soul orbs,5944,,,,,1,Nightmare
 Banuta -3,spiked iron balls,10408,,,,,1,Eternal Guardian
 Banuta -3,strands of medusa hair,,,,,,1,Medusa
 Banuta -3,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa|Phantasm
-Roshamuul Shock Heads,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Frazzlemaw
-Roshamuul Shock Heads,frazzle skins,20199,,,,,1,Frazzlemaw
-Roshamuul Shock Heads,frazzle tongues,20198,,,,,1,Frazzlemaw|Guzzlemaw
-Roshamuul Shock Heads,gold coins,,,,,,1,Frazzlemaw|Guzzlemaw|Shock Head|Silencer
-Roshamuul Shock Heads,great health potions,239,14,,15,2026-09-14 21:18,1,Frazzlemaw|Guzzlemaw
-Roshamuul Shock Heads,great mana potions,53161,,,,,1,Frazzlemaw|Guzzlemaw
-Roshamuul Shock Heads,platinum coins,,,,,,1,Frazzlemaw|Guzzlemaw|Silencer
-Roshamuul Shock Heads,silencer claws,20200,5438,3804,5439,2026-09-14 21:37,1,Silencer
 Grim Reaper - Yalahar,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Grim Reaper
 Grim Reaper - Yalahar,flasks of demonic blood,,,,,,1,Grim Reaper
 Grim Reaper - Yalahar,gold coins,,,,,,1,Grim Reaper
