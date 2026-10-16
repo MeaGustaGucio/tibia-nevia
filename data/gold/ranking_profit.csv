@@ -3,8 +3,10 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 55194,True asuras,"Aug 27, 2026 18:38",01:03h,63,2,ED 776+EK 771,771,776,774,10428196,6952377,4002418,3487926,540216,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55194
 55514,True asuras,"Aug 31, 2026 08:31",01:09h,69,2,ED 782+EK 778,778,782,780,10431679,6954698,3983848,3491606,566077,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55514
 55427,True asuras,"Aug 30, 2026 10:24",01:17h,77,2,ED 779+EK 776,776,779,778,10265467,6843888,3769169,3237464,682354,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55427
+59667,asura e infernatil,"Oct 15, 2026 18:38",01:07h,67,1,RP 1177,1177,1177,1177,3431723,3265179,2958918,2679829,311649,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59667
 57344,Podzilla Quaras,"Sep 19, 2026 18:29",01:31h,91,1,MS 915,915,915,915,24171702,12240593,2662738,2624369,58193,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57344
 57967,Podzilla Quaras,"Sep 25, 2026 22:32",01:56h,116,1,MS 920,920,920,920,29412454,13304952,2650802,2602929,92552,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57967
+59618,Forbiden garden - true feverbloom asura,"Oct 15, 2026 08:07",00:54h,54,2,ED 819+EK 810,810,819,814,7347175,4898352,2642360,2149067,443963,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59618
 57028,Podzilla Quaras,"Sep 15, 2026 22:02",01:46h,106,1,MS 912,912,912,912,24708903,11639020,2614291,2570896,76664,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57028
 57404,Podzilla Quaras,"Sep 20, 2026 11:35",02:03h,123,1,MS 916,916,916,916,27570447,12351299,2604112,2548624,113748,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57404
 59187,Roshamuul DP,"Oct 10, 2026 01:29",00:07h,7,1,EM 565,565,565,565,12205431,8136960,2587877,2464962,14340,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59187
@@ -33,6 +35,7 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 59008,Podzilla Quaras,"Oct 07, 2026 20:39",02:33h,153,1,MS 933,933,933,933,28458567,12463233,2065208,2046881,46734,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59008
 56657,Quaras Podzilla,"Sep 11, 2026 23:39",01:06h,66,1,MS 1086,1086,1086,1086,31351750,13358831,2053045,2005647,52138,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56657
 59231,Podzilla Quaras,"Oct 10, 2026 14:00",02:03h,123,1,MS 936,936,936,936,29202663,13004650,2020799,2004791,32814,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59231
+59711,Podzilla Quaras,"Oct 15, 2026 21:15",02:11h,131,1,MS 943,943,943,943,28031164,12820945,1981806,1958099,51760,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59711
 58722,Podzilla Quaras,"Oct 04, 2026 16:19",02:08h,128,1,MS 927,927,927,927,29493035,13840499,1956337,1948717,16254,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58722
 59417,Podzilla Quaras,"Oct 12, 2026 21:17",02:01h,121,1,MS 939,939,939,939,29063626,13040761,1954927,1865270,180807,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59417
 59511,Podzilla Quaras,"Oct 13, 2026 20:55",02:36h,156,1,MS 940,940,940,940,26712118,11960106,1948262,1869206,205546,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59511
@@ -42,10 +45,7 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 58460,Podzilla Quaras,"Oct 01, 2026 21:19",02:11h,131,1,MS 923,923,923,923,26080254,11996650,1802086,1729751,157930,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58460
 56613,❄️ Iceplume Strider – Test Hunt,"Sep 11, 2026 15:17",00:20h,20,1,EM 916,916,916,916,12872277,8581533,1699935,1601820,32705,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56613
 54319,Werelions -1,"Aug 18, 2026 11:25",00:30h,30,1,RP 683,683,683,683,17464616,13646426,1642660,1440182,101239,1,1,0,https://www.hunt-analyser.com/hunt_sessions/54319
-54069,Asura Mirror,"Aug 16, 2026 02:43",00:30h,30,1,RP 682,682,682,682,15911736,8652918,1575462,1280202,147630,1,1,0,https://www.hunt-analyser.com/hunt_sessions/54069
 58972,Podzilla Quaras,"Oct 07, 2026 13:17",01:00h,60,2,ED 936+EK 754,754,936,845,10870646,5853077,1514600,1055075,459525,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58972
 56670,Teste 1 Quara Podizilla,"Sep 12, 2026 05:17",01:00h,60,1,MS 957,957,957,957,22430557,8785265,1467950,1355766,112184,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56670
 56710,Teste 2 Quara Podizilla,"Sep 12, 2026 16:36",01:04h,64,1,MS 958,958,958,958,13784361,8738120,1452054,1238735,227540,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56710
 58439,Roshamuul Shock Heads,"Oct 02, 2026 01:02",01:00h,60,1,RP 590,590,590,590,6340345,4226898,1340670,777433,563237,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58439
-57092,Norc Castle,"Sep 17, 2026 03:56",00:15h,15,1,ED 80,80,80,80,6899568,6899568,1327660,878452,112302,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57092
-59413,Asura Mirror,"Oct 12, 2026 21:38",00:46h,46,1,EK 567,567,567,567,4918021,4918021,1116077,949586,127643,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59413
