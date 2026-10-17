@@ -803,30 +803,6 @@ DL POI,dragon&#39;s tails,,,,,,1,Dragon
 DL POI,gold coins,,,,,,1,Dragon|Dragon Lord
 DL POI,green mushrooms,3732,,,,,1,Dragon Lord
 DL POI,steel shields,3409,,,,,1,Dragon
-GT ZAO,crystallized anger,23507,,,,,1,Breach Brood
-GT ZAO,curious matter,23511,,,,,1,Breach Brood
-GT ZAO,dangerous proto matter,23515,,,,,1,Reality Reaver
-GT ZAO,energy balls,23523,,,,,1,Dread Intruder
-GT ZAO,energy bars,23535,,,,,1,Breach Brood|Dread Intruder|Reality Reaver|Sparkion
-GT ZAO,energy drinks,23545,,,,,1,Breach Brood|Dread Intruder|Reality Reaver|Sparkion
-GT ZAO,energy veins,23508,,,,,1,Reality Reaver
-GT ZAO,frozen lightning,23519,,,,,1,Dread Intruder
-GT ZAO,gold coins,,,,,,1,Breach Brood|Dread Intruder|Reality Reaver|Sparkion
-GT ZAO,great health potions,239,14,,15,2026-09-14 21:18,1,Breach Brood|Reality Reaver|Sparkion
-GT ZAO,great mana potions,53161,,,,,1,Breach Brood|Dread Intruder|Reality Reaver|Sparkion
-GT ZAO,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Breach Brood|Dread Intruder|Reality Reaver|Sparkion
-GT ZAO,instable proto matter,23516,,,,,1,Dread Intruder
-GT ZAO,odd organs,23510,,,,,1,Dread Intruder
-GT ZAO,plasma pearls,23506,,,,,1,Breach Brood|Reality Reaver
-GT ZAO,plasmatic lightning,23520,,,,,1,Reality Reaver
-GT ZAO,platinum coins,,,,,,1,Breach Brood|Dread Intruder|Reality Reaver|Sparkion
-GT ZAO,spark spheres,23518,,,,,1,Breach Brood
-GT ZAO,sparkion claws,23502,,,,,1,Sparkion
-GT ZAO,sparkion legs,23504,,,,,1,Sparkion
-GT ZAO,sparkion stings,23505,,,,,1,Sparkion
-GT ZAO,sparkion tails,23503,,,,,1,Sparkion
-GT ZAO,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Dread Intruder
-GT ZAO,volatile proto matter,23514,,,,,1,Breach Brood
 Grim reaper monk,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Grim Reaper
 Grim reaper monk,flasks of demonic blood,,,,,,1,Grim Reaper
 Grim reaper monk,gold coins,,,,,,1,Grim Reaper
@@ -1573,6 +1549,9 @@ Medusa tower,snake skins,9694,,,,,1,Serpent Spawn
 Medusa tower,strands of medusa hair,,,,,,1,Medusa
 Medusa tower,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa
 Medusa tower,white mushrooms,3723,,,,,1,Omnivora
+Grim Reaper - Yalahar,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Grim Reaper
+Grim Reaper - Yalahar,flasks of demonic blood,,,,,,1,Grim Reaper
+Grim Reaper - Yalahar,gold coins,,,,,,1,Grim Reaper
 Burster Duo - Dia 2,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
 Burster Duo - Dia 2,platinum coins,,,,,,1,Burster Spectre
 Hero cave -3,arrows,3447,2,2,3,2026-09-14 21:24,1,Hero
@@ -3526,9 +3505,6 @@ Banuta -3,soul orbs,5944,,,,,1,Nightmare
 Banuta -3,spiked iron balls,10408,,,,,1,Eternal Guardian
 Banuta -3,strands of medusa hair,,,,,,1,Medusa
 Banuta -3,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa|Phantasm
-Grim Reaper - Yalahar,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Grim Reaper
-Grim Reaper - Yalahar,flasks of demonic blood,,,,,,1,Grim Reaper
-Grim Reaper - Yalahar,gold coins,,,,,,1,Grim Reaper
 Burster Spectre Darashia,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
 Burster Spectre Darashia,platinum coins,,,,,,1,Burster Spectre
 Ora West,fish,3578,,,,,1,Quara Hydromancer Scout
@@ -3637,3 +3613,12 @@ asura e infernatil,soul orbs,5944,,,,,1,Fury|Hellfire Fighter|Hellhound
 asura e infernatil,terra rods,3065,1955,1560,1956,2026-09-14 21:30,1,Fury
 asura e infernatil,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Energuardian of Tales|Hellflayer|Hellhound|Rage Squid|Vexclaw
 asura e infernatil,vexclaw talons,22728,,,,,1,Vexclaw
+Werehyena South,axes,3274,,,,,1,Werehyaena
+Werehyena South,great health potions,239,14,,15,2026-09-14 21:18,1,Werehyaena
+Werehyena South,great mana potions,53161,,,,,1,Werehyaena Shaman
+Werehyena South,halberds,3269,598,274,599,2026-09-14 21:25,1,Werehyaena
+Werehyena South,knives,,,,,,1,Werehyaena
+Werehyena South,meat,3577,,,,,1,Werehyaena
+Werehyena South,platinum coins,,,,,,1,Werehyaena|Werehyaena Shaman
+Werehyena South,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Werehyaena Shaman
+Werehyena South,werehyaena noses,33943,,,,,1,Werehyaena|Werehyaena Shaman
