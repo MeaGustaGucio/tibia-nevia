@@ -1786,7 +1786,7 @@ Quara Sunken Quarter,quara tentacles,11487,,,,,1,Quara Constrictor
 Quaras duo,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Quara Podzilla,platinum coins,,,,,,2,Quara Looter|Quara Plunderer|Quara Raider
 Quara (bestiary),platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
-Podzilla Quaras,platinum coins,,,,,,29,Quara Looter|Quara Plunderer|Quara Raider
+Podzilla Quaras,platinum coins,,,,,,31,Quara Looter|Quara Plunderer|Quara Raider
 Quaras Podzilla,platinum coins,,,,,,3,Quara Looter|Quara Plunderer|Quara Raider
 Teste 1 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Teste 2 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
@@ -2101,12 +2101,6 @@ Weretigers (Full Moon),worms,3492,,,,,1,Mummy
 Weretigers,gold coins,,,,,,1,Cunning Werepanther|Weretiger|White Weretiger
 Weretigers,platinum coins,,,,,,1,Cunning Werepanther|Weretiger|White Weretiger
 Weretigers,weretiger teeth,,,,,,1,Weretiger|White Weretiger
-Burster Spectre #34,gold coins,,,,,,1,Efreet
-Burster Spectre #34,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
-Burster Spectre #34,pears,3584,,,,,1,Efreet
-Burster Spectre #34,platinum coins,,,,,,1,Burster Spectre
-Burster Spectre #34,royal spears,7378,,,,,1,Efreet
-Burster Spectre #34,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Efreet
 Burster Spectre #35,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
 Burster Spectre #35,platinum coins,,,,,,1,Burster Spectre
 Burster Spectre #36,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
@@ -2277,6 +2271,8 @@ GAZER SPECTRE +21% DMG BOUNTY,meat,3577,,,,,1,Thanatursus
 GAZER SPECTRE +21% DMG BOUNTY,platinum coins,,,,,,1,Gazer Spectre|Thanatursus
 GAZER SPECTRE +21% DMG BOUNTY,small diamonds,3028,299,241,300,2026-09-14 21:24,1,Gazer Spectre
 GAZER SPECTRE +21% DMG BOUNTY,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Gazer Spectre
+Burster Spectre Darashia,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
+Burster Spectre Darashia,platinum coins,,,,,,1,Burster Spectre
 Carlin Cults,bolts,3446,2,1,3,2026-09-14 21:24,1,Vicious Squire
 Carlin Cults,crossbows,3349,,,,,1,Vicious Squire
 Carlin Cults,gold coins,,,,,,1,Cult Believer|Renegade Knight|Vicious Squire|Vile Grandmaster
@@ -2337,18 +2333,18 @@ Edron Vampires,gold coins,,,,,,1,Vampire|Vampire Bride|Vampire Viscount
 Edron Vampires,platinum coins,,,,,,1,Vampire Bride
 Edron Vampires,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Vampire Bride
 Edron Vampires,vampire teeth,9685,491,300,492,2026-09-14 21:38,1,Vampire Bride
-Asura Mirror,assassin stars,7368,14,4,15,2026-09-14 21:28,15,Frost Flower Asura
-Asura Mirror,demonic essence,6499,999,898,1000,2026-09-14 21:33,15,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,flasks of demonic blood,,,,,,15,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,gold coins,,,,,,15,Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura|Nomad
-Asura Mirror,golden lotus brooches,,,,,,15,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,great health potions,239,14,,15,2026-09-14 21:18,15,Frost Flower Asura|Hellspawn
-Asura Mirror,ham,3582,,,,,15,Crocodile
-Asura Mirror,hellspawn tails,10304,,,,,15,Hellspawn
-Asura Mirror,peacock feather fans,21975,,,,,15,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,pieces of crocodile leather,,,,,,15,Crocodile
-Asura Mirror,platinum coins,,,,,,15,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,soul orbs,5944,,,,,15,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,assassin stars,7368,14,4,15,2026-09-14 21:28,16,Frost Flower Asura
+Asura Mirror,demonic essence,6499,999,898,1000,2026-09-14 21:33,16,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,flasks of demonic blood,,,,,,16,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,gold coins,,,,,,16,Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura|Nomad
+Asura Mirror,golden lotus brooches,,,,,,16,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,great health potions,239,14,,15,2026-09-14 21:18,16,Frost Flower Asura|Hellspawn
+Asura Mirror,ham,3582,,,,,16,Crocodile
+Asura Mirror,hellspawn tails,10304,,,,,16,Hellspawn
+Asura Mirror,peacock feather fans,21975,,,,,16,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,pieces of crocodile leather,,,,,,16,Crocodile
+Asura Mirror,platinum coins,,,,,,16,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,soul orbs,5944,,,,,16,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 True asuras -2,assassin stars,7368,14,4,15,2026-09-14 21:28,2,Hellhound
 True asuras -2,black pearls,3027,279,231,280,2026-09-14 21:21,2,Hellhound
 True asuras -2,blazing bones,16131,787,363,788,2026-09-14 21:31,2,Hellhound
@@ -3505,8 +3501,6 @@ Banuta -3,soul orbs,5944,,,,,1,Nightmare
 Banuta -3,spiked iron balls,10408,,,,,1,Eternal Guardian
 Banuta -3,strands of medusa hair,,,,,,1,Medusa
 Banuta -3,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa|Phantasm
-Burster Spectre Darashia,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
-Burster Spectre Darashia,platinum coins,,,,,,1,Burster Spectre
 Ora West,fish,3578,,,,,1,Quara Hydromancer Scout
 Ora West,globs of glooth,,,,,,1,Devourer|Glooth Blob|Rot Elemental
 Ora West,gold coins,,,,,,1,Blood Beast|Devourer|Glooth Blob|Metal Gargoyle|Quara Constrictor Scout|Quara Hydromancer Scout
@@ -3622,3 +3616,22 @@ Werehyena South,meat,3577,,,,,1,Werehyaena
 Werehyena South,platinum coins,,,,,,1,Werehyaena|Werehyaena Shaman
 Werehyena South,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Werehyaena Shaman
 Werehyena South,werehyaena noses,33943,,,,,1,Werehyaena|Werehyaena Shaman
+True Asura,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Frost Flower Asura|Hellhound
+True Asura,black pearls,3027,279,231,280,2026-09-14 21:21,1,Hellhound
+True Asura,blazing bones,16131,787,363,788,2026-09-14 21:31,1,Hellhound
+True Asura,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
+True Asura,fiery hearts,9636,,,,,1,Hellhound
+True Asura,flasks of demonic blood,,,,,,1,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
+True Asura,gold coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura
+True Asura,golden lotus brooches,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+True Asura,great health potions,239,14,,15,2026-09-14 21:18,1,Frost Flower Asura|Hellspawn
+True Asura,great mana potions,53161,,,,,1,Hellhound
+True Asura,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Hellhound
+True Asura,ham,3582,,,,,1,Hellhound
+True Asura,hardened bones,5925,,,,,1,Hellhound
+True Asura,hellhound slobber,9637,,,,,1,Hellhound
+True Asura,hellspawn tails,10304,,,,,1,Hellspawn
+True Asura,peacock feather fans,21975,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+True Asura,platinum coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
+True Asura,soul orbs,5944,,,,,1,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
+True Asura,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Hellhound
