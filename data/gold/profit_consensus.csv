@@ -1,8 +1,8 @@
 spawn,norm,consensus_h,spread_pct,n_sources,members,sources
 Oramond Minos,Oramond Minos,1000000,1.0,1,Oramond Minos,guide:TibiaVault (2026-03)
-Forbiden garden - true feverbloom asura,Forbiden garden - true feverbloom asura,591685,3.47,2,Forbiden garden - true feverbloom asura,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Summer Court,Summer Court,500000,0.9,3,Summer Court|Summer/Winter Court,community:gracze (link)|guide:TibiaVault (2026-03)|guide:reddit r/TibiaMMO (2026)
 Claustrophobic Inferno,Claustrophobic Inferno,480847,13.0,2,Claustrophobic Inferno,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
+Forbiden garden - true feverbloom asura,Forbiden garden - true feverbloom asura,463017,4.71,2,Forbiden garden - true feverbloom asura,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Glooth Bandits,Glooth Bandits,450000,1.11,1,Glooth Bandits,guide:MMOKB+TibiaVault (2026-07-24)
 Carnivoras,Carnivoras,400000,1.0,1,Carnivoras,guide:TibiaVault (2026-03)
 Cults Yalahar,Cults Yalahar,350000,0.43,2,Cults Yalahar|Yalahar Cults,guide:TibiaBuddy mage (2026-04-24)|guide:TibiaPal hunting (2026)
@@ -11,32 +11,32 @@ asura e infernatil,Asura (Mirror),308685,12.71,16,Asura (Mirror)|Asura Mirror|As
 Nagas,Nagas,300000,0.0,2,Nagas,community:gracze (link)|guide:reddit r/TibiaMMO (2026)
 Ghastly Dragons,Ghastly Dragons,250000,0.8,1,Ghastly Dragons,guide:TibiaVault (2026-03)
 Iksupan,Iksupan,225000,1.33,2,Iksupan,community:gracze (link)
-Roshamuul DP,North Roshamuul (South - SOLO RP),210481,12.14,10,North Roshamuul (South - SOLO RP)|Roshamuul|Roshamuul DP|Roshamuul Prison|Roshamuul West|Upper Roshamuul|West Roshamuul (SOLO RP),computed:sesje+kille (nasz model)|guide:MMOKB (2026-07-24)|measured:mediana loot/h z sesji
-Quaras Podzilla,Podzilla Quaras,200086,10.98,4,Podzilla Quaras|Quaras Podzilla,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Nightmare Isles,Nightmare Isles,200000,1.0,1,Nightmare Isles,guide:TibiaVault (2026-03)
+Quaras Podzilla,Podzilla Quaras,195640,11.25,4,Podzilla Quaras|Quaras Podzilla,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 ❄️ Iceplume Strider – Bounty Hunt,❄️ Iceplume Strider – Bounty Hunt,188017,12.53,4,❄️ Iceplume Strider – Bounty Hunt|❄️ Iceplume Strider – Test Hunt,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
-Caminho de Ferumbras,Caminho de Ferumbras,178520,0.0,1,Caminho de Ferumbras,computed:sesje+kille (nasz model)
-Feru way,Feru way,177553,0.0,1,Feru way,computed:sesje+kille (nasz model)
 Lizard City,Lizard City,175000,0.86,1,Lizard City,guide:TibiaVault (2026-03)
+Roshamuul DP,North Roshamuul (South - SOLO RP),173823,14.7,9,North Roshamuul (South - SOLO RP)|Roshamuul|Roshamuul DP|Roshamuul Prison|Roshamuul West|Upper Roshamuul|West Roshamuul (SOLO RP),computed:sesje+kille (nasz model)|guide:MMOKB (2026-07-24)|measured:mediana loot/h z sesji
+Caminho de Ferumbras,Caminho de Ferumbras,169880,0.0,1,Caminho de Ferumbras,computed:sesje+kille (nasz model)
+Feru way,Feru way,169523,0.0,1,Feru way,computed:sesje+kille (nasz model)
 💀 Choking Fear – Bounty Hunt (Upper Roshamuul North),💀 Choking Fear – Bounty Hunt (Upper Roshamuul North),167516,13.41,2,💀 Choking Fear – Bounty Hunt (Upper Roshamuul North),computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Edron Heroes -2-3,Edron Heroes -2-3,150000,0.0,1,Edron Heroes -2-3,community:gracze (link)
 Mutated Tigers Alchemy,Mutated Tigers Alchemy,148000,0.0,1,Mutated Tigers Alchemy,community:gracze (link)
 Werehyaenas,Werehyaenas,140000,0.86,1,Werehyaenas,guide:TibiaVault (2026-03)
-Teste 1 Quara Podizilla,Teste 1 Quara Podizilla,132840,10.05,4,Teste 1 Quara Podizilla|Teste 2 Quara Podizilla,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
+Teste 1 Quara Podizilla,Teste 1 Quara Podizilla,129888,10.3,4,Teste 1 Quara Podizilla|Teste 2 Quara Podizilla,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
+Weretiger -2,Weretiger -2,119182,9.53,3,Weretiger -2|Weretigers -1,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 cobra bastion,Cobra Bastion,113764,6.03,2,Cobra Bastion|cobra bastion,computed:sesje+kille (nasz model)|guide:MMOKB (2026-07-24)
 Ripper Spectre Solo MS +650,Ripper Spectre,102755,9.44,3,Ripper Spectre|Ripper Spectre Solo MS +650,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Roshamuul Shock Heads,Roshamuul Shock Heads,97518,12.75,2,Roshamuul Shock Heads,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Norc Castle,Norc Castle,93072,13.26,2,Norc Castle,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
-Weretiger -2,Weretiger -2,92408,0.27,2,Weretiger -2|Weretigers -1,computed:sesje+kille (nasz model)
 Edron Hero Cave,Edron Hero Cave,85000,0.82,1,Edron Hero Cave,guide:TibiaVault (2026-03)
 Duo burried cathedral,Duo burried cathedral,78197,0.0,1,Duo burried cathedral,computed:sesje+kille (nasz model)
-Demons Goroma,Demon Goroma,72655,6.65,4,Demon Goroma|Demons Goroma|demons goroma 30m,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
+Demons Goroma,Demon Goroma,68574,7.09,4,Demon Goroma|Demons Goroma|demons goroma 30m,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Werelion -1,Werelion -1,66508,12.05,5,Werelion -1|Werelion -1 (post nerf)|Werelions -1|werelions,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 "Duo buried -2 ED, EK","Duo buried -2 ED, EK",65548,0.0,1,"Duo buried -2 ED, EK",computed:sesje+kille (nasz model)
 Gazer Spectres,GAZER SPECTRE +21% DMG BOUNTY,65332,12.99,5,GAZER SPECTRE +21% DMG BOUNTY|Gazer Spectre|Gazer Spectres,computed:sesje+kille (nasz model)|guide:MMOKB (2026-07-24)|measured:mediana loot/h z sesji
-Werehyena South,Werehyena MS 290+,53616,13.76,4,Werehyena MS 290+|Werehyena South|Werehyenas,computed:sesje+kille (nasz model)|guide:MMOKB (2026-07-24)|measured:mediana loot/h z sesji
+Werehyena South,Werehyena MS 290+,53615,13.76,4,Werehyena MS 290+|Werehyena South|Werehyenas,computed:sesje+kille (nasz model)|guide:MMOKB (2026-07-24)|measured:mediana loot/h z sesji
 Pirats,Pirats,53297,13.14,2,Pirats,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
-Draken Walls North Solo EK,Draken Walls,50331,11.05,3,Draken Walls|Draken Walls North Solo EK,computed:sesje+kille (nasz model)|guide:TibiaVault (2026-03)|measured:mediana loot/h z sesji
+Draken Walls North Solo EK,Draken Walls,46017,12.18,3,Draken Walls|Draken Walls North Solo EK,computed:sesje+kille (nasz model)|guide:TibiaVault (2026-03)|measured:mediana loot/h z sesji
 Gnomegate Lava Hot Spot,Gnomegate Lava Hot Spot,45988,0.0,1,Gnomegate Lava Hot Spot,computed:sesje+kille (nasz model)
 Crypt Warrior,Crypt Warrior,42636,0.0,1,Crypt Warrior,computed:sesje+kille (nasz model)
 BOOK WORLD,BOOK WORLD,41992,0.0,1,BOOK WORLD,computed:sesje+kille (nasz model)
@@ -46,18 +46,18 @@ Lower Spike,Lower Spike,36328,0.0,1,Lower Spike,computed:sesje+kille (nasz model
 Medusa tower,Medusa Tower,35647,24.8,3,Medusa Tower|Medusa tower,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Lycanthrope Grounds (Edron),Lycanthrope Grounds (Edron),32944,0.0,1,Lycanthrope Grounds (Edron),computed:sesje+kille (nasz model)
 Dark Fauns -2,Dark Fauns -2,28464,0.0,1,Dark Fauns -2,computed:sesje+kille (nasz model)
-Glooth Tower,Glooth Tower,24405,0.0,1,Glooth Tower,computed:sesje+kille (nasz model)
+Glooth Tower,Glooth Tower,24393,0.0,1,Glooth Tower,computed:sesje+kille (nasz model)
 Exotic cave,Exotic cave,23824,13.32,2,Exotic cave,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
-Banuta -6,Banuta,22320,23.2,3,Banuta|Banuta -6,computed:sesje+kille (nasz model)|guide:TibiaVault (2026-03)|measured:mediana loot/h z sesji
+Banuta -6,Banuta,21271,24.4,3,Banuta|Banuta -6,computed:sesje+kille (nasz model)|guide:TibiaVault (2026-03)|measured:mediana loot/h z sesji
 Grim Reaper - Yalahar,Grim Reaper (Yalahar),20670,10.21,5,Grim Reaper (Yalahar)|Grim Reaper - Yalahar|Grim Reaper Yalahar|Grim reaper Yalahar,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
-demons Oramond 30 minutes,demons Oramond 30 minutes,20580,0.0,1,demons Oramond 30 minutes,computed:sesje+kille (nasz model)
 Behemoth (Cyclopolis),Behemoth (Cyclopolis),20436,0.0,1,Behemoth (Cyclopolis),computed:sesje+kille (nasz model)
 Drefia Wyrms,Drefia Wyrms,20000,0.0,1,Drefia Wyrms,community:gracze (link)
 Hellspawn (Yalahar),Hellspawn (Yalahar),19261,0.0,1,Hellspawn (Yalahar),computed:sesje+kille (nasz model)
+demons Oramond 30 minutes,demons Oramond 30 minutes,18663,0.0,1,demons Oramond 30 minutes,computed:sesje+kille (nasz model)
 Werehayena hunt,Werehayena hunt,16965,0.0,1,Werehayena hunt,computed:sesje+kille (nasz model)
 buster spectre,buster spectre,16335,0.0,1,buster spectre,computed:sesje+kille (nasz model)
-Ora West,Ora West,14462,10.45,2,Ora West,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 STONFIN 0908,STONFIN 0908,13965,0.0,1,STONFIN 0908,computed:sesje+kille (nasz model)
+Ora West,Ora West,13878,10.93,2,Ora West,computed:sesje+kille (nasz model)|measured:mediana loot/h z sesji
 Sea serpent (Svargrond),Sea serpent (Svargrond),11366,0.0,1,Sea serpent (Svargrond),computed:sesje+kille (nasz model)
 Vampire Crypt (Edron),Edron Vampire Crypts,7290,0.81,2,Edron Vampire Crypts|Vampire Crypt (Edron),computed:sesje+kille (nasz model)
 Hero Fortres,Hero Fortres,7211,0.0,1,Hero Fortres,computed:sesje+kille (nasz model)
@@ -66,5 +66,5 @@ Cults Carlin,Cults Carlin,5704,0.0,1,Cults Carlin,computed:sesje+kille (nasz mod
 Yalahar Bog Raiders Central,Yalahar Bog Raiders Central,5302,0.0,1,Yalahar Bog Raiders Central,computed:sesje+kille (nasz model)
 Port Hope Spider Cave,Port Hope Spider Cave,3666,0.0,1,Port Hope Spider Cave,computed:sesje+kille (nasz model)
 Port Hope Water Elementals (South),Port Hope Water Elementals (South),2666,0.0,1,Port Hope Water Elementals (South),computed:sesje+kille (nasz model)
-Liberty Bay Quara Grotto,Liberty Bay Quara Grotto,2220,0.0,1,Liberty Bay Quara Grotto,computed:sesje+kille (nasz model)
+Liberty Bay Quara Grotto,Liberty Bay Quara Grotto,2165,0.0,1,Liberty Bay Quara Grotto,computed:sesje+kille (nasz model)
 Lava Lurkers,Lava Lurkers,-225000,-1.11,2,Lava Lurkers|Ravenous Lava Lurkers,guide:MMOKB (2026-07-24)|guide:TibiaBuddy mage (2026-04-24)
