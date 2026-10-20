@@ -696,40 +696,22 @@ Lizards,steel shields,3409,,,,,1,Dragon
 Lizards,strong health potions,236,10,4,11,2026-09-14 21:18,1,Lizard High Guard
 Glooth Bandit,gold coins,,,,,,1,Glooth Bandit|Glooth Brigand
 Glooth Bandit,platinum coins,,,,,,1,Glooth Bandit|Glooth Brigand
-mini rosha,bone swords,3338,24,,25,2026-09-14 21:28,4,Braindeath
-mini rosha,bones,22159,,,,,4,Bonebeast|Weakened Frazzlemaw
-mini rosha,bony tails,10277,,183,,2026-09-14 21:32,4,Bonebeast
-mini rosha,brass helmets,3354,39,26,40,2026-09-14 21:11,4,Zombie
-mini rosha,candlesticks,2917,,,,,4,Banshee
-mini rosha,carrots,3595,,,,,4,Twisted Pooka
-mini rosha,colourful snail shell,25696,,,,,4,Nymph|Pixie|Swan Maiden
-mini rosha,dandelion seeds,25695,,,,,4,Nymph|Pixie
-mini rosha,demonic essence,6499,999,898,1000,2026-09-14 21:33,4,Nightmare
-mini rosha,essences of a bad dream,,,,,,4,Nightmare
-mini rosha,fairy wings,25694,,,,,4,Boogy|Dark Faun|Enfeebled Silencer|Twisted Pooka|Weakened Frazzlemaw
-mini rosha,flasks of demonic blood,,,,,,4,Nightmare
-mini rosha,frazzle skins,20199,,,,,4,Weakened Frazzlemaw
-mini rosha,frazzle tongues,20198,,,,,4,Weakened Frazzlemaw
-mini rosha,fresh fruit,25692,,,,,4,Nymph|Pixie
-mini rosha,gold coins,,,,,,4,Banshee|Bonebeast|Boogy|Braindeath|Dark Faun|Enfeebled Silencer
-mini rosha,great health potions,239,14,,15,2026-09-14 21:18,4,Weakened Frazzlemaw
-mini rosha,great mana potions,53161,,,,,4,Weakened Frazzlemaw
-mini rosha,half-eaten brains,9659,,,,,4,Zombie
-mini rosha,ham,3582,,,,,4,Nightmare
-mini rosha,heavily rusted armors,8894,,,,,4,Mutated Bat
-mini rosha,meat,3577,,,,,4,Nightmare Scion
-mini rosha,plate armors,3357,,,,,4,Giant Spider
-mini rosha,platinum coins,,,,,,4,Enfeebled Silencer|Lich|Weakened Frazzlemaw
-mini rosha,poison arrows,3448,,,,,4,Giant Spider
-mini rosha,remains of a fish,3125,,,,,4,Weakened Frazzlemaw
-mini rosha,scythe legs,10312,,,,,4,Nightmare
-mini rosha,shimmering beetles,25693,,,,,4,Boogy|Dark Faun|Twisted Pooka
-mini rosha,skulls,3114,,,,,4,Bonebeast|Weakened Frazzlemaw
-mini rosha,soul orbs,5944,,,,,4,Nightmare
-mini rosha,spellbooks,3101,,,,,4,Lich
-mini rosha,strong health potions,236,10,4,11,2026-09-14 21:18,4,Boogy|Dark Faun|Twisted Pooka
-mini rosha,tarantula eggs,10281,,90,,2026-09-14 21:38,4,Tarantula
-mini rosha,wild flowers,25691,,,,,4,Nymph|Pixie|Swan Maiden
+mini rosha,bones,22159,,,,,3,Weakened Frazzlemaw
+mini rosha,colourful snail shell,25696,,,,,3,Nymph|Pixie|Swan Maiden
+mini rosha,dandelion seeds,25695,,,,,3,Nymph|Pixie
+mini rosha,fairy wings,25694,,,,,3,Boogy|Dark Faun|Enfeebled Silencer|Weakened Frazzlemaw
+mini rosha,frazzle skins,20199,,,,,3,Weakened Frazzlemaw
+mini rosha,frazzle tongues,20198,,,,,3,Weakened Frazzlemaw
+mini rosha,fresh fruit,25692,,,,,3,Nymph|Pixie
+mini rosha,gold coins,,,,,,3,Boogy|Dark Faun|Enfeebled Silencer|Nymph|Pixie|Swan Maiden
+mini rosha,great health potions,239,14,,15,2026-09-14 21:18,3,Weakened Frazzlemaw
+mini rosha,great mana potions,53161,,,,,3,Weakened Frazzlemaw
+mini rosha,platinum coins,,,,,,3,Enfeebled Silencer|Weakened Frazzlemaw
+mini rosha,remains of a fish,3125,,,,,3,Weakened Frazzlemaw
+mini rosha,shimmering beetles,25693,,,,,3,Boogy|Dark Faun
+mini rosha,skulls,3114,,,,,3,Weakened Frazzlemaw
+mini rosha,strong health potions,236,10,4,11,2026-09-14 21:18,3,Boogy|Dark Faun
+mini rosha,wild flowers,25691,,,,,3,Nymph|Pixie|Swan Maiden
 Exotic Cave,dark mushrooms,3728,,,,,2,Exotic Bat
 Exotic Cave,great health potions,239,14,,15,2026-09-14 21:18,2,Exotic Cave Spider|Pirat Cutthroat
 Exotic Cave,great mana potions,53161,,,,,2,Exotic Bat|Pirat Scoundrel
@@ -797,15 +779,26 @@ Oramond West #1,shrimp,3581,,,,,1,Quara Constrictor Scout|Quara Hydromancer Scou
 Oramond West #1,slime hearts,21194,,,,,1,Blood Beast
 Oramond West #1,strong health potions,236,10,4,11,2026-09-14 21:18,1,Rot Elemental
 Oramond West #1,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Rot Elemental
+Ora West,fish,3578,,,,,1,Quara Hydromancer Scout
+Ora West,globs of glooth,,,,,,1,Devourer|Glooth Blob|Rot Elemental
+Ora West,gold coins,,,,,,1,Blood Beast|Devourer|Glooth Blob|Metal Gargoyle|Quara Constrictor Scout|Quara Hydromancer Scout
+Ora West,metal jaws,21193,,,,,1,Metal Gargoyle
+Ora West,platinum coins,,,,,,1,Devourer|Metal Gargoyle|Rot Elemental
+Ora West,poisoned fangs,21195,,,,,1,Blood Beast
+Ora West,quara bones,11491,,,,,1,Quara Predator Scout
+Ora West,quara eyes,11488,,,,,1,Quara Hydromancer Scout
+Ora West,quara pincers,11490,,,,,1,Quara Pincher Scout
+Ora West,quara tentacles,11487,,,,,1,Quara Constrictor Scout
+Ora West,shrimp,3581,,,,,1,Quara Constrictor Scout|Quara Hydromancer Scout
+Ora West,slime hearts,21194,,,,,1,Blood Beast
+Ora West,strong health potions,236,10,4,11,2026-09-14 21:18,1,Rot Elemental
+Ora West,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Rot Elemental
 DL POI,crossbows,3349,,,,,1,Dragon
 DL POI,dragon ham,3583,,,,,1,Dragon|Dragon Lord
 DL POI,dragon&#39;s tails,,,,,,1,Dragon
 DL POI,gold coins,,,,,,1,Dragon|Dragon Lord
 DL POI,green mushrooms,3732,,,,,1,Dragon Lord
 DL POI,steel shields,3409,,,,,1,Dragon
-Grim reaper monk,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Grim Reaper
-Grim reaper monk,flasks of demonic blood,,,,,,1,Grim Reaper
-Grim reaper monk,gold coins,,,,,,1,Grim Reaper
 Vampire crypt (Edron),gold coins,,,,,,1,Vampire|Vampire Bride|Vampire Viscount
 Vampire crypt (Edron),platinum coins,,,,,,1,Vampire Bride
 Vampire crypt (Edron),strong mana potions,237,116,100,117,2026-09-14 21:18,1,Vampire Bride
@@ -1552,6 +1545,24 @@ Medusa tower,white mushrooms,3723,,,,,1,Omnivora
 Grim Reaper - Yalahar,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Grim Reaper
 Grim Reaper - Yalahar,flasks of demonic blood,,,,,,1,Grim Reaper
 Grim Reaper - Yalahar,gold coins,,,,,,1,Grim Reaper
+Banuta -6,ancient stones,9632,1436,,1437,2026-09-14 21:31,1,Eternal Guardian
+Banuta -6,gold coins,,,,,,1,Eternal Guardian|Hydra|Medusa|Serpent Spawn
+Banuta -6,great mana potions,53161,,,,,1,Medusa
+Banuta -6,green mushrooms,3732,,,,,1,Serpent Spawn
+Banuta -6,ham,3582,,,,,1,Hydra
+Banuta -6,hydra heads,10282,,,,,1,Hydra
+Banuta -6,platinum coins,,,,,,1,Eternal Guardian|Hydra|Medusa
+Banuta -6,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Serpent Spawn
+Banuta -6,small stones,1781,,,,,1,Eternal Guardian
+Banuta -6,snake skins,9694,,,,,1,Serpent Spawn
+Banuta -6,spiked iron balls,10408,,,,,1,Eternal Guardian
+Banuta -6,strands of medusa hair,,,,,,1,Medusa
+Banuta -6,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa
+Draken Walls North Solo EK,bone shoulderplates,10404,408,158,409,2026-09-14 21:32,1,Draken Warmaster
+Draken Walls North Solo EK,gold coins,,,,,,1,Draken Spellweaver|Draken Warmaster
+Draken Walls North Solo EK,meat,3577,,,,,1,Draken Spellweaver|Draken Warmaster
+Draken Walls North Solo EK,platinum coins,,,,,,1,Draken Spellweaver|Draken Warmaster
+Draken Walls North Solo EK,weaver&#39;s wandtips,,,,,,1,Draken Spellweaver
 Burster Duo - Dia 2,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
 Burster Duo - Dia 2,platinum coins,,,,,,1,Burster Spectre
 Hero cave -3,arrows,3447,2,2,3,2026-09-14 21:24,1,Hero
@@ -2374,39 +2385,39 @@ Asura mirror,hellspawn tails,10304,,,,,2,Hellspawn
 Asura mirror,peacock feather fans,21975,,,,,2,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 Asura mirror,platinum coins,,,,,,2,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 Asura mirror,soul orbs,5944,,,,,2,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-True asuras,arrows,3447,2,2,3,2026-09-14 21:24,25,Hunter
-True asuras,assassin stars,7368,14,4,15,2026-09-14 21:28,25,Frost Flower Asura|Hellhound
-True asuras,axes,3274,,,,,25,Bandit
-True asuras,black pearls,3027,279,231,280,2026-09-14 21:21,25,Hellhound
-True asuras,blazing bones,16131,787,363,788,2026-09-14 21:31,25,Hellhound
-True asuras,brass shields,3411,52,22,53,2026-09-14 21:19,25,Bandit
-True asuras,centipede legs and gold coins ,,,,,,25,Centipede
-True asuras,demonic essence,6499,999,898,1000,2026-09-14 21:33,25,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
-True asuras,fiery hearts,9636,,,,,25,Hellhound
-True asuras,flasks of demonic blood,,,,,,25,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
-True asuras,gold coins,,,,,,25,Bandit|Bug|Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn
-True asuras,golden lotus brooches,,,,,,25,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-True asuras,great health potions,239,14,,15,2026-09-14 21:18,25,Frost Flower Asura|Hellspawn
-True asuras,great mana potions,53161,,,,,25,Hellhound
-True asuras,great spirit potions,7642,151,113,152,2026-09-14 21:18,25,Hellhound
-True asuras,ham,3582,,,,,25,Crocodile|Elephant|Hellhound
-True asuras,hardened bones,5925,,,,,25,Hellhound
-True asuras,hellhound slobber,9637,,,,,25,Hellhound
-True asuras,hellspawn tails,10304,,,,,25,Hellspawn
-True asuras,hunter&#39;s quivers,,,,,,25,Hunter
-True asuras,leather legs,3559,,,,,25,Bandit
-True asuras,maces,3286,,,,,25,Bandit
-True asuras,meat,3577,,,,,25,Elephant
-True asuras,meat and worms ,,,,,,25,Hyaena
-True asuras,nothing ,,,,,,25,Snake
-True asuras,oranges,3586,,,,,25,Hunter
-True asuras,peacock feather fans,21975,,,,,25,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-True asuras,pieces of crocodile leather,,,,,,25,Crocodile
-True asuras,platinum coins,,,,,,25,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
-True asuras,rolls,3601,,,,,25,Hunter
-True asuras,soul orbs,5944,,,,,25,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
-True asuras,tarantula eggs,10281,,90,,2026-09-14 21:38,25,Tarantula
-True asuras,ultimate health potions,7643,108,91,109,2026-09-14 21:18,25,Hellhound
+True asuras,arrows,3447,2,2,3,2026-09-14 21:24,26,Hunter
+True asuras,assassin stars,7368,14,4,15,2026-09-14 21:28,26,Frost Flower Asura|Hellhound
+True asuras,axes,3274,,,,,26,Bandit
+True asuras,black pearls,3027,279,231,280,2026-09-14 21:21,26,Hellhound
+True asuras,blazing bones,16131,787,363,788,2026-09-14 21:31,26,Hellhound
+True asuras,brass shields,3411,52,22,53,2026-09-14 21:19,26,Bandit
+True asuras,centipede legs and gold coins ,,,,,,26,Centipede
+True asuras,demonic essence,6499,999,898,1000,2026-09-14 21:33,26,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
+True asuras,fiery hearts,9636,,,,,26,Hellhound
+True asuras,flasks of demonic blood,,,,,,26,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
+True asuras,gold coins,,,,,,26,Bandit|Bug|Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn
+True asuras,golden lotus brooches,,,,,,26,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+True asuras,great health potions,239,14,,15,2026-09-14 21:18,26,Frost Flower Asura|Hellspawn
+True asuras,great mana potions,53161,,,,,26,Hellhound
+True asuras,great spirit potions,7642,151,113,152,2026-09-14 21:18,26,Hellhound
+True asuras,ham,3582,,,,,26,Crocodile|Elephant|Hellhound
+True asuras,hardened bones,5925,,,,,26,Hellhound
+True asuras,hellhound slobber,9637,,,,,26,Hellhound
+True asuras,hellspawn tails,10304,,,,,26,Hellspawn
+True asuras,hunter&#39;s quivers,,,,,,26,Hunter
+True asuras,leather legs,3559,,,,,26,Bandit
+True asuras,maces,3286,,,,,26,Bandit
+True asuras,meat,3577,,,,,26,Elephant
+True asuras,meat and worms ,,,,,,26,Hyaena
+True asuras,nothing ,,,,,,26,Snake
+True asuras,oranges,3586,,,,,26,Hunter
+True asuras,peacock feather fans,21975,,,,,26,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+True asuras,pieces of crocodile leather,,,,,,26,Crocodile
+True asuras,platinum coins,,,,,,26,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
+True asuras,rolls,3601,,,,,26,Hunter
+True asuras,soul orbs,5944,,,,,26,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
+True asuras,tarantula eggs,10281,,90,,2026-09-14 21:38,26,Tarantula
+True asuras,ultimate health potions,7643,108,91,109,2026-09-14 21:18,26,Hellhound
 true asura duo,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Hellhound
 true asura duo,black pearls,3027,279,231,280,2026-09-14 21:21,1,Hellhound
 true asura duo,blazing bones,16131,787,363,788,2026-09-14 21:31,1,Hellhound
@@ -3501,38 +3512,6 @@ Banuta -3,soul orbs,5944,,,,,1,Nightmare
 Banuta -3,spiked iron balls,10408,,,,,1,Eternal Guardian
 Banuta -3,strands of medusa hair,,,,,,1,Medusa
 Banuta -3,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa|Phantasm
-Ora West,fish,3578,,,,,1,Quara Hydromancer Scout
-Ora West,globs of glooth,,,,,,1,Devourer|Glooth Blob|Rot Elemental
-Ora West,gold coins,,,,,,1,Blood Beast|Devourer|Glooth Blob|Metal Gargoyle|Quara Constrictor Scout|Quara Hydromancer Scout
-Ora West,metal jaws,21193,,,,,1,Metal Gargoyle
-Ora West,platinum coins,,,,,,1,Devourer|Metal Gargoyle|Rot Elemental
-Ora West,poisoned fangs,21195,,,,,1,Blood Beast
-Ora West,quara bones,11491,,,,,1,Quara Predator Scout
-Ora West,quara eyes,11488,,,,,1,Quara Hydromancer Scout
-Ora West,quara pincers,11490,,,,,1,Quara Pincher Scout
-Ora West,quara tentacles,11487,,,,,1,Quara Constrictor Scout
-Ora West,shrimp,3581,,,,,1,Quara Constrictor Scout|Quara Hydromancer Scout
-Ora West,slime hearts,21194,,,,,1,Blood Beast
-Ora West,strong health potions,236,10,4,11,2026-09-14 21:18,1,Rot Elemental
-Ora West,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Rot Elemental
-Banuta -6,ancient stones,9632,1436,,1437,2026-09-14 21:31,1,Eternal Guardian
-Banuta -6,gold coins,,,,,,1,Eternal Guardian|Hydra|Medusa|Serpent Spawn
-Banuta -6,great mana potions,53161,,,,,1,Medusa
-Banuta -6,green mushrooms,3732,,,,,1,Serpent Spawn
-Banuta -6,ham,3582,,,,,1,Hydra
-Banuta -6,hydra heads,10282,,,,,1,Hydra
-Banuta -6,platinum coins,,,,,,1,Eternal Guardian|Hydra|Medusa
-Banuta -6,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Serpent Spawn
-Banuta -6,small stones,1781,,,,,1,Eternal Guardian
-Banuta -6,snake skins,9694,,,,,1,Serpent Spawn
-Banuta -6,spiked iron balls,10408,,,,,1,Eternal Guardian
-Banuta -6,strands of medusa hair,,,,,,1,Medusa
-Banuta -6,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa
-Draken Walls North Solo EK,bone shoulderplates,10404,408,158,409,2026-09-14 21:32,1,Draken Warmaster
-Draken Walls North Solo EK,gold coins,,,,,,1,Draken Spellweaver|Draken Warmaster
-Draken Walls North Solo EK,meat,3577,,,,,1,Draken Spellweaver|Draken Warmaster
-Draken Walls North Solo EK,platinum coins,,,,,,1,Draken Spellweaver|Draken Warmaster
-Draken Walls North Solo EK,weaver&#39;s wandtips,,,,,,1,Draken Spellweaver
 Ripper Spectre Solo MS +650,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Arachnophobica|Ripper Spectre
 Ripper Spectre Solo MS +650,platinum coins,,,,,,1,Arachnophobica|Ripper Spectre
 Ripper Spectre Solo MS +650,two handed swords,3265,,,,,1,Ripper Spectre
