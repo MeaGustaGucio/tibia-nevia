@@ -1797,7 +1797,7 @@ Quara Sunken Quarter,quara tentacles,11487,,,,,1,Quara Constrictor
 Quaras duo,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Quara Podzilla,platinum coins,,,,,,2,Quara Looter|Quara Plunderer|Quara Raider
 Quara (bestiary),platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
-Podzilla Quaras,platinum coins,,,,,,32,Quara Looter|Quara Plunderer|Quara Raider
+Podzilla Quaras,platinum coins,,,,,,33,Quara Looter|Quara Plunderer|Quara Raider
 Quaras Podzilla,platinum coins,,,,,,3,Quara Looter|Quara Plunderer|Quara Raider
 Teste 1 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Teste 2 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
@@ -2112,8 +2112,6 @@ Weretigers (Full Moon),worms,3492,,,,,1,Mummy
 Weretigers,gold coins,,,,,,1,Cunning Werepanther|Weretiger|White Weretiger
 Weretigers,platinum coins,,,,,,1,Cunning Werepanther|Weretiger|White Weretiger
 Weretigers,weretiger teeth,,,,,,1,Weretiger|White Weretiger
-Burster Spectre #35,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
-Burster Spectre #35,platinum coins,,,,,,1,Burster Spectre
 Burster Spectre #36,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
 Burster Spectre #36,platinum coins,,,,,,1,Burster Spectre
 Burster Spectre #37,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
@@ -2284,6 +2282,9 @@ GAZER SPECTRE +21% DMG BOUNTY,small diamonds,3028,299,241,300,2026-09-14 21:24,1
 GAZER SPECTRE +21% DMG BOUNTY,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Gazer Spectre
 Burster Spectre Darashia,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
 Burster Spectre Darashia,platinum coins,,,,,,1,Burster Spectre
+Ripper Spectre Solo MS +650,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Arachnophobica|Ripper Spectre
+Ripper Spectre Solo MS +650,platinum coins,,,,,,1,Arachnophobica|Ripper Spectre
+Ripper Spectre Solo MS +650,two handed swords,3265,,,,,1,Ripper Spectre
 Carlin Cults,bolts,3446,2,1,3,2026-09-14 21:24,1,Vicious Squire
 Carlin Cults,crossbows,3349,,,,,1,Vicious Squire
 Carlin Cults,gold coins,,,,,,1,Cult Believer|Renegade Knight|Vicious Squire|Vile Grandmaster
@@ -3512,9 +3513,6 @@ Banuta -3,soul orbs,5944,,,,,1,Nightmare
 Banuta -3,spiked iron balls,10408,,,,,1,Eternal Guardian
 Banuta -3,strands of medusa hair,,,,,,1,Medusa
 Banuta -3,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa|Phantasm
-Ripper Spectre Solo MS +650,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Arachnophobica|Ripper Spectre
-Ripper Spectre Solo MS +650,platinum coins,,,,,,1,Arachnophobica|Ripper Spectre
-Ripper Spectre Solo MS +650,two handed swords,3265,,,,,1,Ripper Spectre
 Asura cidadel -2,platinum coins,,,,,,1,Iceplume Strider|Silverfrost Sentinel
 Asura cidadel -2,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Iceplume Strider|Silverfrost Sentinel
 Demons Goroma,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Demon|Hellhound
