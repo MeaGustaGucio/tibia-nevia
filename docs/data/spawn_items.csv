@@ -613,19 +613,19 @@ Exotic cave spider -1 -2   MK 188,great mana potions,53161,,,,,1,Exotic Bat
 Exotic cave spider -1 -2   MK 188,green mushrooms,3732,,,,,1,Exotic Bat
 Exotic cave spider -1 -2   MK 188,platinum coins,,,,,,1,Exotic Bat|Exotic Cave Spider
 Exotic cave spider -1 -2   MK 188,poison arrows,3448,,,,,1,Exotic Cave Spider
-Asura Palace,assassin stars,7368,14,4,15,2026-09-14 21:28,7,Frost Flower Asura
-Asura Palace,centipede legs and gold coins ,,,,,,7,Centipede
-Asura Palace,demonic essence,6499,999,898,1000,2026-09-14 21:33,7,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Palace,flasks of demonic blood,,,,,,7,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Palace,gold coins,,,,,,7,Bug|Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura
-Asura Palace,golden lotus brooches,,,,,,7,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Palace,great health potions,239,14,,15,2026-09-14 21:18,7,Frost Flower Asura|Hellspawn
-Asura Palace,ham,3582,,,,,7,Crocodile
-Asura Palace,hellspawn tails,10304,,,,,7,Hellspawn
-Asura Palace,peacock feather fans,21975,,,,,7,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Palace,pieces of crocodile leather,,,,,,7,Crocodile
-Asura Palace,platinum coins,,,,,,7,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Palace,soul orbs,5944,,,,,7,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Palace,assassin stars,7368,14,4,15,2026-09-14 21:28,6,Frost Flower Asura
+Asura Palace,centipede legs and gold coins ,,,,,,6,Centipede
+Asura Palace,demonic essence,6499,999,898,1000,2026-09-14 21:33,6,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Palace,flasks of demonic blood,,,,,,6,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Palace,gold coins,,,,,,6,Bug|Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura
+Asura Palace,golden lotus brooches,,,,,,6,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Palace,great health potions,239,14,,15,2026-09-14 21:18,6,Frost Flower Asura|Hellspawn
+Asura Palace,ham,3582,,,,,6,Crocodile
+Asura Palace,hellspawn tails,10304,,,,,6,Hellspawn
+Asura Palace,peacock feather fans,21975,,,,,6,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Palace,pieces of crocodile leather,,,,,,6,Crocodile
+Asura Palace,platinum coins,,,,,,6,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Palace,soul orbs,5944,,,,,6,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 Drefia Grim Reaper,blank runes,3147,,7,,2026-09-14 21:19,1,Spectre
 Drefia Grim Reaper,bones,22159,,,,,1,Skeleton Warrior
 Drefia Grim Reaper,candlesticks,2917,,,,,1,Banshee
@@ -1797,7 +1797,7 @@ Quara Sunken Quarter,quara tentacles,11487,,,,,1,Quara Constrictor
 Quaras duo,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Quara Podzilla,platinum coins,,,,,,2,Quara Looter|Quara Plunderer|Quara Raider
 Quara (bestiary),platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
-Podzilla Quaras,platinum coins,,,,,,33,Quara Looter|Quara Plunderer|Quara Raider
+Podzilla Quaras,platinum coins,,,,,,34,Quara Looter|Quara Plunderer|Quara Raider
 Quaras Podzilla,platinum coins,,,,,,3,Quara Looter|Quara Plunderer|Quara Raider
 Teste 1 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Teste 2 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
@@ -2514,6 +2514,8 @@ Asura (Mirror),soul orbs,5944,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight A
 ❄️ Iceplume Strider – Bounty Hunt,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Iceplume Strider|Silverfrost Sentinel
 🔥 Asura Citadel Hunt,platinum coins,,,,,,1,Iceplume Strider|Silverfrost Sentinel
 🔥 Asura Citadel Hunt,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Iceplume Strider|Silverfrost Sentinel
+Asura cidadel -2,platinum coins,,,,,,1,Iceplume Strider|Silverfrost Sentinel
+Asura cidadel -2,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Iceplume Strider|Silverfrost Sentinel
 demons 6666,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Demon
 demons 6666,demon horns,5954,,,,,1,Demon
 demons 6666,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Demon|Grim Reaper
@@ -3513,8 +3515,6 @@ Banuta -3,soul orbs,5944,,,,,1,Nightmare
 Banuta -3,spiked iron balls,10408,,,,,1,Eternal Guardian
 Banuta -3,strands of medusa hair,,,,,,1,Medusa
 Banuta -3,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa|Phantasm
-Asura cidadel -2,platinum coins,,,,,,1,Iceplume Strider|Silverfrost Sentinel
-Asura cidadel -2,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Iceplume Strider|Silverfrost Sentinel
 Demons Goroma,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Demon|Hellhound
 Demons Goroma,black pearls,3027,279,231,280,2026-09-14 21:21,1,Hellhound
 Demons Goroma,blank runes,3147,,7,,2026-09-14 21:19,1,Fire Devil
@@ -3612,3 +3612,11 @@ True Asura,peacock feather fans,21975,,,,,1,Dawnfire Asura|Frost Flower Asura|Mi
 True Asura,platinum coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
 True Asura,soul orbs,5944,,,,,1,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
 True Asura,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Hellhound
+Grim Reaper,demonic essence,6499,999,898,1000,2026-09-14 21:33,3,Grim Reaper|Nightmare
+Grim Reaper,essences of a bad dream,,,,,,3,Nightmare
+Grim Reaper,flasks of demonic blood,,,,,,3,Grim Reaper|Nightmare
+Grim Reaper,gold coins,,,,,,3,Grim Reaper|Nightmare|Nightmare Scion
+Grim Reaper,ham,3582,,,,,3,Nightmare
+Grim Reaper,meat,3577,,,,,3,Nightmare Scion
+Grim Reaper,scythe legs,10312,,,,,3,Nightmare
+Grim Reaper,soul orbs,5944,,,,,3,Nightmare
