@@ -1,16 +1,16 @@
 spawn,norm,kind,source,lo,hi,n,date,url,cluster,cluster_members
-Pirats,pirat,computed,sesje+kille (nasz model),53297,53297,1,2026-10-24,,Pirats,Pirats
-Werehyena South,werehyena,computed,sesje+kille (nasz model),49322,49322,1,2026-10-24,,Werehyena South,Werehyena South
-Draken Walls North Solo EK,draken wall,computed,sesje+kille (nasz model),43140,43140,1,2026-10-24,,Draken Walls North Solo EK,Draken Walls North Solo EK
-Medusa tower,medusa tower,computed,sesje+kille (nasz model),35647,35647,1,2026-10-24,,Medusa tower,Medusa tower
-Grim Reaper - Yalahar,grim reaper yalahar,computed,sesje+kille (nasz model),23367,23367,1,2026-10-24,,Grim Reaper - Yalahar,Grim Reaper - Yalahar
-Banuta -6,banuta,computed,sesje+kille (nasz model),20572,20572,1,2026-10-24,,Banuta -6,Banuta -6
-Grim Reaper - Yalahar,grim reaper yalahar,measured,mediana loot/h z sesji,227971,227971,1,2026-10-24,https://www.hunt-analyser.com/hunt_sessions/58641,Grim Reaper - Yalahar,Grim Reaper - Yalahar
-Werehyena South,werehyena,measured,mediana loot/h z sesji,784364,784364,1,2026-10-24,https://www.hunt-analyser.com/hunt_sessions/59746,Werehyena South,Werehyena South
-Medusa tower,medusa tower,measured,mediana loot/h z sesji,913643,913643,1,2026-10-24,https://www.hunt-analyser.com/hunt_sessions/57588,Medusa tower,Medusa tower
-Draken Walls North Solo EK,draken wall,measured,mediana loot/h z sesji,606530,606530,1,2026-10-24,https://www.hunt-analyser.com/hunt_sessions/58896,Draken Walls North Solo EK,Draken Walls North Solo EK
-Pirats,pirat,measured,mediana loot/h z sesji,753608,753608,1,2026-10-24,https://www.hunt-analyser.com/hunt_sessions/58448,Pirats,Pirats
-Banuta -6,banuta,measured,mediana loot/h z sesji,540205,540205,1,2026-10-24,https://www.hunt-analyser.com/hunt_sessions/58875,Banuta -6,Banuta -6
+Pirats,pirat,computed,sesje+kille (nasz model),53297,53297,1,2026-10-25,,Pirats,Pirats
+Werehyena South,werehyena,computed,sesje+kille (nasz model),45029,45029,1,2026-10-25,,Werehyena South,Werehyena South
+Draken Walls North Solo EK,draken wall,computed,sesje+kille (nasz model),43140,43140,1,2026-10-25,,Draken Walls North Solo EK,Draken Walls North Solo EK
+Medusa tower,medusa tower,computed,sesje+kille (nasz model),35647,35647,1,2026-10-25,,Medusa tower,Medusa tower
+Grim Reaper - Yalahar,grim reaper yalahar,computed,sesje+kille (nasz model),23367,23367,1,2026-10-25,,Grim Reaper - Yalahar,Grim Reaper - Yalahar
+Banuta -6,banuta,computed,sesje+kille (nasz model),20572,20572,1,2026-10-25,,Banuta -6,Banuta -6
+Grim Reaper - Yalahar,grim reaper yalahar,measured,mediana loot/h z sesji,227971,227971,1,2026-10-25,https://www.hunt-analyser.com/hunt_sessions/58641,Grim Reaper - Yalahar,Grim Reaper - Yalahar
+Werehyena South,werehyena,measured,mediana loot/h z sesji,784364,784364,1,2026-10-25,https://www.hunt-analyser.com/hunt_sessions/59746,Werehyena South,Werehyena South
+Medusa tower,medusa tower,measured,mediana loot/h z sesji,913643,913643,1,2026-10-25,https://www.hunt-analyser.com/hunt_sessions/57588,Medusa tower,Medusa tower
+Draken Walls North Solo EK,draken wall,measured,mediana loot/h z sesji,606530,606530,1,2026-10-25,https://www.hunt-analyser.com/hunt_sessions/58896,Draken Walls North Solo EK,Draken Walls North Solo EK
+Pirats,pirat,measured,mediana loot/h z sesji,753608,753608,1,2026-10-25,https://www.hunt-analyser.com/hunt_sessions/58448,Pirats,Pirats
+Banuta -6,banuta,measured,mediana loot/h z sesji,540205,540205,1,2026-10-25,https://www.hunt-analyser.com/hunt_sessions/58875,Banuta -6,Banuta -6
 Asura Palace,asura palace,guide,TibiaVault (2026-03),200000,600000,,2026-03,,Asura Palace,Asura Palace
 Oramond Minos,mino oramond,guide,TibiaVault (2026-03),500000,1500000,,2026-03,,Oramond Minos,Oramond Minos
 Roshamuul Prison,prison roshamuul,guide,MMOKB (2026-07-24),500000,1000000,,2026-07-24,,Roshamuul Prison,Roshamuul Prison
