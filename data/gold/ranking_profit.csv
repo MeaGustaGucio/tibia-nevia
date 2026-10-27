@@ -1,6 +1,5 @@
 id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lvl,xp_h,raw_xp_h,loot_h,balance_h,supplies_total,supplies_known,has_creature_stats,event_flag,url
 57553,Claustrophobic Inferno,"Sep 21, 2026 22:37",00:40h,40,4,ED 934+EM 1122+RP 946+EK 778,778,1122,945,9079366,6053157,6732930,5671459,707647,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57553
-55194,True asuras,"Aug 27, 2026 18:38",01:03h,63,2,ED 776+EK 771,771,776,774,10428196,6952377,4002418,3487926,540216,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55194
 55514,True asuras,"Aug 31, 2026 08:31",01:09h,69,2,ED 782+EK 778,778,782,780,10431679,6954698,3983848,3491606,566077,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55514
 55427,True asuras,"Aug 30, 2026 10:24",01:17h,77,2,ED 779+EK 776,776,779,778,10265467,6843888,3769169,3237464,682354,1,1,0,https://www.hunt-analyser.com/hunt_sessions/55427
 59667,asura e infernatil,"Oct 15, 2026 18:38",01:07h,67,1,RP 1177,1177,1177,1177,3431723,3265179,2958918,2679829,311649,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59667
@@ -39,6 +38,7 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 60336,Podzilla Quaras,"Oct 22, 2026 21:07",02:34h,154,1,MS 952,952,952,952,25405578,12296280,2011129,1932429,201996,1,1,0,https://www.hunt-analyser.com/hunt_sessions/60336
 59711,Podzilla Quaras,"Oct 15, 2026 21:15",02:11h,131,1,MS 943,943,943,943,28031164,12820945,1981806,1958099,51760,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59711
 59882,Podzilla Quaras,"Oct 17, 2026 18:13",02:02h,122,1,MS 945,945,945,945,29488505,13539175,1977314,1903565,149955,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59882
+60703,Podzilla Quaras,"Oct 26, 2026 20:39",03:05h,185,1,MS 956,956,956,956,28366863,12803452,1958286,1903450,169078,1,1,0,https://www.hunt-analyser.com/hunt_sessions/60703
 58722,Podzilla Quaras,"Oct 04, 2026 16:19",02:08h,128,1,MS 927,927,927,927,29493035,13840499,1956337,1948717,16254,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58722
 59417,Podzilla Quaras,"Oct 12, 2026 21:17",02:01h,121,1,MS 939,939,939,939,29063626,13040761,1954927,1865270,180807,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59417
 59511,Podzilla Quaras,"Oct 13, 2026 20:55",02:36h,156,1,MS 940,940,940,940,26712118,11960106,1948262,1869206,205546,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59511
