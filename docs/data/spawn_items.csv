@@ -613,19 +613,19 @@ Exotic cave spider -1 -2   MK 188,great mana potions,53161,,,,,1,Exotic Bat
 Exotic cave spider -1 -2   MK 188,green mushrooms,3732,,,,,1,Exotic Bat
 Exotic cave spider -1 -2   MK 188,platinum coins,,,,,,1,Exotic Bat|Exotic Cave Spider
 Exotic cave spider -1 -2   MK 188,poison arrows,3448,,,,,1,Exotic Cave Spider
-Asura Palace,assassin stars,7368,14,4,15,2026-09-14 21:28,5,Frost Flower Asura
-Asura Palace,centipede legs and gold coins ,,,,,,5,Centipede
-Asura Palace,demonic essence,6499,999,898,1000,2026-09-14 21:33,5,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Palace,flasks of demonic blood,,,,,,5,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Palace,gold coins,,,,,,5,Bug|Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura
-Asura Palace,golden lotus brooches,,,,,,5,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Palace,great health potions,239,14,,15,2026-09-14 21:18,5,Frost Flower Asura|Hellspawn
-Asura Palace,ham,3582,,,,,5,Crocodile
-Asura Palace,hellspawn tails,10304,,,,,5,Hellspawn
-Asura Palace,peacock feather fans,21975,,,,,5,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Palace,pieces of crocodile leather,,,,,,5,Crocodile
-Asura Palace,platinum coins,,,,,,5,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Palace,soul orbs,5944,,,,,5,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Palace,assassin stars,7368,14,4,15,2026-09-14 21:28,3,Frost Flower Asura
+Asura Palace,centipede legs and gold coins ,,,,,,3,Centipede
+Asura Palace,demonic essence,6499,999,898,1000,2026-09-14 21:33,3,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Palace,flasks of demonic blood,,,,,,3,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Palace,gold coins,,,,,,3,Bug|Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura
+Asura Palace,golden lotus brooches,,,,,,3,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Palace,great health potions,239,14,,15,2026-09-14 21:18,3,Frost Flower Asura|Hellspawn
+Asura Palace,ham,3582,,,,,3,Crocodile
+Asura Palace,hellspawn tails,10304,,,,,3,Hellspawn
+Asura Palace,peacock feather fans,21975,,,,,3,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Palace,pieces of crocodile leather,,,,,,3,Crocodile
+Asura Palace,platinum coins,,,,,,3,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Palace,soul orbs,5944,,,,,3,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 Drefia Grim Reaper,blank runes,3147,,7,,2026-09-14 21:19,1,Spectre
 Drefia Grim Reaper,bones,22159,,,,,1,Skeleton Warrior
 Drefia Grim Reaper,candlesticks,2917,,,,,1,Banshee
@@ -1797,7 +1797,7 @@ Quara Sunken Quarter,quara tentacles,11487,,,,,1,Quara Constrictor
 Quaras duo,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Quara Podzilla,platinum coins,,,,,,2,Quara Looter|Quara Plunderer|Quara Raider
 Quara (bestiary),platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
-Podzilla Quaras,platinum coins,,,,,,35,Quara Looter|Quara Plunderer|Quara Raider
+Podzilla Quaras,platinum coins,,,,,,36,Quara Looter|Quara Plunderer|Quara Raider
 Quaras Podzilla,platinum coins,,,,,,3,Quara Looter|Quara Plunderer|Quara Raider
 Teste 1 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Teste 2 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
@@ -2516,6 +2516,41 @@ Asura (Mirror),soul orbs,5944,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight A
 🔥 Asura Citadel Hunt,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Iceplume Strider|Silverfrost Sentinel
 Asura cidadel -2,platinum coins,,,,,,1,Iceplume Strider|Silverfrost Sentinel
 Asura cidadel -2,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Iceplume Strider|Silverfrost Sentinel
+Forbiden garden - true feverbloom asura,gold coins,,,,,,1,Parder
+Forbiden garden - true feverbloom asura,ham,3582,,,,,1,Parder
+Forbiden garden - true feverbloom asura,parder furs,39418,,,,,1,Parder
+Forbiden garden - true feverbloom asura,parder teeth,,,,,,1,Parder
+Forbiden garden - true feverbloom asura,platinum coins,,,,,,1,Winged Jaracal
+Forbiden garden - true feverbloom asura,red crystal fragments,16126,,,,,1,Parder
+Forbiden garden - true feverbloom asura,strong health potions,236,10,4,11,2026-09-14 21:18,1,Winged Jaracal
+asura e infernatil,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Hellhound
+asura e infernatil,black pearls,3027,279,231,280,2026-09-14 21:21,1,Hellhound
+asura e infernatil,blank runes,3147,,7,,2026-09-14 21:19,1,Hellfire Fighter
+asura e infernatil,blazing bones,16131,787,363,788,2026-09-14 21:31,1,Hellhound
+asura e infernatil,book pages,28569,,,,,1,Energuardian of Tales
+asura e infernatil,burnt scrolls,3124,,,,,1,Hellfire Fighter
+asura e infernatil,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Fury|Hellfire Fighter|Hellflayer|Hellhound|Vexclaw
+asura e infernatil,fiery hearts,9636,,,,,1,Hellfire Fighter|Hellhound
+asura e infernatil,fire mushrooms,3731,,,,,1,Rage Squid|Vexclaw
+asura e infernatil,flasks of demonic blood,,,,,,1,Fury|Hellflayer|Hellhound
+asura e infernatil,glowing runes,28570,,,,,1,Energuardian of Tales|Rage Squid
+asura e infernatil,gold coins,,,,,,1,Fury|Hellfire Fighter|Hellflayer
+asura e infernatil,great health potions,239,14,,15,2026-09-14 21:18,1,Fury
+asura e infernatil,great mana potions,53161,,,,,1,Hellflayer|Hellhound|Rage Squid|Vexclaw
+asura e infernatil,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Hellflayer|Hellhound|Rage Squid|Vexclaw
+asura e infernatil,ham,3582,,,,,1,Hellhound
+asura e infernatil,hardened bones,5925,,,,,1,Hellhound
+asura e infernatil,hellhound slobber,9637,,,,,1,Hellhound
+asura e infernatil,inkwells,28568,,,,,1,Rage Squid
+asura e infernatil,jalapeno peppers,8016,,,,,1,Fury
+asura e infernatil,pairs of hellflayer horns,,,,,,1,Hellflayer
+asura e infernatil,platinum coins,,,,,,1,Hellflayer|Hellhound|Rage Squid|Vexclaw
+asura e infernatil,slightly rusted legs,8899,,,,,1,Fury
+asura e infernatil,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Energuardian of Tales
+asura e infernatil,soul orbs,5944,,,,,1,Fury|Hellfire Fighter|Hellhound
+asura e infernatil,terra rods,3065,1955,1560,1956,2026-09-14 21:30,1,Fury
+asura e infernatil,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Energuardian of Tales|Hellflayer|Hellhound|Rage Squid|Vexclaw
+asura e infernatil,vexclaw talons,22728,,,,,1,Vexclaw
 demons 6666,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Demon
 demons 6666,demon horns,5954,,,,,1,Demon
 demons 6666,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Demon|Grim Reaper
@@ -3549,41 +3584,6 @@ Banuta -3,soul orbs,5944,,,,,1,Nightmare
 Banuta -3,spiked iron balls,10408,,,,,1,Eternal Guardian
 Banuta -3,strands of medusa hair,,,,,,1,Medusa
 Banuta -3,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa|Phantasm
-Forbiden garden - true feverbloom asura,gold coins,,,,,,1,Parder
-Forbiden garden - true feverbloom asura,ham,3582,,,,,1,Parder
-Forbiden garden - true feverbloom asura,parder furs,39418,,,,,1,Parder
-Forbiden garden - true feverbloom asura,parder teeth,,,,,,1,Parder
-Forbiden garden - true feverbloom asura,platinum coins,,,,,,1,Winged Jaracal
-Forbiden garden - true feverbloom asura,red crystal fragments,16126,,,,,1,Parder
-Forbiden garden - true feverbloom asura,strong health potions,236,10,4,11,2026-09-14 21:18,1,Winged Jaracal
-asura e infernatil,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Hellhound
-asura e infernatil,black pearls,3027,279,231,280,2026-09-14 21:21,1,Hellhound
-asura e infernatil,blank runes,3147,,7,,2026-09-14 21:19,1,Hellfire Fighter
-asura e infernatil,blazing bones,16131,787,363,788,2026-09-14 21:31,1,Hellhound
-asura e infernatil,book pages,28569,,,,,1,Energuardian of Tales
-asura e infernatil,burnt scrolls,3124,,,,,1,Hellfire Fighter
-asura e infernatil,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Fury|Hellfire Fighter|Hellflayer|Hellhound|Vexclaw
-asura e infernatil,fiery hearts,9636,,,,,1,Hellfire Fighter|Hellhound
-asura e infernatil,fire mushrooms,3731,,,,,1,Rage Squid|Vexclaw
-asura e infernatil,flasks of demonic blood,,,,,,1,Fury|Hellflayer|Hellhound
-asura e infernatil,glowing runes,28570,,,,,1,Energuardian of Tales|Rage Squid
-asura e infernatil,gold coins,,,,,,1,Fury|Hellfire Fighter|Hellflayer
-asura e infernatil,great health potions,239,14,,15,2026-09-14 21:18,1,Fury
-asura e infernatil,great mana potions,53161,,,,,1,Hellflayer|Hellhound|Rage Squid|Vexclaw
-asura e infernatil,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Hellflayer|Hellhound|Rage Squid|Vexclaw
-asura e infernatil,ham,3582,,,,,1,Hellhound
-asura e infernatil,hardened bones,5925,,,,,1,Hellhound
-asura e infernatil,hellhound slobber,9637,,,,,1,Hellhound
-asura e infernatil,inkwells,28568,,,,,1,Rage Squid
-asura e infernatil,jalapeno peppers,8016,,,,,1,Fury
-asura e infernatil,pairs of hellflayer horns,,,,,,1,Hellflayer
-asura e infernatil,platinum coins,,,,,,1,Hellflayer|Hellhound|Rage Squid|Vexclaw
-asura e infernatil,slightly rusted legs,8899,,,,,1,Fury
-asura e infernatil,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Energuardian of Tales
-asura e infernatil,soul orbs,5944,,,,,1,Fury|Hellfire Fighter|Hellhound
-asura e infernatil,terra rods,3065,1955,1560,1956,2026-09-14 21:30,1,Fury
-asura e infernatil,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Energuardian of Tales|Hellflayer|Hellhound|Rage Squid|Vexclaw
-asura e infernatil,vexclaw talons,22728,,,,,1,Vexclaw
 Werehyena South,axes,3274,,,,,1,Werehyaena
 Werehyena South,great health potions,239,14,,15,2026-09-14 21:18,1,Werehyaena
 Werehyena South,great mana potions,53161,,,,,1,Werehyaena Shaman
@@ -3645,3 +3645,11 @@ Orc Cults Edron,studded legs,3362,,,,,1,Orc Spearman
 Orc Cults Edron,throwing knives,,,,,,1,Orc Leader
 Orc Cults Edron,warrior helmets,3369,4869,4487,4870,2026-09-14 21:12,1,Orc Cult Fanatic
 Podzilla Quaras - Bug Chain effect,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
+Roshamuul West Mid,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Frazzlemaw
+Roshamuul West Mid,frazzle skins,20199,,,,,1,Frazzlemaw
+Roshamuul West Mid,frazzle tongues,20198,,,,,1,Frazzlemaw|Guzzlemaw
+Roshamuul West Mid,gold coins,,,,,,1,Frazzlemaw|Guzzlemaw|Silencer
+Roshamuul West Mid,great health potions,239,14,,15,2026-09-14 21:18,1,Frazzlemaw|Guzzlemaw
+Roshamuul West Mid,great mana potions,53161,,,,,1,Frazzlemaw|Guzzlemaw
+Roshamuul West Mid,platinum coins,,,,,,1,Frazzlemaw|Guzzlemaw|Silencer
+Roshamuul West Mid,silencer claws,20200,5438,3804,5439,2026-09-14 21:37,1,Silencer
