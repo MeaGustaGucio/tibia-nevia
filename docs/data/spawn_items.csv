@@ -799,10 +799,6 @@ DL POI,dragon&#39;s tails,,,,,,1,Dragon
 DL POI,gold coins,,,,,,1,Dragon|Dragon Lord
 DL POI,green mushrooms,3732,,,,,1,Dragon Lord
 DL POI,steel shields,3409,,,,,1,Dragon
-Vampire crypt (Edron),gold coins,,,,,,1,Vampire|Vampire Bride|Vampire Viscount
-Vampire crypt (Edron),platinum coins,,,,,,1,Vampire Bride
-Vampire crypt (Edron),strong mana potions,237,116,100,117,2026-09-14 21:18,1,Vampire Bride
-Vampire crypt (Edron),vampire teeth,9685,491,300,492,2026-09-14 21:38,1,Vampire Bride
 mini rosha sooft boots,bones,22159,,,,,1,Weakened Frazzlemaw
 mini rosha sooft boots,colourful snail shell,25696,,,,,1,Swan Maiden
 mini rosha sooft boots,dandelion seeds,25695,,,,,1,Faun
@@ -1563,6 +1559,15 @@ Draken Walls North Solo EK,gold coins,,,,,,1,Draken Spellweaver|Draken Warmaster
 Draken Walls North Solo EK,meat,3577,,,,,1,Draken Spellweaver|Draken Warmaster
 Draken Walls North Solo EK,platinum coins,,,,,,1,Draken Spellweaver|Draken Warmaster
 Draken Walls North Solo EK,weaver&#39;s wandtips,,,,,,1,Draken Spellweaver
+Werehyena South,axes,3274,,,,,1,Werehyaena
+Werehyena South,great health potions,239,14,,15,2026-09-14 21:18,1,Werehyaena
+Werehyena South,great mana potions,53161,,,,,1,Werehyaena Shaman
+Werehyena South,halberds,3269,598,274,599,2026-09-14 21:25,1,Werehyaena
+Werehyena South,knives,,,,,,1,Werehyaena
+Werehyena South,meat,3577,,,,,1,Werehyaena
+Werehyena South,platinum coins,,,,,,1,Werehyaena|Werehyaena Shaman
+Werehyena South,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Werehyaena Shaman
+Werehyena South,werehyaena noses,33943,,,,,1,Werehyaena|Werehyaena Shaman
 Burster Duo - Dia 2,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
 Burster Duo - Dia 2,platinum coins,,,,,,1,Burster Spectre
 Hero cave -3,arrows,3447,2,2,3,2026-09-14 21:24,1,Hero
@@ -2231,13 +2236,13 @@ Gazers Spectres,nothing ,,,,,,1,Slime
 Gazers Spectres,platinum coins,,,,,,1,Gazer Spectre|Thanatursus
 Gazers Spectres,small diamonds,3028,299,241,300,2026-09-14 21:24,1,Gazer Spectre
 Gazers Spectres,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Gazer Spectre
-Gazer Spectre,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,2,Gazer Spectre
-Gazer Spectre,halberds,3269,598,274,599,2026-09-14 21:25,2,Thanatursus
-Gazer Spectre,ham,3582,,,,,2,Thanatursus
-Gazer Spectre,meat,3577,,,,,2,Thanatursus
-Gazer Spectre,platinum coins,,,,,,2,Gazer Spectre|Thanatursus
-Gazer Spectre,small diamonds,3028,299,241,300,2026-09-14 21:24,2,Gazer Spectre
-Gazer Spectre,small sapphires,3029,248,214,249,2026-09-14 21:24,2,Gazer Spectre
+Gazer Spectre,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,3,Gazer Spectre
+Gazer Spectre,halberds,3269,598,274,599,2026-09-14 21:25,3,Thanatursus
+Gazer Spectre,ham,3582,,,,,3,Thanatursus
+Gazer Spectre,meat,3577,,,,,3,Thanatursus
+Gazer Spectre,platinum coins,,,,,,3,Gazer Spectre|Thanatursus
+Gazer Spectre,small diamonds,3028,299,241,300,2026-09-14 21:24,3,Gazer Spectre
+Gazer Spectre,small sapphires,3029,248,214,249,2026-09-14 21:24,3,Gazer Spectre
 Ripper Spectres,arrows,3447,2,2,3,2026-09-14 21:24,5,Hunter
 Ripper Spectres,axes,3274,,,,,5,Wild Warrior
 Ripper Spectres,brass shields,3411,52,22,53,2026-09-14 21:19,5,Wild Warrior
@@ -2341,6 +2346,10 @@ Edron vampire lair,throwing stars,3287,,,,,1,Demon Skeleton
 Edron vampire lair,vampire teeth,9685,491,300,492,2026-09-14 21:38,1,Vampire Bride
 Edron vampire lair,white mushrooms,3723,,,,,1,Skeleton Warrior
 Edron vampire lair,worms,3492,,,,,1,Ghoul
+Vampire crypt (Edron),gold coins,,,,,,1,Vampire|Vampire Bride|Vampire Viscount
+Vampire crypt (Edron),platinum coins,,,,,,1,Vampire Bride
+Vampire crypt (Edron),strong mana potions,237,116,100,117,2026-09-14 21:18,1,Vampire Bride
+Vampire crypt (Edron),vampire teeth,9685,491,300,492,2026-09-14 21:38,1,Vampire Bride
 Edron Vampires,gold coins,,,,,,1,Vampire|Vampire Bride|Vampire Viscount
 Edron Vampires,platinum coins,,,,,,1,Vampire Bride
 Edron Vampires,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Vampire Bride
@@ -3584,15 +3593,6 @@ Banuta -3,soul orbs,5944,,,,,1,Nightmare
 Banuta -3,spiked iron balls,10408,,,,,1,Eternal Guardian
 Banuta -3,strands of medusa hair,,,,,,1,Medusa
 Banuta -3,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa|Phantasm
-Werehyena South,axes,3274,,,,,1,Werehyaena
-Werehyena South,great health potions,239,14,,15,2026-09-14 21:18,1,Werehyaena
-Werehyena South,great mana potions,53161,,,,,1,Werehyaena Shaman
-Werehyena South,halberds,3269,598,274,599,2026-09-14 21:25,1,Werehyaena
-Werehyena South,knives,,,,,,1,Werehyaena
-Werehyena South,meat,3577,,,,,1,Werehyaena
-Werehyena South,platinum coins,,,,,,1,Werehyaena|Werehyaena Shaman
-Werehyena South,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Werehyaena Shaman
-Werehyena South,werehyaena noses,33943,,,,,1,Werehyaena|Werehyaena Shaman
 True Asura,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Frost Flower Asura|Hellhound
 True Asura,black pearls,3027,279,231,280,2026-09-14 21:21,1,Hellhound
 True Asura,blazing bones,16131,787,363,788,2026-09-14 21:31,1,Hellhound
