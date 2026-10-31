@@ -5,9 +5,16 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+# Wspolna grupa z weekly-history (patrz weekly.yml). Daily nie jest anulowany:
+# w sobote, jesli backfill jeszcze idzie, ten workflow czeka i startuje po nim.
+concurrency:
+  group: nevia-data-publish
+  cancel-in-progress: false
 jobs:
   etl:
     runs-on: ubuntu-latest
+    env:
+      PYTHONUNBUFFERED: "1"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -26,10 +33,4 @@ jobs:
       - run: python scripts/build_gold.py
       # Opcjonalny upload do R2: odkomentuj po dodaniu secretow R2_* (s3cmd/rclone).
       # - run: echo "R2 upload placeholder"
-      - run: |
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
-          git add config.yaml data docs
-          git diff --quiet && git diff --staged --quiet || git commit -m "nevia daily snapshot"
-          git pull --rebase origin main || true
-          git push
+      - run: python scripts/git_publish.py --message "nevia daily snapshot"

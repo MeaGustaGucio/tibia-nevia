@@ -2,7 +2,7 @@
 
 Items = watchlist z configu + unia loot_list potworow z hunt_kills (cap max_items).
 Wyjscie: data/raw/<dzis>/orderbook_nevia.json: {item_id: {sellers, buyers, update_time}}.
-Resume: istniejacy plik z danego dnia jest doczytywany. Pacing 0.6s + retry na 429.
+Resume: istniejacy plik z danego dnia jest doczytywany. Tempo: Retry-After z API (http_retry).
 Stdlib + pyyaml (config).
 """
 import argparse
@@ -10,12 +10,10 @@ import datetime as dt
 import glob
 import json
 import pathlib
-import time
-import urllib.error
 import urllib.parse
-import urllib.request
 
 from common import ROOT, load_config
+from http_retry import get_json
 
 cfg = load_config()
 OUT = ROOT / "data" / "raw" / dt.date.today().isoformat()
@@ -31,19 +29,7 @@ DAILY_MAX = int(OB.get("daily_max", 40))  # dziennie tylko tyle (watchlista + to
 
 def get(path: str, params: dict, retries: int = 6):
     url = f"{API}{path}?{urllib.parse.urlencode(params)}"
-    for a in range(retries):
-        try:
-            req = urllib.request.Request(url, headers=UA)
-            with urllib.request.urlopen(req, timeout=60) as r:
-                time.sleep(2.0)  # wolniej = mniej 429 = szybciej globalnie
-                return json.loads(r.read().decode())
-        except urllib.error.HTTPError as e:
-            if e.code == 429 and a < retries - 1:
-                wait = 5 * (a + 1)
-                print(f"429, czekam {wait}s: {path} {params.get('item_id')}")
-                time.sleep(wait)
-                continue
-            raise
+    return get_json(url, headers=UA, retries=retries)
 
 
 def load_metadata() -> list[dict]:

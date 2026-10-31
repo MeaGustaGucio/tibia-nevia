@@ -8,11 +8,10 @@ import datetime as dt
 import glob
 import json
 import pathlib
-import time
 import urllib.parse
-import urllib.request
 
 from common import ROOT, load_config
+from http_retry import get_json
 
 cfg = load_config()
 API = "https://api.tibiamarket.top"
@@ -24,25 +23,13 @@ MKT = cfg.get("market", {})
 TOP_N_HISTORY = int(os.environ.get("TOP_N_HISTORY", MKT.get("top_n_history", 150)))
 HISTORY_DAYS = int(os.environ.get("HISTORY_DAYS", MKT.get("history_days", 90)))
 DAILY_HIST_MAX = int(os.environ.get("DAILY_HIST_MAX", MKT.get("daily_hist_max", 40)))
-PAGE_LIMIT = 200  # mniejsze strony = mniej 429
-REQ_DELAY = 0.6  # odstep miedzy requestami (API ma rate limit)
+PAGE_LIMIT = 200
 
 
 def get(path: str, params: dict, retries: int = 6) -> object:
+    # api.tibiamarket.top: Limit 1 i Retry-After (zwykle 5s) — patrz http_retry.
     url = f"{API}{path}?{urllib.parse.urlencode(params)}"
-    for attempt in range(retries):
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": "nevia-pipeline/0.1"})
-            with urllib.request.urlopen(req, timeout=60) as r:
-                time.sleep(REQ_DELAY)
-                return json.loads(r.read().decode())
-        except urllib.error.HTTPError as e:
-            if e.code == 429 and attempt < retries - 1:
-                wait = 5 * (attempt + 1)
-                print(f"429, czekam {wait}s (proba {attempt + 1}/{retries}): {path}")
-                time.sleep(wait)
-                continue
-            raise
+    return get_json(url, headers={"User-Agent": "nevia-pipeline/0.1"}, retries=retries)
 
 
 world = get("/world_data", {})
