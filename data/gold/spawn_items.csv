@@ -2062,16 +2062,30 @@ werelions (30m bonus xp),werecrocodile tongues,43729,,,,,1,Feral Werecrocodile|W
 werelions (30m bonus xp),werepanther claws,43731,,,,,1,Werepanther
 werelions (30m bonus xp),weretiger teeth,,,,,,1,Weretiger|White Weretiger
 werelions (30m bonus xp),worms,3492,,,,,1,Mummy
-Weretigers -2,gold coins,,,,,,19,Cunning Werepanther|Weretiger|White Weretiger
-Weretigers -2,platinum coins,,,,,,19,Cunning Werepanther|Weretiger|White Weretiger
-Weretigers -2,weretiger teeth,,,,,,19,Weretiger|White Weretiger
+Weretigers -2,cyan crystal fragments,16125,,,,,20,Jungle Moa
+Weretigers -2,gold coins,,,,,,20,Crocodile|Cunning Werepanther|Feral Werecrocodile|Jungle Moa|Killer Caiman|Nomad
+Weretigers -2,ham,3582,,,,,20,Crocodile|Killer Caiman|Parder
+Weretigers -2,jungle moa claws,39404,,,,,20,Jungle Moa
+Weretigers -2,jungle moa feathers,39403,,,,,20,Jungle Moa
+Weretigers -2,meat,3577,,,,,20,Jungle Moa
+Weretigers -2,meat and striped fur ,,,,,,20,Tiger|White Tiger
+Weretigers -2,parder furs,39418,,,,,20,Parder
+Weretigers -2,parder teeth,,,,,,20,Parder
+Weretigers -2,pieces of crocodile leather,,,,,,20,Crocodile|Killer Caiman
+Weretigers -2,platinum coins,,,,,,20,Cunning Werepanther|Feral Werecrocodile|Werecrocodile|Werepanther|Weretiger|White Weretiger
+Weretigers -2,red crystal fragments,16126,,,,,20,Parder
+Weretigers -2,small emeralds,3032,249,161,250,2026-09-14 21:24,20,Killer Caiman
+Weretigers -2,strong mana potions,237,116,100,117,2026-09-14 21:18,20,Jungle Moa
+Weretigers -2,werecrocodile tongues,43729,,,,,20,Feral Werecrocodile|Werecrocodile
+Weretigers -2,werepanther claws,43731,,,,,20,Werepanther
+Weretigers -2,weretiger teeth,,,,,,20,Weretiger|White Weretiger
 Weretigers v1,gold coins,,,,,,1,Cunning Werepanther|Weretiger|White Weretiger
 Weretigers v1,meat and striped fur ,,,,,,1,Tiger
 Weretigers v1,platinum coins,,,,,,1,Cunning Werepanther|Weretiger|White Weretiger
 Weretigers v1,weretiger teeth,,,,,,1,Weretiger|White Weretiger
-Weretigers -1,gold coins,,,,,,8,Cunning Werepanther|Weretiger|White Weretiger
-Weretigers -1,platinum coins,,,,,,8,Cunning Werepanther|Weretiger|White Weretiger
-Weretigers -1,weretiger teeth,,,,,,8,Weretiger|White Weretiger
+Weretigers -1,gold coins,,,,,,9,Cunning Werepanther|Weretiger|White Weretiger
+Weretigers -1,platinum coins,,,,,,9,Cunning Werepanther|Weretiger|White Weretiger
+Weretigers -1,weretiger teeth,,,,,,9,Weretiger|White Weretiger
 Weretigery w duo MS + RP,gold coins,,,,,,1,Cunning Werepanther|Feral Werecrocodile|Killer Caiman|Werecrocodile|Werepanther|Weretiger
 Weretigery w duo MS + RP,ham,3582,,,,,1,Killer Caiman
 Weretigery w duo MS + RP,meat and striped fur ,,,,,,1,Tiger|White Tiger
@@ -2354,18 +2368,18 @@ Edron Vampires,gold coins,,,,,,1,Vampire|Vampire Bride|Vampire Viscount
 Edron Vampires,platinum coins,,,,,,1,Vampire Bride
 Edron Vampires,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Vampire Bride
 Edron Vampires,vampire teeth,9685,491,300,492,2026-09-14 21:38,1,Vampire Bride
-Asura Mirror,assassin stars,7368,14,4,15,2026-09-14 21:28,14,Frost Flower Asura
-Asura Mirror,demonic essence,6499,999,898,1000,2026-09-14 21:33,14,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,flasks of demonic blood,,,,,,14,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,gold coins,,,,,,14,Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura|Nomad
-Asura Mirror,golden lotus brooches,,,,,,14,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,great health potions,239,14,,15,2026-09-14 21:18,14,Frost Flower Asura|Hellspawn
-Asura Mirror,ham,3582,,,,,14,Crocodile
-Asura Mirror,hellspawn tails,10304,,,,,14,Hellspawn
-Asura Mirror,peacock feather fans,21975,,,,,14,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,pieces of crocodile leather,,,,,,14,Crocodile
-Asura Mirror,platinum coins,,,,,,14,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,soul orbs,5944,,,,,14,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,assassin stars,7368,14,4,15,2026-09-14 21:28,13,Frost Flower Asura
+Asura Mirror,demonic essence,6499,999,898,1000,2026-09-14 21:33,13,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,flasks of demonic blood,,,,,,13,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,gold coins,,,,,,13,Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura|Nomad
+Asura Mirror,golden lotus brooches,,,,,,13,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,great health potions,239,14,,15,2026-09-14 21:18,13,Frost Flower Asura|Hellspawn
+Asura Mirror,ham,3582,,,,,13,Crocodile
+Asura Mirror,hellspawn tails,10304,,,,,13,Hellspawn
+Asura Mirror,peacock feather fans,21975,,,,,13,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,pieces of crocodile leather,,,,,,13,Crocodile
+Asura Mirror,platinum coins,,,,,,13,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,soul orbs,5944,,,,,13,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 True asuras -2,assassin stars,7368,14,4,15,2026-09-14 21:28,2,Hellhound
 True asuras -2,black pearls,3027,279,231,280,2026-09-14 21:21,2,Hellhound
 True asuras -2,blazing bones,16131,787,363,788,2026-09-14 21:31,2,Hellhound
@@ -3612,14 +3626,14 @@ Banuta -3,soul orbs,5944,,,,,1,Nightmare
 Banuta -3,spiked iron balls,10408,,,,,1,Eternal Guardian
 Banuta -3,strands of medusa hair,,,,,,1,Medusa
 Banuta -3,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa|Phantasm
-Grim Reaper,demonic essence,6499,999,898,1000,2026-09-14 21:33,8,Grim Reaper|Nightmare
-Grim Reaper,essences of a bad dream,,,,,,8,Nightmare
-Grim Reaper,flasks of demonic blood,,,,,,8,Grim Reaper|Nightmare
-Grim Reaper,gold coins,,,,,,8,Grim Reaper|Nightmare|Nightmare Scion
-Grim Reaper,ham,3582,,,,,8,Nightmare
-Grim Reaper,meat,3577,,,,,8,Nightmare Scion
-Grim Reaper,scythe legs,10312,,,,,8,Nightmare
-Grim Reaper,soul orbs,5944,,,,,8,Nightmare
+Grim Reaper,demonic essence,6499,999,898,1000,2026-09-14 21:33,9,Grim Reaper|Nightmare
+Grim Reaper,essences of a bad dream,,,,,,9,Nightmare
+Grim Reaper,flasks of demonic blood,,,,,,9,Grim Reaper|Nightmare
+Grim Reaper,gold coins,,,,,,9,Grim Reaper|Nightmare|Nightmare Scion
+Grim Reaper,ham,3582,,,,,9,Nightmare
+Grim Reaper,meat,3577,,,,,9,Nightmare Scion
+Grim Reaper,scythe legs,10312,,,,,9,Nightmare
+Grim Reaper,soul orbs,5944,,,,,9,Nightmare
 Orc Cults Edron,broken helmets,11453,31,8,32,2026-09-14 21:32,1,Orc Warrior
 Orc Cults Edron,broken shamanic staffs,11452,10749,8563,10750,2026-09-14 21:32,1,Orc Cult Priest
 Orc Cults Edron,brown mushrooms,3725,9,,10,2026-09-14 21:09,1,Orc Cult Fanatic|Orc Leader
@@ -3633,7 +3647,7 @@ Orc Cults Edron,halberds,3269,598,274,599,2026-09-14 21:25,1,Orc Cult Inquisitor
 Orc Cults Edron,ham,3582,,,,,1,Orc Berserker|Orc Cult Inquisitor
 Orc Cults Edron,meat,3577,,,,,1,Orc|Orc Spearman|Orc Warrior
 Orc Cults Edron,orc leather,11479,,,,,1,Orc Cult Fanatic|Orc Leader
-Orc Cults Edron,orcish gear,11477,,,,,1,Orc Berserker|Orc Cult Inquisitor
+Orc Cults Edron,orcish gear,11477,549,479,550,2026-09-14 21:36,1,Orc Berserker|Orc Cult Inquisitor
 Orc Cults Edron,plate shields,3410,,,,,1,Orc Cult Fanatic|Orc Leader
 Orc Cults Edron,shamanic hoods,11478,,,,,1,Orc Cult Priest
 Orc Cults Edron,skull belts,11480,,,,,1,Orc Cult Fanatic
@@ -3645,11 +3659,18 @@ Orc Cults Edron,studded legs,3362,,,,,1,Orc Spearman
 Orc Cults Edron,throwing knives,,,,,,1,Orc Leader
 Orc Cults Edron,warrior helmets,3369,4869,4487,4870,2026-09-14 21:12,1,Orc Cult Fanatic
 Podzilla Quaras - Bug Chain effect,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
-Roshamuul West Mid,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Frazzlemaw
-Roshamuul West Mid,frazzle skins,20199,,,,,1,Frazzlemaw
-Roshamuul West Mid,frazzle tongues,20198,,,,,1,Frazzlemaw|Guzzlemaw
-Roshamuul West Mid,gold coins,,,,,,1,Frazzlemaw|Guzzlemaw|Silencer
-Roshamuul West Mid,great health potions,239,14,,15,2026-09-14 21:18,1,Frazzlemaw|Guzzlemaw
-Roshamuul West Mid,great mana potions,53161,,,,,1,Frazzlemaw|Guzzlemaw
-Roshamuul West Mid,platinum coins,,,,,,1,Frazzlemaw|Guzzlemaw|Silencer
-Roshamuul West Mid,silencer claws,20200,5438,3804,5439,2026-09-14 21:37,1,Silencer
+Roshamuul West Mid,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,2,Choking Fear|Frazzlemaw
+Roshamuul West Mid,brown mushrooms,3725,9,,10,2026-09-14 21:09,2,Retching Horror
+Roshamuul West Mid,dead weights,20202,,,,,2,Choking Fear
+Roshamuul West Mid,frazzle skins,20199,,,,,2,Frazzlemaw
+Roshamuul West Mid,frazzle tongues,20198,,,,,2,Frazzlemaw|Guzzlemaw
+Roshamuul West Mid,gold coins,,,,,,2,Frazzlemaw|Guzzlemaw|Silencer
+Roshamuul West Mid,goosebump leathers,20205,,,,,2,Retching Horror
+Roshamuul West Mid,great health potions,239,14,,15,2026-09-14 21:18,2,Frazzlemaw|Guzzlemaw|Retching Horror
+Roshamuul West Mid,great mana potions,53161,,,,,2,Choking Fear|Frazzlemaw|Guzzlemaw|Retching Horror
+Roshamuul West Mid,great spirit potions,7642,151,113,152,2026-09-14 21:18,2,Choking Fear
+Roshamuul West Mid,hemp ropes,20206,,,,,2,Choking Fear
+Roshamuul West Mid,platinum coins,,,,,,2,Choking Fear|Frazzlemaw|Guzzlemaw|Retching Horror|Silencer
+Roshamuul West Mid,pools of chitinous glue,,,,,,2,Retching Horror
+Roshamuul West Mid,silencer claws,20200,5438,3804,5439,2026-09-14 21:37,2,Silencer
+Roshamuul West Mid,ultimate health potions,7643,108,91,109,2026-09-14 21:18,2,Choking Fear

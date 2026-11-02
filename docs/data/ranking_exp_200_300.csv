@@ -15,6 +15,8 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 49093,Ravenous Lava Lurker,"Jun 19, 2026 15:47",00:28h,28,1,ED 217,217,217,217,4497300,0,0,-301008,140470,1,1,0,https://www.hunt-analyser.com/hunt_sessions/49093
 44526,werehyena north,"Mar 07, 2026 07:39",01:37h,97,1,RP 256,256,256,256,4409575,1731921,656378,365474,470294,1,1,0,https://www.hunt-analyser.com/hunt_sessions/44526
 46448,Buried Cathedral -3,"Apr 24, 2026 19:51",00:59h,59,2,ED 296+EK 231,231,296,264,4318345,2879015,1232479,731110,493013,1,1,0,https://www.hunt-analyser.com/hunt_sessions/46448
+61127,Weretigers -2,"Nov 01, 2026 18:15",00:41h,41,2,EM 296+EK 297,296,297,296,4187966,2936034,1451814,968599,330197,1,1,0,https://www.hunt-analyser.com/hunt_sessions/61127
+61121,Weretigers -1,"Nov 01, 2026 16:05",01:00h,60,1,EM 295,295,295,295,3854405,2569607,821167,509386,311781,1,1,0,https://www.hunt-analyser.com/hunt_sessions/61121
 48885,Crumbling Caverns,"Jun 17, 2026 16:39",02:04h,124,1,ED 233,233,233,233,3746985,2497991,912871,677706,486007,1,1,0,https://www.hunt-analyser.com/hunt_sessions/48885
 43805,werehyena North,"Feb 19, 2026 16:11",00:51h,51,1,RP 223,223,223,223,3716896,1966157,599502,252641,294832,1,1,0,https://www.hunt-analyser.com/hunt_sessions/43805
 48842,Crumbling Caverns,"Jun 17, 2026 11:12",01:05h,65,1,ED 232,232,232,232,3629138,2419426,928691,685368,263600,1,1,0,https://www.hunt-analyser.com/hunt_sessions/48842
@@ -47,5 +49,3 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 45415,Mino Cult 29.03,"Mar 29, 2026 08:51",00:30h,30,1,EK 252,252,252,252,1897516,843470,586290,456634,64828,1,1,0,https://www.hunt-analyser.com/hunt_sessions/45415
 42631,Glooth Factory - TESTE,"Jan 18, 2026 11:25",00:15h,15,1,RP 208,208,208,208,1880400,1253600,458056,250328,51932,1,1,0,https://www.hunt-analyser.com/hunt_sessions/42631
 44304,Exotic cave spider weekly task,"Mar 03, 2026 19:45",00:45h,45,1,ED 287,287,287,287,1846568,0,210411,93525,87664,1,1,0,https://www.hunt-analyser.com/hunt_sessions/44304
-53327,Sea serpent (Svargrond),"Aug 08, 2026 11:45",00:50h,50,1,EK 270,270,270,270,1684045,1122697,163787,132138,26374,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53327
-52736,Hellspawn (Yalahar),"Aug 02, 2026 08:14",00:30h,30,1,EK 267,267,267,267,1683640,1122432,293484,208160,42662,1,1,0,https://www.hunt-analyser.com/hunt_sessions/52736
