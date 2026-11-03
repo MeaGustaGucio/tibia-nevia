@@ -1,8 +1,10 @@
 id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lvl,xp_h,raw_xp_h,loot_h,balance_h,supplies_total,supplies_known,has_creature_stats,event_flag,url
 61127,Weretigers -2,"Nov 01, 2026 18:15",00:41h,41,2,EM 296+EK 297,296,297,296,4187966,2936034,1451814,968599,330197,1,1,0,https://www.hunt-analyser.com/hunt_sessions/61127
+61205,Weretigers -2,"Nov 02, 2026 20:12",01:06h,66,2,EK 299+EM 297,297,299,298,4323225,2882151,1314291,853071,507341,1,1,0,https://www.hunt-analyser.com/hunt_sessions/61205
 57588,Medusa tower,"Sep 22, 2026 17:11",00:46h,46,1,RP 266,266,266,266,3469917,2313280,913643,509324,309978,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57588
 61121,Weretigers -1,"Nov 01, 2026 16:05",01:00h,60,1,EM 295,295,295,295,3854405,2569607,821167,509386,311781,1,1,0,https://www.hunt-analyser.com/hunt_sessions/61121
 59746,Werehyena South,"Oct 16, 2026 10:31",00:45h,45,1,MS 260,260,260,260,4974112,2558453,784364,681141,77417,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59746
+61166,Gazer ED Solo,"Nov 02, 2026 09:36",01:00h,60,1,ED 298,298,298,298,4569652,3046435,778289,480865,297424,1,1,0,https://www.hunt-analyser.com/hunt_sessions/61166
 58448,Pirats,"Oct 01, 2026 21:47",00:31h,31,1,EM 229,229,229,229,2934329,2043743,753608,610418,73981,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58448
 58896,Draken Walls North Solo EK,"Oct 06, 2026 20:04",01:01h,61,1,EK 247,247,247,247,2961368,1974245,606530,342032,268906,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58896
 58875,Banuta -6,"Oct 06, 2026 16:20",00:51h,51,1,EM 214,214,214,214,2503625,1669085,540205,271521,228381,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58875

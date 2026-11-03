@@ -1,16 +1,16 @@
 {
- "date": "2026-11-02",
- "hunts": 86,
- "hunts_exp": 297,
+ "date": "2026-11-03",
+ "hunts": 90,
+ "hunts_exp": 301,
  "recent_days": 60,
  "recent_days_exp": 365,
  "price_items": 73,
- "spawn_items": 3675,
+ "spawn_items": 3682,
  "tagged_items": 548,
  "events_days": 10,
  "events_excluded": 9,
- "sessions_le31d": 57,
- "sessions_le62d": 88,
+ "sessions_le31d": 59,
+ "sessions_le62d": 91,
  "manual_prices": {
   "Rope Belt": 4526
  }

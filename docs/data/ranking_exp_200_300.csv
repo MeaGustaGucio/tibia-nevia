@@ -11,9 +11,11 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 50312,Book World II,"Jul 03, 2026 22:39",00:30h,30,1,EK 247,247,247,247,5264682,1403996,407982,185912,111035,1,1,0,https://www.hunt-analyser.com/hunt_sessions/50312
 59746,Werehyena South,"Oct 16, 2026 10:31",00:45h,45,1,MS 260,260,260,260,4974112,2558453,784364,681141,77417,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59746
 50358,Lycanthrope Grounds (Edron),"Jul 04, 2026 10:45",01:00h,60,1,EK 253,253,253,253,4735274,1262740,373899,300405,73494,1,1,0,https://www.hunt-analyser.com/hunt_sessions/50358
+61166,Gazer ED Solo,"Nov 02, 2026 09:36",01:00h,60,1,ED 298,298,298,298,4569652,3046435,778289,480865,297424,1,1,0,https://www.hunt-analyser.com/hunt_sessions/61166
 48969,Ravenous Lava Lurker,"Jun 18, 2026 15:22",00:29h,29,1,ED 216,216,216,216,4526321,0,0,-271525,131237,1,1,0,https://www.hunt-analyser.com/hunt_sessions/48969
 49093,Ravenous Lava Lurker,"Jun 19, 2026 15:47",00:28h,28,1,ED 217,217,217,217,4497300,0,0,-301008,140470,1,1,0,https://www.hunt-analyser.com/hunt_sessions/49093
 44526,werehyena north,"Mar 07, 2026 07:39",01:37h,97,1,RP 256,256,256,256,4409575,1731921,656378,365474,470294,1,1,0,https://www.hunt-analyser.com/hunt_sessions/44526
+61205,Weretigers -2,"Nov 02, 2026 20:12",01:06h,66,2,EK 299+EM 297,297,299,298,4323225,2882151,1314291,853071,507341,1,1,0,https://www.hunt-analyser.com/hunt_sessions/61205
 46448,Buried Cathedral -3,"Apr 24, 2026 19:51",00:59h,59,2,ED 296+EK 231,231,296,264,4318345,2879015,1232479,731110,493013,1,1,0,https://www.hunt-analyser.com/hunt_sessions/46448
 61127,Weretigers -2,"Nov 01, 2026 18:15",00:41h,41,2,EM 296+EK 297,296,297,296,4187966,2936034,1451814,968599,330197,1,1,0,https://www.hunt-analyser.com/hunt_sessions/61127
 61121,Weretigers -1,"Nov 01, 2026 16:05",01:00h,60,1,EM 295,295,295,295,3854405,2569607,821167,509386,311781,1,1,0,https://www.hunt-analyser.com/hunt_sessions/61121
@@ -47,5 +49,3 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 42658,Exotic Cave,"Jan 19, 2026 07:30",00:45h,45,1,RP 208,208,208,208,2014529,1343029,454776,241716,159795,1,1,0,https://www.hunt-analyser.com/hunt_sessions/42658
 53434,Glooth Plains - Surface (Oramond),"Aug 09, 2026 21:39",00:42h,42,1,EK 273,273,273,273,1974337,1316308,306191,233968,50556,1,1,0,https://www.hunt-analyser.com/hunt_sessions/53434
 45415,Mino Cult 29.03,"Mar 29, 2026 08:51",00:30h,30,1,EK 252,252,252,252,1897516,843470,586290,456634,64828,1,1,0,https://www.hunt-analyser.com/hunt_sessions/45415
-42631,Glooth Factory - TESTE,"Jan 18, 2026 11:25",00:15h,15,1,RP 208,208,208,208,1880400,1253600,458056,250328,51932,1,1,0,https://www.hunt-analyser.com/hunt_sessions/42631
-44304,Exotic cave spider weekly task,"Mar 03, 2026 19:45",00:45h,45,1,ED 287,287,287,287,1846568,0,210411,93525,87664,1,1,0,https://www.hunt-analyser.com/hunt_sessions/44304
