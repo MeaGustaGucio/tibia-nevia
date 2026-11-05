@@ -2083,9 +2083,9 @@ Weretigers v1,gold coins,,,,,,1,Cunning Werepanther|Weretiger|White Weretiger
 Weretigers v1,meat and striped fur ,,,,,,1,Tiger
 Weretigers v1,platinum coins,,,,,,1,Cunning Werepanther|Weretiger|White Weretiger
 Weretigers v1,weretiger teeth,,,,,,1,Weretiger|White Weretiger
-Weretigers -1,gold coins,,,,,,9,Cunning Werepanther|Weretiger|White Weretiger
-Weretigers -1,platinum coins,,,,,,9,Cunning Werepanther|Weretiger|White Weretiger
-Weretigers -1,weretiger teeth,,,,,,9,Weretiger|White Weretiger
+Weretigers -1,gold coins,,,,,,10,Cunning Werepanther|Weretiger|White Weretiger
+Weretigers -1,platinum coins,,,,,,10,Cunning Werepanther|Weretiger|White Weretiger
+Weretigers -1,weretiger teeth,,,,,,10,Weretiger|White Weretiger
 Weretigery w duo MS + RP,gold coins,,,,,,1,Cunning Werepanther|Feral Werecrocodile|Killer Caiman|Werecrocodile|Werepanther|Weretiger
 Weretigery w duo MS + RP,ham,3582,,,,,1,Killer Caiman
 Weretigery w duo MS + RP,meat and striped fur ,,,,,,1,Tiger|White Tiger
@@ -3041,6 +3041,14 @@ Demons Goroma,small topazes,,,,,,1,Demon
 Demons Goroma,soul orbs,5944,,,,,1,Hellhound
 Demons Goroma,throwing stars,3287,,,,,1,Demon Skeleton
 Demons Goroma,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Demon|Hellhound
+Grim Reaper,demonic essence,6499,999,898,1000,2026-09-14 21:33,9,Grim Reaper|Nightmare
+Grim Reaper,essences of a bad dream,,,,,,9,Nightmare
+Grim Reaper,flasks of demonic blood,,,,,,9,Grim Reaper|Nightmare
+Grim Reaper,gold coins,,,,,,9,Grim Reaper|Nightmare|Nightmare Scion
+Grim Reaper,ham,3582,,,,,9,Nightmare
+Grim Reaper,meat,3577,,,,,9,Nightmare Scion
+Grim Reaper,scythe legs,10312,,,,,9,Nightmare
+Grim Reaper,soul orbs,5944,,,,,9,Nightmare
 Jug seal na zboostowanych demonach po orcsoberfeście,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Juggernaut
 Jug seal na zboostowanych demonach po orcsoberfeście,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Hellflayer|Juggernaut|Vexclaw
 Jug seal na zboostowanych demonach po orcsoberfeście,fire mushrooms,3731,,,,,1,Vexclaw
@@ -3626,14 +3634,6 @@ Banuta -3,soul orbs,5944,,,,,1,Nightmare
 Banuta -3,spiked iron balls,10408,,,,,1,Eternal Guardian
 Banuta -3,strands of medusa hair,,,,,,1,Medusa
 Banuta -3,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa|Phantasm
-Grim Reaper,demonic essence,6499,999,898,1000,2026-09-14 21:33,9,Grim Reaper|Nightmare
-Grim Reaper,essences of a bad dream,,,,,,9,Nightmare
-Grim Reaper,flasks of demonic blood,,,,,,9,Grim Reaper|Nightmare
-Grim Reaper,gold coins,,,,,,9,Grim Reaper|Nightmare|Nightmare Scion
-Grim Reaper,ham,3582,,,,,9,Nightmare
-Grim Reaper,meat,3577,,,,,9,Nightmare Scion
-Grim Reaper,scythe legs,10312,,,,,9,Nightmare
-Grim Reaper,soul orbs,5944,,,,,9,Nightmare
 Orc Cults Edron,broken helmets,11453,31,8,32,2026-09-14 21:32,1,Orc Warrior
 Orc Cults Edron,broken shamanic staffs,11452,10749,8563,10750,2026-09-14 21:32,1,Orc Cult Priest
 Orc Cults Edron,brown mushrooms,3725,9,,10,2026-09-14 21:09,1,Orc Cult Fanatic|Orc Leader
