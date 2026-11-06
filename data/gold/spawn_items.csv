@@ -2344,6 +2344,30 @@ MINO CULTS,purple robes,11473,,,,,1,Minotaur Cult Zealot
 MINO CULTS,small emeralds,3032,249,161,250,2026-09-14 21:24,1,Minotaur Cult Prophet
 MINO CULTS,snakebite rods,3066,,,,,1,Minotaur Cult Zealot
 MINO CULTS,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Minotaur Cult Zealot
+Orc Cults Edron,broken helmets,11453,31,8,32,2026-09-14 21:32,1,Orc Warrior
+Orc Cults Edron,broken shamanic staffs,11452,10749,8563,10750,2026-09-14 21:32,1,Orc Cult Priest
+Orc Cults Edron,brown mushrooms,3725,9,,10,2026-09-14 21:09,1,Orc Cult Fanatic|Orc Leader
+Orc Cults Edron,bug meat,24382,,,,,1,Orc Cult Inquisitor
+Orc Cults Edron,cultish robes,9639,88,,89,2026-09-14 21:33,1,Orc Cult Fanatic|Orc Cult Inquisitor|Orc Cult Minion|Orc Cult Priest
+Orc Cults Edron,fish,3578,,,,,1,Orc Cult Fanatic|Orc Leader
+Orc Cults Edron,gold coins,,,,,,1,Orc|Orc Berserker|Orc Cult Fanatic|Orc Cult Inquisitor|Orc Cult Minion|Orc Cult Priest
+Orc Cults Edron,great health potions,239,14,,15,2026-09-14 21:18,1,Orc Cult Fanatic
+Orc Cults Edron,green pieces of cloth,,,,,,1,Orc Cult Priest
+Orc Cults Edron,halberds,3269,598,274,599,2026-09-14 21:25,1,Orc Cult Inquisitor
+Orc Cults Edron,ham,3582,,,,,1,Orc Berserker|Orc Cult Inquisitor
+Orc Cults Edron,meat,3577,,,,,1,Orc|Orc Spearman|Orc Warrior
+Orc Cults Edron,orc leather,11479,,,,,1,Orc Cult Fanatic|Orc Leader
+Orc Cults Edron,orcish gear,11477,549,479,550,2026-09-14 21:36,1,Orc Berserker|Orc Cult Inquisitor
+Orc Cults Edron,plate shields,3410,,,,,1,Orc Cult Fanatic|Orc Leader
+Orc Cults Edron,shamanic hoods,11478,,,,,1,Orc Cult Priest
+Orc Cults Edron,skull belts,11480,,,,,1,Orc Cult Fanatic
+Orc Cults Edron,small rubies,,,,,,1,Orc Cult Fanatic|Orc Cult Priest
+Orc Cults Edron,small topazes,,,,,,1,Orc Cult Minion
+Orc Cults Edron,spears,3277,,,,,1,Orc Spearman
+Orc Cults Edron,strong health potions,236,10,4,11,2026-09-14 21:18,1,Orc Cult Inquisitor|Orc Cult Minion|Orc Cult Priest
+Orc Cults Edron,studded legs,3362,,,,,1,Orc Spearman
+Orc Cults Edron,throwing knives,,,,,,1,Orc Leader
+Orc Cults Edron,warrior helmets,3369,4869,4487,4870,2026-09-14 21:12,1,Orc Cult Fanatic
 Edron vampire lair,bones,22159,,,,,1,Bonebeast|Skeleton Warrior
 Edron vampire lair,bony tails,10277,,183,,2026-09-14 21:32,1,Bonebeast
 Edron vampire lair,books of necromantic rituals,,,,,,1,Necromancer
@@ -3634,30 +3658,6 @@ Banuta -3,soul orbs,5944,,,,,1,Nightmare
 Banuta -3,spiked iron balls,10408,,,,,1,Eternal Guardian
 Banuta -3,strands of medusa hair,,,,,,1,Medusa
 Banuta -3,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa|Phantasm
-Orc Cults Edron,broken helmets,11453,31,8,32,2026-09-14 21:32,1,Orc Warrior
-Orc Cults Edron,broken shamanic staffs,11452,10749,8563,10750,2026-09-14 21:32,1,Orc Cult Priest
-Orc Cults Edron,brown mushrooms,3725,9,,10,2026-09-14 21:09,1,Orc Cult Fanatic|Orc Leader
-Orc Cults Edron,bug meat,24382,,,,,1,Orc Cult Inquisitor
-Orc Cults Edron,cultish robes,9639,88,,89,2026-09-14 21:33,1,Orc Cult Fanatic|Orc Cult Inquisitor|Orc Cult Minion|Orc Cult Priest
-Orc Cults Edron,fish,3578,,,,,1,Orc Cult Fanatic|Orc Leader
-Orc Cults Edron,gold coins,,,,,,1,Orc|Orc Berserker|Orc Cult Fanatic|Orc Cult Inquisitor|Orc Cult Minion|Orc Cult Priest
-Orc Cults Edron,great health potions,239,14,,15,2026-09-14 21:18,1,Orc Cult Fanatic
-Orc Cults Edron,green pieces of cloth,,,,,,1,Orc Cult Priest
-Orc Cults Edron,halberds,3269,598,274,599,2026-09-14 21:25,1,Orc Cult Inquisitor
-Orc Cults Edron,ham,3582,,,,,1,Orc Berserker|Orc Cult Inquisitor
-Orc Cults Edron,meat,3577,,,,,1,Orc|Orc Spearman|Orc Warrior
-Orc Cults Edron,orc leather,11479,,,,,1,Orc Cult Fanatic|Orc Leader
-Orc Cults Edron,orcish gear,11477,549,479,550,2026-09-14 21:36,1,Orc Berserker|Orc Cult Inquisitor
-Orc Cults Edron,plate shields,3410,,,,,1,Orc Cult Fanatic|Orc Leader
-Orc Cults Edron,shamanic hoods,11478,,,,,1,Orc Cult Priest
-Orc Cults Edron,skull belts,11480,,,,,1,Orc Cult Fanatic
-Orc Cults Edron,small rubies,,,,,,1,Orc Cult Fanatic|Orc Cult Priest
-Orc Cults Edron,small topazes,,,,,,1,Orc Cult Minion
-Orc Cults Edron,spears,3277,,,,,1,Orc Spearman
-Orc Cults Edron,strong health potions,236,10,4,11,2026-09-14 21:18,1,Orc Cult Inquisitor|Orc Cult Minion|Orc Cult Priest
-Orc Cults Edron,studded legs,3362,,,,,1,Orc Spearman
-Orc Cults Edron,throwing knives,,,,,,1,Orc Leader
-Orc Cults Edron,warrior helmets,3369,4869,4487,4870,2026-09-14 21:12,1,Orc Cult Fanatic
 Podzilla Quaras - Bug Chain effect,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Roshamuul West Mid,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,2,Choking Fear|Frazzlemaw
 Roshamuul West Mid,brown mushrooms,3725,9,,10,2026-09-14 21:09,2,Retching Horror
@@ -3689,3 +3689,41 @@ Yalahar Grim Reapers,ham,3582,,,,,1,Nightmare
 Yalahar Grim Reapers,meat,3577,,,,,1,Nightmare Scion
 Yalahar Grim Reapers,scythe legs,10312,,,,,1,Nightmare
 Yalahar Grim Reapers,soul orbs,5944,,,,,1,Nightmare
+Hyaena Lairs (North),axes,3274,,,,,1,Werehyaena
+Hyaena Lairs (North),great health potions,239,14,,15,2026-09-14 21:18,1,Werehyaena
+Hyaena Lairs (North),great mana potions,53161,,,,,1,Werehyaena Shaman
+Hyaena Lairs (North),halberds,3269,598,274,599,2026-09-14 21:25,1,Werehyaena
+Hyaena Lairs (North),knives,,,,,,1,Werehyaena
+Hyaena Lairs (North),meat,3577,,,,,1,Werehyaena
+Hyaena Lairs (North),platinum coins,,,,,,1,Werehyaena|Werehyaena Shaman
+Hyaena Lairs (North),small amethysts,3033,198,172,199,2026-09-14 21:24,1,Werehyaena Shaman
+Hyaena Lairs (North),werehyaena noses,33943,,,,,1,Werehyaena|Werehyaena Shaman
+asuras,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Frost Flower Asura
+asuras,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+asuras,flasks of demonic blood,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+asuras,gold coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura
+asuras,golden lotus brooches,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+asuras,great health potions,239,14,,15,2026-09-14 21:18,1,Frost Flower Asura|Hellspawn
+asuras,hellspawn tails,10304,,,,,1,Hellspawn
+asuras,peacock feather fans,21975,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+asuras,platinum coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+asuras,soul orbs,5944,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Oramond Demon,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Demon
+Oramond Demon,demon horns,5954,,,,,1,Demon
+Oramond Demon,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Demon|Grim Reaper
+Oramond Demon,fire mushrooms,3731,,,,,1,Demon
+Oramond Demon,flasks of demonic blood,,,,,,1,Grim Reaper
+Oramond Demon,globs of glooth,,,,,,1,Devourer|Glooth Blob|Rot Elemental
+Oramond Demon,gold coins,,,,,,1,Demon|Devourer|Glooth Blob|Grim Reaper|Metal Gargoyle|Rot Elemental
+Oramond Demon,great mana potions,53161,,,,,1,Demon
+Oramond Demon,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Demon
+Oramond Demon,metal jaws,21193,,,,,1,Metal Gargoyle
+Oramond Demon,metal toes,21198,,,,,1,Walker
+Oramond Demon,platinum coins,,,,,,1,Demon|Devourer|Metal Gargoyle|Rot Elemental|Walker
+Oramond Demon,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Demon
+Oramond Demon,small emeralds,3032,249,161,250,2026-09-14 21:24,1,Demon
+Oramond Demon,small rubies,,,,,,1,Demon
+Oramond Demon,small topazes,,,,,,1,Demon
+Oramond Demon,strong health potions,236,10,4,11,2026-09-14 21:18,1,Rot Elemental
+Oramond Demon,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Rot Elemental
+Oramond Demon,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Demon
