@@ -5,12 +5,20 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
+# Ta sama grupa co daily-nevia. cancel-in-progress: false — sobotni backfill
+# (kilka godzin) nie jest ubijany, gdy o 05:00 wystartuje daily. Daily czeka
+# i robi checkout juz po pushu weekly. git_publish i tak dogrywa commit, gdy
+# main ruszy sie z innego powodu.
+concurrency:
+  group: nevia-data-publish
+  cancel-in-progress: false
 jobs:
   history:
     runs-on: ubuntu-latest
     env:
       TOP_N_HISTORY: "600"   # szerszy krag itemow
       HISTORY_DAYS: "90"     # 90 dni wstecz (API pozwala: start_days_ago)
+      PYTHONUNBUFFERED: "1"
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -22,8 +30,23 @@ jobs:
       - run: python scripts/fetch_market.py
       - run: python scripts/fetch_orderbook.py --full
       - run: python scripts/build_gold.py
-      - run: |
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git config user.name "github-actions[bot]"
-          git add config.yaml data docs
-          git diff --quiet && git diff --staged --quiet || (git commit -m "nevia weekly history backfill" && git push)
+      - run: python scripts/git_publish.py --message "nevia weekly history backfill"
+      - name: stage fetched data for artifact
+        if: failure()
+        run: |
+          mkdir -p "$RUNNER_TEMP/weekly-backup"
+          [ -d data/gold ] && cp -a data/gold "$RUNNER_TEMP/weekly-backup/gold"
+          [ -d docs/data ] && cp -a docs/data "$RUNNER_TEMP/weekly-backup/docs-data"
+          day=$(date -u +%F)
+          if [ -d "data/raw/$day" ]; then
+            mkdir -p "$RUNNER_TEMP/weekly-backup/raw"
+            cp -a "data/raw/$day" "$RUNNER_TEMP/weekly-backup/raw/$day"
+          fi
+      - name: keep fetched data if publish failed
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-history-${{ github.run_id }}
+          retention-days: 14
+          if-no-files-found: warn
+          path: ${{ runner.temp }}/weekly-backup
