@@ -2099,9 +2099,10 @@ Weretigers -2 (Fullmoon),gold coins,,,,,,1,Cunning Werepanther|Weretiger|White W
 Weretigers -2 (Fullmoon),meat and striped fur ,,,,,,1,Tiger|White Tiger
 Weretigers -2 (Fullmoon),platinum coins,,,,,,1,Cunning Werepanther|Weretiger|White Weretiger
 Weretigers -2 (Fullmoon),weretiger teeth,,,,,,1,Weretiger|White Weretiger
-Weretiger -2,gold coins,,,,,,4,Cunning Werepanther|Weretiger|White Weretiger
-Weretiger -2,platinum coins,,,,,,4,Cunning Werepanther|Weretiger|White Weretiger
-Weretiger -2,weretiger teeth,,,,,,4,Weretiger|White Weretiger
+Weretiger -2,gold coins,,,,,,5,Cunning Werepanther|Weretiger|White Weretiger
+Weretiger -2,meat and striped fur ,,,,,,5,White Tiger
+Weretiger -2,platinum coins,,,,,,5,Cunning Werepanther|Weretiger|White Weretiger
+Weretiger -2,weretiger teeth,,,,,,5,Weretiger|White Weretiger
 Weretiger x2,gold coins,,,,,,1,Cunning Werepanther|Weretiger|White Weretiger
 Weretiger x2,platinum coins,,,,,,1,Cunning Werepanther|Weretiger|White Weretiger
 Weretiger x2,weretiger teeth,,,,,,1,Weretiger|White Weretiger
@@ -3065,14 +3066,14 @@ Demons Goroma,small topazes,,,,,,1,Demon
 Demons Goroma,soul orbs,5944,,,,,1,Hellhound
 Demons Goroma,throwing stars,3287,,,,,1,Demon Skeleton
 Demons Goroma,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Demon|Hellhound
-Grim Reaper,demonic essence,6499,999,898,1000,2026-09-14 21:33,9,Grim Reaper|Nightmare
-Grim Reaper,essences of a bad dream,,,,,,9,Nightmare
-Grim Reaper,flasks of demonic blood,,,,,,9,Grim Reaper|Nightmare
-Grim Reaper,gold coins,,,,,,9,Grim Reaper|Nightmare|Nightmare Scion
-Grim Reaper,ham,3582,,,,,9,Nightmare
-Grim Reaper,meat,3577,,,,,9,Nightmare Scion
-Grim Reaper,scythe legs,10312,,,,,9,Nightmare
-Grim Reaper,soul orbs,5944,,,,,9,Nightmare
+Grim Reaper,demonic essence,6499,999,898,1000,2026-09-14 21:33,10,Grim Reaper|Nightmare
+Grim Reaper,essences of a bad dream,,,,,,10,Nightmare
+Grim Reaper,flasks of demonic blood,,,,,,10,Grim Reaper|Nightmare
+Grim Reaper,gold coins,,,,,,10,Grim Reaper|Nightmare|Nightmare Scion
+Grim Reaper,ham,3582,,,,,10,Nightmare
+Grim Reaper,meat,3577,,,,,10,Nightmare Scion
+Grim Reaper,scythe legs,10312,,,,,10,Nightmare
+Grim Reaper,soul orbs,5944,,,,,10,Nightmare
 Jug seal na zboostowanych demonach po orcsoberfeście,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Juggernaut
 Jug seal na zboostowanych demonach po orcsoberfeście,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Hellflayer|Juggernaut|Vexclaw
 Jug seal na zboostowanych demonach po orcsoberfeście,fire mushrooms,3731,,,,,1,Vexclaw

@@ -1,0 +1,410 @@
+{
+ "world": {
+  "name": "Nevia",
+  "status": "online",
+  "players_online": 73,
+  "record_players": 1082,
+  "record_date": "2026-06-07T18:27:31Z",
+  "creation_date": "2023-08",
+  "location": "Europe",
+  "pvp_type": "Optional PvP",
+  "premium_only": false,
+  "transfer_type": "regular",
+  "world_quest_titles": [
+   "Winterlight Solstice",
+   "Orcsoberfest",
+   "Demon's Lullaby",
+   "Rise of Devovorga",
+   "Bewitched",
+   "The Great Expedition",
+   "The Colours of Magic",
+   "The Lightbearer",
+   "A Piece of Cake"
+  ],
+  "battleye_protected": true,
+  "battleye_date": "release",
+  "game_world_type": "regular",
+  "tournament_world_type": "",
+  "online_players": [
+   {
+    "name": "Archelinos",
+    "level": 202,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Au Matey Nevia",
+    "level": 236,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Bakichan",
+    "level": 118,
+    "vocation": "Master Sorcerer"
+   },
+   {
+    "name": "Bass Druide",
+    "level": 411,
+    "vocation": "Druid"
+   },
+   {
+    "name": "Boltaned",
+    "level": 518,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Bongo Haze",
+    "level": 996,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Brytek Pol",
+    "level": 80,
+    "vocation": "Master Sorcerer"
+   },
+   {
+    "name": "Bunji Coco",
+    "level": 805,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Buwuxa Acas",
+    "level": 33,
+    "vocation": "Knight"
+   },
+   {
+    "name": "Cauliflower",
+    "level": 939,
+    "vocation": "Elder Druid"
+   },
+   {
+    "name": "Chloek",
+    "level": 829,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Cleve Monk",
+    "level": 1004,
+    "vocation": "Exalted Monk"
+   },
+   {
+    "name": "Cron Loge",
+    "level": 101,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Czerwony Rum",
+    "level": 147,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Dargszeld",
+    "level": 84,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Death Worker",
+    "level": 153,
+    "vocation": "Master Sorcerer"
+   },
+   {
+    "name": "Deexther",
+    "level": 20,
+    "vocation": "Paladin"
+   },
+   {
+    "name": "Demonexk",
+    "level": 958,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Demu Calkerpus",
+    "level": 19,
+    "vocation": "Paladin"
+   },
+   {
+    "name": "Devitz",
+    "level": 676,
+    "vocation": "Master Sorcerer"
+   },
+   {
+    "name": "Dorothy Vermillion",
+    "level": 486,
+    "vocation": "Elder Druid"
+   },
+   {
+    "name": "Faelin",
+    "level": 248,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "First Time Here",
+    "level": 452,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Furiaszka",
+    "level": 461,
+    "vocation": "Master Sorcerer"
+   },
+   {
+    "name": "Hazduk",
+    "level": 21,
+    "vocation": "Monk"
+   },
+   {
+    "name": "Hellfire Dawid",
+    "level": 982,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Idemi",
+    "level": 632,
+    "vocation": "Master Sorcerer"
+   },
+   {
+    "name": "Iria Ridaulcoru",
+    "level": 110,
+    "vocation": "Master Sorcerer"
+   },
+   {
+    "name": "Isafresa",
+    "level": 15,
+    "vocation": "Monk"
+   },
+   {
+    "name": "Ishura Sato",
+    "level": 117,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Jexonowa",
+    "level": 30,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Ka Jamon",
+    "level": 69,
+    "vocation": "Elder Druid"
+   },
+   {
+    "name": "Khada Alclanos",
+    "level": 55,
+    "vocation": "Paladin"
+   },
+   {
+    "name": "Konexy",
+    "level": 402,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Litemo",
+    "level": 159,
+    "vocation": "Knight"
+   },
+   {
+    "name": "Lovelance",
+    "level": 90,
+    "vocation": "Knight"
+   },
+   {
+    "name": "Macko Nasz Pantera",
+    "level": 222,
+    "vocation": "Exalted Monk"
+   },
+   {
+    "name": "Madokhard",
+    "level": 773,
+    "vocation": "Exalted Monk"
+   },
+   {
+    "name": "Mikopo",
+    "level": 346,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Mikovski",
+    "level": 267,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Minius",
+    "level": 74,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Monk Gucio",
+    "level": 279,
+    "vocation": "Exalted Monk"
+   },
+   {
+    "name": "Nagrzybowana",
+    "level": 642,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Netherwalkier",
+    "level": 18,
+    "vocation": "Knight"
+   },
+   {
+    "name": "Nevou Aqui",
+    "level": 8,
+    "vocation": "Knight"
+   },
+   {
+    "name": "Nieustannie Niecierpliwy",
+    "level": 316,
+    "vocation": "Master Sorcerer"
+   },
+   {
+    "name": "Onal Aral",
+    "level": 95,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Oyq",
+    "level": 559,
+    "vocation": "Elder Druid"
+   },
+   {
+    "name": "Pabloo Ek",
+    "level": 571,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Pleryk",
+    "level": 102,
+    "vocation": "Monk"
+   },
+   {
+    "name": "Pokku",
+    "level": 605,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Prince Luksik",
+    "level": 517,
+    "vocation": "Master Sorcerer"
+   },
+   {
+    "name": "Pro wedil",
+    "level": 140,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Prokasty",
+    "level": 330,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Qhan Mort",
+    "level": 132,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Raf azz",
+    "level": 1116,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Raki",
+    "level": 989,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Rarye",
+    "level": 621,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Rawvr",
+    "level": 923,
+    "vocation": "Master Sorcerer"
+   },
+   {
+    "name": "Royal Vicius",
+    "level": 832,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Ryon Conio",
+    "level": 119,
+    "vocation": "Knight"
+   },
+   {
+    "name": "Talavama",
+    "level": 50,
+    "vocation": "Knight"
+   },
+   {
+    "name": "Tarabulki",
+    "level": 170,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "The Deust",
+    "level": 39,
+    "vocation": "Paladin"
+   },
+   {
+    "name": "Thunder Conjurer",
+    "level": 337,
+    "vocation": "Master Sorcerer"
+   },
+   {
+    "name": "Tomosynas",
+    "level": 508,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Tracz Chrzanu",
+    "level": 565,
+    "vocation": "Exalted Monk"
+   },
+   {
+    "name": "Veleslaw Swarzyc",
+    "level": 45,
+    "vocation": "Knight"
+   },
+   {
+    "name": "Vivacor Znowu",
+    "level": 163,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Wilhelm Ostatni",
+    "level": 598,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Woodland Ghost",
+    "level": 243,
+    "vocation": "Elder Druid"
+   },
+   {
+    "name": "Wsciekle piesci monka",
+    "level": 835,
+    "vocation": "Exalted Monk"
+   },
+   {
+    "name": "Xyr Knight",
+    "level": 937,
+    "vocation": "Elite Knight"
+   }
+  ]
+ },
+ "information": {
+  "api": {
+   "version": 4,
+   "release": "4.10.0",
+   "commit": "d53b603c7e235c45268bcf878ef2921b2356cf75"
+  },
+  "timestamp": "2026-11-07T05:03:21Z",
+  "tibia_urls": [
+   "https://www.tibia.com/community/?subtopic=worlds&world=Nevia"
+  ],
+  "status": {
+   "http_code": 200
+  }
+ }
+}
