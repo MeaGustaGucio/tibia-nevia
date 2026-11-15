@@ -799,22 +799,6 @@ DL POI,dragon&#39;s tails,,,,,,1,Dragon
 DL POI,gold coins,,,,,,1,Dragon|Dragon Lord
 DL POI,green mushrooms,3732,,,,,1,Dragon Lord
 DL POI,steel shields,3409,,,,,1,Dragon
-mini rosha sooft boots,bones,22159,,,,,1,Weakened Frazzlemaw
-mini rosha sooft boots,colourful snail shell,25696,,,,,1,Swan Maiden
-mini rosha sooft boots,dandelion seeds,25695,,,,,1,Faun
-mini rosha sooft boots,fairy wings,25694,,,,,1,Boogy|Enfeebled Silencer|Weakened Frazzlemaw
-mini rosha sooft boots,frazzle skins,20199,,,,,1,Weakened Frazzlemaw
-mini rosha sooft boots,frazzle tongues,20198,,,,,1,Weakened Frazzlemaw
-mini rosha sooft boots,fresh fruit,25692,,,,,1,Faun
-mini rosha sooft boots,gold coins,,,,,,1,Boogy|Enfeebled Silencer|Faun|Swan Maiden|Weakened Frazzlemaw
-mini rosha sooft boots,great health potions,239,14,,15,2026-09-14 21:18,1,Weakened Frazzlemaw
-mini rosha sooft boots,great mana potions,53161,,,,,1,Weakened Frazzlemaw
-mini rosha sooft boots,platinum coins,,,,,,1,Enfeebled Silencer|Weakened Frazzlemaw
-mini rosha sooft boots,remains of a fish,3125,,,,,1,Weakened Frazzlemaw
-mini rosha sooft boots,shimmering beetles,25693,,,,,1,Boogy|Faun
-mini rosha sooft boots,skulls,3114,,,,,1,Weakened Frazzlemaw
-mini rosha sooft boots,strong health potions,236,10,4,11,2026-09-14 21:18,1,Boogy|Faun
-mini rosha sooft boots,wild flowers,25691,,,,,1,Swan Maiden
 mirror,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Frost Flower Asura
 mirror,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 mirror,flasks of demonic blood,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
@@ -1568,6 +1552,9 @@ Werehyena South,meat,3577,,,,,1,Werehyaena
 Werehyena South,platinum coins,,,,,,1,Werehyaena|Werehyaena Shaman
 Werehyena South,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Werehyaena Shaman
 Werehyena South,werehyaena noses,33943,,,,,1,Werehyaena|Werehyaena Shaman
+Weretigers -1,gold coins,,,,,,10,Cunning Werepanther|Weretiger|White Weretiger
+Weretigers -1,platinum coins,,,,,,10,Cunning Werepanther|Weretiger|White Weretiger
+Weretigers -1,weretiger teeth,,,,,,10,Weretiger|White Weretiger
 Burster Duo - Dia 2,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
 Burster Duo - Dia 2,platinum coins,,,,,,1,Burster Spectre
 Hero cave -3,arrows,3447,2,2,3,2026-09-14 21:24,1,Hero
@@ -1781,6 +1768,23 @@ Duo burried cathedral,platinum coins,,,,,,1,Arachnophobica|Burster Spectre|Gazer
 Duo burried cathedral,small diamonds,3028,299,241,300,2026-09-14 21:24,1,Gazer Spectre
 Duo burried cathedral,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Gazer Spectre
 Duo burried cathedral,two handed swords,3265,,,,,1,Ripper Spectre
+Weretigers -2,cyan crystal fragments,16125,,,,,21,Jungle Moa
+Weretigers -2,gold coins,,,,,,21,Crocodile|Cunning Werepanther|Feral Werecrocodile|Jungle Moa|Killer Caiman|Nomad
+Weretigers -2,ham,3582,,,,,21,Crocodile|Killer Caiman|Parder
+Weretigers -2,jungle moa claws,39404,,,,,21,Jungle Moa
+Weretigers -2,jungle moa feathers,39403,,,,,21,Jungle Moa
+Weretigers -2,meat,3577,,,,,21,Jungle Moa
+Weretigers -2,meat and striped fur ,,,,,,21,Tiger|White Tiger
+Weretigers -2,parder furs,39418,,,,,21,Parder
+Weretigers -2,parder teeth,,,,,,21,Parder
+Weretigers -2,pieces of crocodile leather,,,,,,21,Crocodile|Killer Caiman
+Weretigers -2,platinum coins,,,,,,21,Cunning Werepanther|Feral Werecrocodile|Werecrocodile|Werepanther|Weretiger|White Weretiger
+Weretigers -2,red crystal fragments,16126,,,,,21,Parder
+Weretigers -2,small emeralds,3032,249,161,250,2026-09-14 21:24,21,Killer Caiman
+Weretigers -2,strong mana potions,237,116,100,117,2026-09-14 21:18,21,Jungle Moa
+Weretigers -2,werecrocodile tongues,43729,,,,,21,Feral Werecrocodile|Werecrocodile
+Weretigers -2,werepanther claws,43731,,,,,21,Werepanther
+Weretigers -2,weretiger teeth,,,,,,21,Weretiger|White Weretiger
 Quara Sunken Quarter,gold coins,,,,,,1,Quara Constrictor|Quara Hydromancer|Quara Mantassin|Quara Pincher|Quara Predator
 Quara Sunken Quarter,great health potions,239,14,,15,2026-09-14 21:18,1,Quara Pincher
 Quara Sunken Quarter,mantassin tails,11489,,,,,1,Quara Mantassin
@@ -2063,30 +2067,10 @@ werelions (30m bonus xp),werecrocodile tongues,43729,,,,,1,Feral Werecrocodile|W
 werelions (30m bonus xp),werepanther claws,43731,,,,,1,Werepanther
 werelions (30m bonus xp),weretiger teeth,,,,,,1,Weretiger|White Weretiger
 werelions (30m bonus xp),worms,3492,,,,,1,Mummy
-Weretigers -2,cyan crystal fragments,16125,,,,,21,Jungle Moa
-Weretigers -2,gold coins,,,,,,21,Crocodile|Cunning Werepanther|Feral Werecrocodile|Jungle Moa|Killer Caiman|Nomad
-Weretigers -2,ham,3582,,,,,21,Crocodile|Killer Caiman|Parder
-Weretigers -2,jungle moa claws,39404,,,,,21,Jungle Moa
-Weretigers -2,jungle moa feathers,39403,,,,,21,Jungle Moa
-Weretigers -2,meat,3577,,,,,21,Jungle Moa
-Weretigers -2,meat and striped fur ,,,,,,21,Tiger|White Tiger
-Weretigers -2,parder furs,39418,,,,,21,Parder
-Weretigers -2,parder teeth,,,,,,21,Parder
-Weretigers -2,pieces of crocodile leather,,,,,,21,Crocodile|Killer Caiman
-Weretigers -2,platinum coins,,,,,,21,Cunning Werepanther|Feral Werecrocodile|Werecrocodile|Werepanther|Weretiger|White Weretiger
-Weretigers -2,red crystal fragments,16126,,,,,21,Parder
-Weretigers -2,small emeralds,3032,249,161,250,2026-09-14 21:24,21,Killer Caiman
-Weretigers -2,strong mana potions,237,116,100,117,2026-09-14 21:18,21,Jungle Moa
-Weretigers -2,werecrocodile tongues,43729,,,,,21,Feral Werecrocodile|Werecrocodile
-Weretigers -2,werepanther claws,43731,,,,,21,Werepanther
-Weretigers -2,weretiger teeth,,,,,,21,Weretiger|White Weretiger
 Weretigers v1,gold coins,,,,,,1,Cunning Werepanther|Weretiger|White Weretiger
 Weretigers v1,meat and striped fur ,,,,,,1,Tiger
 Weretigers v1,platinum coins,,,,,,1,Cunning Werepanther|Weretiger|White Weretiger
 Weretigers v1,weretiger teeth,,,,,,1,Weretiger|White Weretiger
-Weretigers -1,gold coins,,,,,,10,Cunning Werepanther|Weretiger|White Weretiger
-Weretigers -1,platinum coins,,,,,,10,Cunning Werepanther|Weretiger|White Weretiger
-Weretigers -1,weretiger teeth,,,,,,10,Weretiger|White Weretiger
 Weretigery w duo MS + RP,gold coins,,,,,,1,Cunning Werepanther|Feral Werecrocodile|Killer Caiman|Werecrocodile|Werepanther|Weretiger
 Weretigery w duo MS + RP,ham,3582,,,,,1,Killer Caiman
 Weretigery w duo MS + RP,meat and striped fur ,,,,,,1,Tiger|White Tiger
