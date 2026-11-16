@@ -1,13 +1,13 @@
 spawn,creature,avg_kills_h,n_sessions,value_per_kill,contrib_h,top_loot
-After bones + East Bones - EK 680 (with Surrender),Frazzlemaw,388.5,1,114,44291,brown crystal splinters|263||platinum coins|—||great mana potions|—||great health potions|—|
+After bones + East Bones - EK 680 (with Surrender),Frazzlemaw,388.5,1,109,42349,brown crystal splinters|263||platinum coins|—||great mana potions|—||great health potions|—|
 After bones + East Bones - EK 680 (with Surrender),Guzzlemaw,342.3,1,114,39021,platinum coins|—||great mana potions|—||great health potions|—||gold coins|—|
-After bones + East Bones - EK 680 (with Surrender),Silencer,332.5,1,111,36902,silencer claws|3804|🧪|platinum coins|—||gold coins|—|
+After bones + East Bones - EK 680 (with Surrender),Silencer,332.5,1,109,36238,silencer claws|3804|🧪|platinum coins|—||gold coins|—|
 After bones + East Bones - EK 680 (with Surrender),Shock Head,130.8,1,101,13212,gold coins|—|
 Asura (Mirror),Dawnfire Asura,379.0,1,62,23498,demonic essence|898||soul orbs|—||platinum coins|—||peacock feather fans|—|
 Asura (Mirror),Midnight Asura,363.0,1,62,22506,demonic essence|898||soul orbs|—||platinum coins|—||peacock feather fans|—|
 Asura (Mirror),Frost Flower Asura,112.0,1,62,6944,demonic essence|898||assassin stars|4||soul orbs|—||platinum coins|—|
 Asura (Mirror),Hellspawn,128.0,1,48,6144,hellspawn tails|—||great health potions|—||gold coins|—|
-Asura (Mirror),Nomad,1.0,1,182,182,gold coins|—|
+Asura (Mirror),Nomad,1.0,1,169,169,gold coins|—|
 Asura Mirror,Dawnfire Asura,565.0,3,62,35030,demonic essence|898||soul orbs|—||platinum coins|—||peacock feather fans|—|
 Asura Mirror,Midnight Asura,555.5,3,62,34438,demonic essence|898||soul orbs|—||platinum coins|—||peacock feather fans|—|
 Asura Mirror,Hellspawn,188.3,3,48,9038,hellspawn tails|—||great health potions|—||gold coins|—|
@@ -22,7 +22,7 @@ Asura cidadel -2,True Midnight Asura,8.9,1,195,1733,
 BOOK WORLD,Lion Hydra,443.8,1,49,21744,platinum coins|—||gold coins|—|
 BOOK WORLD,Bluebeak,413.2,1,49,20247,platinum coins|—||gold coins|—|
 Banuta -6,Eternal Guardian,191.8,1,31,5944,spiked iron balls|—||small stones|—||platinum coins|—||gold coins|—|
-Banuta -6,Medusa,162.4,1,36,5844,ultimate health potions|91||strands of medusa hair|—||platinum coins|—||great mana potions|—|
+Banuta -6,Medusa,162.4,1,31,5032,ultimate health potions|91||strands of medusa hair|—||platinum coins|—||great mana potions|—|
 Banuta -6,Hydra,157.6,1,31,4887,platinum coins|—||hydra heads|—||ham|—||gold coins|—|
 Banuta -6,Serpent Spawn,108.2,1,36,3896,small sapphires|214||snake skins|—||green mushrooms|—||gold coins|—|
 Behemoth (Cyclopolis),Behemoth,252.0,1,39,9828,battle stones|128||assassin stars|4||platinum coins|—||meat|—|
@@ -35,8 +35,8 @@ Burster Spectre,Burster Spectre,612.0,1,72,44064,great spirit potions|113||plati
 Burster Spectre Darashia,Burster Spectre,627.9,1,72,45205,great spirit potions|113||platinum coins|—|
 Burster Spectres,Burster Spectre,792.9,1,72,57085,great spirit potions|113||platinum coins|—|
 Caminho de Ferumbras,Vexclaw,289.3,1,201,58155,demonic essence|898||great spirit potions|113||ultimate health potions|91||vexclaw talons|—|
-Caminho de Ferumbras,Demon,320.0,1,173,55360,demonic essence|898||small amethysts|172||small emeralds|161||great spirit potions|113|
 Caminho de Ferumbras,Grimeleech,256.0,1,201,51456,some grimeleech wings|1160|🧪|demonic essence|898||great spirit potions|113||platinum coins|—|
+Caminho de Ferumbras,Demon,320.0,1,158,50560,demonic essence|898||small amethysts|172||small emeralds|161||great spirit potions|113|
 Caminho de Ferumbras,Hellflayer,64.0,1,414,26496,demonic essence|898||great spirit potions|113||ultimate health potions|91||platinum coins|—|
 Claustrophobic Inferno,Brachiodemon,363.0,1,645,234135,ultimate health potions|91||crystal coins|—|
 Claustrophobic Inferno,Infernal Demon,195.0,1,645,125775,ultimate health potions|91||gold ingots|—||crystal coins|—|
@@ -50,7 +50,7 @@ Cults Carlin,Vile Grandmaster,143.6,1,2,287,platinum coins|—||meat|—||gold c
 Dark Fauns -2,Dark Faun,524.0,1,24,12576,strong health potions|4||shimmering beetles|—|📦|gold coins|—||fairy wings|—|🧪
 Dark Fauns -2,Twisted Pooka,432.0,1,24,10368,strong health potions|4||shimmering beetles|—|📦|gold coins|—||fairy wings|—|🧪
 Dark Fauns -2,Boogy,230.0,1,24,5520,strong health potions|4||shimmering beetles|—|📦|gold coins|—||fairy wings|—|🧪
-Demons Goroma,Demon,129.8,1,173,22461,demonic essence|898||small amethysts|172||small emeralds|161||great spirit potions|113|
+Demons Goroma,Demon,129.8,1,158,20514,demonic essence|898||small amethysts|172||small emeralds|161||great spirit potions|113|
 Demons Goroma,Fire Elemental,308.9,1,56,17295,nothing |—|
 Demons Goroma,Demon Skeleton,120.0,1,56,6720,throwing stars|—||gold coins|—||demonic skeletal hands|—|
 Demons Goroma,Hellhound,29.5,1,197,5813,demonic essence|898||blazing bones|363||black pearls|231||great spirit potions|113|
@@ -62,14 +62,10 @@ Demons Goroma,Fire Devil,3.9,1,56,220,blank runes|7||small pitchforks|—|
 Demons Goroma,Priestess,1.0,1,56,55,sling herbs|—||goat grasses|—||dark rosaries|—|
 Draken Walls North Solo EK,Draken Warmaster,370.8,1,60,22249,bone shoulderplates|158||platinum coins|—||meat|—||gold coins|—|
 Draken Walls North Solo EK,Draken Spellweaver,348.2,1,60,20891,weaver&#39;s wandtips|—||platinum coins|—||meat|—||gold coins|—|
-"Duo buried -2 ED, EK",Ripper Spectre,278.4,1,105,29231,great spirit potions|113||two handed swords|—||platinum coins|—|
-"Duo buried -2 ED, EK",Arachnophobica,240.0,1,101,24240,great spirit potions|113||platinum coins|—|
-"Duo buried -2 ED, EK",Gazer Spectre,172.8,1,93,16070,brown crystal splinters|263||small diamonds|241||small sapphires|214||platinum coins|—|
-"Duo buried -2 ED, EK",Burster Spectre,19.2,1,72,1382,great spirit potions|113||platinum coins|—|
 Duo burried cathedral,Arachnophobica,316.2,1,101,31937,great spirit potions|113||platinum coins|—|
 Duo burried cathedral,Burster Spectre,371.4,1,72,26737,great spirit potions|113||platinum coins|—|
 Duo burried cathedral,Gazer Spectre,193.0,1,93,17946,brown crystal splinters|263||small diamonds|241||small sapphires|214||platinum coins|—|
-Duo burried cathedral,Ripper Spectre,68.1,1,105,7151,great spirit potions|113||two handed swords|—||platinum coins|—|
+Duo burried cathedral,Ripper Spectre,68.1,1,101,6878,great spirit potions|113||two handed swords|—||platinum coins|—|
 Edron Vampire Crypts,Demon Skeleton,50.3,1,56,2815,throwing stars|—||gold coins|—||demonic skeletal hands|—|
 Edron Vampire Crypts,Vampire,120.0,1,11,1320,gold coins|—|
 Edron Vampire Crypts,Necromancer,113.5,1,5,567,poison arrows|—||gold coins|—||books of necromantic rituals|—|
@@ -90,7 +86,7 @@ GAZER SPECTRE +21% DMG BOUNTY,Thanatursus,80.4,1,89,7157,halberds|274||platinum 
 Gazer ED Solo,Gazer Spectre,600.0,1,93,55800,brown crystal splinters|263||small diamonds|241||small sapphires|214||platinum coins|—|
 Gazer ED Solo,Thanatursus,81.0,1,89,7209,halberds|274||platinum coins|—||meat|—||ham|—|
 Gazer Spectre,Gazer Spectre,471.7,5,93,43870,brown crystal splinters|263||small diamonds|241||small sapphires|214||platinum coins|—|
-Gazer Spectre,Thanatursus,7.8,4,89,697,halberds|274||platinum coins|—||meat|—||ham|—|
+Gazer Spectre,Thanatursus,7.6,4,89,673,halberds|274||platinum coins|—||meat|—||ham|—|
 Gazer Spectres,Gazer Spectre,608.6,1,93,56597,brown crystal splinters|263||small diamonds|241||small sapphires|214||platinum coins|—|
 Gazer Spectres,Thanatursus,89.5,1,89,7967,halberds|274||platinum coins|—||meat|—||ham|—|
 Glooth Plains - Surface (Oramond),Rot Elemental,532.9,1,5,2664,strong mana potions|100||strong health potions|4||platinum coins|—||gold coins|—|
@@ -109,8 +105,8 @@ Glooth Tower,Blood Beast,2.4,1,4,9,slime hearts|—||poisoned fangs|—||gold co
 Gnomegate Lava Hot Spot,Vulcongra,427.2,1,47,20078,platinum coins|—||magma clumps|—||gold coins|—||bananas|—|
 Gnomegate Lava Hot Spot,Massive Fire Elemental,283.2,1,47,13310,platinum coins|—||gold coins|—|
 Gnomegate Lava Hot Spot,Dragon Lord,168.0,1,47,7896,green mushrooms|—||gold coins|—||dragon ham|—|
-Grim Reaper,Grim Reaper,423.4,10,51,21592,demonic essence|898||gold coins|—||flasks of demonic blood|—|
-Grim Reaper,Nightmare Scion,21.0,3,51,1070,meat|—||gold coins|—|
+Grim Reaper,Grim Reaper,423.2,10,51,21581,demonic essence|898||gold coins|—||flasks of demonic blood|—|
+Grim Reaper,Nightmare Scion,20.9,3,51,1065,meat|—||gold coins|—|
 Grim Reaper,Nightmare,20.5,4,51,1047,demonic essence|898||soul orbs|—||scythe legs|—||ham|—|
 Grim Reaper (Yalahar),Grim Reaper,505.3,2,51,25772,demonic essence|898||gold coins|—||flasks of demonic blood|—|
 Grim Reaper - Yalahar,Grim Reaper,432.7,1,51,22069,demonic essence|898||gold coins|—||flasks of demonic blood|—|
@@ -134,18 +130,11 @@ Lycanthrope Grounds (Edron),Werebadger,276.0,1,39,10764,werebadger claws|688|�
 Lycanthrope Grounds (Edron),Wereboar,176.0,1,39,6864,wereboar tusks|942|📦|wereboar hooves|—|🧪|platinum coins|—||gold coins|—|
 Lycanthrope Grounds (Edron),Werebear,52.0,1,39,2028,werebear fur|2174|📦|werebear skulls|—||platinum coins|—||ham|—|
 Lycanthrope Grounds (Edron),Bloodback,4.0,1,39,156,
-Medusa Tower,Serpent Spawn,211.6,1,36,7616,small sapphires|214||snake skins|—||green mushrooms|—||gold coins|—|
-Medusa Tower,Behemoth,154.7,1,39,6034,battle stones|128||assassin stars|4||platinum coins|—||meat|—|
-Medusa Tower,Clay Guardian,116.8,1,48,5608,blank runes|7||small stones|—||lumps of earth|—||gold coins|—|
-Medusa Tower,Omnivora,115.3,1,48,5532,white mushrooms|—||ham|—||gold coins|—||fish|—|
-Medusa Tower,Medusa,121.6,1,36,4376,ultimate health potions|91||strands of medusa hair|—||platinum coins|—||great mana potions|—|
-Medusa Tower,Gargoyle,6.3,1,48,303,stone wings|—||small stones|—||potatoes|—||gold coins|—|
-Medusa Tower,Stone Golem,3.2,1,48,151,sulphurous stones|—||small stones|—||gold coins|—|
 Medusa tower,Serpent Spawn,277.8,1,36,10001,small sapphires|214||snake skins|—||green mushrooms|—||gold coins|—|
 Medusa tower,Behemoth,237.4,1,39,9258,battle stones|128||assassin stars|4||platinum coins|—||meat|—|
-Medusa tower,Medusa,178.7,1,36,6433,ultimate health potions|91||strands of medusa hair|—||platinum coins|—||great mana potions|—|
-Medusa tower,Omnivora,123.9,1,48,5947,white mushrooms|—||ham|—||gold coins|—||fish|—|
-Medusa tower,Clay Guardian,83.5,1,48,4006,blank runes|7||small stones|—||lumps of earth|—||gold coins|—|
+Medusa tower,Medusa,178.7,1,31,5539,ultimate health potions|91||strands of medusa hair|—||platinum coins|—||great mana potions|—|
+Medusa tower,Omnivora,123.9,1,36,4460,white mushrooms|—||ham|—||gold coins|—||fish|—|
+Medusa tower,Clay Guardian,83.5,1,36,3005,blank runes|7||small stones|—||lumps of earth|—||gold coins|—|
 Norc Castle,Norcferatu Heartless,360.0,1,86,30960,platinum coins|—|
 Norc Castle,Norcferatu Nightweaver,352.0,1,86,30272,platinum coins|—|
 Norc Castle,Varg,252.0,1,86,21672,platinum coins|—|
@@ -155,21 +144,21 @@ Norc Castle,Dworc Shadowstalker,8.0,1,86,688,
 Norc Castle,Tarantula,16.0,1,12,192,tarantula eggs|90||gold coins|—|
 North Roshamuul (South - SOLO RP),Retching Horror,746.0,1,109,81314,pools of chitinous glue|—||platinum coins|—||great mana potions|—||great health potions|—|
 North Roshamuul (South - SOLO RP),Choking Fear,700.0,1,109,76300,brown crystal splinters|263||great spirit potions|113||ultimate health potions|91||platinum coins|—|
-North Roshamuul (South - SOLO RP),Frazzlemaw,300.0,1,114,34200,brown crystal splinters|263||platinum coins|—||great mana potions|—||great health potions|—|
-North Roshamuul (South - SOLO RP),Silencer,284.0,1,111,31524,silencer claws|3804|🧪|platinum coins|—||gold coins|—|
+North Roshamuul (South - SOLO RP),Frazzlemaw,300.0,1,109,32700,brown crystal splinters|263||platinum coins|—||great mana potions|—||great health potions|—|
+North Roshamuul (South - SOLO RP),Silencer,284.0,1,109,30956,silencer claws|3804|🧪|platinum coins|—||gold coins|—|
 Ora West,Rot Elemental,504.2,1,5,2521,strong mana potions|100||strong health potions|4||platinum coins|—||gold coins|—|
 Ora West,Glooth Blob,414.7,1,5,2073,gold coins|—||globs of glooth|—|
-Ora West,Metal Gargoyle,9.5,1,173,1638,platinum coins|—||metal jaws|—||gold coins|—|
 Ora West,Quara Pincher Scout,269.5,1,6,1616,quara pincers|—|📦|gold coins|—|
+Ora West,Metal Gargoyle,9.5,1,158,1496,platinum coins|—||metal jaws|—||gold coins|—|
 Ora West,Blood Beast,346.3,1,4,1385,slime hearts|—||poisoned fangs|—||gold coins|—|
 Ora West,Quara Predator Scout,324.2,1,4,1296,quara bones|—||gold coins|—|
 Ora West,Quara Constrictor Scout,213.7,1,6,1282,shrimp|—||quara tentacles|—||gold coins|—|
 Ora West,Devourer,246.3,1,5,1231,platinum coins|—||gold coins|—||globs of glooth|—|
 Ora West,Quara Hydromancer Scout,258.9,1,4,1035,shrimp|—||quara eyes|—||gold coins|—||fish|—|
-Oramond Demon,Metal Gargoyle,126.9,1,173,21946,platinum coins|—||metal jaws|—||gold coins|—|
-Oramond Demon,Demon,111.4,1,173,19277,demonic essence|898||small amethysts|172||small emeralds|161||great spirit potions|113|
+Oramond Demon,Metal Gargoyle,126.9,1,158,20043,platinum coins|—||metal jaws|—||gold coins|—|
+Oramond Demon,Demon,111.4,1,158,17605,demonic essence|898||small amethysts|172||small emeralds|161||great spirit potions|113|
 Oramond Demon,Grim Reaper,120.0,1,51,6120,demonic essence|898||gold coins|—||flasks of demonic blood|—|
-Oramond Demon,Walker,5.1,1,173,889,platinum coins|—||metal toes|—||gold coins|—|
+Oramond Demon,Walker,5.1,1,158,812,platinum coins|—||metal toes|—||gold coins|—|
 Oramond Demon,Rot Elemental,10.3,1,5,51,strong mana potions|100||strong health potions|4||platinum coins|—||gold coins|—|
 Oramond Demon,Glooth Blob,3.4,1,5,17,gold coins|—||globs of glooth|—|
 Oramond Demon,Devourer,3.4,1,5,17,platinum coins|—||gold coins|—||globs of glooth|—|
@@ -187,33 +176,36 @@ Pirats,Pirat Cutthroat,586.5,1,52,30495,ice rapiers|684||great health potions|�
 Pirats,Pirat Bombardier,226.5,1,52,11775,great mana potions|—|
 Pirats,Pirat Scoundrel,211.0,1,52,10970,great mana potions|—|
 Pirats,Exotic Bat,1.9,1,29,56,platinum coins|—||green mushrooms|—||great mana potions|—||dark mushrooms|—|
-Podzilla Quaras,Quara Raider,633.2,37,111,70280,platinum coins|—|
-Podzilla Quaras,Quara Looter,388.7,37,111,43140,platinum coins|—|
-Podzilla Quaras,Quara Plunderer,314.6,37,111,34919,platinum coins|—|
-Podzilla Quaras - Bug Chain effect,Quara Raider,616.0,1,111,68376,platinum coins|—|
-Podzilla Quaras - Bug Chain effect,Quara Looter,461.0,1,111,51171,platinum coins|—|
-Podzilla Quaras - Bug Chain effect,Quara Plunderer,326.0,1,111,36186,platinum coins|—|
+Podzilla Quaras,Quara Raider,633.6,39,112,70962,platinum coins|—|
+Podzilla Quaras,Quara Looter,389.1,39,112,43580,platinum coins|—|
+Podzilla Quaras,Quara Plunderer,314.8,39,112,35262,platinum coins|—|
+Podzilla Quaras - Bug Chain effect,Quara Raider,616.0,1,112,68992,platinum coins|—|
+Podzilla Quaras - Bug Chain effect,Quara Looter,461.0,1,112,51632,platinum coins|—|
+Podzilla Quaras - Bug Chain effect,Quara Plunderer,326.0,1,112,36512,platinum coins|—|
 Port Hope Spider Cave,Giant Spider,276.0,2,8,2208,poison arrows|—||plate armors|—||gold coins|—|
 Port Hope Spider Cave,Tarantula,121.5,2,12,1458,tarantula eggs|90||gold coins|—|
 Port Hope Water Elementals (South),Water Elemental,369.4,1,6,2216,strong mana potions|100||strong health potions|4||platinum coins|—||gold coins|—|
 Port Hope Water Elementals (South),Quara Mantassin Scout,75.0,1,6,450,gold coins|—|
-Quaras Podzilla,Quara Raider,657.3,3,111,72957,platinum coins|—|
-Quaras Podzilla,Quara Looter,494.5,3,111,54894,platinum coins|—|
-Quaras Podzilla,Quara Plunderer,330.3,3,111,36663,platinum coins|—|
-Ripper Spectre,Ripper Spectre,656.2,1,105,68906,great spirit potions|113||two handed swords|—||platinum coins|—|
+QUARA PODZILLA,Quara Raider,543.0,1,112,60816,platinum coins|—|
+QUARA PODZILLA,Quara Looter,445.0,1,112,49840,platinum coins|—|
+QUARA PODZILLA,Quara Plunderer,282.0,1,112,31584,platinum coins|—|
+Quaras Podzilla,Quara Raider,657.3,3,112,73614,platinum coins|—|
+Quaras Podzilla,Quara Looter,494.5,3,112,55389,platinum coins|—|
+Quaras Podzilla,Quara Plunderer,330.3,3,112,36993,platinum coins|—|
+Ripper Spectre,Ripper Spectre,656.2,1,101,66281,great spirit potions|113||two handed swords|—||platinum coins|—|
 Ripper Spectre,Arachnophobica,534.4,1,101,53971,great spirit potions|113||platinum coins|—|
-Ripper Spectre Solo MS +650,Ripper Spectre,386.7,1,105,40607,great spirit potions|113||two handed swords|—||platinum coins|—|
+Ripper Spectre Solo MS +650,Ripper Spectre,386.7,1,101,39060,great spirit potions|113||two handed swords|—||platinum coins|—|
 Ripper Spectre Solo MS +650,Arachnophobica,340.4,1,101,34383,great spirit potions|113||platinum coins|—|
-Roshamuul DP,Choking Fear,743.9,4,109,81080,brown crystal splinters|263||great spirit potions|113||ultimate health potions|91||platinum coins|—|
-Roshamuul DP,Retching Horror,682.6,4,109,74401,pools of chitinous glue|—||platinum coins|—||great mana potions|—||great health potions|—|
-Roshamuul DP,Silencer,300.9,4,111,33397,silencer claws|3804|🧪|platinum coins|—||gold coins|—|
-Roshamuul DP,Frazzlemaw,254.7,4,114,29036,brown crystal splinters|263||platinum coins|—||great mana potions|—||great health potions|—|
-Roshamuul Shock Heads,Frazzlemaw,332.0,1,114,37848,brown crystal splinters|263||platinum coins|—||great mana potions|—||great health potions|—|
-Roshamuul Shock Heads,Silencer,264.0,1,111,29304,silencer claws|3804|🧪|platinum coins|—||gold coins|—|
+Roshamuul DP,Choking Fear,744.8,4,109,81180,brown crystal splinters|263||great spirit potions|113||ultimate health potions|91||platinum coins|—|
+Roshamuul DP,Retching Horror,683.0,4,109,74449,pools of chitinous glue|—||platinum coins|—||great mana potions|—||great health potions|—|
+Roshamuul DP,Silencer,301.5,4,109,32860,silencer claws|3804|🧪|platinum coins|—||gold coins|—|
+Roshamuul DP,Frazzlemaw,254.3,4,109,27713,brown crystal splinters|263||platinum coins|—||great mana potions|—||great health potions|—|
+Roshamuul Shock Heads,Frazzlemaw,332.0,1,109,36188,brown crystal splinters|263||platinum coins|—||great mana potions|—||great health potions|—|
+Roshamuul Shock Heads,Silencer,264.0,1,109,28776,silencer claws|3804|🧪|platinum coins|—||gold coins|—|
 Roshamuul Shock Heads,Guzzlemaw,227.0,1,114,25878,platinum coins|—||great mana potions|—||great health potions|—||gold coins|—|
 Roshamuul Shock Heads,Shock Head,121.0,1,101,12221,gold coins|—|
-Roshamuul West Mid,Frazzlemaw,605.9,2,114,69072,brown crystal splinters|263||platinum coins|—||great mana potions|—||great health potions|—|
-Roshamuul West Mid,Silencer,526.6,2,111,58453,silencer claws|3804|🧪|platinum coins|—||gold coins|—|
+Roshamuul West Mid,Frazzlemaw,605.9,2,109,66042,brown crystal splinters|263||platinum coins|—||great mana potions|—||great health potions|—|
+Roshamuul West Mid,Silencer,526.6,2,109,57399,silencer claws|3804|🧪|platinum coins|—||gold coins|—|
 Roshamuul West Mid,Guzzlemaw,292.6,2,114,33356,platinum coins|—||great mana potions|—||great health potions|—||gold coins|—|
 Roshamuul West Mid,Retching Horror,4.6,1,109,503,pools of chitinous glue|—||platinum coins|—||great mana potions|—||great health potions|—|
 Roshamuul West Mid,Choking Fear,3.3,1,109,359,brown crystal splinters|263||great spirit potions|113||ultimate health potions|91||platinum coins|—|
@@ -228,12 +220,12 @@ STONFIN 0908,Snake,5.2,1,11,57,nothing |—|
 STONFIN 0908,Swampling,2.6,1,19,49,white mushrooms|—||swampling mosses|—||pieces of swampling wood|—||gold coins|—|
 Sea serpent (Svargrond),Young Sea Serpent,392.4,1,16,6278,morning stars|—||gold coins|—|
 Sea serpent (Svargrond),Sea Serpent,318.0,1,16,5088,sea serpent scales|—||platinum coins|—||gold coins|—||dragon ham|—|
-Teste 1 Quara Podizilla,Quara Raider,452.0,1,111,50172,platinum coins|—|
-Teste 1 Quara Podizilla,Quara Looter,300.0,1,111,33300,platinum coins|—|
-Teste 1 Quara Podizilla,Quara Plunderer,232.0,1,111,25752,platinum coins|—|
-Teste 2 Quara Podizilla,Quara Raider,427.5,1,111,47452,platinum coins|—|
-Teste 2 Quara Podizilla,Quara Looter,320.6,1,111,35589,platinum coins|—|
-Teste 2 Quara Podizilla,Quara Plunderer,233.4,1,111,25911,platinum coins|—|
+Teste 1 Quara Podizilla,Quara Raider,452.0,1,112,50624,platinum coins|—|
+Teste 1 Quara Podizilla,Quara Looter,300.0,1,112,33600,platinum coins|—|
+Teste 1 Quara Podizilla,Quara Plunderer,232.0,1,112,25984,platinum coins|—|
+Teste 2 Quara Podizilla,Quara Raider,427.5,1,112,47880,platinum coins|—|
+Teste 2 Quara Podizilla,Quara Looter,320.6,1,112,35910,platinum coins|—|
+Teste 2 Quara Podizilla,Quara Plunderer,233.4,1,112,26145,platinum coins|—|
 True Asura,True Midnight Asura,319.5,1,195,62302,
 True Asura,True Dawnfire Asura,273.0,1,195,53235,
 True Asura,Hellhound,76.5,1,197,15070,demonic essence|898||blazing bones|363||black pearls|231||great spirit potions|113|
@@ -242,19 +234,19 @@ True Asura,Hellspawn,4.5,1,48,216,hellspawn tails|—||great health potions|—|
 True Asura,Midnight Asura,3.0,1,62,186,demonic essence|898||soul orbs|—||platinum coins|—||peacock feather fans|—|
 True Asura,Frost Flower Asura,1.5,1,62,93,demonic essence|898||assassin stars|4||soul orbs|—||platinum coins|—|
 True Asura,Dawnfire Asura,1.5,1,62,93,demonic essence|898||soul orbs|—||platinum coins|—||peacock feather fans|—|
-True asuras,True Midnight Asura,584.3,6,195,113934,
-True asuras,True Dawnfire Asura,490.3,6,195,95612,
-True asuras,Hellhound,150.9,6,197,29728,demonic essence|898||blazing bones|363||black pearls|231||great spirit potions|113|
-True asuras,True Frost Flower Asura,130.4,6,160,20869,
+True asuras,True Midnight Asura,584.8,6,195,114030,
+True asuras,True Dawnfire Asura,490.9,6,195,95731,
+True asuras,Hellhound,151.0,6,197,29743,demonic essence|898||blazing bones|363||black pearls|231||great spirit potions|113|
+True asuras,True Frost Flower Asura,130.6,6,160,20890,
 True asuras,Frost Flower Asura,5.0,1,62,310,demonic essence|898||assassin stars|4||soul orbs|—||platinum coins|—|
-True asuras,Nomad,1.1,4,182,193,gold coins|—|
+True asuras,Nomad,1.1,4,169,180,gold coins|—|
 True asuras,Midnight Asura,1.0,1,62,62,demonic essence|898||soul orbs|—||platinum coins|—||peacock feather fans|—|
 True asuras,Dawnfire Asura,1.0,1,62,62,demonic essence|898||soul orbs|—||platinum coins|—||peacock feather fans|—|
 True asuras,Hellspawn,1.0,1,48,48,hellspawn tails|—||great health potions|—||gold coins|—|
 Upper Roshamuul,Choking Fear,561.0,1,109,61149,brown crystal splinters|263||great spirit potions|113||ultimate health potions|91||platinum coins|—|
 Upper Roshamuul,Retching Horror,554.5,1,109,60440,pools of chitinous glue|—||platinum coins|—||great mana potions|—||great health potions|—|
-Upper Roshamuul,Frazzlemaw,266.0,1,114,30324,brown crystal splinters|263||platinum coins|—||great mana potions|—||great health potions|—|
-Upper Roshamuul,Silencer,206.0,1,111,22866,silencer claws|3804|🧪|platinum coins|—||gold coins|—|
+Upper Roshamuul,Frazzlemaw,266.0,1,109,28994,brown crystal splinters|263||platinum coins|—||great mana potions|—||great health potions|—|
+Upper Roshamuul,Silencer,206.0,1,109,22454,silencer claws|3804|🧪|platinum coins|—||gold coins|—|
 Vampire Crypt (Edron),Vampire Bride,445.3,1,11,4897,vampire teeth|300|🧪|strong mana potions|100||platinum coins|—||gold coins|—|
 Vampire Crypt (Edron),Vampire Viscount,378.9,1,11,4168,gold coins|—|
 Vampire Crypt (Edron),Vampire,353.7,1,11,3890,gold coins|—|
@@ -280,21 +272,21 @@ Werelion -1 (post nerf),Yirkas Blue Scales,1.1,1,47,51,
 Werelions -1,Werelioness,648.8,2,52,33738,soul orbs|—||rapiers|—||platinum coins|—||meat|—|
 Werelions -1,Werelion,566.2,2,52,29444,great spirit potions|113||platinum coins|—||lion&#39;s manes|—||dark armors|—|
 Werelions -1,White Lion,177.4,2,47,8336,terra boots|2203|📦|great spirit potions|113||twin hooks|—||platinum coins|—|
-Weretiger -2,Cunning Werepanther,539.2,3,84,45289,platinum coins|—||gold coins|—|
-Weretiger -2,Weretiger,324.3,3,89,28859,weretiger teeth|—||platinum coins|—||gold coins|—|
-Weretiger -2,White Weretiger,190.6,3,89,16960,weretiger teeth|—||platinum coins|—||gold coins|—|
-Weretiger -2,Cobra,1.0,1,126,130,
+Weretiger -2,Cunning Werepanther,537.8,3,84,45179,platinum coins|—||gold coins|—|
+Weretiger -2,Weretiger,322.6,3,89,28715,weretiger teeth|—||platinum coins|—||gold coins|—|
+Weretiger -2,White Weretiger,189.5,3,89,16867,weretiger teeth|—||platinum coins|—||gold coins|—|
+Weretiger -2,Cobra,1.0,1,113,116,
 Weretiger -2,White Tiger,2.1,1,46,95,meat and striped fur |—|
-Weretigers -1,Cunning Werepanther,391.8,3,84,32913,platinum coins|—||gold coins|—|
-Weretigers -1,Weretiger,232.5,3,89,20689,weretiger teeth|—||platinum coins|—||gold coins|—|
-Weretigers -1,White Weretiger,107.5,3,89,9569,weretiger teeth|—||platinum coins|—||gold coins|—|
-Weretigers -2,Cunning Werepanther,549.8,2,84,46181,platinum coins|—||gold coins|—|
-Weretigers -2,Weretiger,327.1,2,89,29112,weretiger teeth|—||platinum coins|—||gold coins|—|
-Weretigers -2,White Weretiger,187.3,2,89,16671,weretiger teeth|—||platinum coins|—||gold coins|—|
+Weretigers -1,Cunning Werepanther,390.5,3,84,32802,platinum coins|—||gold coins|—|
+Weretigers -1,Weretiger,232.1,3,89,20655,weretiger teeth|—||platinum coins|—||gold coins|—|
+Weretigers -1,White Weretiger,107.5,3,89,9563,weretiger teeth|—||platinum coins|—||gold coins|—|
+Weretigers -2,Cunning Werepanther,548.7,2,84,46094,platinum coins|—||gold coins|—|
+Weretigers -2,Weretiger,327.9,2,89,29185,weretiger teeth|—||platinum coins|—||gold coins|—|
+Weretigers -2,White Weretiger,187.5,2,89,16691,weretiger teeth|—||platinum coins|—||gold coins|—|
 Weretigers -2,Werecrocodile,10.2,1,46,471,werecrocodile tongues|—||platinum coins|—||gold coins|—|
 Weretigers -2,Werepanther,8.8,1,46,403,werepanther claws|—||platinum coins|—||gold coins|—|
-Weretigers -2,White Tiger,6.5,2,46,299,meat and striped fur |—|
-Weretigers -2,Nomad,1.5,1,182,266,gold coins|—|
+Weretigers -2,White Tiger,6.3,2,46,290,meat and striped fur |—|
+Weretigers -2,Nomad,1.5,1,169,247,gold coins|—|
 Weretigers -2,Crocodile,4.4,1,46,201,pieces of crocodile leather|—||ham|—||gold coins|—|
 Weretigers -2,Feral Werecrocodile,2.9,1,46,134,werecrocodile tongues|—||platinum coins|—||gold coins|—|
 Weretigers -2,Tiger,1.5,1,46,67,meat and striped fur |—|
@@ -302,8 +294,8 @@ Weretigers -2,Scorpion,1.5,1,46,67,
 Weretigers -2,Parder,1.5,1,46,67,red crystal fragments|—||parder teeth|—||parder furs|—||ham|—|
 Weretigers -2,Killer Caiman,1.5,1,46,67,small emeralds|161||pieces of crocodile leather|—||ham|—||gold coins|—|
 Weretigers -2,Jungle Moa,1.5,1,46,67,strong mana potions|100||meat|—||jungle moa feathers|—||jungle moa claws|—|
-West Roshamuul (SOLO RP),Frazzlemaw,748.1,1,114,85281,brown crystal splinters|263||platinum coins|—||great mana potions|—||great health potions|—|
-West Roshamuul (SOLO RP),Silencer,583.4,1,111,64757,silencer claws|3804|🧪|platinum coins|—||gold coins|—|
+West Roshamuul (SOLO RP),Frazzlemaw,748.1,1,109,81541,brown crystal splinters|263||platinum coins|—||great mana potions|—||great health potions|—|
+West Roshamuul (SOLO RP),Silencer,583.4,1,109,63591,silencer claws|3804|🧪|platinum coins|—||gold coins|—|
 West Roshamuul (SOLO RP),Guzzlemaw,342.1,1,114,39002,platinum coins|—||great mana potions|—||great health potions|—||gold coins|—|
 West Roshamuul (SOLO RP),Retching Horror,1.3,1,109,139,pools of chitinous glue|—||platinum coins|—||great mana potions|—||great health potions|—|
 West Roshamuul (SOLO RP),Sight of Surrender,1.3,1,103,131,stone skin amulets|8895||blue crystal shards|1347||broken visors|578||blue crystal splinters|349|
@@ -342,7 +334,7 @@ asuras,True Dawnfire Asura,20.9,1,195,4081,
 ❄️ Iceplume Strider – Test Hunt,True Midnight Asura,51.0,1,195,9945,
 💀 Choking Fear – Bounty Hunt (Upper Roshamuul North),Choking Fear,694.0,1,109,75646,brown crystal splinters|263||great spirit potions|113||ultimate health potions|91||platinum coins|—|
 💀 Choking Fear – Bounty Hunt (Upper Roshamuul North),Retching Horror,550.0,1,109,59950,pools of chitinous glue|—||platinum coins|—||great mana potions|—||great health potions|—|
-💀 Choking Fear – Bounty Hunt (Upper Roshamuul North),Silencer,304.0,1,111,33744,silencer claws|3804|🧪|platinum coins|—||gold coins|—|
+💀 Choking Fear – Bounty Hunt (Upper Roshamuul North),Silencer,304.0,1,109,33136,silencer claws|3804|🧪|platinum coins|—||gold coins|—|
 🔥 Asura Citadel Hunt,Silverfrost Sentinel,402.3,1,160,64367,small sapphires|214||platinum coins|—|
 🔥 Asura Citadel Hunt,Iceplume Strider,363.0,1,148,53716,small sapphires|214||platinum coins|—|
 🔥 Asura Citadel Hunt,True Frost Flower Asura,323.6,1,160,51777,

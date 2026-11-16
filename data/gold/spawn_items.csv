@@ -809,16 +809,6 @@ mirror,hellspawn tails,10304,,,,,1,Hellspawn
 mirror,peacock feather fans,21975,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 mirror,platinum coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 mirror,soul orbs,5944,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-mirror monk,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Frost Flower Asura
-mirror monk,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-mirror monk,flasks of demonic blood,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-mirror monk,gold coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura
-mirror monk,golden lotus brooches,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-mirror monk,great health potions,239,14,,15,2026-09-14 21:18,1,Frost Flower Asura|Hellspawn
-mirror monk,hellspawn tails,10304,,,,,1,Hellspawn
-mirror monk,peacock feather fans,21975,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-mirror monk,platinum coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-mirror monk,soul orbs,5944,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 venore amazon camp,brown breads,3602,,10,,2026-09-14 21:09,1,Amazon
 venore amazon camp,chain armors,3358,,,,,1,Valkyrie
 venore amazon camp,cookies,3598,,,,,1,Witch
@@ -1555,6 +1545,13 @@ Werehyena South,werehyaena noses,33943,,,,,1,Werehyaena|Werehyaena Shaman
 Weretigers -1,gold coins,,,,,,10,Cunning Werepanther|Weretiger|White Weretiger
 Weretigers -1,platinum coins,,,,,,10,Cunning Werepanther|Weretiger|White Weretiger
 Weretigers -1,weretiger teeth,,,,,,10,Weretiger|White Weretiger
+Gazer ED Solo,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Gazer Spectre
+Gazer ED Solo,halberds,3269,598,274,599,2026-09-14 21:25,1,Thanatursus
+Gazer ED Solo,ham,3582,,,,,1,Thanatursus
+Gazer ED Solo,meat,3577,,,,,1,Thanatursus
+Gazer ED Solo,platinum coins,,,,,,1,Gazer Spectre|Thanatursus
+Gazer ED Solo,small diamonds,3028,299,241,300,2026-09-14 21:24,1,Gazer Spectre
+Gazer ED Solo,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Gazer Spectre
 Burster Duo - Dia 2,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
 Burster Duo - Dia 2,platinum coins,,,,,,1,Burster Spectre
 Hero cave -3,arrows,3447,2,2,3,2026-09-14 21:24,1,Hero
@@ -1806,7 +1803,7 @@ Quara Sunken Quarter,quara tentacles,11487,,,,,1,Quara Constrictor
 Quaras duo,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Quara Podzilla,platinum coins,,,,,,2,Quara Looter|Quara Plunderer|Quara Raider
 Quara (bestiary),platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
-Podzilla Quaras,platinum coins,,,,,,37,Quara Looter|Quara Plunderer|Quara Raider
+Podzilla Quaras,platinum coins,,,,,,39,Quara Looter|Quara Plunderer|Quara Raider
 Quaras Podzilla,platinum coins,,,,,,3,Quara Looter|Quara Plunderer|Quara Raider
 Teste 1 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Teste 2 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
@@ -2374,18 +2371,18 @@ Edron Vampires,gold coins,,,,,,1,Vampire|Vampire Bride|Vampire Viscount
 Edron Vampires,platinum coins,,,,,,1,Vampire Bride
 Edron Vampires,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Vampire Bride
 Edron Vampires,vampire teeth,9685,491,300,492,2026-09-14 21:38,1,Vampire Bride
-Asura Mirror,assassin stars,7368,14,4,15,2026-09-14 21:28,13,Frost Flower Asura
-Asura Mirror,demonic essence,6499,999,898,1000,2026-09-14 21:33,13,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,flasks of demonic blood,,,,,,13,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,gold coins,,,,,,13,Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura|Nomad
-Asura Mirror,golden lotus brooches,,,,,,13,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,great health potions,239,14,,15,2026-09-14 21:18,13,Frost Flower Asura|Hellspawn
-Asura Mirror,ham,3582,,,,,13,Crocodile
-Asura Mirror,hellspawn tails,10304,,,,,13,Hellspawn
-Asura Mirror,peacock feather fans,21975,,,,,13,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,pieces of crocodile leather,,,,,,13,Crocodile
-Asura Mirror,platinum coins,,,,,,13,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,soul orbs,5944,,,,,13,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,assassin stars,7368,14,4,15,2026-09-14 21:28,12,Frost Flower Asura
+Asura Mirror,demonic essence,6499,999,898,1000,2026-09-14 21:33,12,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,flasks of demonic blood,,,,,,12,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,gold coins,,,,,,12,Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura|Nomad
+Asura Mirror,golden lotus brooches,,,,,,12,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,great health potions,239,14,,15,2026-09-14 21:18,12,Frost Flower Asura|Hellspawn
+Asura Mirror,ham,3582,,,,,12,Crocodile
+Asura Mirror,hellspawn tails,10304,,,,,12,Hellspawn
+Asura Mirror,peacock feather fans,21975,,,,,12,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,pieces of crocodile leather,,,,,,12,Crocodile
+Asura Mirror,platinum coins,,,,,,12,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,soul orbs,5944,,,,,12,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 True asuras -2,assassin stars,7368,14,4,15,2026-09-14 21:28,2,Hellhound
 True asuras -2,black pearls,3027,279,231,280,2026-09-14 21:21,2,Hellhound
 True asuras -2,blazing bones,16131,787,363,788,2026-09-14 21:31,2,Hellhound
@@ -3655,13 +3652,6 @@ Banuta -3,soul orbs,5944,,,,,1,Nightmare
 Banuta -3,spiked iron balls,10408,,,,,1,Eternal Guardian
 Banuta -3,strands of medusa hair,,,,,,1,Medusa
 Banuta -3,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa|Phantasm
-Gazer ED Solo,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Gazer Spectre
-Gazer ED Solo,halberds,3269,598,274,599,2026-09-14 21:25,1,Thanatursus
-Gazer ED Solo,ham,3582,,,,,1,Thanatursus
-Gazer ED Solo,meat,3577,,,,,1,Thanatursus
-Gazer ED Solo,platinum coins,,,,,,1,Gazer Spectre|Thanatursus
-Gazer ED Solo,small diamonds,3028,299,241,300,2026-09-14 21:24,1,Gazer Spectre
-Gazer ED Solo,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Gazer Spectre
 Yalahar Grim Reapers,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Grim Reaper|Nightmare
 Yalahar Grim Reapers,essences of a bad dream,,,,,,1,Nightmare
 Yalahar Grim Reapers,flasks of demonic blood,,,,,,1,Grim Reaper|Nightmare
@@ -3716,3 +3706,4 @@ After bones + East Bones - EK 680 (with Surrender),great health potions,239,14,,
 After bones + East Bones - EK 680 (with Surrender),great mana potions,53161,,,,,1,Frazzlemaw|Guzzlemaw
 After bones + East Bones - EK 680 (with Surrender),platinum coins,,,,,,1,Frazzlemaw|Guzzlemaw|Silencer
 After bones + East Bones - EK 680 (with Surrender),silencer claws,20200,5438,3804,5439,2026-09-14 21:37,1,Silencer
+QUARA PODZILLA,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
