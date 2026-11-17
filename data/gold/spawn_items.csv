@@ -799,16 +799,6 @@ DL POI,dragon&#39;s tails,,,,,,1,Dragon
 DL POI,gold coins,,,,,,1,Dragon|Dragon Lord
 DL POI,green mushrooms,3732,,,,,1,Dragon Lord
 DL POI,steel shields,3409,,,,,1,Dragon
-mirror,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Frost Flower Asura
-mirror,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-mirror,flasks of demonic blood,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-mirror,gold coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura
-mirror,golden lotus brooches,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-mirror,great health potions,239,14,,15,2026-09-14 21:18,1,Frost Flower Asura|Hellspawn
-mirror,hellspawn tails,10304,,,,,1,Hellspawn
-mirror,peacock feather fans,21975,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-mirror,platinum coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-mirror,soul orbs,5944,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 venore amazon camp,brown breads,3602,,10,,2026-09-14 21:09,1,Amazon
 venore amazon camp,chain armors,3358,,,,,1,Valkyrie
 venore amazon camp,cookies,3598,,,,,1,Witch
@@ -1552,6 +1542,14 @@ Gazer ED Solo,meat,3577,,,,,1,Thanatursus
 Gazer ED Solo,platinum coins,,,,,,1,Gazer Spectre|Thanatursus
 Gazer ED Solo,small diamonds,3028,299,241,300,2026-09-14 21:24,1,Gazer Spectre
 Gazer ED Solo,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Gazer Spectre
+Yalahar Grim Reapers,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Grim Reaper|Nightmare
+Yalahar Grim Reapers,essences of a bad dream,,,,,,1,Nightmare
+Yalahar Grim Reapers,flasks of demonic blood,,,,,,1,Grim Reaper|Nightmare
+Yalahar Grim Reapers,gold coins,,,,,,1,Grim Reaper|Nightmare|Nightmare Scion
+Yalahar Grim Reapers,ham,3582,,,,,1,Nightmare
+Yalahar Grim Reapers,meat,3577,,,,,1,Nightmare Scion
+Yalahar Grim Reapers,scythe legs,10312,,,,,1,Nightmare
+Yalahar Grim Reapers,soul orbs,5944,,,,,1,Nightmare
 Burster Duo - Dia 2,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
 Burster Duo - Dia 2,platinum coins,,,,,,1,Burster Spectre
 Hero cave -3,arrows,3447,2,2,3,2026-09-14 21:24,1,Hero
@@ -3652,14 +3650,6 @@ Banuta -3,soul orbs,5944,,,,,1,Nightmare
 Banuta -3,spiked iron balls,10408,,,,,1,Eternal Guardian
 Banuta -3,strands of medusa hair,,,,,,1,Medusa
 Banuta -3,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa|Phantasm
-Yalahar Grim Reapers,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Grim Reaper|Nightmare
-Yalahar Grim Reapers,essences of a bad dream,,,,,,1,Nightmare
-Yalahar Grim Reapers,flasks of demonic blood,,,,,,1,Grim Reaper|Nightmare
-Yalahar Grim Reapers,gold coins,,,,,,1,Grim Reaper|Nightmare|Nightmare Scion
-Yalahar Grim Reapers,ham,3582,,,,,1,Nightmare
-Yalahar Grim Reapers,meat,3577,,,,,1,Nightmare Scion
-Yalahar Grim Reapers,scythe legs,10312,,,,,1,Nightmare
-Yalahar Grim Reapers,soul orbs,5944,,,,,1,Nightmare
 Hyaena Lairs (North),axes,3274,,,,,1,Werehyaena
 Hyaena Lairs (North),great health potions,239,14,,15,2026-09-14 21:18,1,Werehyaena
 Hyaena Lairs (North),great mana potions,53161,,,,,1,Werehyaena Shaman
