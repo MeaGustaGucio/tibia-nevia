@@ -799,23 +799,6 @@ DL POI,dragon&#39;s tails,,,,,,1,Dragon
 DL POI,gold coins,,,,,,1,Dragon|Dragon Lord
 DL POI,green mushrooms,3732,,,,,1,Dragon Lord
 DL POI,steel shields,3409,,,,,1,Dragon
-venore amazon camp,brown breads,3602,,10,,2026-09-14 21:09,1,Amazon
-venore amazon camp,chain armors,3358,,,,,1,Valkyrie
-venore amazon camp,cookies,3598,,,,,1,Witch
-venore amazon camp,daggers,3267,,,,,1,Amazon
-venore amazon camp,flasks of embalming fluid,,,,,,1,Mummy
-venore amazon camp,gauze bandages,9649,1098,617,1099,2026-09-14 21:34,1,Mummy
-venore amazon camp,girlish hair decorations,11443,,,,,1,Amazon
-venore amazon camp,gold coins,,,,,,1,Amazon|Ghoul|Mummy|Valkyrie|Witch
-venore amazon camp,ham,3582,,,,,1,Lion
-venore amazon camp,meat,3577,,,,,1,Lion|Valkyrie
-venore amazon camp,rotten pieces of cloth,,,,,,1,Ghoul
-venore amazon camp,sabres,3273,,,,,1,Amazon
-venore amazon camp,skulls,3114,,,,,1,Amazon
-venore amazon camp,spears,3277,,,,,1,Valkyrie
-venore amazon camp,witch brooms,9652,4318,2402,4319,2026-09-14 21:39,1,Witch
-venore amazon camp,wolf teeth chain,,,,,,1,Witch
-venore amazon camp,worms,3492,,,,,1,Ghoul|Mummy
 sabretoth,blank runes,3147,,7,,2026-09-14 21:19,1,Earth Elemental
 sabretoth,boggy dreads,9667,2166,1494,2167,2026-09-14 21:32,1,Bog Raider
 sabretoth,candlesticks,2917,,,,,1,Banshee
@@ -1550,6 +1533,15 @@ Yalahar Grim Reapers,ham,3582,,,,,1,Nightmare
 Yalahar Grim Reapers,meat,3577,,,,,1,Nightmare Scion
 Yalahar Grim Reapers,scythe legs,10312,,,,,1,Nightmare
 Yalahar Grim Reapers,soul orbs,5944,,,,,1,Nightmare
+Hyaena Lairs (North),axes,3274,,,,,1,Werehyaena
+Hyaena Lairs (North),great health potions,239,14,,15,2026-09-14 21:18,1,Werehyaena
+Hyaena Lairs (North),great mana potions,53161,,,,,1,Werehyaena Shaman
+Hyaena Lairs (North),halberds,3269,598,274,599,2026-09-14 21:25,1,Werehyaena
+Hyaena Lairs (North),knives,,,,,,1,Werehyaena
+Hyaena Lairs (North),meat,3577,,,,,1,Werehyaena
+Hyaena Lairs (North),platinum coins,,,,,,1,Werehyaena|Werehyaena Shaman
+Hyaena Lairs (North),small amethysts,3033,198,172,199,2026-09-14 21:24,1,Werehyaena Shaman
+Hyaena Lairs (North),werehyaena noses,33943,,,,,1,Werehyaena|Werehyaena Shaman
 Burster Duo - Dia 2,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Burster Spectre
 Burster Duo - Dia 2,platinum coins,,,,,,1,Burster Spectre
 Hero cave -3,arrows,3447,2,2,3,2026-09-14 21:24,1,Hero
@@ -2227,13 +2219,13 @@ Gazers Spectres,nothing ,,,,,,1,Slime
 Gazers Spectres,platinum coins,,,,,,1,Gazer Spectre|Thanatursus
 Gazers Spectres,small diamonds,3028,299,241,300,2026-09-14 21:24,1,Gazer Spectre
 Gazers Spectres,small sapphires,3029,248,214,249,2026-09-14 21:24,1,Gazer Spectre
-Gazer Spectre,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,7,Gazer Spectre
-Gazer Spectre,halberds,3269,598,274,599,2026-09-14 21:25,7,Thanatursus
-Gazer Spectre,ham,3582,,,,,7,Thanatursus
-Gazer Spectre,meat,3577,,,,,7,Thanatursus
-Gazer Spectre,platinum coins,,,,,,7,Gazer Spectre|Thanatursus
-Gazer Spectre,small diamonds,3028,299,241,300,2026-09-14 21:24,7,Gazer Spectre
-Gazer Spectre,small sapphires,3029,248,214,249,2026-09-14 21:24,7,Gazer Spectre
+Gazer Spectre,brown crystal splinters,16123,398,263,399,2026-09-14 21:21,8,Gazer Spectre
+Gazer Spectre,halberds,3269,598,274,599,2026-09-14 21:25,8,Thanatursus
+Gazer Spectre,ham,3582,,,,,8,Thanatursus
+Gazer Spectre,meat,3577,,,,,8,Thanatursus
+Gazer Spectre,platinum coins,,,,,,8,Gazer Spectre|Thanatursus
+Gazer Spectre,small diamonds,3028,299,241,300,2026-09-14 21:24,8,Gazer Spectre
+Gazer Spectre,small sapphires,3029,248,214,249,2026-09-14 21:24,8,Gazer Spectre
 Ripper Spectres,arrows,3447,2,2,3,2026-09-14 21:24,5,Hunter
 Ripper Spectres,axes,3274,,,,,5,Wild Warrior
 Ripper Spectres,brass shields,3411,52,22,53,2026-09-14 21:19,5,Wild Warrior
@@ -2369,18 +2361,6 @@ Edron Vampires,gold coins,,,,,,1,Vampire|Vampire Bride|Vampire Viscount
 Edron Vampires,platinum coins,,,,,,1,Vampire Bride
 Edron Vampires,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Vampire Bride
 Edron Vampires,vampire teeth,9685,491,300,492,2026-09-14 21:38,1,Vampire Bride
-Asura Mirror,assassin stars,7368,14,4,15,2026-09-14 21:28,12,Frost Flower Asura
-Asura Mirror,demonic essence,6499,999,898,1000,2026-09-14 21:33,12,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,flasks of demonic blood,,,,,,12,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,gold coins,,,,,,12,Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura|Nomad
-Asura Mirror,golden lotus brooches,,,,,,12,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,great health potions,239,14,,15,2026-09-14 21:18,12,Frost Flower Asura|Hellspawn
-Asura Mirror,ham,3582,,,,,12,Crocodile
-Asura Mirror,hellspawn tails,10304,,,,,12,Hellspawn
-Asura Mirror,peacock feather fans,21975,,,,,12,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,pieces of crocodile leather,,,,,,12,Crocodile
-Asura Mirror,platinum coins,,,,,,12,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Asura Mirror,soul orbs,5944,,,,,12,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 True asuras -2,assassin stars,7368,14,4,15,2026-09-14 21:28,2,Hellhound
 True asuras -2,black pearls,3027,279,231,280,2026-09-14 21:21,2,Hellhound
 True asuras -2,blazing bones,16131,787,363,788,2026-09-14 21:31,2,Hellhound
@@ -2410,6 +2390,18 @@ Asura mirror,hellspawn tails,10304,,,,,2,Hellspawn
 Asura mirror,peacock feather fans,21975,,,,,2,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 Asura mirror,platinum coins,,,,,,2,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 Asura mirror,soul orbs,5944,,,,,2,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,assassin stars,7368,14,4,15,2026-09-14 21:28,11,Frost Flower Asura
+Asura Mirror,demonic essence,6499,999,898,1000,2026-09-14 21:33,11,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,flasks of demonic blood,,,,,,11,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,gold coins,,,,,,11,Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura|Nomad
+Asura Mirror,golden lotus brooches,,,,,,11,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,great health potions,239,14,,15,2026-09-14 21:18,11,Frost Flower Asura|Hellspawn
+Asura Mirror,ham,3582,,,,,11,Crocodile
+Asura Mirror,hellspawn tails,10304,,,,,11,Hellspawn
+Asura Mirror,peacock feather fans,21975,,,,,11,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,pieces of crocodile leather,,,,,,11,Crocodile
+Asura Mirror,platinum coins,,,,,,11,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+Asura Mirror,soul orbs,5944,,,,,11,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 True asuras,arrows,3447,2,2,3,2026-09-14 21:24,27,Hunter
 True asuras,assassin stars,7368,14,4,15,2026-09-14 21:28,27,Frost Flower Asura|Hellhound
 True asuras,axes,3274,,,,,27,Bandit
@@ -2594,21 +2586,16 @@ True Asura,peacock feather fans,21975,,,,,1,Dawnfire Asura|Frost Flower Asura|Mi
 True Asura,platinum coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
 True Asura,soul orbs,5944,,,,,1,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
 True Asura,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Hellhound
-demons 6666,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Demon
-demons 6666,demon horns,5954,,,,,1,Demon
-demons 6666,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Demon|Grim Reaper
-demons 6666,fire mushrooms,3731,,,,,1,Demon
-demons 6666,flasks of demonic blood,,,,,,1,Grim Reaper
-demons 6666,gold coins,,,,,,1,Demon|Grim Reaper|Metal Gargoyle
-demons 6666,great mana potions,53161,,,,,1,Demon
-demons 6666,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Demon
-demons 6666,metal jaws,21193,,,,,1,Metal Gargoyle
-demons 6666,platinum coins,,,,,,1,Demon|Metal Gargoyle
-demons 6666,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Demon
-demons 6666,small emeralds,3032,249,161,250,2026-09-14 21:24,1,Demon
-demons 6666,small rubies,,,,,,1,Demon
-demons 6666,small topazes,,,,,,1,Demon
-demons 6666,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Demon
+asuras,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Frost Flower Asura
+asuras,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+asuras,flasks of demonic blood,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+asuras,gold coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura
+asuras,golden lotus brooches,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+asuras,great health potions,239,14,,15,2026-09-14 21:18,1,Frost Flower Asura|Hellspawn
+asuras,hellspawn tails,10304,,,,,1,Hellspawn
+asuras,peacock feather fans,21975,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+asuras,platinum coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+asuras,soul orbs,5944,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 True Asuras with blood,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Hellhound
 True Asuras with blood,black pearls,3027,279,231,280,2026-09-14 21:21,1,Hellhound
 True Asuras with blood,blazing bones,16131,787,363,788,2026-09-14 21:31,1,Hellhound
@@ -3050,6 +3037,25 @@ Grim Reaper,ham,3582,,,,,11,Nightmare
 Grim Reaper,meat,3577,,,,,11,Nightmare Scion
 Grim Reaper,scythe legs,10312,,,,,11,Nightmare
 Grim Reaper,soul orbs,5944,,,,,11,Nightmare
+Oramond Demon,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Demon
+Oramond Demon,demon horns,5954,,,,,1,Demon
+Oramond Demon,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Demon|Grim Reaper
+Oramond Demon,fire mushrooms,3731,,,,,1,Demon
+Oramond Demon,flasks of demonic blood,,,,,,1,Grim Reaper
+Oramond Demon,globs of glooth,,,,,,1,Devourer|Glooth Blob|Rot Elemental
+Oramond Demon,gold coins,,,,,,1,Demon|Devourer|Glooth Blob|Grim Reaper|Metal Gargoyle|Rot Elemental
+Oramond Demon,great mana potions,53161,,,,,1,Demon
+Oramond Demon,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Demon
+Oramond Demon,metal jaws,21193,,,,,1,Metal Gargoyle
+Oramond Demon,metal toes,21198,,,,,1,Walker
+Oramond Demon,platinum coins,,,,,,1,Demon|Devourer|Metal Gargoyle|Rot Elemental|Walker
+Oramond Demon,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Demon
+Oramond Demon,small emeralds,3032,249,161,250,2026-09-14 21:24,1,Demon
+Oramond Demon,small rubies,,,,,,1,Demon
+Oramond Demon,small topazes,,,,,,1,Demon
+Oramond Demon,strong health potions,236,10,4,11,2026-09-14 21:18,1,Rot Elemental
+Oramond Demon,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Rot Elemental
+Oramond Demon,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Demon
 Jug seal na zboostowanych demonach po orcsoberfeście,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Juggernaut
 Jug seal na zboostowanych demonach po orcsoberfeście,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Hellflayer|Juggernaut|Vexclaw
 Jug seal na zboostowanych demonach po orcsoberfeście,fire mushrooms,3731,,,,,1,Vexclaw
@@ -3650,44 +3656,6 @@ Banuta -3,soul orbs,5944,,,,,1,Nightmare
 Banuta -3,spiked iron balls,10408,,,,,1,Eternal Guardian
 Banuta -3,strands of medusa hair,,,,,,1,Medusa
 Banuta -3,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa|Phantasm
-Hyaena Lairs (North),axes,3274,,,,,1,Werehyaena
-Hyaena Lairs (North),great health potions,239,14,,15,2026-09-14 21:18,1,Werehyaena
-Hyaena Lairs (North),great mana potions,53161,,,,,1,Werehyaena Shaman
-Hyaena Lairs (North),halberds,3269,598,274,599,2026-09-14 21:25,1,Werehyaena
-Hyaena Lairs (North),knives,,,,,,1,Werehyaena
-Hyaena Lairs (North),meat,3577,,,,,1,Werehyaena
-Hyaena Lairs (North),platinum coins,,,,,,1,Werehyaena|Werehyaena Shaman
-Hyaena Lairs (North),small amethysts,3033,198,172,199,2026-09-14 21:24,1,Werehyaena Shaman
-Hyaena Lairs (North),werehyaena noses,33943,,,,,1,Werehyaena|Werehyaena Shaman
-asuras,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Frost Flower Asura
-asuras,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-asuras,flasks of demonic blood,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-asuras,gold coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Hellspawn|Midnight Asura
-asuras,golden lotus brooches,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-asuras,great health potions,239,14,,15,2026-09-14 21:18,1,Frost Flower Asura|Hellspawn
-asuras,hellspawn tails,10304,,,,,1,Hellspawn
-asuras,peacock feather fans,21975,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-asuras,platinum coins,,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-asuras,soul orbs,5944,,,,,1,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-Oramond Demon,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Demon
-Oramond Demon,demon horns,5954,,,,,1,Demon
-Oramond Demon,demonic essence,6499,999,898,1000,2026-09-14 21:33,1,Demon|Grim Reaper
-Oramond Demon,fire mushrooms,3731,,,,,1,Demon
-Oramond Demon,flasks of demonic blood,,,,,,1,Grim Reaper
-Oramond Demon,globs of glooth,,,,,,1,Devourer|Glooth Blob|Rot Elemental
-Oramond Demon,gold coins,,,,,,1,Demon|Devourer|Glooth Blob|Grim Reaper|Metal Gargoyle|Rot Elemental
-Oramond Demon,great mana potions,53161,,,,,1,Demon
-Oramond Demon,great spirit potions,7642,151,113,152,2026-09-14 21:18,1,Demon
-Oramond Demon,metal jaws,21193,,,,,1,Metal Gargoyle
-Oramond Demon,metal toes,21198,,,,,1,Walker
-Oramond Demon,platinum coins,,,,,,1,Demon|Devourer|Metal Gargoyle|Rot Elemental|Walker
-Oramond Demon,small amethysts,3033,198,172,199,2026-09-14 21:24,1,Demon
-Oramond Demon,small emeralds,3032,249,161,250,2026-09-14 21:24,1,Demon
-Oramond Demon,small rubies,,,,,,1,Demon
-Oramond Demon,small topazes,,,,,,1,Demon
-Oramond Demon,strong health potions,236,10,4,11,2026-09-14 21:18,1,Rot Elemental
-Oramond Demon,strong mana potions,237,116,100,117,2026-09-14 21:18,1,Rot Elemental
-Oramond Demon,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Demon
 After bones + East Bones - EK 680 (with Surrender),brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Frazzlemaw
 After bones + East Bones - EK 680 (with Surrender),frazzle skins,20199,,,,,1,Frazzlemaw
 After bones + East Bones - EK 680 (with Surrender),frazzle tongues,20198,,,,,1,Frazzlemaw|Guzzlemaw
