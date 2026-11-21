@@ -1,5 +1,4 @@
 id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lvl,xp_h,raw_xp_h,loot_h,balance_h,supplies_total,supplies_known,has_creature_stats,event_flag,url
-57553,Claustrophobic Inferno,"Sep 21, 2026 22:37",00:40h,40,4,ED 934+EM 1122+RP 946+EK 778,778,1122,945,9079366,6053157,6732930,5671459,707647,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57553
 61177,True asuras,"Nov 02, 2026 16:43",00:40h,40,2,ED 842+EK 833,833,842,838,14837728,10868920,3478126,3062976,276767,1,1,0,https://www.hunt-analyser.com/hunt_sessions/61177
 61209,Roshamuul DP,"Nov 02, 2026 20:45",02:25h,145,1,RP 1130,1130,1130,1130,14712157,9602113,3176488,2901167,665358,1,1,0,https://www.hunt-analyser.com/hunt_sessions/61209
 59667,asura e infernatil,"Oct 15, 2026 18:38",01:07h,67,1,RP 1177,1177,1177,1177,3431723,3265179,2958918,2679829,311649,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59667
@@ -10,8 +9,6 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 59187,Roshamuul DP,"Oct 10, 2026 01:29",00:07h,7,1,EM 565,565,565,565,12205431,8136960,2587877,2464962,14340,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59187
 58226,Podzilla Quaras,"Sep 28, 2026 21:17",02:06h,126,1,MS 922,922,922,922,26741308,12101609,2577848,2505160,152644,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58226
 59127,Asura cidadel -2,"Oct 09, 2026 08:46",00:54h,54,1,EK 1201,1201,1201,1201,9472070,9472070,2573858,2348516,202807,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59127
-57551,Podzilla Quaras,"Sep 21, 2026 21:19",02:02h,122,1,MS 917,917,917,917,28446030,12963023,2559540,2532059,55878,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57551
-57477,🔥 Asura Citadel Hunt,"Sep 21, 2026 11:48",01:01h,61,1,EM 921,921,921,921,13930530,9287024,2406143,2392673,13694,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57477
 57998,Podzilla Quaras,"Sep 26, 2026 11:29",01:02h,62,1,MS 922,922,922,922,27266807,12356835,2341441,2310659,31808,1,1,0,https://www.hunt-analyser.com/hunt_sessions/57998
 60787,Podzilla Quaras - Bug Chain effect,"Oct 27, 2026 21:26",01:00h,60,1,MS 959,959,959,959,24217551,10763298,2315852,2300882,14970,1,1,0,https://www.hunt-analyser.com/hunt_sessions/60787
 59184,Podzilla Quaras,"Oct 09, 2026 21:36",02:24h,144,1,MS 935,935,935,935,30389072,13693035,2280606,2259027,51787,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59184
@@ -49,3 +46,6 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 58439,Roshamuul Shock Heads,"Oct 02, 2026 01:02",01:00h,60,1,RP 590,590,590,590,6340345,4226898,1340670,777433,563237,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58439
 61205,Weretigers -2,"Nov 02, 2026 20:12",01:06h,66,2,EK 299+EM 297,297,299,298,4323225,2882151,1314291,853071,507341,1,1,0,https://www.hunt-analyser.com/hunt_sessions/61205
 59980,Weretiger -2,"Oct 18, 2026 22:47",00:40h,40,1,EK 576,576,576,576,4105405,4105405,1230342,1091422,92613,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59980
+59888,Asura Mirror,"Oct 17, 2026 22:19",01:01h,61,1,EK 573,573,573,573,10770424,7279154,1189880,955542,238243,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59888
+59413,Asura Mirror,"Oct 12, 2026 21:38",00:46h,46,1,EK 567,567,567,567,4918021,4918021,1116077,949586,127643,1,1,0,https://www.hunt-analyser.com/hunt_sessions/59413
+58956,Ripper Spectre Solo MS +650,"Oct 04, 2026 15:36",01:32h,92,1,MS 655,655,655,655,4551026,3034131,1037744,830461,317834,1,1,0,https://www.hunt-analyser.com/hunt_sessions/58956

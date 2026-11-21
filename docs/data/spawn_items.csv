@@ -1793,7 +1793,7 @@ Quara Sunken Quarter,quara tentacles,11487,,,,,1,Quara Constrictor
 Quaras duo,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Quara Podzilla,platinum coins,,,,,,2,Quara Looter|Quara Plunderer|Quara Raider
 Quara (bestiary),platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
-Podzilla Quaras,platinum coins,,,,,,39,Quara Looter|Quara Plunderer|Quara Raider
+Podzilla Quaras,platinum coins,,,,,,40,Quara Looter|Quara Plunderer|Quara Raider
 Quaras Podzilla,platinum coins,,,,,,3,Quara Looter|Quara Plunderer|Quara Raider
 Teste 1 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Teste 2 Quara Podizilla,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
@@ -2402,39 +2402,39 @@ Asura Mirror,peacock feather fans,21975,,,,,11,Dawnfire Asura|Frost Flower Asura
 Asura Mirror,pieces of crocodile leather,,,,,,11,Crocodile
 Asura Mirror,platinum coins,,,,,,11,Dawnfire Asura|Frost Flower Asura|Midnight Asura
 Asura Mirror,soul orbs,5944,,,,,11,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-True asuras,arrows,3447,2,2,3,2026-09-14 21:24,27,Hunter
-True asuras,assassin stars,7368,14,4,15,2026-09-14 21:28,27,Frost Flower Asura|Hellhound
-True asuras,axes,3274,,,,,27,Bandit
-True asuras,black pearls,3027,279,231,280,2026-09-14 21:21,27,Hellhound
-True asuras,blazing bones,16131,787,363,788,2026-09-14 21:31,27,Hellhound
-True asuras,brass shields,3411,52,22,53,2026-09-14 21:19,27,Bandit
-True asuras,centipede legs and gold coins ,,,,,,27,Centipede
-True asuras,demonic essence,6499,999,898,1000,2026-09-14 21:33,27,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
-True asuras,fiery hearts,9636,,,,,27,Hellhound
-True asuras,flasks of demonic blood,,,,,,27,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
-True asuras,gold coins,,,,,,27,Bandit|Bug|Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn
-True asuras,golden lotus brooches,,,,,,27,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-True asuras,great health potions,239,14,,15,2026-09-14 21:18,27,Frost Flower Asura|Hellspawn
-True asuras,great mana potions,53161,,,,,27,Hellhound
-True asuras,great spirit potions,7642,151,113,152,2026-09-14 21:18,27,Hellhound
-True asuras,ham,3582,,,,,27,Crocodile|Elephant|Hellhound
-True asuras,hardened bones,5925,,,,,27,Hellhound
-True asuras,hellhound slobber,9637,,,,,27,Hellhound
-True asuras,hellspawn tails,10304,,,,,27,Hellspawn
-True asuras,hunter&#39;s quivers,,,,,,27,Hunter
-True asuras,leather legs,3559,,,,,27,Bandit
-True asuras,maces,3286,,,,,27,Bandit
-True asuras,meat,3577,,,,,27,Elephant
-True asuras,meat and worms ,,,,,,27,Hyaena
-True asuras,nothing ,,,,,,27,Snake
-True asuras,oranges,3586,,,,,27,Hunter
-True asuras,peacock feather fans,21975,,,,,27,Dawnfire Asura|Frost Flower Asura|Midnight Asura
-True asuras,pieces of crocodile leather,,,,,,27,Crocodile
-True asuras,platinum coins,,,,,,27,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
-True asuras,rolls,3601,,,,,27,Hunter
-True asuras,soul orbs,5944,,,,,27,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
-True asuras,tarantula eggs,10281,,90,,2026-09-14 21:38,27,Tarantula
-True asuras,ultimate health potions,7643,108,91,109,2026-09-14 21:18,27,Hellhound
+True asuras,arrows,3447,2,2,3,2026-09-14 21:24,28,Hunter
+True asuras,assassin stars,7368,14,4,15,2026-09-14 21:28,28,Frost Flower Asura|Hellhound
+True asuras,axes,3274,,,,,28,Bandit
+True asuras,black pearls,3027,279,231,280,2026-09-14 21:21,28,Hellhound
+True asuras,blazing bones,16131,787,363,788,2026-09-14 21:31,28,Hellhound
+True asuras,brass shields,3411,52,22,53,2026-09-14 21:19,28,Bandit
+True asuras,centipede legs and gold coins ,,,,,,28,Centipede
+True asuras,demonic essence,6499,999,898,1000,2026-09-14 21:33,28,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
+True asuras,fiery hearts,9636,,,,,28,Hellhound
+True asuras,flasks of demonic blood,,,,,,28,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
+True asuras,gold coins,,,,,,28,Bandit|Bug|Crocodile|Dawnfire Asura|Frost Flower Asura|Hellspawn
+True asuras,golden lotus brooches,,,,,,28,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+True asuras,great health potions,239,14,,15,2026-09-14 21:18,28,Frost Flower Asura|Hellspawn
+True asuras,great mana potions,53161,,,,,28,Hellhound
+True asuras,great spirit potions,7642,151,113,152,2026-09-14 21:18,28,Hellhound
+True asuras,ham,3582,,,,,28,Crocodile|Elephant|Hellhound
+True asuras,hardened bones,5925,,,,,28,Hellhound
+True asuras,hellhound slobber,9637,,,,,28,Hellhound
+True asuras,hellspawn tails,10304,,,,,28,Hellspawn
+True asuras,hunter&#39;s quivers,,,,,,28,Hunter
+True asuras,leather legs,3559,,,,,28,Bandit
+True asuras,maces,3286,,,,,28,Bandit
+True asuras,meat,3577,,,,,28,Elephant
+True asuras,meat and worms ,,,,,,28,Hyaena
+True asuras,nothing ,,,,,,28,Snake
+True asuras,oranges,3586,,,,,28,Hunter
+True asuras,peacock feather fans,21975,,,,,28,Dawnfire Asura|Frost Flower Asura|Midnight Asura
+True asuras,pieces of crocodile leather,,,,,,28,Crocodile
+True asuras,platinum coins,,,,,,28,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
+True asuras,rolls,3601,,,,,28,Hunter
+True asuras,soul orbs,5944,,,,,28,Dawnfire Asura|Frost Flower Asura|Hellhound|Midnight Asura
+True asuras,tarantula eggs,10281,,90,,2026-09-14 21:38,28,Tarantula
+True asuras,ultimate health potions,7643,108,91,109,2026-09-14 21:18,28,Hellhound
 true asura duo,assassin stars,7368,14,4,15,2026-09-14 21:28,1,Hellhound
 true asura duo,black pearls,3027,279,231,280,2026-09-14 21:21,1,Hellhound
 true asura duo,blazing bones,16131,787,363,788,2026-09-14 21:31,1,Hellhound
@@ -3465,6 +3465,14 @@ Roshamuul West Mid,platinum coins,,,,,,2,Choking Fear|Frazzlemaw|Guzzlemaw|Retch
 Roshamuul West Mid,pools of chitinous glue,,,,,,2,Retching Horror
 Roshamuul West Mid,silencer claws,20200,5438,3804,5439,2026-09-14 21:37,2,Silencer
 Roshamuul West Mid,ultimate health potions,7643,108,91,109,2026-09-14 21:18,2,Choking Fear
+After bones + East Bones - EK 680 (with Surrender),brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Frazzlemaw
+After bones + East Bones - EK 680 (with Surrender),frazzle skins,20199,,,,,1,Frazzlemaw
+After bones + East Bones - EK 680 (with Surrender),frazzle tongues,20198,,,,,1,Frazzlemaw|Guzzlemaw
+After bones + East Bones - EK 680 (with Surrender),gold coins,,,,,,1,Frazzlemaw|Guzzlemaw|Shock Head|Silencer
+After bones + East Bones - EK 680 (with Surrender),great health potions,239,14,,15,2026-09-14 21:18,1,Frazzlemaw|Guzzlemaw
+After bones + East Bones - EK 680 (with Surrender),great mana potions,53161,,,,,1,Frazzlemaw|Guzzlemaw
+After bones + East Bones - EK 680 (with Surrender),platinum coins,,,,,,1,Frazzlemaw|Guzzlemaw|Silencer
+After bones + East Bones - EK 680 (with Surrender),silencer claws,20200,5438,3804,5439,2026-09-14 21:37,1,Silencer
 Deep Banuta -8,ancient stones,9632,1436,,1437,2026-09-14 21:31,1,Eternal Guardian
 Deep Banuta -8,gold coins,,,,,,1,Eternal Guardian|Hydra|Medusa|Serpent Spawn|Souleater
 Deep Banuta -8,great mana potions,53161,,,,,1,Medusa
@@ -3642,14 +3650,6 @@ Banuta -3,soul orbs,5944,,,,,1,Nightmare
 Banuta -3,spiked iron balls,10408,,,,,1,Eternal Guardian
 Banuta -3,strands of medusa hair,,,,,,1,Medusa
 Banuta -3,ultimate health potions,7643,108,91,109,2026-09-14 21:18,1,Medusa|Phantasm
-After bones + East Bones - EK 680 (with Surrender),brown crystal splinters,16123,398,263,399,2026-09-14 21:21,1,Frazzlemaw
-After bones + East Bones - EK 680 (with Surrender),frazzle skins,20199,,,,,1,Frazzlemaw
-After bones + East Bones - EK 680 (with Surrender),frazzle tongues,20198,,,,,1,Frazzlemaw|Guzzlemaw
-After bones + East Bones - EK 680 (with Surrender),gold coins,,,,,,1,Frazzlemaw|Guzzlemaw|Shock Head|Silencer
-After bones + East Bones - EK 680 (with Surrender),great health potions,239,14,,15,2026-09-14 21:18,1,Frazzlemaw|Guzzlemaw
-After bones + East Bones - EK 680 (with Surrender),great mana potions,53161,,,,,1,Frazzlemaw|Guzzlemaw
-After bones + East Bones - EK 680 (with Surrender),platinum coins,,,,,,1,Frazzlemaw|Guzzlemaw|Silencer
-After bones + East Bones - EK 680 (with Surrender),silencer claws,20200,5438,3804,5439,2026-09-14 21:37,1,Silencer
 QUARA PODZILLA,platinum coins,,,,,,1,Quara Looter|Quara Plunderer|Quara Raider
 Cult Carlin -2 x2,bolts,3446,2,1,3,2026-09-14 21:24,1,Vicious Squire
 Cult Carlin -2 x2,crossbows,3349,,,,,1,Vicious Squire
