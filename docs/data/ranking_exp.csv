@@ -1,4 +1,5 @@
 id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lvl,xp_h,raw_xp_h,loot_h,balance_h,supplies_total,supplies_known,has_creature_stats,event_flag,url
+62659,Podzilla Quaras,"Nov 22, 2026 17:44",05:36h,336,1,MS 993,993,993,993,40486495,9983137,1636692,-379849,11292631,1,1,0,https://www.hunt-analyser.com/hunt_sessions/62659
 47433,Rootthings -2 (Podzilla),"May 16, 2026 09:18",01:32h,92,4,MS 860+ED 980+EK 986+RP 942,860,986,942,38421769,12601901,5271261,3516202,2691089,1,1,0,https://www.hunt-analyser.com/hunt_sessions/47433
 47436,Rootthings -2 (Podzilla),"May 16, 2026 11:13",01:26h,86,4,MS 860+ED 980+EK 986+RP 942,860,986,942,34689483,12114591,4986174,3285535,2437583,1,1,0,https://www.hunt-analyser.com/hunt_sessions/47436
 62080,Podzilla Quaras,"Nov 15, 2026 11:31",01:11h,71,1,MS 978,978,978,978,34679223,14528994,2120660,2069768,60222,1,1,0,https://www.hunt-analyser.com/hunt_sessions/62080
@@ -48,4 +49,3 @@ id,spawn,hunt_date,duration,minutes,party_size,party_comp,min_lvl,max_lvl,avg_lv
 56841,Podzilla Quaras,"Sep 13, 2026 21:35",02:14h,134,1,MS 909,909,909,909,23684524,10975401,2550560,2156436,880210,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56841
 56743,Podzilla Quaras,"Sep 12, 2026 23:46",01:21h,81,1,MS 908,908,908,908,23588772,11496259,2428654,2380011,65668,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56743
 45112,Grounds of Fire (Infernatil),"Mar 20, 2026 23:05",01:02h,62,1,ED 1292,1292,1292,1292,22640122,10078895,1946375,1785845,165880,1,1,0,https://www.hunt-analyser.com/hunt_sessions/45112
-56670,Teste 1 Quara Podizilla,"Sep 12, 2026 05:17",01:00h,60,1,MS 957,957,957,957,22430557,8785265,1467950,1355766,112184,1,1,0,https://www.hunt-analyser.com/hunt_sessions/56670
