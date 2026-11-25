@@ -26,22 +26,18 @@ Banuta -6,Serpent Spawn,108.2,1,36,3896,small sapphires|214||snake skins|—||gr
 Burster Spectre,Burster Spectre,612.0,1,72,44064,great spirit potions|113||platinum coins|—|
 Burster Spectre Darashia,Burster Spectre,627.9,1,72,45205,great spirit potions|113||platinum coins|—|
 Burster Spectres,Burster Spectre,792.9,1,72,57085,great spirit potions|113||platinum coins|—|
-Caminho de Ferumbras,Vexclaw,289.3,1,201,58155,demonic essence|898||great spirit potions|113||ultimate health potions|91||vexclaw talons|—|
-Caminho de Ferumbras,Grimeleech,256.0,1,201,51456,some grimeleech wings|1160|🧪|demonic essence|898||great spirit potions|113||platinum coins|—|
-Caminho de Ferumbras,Demon,320.0,1,124,39680,demonic essence|898||small amethysts|172||small emeralds|161||great spirit potions|113|
-Caminho de Ferumbras,Hellflayer,64.0,1,414,26496,demonic essence|898||great spirit potions|113||ultimate health potions|91||platinum coins|—|
 Claustrophobic Inferno,Brachiodemon,363.0,1,645,234135,ultimate health potions|91||crystal coins|—|
 Claustrophobic Inferno,Infernal Demon,195.0,1,645,125775,ultimate health potions|91||gold ingots|—||crystal coins|—|
 Claustrophobic Inferno,Infernal Phantom,187.5,1,645,120937,terra rods|1560||ultimate health potions|91||crystal coins|—|
 Crypt Warrior,Crypt Warrior,819.9,2,52,42636,white mushrooms|—||unholy bones|—||soul orbs|—||platinum coins|—|
-Cult Carlin -2 x2,Cult Believer,331.5,1,50,16576,meat|—||gold coins|—|
-Cult Carlin -2 x2,Cult Enforcer,226.8,1,50,11338,meat|—||gold coins|—|
-Cult Carlin -2 x2,Cult Scholar,15.3,1,50,762,meat|—||gold coins|—|
+Cult Carlin -2 x2,Cult Believer,331.5,1,42,13924,meat|—||gold coins|—|
+Cult Carlin -2 x2,Cult Enforcer,226.8,1,42,9524,meat|—||gold coins|—|
+Cult Carlin -2 x2,Cult Scholar,15.3,1,42,640,meat|—||gold coins|—|
 Cult Carlin -2 x2,Vicious Squire,291.9,1,2,583,bolts|1||meat|—||gold coins|—||crossbows|—|
 Cult Carlin -2 x2,Renegade Knight,200.3,1,2,400,platinum coins|—||gold coins|—|
 Cult Carlin -2 x2,Vile Grandmaster,131.2,1,2,262,platinum coins|—||meat|—||gold coins|—|
-Cults Carlin,Cult Believer,263.6,1,50,13178,meat|—||gold coins|—|
-Cults Carlin,Cult Enforcer,162.9,1,50,8142,meat|—||gold coins|—|
+Cults Carlin,Cult Believer,263.6,1,42,11070,meat|—||gold coins|—|
+Cults Carlin,Cult Enforcer,162.9,1,42,6840,meat|—||gold coins|—|
 Cults Carlin,Vicious Squire,295.7,1,2,591,bolts|1||meat|—||gold coins|—||crossbows|—|
 Cults Carlin,Renegade Knight,212.1,1,2,424,platinum coins|—||gold coins|—|
 Cults Carlin,Vile Grandmaster,143.6,1,2,287,platinum coins|—||meat|—||gold coins|—|
@@ -79,8 +75,8 @@ GAZER SPECTRE +21% DMG BOUNTY,Gazer Spectre,625.5,1,88,55046,brown crystal splin
 GAZER SPECTRE +21% DMG BOUNTY,Thanatursus,80.4,1,89,7157,halberds|274||platinum coins|—||meat|—||ham|—|
 Gazer ED Solo,Gazer Spectre,600.0,1,88,52800,brown crystal splinters|263||small diamonds|241||small sapphires|214||platinum coins|—|
 Gazer ED Solo,Thanatursus,81.0,1,89,7209,halberds|274||platinum coins|—||meat|—||ham|—|
-Gazer Spectre,Gazer Spectre,472.4,6,88,41574,brown crystal splinters|263||small diamonds|241||small sapphires|214||platinum coins|—|
-Gazer Spectre,Thanatursus,6.2,4,89,549,halberds|274||platinum coins|—||meat|—||ham|—|
+Gazer Spectre,Gazer Spectre,472.7,6,88,41597,brown crystal splinters|263||small diamonds|241||small sapphires|214||platinum coins|—|
+Gazer Spectre,Thanatursus,6.1,4,89,541,halberds|274||platinum coins|—||meat|—||ham|—|
 Gazer Spectres,Gazer Spectre,608.6,1,88,53554,brown crystal splinters|263||small diamonds|241||small sapphires|214||platinum coins|—|
 Gazer Spectres,Thanatursus,89.5,1,89,7967,halberds|274||platinum coins|—||meat|—||ham|—|
 Glooth Plains - Surface (Oramond),Rot Elemental,532.9,1,5,2664,strong mana potions|100||strong health potions|4||platinum coins|—||gold coins|—|
@@ -99,9 +95,9 @@ Glooth Tower,Blood Beast,2.4,1,4,9,slime hearts|—||poisoned fangs|—||gold co
 Gnomegate Lava Hot Spot,Vulcongra,427.2,1,47,20078,platinum coins|—||magma clumps|—||gold coins|—||bananas|—|
 Gnomegate Lava Hot Spot,Massive Fire Elemental,283.2,1,47,13310,platinum coins|—||gold coins|—|
 Gnomegate Lava Hot Spot,Dragon Lord,168.0,1,47,7896,green mushrooms|—||gold coins|—||dragon ham|—|
-Grim Reaper,Grim Reaper,421.5,10,51,21498,demonic essence|898||gold coins|—||flasks of demonic blood|—|
+Grim Reaper,Grim Reaper,421.4,10,51,21489,demonic essence|898||gold coins|—||flasks of demonic blood|—|
 Grim Reaper,Nightmare,20.5,4,51,1047,demonic essence|898||soul orbs|—||scythe legs|—||ham|—|
-Grim Reaper,Nightmare Scion,20.2,3,47,951,meat|—||gold coins|—|
+Grim Reaper,Nightmare Scion,20.2,3,47,948,meat|—||gold coins|—|
 Grim Reaper (Yalahar),Grim Reaper,505.3,2,51,25772,demonic essence|898||gold coins|—||flasks of demonic blood|—|
 Grim Reaper - Yalahar,Grim Reaper,432.7,1,51,22069,demonic essence|898||gold coins|—||flasks of demonic blood|—|
 Hellspawn (Yalahar),Hellspawn,358.7,2,48,17217,hellspawn tails|—||great health potions|—||gold coins|—|
@@ -136,10 +132,6 @@ Norc Castle,Orclops Bloodbreaker,64.0,1,86,5504,
 Norc Castle,Gloom Maw,44.0,1,86,3784,
 Norc Castle,Dworc Shadowstalker,8.0,1,86,688,
 Norc Castle,Tarantula,16.0,1,12,192,tarantula eggs|90||gold coins|—|
-North Roshamuul (South - SOLO RP),Retching Horror,746.0,1,109,81314,pools of chitinous glue|—||platinum coins|—||great mana potions|—||great health potions|—|
-North Roshamuul (South - SOLO RP),Choking Fear,700.0,1,109,76300,brown crystal splinters|263||great spirit potions|113||ultimate health potions|91||platinum coins|—|
-North Roshamuul (South - SOLO RP),Frazzlemaw,300.0,1,105,31500,brown crystal splinters|263||platinum coins|—||great mana potions|—||great health potions|—|
-North Roshamuul (South - SOLO RP),Silencer,284.0,1,109,30956,silencer claws|3804|🧪|platinum coins|—||gold coins|—|
 Ora West,Rot Elemental,504.2,1,5,2521,strong mana potions|100||strong health potions|4||platinum coins|—||gold coins|—|
 Ora West,Glooth Blob,414.7,1,5,2073,gold coins|—||globs of glooth|—|
 Ora West,Quara Pincher Scout,269.5,1,6,1616,quara pincers|—|📦|gold coins|—|
@@ -170,9 +162,9 @@ Pirats,Pirat Cutthroat,586.5,1,52,30495,ice rapiers|684||great health potions|�
 Pirats,Pirat Bombardier,226.5,1,52,11775,great mana potions|—|
 Pirats,Pirat Scoundrel,211.0,1,52,10970,great mana potions|—|
 Pirats,Exotic Bat,1.9,1,29,56,platinum coins|—||green mushrooms|—||great mana potions|—||dark mushrooms|—|
-Podzilla Quaras,Quara Raider,634.9,41,112,71113,platinum coins|—|
-Podzilla Quaras,Quara Looter,390.4,41,113,44120,platinum coins|—|
-Podzilla Quaras,Quara Plunderer,315.6,41,113,35665,platinum coins|—|
+Podzilla Quaras,Quara Raider,634.6,41,112,71074,platinum coins|—|
+Podzilla Quaras,Quara Looter,390.3,41,113,44106,platinum coins|—|
+Podzilla Quaras,Quara Plunderer,315.5,41,113,35649,platinum coins|—|
 Podzilla Quaras - Bug Chain effect,Quara Raider,616.0,1,112,68992,platinum coins|—|
 Podzilla Quaras - Bug Chain effect,Quara Looter,461.0,1,113,52093,platinum coins|—|
 Podzilla Quaras - Bug Chain effect,Quara Plunderer,326.0,1,113,36838,platinum coins|—|
@@ -286,7 +278,7 @@ Yalahar Grim Reapers,Grim Reaper,602.0,1,51,30702,demonic essence|898||gold coin
 Yalahar Grim Reapers,Nightmare,12.0,1,51,612,demonic essence|898||soul orbs|—||scythe legs|—||ham|—|
 Yalahar Grim Reapers,Nightmare Scion,8.0,1,47,376,meat|—||gold coins|—|
 asura e infernatil,Hellfire Fighter,116.4,1,414,48197,demonic essence|898||blank runes|7||soul orbs|—||gold coins|—|
-asura e infernatil,Vexclaw,110.1,1,201,22140,demonic essence|898||great spirit potions|113||ultimate health potions|91||vexclaw talons|—|
+asura e infernatil,Vexclaw,110.1,1,414,45601,demonic essence|898||great spirit potions|113||ultimate health potions|91||vexclaw talons|—|
 asura e infernatil,Hellflayer,51.9,1,414,21503,demonic essence|898||great spirit potions|113||ultimate health potions|91||platinum coins|—|
 asura e infernatil,Fury,51.0,1,414,21132,terra rods|1560||demonic essence|898||soul orbs|—||slightly rusted legs|—|
 asura e infernatil,Hellhound,77.0,1,195,15017,demonic essence|898||blazing bones|363||black pearls|231||great spirit potions|113|
