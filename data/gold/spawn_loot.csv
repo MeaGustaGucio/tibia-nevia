@@ -30,20 +30,17 @@ Claustrophobic Inferno,Brachiodemon,363.0,1,645,234135,ultimate health potions|9
 Claustrophobic Inferno,Infernal Demon,195.0,1,645,125775,ultimate health potions|91||gold ingots|—||crystal coins|—|
 Claustrophobic Inferno,Infernal Phantom,187.5,1,645,120937,terra rods|1560||ultimate health potions|91||crystal coins|—|
 Crypt Warrior,Crypt Warrior,712.0,1,46,32752,white mushrooms|—||unholy bones|—||soul orbs|—||platinum coins|—|
-Cult Carlin -2 x2,Cult Believer,331.5,1,36,11934,meat|—||gold coins|—|
-Cult Carlin -2 x2,Cult Enforcer,226.8,1,36,8164,meat|—||gold coins|—|
+Cult Carlin -2 x2,Cult Believer,331.5,1,31,10277,meat|—||gold coins|—|
+Cult Carlin -2 x2,Cult Enforcer,226.8,1,31,7030,meat|—||gold coins|—|
 Cult Carlin -2 x2,Vicious Squire,291.9,1,2,583,bolts|1||meat|—||gold coins|—||crossbows|—|
-Cult Carlin -2 x2,Cult Scholar,15.3,1,36,549,meat|—||gold coins|—|
+Cult Carlin -2 x2,Cult Scholar,15.3,1,31,472,meat|—||gold coins|—|
 Cult Carlin -2 x2,Renegade Knight,200.3,1,2,400,platinum coins|—||gold coins|—|
 Cult Carlin -2 x2,Vile Grandmaster,131.2,1,2,262,platinum coins|—||meat|—||gold coins|—|
-Cults Carlin,Cult Believer,263.6,1,36,9488,meat|—||gold coins|—|
-Cults Carlin,Cult Enforcer,162.9,1,36,5862,meat|—||gold coins|—|
+Cults Carlin,Cult Believer,263.6,1,31,8170,meat|—||gold coins|—|
+Cults Carlin,Cult Enforcer,162.9,1,31,5048,meat|—||gold coins|—|
 Cults Carlin,Vicious Squire,295.7,1,2,591,bolts|1||meat|—||gold coins|—||crossbows|—|
 Cults Carlin,Renegade Knight,212.1,1,2,424,platinum coins|—||gold coins|—|
 Cults Carlin,Vile Grandmaster,143.6,1,2,287,platinum coins|—||meat|—||gold coins|—|
-Dark Fauns -2,Dark Faun,524.0,1,24,12576,strong health potions|4||shimmering beetles|—|📦|gold coins|—||fairy wings|—|🧪
-Dark Fauns -2,Twisted Pooka,432.0,1,24,10368,strong health potions|4||shimmering beetles|—|📦|gold coins|—||fairy wings|—|🧪
-Dark Fauns -2,Boogy,230.0,1,24,5520,strong health potions|4||shimmering beetles|—|📦|gold coins|—||fairy wings|—|🧪
 Demons Goroma,Fire Elemental,308.9,1,56,17295,nothing |—|
 Demons Goroma,Demon,129.8,1,124,16099,demonic essence|898||small amethysts|172||small emeralds|161||great spirit potions|113|
 Demons Goroma,Demon Skeleton,120.0,1,56,6720,throwing stars|—||gold coins|—||demonic skeletal hands|—|
@@ -75,8 +72,8 @@ GAZER SPECTRE +21% DMG BOUNTY,Gazer Spectre,625.5,1,88,55046,brown crystal splin
 GAZER SPECTRE +21% DMG BOUNTY,Thanatursus,80.4,1,89,7157,halberds|274||platinum coins|—||meat|—||ham|—|
 Gazer ED Solo,Gazer Spectre,600.0,1,88,52800,brown crystal splinters|263||small diamonds|241||small sapphires|214||platinum coins|—|
 Gazer ED Solo,Thanatursus,81.0,1,89,7209,halberds|274||platinum coins|—||meat|—||ham|—|
-Gazer Spectre,Gazer Spectre,473.0,6,88,41619,brown crystal splinters|263||small diamonds|241||small sapphires|214||platinum coins|—|
-Gazer Spectre,Thanatursus,6.0,4,89,534,halberds|274||platinum coins|—||meat|—||ham|—|
+Gazer Spectre,Gazer Spectre,473.0,6,88,41627,brown crystal splinters|263||small diamonds|241||small sapphires|214||platinum coins|—|
+Gazer Spectre,Thanatursus,5.9,4,89,527,halberds|274||platinum coins|—||meat|—||ham|—|
 Gazer Spectres,Gazer Spectre,608.6,1,88,53554,brown crystal splinters|263||small diamonds|241||small sapphires|214||platinum coins|—|
 Gazer Spectres,Thanatursus,89.5,1,89,7967,halberds|274||platinum coins|—||meat|—||ham|—|
 Glooth Plains - Surface (Oramond),Rot Elemental,532.9,1,5,2664,strong mana potions|100||strong health potions|4||platinum coins|—||gold coins|—|
@@ -162,22 +159,22 @@ Pirats,Pirat Cutthroat,586.5,1,52,30495,ice rapiers|684||great health potions|�
 Pirats,Pirat Bombardier,226.5,1,52,11775,great mana potions|—|
 Pirats,Pirat Scoundrel,211.0,1,52,10970,great mana potions|—|
 Pirats,Exotic Bat,1.9,1,29,56,platinum coins|—||green mushrooms|—||great mana potions|—||dark mushrooms|—|
-Podzilla Quaras,Quara Raider,634.3,41,112,71036,platinum coins|—|
-Podzilla Quaras,Quara Looter,390.2,41,113,44092,platinum coins|—|
-Podzilla Quaras,Quara Plunderer,315.3,41,113,35633,platinum coins|—|
+Podzilla Quaras,Quara Raider,633.9,41,112,70999,platinum coins|—|
+Podzilla Quaras,Quara Looter,390.1,41,112,43688,platinum coins|—|
+Podzilla Quaras,Quara Plunderer,315.2,41,112,35302,platinum coins|—|
 Podzilla Quaras - Bug Chain effect,Quara Raider,616.0,1,112,68992,platinum coins|—|
-Podzilla Quaras - Bug Chain effect,Quara Looter,461.0,1,113,52093,platinum coins|—|
-Podzilla Quaras - Bug Chain effect,Quara Plunderer,326.0,1,113,36838,platinum coins|—|
+Podzilla Quaras - Bug Chain effect,Quara Looter,461.0,1,112,51632,platinum coins|—|
+Podzilla Quaras - Bug Chain effect,Quara Plunderer,326.0,1,112,36512,platinum coins|—|
 Port Hope Spider Cave,Giant Spider,276.0,2,8,2208,poison arrows|—||plate armors|—||gold coins|—|
 Port Hope Spider Cave,Tarantula,121.5,2,12,1458,tarantula eggs|90||gold coins|—|
 Port Hope Water Elementals (South),Water Elemental,369.4,1,6,2216,strong mana potions|100||strong health potions|4||platinum coins|—||gold coins|—|
 Port Hope Water Elementals (South),Quara Mantassin Scout,75.0,1,6,450,gold coins|—|
 QUARA PODZILLA,Quara Raider,543.0,1,112,60816,platinum coins|—|
-QUARA PODZILLA,Quara Looter,445.0,1,113,50285,platinum coins|—|
-QUARA PODZILLA,Quara Plunderer,282.0,1,113,31866,platinum coins|—|
+QUARA PODZILLA,Quara Looter,445.0,1,112,49840,platinum coins|—|
+QUARA PODZILLA,Quara Plunderer,282.0,1,112,31584,platinum coins|—|
 Quaras Podzilla,Quara Raider,657.3,3,112,73614,platinum coins|—|
-Quaras Podzilla,Quara Looter,494.5,3,113,55883,platinum coins|—|
-Quaras Podzilla,Quara Plunderer,330.3,3,113,37324,platinum coins|—|
+Quaras Podzilla,Quara Looter,494.5,3,112,55389,platinum coins|—|
+Quaras Podzilla,Quara Plunderer,330.3,3,112,36993,platinum coins|—|
 Ripper Spectre Solo MS +650,Ripper Spectre,386.7,1,101,39060,great spirit potions|113||two handed swords|—||platinum coins|—|
 Ripper Spectre Solo MS +650,Arachnophobica,340.4,1,101,34383,great spirit potions|113||platinum coins|—|
 Roshamuul DP,Choking Fear,744.8,4,109,81180,brown crystal splinters|263||great spirit potions|113||ultimate health potions|91||platinum coins|—|
@@ -205,11 +202,11 @@ STONFIN 0908,Swampling,2.6,1,19,49,white mushrooms|—||swampling mosses|—||pi
 Sea serpent (Svargrond),Young Sea Serpent,392.4,1,16,6278,morning stars|—||gold coins|—|
 Sea serpent (Svargrond),Sea Serpent,318.0,1,16,5088,sea serpent scales|—||platinum coins|—||gold coins|—||dragon ham|—|
 Teste 1 Quara Podizilla,Quara Raider,452.0,1,112,50624,platinum coins|—|
-Teste 1 Quara Podizilla,Quara Looter,300.0,1,113,33900,platinum coins|—|
-Teste 1 Quara Podizilla,Quara Plunderer,232.0,1,113,26216,platinum coins|—|
+Teste 1 Quara Podizilla,Quara Looter,300.0,1,112,33600,platinum coins|—|
+Teste 1 Quara Podizilla,Quara Plunderer,232.0,1,112,25984,platinum coins|—|
 Teste 2 Quara Podizilla,Quara Raider,427.5,1,112,47880,platinum coins|—|
-Teste 2 Quara Podizilla,Quara Looter,320.6,1,113,36230,platinum coins|—|
-Teste 2 Quara Podizilla,Quara Plunderer,233.4,1,113,26378,platinum coins|—|
+Teste 2 Quara Podizilla,Quara Looter,320.6,1,112,35910,platinum coins|—|
+Teste 2 Quara Podizilla,Quara Plunderer,233.4,1,112,26145,platinum coins|—|
 True Asura,True Midnight Asura,319.5,1,195,62302,
 True Asura,True Dawnfire Asura,273.0,1,195,53235,
 True Asura,Hellhound,76.5,1,195,14917,demonic essence|898||blazing bones|363||black pearls|231||great spirit potions|113|

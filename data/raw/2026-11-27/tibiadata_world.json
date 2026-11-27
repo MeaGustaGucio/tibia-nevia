@@ -1,0 +1,335 @@
+{
+ "world": {
+  "name": "Nevia",
+  "status": "online",
+  "players_online": 58,
+  "record_players": 1082,
+  "record_date": "2026-06-07T18:27:31Z",
+  "creation_date": "2023-08",
+  "location": "Europe",
+  "pvp_type": "Optional PvP",
+  "premium_only": false,
+  "transfer_type": "regular",
+  "world_quest_titles": [
+   "Winterlight Solstice",
+   "Orcsoberfest",
+   "Demon's Lullaby",
+   "Rise of Devovorga",
+   "Bewitched",
+   "The Great Expedition",
+   "The Lightbearer",
+   "The Colours of Magic",
+   "A Piece of Cake"
+  ],
+  "battleye_protected": true,
+  "battleye_date": "release",
+  "game_world_type": "regular",
+  "tournament_world_type": "",
+  "online_players": [
+   {
+    "name": "Adas Wspanialy",
+    "level": 119,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Alanazenn",
+    "level": 20,
+    "vocation": "Sorcerer"
+   },
+   {
+    "name": "Altindom Helth",
+    "level": 53,
+    "vocation": "Sorcerer"
+   },
+   {
+    "name": "Arkinio",
+    "level": 691,
+    "vocation": "Exalted Monk"
+   },
+   {
+    "name": "Asssasssinek",
+    "level": 459,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Avaricia",
+    "level": 584,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Bakichan",
+    "level": 134,
+    "vocation": "Master Sorcerer"
+   },
+   {
+    "name": "Balas King",
+    "level": 1737,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Bobie",
+    "level": 318,
+    "vocation": "Exalted Monk"
+   },
+   {
+    "name": "Bunji Coco",
+    "level": 826,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Cheanoe Naurian",
+    "level": 8,
+    "vocation": "Knight"
+   },
+   {
+    "name": "Cleve Monk",
+    "level": 1052,
+    "vocation": "Exalted Monk"
+   },
+   {
+    "name": "Cuwok Galiro",
+    "level": 29,
+    "vocation": "Knight"
+   },
+   {
+    "name": "Czerwony Rum",
+    "level": 182,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Demaria Olex",
+    "level": 32,
+    "vocation": "Knight"
+   },
+   {
+    "name": "Demonexk",
+    "level": 995,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Dobry Mzimu",
+    "level": 208,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Doom Zeby",
+    "level": 1492,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Dziki na Sterydzie",
+    "level": 241,
+    "vocation": "Elder Druid"
+   },
+   {
+    "name": "Ed Insugi",
+    "level": 401,
+    "vocation": "Elder Druid"
+   },
+   {
+    "name": "Erixonem",
+    "level": 137,
+    "vocation": "Exalted Monk"
+   },
+   {
+    "name": "Evil peri",
+    "level": 99,
+    "vocation": "Master Sorcerer"
+   },
+   {
+    "name": "Farpin",
+    "level": 302,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "First Time Here",
+    "level": 458,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Goromcy rumun",
+    "level": 283,
+    "vocation": "Master Sorcerer"
+   },
+   {
+    "name": "Hornborin",
+    "level": 435,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Janek Pany",
+    "level": 286,
+    "vocation": "Exalted Monk"
+   },
+   {
+    "name": "Kocicka",
+    "level": 25,
+    "vocation": "Knight"
+   },
+   {
+    "name": "Kogara Toto",
+    "level": 107,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Last Kyski",
+    "level": 497,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Lion Hunter",
+    "level": 539,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Loutez",
+    "level": 345,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Mac of storm",
+    "level": 775,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Mega Ron",
+    "level": 642,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Mondrymor",
+    "level": 110,
+    "vocation": "Sorcerer"
+   },
+   {
+    "name": "Monk Gucio",
+    "level": 299,
+    "vocation": "Exalted Monk"
+   },
+   {
+    "name": "Nimila",
+    "level": 121,
+    "vocation": "Master Sorcerer"
+   },
+   {
+    "name": "Nooby Demi",
+    "level": 484,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Pabloo Ek",
+    "level": 580,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Pokku",
+    "level": 639,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Py Po",
+    "level": 142,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Quackii",
+    "level": 376,
+    "vocation": "Master Sorcerer"
+   },
+   {
+    "name": "Rarye",
+    "level": 653,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Royal Sarcasmo",
+    "level": 41,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Sadlypg",
+    "level": 1306,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Scus Marex",
+    "level": 519,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Smiley Gizmo",
+    "level": 337,
+    "vocation": "Elder Druid"
+   },
+   {
+    "name": "Stasio Knight",
+    "level": 437,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Tomosynas",
+    "level": 517,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Twardodzioby",
+    "level": 334,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Vapomasster",
+    "level": 373,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Vasco Pally",
+    "level": 490,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Voldrie Nevia",
+    "level": 13,
+    "vocation": "Knight"
+   },
+   {
+    "name": "Wagnaaoo",
+    "level": 1115,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "White Zlodziej",
+    "level": 134,
+    "vocation": "Royal Paladin"
+   },
+   {
+    "name": "Wieland Knight",
+    "level": 532,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Xyr Knight",
+    "level": 950,
+    "vocation": "Elite Knight"
+   },
+   {
+    "name": "Zokaphatone",
+    "level": 25,
+    "vocation": "Royal Paladin"
+   }
+  ]
+ },
+ "information": {
+  "api": {
+   "version": 4,
+   "release": "4.10.0",
+   "commit": "d53b603c7e235c45268bcf878ef2921b2356cf75"
+  },
+  "timestamp": "2026-11-27T05:03:18Z",
+  "tibia_urls": [
+   "https://www.tibia.com/community/?subtopic=worlds&world=Nevia"
+  ],
+  "status": {
+   "http_code": 200
+  }
+ }
+}
